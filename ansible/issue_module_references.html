@@ -75,6 +75,7 @@ module_reference;title;github_url
 "None";"os.listdir(sysdir) OSError: [Errno 2]";"https://github.com/ansible/ansible/issues/14210";
 "None";"feature: immediate variable expansion";"https://github.com/ansible/ansible/issues/15439";
 "None";"ansible 2.0.0.2: path behavior is inconsistent ";"https://github.com/ansible/ansible/issues/14216";
+"None";"ansible-galaxy install unexpected behaviour";"https://github.com/ansible/ansible/issues/16495";
 "None";"Blocks rescue with unreachable host";"https://github.com/ansible/ansible/issues/13870";
 "None";"SSH-key missmatch gives incomprehensible error message";"https://github.com/ansible/ansible/issues/12922";
 "None";"Ansible fails to connect under Cygwin, private_key error";"https://github.com/ansible/ansible/issues/10045";
@@ -602,7 +603,7 @@ module_reference;title;github_url
 "None";"Connections hang indefinitely when remote machine forces password reset.";"https://github.com/ansible/ansible/issues/10874";
 "None";"document the 'vars' magic dict";"https://github.com/ansible/ansible/issues/16395";
 "None";"'command' module expands environment variables, whereas 'shell' does not";"https://github.com/ansible/ansible/issues/16394";
-"None";"Issues with ControlPath/ControlPersists";"https://github.com/ansible/ansible/issues/16396";
+"None";"Issues with ControlPath/ControlPersist";"https://github.com/ansible/ansible/issues/16396";
 "None";"Got MemoryError when copy huge local file to remote";"https://github.com/ansible/ansible/issues/16391";
 "None";"Merge azurerm integration tests.";"https://github.com/ansible/ansible/issues/16390";
 "None";"Colorize around text";"https://github.com/ansible/ansible/pull/16415";
@@ -799,6 +800,7 @@ module_reference;title;github_url
 "None";"include_vars not respecting hash_behaviour";"https://github.com/ansible/ansible/issues/14308";
 "None";"Only run Ec2Inventory function from command line";"https://github.com/ansible/ansible/pull/16439";
 "None";"ansible-pull --accept-host-key does not work";"https://github.com/ansible/ansible/issues/15968";
+"None";"OSError: [Errno 2] No such file or directory: xxx/ziploader_cache";"https://github.com/ansible/ansible/issues/16489";
 "None";"VMware self signed certs";"https://github.com/ansible/ansible/pull/14988";
 "None";"Hacky introspection in task_queue_manager.py results in hard to diagnose breakage";"https://github.com/ansible/ansible/issues/15959";
 "None";"Ansible 2.0.2.0 can't connect to Docker container using "docker" connection plugin";"https://github.com/ansible/ansible/issues/15956";
@@ -943,6 +945,7 @@ module_reference;title;github_url
 "None";"Add support for blocks in role handlers";"https://github.com/ansible/ansible/issues/14270";
 "None";"Add 'refresh' mode to fact gathering";"https://github.com/ansible/ansible/pull/15502";
 "None";"Ansible fails to read inventory created via bash process substitution";"https://github.com/ansible/ansible/issues/15143";
+"None";"Files missing when connect by HTTP";"https://github.com/ansible/ansible/issues/16502";
 "None";"test_test_infra fixes";"https://github.com/ansible/ansible/pull/14903";
 "None";"Filtering by vpc not applied to RDS instances in EC2 inventory script (ec2.py)";"https://github.com/ansible/ansible/issues/10193";
 "None";"Ansible ssh problem when logging by 'script' command.";"https://github.com/ansible/ansible/issues/12585";
@@ -1317,8 +1320,8 @@ module_reference;title;github_url
 "apt";"Apt module ignoring some packages for installation";"https://github.com/ansible/ansible/issues/11593";
 "apt";"apt: new sources_list parameter to only update specified sources list";"https://github.com/ansible/ansible-modules-core/pull/847";
 "apt";"Apt module -  the possibilty to know if a debian package is present or not ";"https://github.com/ansible/ansible-modules-core/issues/3565";
-"apt";"package:apt, documentation issue";"https://github.com/ansible/ansible-modules-core/issues/1328";
 "apt";"template_module: does not fail anymore when source file is absent";"https://github.com/ansible/ansible-modules-core/issues/2784";
+"apt";"package:apt, documentation issue";"https://github.com/ansible/ansible-modules-core/issues/1328";
 "apt";"apt update_cache gives error on ubuntu for Ansible 2.0.0.2 ";"https://github.com/ansible/ansible-modules-core/issues/2951";
 "apt";"Error with module apt autoremove";"https://github.com/ansible/ansible-modules-core/issues/4029";
 "apt";"Installing multiple deb files using with_items together with apt fails";"https://github.com/ansible/ansible-modules-core/issues/1178";
@@ -1555,7 +1558,6 @@ module_reference;title;github_url
 "docker";"Docker: image pull from private secure registry fails when image name contains a number";"https://github.com/ansible/ansible-modules-core/issues/866";
 "docker";"Add support for port ranges to the Docker module";"https://github.com/ansible/ansible-modules-core/issues/1397";
 "docker";"Ansible docker: error pulling images";"https://github.com/ansible/ansible-modules-core/issues/2818";
-"docker";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker";"cloud/docker: update doc for field 'registry'";"https://github.com/ansible/ansible-modules-core/issues/3423";
 "docker";"docker: _human_to_bytes broken on current devel head";"https://github.com/ansible/ansible-modules-core/issues/3039";
 "docker";"ansible is failing to pull docker containe";"https://github.com/ansible/ansible-modules-core/issues/2269";
@@ -1613,15 +1615,16 @@ module_reference;title;github_url
 "docker";"docker module fails on non-ASCII characters";"https://github.com/ansible/ansible-modules-core/issues/2307";
 "docker";"Docker module fails on checking reload conditions";"https://github.com/ansible/ansible-modules-core/issues/2309";
 "docker";"docker for mac (beta) and docker or docker_images modules periodically fail to pull images";"https://github.com/ansible/ansible-modules-core/issues/3964";
+"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker: can't launch container with memory_limit=0";"https://github.com/ansible/ansible-modules-core/issues/3398";
 "docker";"Docker image is required to be pushed when use docker-py>=1.3";"https://github.com/ansible/ansible-modules-core/issues/1794";
 "docker";"Docker module requires image name on restart";"https://github.com/ansible/ansible-modules-core/issues/1375";
 "docker";"[backport-1.9] docker: fix failing in case of empty image tag";"https://github.com/ansible/ansible-modules-core/pull/3084";
 "docker";"docker: fix _human_to_bytes and cpu_shares";"https://github.com/ansible/ansible-modules-core/pull/3082";
-"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker module ignores `links` on `state: present`";"https://github.com/ansible/ansible-modules-core/issues/2771";
 "docker";"Ansible 2.1.x cloud/docker incompatible with docker-py 1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4047";
 "docker";"Confusing error message, error caused by non existing container name provided in volumes_from is not handled correctly";"https://github.com/ansible/ansible-modules-core/issues/2793";
+"docker";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker";"docker_image: Should support load & save";"https://github.com/ansible/ansible-modules-core/issues/2400";
 "docker";"Remove docker containers by only their name";"https://github.com/ansible/ansible-modules-core/issues/3044";
 "docker";"Docker: Support using name and count together";"https://github.com/ansible/ansible-modules-core/issues/1146";
@@ -1770,8 +1773,8 @@ module_reference;title;github_url
 "ec2_eip";"ec2_eip documentation not correct";"https://github.com/ansible/ansible/issues/11125";
 "ec2_eip";"ec2_eip error: 'module' not found";"https://github.com/ansible/ansible-modules-core/issues/3549";
 "ec2_eip";"Fixed ec2_eip.py when assigning a standard elastic IP.";"https://github.com/ansible/ansible-modules-core/pull/3548";
-"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"ec2_eip docs do not explain ip and public_ip parameters correctly";"https://github.com/ansible/ansible-modules-core/issues/3144";
+"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"Add support to ec2_eip to associate with a secondary ip address";"https://github.com/ansible/ansible-modules-core/pull/3604";
 "ec2_elb";"Improve EC2 ELB lookup filtering";"https://github.com/ansible/ansible-modules-core/pull/1713";
 "ec2_elb";"ec2_elb: Failing with boto exception ( 400 - throttling ) ";"https://github.com/ansible/ansible-modules-core/issues/143";
@@ -2201,12 +2204,12 @@ module_reference;title;github_url
 "homebrew";"brew bundle support";"https://github.com/ansible/ansible-modules-extras/issues/1921";
 "homebrew_cask";"homebrew_cask module requires force option";"https://github.com/ansible/ansible-modules-extras/issues/1345";
 "homebrew_cask";"homebrew_cask should allow / in name parameter";"https://github.com/ansible/ansible-modules-extras/issues/1905";
+"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"hostname module does not rename correctly on debian";"https://github.com/ansible/ansible-modules-core/issues/2004";
 "hostname";"Docker hostname doesn't work with net: host";"https://github.com/ansible/ansible-modules-core/issues/2935";
 "hostname";"hostname module should allow hostnamectl on other distros with systemd as init";"https://github.com/ansible/ansible-modules-core/issues/573";
 "hostname";"Detect if systemd is active on Gentoo Linux";"https://github.com/ansible/ansible-modules-core/pull/3713";
 "hostname";"Hostname not set correctly on Gentoo Linux with systemd";"https://github.com/ansible/ansible-modules-core/issues/3360";
-"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"Docker troubles with ansible hostname module";"https://github.com/ansible/ansible-modules-core/issues/2331";
 "htpasswd";"Allow htpasswd to update/not update passwords";"https://github.com/ansible/ansible-modules-core/pull/2427";
 "htpasswd";"htpasswd can not be used declarative";"https://github.com/ansible/ansible-modules-core/issues/2107";
@@ -2307,6 +2310,7 @@ module_reference;title;github_url
 "kubernetes";"Add the ability to gather the status of pods & containers from Kubernetes objects";"https://github.com/ansible/ansible-modules-extras/pull/2466";
 "kubernetes";"Kubernetes module error handling fails when creating Deployment (or any unsupported kind)";"https://github.com/ansible/ansible-modules-extras/issues/2477";
 "kubernetes";"Pass through YAML parsed object instead of string.";"https://github.com/ansible/ansible-modules-extras/pull/2347";
+"kubernetes";"json error function need "msg" keyword";"https://github.com/ansible/ansible-modules-extras/issues/2498";
 "kubernetes";"Fix error handling error for kube kind error.";"https://github.com/ansible/ansible-modules-extras/pull/2483";
 "kubernetes";"Deployment kind support on Kubernetes module";"https://github.com/ansible/ansible-modules-extras/issues/2487";
 "lambda";"aws lambda module";"https://github.com/ansible/ansible-modules-extras/pull/1270";
@@ -2484,9 +2488,11 @@ module_reference;title;github_url
 "npm";"Update npm module to work better with newer npm versions";"https://github.com/ansible/ansible-modules-extras/pull/1663";
 "npm";"#446 broke npm state=latest for missing packages";"https://github.com/ansible/ansible-modules-extras/issues/1375";
 "npm";"globally installed node-module does not show up in $PATH because the ansible-npm-module does not set symlink";"https://github.com/ansible/ansible-modules-extras/issues/1708";
+"nxos_config";"Nxos_config fatal error when deploying swtich banner statement";"https://github.com/ansible/ansible/issues/16499";
 "nxos_config";"nxos_config issue with creating L2 vlans using transport cli";"https://github.com/ansible/ansible-modules-core/issues/3718";
 "nxos_facts";"Fixing nxos_facts parsing";"https://github.com/ansible/ansible-modules-core/pull/4023";
 "nxos_hsrp";"nxos_hsrp";"https://github.com/ansible/ansible-modules-core/pull/3472";
+"nxos_switchport";"nxos_switchport not configuring trunk ports properly";"https://github.com/ansible/ansible/issues/16501";
 "nxos_vlan";"nxos_vlan returns "Command does not support JSON output"";"https://github.com/ansible/ansible-modules-core/issues/3876";
 "nxos_vrrp";"Fixing nxos_vrrp status bug";"https://github.com/ansible/ansible-modules-core/pull/4022";
 "open_iscsi";"open_iscsi fails to login when discovery returns multiple portals";"https://github.com/ansible/ansible-modules-extras/issues/2137";
@@ -3179,7 +3185,7 @@ module_reference;title;github_url
 "yum";"YUM module: check_mode not supported when name=http://<url>/<pkg>.rpm";"https://github.com/ansible/ansible-modules-core/issues/2392";
 "yum";"Yum module should support disableexcludes option";"https://github.com/ansible/ansible-modules-core/issues/3629";
 "yum";"yum list and name parameters are mutually exclusive";"https://github.com/ansible/ansible-modules-core/issues/1706";
-"yum";"yumrepo module does not support additional settings provided by yum plugins";"https://github.com/ansible/ansible-modules-extras/issues/1305";
+"yum";"yum_repository module does not support additional settings provided by yum plugins";"https://github.com/ansible/ansible-modules-extras/issues/1305";
 "yum";"Doc: missing examples for yum list";"https://github.com/ansible/ansible-modules-core/issues/2232";
 "yum";"Yum on rhn-plugin systems requires root";"https://github.com/ansible/ansible-modules-core/pull/3967";
 "yum";"Error when using Yum to install packages from file";"https://github.com/ansible/ansible-modules-core/issues/1849";
@@ -3211,6 +3217,7 @@ module_reference;title;github_url
 "zypper";"zypper module support for --force";"https://github.com/ansible/ansible-modules-extras/issues/878";
 "zypper";"WIP: allow to specify versions with zypper";"https://github.com/ansible/ansible-modules-extras/pull/2328";
 "zypper";"Ability to replace conflicting packages that provide the same functionality";"https://github.com/ansible/ansible-modules-extras/issues/2171";
+"zypper";"zypper module get_package_state() don't work for type=pattern";"https://github.com/ansible/ansible-modules-extras/issues/2496";
 "zypper";"allow to specify version number when installing with zypper";"https://github.com/ansible/ansible-modules-extras/issues/2158";
 "zypper_repository";"Zypper repo autoimport keys";"https://github.com/ansible/ansible-modules-extras/pull/2132";
 "zypper_repository";"zypper_repository module should have a fingerprint option";"https://github.com/ansible/ansible-modules-extras/issues/65";
