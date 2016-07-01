@@ -446,7 +446,6 @@ module_reference;title;github_url
 "None";"expires expects float epoch time";"https://github.com/ansible/ansible/issues/16529";
 "None";"Host Filters Not Working with --extra-vars";"https://github.com/ansible/ansible/issues/16527";
 "None";"2.x breaks backwards compatibility with 1.x (default working dir for local tasks)";"https://github.com/ansible/ansible/issues/15519";
-"None";"Ansible 2.1.0.0 fails on nodes with python 2.4.3";"https://github.com/ansible/ansible/issues/16523";
 "None";"Certain variables are passed incorrectly to included tasks";"https://github.com/ansible/ansible/issues/12649";
 "None";"Date and Time filters.";"https://github.com/ansible/ansible/pull/10532";
 "None";"ssh connect `-tt` option failed running remote files";"https://github.com/ansible/ansible/issues/13428";
@@ -494,7 +493,9 @@ module_reference;title;github_url
 "None";"v2 polling behavior inconsistent when poll duration not explicitly set";"https://github.com/ansible/ansible/issues/15288";
 "None";"Ansible 2.1 on Python 3.5 fails with "NameError: name 'urllib2' is not defined"";"https://github.com/ansible/ansible/issues/16013";
 "None";"Allowing hostcolor colours to be set";"https://github.com/ansible/ansible/pull/16339";
+"None";"Wrong default value for `module_lang` in doc";"https://github.com/ansible/ansible/issues/16541";
 "None";"WIP: Travis to defend "make deb" and "make rpm"";"https://github.com/ansible/ansible/pull/15304";
+"None";"outer loop_control is inappropriately inherited by include-nested loops";"https://github.com/ansible/ansible/issues/16542";
 "None";"feature: controlling ignore-errors output";"https://github.com/ansible/ansible/issues/15350";
 "None";"Port global ssh known host awareness commits to paramiko.";"https://github.com/ansible/ansible/issues/6273";
 "None";"Sort groups by depth then by name";"https://github.com/ansible/ansible/pull/15942";
@@ -1109,6 +1110,7 @@ module_reference;title;github_url
 "apt";"apt module produces useless progress output";"https://github.com/ansible/ansible-modules-core/issues/568";
 "apt";"Feature-request: version comparison operators";"https://github.com/ansible/ansible-modules-core/issues/3199";
 "apt";"fixes cache time handling in apt module";"https://github.com/ansible/ansible-modules-core/pull/1517";
+"apt";"apt: default_release not checked if the package is already installed";"https://github.com/ansible/ansible/issues/16536";
 "apt";"apt module source packages support";"https://github.com/ansible/ansible-modules-core/issues/777";
 "apt";"Apt module ignoring some packages for installation";"https://github.com/ansible/ansible/issues/11593";
 "apt";"Apt provider unable to purge package once removed";"https://github.com/ansible/ansible/issues/9582";
@@ -1446,6 +1448,7 @@ module_reference;title;github_url
 "docker";"docker module fails on non-ASCII characters";"https://github.com/ansible/ansible-modules-core/issues/2307";
 "docker";"Docker module fails on checking reload conditions";"https://github.com/ansible/ansible-modules-core/issues/2309";
 "docker";"docker for mac (beta) and docker or docker_images modules periodically fail to pull images";"https://github.com/ansible/ansible-modules-core/issues/3964";
+"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker: can't launch container with memory_limit=0";"https://github.com/ansible/ansible-modules-core/issues/3398";
 "docker";"Enable docker connector command override.";"https://github.com/ansible/ansible/pull/16198";
 "docker";"Docker image is required to be pushed when use docker-py>=1.3";"https://github.com/ansible/ansible-modules-core/issues/1794";
@@ -1454,7 +1457,6 @@ module_reference;title;github_url
 "docker";"Ansible 2.0.2.0 can't connect to Docker container using "docker" connection plugin";"https://github.com/ansible/ansible/issues/15956";
 "docker";"[backport-1.9] docker: fix failing in case of empty image tag";"https://github.com/ansible/ansible-modules-core/pull/3084";
 "docker";"docker: fix _human_to_bytes and cpu_shares";"https://github.com/ansible/ansible-modules-core/pull/3082";
-"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker module ignores `links` on `state: present`";"https://github.com/ansible/ansible-modules-core/issues/2771";
 "docker";"Ansible 2.1.x cloud/docker incompatible with docker-py 1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4047";
 "docker";"Remove docker containers by only their name";"https://github.com/ansible/ansible-modules-core/issues/3044";
@@ -1646,8 +1648,8 @@ module_reference;title;github_url
 "ec2_eip";"ec2_eip documentation not correct";"https://github.com/ansible/ansible/issues/11125";
 "ec2_eip";"ec2_eip error: 'module' not found";"https://github.com/ansible/ansible-modules-core/issues/3549";
 "ec2_eip";"Fixed ec2_eip.py when assigning a standard elastic IP.";"https://github.com/ansible/ansible-modules-core/pull/3548";
-"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"ec2_eip docs do not explain ip and public_ip parameters correctly";"https://github.com/ansible/ansible-modules-core/issues/3144";
+"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"ec2_eip idempotency patch was reverted";"https://github.com/ansible/ansible-modules-core/issues/1778";
 "ec2_eip";"Add support to ec2_eip to associate with a secondary ip address";"https://github.com/ansible/ansible-modules-core/pull/3604";
 "ec2_elb";"ec2_elb: Failing with boto exception ( 400 - throttling ) ";"https://github.com/ansible/ansible-modules-core/issues/143";
@@ -2818,6 +2820,7 @@ module_reference;title;github_url
 "setup";"ansible -m setup does not check the dependencies it needs to run";"https://github.com/ansible/ansible-modules-core/issues/2003";
 "setup";"network interfaces not in logical order";"https://github.com/ansible/ansible-modules-core/issues/2910";
 "setup";"Provide a way to quiet the "localhost | success >>" output at the start of setup";"https://github.com/ansible/ansible/issues/8520";
+"setup";"Ansible 2.1.0.0 fails on nodes with python 2.4.3 when using local connection";"https://github.com/ansible/ansible/issues/16523";
 "setup";"Randomly disappearing ohai_* variables";"https://github.com/ansible/ansible/issues/11921";
 "setup";"Misleading warning "ansible_winrm_path unsupported by pywinrm"";"https://github.com/ansible/ansible/issues/16380";
 "setup";"ipv4 in facts changes between dict and array on different platforms";"https://github.com/ansible/ansible/issues/8519";
@@ -2838,6 +2841,7 @@ module_reference;title;github_url
 "shell";"Regression in shell module for 2.1 (working on 2.0.2.0)";"https://github.com/ansible/ansible/issues/16505";
 "shell";"If managed system reboots, shell module does not return rc value; documentation should say so";"https://github.com/ansible/ansible/issues/15741";
 "shell";"Support for Shell Commands in Check Mode";"https://github.com/ansible/ansible-modules-core/issues/3356";
+"shell";"bash forloops are not executed remotely yet success is returned";"https://github.com/ansible/ansible/issues/16540";
 "shell";"Unable to calculate the checksum of the remote file. Shell is bash. ansible ver 2.0.2.0";"https://github.com/ansible/ansible-modules-core/issues/4033";
 "shell";"'shell' docs don't cover different splitting behavour between 'args' and normal variant";"https://github.com/ansible/ansible/issues/10745";
 "shell";"Either the YAML parser or shell module insert leading whitespace on non-first lines";"https://github.com/ansible/ansible/issues/12034";
