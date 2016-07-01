@@ -240,6 +240,7 @@ module_reference;title;github_url
 "None";"[2.x] Enhancement: Ability to wrap blocks around other content such as roles (in addition to tasks)";"https://github.com/ansible/ansible/issues/13587";
 "None";"SSH through terminal works, but ansible throws unreachable error (over ethernet to Pi). fatal: [169.254.0.2]: UNREACHABLE! => {"changed": false, "msg": "ERROR! (25, 'Inappropriate ioctl for device')", "unreachable": true}";"https://github.com/ansible/ansible/issues/15321";
 "None";"Unexpected Exception setuptools 3.6 - Requirement.parse('setuptools>=11.3'))";"https://github.com/ansible/ansible/issues/16015";
+"None";"can't open file 'setup'";"https://github.com/ansible/ansible/issues/13588";
 "None";"Add support for DigitalOcean tags to external inventory script";"https://github.com/ansible/ansible/issues/15752";
 "None";"search filter on an undefined variable returns a non-descriptive error";"https://github.com/ansible/ansible/issues/12186";
 "None";"Accessing a dictionary using {{ vars['dictname'] }} doesn't interpolate variables in the dictionary elements";"https://github.com/ansible/ansible/issues/15753";
@@ -500,6 +501,7 @@ module_reference;title;github_url
 "None";"Port global ssh known host awareness commits to paramiko.";"https://github.com/ansible/ansible/issues/6273";
 "None";"Sort groups by depth then by name";"https://github.com/ansible/ansible/pull/15942";
 "None";"Add a few python3 fix, mostly found by trial and errors";"https://github.com/ansible/ansible/pull/15943";
+"None";"ansible 2.1 callback task object presenting as unicode?";"https://github.com/ansible/ansible/issues/16545";
 "None";"Unexpected behavior of allow_duplicates directive in Ansible 2.1.0";"https://github.com/ansible/ansible/issues/16044";
 "None";"Fix clone of specific SCM version";"https://github.com/ansible/ansible/pull/15160";
 "None";"start of ansible-config to view/manage ansible configuration settings";"https://github.com/ansible/ansible/pull/12797";
@@ -720,6 +722,7 @@ module_reference;title;github_url
 "None";"Provide options for SSH key checking";"https://github.com/ansible/ansible/pull/15736";
 "None";"pipefail for shells";"https://github.com/ansible/ansible/issues/12903";
 "None";"Auto install roles";"https://github.com/ansible/ansible/pull/15444";
+"None";"'shell' docs don't cover different splitting behavour between 'args' and normal variant";"https://github.com/ansible/ansible/issues/10745";
 "None";"Add timeout information into async failure message";"https://github.com/ansible/ansible/pull/16333";
 "None";"Add mention of the behavior of transport on OSX";"https://github.com/ansible/ansible/pull/16335";
 "None";"Fine grained warning disabling";"https://github.com/ansible/ansible/issues/13603";
@@ -1424,6 +1427,7 @@ module_reference;title;github_url
 "docker";"Docker create new container even when state=started";"https://github.com/ansible/ansible-modules-core/issues/1938";
 "docker";"Add image digest to return values of docker module";"https://github.com/ansible/ansible-modules-core/issues/1935";
 "docker";"docker remove container shouldn't require image name";"https://github.com/ansible/ansible-modules-core/issues/1933";
+"docker";"support become_user with Docker's native user management";"https://github.com/ansible/ansible/pull/15556";
 "docker";"[ Docker module ] Add "creates" parameter.";"https://github.com/ansible/ansible-modules-core/issues/2092";
 "docker";"Support stop timeout in docker module";"https://github.com/ansible/ansible-modules-core/issues/1586";
 "docker";"Docker dns argument should support multiple ip addresses";"https://github.com/ansible/ansible-modules-core/issues/216";
@@ -1448,7 +1452,6 @@ module_reference;title;github_url
 "docker";"docker module fails on non-ASCII characters";"https://github.com/ansible/ansible-modules-core/issues/2307";
 "docker";"Docker module fails on checking reload conditions";"https://github.com/ansible/ansible-modules-core/issues/2309";
 "docker";"docker for mac (beta) and docker or docker_images modules periodically fail to pull images";"https://github.com/ansible/ansible-modules-core/issues/3964";
-"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker: can't launch container with memory_limit=0";"https://github.com/ansible/ansible-modules-core/issues/3398";
 "docker";"Enable docker connector command override.";"https://github.com/ansible/ansible/pull/16198";
 "docker";"Docker image is required to be pushed when use docker-py>=1.3";"https://github.com/ansible/ansible-modules-core/issues/1794";
@@ -1457,6 +1460,7 @@ module_reference;title;github_url
 "docker";"Ansible 2.0.2.0 can't connect to Docker container using "docker" connection plugin";"https://github.com/ansible/ansible/issues/15956";
 "docker";"[backport-1.9] docker: fix failing in case of empty image tag";"https://github.com/ansible/ansible-modules-core/pull/3084";
 "docker";"docker: fix _human_to_bytes and cpu_shares";"https://github.com/ansible/ansible-modules-core/pull/3082";
+"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker module ignores `links` on `state: present`";"https://github.com/ansible/ansible-modules-core/issues/2771";
 "docker";"Ansible 2.1.x cloud/docker incompatible with docker-py 1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4047";
 "docker";"Remove docker containers by only their name";"https://github.com/ansible/ansible-modules-core/issues/3044";
@@ -1539,7 +1543,6 @@ module_reference;title;github_url
 "ec2";"Add an option to stack filters in EC2 inventory script.";"https://github.com/ansible/ansible/pull/11635";
 "ec2";"BUG: Amazon ec2 instance is always created, unless instance_id is set";"https://github.com/ansible/ansible-modules-core/issues/3296";
 "ec2";"Documentation: Amazon AWS ec2 module, Return Values";"https://github.com/ansible/ansible-modules-core/issues/3294";
-"ec2";"New AWS module for ec2 internet gateway facts";"https://github.com/ansible/ansible-modules-extras/pull/2093";
 "ec2";"New AWS module for ec2 virtual gateway facts";"https://github.com/ansible/ansible-modules-extras/pull/2095";
 "ec2";"ec2_group_facts.py - new module for gathering EC2 security group facts (list associated instances, loadbalancers, ENIs)";"https://github.com/ansible/ansible-modules-extras/pull/1352";
 "ec2";"Unpack AWS reservations while waiting to terminate (Fixes #4011)";"https://github.com/ansible/ansible-modules-core/pull/4012";
@@ -1594,6 +1597,7 @@ module_reference;title;github_url
 "ec2";"IAM role support for EC2 dynamic inventory";"https://github.com/ansible/ansible/pull/15196";
 "ec2";"Stopping ec2 instances by tags is not working";"https://github.com/ansible/ansible-modules-extras/issues/1179";
 "ec2";"Add min_count and max_count options to ec2 module";"https://github.com/ansible/ansible-modules-core/pull/2240";
+"ec2";"New AWS module for ec2 internet gateway facts";"https://github.com/ansible/ansible-modules-extras/pull/2093";
 "ec2";"AWS - ec2 should support unique instance criteria by VPC/Subnet";"https://github.com/ansible/ansible-modules-core/issues/4060";
 "ec2";"ec2 creates new instance if instance not running when using exact_count";"https://github.com/ansible/ansible-modules-core/issues/871";
 "ec2";"EC2 Inventory: Add instance metadata and additional groups based on VPC and subnet info";"https://github.com/ansible/ansible/pull/13143";
@@ -1648,8 +1652,8 @@ module_reference;title;github_url
 "ec2_eip";"ec2_eip documentation not correct";"https://github.com/ansible/ansible/issues/11125";
 "ec2_eip";"ec2_eip error: 'module' not found";"https://github.com/ansible/ansible-modules-core/issues/3549";
 "ec2_eip";"Fixed ec2_eip.py when assigning a standard elastic IP.";"https://github.com/ansible/ansible-modules-core/pull/3548";
-"ec2_eip";"ec2_eip docs do not explain ip and public_ip parameters correctly";"https://github.com/ansible/ansible-modules-core/issues/3144";
 "ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
+"ec2_eip";"ec2_eip docs do not explain ip and public_ip parameters correctly";"https://github.com/ansible/ansible-modules-core/issues/3144";
 "ec2_eip";"ec2_eip idempotency patch was reverted";"https://github.com/ansible/ansible-modules-core/issues/1778";
 "ec2_eip";"Add support to ec2_eip to associate with a secondary ip address";"https://github.com/ansible/ansible-modules-core/pull/3604";
 "ec2_elb";"ec2_elb: Failing with boto exception ( 400 - throttling ) ";"https://github.com/ansible/ansible-modules-core/issues/143";
@@ -2089,10 +2093,10 @@ module_reference;title;github_url
 "haproxy";"HAProxy error...unable to find server admin_page";"https://github.com/ansible/ansible-modules-extras/issues/1831";
 "haproxy";"haproxy feature request: wait for sessions to drop to 0 on a specific backend.";"https://github.com/ansible/ansible-modules-extras/issues/521";
 "haproxy";"Optimize haproxy enable and disable actions";"https://github.com/ansible/ansible-modules-extras/pull/1834";
+"haproxy";"Haproxy module doesn't check if the service is present on the given host";"https://github.com/ansible/ansible-modules-extras/issues/2096";
 "haproxy";"haproxy missing socket param";"https://github.com/ansible/ansible-modules-extras/issues/1442";
 "haproxy";"#2096 When discovering backends to enable/disable, ignore hosts where";"https://github.com/ansible/ansible-modules-extras/pull/2352";
 "haproxy";"haproxy module, says state=changed when result is: No such backend.";"https://github.com/ansible/ansible-modules-extras/issues/523";
-"haproxy";"Haproxy module doesn't check if the service is present on the given host";"https://github.com/ansible/ansible-modules-extras/issues/2096";
 "hg";"Ansible mercurial clone hangs on deploy, runs fine on subsequent runs";"https://github.com/ansible/ansible/issues/11407";
 "hg";"Wording of hg module documentation misleading";"https://github.com/ansible/ansible-modules-core/issues/1851";
 "hiera";"Hiera new module added, to parse and use hiera variables as node facts";"https://github.com/ansible/ansible-modules-extras/pull/1807";
@@ -2181,6 +2185,7 @@ module_reference;title;github_url
 "interfaces_file";"Added new module interfaces_file";"https://github.com/ansible/ansible-modules-extras/pull/2027";
 "ios_command";"list supported devices for ios and nxos";"https://github.com/ansible/ansible-modules-core/issues/3831";
 "ios_command";"New module asa_command";"https://github.com/ansible/ansible-modules-extras/pull/2306";
+"ios_command";"Exception while running ios_command which times out after correctly executing a command";"https://github.com/ansible/ansible/issues/16546";
 "ios_config";"ios_config force remove config lines";"https://github.com/ansible/ansible-modules-core/issues/3998";
 "ios_config";"New module asa_config";"https://github.com/ansible/ansible-modules-extras/pull/2307";
 "ios_config";"change logging server on cisco router failed with Networking module ios_config or ios_template";"https://github.com/ansible/ansible-modules-core/issues/3781";
@@ -2256,6 +2261,7 @@ module_reference;title;github_url
 "lineinfile";"Add purge parameter for lineinfile module";"https://github.com/ansible/ansible-modules-core/pull/2079";
 "lineinfile";"please make lineinfile support edit in-place";"https://github.com/ansible/ansible-modules-core/issues/2434";
 "lineinfile";"lineinfile: regexp="...\b..." no longer matches in v2";"https://github.com/ansible/ansible-modules-core/issues/3500";
+"lineinfile";"Improve lineinfile's line= option with groups/groupdict extracted from regexp=";"https://github.com/ansible/ansible-modules-core/issues/1400";
 "lineinfile";"lineinfile should have an option to remove duplicate lines matched by regexp";"https://github.com/ansible/ansible-modules-core/issues/52";
 "linode";"linode module: "name" parameter required, but documentation says it isn't";"https://github.com/ansible/ansible-modules-core/issues/3873";
 "linode";"A task that uses 'delegate_to' references 'ansible_ssh_pass' from previous host.";"https://github.com/ansible/ansible/issues/13561";
@@ -2622,7 +2628,6 @@ module_reference;title;github_url
 "raw";"newest AWS/boto connection style cause AWS_PROFILE environment configuration to break (boto, china, etc)";"https://github.com/ansible/ansible-modules-core/issues/1033";
 "rax";"Updated rax guide for handling RackConnect";"https://github.com/ansible/ansible/pull/16101";
 "rax";"rax module fails to create Cloud Server with multiple Cloud Images with same human_id";"https://github.com/ansible/ansible-modules-core/issues/3110";
-"rds";"Make template's relative path available to ansible_managed in regards to #8693";"https://github.com/ansible/ansible/pull/15559";
 "rds";"Snapshot data not returned when deleting RDS instance with final snapshot";"https://github.com/ansible/ansible-modules-core/issues/1650";
 "rds";"vmware_guest: feature request for snapshots";"https://github.com/ansible/ansible-modules-core/issues/2671";
 "rds";"Added aws and ec2 extends_documentation_fragment to cloud/amazon/rds ";"https://github.com/ansible/ansible-modules-core/pull/3951";
@@ -2811,7 +2816,6 @@ module_reference;title;github_url
 "setup";"Ansible fails to run on CentOS kernal 4.5.1";"https://github.com/ansible/ansible/issues/15549";
 "setup";"WinRMTransport Kerberos authentication error but logged as success in windows logs";"https://github.com/ansible/ansible/issues/15669";
 "setup";"setup module returns completely different info for windows vs linux";"https://github.com/ansible/ansible/issues/15506";
-"setup";"can't open file 'setup'";"https://github.com/ansible/ansible/issues/13588";
 "setup";"Avoid running facter/ohai in setup if not needed";"https://github.com/ansible/ansible/issues/12986";
 "setup";"ansible_distribution fact does not work for CoreOS";"https://github.com/ansible/ansible/issues/15096";
 "setup";"detecting virtualization facts fails on OpenStack based Instances";"https://github.com/ansible/ansible/issues/15165";
@@ -2843,7 +2847,6 @@ module_reference;title;github_url
 "shell";"Support for Shell Commands in Check Mode";"https://github.com/ansible/ansible-modules-core/issues/3356";
 "shell";"bash forloops are not executed remotely yet success is returned";"https://github.com/ansible/ansible/issues/16540";
 "shell";"Unable to calculate the checksum of the remote file. Shell is bash. ansible ver 2.0.2.0";"https://github.com/ansible/ansible-modules-core/issues/4033";
-"shell";"'shell' docs don't cover different splitting behavour between 'args' and normal variant";"https://github.com/ansible/ansible/issues/10745";
 "shell";"Either the YAML parser or shell module insert leading whitespace on non-first lines";"https://github.com/ansible/ansible/issues/12034";
 "shell";"shell module in check mode, when creates parameter is set, could indicate that it won't run";"https://github.com/ansible/ansible/issues/15206";
 "shell";"shell: creates or removes useless with with_items";"https://github.com/ansible/ansible-modules-core/issues/2624";
@@ -2922,6 +2925,7 @@ module_reference;title;github_url
 "systemd";"Support systemd reenable";"https://github.com/ansible/ansible-modules-core/issues/1673";
 "systemd";"Avahi does not disable properly with systemd on centos 7";"https://github.com/ansible/ansible-modules-core/issues/917";
 "template";"template module lacks var for relative path";"https://github.com/ansible/ansible-modules-core/issues/2504";
+"template";"Make template's relative path available to ansible_managed in regards to #8693";"https://github.com/ansible/ansible/pull/15559";
 "template";"Allow relative paths for jinja2 template extend statements";"https://github.com/ansible/ansible/pull/8127";
 "template";"Add recursive template copying";"https://github.com/ansible/ansible-modules-core/issues/159";
 "template";"Wrong home directory when setting HOME in template module";"https://github.com/ansible/ansible-modules-core/issues/1682";
@@ -3014,7 +3018,6 @@ module_reference;title;github_url
 "user";"ansible should warn the user if absense of the sftp subsystem prevents normal operation";"https://github.com/ansible/ansible/issues/9332";
 "user";"user/group not accepting an actual array";"https://github.com/ansible/ansible-modules-core/issues/3198";
 "user";"Postgres user module tries to alter user even without changes leading to fails on replication slaves";"https://github.com/ansible/ansible-modules-core/issues/1936";
-"user";"support become_user with Docker's native user management";"https://github.com/ansible/ansible/pull/15556";
 "user";"It is not possible to create a new keystone user with a role";"https://github.com/ansible/ansible-modules-core/issues/213";
 "user";"Ansible does not override ssh user in .ssh/config";"https://github.com/ansible/ansible/issues/12643";
 "user";"user module should delete by UID not name";"https://github.com/ansible/ansible-modules-core/issues/3626";
@@ -3227,7 +3230,6 @@ module_reference;title;github_url
 "yum_repository";"Feature: Add ability to obtain list of ELBs";"https://github.com/ansible/ansible-modules-core/issues/1159";
 "yum_repository";"yum_repository: allow enable/disable of repository";"https://github.com/ansible/ansible-modules-extras/issues/2384";
 "yum_repository";"Adding Managed Mode into the yum_repository module";"https://github.com/ansible/ansible-modules-extras/pull/1728";
-"yum_repository";"Improve lineinfile's line= option with groups/groupdict extracted from regexp=";"https://github.com/ansible/ansible-modules-core/issues/1400";
 "zabbix_host";"If and else blocks differs only in using exist_interfaces or exist_";"https://github.com/ansible/ansible-modules-extras/pull/1247";
 "zabbix_host";"the zabbix_host module won't link multiple templates.";"https://github.com/ansible/ansible-modules-extras/issues/2433";
 "zfs";"zfs module fails to create datasets on illumos distributions";"https://github.com/ansible/ansible-modules-extras/issues/2415";
