@@ -365,6 +365,7 @@ module_reference;title;github_url
 "None";"Docs styling preventing to read entire content of the pages";"https://github.com/ansible/ansible/issues/12745";
 "None";"The man page for ansible lacks a description for -S --su --ask-su-pass";"https://github.com/ansible/ansible/issues/9846";
 "None";"ansible_user is ignored in the inventory file";"https://github.com/ansible/ansible/issues/13610";
+"None";"Allow per-task sudo_flags";"https://github.com/ansible/ansible/issues/16532";
 "None";"boto3_conn can't use AWS_SESSION_TOKEN environment variable when boto3=True in get_aws_connection_info()";"https://github.com/ansible/ansible/issues/13727";
 "None";"Filter tags";"https://github.com/ansible/ansible/pull/16143";
 "None";"--diff and files with missing newlines";"https://github.com/ansible/ansible/issues/14094";
@@ -441,7 +442,11 @@ module_reference;title;github_url
 "None";"make with_ loops configurable";"https://github.com/ansible/ansible/issues/12086";
 "None";"autodocument all plugins";"https://github.com/ansible/ansible/issues/12089";
 "None";"Enable encrypted password support in ansible via individually encrypted values";"https://github.com/ansible/ansible/issues/15617";
+"None";"Allow playbook execution with default values, if decryption fails";"https://github.com/ansible/ansible/issues/16528";
+"None";"expires expects float epoch time";"https://github.com/ansible/ansible/issues/16529";
+"None";"Host Filters Not Working with --extra-vars";"https://github.com/ansible/ansible/issues/16527";
 "None";"2.x breaks backwards compatibility with 1.x (default working dir for local tasks)";"https://github.com/ansible/ansible/issues/15519";
+"None";"Ansible 2.1.0.0 fails on nodes with python 2.4.3";"https://github.com/ansible/ansible/issues/16523";
 "None";"Certain variables are passed incorrectly to included tasks";"https://github.com/ansible/ansible/issues/12649";
 "None";"Date and Time filters.";"https://github.com/ansible/ansible/pull/10532";
 "None";"ssh connect `-tt` option failed running remote files";"https://github.com/ansible/ansible/issues/13428";
@@ -620,7 +625,6 @@ module_reference;title;github_url
 "None";"Add create_lock_file to basic utilities";"https://github.com/ansible/ansible/pull/10668";
 "None";"Regression in delegated facts with run_once: true";"https://github.com/ansible/ansible/issues/15365";
 "None";"ansible-console missing manpage";"https://github.com/ansible/ansible/issues/16244";
-"None";"route53: add support to create and delete dns zones";"https://github.com/ansible/ansible/issues/11068";
 "None";"lookup('file') can't read AES-256 (probably binary) encrypted files";"https://github.com/ansible/ansible/issues/7957";
 "None";"Vault shredding exception with 0 length contents";"https://github.com/ansible/ansible/issues/14055";
 "None";"ansible manpage: document that the 'command' module is used by default";"https://github.com/ansible/ansible/pull/11992";
@@ -672,7 +676,6 @@ module_reference;title;github_url
 "None";"Error while connecting from one ansible host to another";"https://github.com/ansible/ansible/issues/15765";
 "None";"Feature Suggestion: Deploy a role as a one liner";"https://github.com/ansible/ansible/issues/13276";
 "None";"error feedback improvements due to improper file permissions on ec2.ini and ec2.py";"https://github.com/ansible/ansible/issues/16111";
-"None";"lineinfile: Feature Idea: Add 'count' option to select the desired line among a number of duplicate lines";"https://github.com/ansible/ansible/issues/15767";
 "None";"add coalesce filter";"https://github.com/ansible/ansible/issues/15233";
 "None";"change output / missing tags on "ansible-playbook --list-hosts --list-tags $playbook1 $playbook2 $playbook3"";"https://github.com/ansible/ansible/issues/13479";
 "None";"Setfacl command appears to fail when become_user contains a backslash";"https://github.com/ansible/ansible/issues/16280";
@@ -722,7 +725,6 @@ module_reference;title;github_url
 "None";"implement folding of long lines in inventory";"https://github.com/ansible/ansible/pull/14359";
 "None";"using git with ssh should read {{ ansible_ssh_user }}/.ssh/config";"https://github.com/ansible/ansible/issues/9817";
 "None";"Mac Package Managers";"https://github.com/ansible/ansible/issues/10624";
-"None";"yum: honour package version pinning via yum-plugin-versionlock";"https://github.com/ansible/ansible/issues/13086";
 "None";"Could not create retry file '*.retry'. [Errno 2] No such file or directory: ''";"https://github.com/ansible/ansible/issues/16365";
 "None";"Net mod ios";"https://github.com/ansible/ansible/pull/16426";
 "None";"Bug/Feature: Ansible dependency tree calculation/recursion loop";"https://github.com/ansible/ansible/issues/15253";
@@ -790,7 +792,6 @@ module_reference;title;github_url
 "None";"Access to stdout/stderr doesn't work in callback plugins in tasks loop in Ansible 2.1.0.0";"https://github.com/ansible/ansible/issues/16420";
 "None";"make inventory_dir be available to vars_files resolution/templating";"https://github.com/ansible/ansible/issues/9723";
 "None";"Do not throw error on --skip-tags when tag(s) are not found";"https://github.com/ansible/ansible/issues/10510";
-"None";"role task rpm_key: key=filename does not use roles/files/filename";"https://github.com/ansible/ansible/issues/10515";
 "None";"Add requirements to run the tests";"https://github.com/ansible/ansible/pull/15346";
 "None";"Feature Pull Request : Add speed link in gathered facts for Linux.";"https://github.com/ansible/ansible/pull/15347";
 "None";"enable do/until with async tasks";"https://github.com/ansible/ansible/issues/11351";
@@ -1027,6 +1028,7 @@ module_reference;title;github_url
 "None";"Feature: Extended Vault support: copying files, lookup plugin";"https://github.com/ansible/ansible/issues/7298";
 "None";"Bug Report: Sometimes lookup plugins do not recieve the proper variables (1.8.2)";"https://github.com/ansible/ansible/issues/9917";
 "None";"Bug report module_utils/basic.py is_executable does not check file type";"https://github.com/ansible/ansible/issues/13985";
+"None";"Encoding problem in `profile_tasks` callback";"https://github.com/ansible/ansible/issues/16521";
 "None";"Role Dependencies with absolute path to external role not resolved";"https://github.com/ansible/ansible/issues/14752";
 "None";"SSH fails with '"parsed": false' error message";"https://github.com/ansible/ansible/pull/15437";
 "None";"--check and --diff producing unexpected results";"https://github.com/ansible/ansible/issues/14169";
@@ -1119,7 +1121,6 @@ module_reference;title;github_url
 "apt";"Error with module apt autoremove";"https://github.com/ansible/ansible-modules-core/issues/4029";
 "apt";"Installing multiple deb files using with_items together with apt fails";"https://github.com/ansible/ansible-modules-core/issues/1178";
 "apt";"Apt module extra arguments";"https://github.com/ansible/ansible-modules-core/issues/602";
-"apt";"'pip: name=pip state=present' always reports changed in --check mode";"https://github.com/ansible/ansible-modules-core/issues/3060";
 "apt";"Apt module failing to update cache in Ubuntu 16.04 LTS";"https://github.com/ansible/ansible-modules-core/issues/3523";
 "apt";"apt module: Pass "--no-download" to apt-get";"https://github.com/ansible/ansible-modules-core/issues/3465";
 "apt";"Add an apt upgrade='apt-upgrade' option that runs `apt-get upgrade`, not aptitude.";"https://github.com/ansible/ansible-modules-core/issues/1741";
@@ -1175,6 +1176,7 @@ module_reference;title;github_url
 "authorized_key";"authorized_keys: fix creating .ssh directory";"https://github.com/ansible/ansible-modules-core/pull/1614";
 "azure";"Allow to specify UDP endpoints for Azure VMs";"https://github.com/ansible/ansible-modules-core/issues/494";
 "azure";"Azure module fails with python's azure lib above version 0.8.4, works improperly with 0.8.4 and below";"https://github.com/ansible/ansible-modules-core/issues/397";
+"azure";"azure: Allow specifying service name separate from VM name";"https://github.com/ansible/ansible-modules-core/issues/328";
 "azure";"Add optional field static_virtual_network_ip_address";"https://github.com/ansible/ansible-modules-core/pull/3116";
 "azure";"Azure module (wait parameter functionality is not implemented)";"https://github.com/ansible/ansible-modules-core/issues/1953";
 "azure";"Updating azure_rm.py to work with azure python sdk 2.0.0rc4 ";"https://github.com/ansible/ansible/pull/16407";
@@ -1252,12 +1254,11 @@ module_reference;title;github_url
 "conda";"Adding support for conda in ansible";"https://github.com/ansible/ansible-modules-core/pull/3780";
 "config_template";"Created new action plug-in "config_template"";"https://github.com/ansible/ansible/pull/12555";
 "config_template";"Added documentation for the config_template module";"https://github.com/ansible/ansible-modules-core/pull/2171";
-"consul";"ec2_asg: desired_capacity required on ansible 2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/2877";
 "consul";"Refactored Consul inventory script";"https://github.com/ansible/ansible/pull/13281";
-"consul";"ec2_ami_find: owner needs to be string, otherwise boto fails";"https://github.com/ansible/ansible-modules-core/issues/2922";
 "consul";"Consul module idempotency";"https://github.com/ansible/ansible-modules-extras/issues/1316";
 "consul";"Consul module. Add ACL rules configuration";"https://github.com/ansible/ansible-modules-core/issues/3993";
 "consul";"Add https support for consul lookup plugin";"https://github.com/ansible/ansible/pull/14817";
+"consul";"consul: Delete service by name (probably) can't work";"https://github.com/ansible/ansible-modules-extras/issues/564";
 "consul_acl";"consul_acl documentation for token type option appears to be incorrect";"https://github.com/ansible/ansible-modules-extras/issues/2213";
 "consul_acl";"Add ability to create event and query acl rules for a given acl token";"https://github.com/ansible/ansible-modules-extras/pull/2076";
 "consul_acl";"Fixing incorrect option name for consul_acl";"https://github.com/ansible/ansible-modules-extras/pull/2214";
@@ -1286,7 +1287,6 @@ module_reference;title;github_url
 "copy";"Enforce `state='file'` in `copy` module";"https://github.com/ansible/ansible/pull/13939";
 "copy";"Ansible 2.0 not respecting relative paths in include + copy";"https://github.com/ansible/ansible/issues/14341";
 "copy";"while running a copy module task, ansible requested this info passed to the list.";"https://github.com/ansible/ansible-modules-core/issues/3178";
-"copy";"unarchive: fails when 'copy' parameter is passed using a list";"https://github.com/ansible/ansible-modules-core/issues/3996";
 "copy";"Feature request: 'copy' module for target-to-target";"https://github.com/ansible/ansible-modules-core/issues/365";
 "copy";"copy module fails with json and with_items";"https://github.com/ansible/ansible/issues/9852";
 "copy";"copy module never copies when force is set to no, even if dest file is missing";"https://github.com/ansible/ansible-modules-core/issues/3080";
@@ -1297,7 +1297,6 @@ module_reference;title;github_url
 "copy";"It would be nice for `copy` to optionally show a progress bar during upload";"https://github.com/ansible/ansible-modules-core/issues/3149";
 "copy";"Ansible makes it difficult to copy files recursively and preserve permissions";"https://github.com/ansible/ansible/issues/14686";
 "copy";"Copy module checks presence of source file on the ansible node instead of the delegated node on ansible 1.9.4";"https://github.com/ansible/ansible/issues/15929";
-"copy";"unarchive: add directory_mode parameter";"https://github.com/ansible/ansible-modules-core/issues/3048";
 "copy";"Copy module failure in 2.20";"https://github.com/ansible/ansible/issues/15721";
 "copy";"copy module hangs on playbook execution when the 'dest' path is too long";"https://github.com/ansible/ansible-modules-core/issues/1963";
 "copy";"When copying multiple files in a dir, diff is ignored";"https://github.com/ansible/ansible-modules-core/issues/4010";
@@ -1309,6 +1308,7 @@ module_reference;title;github_url
 "copy";"Add options to ignore dirs in  copy module ";"https://github.com/ansible/ansible-modules-core/issues/1754";
 "copy";"Bug Report: Output of copy modified";"https://github.com/ansible/ansible-modules-core/issues/1401";
 "copy";"ansible 1.9.4 copy module - input file not found at src";"https://github.com/ansible/ansible-modules-core/issues/2620";
+"copy";"template: and copy: can't locate their input files - 2.0.1.0 regression from 1.9.4";"https://github.com/ansible/ansible-modules-core/issues/3260";
 "copy";"Allow copy module to work with recursive and remote_src";"https://github.com/ansible/ansible/issues/14131";
 "copy";"Feature Request: Use git-lfs with ansible modules copy and unarchive, and possibly other modules.";"https://github.com/ansible/ansible/issues/13742";
 "couchbase_bucket";"Ansible module to create and delete Couchbase buckets";"https://github.com/ansible/ansible-modules-extras/pull/35";
@@ -1335,7 +1335,6 @@ module_reference;title;github_url
 "debconf";"'search' is not working after upgrade to ansible 2.0";"https://github.com/ansible/ansible/issues/14013";
 "debconf";"Use debconf-communicate instead of debconf-show ";"https://github.com/ansible/ansible-modules-extras/issues/1764";
 "debconf";"debconf: Passwords are logged in cleartext";"https://github.com/ansible/ansible-modules-extras/issues/396";
-"debconf";"win_iis_webbinding: ssl_flags property [FR]";"https://github.com/ansible/ansible-modules-extras/issues/1435";
 "debug";"SSH Connection Debug Broken in v2.0.2.0";"https://github.com/ansible/ansible/issues/15525";
 "debug";"Indent callback dump output if using 3verbosity or higher";"https://github.com/ansible/ansible/pull/16231";
 "debug";"Unexpected debug output for undefined variables before `setup`";"https://github.com/ansible/ansible/issues/16508";
@@ -1379,12 +1378,13 @@ module_reference;title;github_url
 "docker";"Docker port ip address defaults to 0.0.0.0 when network present";"https://github.com/ansible/ansible-modules-core/issues/3670";
 "docker";"Volumes do not get dropped when removing the docker container";"https://github.com/ansible/ansible-modules-core/issues/4057";
 "docker";"docker module always reload container if net parameter ommited";"https://github.com/ansible/ansible-modules-core/issues/1885";
+"docker";"Docker: image pull from private secure registry fails when image name contains a number";"https://github.com/ansible/ansible-modules-core/issues/866";
 "docker";"Add support for port ranges to the Docker module";"https://github.com/ansible/ansible-modules-core/issues/1397";
-"docker";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
+"docker";"Ansible docker: error pulling images";"https://github.com/ansible/ansible-modules-core/issues/2818";
 "docker";"cloud/docker: update doc for field 'registry'";"https://github.com/ansible/ansible-modules-core/issues/3423";
+"docker";"docker: _human_to_bytes broken on current devel head";"https://github.com/ansible/ansible-modules-core/issues/3039";
 "docker";"ansible is failing to pull docker containe";"https://github.com/ansible/ansible-modules-core/issues/2269";
 "docker";"Need to support ulimit on run command";"https://github.com/ansible/ansible-modules-core/issues/2465";
-"docker";"docker_image: should remove previous image";"https://github.com/ansible/ansible-modules-core/issues/2056";
 "docker";"Docker module: argument memory_limit is of type <type 'str'> and we were unable to convert to int" on Ansible 2.0.2.0-1.el7";"https://github.com/ansible/ansible-modules-core/issues/3800";
 "docker";"Pulling repository when using net option in docker module with nonexistent network";"https://github.com/ansible/ansible-modules-core/issues/3733";
 "docker";"Docker module fails to create containers with docker 1.7.1 (cannot unmarshal string)";"https://github.com/ansible/ansible-modules-core/issues/1896";
@@ -1413,6 +1413,7 @@ module_reference;title;github_url
 "docker";"Docker Module Does Not Start Container with the same as the CLI equivalent params";"https://github.com/ansible/ansible-modules-core/issues/1115";
 "docker";"Docker Module Registered Variables Incomplete on CentOS ";"https://github.com/ansible/ansible-modules-core/issues/594";
 "docker";"Add support for  --device option for docker run command to docker module ";"https://github.com/ansible/ansible-modules-core/issues/1338";
+"docker";"Docker: containers fail to start if mounting files on existing ones";"https://github.com/ansible/ansible-modules-core/issues/1337";
 "docker";"Ansible docker module doesn't support a --dns-search option";"https://github.com/ansible/ansible-modules-core/issues/1336";
 "docker";"Fix getting actual_stdin_open";"https://github.com/ansible/ansible-modules-core/pull/4040";
 "docker";"Docker container doesn't accept UDP connections";"https://github.com/ansible/ansible-modules-core/issues/3607";
@@ -1425,6 +1426,7 @@ module_reference;title;github_url
 "docker";"Support stop timeout in docker module";"https://github.com/ansible/ansible-modules-core/issues/1586";
 "docker";"Docker dns argument should support multiple ip addresses";"https://github.com/ansible/ansible-modules-core/issues/216";
 "docker";"docker module: Binding host volume to volume not listed in dockerfile fails";"https://github.com/ansible/ansible-modules-core/issues/148";
+"docker";"docker: 'reloaded' state recreates container everytime if volumes-from is used";"https://github.com/ansible/ansible-modules-core/issues/1130";
 "docker";"docker should support setting run args. ";"https://github.com/ansible/ansible-modules-core/issues/1008";
 "docker";"docker Ansible module does not start properly docker data containers";"https://github.com/ansible/ansible-modules-core/issues/1550";
 "docker";"add support for env-file to the docker module";"https://github.com/ansible/ansible-modules-core/issues/792";
@@ -1436,6 +1438,7 @@ module_reference;title;github_url
 "docker";"Fix labels input is used in environment not supporting it";"https://github.com/ansible/ansible-modules-core/pull/4048";
 "docker";"Fix container option to be parsed when comparing values from input option `stdin_open`";"https://github.com/ansible/ansible-modules-core/pull/4043";
 "docker";"Fix inconsistent default value for network mode when `net` unspecified";"https://github.com/ansible/ansible-modules-core/pull/4045";
+"docker";"Docker: 'reloaded' state not recreating container";"https://github.com/ansible/ansible-modules-core/issues/1129";
 "docker";"failed to launch docker container in 1.9.4";"https://github.com/ansible/ansible/issues/13627";
 "docker";"Docker Connection Plugin Remote fix";"https://github.com/ansible/ansible/pull/16401";
 "docker";"[1.9.3] docker module links bug?";"https://github.com/ansible/ansible/issues/12631";
@@ -1454,12 +1457,12 @@ module_reference;title;github_url
 "docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker module ignores `links` on `state: present`";"https://github.com/ansible/ansible-modules-core/issues/2771";
 "docker";"Ansible 2.1.x cloud/docker incompatible with docker-py 1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4047";
-"docker";"docker_image: Should support load & save";"https://github.com/ansible/ansible-modules-core/issues/2400";
 "docker";"Remove docker containers by only their name";"https://github.com/ansible/ansible-modules-core/issues/3044";
 "docker";"Docker: Support using name and count together";"https://github.com/ansible/ansible-modules-core/issues/1146";
 "docker";"Support capabilities for Docker containers";"https://github.com/ansible/ansible-modules-core/issues/984";
 "docker";"Private docker registry container returns empty container facts";"https://github.com/ansible/ansible-modules-core/issues/433";
 "docker";"Docker pull: always and state: reloaded redeploys named containers every time";"https://github.com/ansible/ansible-modules-core/issues/3231";
+"docker";"docker: unsupported parameter for module: docker_api_version with ansible ansible-2.0.0-0.4.beta2";"https://github.com/ansible/ansible-modules-core/issues/2439";
 "docker";"Docker username regex";"https://github.com/ansible/ansible-modules-extras/issues/1947";
 "docker";"Docker module: can't link same container with different aliases";"https://github.com/ansible/ansible-modules-core/issues/2698";
 "docker";"allow Docker module to pull images with new content Digest format";"https://github.com/ansible/ansible-modules-core/issues/1688";
@@ -1478,24 +1481,27 @@ module_reference;title;github_url
 "docker";"Docker module fails on reload with labels";"https://github.com/ansible/ansible-modules-core/issues/3006";
 "docker_container";"WIP nuage networks network virtualization  ";"https://github.com/ansible/ansible-modules-extras/pull/2268";
 "docker_container";"[docker_container] image lookup should default to returning an empty list before searching";"https://github.com/ansible/ansible/pull/16362";
+"docker_container";"documentation for docker_container: b, k, m, or g units should probably read b, kb, mb, gb";"https://github.com/ansible/ansible/issues/16526";
 "docker_container";"Docker container. Problem in multi interface port binding";"https://github.com/ansible/ansible-modules-core/issues/3989";
 "docker_container";"docker_container doesn't (can't) easily work on Atomic and similar OS's";"https://github.com/ansible/ansible-modules-core/issues/3762";
 "docker_container";"alikins test issue for testing of ansibulbot issue/pr triage ";"https://github.com/ansible/ansible-modules-extras/issues/2400";
-"docker_container";"win_updates: category=security failing.";"https://github.com/ansible/ansible-modules-extras/issues/275";
 "docker_container";"Compute Engine: Provide a way to specify initial boot disk type and size";"https://github.com/ansible/ansible-modules-core/issues/4030";
 "docker_container";"docker_container: ignore_image flag is not implemented";"https://github.com/ansible/ansible-modules-core/issues/3949";
-"docker_container";"docker: unsupported parameter for module: docker_api_version with ansible ansible-2.0.0-0.4.beta2";"https://github.com/ansible/ansible-modules-core/issues/2439";
 "docker_container";"[docker_container] typo in has_different_configuration";"https://github.com/ansible/ansible-modules-core/pull/3992";
 "docker_facts";"Added Docker Facts module: issue #57";"https://github.com/ansible/ansible-modules-extras/pull/58";
 "docker_image";"Add ability to pass --build-arg to docker build in docker_image module";"https://github.com/ansible/ansible/issues/16265";
-"docker_image";"Ansible docker: error pulling images";"https://github.com/ansible/ansible-modules-core/issues/2818";
+"docker_image";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
+"docker_image";"docker_image: should remove previous image";"https://github.com/ansible/ansible-modules-core/issues/2056";
 "docker_image";"Can not use docker_image module from OSX";"https://github.com/ansible/ansible-modules-core/issues/1450";
 "docker_image";"Removes check for authentication data in Docker client configuration file";"https://github.com/ansible/ansible-modules-core/pull/3961";
 "docker_image";"docker_image: added build arguments support";"https://github.com/ansible/ansible-modules-core/pull/3665";
+"docker_image";"docker_image: Always shows up as changed when building";"https://github.com/ansible/ansible-modules-core/issues/2103";
 "docker_image";"TypeError: build() got an unexpected keyword argument while using docker_image";"https://github.com/ansible/ansible-modules-core/issues/2962";
 "docker_image";"docker_image in ansible 2.1 forcefully tries to push image";"https://github.com/ansible/ansible-modules-core/issues/3763";
 "docker_image";"ansible docker_image can't find a locally available image on build";"https://github.com/ansible/ansible-modules-core/issues/3760";
+"docker_image";"docker_image: tagging without pushing to repository?";"https://github.com/ansible/ansible/issues/16525";
 "docker_image";"Don't forcibly push loaded images to registry.";"https://github.com/ansible/ansible-modules-core/pull/3887";
+"docker_image";"docker_image: Should support load & save";"https://github.com/ansible/ansible-modules-core/issues/2400";
 "docker_image";"docker_image module: Adding optional image_id parameter (for deleting image)";"https://github.com/ansible/ansible-modules-core/issues/1506";
 "docker_image";"docker_image needs ARG directive support";"https://github.com/ansible/ansible-modules-core/issues/2983";
 "docker_image";"docker_image module: "Either path or fileobj needs to be provided"";"https://github.com/ansible/ansible-modules-core/issues/2991";
@@ -1505,7 +1511,6 @@ module_reference;title;github_url
 "docker_service";"unable to set mysql root password the first time";"https://github.com/ansible/ansible-modules-core/issues/2478";
 "docker_service";"docker_service: prevent non specified services from being launched";"https://github.com/ansible/ansible-modules-core/pull/4021";
 "docker_service";"docker_service: wrong logic or processing services/scale";"https://github.com/ansible/ansible-modules-core/issues/4020";
-"docker_service";"os_server: Error reporting with floating IP yet resources are still created";"https://github.com/ansible/ansible-modules-core/issues/1981";
 "docker_service";"Add module to hide `mktemp` differences across OS";"https://github.com/ansible/ansible-modules-core/issues/443";
 "dynamodb_table";"dynamodb_table module doesn't support adding global and local secondary index.";"https://github.com/ansible/ansible-modules-extras/issues/1453";
 "easy_install";"easy_install be able to specify URL";"https://github.com/ansible/ansible-modules-core/issues/1213";
@@ -1584,7 +1589,6 @@ module_reference;title;github_url
 "ec2";"temporary AWS Access Keys results in auth failures";"https://github.com/ansible/ansible/issues/12959";
 "ec2";"Get AWS access and secret keys from boto config";"https://github.com/ansible/ansible/pull/11374";
 "ec2";"New facts module for AWS EC2 VPC Endpoints";"https://github.com/ansible/ansible-modules-extras/pull/1428";
-"ec2";"ec2_group: add tags";"https://github.com/ansible/ansible-modules-core/issues/445";
 "ec2";"IAM role support for EC2 dynamic inventory";"https://github.com/ansible/ansible/pull/15196";
 "ec2";"Stopping ec2 instances by tags is not working";"https://github.com/ansible/ansible-modules-extras/issues/1179";
 "ec2";"Add min_count and max_count options to ec2 module";"https://github.com/ansible/ansible-modules-core/pull/2240";
@@ -1598,6 +1602,7 @@ module_reference;title;github_url
 "ec2_ami_copy";"[Feature Request] - Add support for encrypted EBS boot volumes";"https://github.com/ansible/ansible-modules-extras/issues/1379";
 "ec2_ami_find";"Handle ec2_ami_find owner parameter using an API filter, for speed";"https://github.com/ansible/ansible-modules-core/pull/3938";
 "ec2_ami_find";"Correctly handle ec2_ami_find is_public parameter (fixes #3636)";"https://github.com/ansible/ansible-modules-core/pull/3937";
+"ec2_ami_find";"ec2_ami_find: owner needs to be string, otherwise boto fails";"https://github.com/ansible/ansible-modules-core/issues/2922";
 "ec2_ami_find";"ec2_ami_find  not works";"https://github.com/ansible/ansible-modules-core/issues/2121";
 "ec2_ami_find";"ec2_ami_find is_public option appears to have the opposite effect on searches";"https://github.com/ansible/ansible-modules-core/issues/3636";
 "ec2_ami_find";"Region is mandatory - Make is so in the examples";"https://github.com/ansible/ansible-modules-core/pull/3371";
@@ -1605,6 +1610,7 @@ module_reference;title;github_url
 "ec2_ami_find";"Syntax error in filter name for is-public";"https://github.com/ansible/ansible-modules-core/pull/3619";
 "ec2_ami_find";"Added image_id as a return variable so this module can be used alongs";"https://github.com/ansible/ansible-modules-core/pull/3609";
 "ec2_ami_find";"ec2_ami_find.py - Added new attributes to the returned output";"https://github.com/ansible/ansible-modules-core/pull/3206";
+"ec2_asg";"ec2_asg: desired_capacity required on ansible 2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/2877";
 "ec2_asg";"Ansible ec2_asg module expiring token for AWS with wait_timeout more than 20 mins";"https://github.com/ansible/ansible-modules-core/issues/4050";
 "ec2_asg";"ec2_asg ignores replace_instances if lc_check is true";"https://github.com/ansible/ansible-modules-core/issues/3957";
 "ec2_asg";"prevent broken builds in ec2_asg when using "replace all"";"https://github.com/ansible/ansible-modules-core/issues/1066";
@@ -1695,6 +1701,7 @@ module_reference;title;github_url
 "ec2_group";"FR - update ec2_group to cleanly handle a cidr list in a rule";"https://github.com/ansible/ansible-modules-core/issues/2120";
 "ec2_group";"Fix description of rules option in ec2_group";"https://github.com/ansible/ansible-modules-core/pull/2678";
 "ec2_group";" ec2_security You have specified two resources that belong to different networks.";"https://github.com/ansible/ansible-modules-core/issues/1987";
+"ec2_group";"ec2_group: add tags";"https://github.com/ansible/ansible-modules-core/issues/445";
 "ec2_group";"Add tags support to ec2_group module";"https://github.com/ansible/ansible-modules-core/pull/2803";
 "ec2_key";"ec2_key.py - Added RETURN structure and minor exception handling";"https://github.com/ansible/ansible-modules-core/pull/2358";
 "ec2_key";"Use connect_to_aws method and remove empty aliases";"https://github.com/ansible/ansible-modules-core/pull/2181";
@@ -1840,7 +1847,6 @@ module_reference;title;github_url
 "expect";"Created Comware 5.2 Ansible modules";"https://github.com/ansible/ansible-modules-extras/pull/71";
 "expect";"Accessing registered variables created from commands with braces results in template processing errors";"https://github.com/ansible/ansible-modules-core/issues/1641";
 "expect";"additional status besides 'changed', 'ok', or 'failed'";"https://github.com/ansible/ansible-modules-core/issues/1872";
-"expect";""service: enable=yes/no" with spanish CentOS6 servers is broken";"https://github.com/ansible/ansible-modules-core/issues/3438";
 "expect";"If rc is null, assume that a timeout happened. Fixes #2484";"https://github.com/ansible/ansible-modules-extras/pull/2485";
 "expect";"Expect module silently kills tasks after timeout is exceeded even if all questions were answered";"https://github.com/ansible/ansible-modules-extras/issues/2484";
 "fail";"Neutron modules fail without admin credentails";"https://github.com/ansible/ansible-modules-core/pull/2747";
@@ -1860,12 +1866,10 @@ module_reference;title;github_url
 "file";"add state=empty into file module";"https://github.com/ansible/ansible-modules-core/pull/933";
 "file";"Add state=empty into file module";"https://github.com/ansible/ansible-modules-core/issues/902";
 "file";"new module feature request";"https://github.com/ansible/ansible-modules-core/issues/2129";
-"file";"win_package: Download redirected file";"https://github.com/ansible/ansible-modules-extras/issues/1271";
 "file";"file touch always 'changed' - [was: need a separate touch module]";"https://github.com/ansible/ansible-modules-core/issues/170";
 "file";"Encrypted tgz file";"https://github.com/ansible/ansible-modules-core/issues/2648";
 "file";"New module for managing hosts file";"https://github.com/ansible/ansible-modules-extras/pull/2405";
 "file";"File module: incorrect directory permissions using numeric value for mode with a non-zero leading digit";"https://github.com/ansible/ansible-modules-core/issues/2963";
-"file";"unarchive: confusing error message when src points to directory instead of archive file";"https://github.com/ansible/ansible-modules-core/issues/2377";
 "file";"Add `present` to `file`'s `state` attribute.";"https://github.com/ansible/ansible-modules-core/pull/3395";
 "file";"Add state=empty into file module (Fixes #902)";"https://github.com/ansible/ansible-modules-core/pull/3095";
 "file";"Feature request: mutex file locking";"https://github.com/ansible/ansible-modules-core/issues/2769";
@@ -1876,7 +1880,6 @@ module_reference;title;github_url
 "file";"Ansible calls "file" module instead of "copy" module if hashes match, gets confused if dest is a symlink";"https://github.com/ansible/ansible-modules-core/issues/1568";
 "file";"Idea on file module: avoid rm -fr /";"https://github.com/ansible/ansible-modules-core/issues/3443";
 "file";"Ignore errors while deleting a directory using force";"https://github.com/ansible/ansible-modules-core/pull/2904";
-"file";"shell: creates or removes useless with with_items";"https://github.com/ansible/ansible-modules-core/issues/2624";
 "file";"Allow for "directory" or "link" in place of "file" with state";"https://github.com/ansible/ansible-modules-core/issues/3669";
 "file";"File mode 0755 fails for a tar in `unarchive`";"https://github.com/ansible/ansible-modules-core/issues/4063";
 "file";"Add a YAML file module?";"https://github.com/ansible/ansible-modules-core/issues/1746";
@@ -1987,7 +1990,6 @@ module_reference;title;github_url
 "git";"sometimes the git module status is incorrect";"https://github.com/ansible/ansible-modules-core/issues/2742";
 "git";"Feature idea: support vpc classic link with `ec2_lc` module";"https://github.com/ansible/ansible-modules-core/issues/1318";
 "git";"git module uses hard-coded known_hosts paths";"https://github.com/ansible/ansible-modules-core/issues/3281";
-"git";"synchronize: not working as expected";"https://github.com/ansible/ansible-modules-core/issues/553";
 "git";"feature: show dependency path in TASK output";"https://github.com/ansible/ansible/issues/15497";
 "git";"Roles with git submodule does nothing";"https://github.com/ansible/ansible/issues/15802";
 "git";"git: non standard ssh port and accept_hostkey fails";"https://github.com/ansible/ansible-modules-core/issues/2371";
@@ -2219,7 +2221,6 @@ module_reference;title;github_url
 "known_hosts";"known_hosts module fails when using host with port";"https://github.com/ansible/ansible-modules-extras/issues/1129";
 "known_hosts";"known_hosts module not removing all matching keys (hashed keys)";"https://github.com/ansible/ansible-modules-extras/issues/903";
 "known_hosts";"known_hosts module could offer 'mode', 'group', and 'owner' options that would apply only when the module is creating the file";"https://github.com/ansible/ansible-modules-extras/issues/901";
-"known_hosts";"docker_image: Always shows up as changed when building";"https://github.com/ansible/ansible-modules-core/issues/2103";
 "known_hosts";"known_hosts module not working ?";"https://github.com/ansible/ansible-modules-extras/issues/664";
 "known_hosts";"SSH keys aren't checked against known_hosts when using networking modules";"https://github.com/ansible/ansible/issues/15702";
 "known_hosts";"known_hosts returns changes even if there are none";"https://github.com/ansible/ansible-modules-extras/issues/2177";
@@ -2247,6 +2248,7 @@ module_reference;title;github_url
 "lineinfile";"lineinfile dropping quoted empty strings";"https://github.com/ansible/ansible/issues/12044";
 "lineinfile";"lineinfile module : insertbefore should insert before first match of specified regular expression";"https://github.com/ansible/ansible-modules-core/issues/3648";
 "lineinfile";"[Bug Report] lineinfile unquotes value twice";"https://github.com/ansible/ansible-modules-core/issues/1152";
+"lineinfile";"lineinfile: Feature Idea: Add 'count' option to select the desired line among a number of duplicate lines";"https://github.com/ansible/ansible/issues/15767";
 "lineinfile";"Proposal: lineinfile - custom location for the backup file";"https://github.com/ansible/ansible/issues/11837";
 "lineinfile";"Using lineinfile for a file insert in Ansible  playbook ";"https://github.com/ansible/ansible/issues/15813";
 "lineinfile";"Add purge parameter for lineinfile module";"https://github.com/ansible/ansible-modules-core/pull/2079";
@@ -2298,7 +2300,6 @@ module_reference;title;github_url
 "mail";"Log formatting is not properly done";"https://github.com/ansible/ansible-modules-core/issues/3209";
 "mail";"Run Windows modules asynchronously as scheduled jobs";"https://github.com/ansible/ansible-modules-extras/issues/287";
 "mail";"fix mail when cc and bcc are used if None";"https://github.com/ansible/ansible/pull/15608";
-"make";"Virt: Make it possible to change host definitions";"https://github.com/ansible/ansible-modules-extras/issues/777";
 "marathon";"Add marathon module";"https://github.com/ansible/ansible-modules-extras/pull/1258";
 "maven_artifact";"maven_artifact does not use classifier when constructing destination name of artifact";"https://github.com/ansible/ansible-modules-extras/issues/2139";
 "maven_artifact";"Maven module should be able to resolve and fetch dependencies as well";"https://github.com/ansible/ansible-modules-extras/issues/1615";
@@ -2329,7 +2330,6 @@ module_reference;title;github_url
 "mount";"mount documentation incorrectly specifies what "absent" and "unmounted" do";"https://github.com/ansible/ansible-modules-core/issues/1869";
 "mount";"Mount module is not idempotent when passno and dump are specified as integers";"https://github.com/ansible/ansible-modules-core/issues/1868";
 "mount";"mount module not working with Centos 7 the same way it did with Centos 6";"https://github.com/ansible/ansible/issues/11664";
-"mount";"Docker: containers fail to start if mounting files on existing ones";"https://github.com/ansible/ansible-modules-core/issues/1337";
 "mount";"mount using nfs4 and state=mounted triggers error on already mounted directory";"https://github.com/ansible/ansible-modules-core/issues/3514";
 "mount";"add systemd-nspawn connection driver";"https://github.com/ansible/ansible/pull/14334";
 "mount";"mount is not idempotent for bind mount (Ubuntu 14.04, ansible 2.0.1.0)";"https://github.com/ansible/ansible-modules-core/issues/3148";
@@ -2400,7 +2400,6 @@ module_reference;title;github_url
 "nmcli";"nmcli: type is required for create/modify actions";"https://github.com/ansible/ansible-modules-extras/issues/1843";
 "nmcli";"Add bridge support to nmcli module.";"https://github.com/ansible/ansible-modules-extras/pull/1471";
 "nmcli";"RFE: [nmcli] - support for setting ipv4.dhcp-client-id";"https://github.com/ansible/ansible-modules-extras/issues/1523";
-"nmcli";"BUG win_unzip: force to declare properties on v2.0.0-0.6.rc1";"https://github.com/ansible/ansible-modules-core/issues/2572";
 "nmcli";"correct command line argument for nmcli autoconnect";"https://github.com/ansible/ansible-modules-extras/pull/2000";
 "nmcli";"Allow setting ipv4.dhcp-client-id parameter";"https://github.com/ansible/ansible-modules-extras/pull/1840";
 "nmcli";"nmcli dns example does not run";"https://github.com/ansible/ansible-modules-extras/issues/1910";
@@ -2473,6 +2472,7 @@ module_reference;title;github_url
 "os_server";"OpenStack os_server module defines auto_ip and floating_ip_pools as mutually exclusive";"https://github.com/ansible/ansible-modules-core/issues/3314";
 "os_server";"Allow os_server to delete FIP";"https://github.com/ansible/ansible-modules-core/pull/3509";
 "os_server";"feature request - vmware boot device";"https://github.com/ansible/ansible-modules-core/issues/2450";
+"os_server";"os_server: Error reporting with floating IP yet resources are still created";"https://github.com/ansible/ansible-modules-core/issues/1981";
 "os_server";"Unable to run os_server task asynchronously";"https://github.com/ansible/ansible-modules-core/issues/3663";
 "os_server_actions";"os_server_actions nova rebuild server";"https://github.com/ansible/ansible-modules-core/issues/2714";
 "os_server_group";"Added os_server_group module";"https://github.com/ansible/ansible-modules-extras/pull/2211";
@@ -2492,7 +2492,6 @@ module_reference;title;github_url
 "osx_defaults";"Add dict support to osx_defaults";"https://github.com/ansible/ansible-modules-extras/pull/1707";
 "osx_mas";"Add OSX MAS module.";"https://github.com/ansible/ansible-modules-extras/pull/2482";
 "osx_pref";"Add osx_pref module for direct access to Core Foundation Preferences API";"https://github.com/ansible/ansible-modules-extras/pull/2392";
-"osx_say";"S3: 'module' object has no attribute 'connect_to_region'";"https://github.com/ansible/ansible-modules-core/issues/1544";
 "ovh_ip_loadbalancing_backend";"Added OVH Ip loadbalancing module for managing backends";"https://github.com/ansible/ansible-modules-extras/pull/1324";
 "ovirt";"Fix improper handling of machine_type in  ovirt inventory";"https://github.com/ansible/ansible/pull/16251";
 "ovirt";"fix ovirt UnboundLocalError during vm_start";"https://github.com/ansible/ansible-modules-extras/pull/2469";
@@ -2529,7 +2528,6 @@ module_reference;title;github_url
 "ping";"Solaris hosts can't be pinged";"https://github.com/ansible/ansible/issues/13410";
 "ping";"No Ansible Commands Work Ubuntu 14.04, Including Ping";"https://github.com/ansible/ansible/issues/14530";
 "ping";"Become with doas not working";"https://github.com/ansible/ansible/issues/15597";
-"ping";"template: and copy: can't locate their input files - 2.0.1.0 regression from 1.9.4";"https://github.com/ansible/ansible-modules-core/issues/3260";
 "ping";"Failed to connect running ansible with vagrant";"https://github.com/ansible/ansible/issues/14925";
 "pingdom";"Support Create checks using pingdom";"https://github.com/ansible/ansible-modules-extras/issues/308";
 "pip";"change pip's 'name' to be a list, to minimize conflicts";"https://github.com/ansible/ansible-modules-core/issues/4055";
@@ -2546,6 +2544,7 @@ module_reference;title;github_url
 "pip";"pip fails when installing a local python package";"https://github.com/ansible/ansible-modules-core/issues/3426";
 "pip";"Pip error: "UnboundLocalError: local variable 'all_output' referenced before assignment"";"https://github.com/ansible/ansible-modules-core/issues/3128";
 "pip";"pip module always shows changed in --check mode when state=latest";"https://github.com/ansible/ansible-modules-core/issues/3055";
+"pip";"'pip: name=pip state=present' always reports changed in --check mode";"https://github.com/ansible/ansible-modules-core/issues/3060";
 "pip";"Pip module is broken when using extra_args";"https://github.com/ansible/ansible-modules-core/issues/3325";
 "pip";"The `editable` parameter in pip module does not work";"https://github.com/ansible/ansible-modules-core/issues/3923";
 "pip";"pip module executable argument does not expand home";"https://github.com/ansible/ansible-modules-core/issues/1532";
@@ -2560,7 +2559,6 @@ module_reference;title;github_url
 "pkgng";"Add "clean" option support for pkgng module";"https://github.com/ansible/ansible-modules-extras/pull/2339";
 "pkgng";"FreeBSD Jail PKGNG Misleading Error";"https://github.com/ansible/ansible-modules-extras/issues/1562";
 "pkgutil";"Allow the use of a comma-separated stringlist as the 'name' parameter.";"https://github.com/ansible/ansible-modules-extras/pull/2461";
-"portage";"docker: _human_to_bytes broken on current devel head";"https://github.com/ansible/ansible-modules-core/issues/3039";
 "portenforce";"Added portenforce module";"https://github.com/ansible/ansible-modules-extras/pull/2069";
 "postfix";"Initial checkin of postfix module";"https://github.com/ansible/ansible-modules-extras/pull/2441";
 "postgres_user";"postgres_user module: `role_attr_flags` does nothing when combined with `no_password_changes`";"https://github.com/ansible/ansible-modules-core/pull/4038";
@@ -2622,7 +2620,6 @@ module_reference;title;github_url
 "raw";"newest AWS/boto connection style cause AWS_PROFILE environment configuration to break (boto, china, etc)";"https://github.com/ansible/ansible-modules-core/issues/1033";
 "rax";"Updated rax guide for handling RackConnect";"https://github.com/ansible/ansible/pull/16101";
 "rax";"rax module fails to create Cloud Server with multiple Cloud Images with same human_id";"https://github.com/ansible/ansible-modules-core/issues/3110";
-"rds";"Docker: image pull from private secure registry fails when image name contains a number";"https://github.com/ansible/ansible-modules-core/issues/866";
 "rds";"Make template's relative path available to ansible_managed in regards to #8693";"https://github.com/ansible/ansible/pull/15559";
 "rds";"Snapshot data not returned when deleting RDS instance with final snapshot";"https://github.com/ansible/ansible-modules-core/issues/1650";
 "rds";"vmware_guest: feature request for snapshots";"https://github.com/ansible/ansible-modules-core/issues/2671";
@@ -2679,6 +2676,7 @@ module_reference;title;github_url
 "route53";"route53 cannot load boto";"https://github.com/ansible/ansible-modules-core/issues/1866";
 "route53";"Route53 module cannot differentiate between multiple private zones for the same doman";"https://github.com/ansible/ansible-modules-core/issues/1619";
 "route53";"AWS Route53 limited in options for setting up routes (weighted latency not available)";"https://github.com/ansible/ansible-modules-core/issues/3090";
+"route53";"route53: add support to create and delete dns zones";"https://github.com/ansible/ansible/issues/11068";
 "route53";"route53 does not honor value order";"https://github.com/ansible/ansible-modules-core/issues/2949";
 "route53";"Route53 does not honor boto profile parameter";"https://github.com/ansible/ansible-modules-core/issues/2415";
 "route53";"AWS route53 and security token (aka session token)";"https://github.com/ansible/ansible/issues/10533";
@@ -2694,6 +2692,7 @@ module_reference;title;github_url
 "route53_zone";"route53_zone: support for delegation sets, update to boto3";"https://github.com/ansible/ansible-modules-extras/pull/1679";
 "rpm_key";"Module rpm_key does not honor proxy env var";"https://github.com/ansible/ansible-modules-core/issues/1135";
 "rpm_key";"Feature request: rpm_key install from local file";"https://github.com/ansible/ansible-modules-core/issues/3789";
+"rpm_key";"role task rpm_key: key=filename does not use roles/files/filename";"https://github.com/ansible/ansible/issues/10515";
 "rpm_key";"rpm_key does not work if there is no previous key imported ( ansible 1.8.2 / 1.8.4 tested )";"https://github.com/ansible/ansible/issues/10417";
 "rsyncd";"a new module named rsyncd can used for managing rsyncd.conf module entries.";"https://github.com/ansible/ansible-modules-extras/pull/1780";
 "s3";"new module for sync of s3 buckets";"https://github.com/ansible/ansible-modules-extras/pull/2057";
@@ -2712,6 +2711,7 @@ module_reference;title;github_url
 "s3";"Failed Uploads to S3 Bucket";"https://github.com/ansible/ansible-modules-core/issues/214";
 "s3";"Feature idea: S3 Multipart "PUT" option";"https://github.com/ansible/ansible-modules-core/issues/2038";
 "s3";"s3 - manage objects in S3 - Problem in coping ";"https://github.com/ansible/ansible-modules-core/issues/3085";
+"s3";"S3: 'module' object has no attribute 'connect_to_region'";"https://github.com/ansible/ansible-modules-core/issues/1544";
 "s3";"Added validate option to S3 module and code cleanup";"https://github.com/ansible/ansible-modules-core/pull/3893";
 "s3";"Amazon (in)security";"https://github.com/ansible/ansible-modules-core/issues/2411";
 "s3";"No ability to copy data with s3 module from one bucket to another";"https://github.com/ansible/ansible-modules-core/issues/2945";
@@ -2765,7 +2765,6 @@ module_reference;title;github_url
 "service";"service: allow user to query service status";"https://github.com/ansible/ansible-modules-core/pull/3316";
 "service";"Bug: service module: "unable to set rcvar" in Check Mode due to mishandled SystemExit exception";"https://github.com/ansible/ansible-modules-core/issues/2664";
 "service";"more command for service module usage";"https://github.com/ansible/ansible-modules-core/issues/2809";
-"service";"azure: Allow specifying service name separate from VM name";"https://github.com/ansible/ansible-modules-core/issues/328";
 "service";"make the system module call daemon-reload on systemctl control";"https://github.com/ansible/ansible-modules-core/pull/2676";
 "service";"Add `sleep` to service module non-restart states";"https://github.com/ansible/ansible-modules-core/issues/911";
 "service";"systemctl not detected by service module on CentOS 7 inside proxmox (openvz container)";"https://github.com/ansible/ansible-modules-core/issues/593";
@@ -2791,6 +2790,7 @@ module_reference;title;github_url
 "service";"Ansible over SSH proxy disconnects after service module is run";"https://github.com/ansible/ansible/issues/15855";
 "service";"Revert "Fixes #4448 reloaded services should be started if not running"";"https://github.com/ansible/ansible-modules-core/pull/2693";
 "service";"remote_tmp configuration not working as expected";"https://github.com/ansible/ansible-modules-core/issues/3269";
+"service";""service: enable=yes/no" with spanish CentOS6 servers is broken";"https://github.com/ansible/ansible-modules-core/issues/3438";
 "service";"Feature Request: Module for integrating with AWS Simple Queue Service (SQS)";"https://github.com/ansible/ansible-modules-core/issues/1221";
 "service";"Don't throw error stopping/disabling unknown service";"https://github.com/ansible/ansible/issues/16134";
 "service";"Service reported as started when lacking permissions on Ubuntu";"https://github.com/ansible/ansible-modules-core/issues/1997";
@@ -2800,7 +2800,6 @@ module_reference;title;github_url
 "service";"Service module doesn't fail when "status" command does not exists";"https://github.com/ansible/ansible-modules-core/issues/849";
 "service";"Initial commit for the AWS ElasticSearch Service module";"https://github.com/ansible/ansible-modules-extras/pull/1735";
 "service";"Allow running task or play in check_mode from playbook";"https://github.com/ansible/ansible/issues/12498";
-"service";"consul: Delete service by name (probably) can't work";"https://github.com/ansible/ansible-modules-extras/issues/564";
 "set_fact";"traceback on set_fact with numeric var names";"https://github.com/ansible/ansible/issues/16008";
 "set_fact";"Add JSON example to set_fact documentation";"https://github.com/ansible/ansible/issues/11059";
 "set_fact";"Casting boolean values doesn't work for set_fact";"https://github.com/ansible/ansible-modules-core/issues/1431";
@@ -2815,6 +2814,7 @@ module_reference;title;github_url
 "setup";"ansible_distribution fact does not work for CoreOS";"https://github.com/ansible/ansible/issues/15096";
 "setup";"detecting virtualization facts fails on OpenStack based Instances";"https://github.com/ansible/ansible/issues/15165";
 "setup";"setup module: add public ed25519 host key to facts";"https://github.com/ansible/ansible-modules-core/issues/3290";
+"setup";""ansible_processor_count" and "ansible_processor_vcpus" reported as 0";"https://github.com/ansible/ansible/issues/16533";
 "setup";"ansible -m setup does not check the dependencies it needs to run";"https://github.com/ansible/ansible-modules-core/issues/2003";
 "setup";"network interfaces not in logical order";"https://github.com/ansible/ansible-modules-core/issues/2910";
 "setup";"Provide a way to quiet the "localhost | success >>" output at the start of setup";"https://github.com/ansible/ansible/issues/8520";
@@ -2842,6 +2842,7 @@ module_reference;title;github_url
 "shell";"'shell' docs don't cover different splitting behavour between 'args' and normal variant";"https://github.com/ansible/ansible/issues/10745";
 "shell";"Either the YAML parser or shell module insert leading whitespace on non-first lines";"https://github.com/ansible/ansible/issues/12034";
 "shell";"shell module in check mode, when creates parameter is set, could indicate that it won't run";"https://github.com/ansible/ansible/issues/15206";
+"shell";"shell: creates or removes useless with with_items";"https://github.com/ansible/ansible-modules-core/issues/2624";
 "slack";"Running slack module with sudo: yes will fail inside a playbook.yml";"https://github.com/ansible/ansible-modules-extras/issues/1041";
 "slack";"allow more colors into slack plugin";"https://github.com/ansible/ansible/issues/11935";
 "slack";"find_module: allow regex in paths";"https://github.com/ansible/ansible-modules-core/issues/2775";
@@ -2873,8 +2874,6 @@ module_reference;title;github_url
 "supervisorctl";"Add "reloaded" state for supervisorctl module";"https://github.com/ansible/ansible-modules-core/pull/3755";
 "supervisorctl";"Supervisorctl restart all processes very slow";"https://github.com/ansible/ansible-modules-core/issues/772";
 "supervisorctl";"Support a 'signalled' state in the supervisorctl module";"https://github.com/ansible/ansible-modules-core/issues/3299";
-"svc";"docker: 'reloaded' state recreates container everytime if volumes-from is used";"https://github.com/ansible/ansible-modules-core/issues/1130";
-"svc";"Docker: 'reloaded' state not recreating container";"https://github.com/ansible/ansible-modules-core/issues/1129";
 "svr4pkg";"svr4pkg fails to detect it installed packages";"https://github.com/ansible/ansible-modules-extras/issues/1792";
 "svr4pkg";"Resolve error case where state=present fails";"https://github.com/ansible/ansible-modules-extras/pull/2244";
 "svr4pkg";"svr4pkg fails to install package on subsequent runs";"https://github.com/ansible/ansible-modules-extras/issues/1658";
@@ -2891,6 +2890,7 @@ module_reference;title;github_url
 "synchronize";"delegate_to with synchronize forgets ansible_user";"https://github.com/ansible/ansible/issues/16215";
 "synchronize";"synchronize uses wrong SSH user";"https://github.com/ansible/ansible/issues/12413";
 "synchronize";"synchronize: support multiple sources";"https://github.com/ansible/ansible-modules-core/issues/2965";
+"synchronize";"synchronize: not working as expected";"https://github.com/ansible/ansible-modules-core/issues/553";
 "synchronize";"synchronize module "ssh_args" parameters is not documented";"https://github.com/ansible/ansible-modules-core/issues/3370";
 "synchronize";"ansible_ssh_port template not expanded for synchronize";"https://github.com/ansible/ansible/issues/9926";
 "synchronize";"Synchronize failed with delegate_to and sudo password";"https://github.com/ansible/ansible/issues/15405";
@@ -2945,6 +2945,7 @@ module_reference;title;github_url
 "unarchive";"Add strip-component option in unarchive module";"https://github.com/ansible/ansible-modules-core/issues/2480";
 "unarchive";"Suggest renaming copy=no on unarchive to something else";"https://github.com/ansible/ansible/issues/10218";
 "unarchive";"2.0 - Unarchive results in dest must be an existing dir with fish shell";"https://github.com/ansible/ansible/issues/13860";
+"unarchive";"unarchive: fails when 'copy' parameter is passed using a list";"https://github.com/ansible/ansible-modules-core/issues/3996";
 "unarchive";"support plain gzip in unarchive";"https://github.com/ansible/ansible-modules-core/issues/1035";
 "unarchive";"add selection support to unarchive";"https://github.com/ansible/ansible-modules-core/issues/2037";
 "unarchive";"Revert PR #3575 since it causes problems related to exclude patterns";"https://github.com/ansible/ansible-modules-core/pull/3767";
@@ -2953,6 +2954,7 @@ module_reference;title;github_url
 "unarchive";"Unarchive exclude throws erroneous error";"https://github.com/ansible/ansible-modules-core/issues/3988";
 "unarchive";"Unarchive module - Throws error when unzipping a folder containing spaces";"https://github.com/ansible/ansible-modules-core/issues/3980";
 "unarchive";"unarchive module not correctly unzipping symlinks";"https://github.com/ansible/ansible-modules-core/issues/1823";
+"unarchive";"unarchive: confusing error message when src points to directory instead of archive file";"https://github.com/ansible/ansible-modules-core/issues/2377";
 "unarchive";"unarchive overwrite symlinks";"https://github.com/ansible/ansible-modules-core/issues/3570";
 "unarchive";"unarchive inexplicit error message when required command (like bzip2) is missing";"https://github.com/ansible/ansible-modules-core/issues/3974";
 "unarchive";"unarchive: file not found for zip archive with space files";"https://github.com/ansible/ansible-modules-extras/issues/2336";
@@ -2961,6 +2963,7 @@ module_reference;title;github_url
 "unarchive";"Using module unarchive with a gentoo stage 3 cause an error";"https://github.com/ansible/ansible-modules-core/issues/3552";
 "unarchive";"unarchive module: fails when used with URL";"https://github.com/ansible/ansible-modules-core/issues/3228";
 "unarchive";"unarchive on OSX does not extract the archive and fails with an error";"https://github.com/ansible/ansible-modules-core/issues/3952";
+"unarchive";"unarchive: add directory_mode parameter";"https://github.com/ansible/ansible-modules-core/issues/3048";
 "unarchive";"unarchive: Option to not preserve ownership";"https://github.com/ansible/ansible-modules-core/issues/1292";
 "unarchive";"Fix unarchive permission issue to tempdir";"https://github.com/ansible/ansible-modules-core/pull/3452";
 "unarchive";"Add an "include" parameter to unarchive";"https://github.com/ansible/ansible/issues/16130";
@@ -3029,7 +3032,6 @@ module_reference;title;github_url
 "user";"user: Fix adding a user who's group exists for SLES11";"https://github.com/ansible/ansible-modules-core/pull/2694";
 "user";"IdentityFile flag passed by ProxyCommand arguments not being evaluated";"https://github.com/ansible/ansible/issues/14186";
 "user";"user module: Can't pass groups as a list";"https://github.com/ansible/ansible-modules-core/issues/1427";
-"user";"win_acl: setting user permissions issue";"https://github.com/ansible/ansible/issues/15737";
 "user";"user module: unable create/modify user in HP-UX 11.23";"https://github.com/ansible/ansible-modules-core/issues/603";
 "user";"User module chroot_dir support";"https://github.com/ansible/ansible-modules-core/issues/2012";
 "user";"user module should be able to configure RBAC attributes on Solarish systems";"https://github.com/ansible/ansible-modules-core/issues/3936";
@@ -3054,6 +3056,7 @@ module_reference;title;github_url
 "virt";"Virt module: get_xml missing flags option";"https://github.com/ansible/ansible-modules-extras/issues/84";
 "virt";"Add parameters to virt module";"https://github.com/ansible/ansible-modules-extras/pull/1051";
 "virt";"virt: add a parameter for the autostart command";"https://github.com/ansible/ansible-modules-extras/pull/1426";
+"virt";"Virt: Make it possible to change host definitions";"https://github.com/ansible/ansible-modules-extras/issues/777";
 "vmware_add_hdd";"Added the vmware_add_hdd module. This module enables a user to add a ";"https://github.com/ansible/ansible-modules-extras/pull/1837";
 "vmware_datacenter";"Unable to use vmware_datacenter module";"https://github.com/ansible/ansible-modules-core/issues/2900";
 "vmware_host";"vmware_host is not idempotent";"https://github.com/ansible/ansible-modules-extras/issues/1484";
@@ -3066,7 +3069,6 @@ module_reference;title;github_url
 "vmware_vm_facts";"Allow vm_facts to be restricted to a given folder or cluster in a dat";"https://github.com/ansible/ansible-modules-extras/pull/1878";
 "vmware_vsan_license";"VMware vSAN license module";"https://github.com/ansible/ansible-modules-extras/pull/1605";
 "vscale_scalets";"Added modules for manage scalets and SSH keys in VSCALE";"https://github.com/ansible/ansible-modules-extras/pull/1386";
-"vsphere_copy";"vsphere_guest: need an option to attach an existing disk";"https://github.com/ansible/ansible-modules-core/issues/2116";
 "vsphere_copy";"vsphere_copy - Speed operation by writing files directly to datastore host";"https://github.com/ansible/ansible-modules-extras/issues/899";
 "vsphere_guest";"vsphere_guest VM clone and power state";"https://github.com/ansible/ansible/issues/10310";
 "vsphere_guest";"vsphere_guest abbility to change vlan";"https://github.com/ansible/ansible/issues/10309";
@@ -3079,6 +3081,7 @@ module_reference;title;github_url
 "vsphere_guest";"vsphere_guest: Cannot find Resource Pool named: <resource_pool_name>";"https://github.com/ansible/ansible-modules-core/issues/2006";
 "vsphere_guest";"vsphere_guest: adding vm_disk is failing on 2nd pass of reconfiguration task, if disk is not present in the configuration.";"https://github.com/ansible/ansible-modules-core/issues/3616";
 "vsphere_guest";"vsphere_guest: vm_nic should include manual MAC change feature";"https://github.com/ansible/ansible-modules-core/issues/3615";
+"vsphere_guest";"vsphere_guest: need an option to attach an existing disk";"https://github.com/ansible/ansible-modules-core/issues/2116";
 "vsphere_guest";"No changes happening under vm_extra_config";"https://github.com/ansible/ansible-modules-core/issues/2971";
 "vsphere_guest";"Treat deploy_template more like create_vm";"https://github.com/ansible/ansible-modules-core/pull/3097";
 "vsphere_guest";"Added options to update the reserved memory and the reserved cpu(in MH";"https://github.com/ansible/ansible-modules-core/pull/3543";
@@ -3106,6 +3109,7 @@ module_reference;title;github_url
 "webfaction_facts";"add module to gather facts from Webfaction";"https://github.com/ansible/ansible-modules-extras/pull/710";
 "win_acl";"Modified win_acl to accept Security Identifiers for Windows' users and groups";"https://github.com/ansible/ansible-modules-extras/pull/1480";
 "win_acl";"win_acl: set permissions to apppool identities don't work";"https://github.com/ansible/ansible-modules-extras/issues/1433";
+"win_acl";"win_acl: setting user permissions issue";"https://github.com/ansible/ansible/issues/15737";
 "win_certificate";"New module to enable the installation of certificates on Windows";"https://github.com/ansible/ansible-modules-extras/pull/1374";
 "win_chocolatey";"win_chocolatey always returning items have changed";"https://github.com/ansible/ansible-modules-extras/issues/1164";
 "win_chocolatey";"win_chocolatey throws errors";"https://github.com/ansible/ansible-modules-extras/issues/1021";
@@ -3136,6 +3140,7 @@ module_reference;title;github_url
 "win_iis_webapppool";"win_iis_webapppool failing with 'Specified cast is not valid'";"https://github.com/ansible/ansible-modules-extras/issues/2072";
 "win_iis_webbinding";"Changed win_iis_webbinding to accept friendly names for certificates";"https://github.com/ansible/ansible-modules-extras/pull/1481";
 "win_iis_webbinding";"win_iis_webbinding: remove default binding";"https://github.com/ansible/ansible-modules-extras/issues/1432";
+"win_iis_webbinding";"win_iis_webbinding: ssl_flags property [FR]";"https://github.com/ansible/ansible-modules-extras/issues/1435";
 "win_iis_website";"fix 'The property 'Value' cannot be found on this object' error under strict mode";"https://github.com/ansible/ansible-modules-extras/pull/2212";
 "win_lineinfile";"win_lineinfile idempotence broken";"https://github.com/ansible/ansible-modules-core/issues/3381";
 "win_lineinfile";"win_lineinfile changes permissions of target file on update";"https://github.com/ansible/ansible-modules-core/issues/2236";
@@ -3145,6 +3150,7 @@ module_reference;title;github_url
 "win_msi";"win_msi extra_args issue";"https://github.com/ansible/ansible/issues/15459";
 "win_msi";"win_msi not working - ansible 2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/3068";
 "win_nssm";"win_nssm issue with no appParameters specified";"https://github.com/ansible/ansible-modules-extras/issues/1161";
+"win_package";"win_package: Download redirected file";"https://github.com/ansible/ansible-modules-extras/issues/1271";
 "win_package";"win_package: The variable '$script:MsiTools' cannot be retrieved because it has not been set.";"https://github.com/ansible/ansible-modules-extras/issues/1073";
 "win_package";"win_package: does not access user_name + user_password for samba share, local authentication";"https://github.com/ansible/ansible-modules-extras/issues/1140";
 "win_package";"win_package: won't accept non-GUID program IDs";"https://github.com/ansible/ansible-modules-extras/issues/1141";
@@ -3152,6 +3158,7 @@ module_reference;title;github_url
 "win_ping";"Ansible winrm 'SSL23_GET_SERVER_HELLO:unknown protocol' on non-ssl port";"https://github.com/ansible/ansible/issues/16520";
 "win_reboot";"win_webpicmd_module doc error";"https://github.com/ansible/ansible-modules-extras/issues/1678";
 "win_regedit";"win_regedit: change detection doesn't work for environment variables in registry keys of type expandstring";"https://github.com/ansible/ansible-modules-extras/issues/2446";
+"win_regedit";"win_regedit: slow performance when looping (to set multiple registry keys)";"https://github.com/ansible/ansible-modules-extras/issues/1142";
 "win_regedit";"win_regedit failing due to checking for registryValue default value";"https://github.com/ansible/ansible-modules-extras/issues/2495";
 "win_regmerge";"win_regmerge is not idempotent, and does not support check-mode and diff-mode";"https://github.com/ansible/ansible-modules-extras/issues/2332";
 "win_scheduled_task";"Win_schedule_tasks strict mode fixes, periodicity updates, working directory";"https://github.com/ansible/ansible-modules-extras/pull/2097";
@@ -3162,10 +3169,11 @@ module_reference;title;github_url
 "win_template";"win_template fails Test-Path : Illegal characters in path";"https://github.com/ansible/ansible-modules-core/issues/4004";
 "win_timezone";"New Windows Modules Missing RETURN docs";"https://github.com/ansible/ansible-modules-extras/issues/1767";
 "win_unzip";"win_unzip exception on windows 2012 R2 core";"https://github.com/ansible/ansible-modules-extras/issues/1233";
+"win_unzip";"BUG win_unzip: force to declare properties on v2.0.0-0.6.rc1";"https://github.com/ansible/ansible-modules-core/issues/2572";
 "win_unzip";"win_unzip src/dest path converted to unicode  ";"https://github.com/ansible/ansible-modules-extras/issues/1805";
 "win_updates";"win_updates expansion ";"https://github.com/ansible/ansible-modules-extras/issues/921";
 "win_updates";"win_updates: You must specify an object for the Get-Member cmdlet.";"https://github.com/ansible/ansible-modules-extras/issues/2452";
-"win_updates";"win_regedit: slow performance when looping (to set multiple registry keys)";"https://github.com/ansible/ansible-modules-extras/issues/1142";
+"win_updates";"win_updates: category=security failing.";"https://github.com/ansible/ansible-modules-extras/issues/275";
 "win_user";"Remove redundant conversion to boolean";"https://github.com/ansible/ansible-modules-core/pull/2289";
 "win_webpicmd";"windows 8.1 .net 3.5 installation: raw, win_chocolatey, win_webpicmd";"https://github.com/ansible/ansible/issues/14386";
 "win_zip";"win_zip Module";"https://github.com/ansible/ansible-modules-extras/pull/177";
@@ -3200,6 +3208,7 @@ module_reference;title;github_url
 "yum";"Yum plugin doesn't support update-to";"https://github.com/ansible/ansible-modules-core/issues/2419";
 "yum";"Confusing error message, error caused by non existing container name provided in volumes_from is not handled correctly";"https://github.com/ansible/ansible-modules-core/issues/2793";
 "yum";"Ability to ignore excludes in the yum module";"https://github.com/ansible/ansible-modules-core/issues/3420";
+"yum";"yum: honour package version pinning via yum-plugin-versionlock";"https://github.com/ansible/ansible/issues/13086";
 "yum";"fix for yum to use localinstall when using an rpm";"https://github.com/ansible/ansible-modules-core/pull/1803";
 "yum";"yum module should support state "downloaded"";"https://github.com/ansible/ansible-modules-core/issues/1964";
 "yum";"yum module doesn't call rhnplugin, because module-file is named yum";"https://github.com/ansible/ansible/issues/13527";
