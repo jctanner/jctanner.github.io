@@ -66,6 +66,7 @@ module_reference;title;github_url
 "None";"Add support for merging lists when merging hashes";"https://github.com/ansible/ansible/pull/16257";
 "None";"dependencies in requirements.yml do not use path";"https://github.com/ansible/ansible/issues/9572";
 "None";"Openstack inventory script returns nothing for RDO Kilo";"https://github.com/ansible/ansible/issues/15148";
+"None";"facts.py invokes 'findmnt -lnur' which doesn't work in fedora/rhel7";"https://github.com/ansible/ansible/issues/16554";
 "None";"Check hosts file is executable before asking for passwords";"https://github.com/ansible/ansible/issues/9406";
 "None";"Including a playbook with variables adds extra quotes to the variables";"https://github.com/ansible/ansible/issues/13780";
 "None";"Rollback roles";"https://github.com/ansible/ansible/issues/16260";
@@ -195,6 +196,7 @@ module_reference;title;github_url
 "None";"Ansible 2: Trailing newline added when referencing stdout_lines[x]";"https://github.com/ansible/ansible/issues/15099";
 "None";"no_log ignored for file module";"https://github.com/ansible/ansible/issues/11553";
 "None";"[Suggestion] Ansible retry and timeout at hosts level.";"https://github.com/ansible/ansible/issues/11551";
+"None";"Regression on include with symlink";"https://github.com/ansible/ansible/issues/14107";
 "None";"Fixes #15215 - Inventory script does not work with assumed roles";"https://github.com/ansible/ansible/pull/15451";
 "None";"add possibility to add  custom/additional ssh_known_hosts_files in ansible.cfg";"https://github.com/ansible/ansible/issues/10207";
 "None";"Finalize task parameter values from include actions";"https://github.com/ansible/ansible/pull/14185";
@@ -248,6 +250,7 @@ module_reference;title;github_url
 "None";"_low_level_execute_command() done: rc=1, stdout=, stderr='PowerShell' is not recognized as an internal or external command, operable program or batch file.";"https://github.com/ansible/ansible/issues/16425";
 "None";"Switch etcd lookup plugin to work with etcd v2 api";"https://github.com/ansible/ansible/pull/14975";
 "None";"Issue with ansible_ssh_port";"https://github.com/ansible/ansible/issues/13692";
+"None";"EC2 dynamic inventory script can't query stopped instances";"https://github.com/ansible/ansible/issues/12233";
 "None";"Low performance";"https://github.com/ansible/ansible/issues/12239";
 "None";"Add missing documentation about defaults/main.yml";"https://github.com/ansible/ansible/pull/16331";
 "None";""flat" parameter on fetch should have options listed";"https://github.com/ansible/ansible/issues/10600";
@@ -340,6 +343,7 @@ module_reference;title;github_url
 "None";"feature request: current role name & current play name variables";"https://github.com/ansible/ansible/issues/11349";
 "None";"Unable to use dict for defining scm dependency in meta/main.yml";"https://github.com/ansible/ansible/issues/11993";
 "None";"let fileglob glob more than files";"https://github.com/ansible/ansible/issues/11444";
+"None";"Support User-Specified Order of Operations in Host Patterns";"https://github.com/ansible/ansible/issues/10862";
 "None";"Added Oracle Virtual Manager inventory provider";"https://github.com/ansible/ansible/pull/12116";
 "None";"connection plugin paramiko_ssh should have a scp_if_ssh flag like -c ssh does (edited)";"https://github.com/ansible/ansible/issues/6818";
 "None";"Adding lookup plugin for postgresql database";"https://github.com/ansible/ansible/pull/11315";
@@ -589,6 +593,7 @@ module_reference;title;github_url
 "None";"Integration tests for notify with variable list.";"https://github.com/ansible/ansible/pull/11501";
 "None";"Accessing default variables for other hosts";"https://github.com/ansible/ansible/issues/12715";
 "None";"hostvars with variables for different hosts";"https://github.com/ansible/ansible/issues/12714";
+"None";"Support ok_when condition for tasks.";"https://github.com/ansible/ansible/issues/12710";
 "None";"[Feature request] If a task fails, show the exact CLI command that failed";"https://github.com/ansible/ansible/issues/14462";
 "None";"Become method of pbrun errors with "Command not found"";"https://github.com/ansible/ansible/issues/14934";
 "None";"Allow holizontal scroll for oversized options table";"https://github.com/ansible/ansible/pull/12748";
@@ -1537,7 +1542,6 @@ module_reference;title;github_url
 "ec2";"Spot Fleet support?";"https://github.com/ansible/ansible-modules-core/issues/3036";
 "ec2";"Improve EC2 ELB lookup filtering";"https://github.com/ansible/ansible-modules-core/pull/1713";
 "ec2";"EC2 inventory script (ec2.py) needs better error messages & guidance";"https://github.com/ansible/ansible/issues/10840";
-"ec2";"EC2 dynamic inventory script can't query stopped instances";"https://github.com/ansible/ansible/issues/12233";
 "ec2";"EC2 module parameter `id` is undocumented.";"https://github.com/ansible/ansible-modules-core/issues/2481";
 "ec2";"ec2 module tracebacks on cred failure";"https://github.com/ansible/ansible-modules-core/issues/3827";
 "ec2";"ec2 module: profile option ignored";"https://github.com/ansible/ansible-modules-core/issues/1701";
@@ -1970,7 +1974,6 @@ module_reference;title;github_url
 "git";"git module tries to outsmart git and ssh and fails";"https://github.com/ansible/ansible-modules-core/issues/3253";
 "git";"git - in Ansible 2.1 switching a shallow clone from tag to branch fails";"https://github.com/ansible/ansible-modules-core/issues/3817";
 "git";"Add support for nested hostgroups in FreeIPA";"https://github.com/ansible/ansible/pull/14695";
-"git";"Regression on include with symlink";"https://github.com/ansible/ansible/issues/14107";
 "git";"git module `accept_hostkey=yes` option now works with non-standart ssh ports";"https://github.com/ansible/ansible/pull/16160";
 "git";"git clone still fails with non-standard port";"https://github.com/ansible/ansible-modules-core/issues/2669";
 "git";"Ansible error message says 'Set accept_hostkey to True' when docs specify 'yes' instead of true";"https://github.com/ansible/ansible/issues/12430";
@@ -1983,7 +1986,6 @@ module_reference;title;github_url
 "git";"Fix git shallow update";"https://github.com/ansible/ansible/pull/16224";
 "git";"git module force does not apply force to submodules";"https://github.com/ansible/ansible-modules-core/issues/238";
 "git";"become broken on FreeBSD 10.2 with su";"https://github.com/ansible/ansible/issues/12537";
-"git";"Support User-Specified Order of Operations in Host Patterns";"https://github.com/ansible/ansible/issues/10862";
 "git";"add vpc nat gateway module.";"https://github.com/ansible/ansible-modules-extras/pull/1687";
 "git";"git verify_commit not working for tags";"https://github.com/ansible/ansible-modules-core/issues/2645";
 "git";"Git module fails to update if separated work tree";"https://github.com/ansible/ansible-modules-core/issues/2226";
@@ -2004,7 +2006,6 @@ module_reference;title;github_url
 "git";"ansible-pull not able to use static + dynamic inventory";"https://github.com/ansible/ansible/issues/15014";
 "git";"Use submodules for plugins";"https://github.com/ansible/ansible/issues/10657";
 "git";"Add test for ambiguous git ref";"https://github.com/ansible/ansible/pull/15537";
-"git";"Support ok_when condition for tasks.";"https://github.com/ansible/ansible/issues/12710";
 "git";"pyasn1 version issue ";"https://github.com/ansible/ansible/issues/16383";
 "git";"git: Doesn't pick up new tags for already installed revision";"https://github.com/ansible/ansible-modules-core/issues/527";
 "git";"speedup git integration tests";"https://github.com/ansible/ansible/issues/15491";
@@ -2038,12 +2039,13 @@ module_reference;title;github_url
 "git";"Fixes #1509 (Duplicate of #2177 for devel branch)";"https://github.com/ansible/ansible-modules-core/pull/2874";
 "git";"Git module refactor and new git clean files feature";"https://github.com/ansible/ansible-modules-core/pull/2980";
 "git";"git module SHA version not work for clone";"https://github.com/ansible/ansible-modules-core/issues/1531";
+"git";"Run Windows modules asynchronously as scheduled jobs";"https://github.com/ansible/ansible-modules-extras/issues/287";
 "git";"git: checkout occurs despite running in check_mode";"https://github.com/ansible/ansible-modules-core/issues/2531";
 "git";"Issue on git with SSH and async";"https://github.com/ansible/ansible-modules-core/issues/2625";
 "git";" [git module] Document where key_file is looked up from ";"https://github.com/ansible/ansible-modules-core/issues/2908";
 "git";"Ansible Galaxy: Keep clone of repositories";"https://github.com/ansible/ansible/issues/12353";
-"gitflow";"Added module for git-flow, V.1.0";"https://github.com/ansible/ansible-modules-extras/pull/372";
 "github_hooks";"Update github_hooks.py";"https://github.com/ansible/ansible-modules-extras/pull/2217";
+"github_hooks";"Added module for git-flow, V.1.0";"https://github.com/ansible/ansible-modules-extras/pull/372";
 "github_key";"New module - github_key";"https://github.com/ansible/ansible-modules-extras/pull/692";
 "gitlab_x";"Gitlab python binding";"https://github.com/ansible/ansible-modules-extras/issues/2159";
 "gke";"Google Container Engine cluster management module";"https://github.com/ansible/ansible-modules-extras/pull/1264";
@@ -2305,7 +2307,6 @@ module_reference;title;github_url
 "mail";"Fix some SSL errors in mail.py causing SMTP Syntax Errors ";"https://github.com/ansible/ansible-modules-extras/pull/708";
 "mail";"Allow Excluding and/or overriding transitive role dependencies";"https://github.com/ansible/ansible/issues/13215";
 "mail";"Log formatting is not properly done";"https://github.com/ansible/ansible-modules-core/issues/3209";
-"mail";"Run Windows modules asynchronously as scheduled jobs";"https://github.com/ansible/ansible-modules-extras/issues/287";
 "mail";"fix mail when cc and bcc are used if None";"https://github.com/ansible/ansible/pull/15608";
 "marathon";"Add marathon module";"https://github.com/ansible/ansible-modules-extras/pull/1258";
 "maven_artifact";"maven_artifact does not use classifier when constructing destination name of artifact";"https://github.com/ansible/ansible-modules-extras/issues/2139";
@@ -3209,6 +3210,7 @@ module_reference;title;github_url
 "yum";"Add an option to specifiy cache valid time period to YUM module";"https://github.com/ansible/ansible-modules-core/issues/1117";
 "yum";"FR - improve yum clean/makecache support";"https://github.com/ansible/ansible-modules-core/issues/2667";
 "yum";"yum: refactoring working with yum groups";"https://github.com/ansible/ansible-modules-core/pull/1666";
+"yum";"yum module doesn't install group if 'state=latest' but does if 'state=present'";"https://github.com/ansible/ansible/issues/16549";
 "yum";"yum: run a single yum command with state=latest";"https://github.com/ansible/ansible-modules-core/issues/1556";
 "yum";"Ansible reports "All packages providing xxx are up to date", but that is not true.";"https://github.com/ansible/ansible-modules-core/pull/3579";
 "yum";"Unable to define path variable in playbook";"https://github.com/ansible/ansible/issues/14959";
