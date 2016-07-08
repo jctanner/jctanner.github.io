@@ -16,6 +16,9 @@ module_reference;title;github_url
 ;"add --diff setting in ansible.cfg";"https://github.com/ansible/ansible/issues/16073";
 ;"ansible-playbook should read dynamic inventory in INI like format";"https://github.com/ansible/ansible/issues/16075";
 ;"Enviroment  provided vars are not properly quoted";"https://github.com/ansible/ansible/issues/13558";
+;"ansible su root prompt";"https://github.com/ansible/ansible/pull/16644";
+;"Adding a test for GalaxyCLI. Tests execute_init method.";"https://github.com/ansible/ansible/pull/16645";
+;"J2 test docs";"https://github.com/ansible/ansible/pull/16646";
 ;"Unable to remove requiretty from /etc/sudoers on clean Debian machines";"https://github.com/ansible/ansible/issues/15127";
 ;"Add enumeration of block devices to ec2_block_devices";"https://github.com/ansible/ansible/pull/14676";
 ;"Allow names to include the dot character";"https://github.com/ansible/ansible/pull/16091";
@@ -471,6 +474,7 @@ module_reference;title;github_url
 ;"Feature request: tags that are excluded by default";"https://github.com/ansible/ansible/issues/11045";
 ;"Groups naming convention in vagrant hosts provider";"https://github.com/ansible/ansible/pull/14235";
 ;"Add validate recipes to the docs";"https://github.com/ansible/ansible/issues/11048";
+;"Adding a test for GalaxyCLI and two methods on which it depends. Test";"https://github.com/ansible/ansible/pull/16647";
 ;"ansible 2.0.0.2 - ValueError: file descriptor out of range in select()";"https://github.com/ansible/ansible/issues/14143";
 ;"--limit restricts visibility to hostvars not in the catalogue for the current run";"https://github.com/ansible/ansible/issues/14141";
 ;"Execute different task order in role, if different action specified then default";"https://github.com/ansible/ansible/issues/9211";
@@ -1521,6 +1525,7 @@ module_reference;title;github_url
 "docker_container";"[docker_container] typo in has_different_configuration";"https://github.com/ansible/ansible-modules-core/pull/3992";
 "docker_facts";"Added Docker Facts module: issue #57";"https://github.com/ansible/ansible-modules-extras/pull/58";
 "docker_image";"Add ability to pass --build-arg to docker build in docker_image module";"https://github.com/ansible/ansible/issues/16265";
+"docker_image";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker_image";"docker_image: should remove previous image";"https://github.com/ansible/ansible-modules-core/issues/2056";
 "docker_image";"Can not use docker_image module from OSX";"https://github.com/ansible/ansible-modules-core/issues/1450";
 "docker_image";"Removes check for authentication data in Docker client configuration file";"https://github.com/ansible/ansible-modules-core/pull/3961";
@@ -1531,7 +1536,6 @@ module_reference;title;github_url
 "docker_image";"ansible docker_image cant find a locally available image on build";"https://github.com/ansible/ansible-modules-core/issues/3760";
 "docker_image";"docker_image: tagging without pushing to repository?";"https://github.com/ansible/ansible/issues/16525";
 "docker_image";"Dont forcibly push loaded images to registry.";"https://github.com/ansible/ansible-modules-core/pull/3887";
-"docker_image";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker_image";"docker_image: Should support load & save";"https://github.com/ansible/ansible-modules-core/issues/2400";
 "docker_image";"docker_image module: Adding optional image_id parameter (for deleting image)";"https://github.com/ansible/ansible-modules-core/issues/1506";
 "docker_image";"docker_image needs ARG directive support";"https://github.com/ansible/ansible-modules-core/issues/2983";
@@ -1915,6 +1919,7 @@ module_reference;title;github_url
 "file";"Ignore errors while deleting a directory using force";"https://github.com/ansible/ansible-modules-core/pull/2904";
 "file";"Allow for directory or link in place of file with state";"https://github.com/ansible/ansible-modules-core/issues/3669";
 "file";"File mode 0755 fails for a tar in `unarchive`";"https://github.com/ansible/ansible-modules-core/issues/4063";
+"file";"Defining a static IP address with ansible_host for a remote hostname in inventory file is useless";"https://github.com/ansible/ansible-modules-core/issues/4118";
 "file";"Add a YAML file module?";"https://github.com/ansible/ansible-modules-core/issues/1746";
 "filesystem";"Filesystem module doesnt allow re-initialization";"https://github.com/ansible/ansible-modules-extras/issues/1472";
 "filesystem";"Add support to create swap partitions";"https://github.com/ansible/ansible-modules-extras/pull/1863";
@@ -2137,7 +2142,6 @@ module_reference;title;github_url
 "homebrew_cask";"homebrew_cask module requires force option";"https://github.com/ansible/ansible-modules-extras/issues/1345";
 "homebrew_cask";"homebrew_cask should allow / in name parameter";"https://github.com/ansible/ansible-modules-extras/issues/1905";
 "homebrew_tap";"homebrew_tap: Cannot add tap hosted outside of GitHub";"https://github.com/ansible/ansible-modules-extras/issues/1265";
-"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"Create unique name when two hosts have the same hostname";"https://github.com/ansible/ansible/pull/16367";
 "hostname";"hostname module does not rename correctly on debian";"https://github.com/ansible/ansible-modules-core/issues/2004";
 "hostname";"Limit ansible-pull to a single matching hostname";"https://github.com/ansible/ansible/issues/13101";
@@ -2145,6 +2149,7 @@ module_reference;title;github_url
 "hostname";"Detect if systemd is active on Gentoo Linux";"https://github.com/ansible/ansible-modules-core/pull/3713";
 "hostname";"Hostname not set correctly on Gentoo Linux with systemd";"https://github.com/ansible/ansible-modules-core/issues/3360";
 "hostname";"Support for variables in inventory hostname";"https://github.com/ansible/ansible/issues/16590";
+"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"Docker troubles with ansible hostname module";"https://github.com/ansible/ansible-modules-core/issues/2331";
 "htpasswd";"Allow htpasswd to update/not update passwords";"https://github.com/ansible/ansible-modules-core/pull/2427";
 "htpasswd";"htpasswd can not be used declarative";"https://github.com/ansible/ansible-modules-core/issues/2107";
@@ -2838,6 +2843,7 @@ module_reference;title;github_url
 "service";"Revert Fixes #4448 reloaded services should be started if not running";"https://github.com/ansible/ansible-modules-core/pull/2693";
 "service";"remote_tmp configuration not working as expected";"https://github.com/ansible/ansible-modules-core/issues/3269";
 "service";"service: enable=yes/no with spanish CentOS6 servers is broken";"https://github.com/ansible/ansible-modules-core/issues/3438";
+"service";"test_service failing on enable the ansible test service";"https://github.com/ansible/ansible/issues/16648";
 "service";"Feature Request: Module for integrating with AWS Simple Queue Service (SQS)";"https://github.com/ansible/ansible-modules-core/issues/1221";
 "service";"Dont throw error stopping/disabling unknown service";"https://github.com/ansible/ansible/issues/16134";
 "service";"Service reported as started when lacking permissions on Ubuntu";"https://github.com/ansible/ansible-modules-core/issues/1997";
@@ -2948,6 +2954,7 @@ module_reference;title;github_url
 "synchronize";"synchronize: conditional support of -zz instead of --compress in rsync 3.1.1+";"https://github.com/ansible/ansible/issues/11910";
 "synchronize";"docker_module volumes fails";"https://github.com/ansible/ansible-modules-core/issues/1681";
 "synchronize";"Synchronize module do not expand ansible_ssh_private_key_file variable";"https://github.com/ansible/ansible-modules-core/issues/3339";
+"synchronize";"synchronize module does not handle become user if delegated";"https://github.com/ansible/ansible/issues/16643";
 "synchronize";"Synchronize module handling of ssh StrictHostKeyChecking is not intuitive/broken";"https://github.com/ansible/ansible/issues/14884";
 "synchronize";"sychronize rsync_opts and --private-key= will send two --rsh arguments";"https://github.com/ansible/ansible/issues/15907";
 "synchronize";"synchronize doesnt substitute variables properly";"https://github.com/ansible/ansible/issues/16347";
