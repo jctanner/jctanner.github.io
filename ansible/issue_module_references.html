@@ -698,6 +698,7 @@ module_reference;title;github_url
 ;"adds restconf transport to ios shared module";"https://github.com/ansible/ansible/pull/16611";
 ;"Handlers only run_once when notifying play is run_once: true";"https://github.com/ansible/ansible/issues/15484";
 ;"local_tmp is ignored in ansible.cfg";"https://github.com/ansible/ansible/issues/15719";
+;"Add storage device WWN to facts for Linux";"https://github.com/ansible/ansible/pull/16640";
 ;"multi-file custom modules (with ModuleReplacer), outside /ansible/module...";"https://github.com/ansible/ansible/pull/10274";
 ;"ctrl+c cause crash";"https://github.com/ansible/ansible/issues/15643";
 ;"Darwin uptime_seconds fact";"https://github.com/ansible/ansible/pull/10476";
@@ -934,6 +935,7 @@ module_reference;title;github_url
 ;"Variable not found error in non-templated file";"https://github.com/ansible/ansible/issues/13097";
 ;"Update ansible_ssh_changes_note.rst";"https://github.com/ansible/ansible/pull/13384";
 ;"Regression: inventory directory fails depending on file order";"https://github.com/ansible/ansible/issues/15137";
+;"allows conditional in variable declaration";"https://github.com/ansible/ansible/issues/16642";
 ;"Custom Ansible Module verbosity detection";"https://github.com/ansible/ansible/issues/13685";
 ;"Cant build 1.9.4";"https://github.com/ansible/ansible/issues/12486";
 ;"tuple object has no attribute items";"https://github.com/ansible/ansible/issues/15693";
@@ -1471,6 +1473,7 @@ module_reference;title;github_url
 "docker";"docker module fails on non-ASCII characters";"https://github.com/ansible/ansible-modules-core/issues/2307";
 "docker";"Docker module fails on checking reload conditions";"https://github.com/ansible/ansible-modules-core/issues/2309";
 "docker";"docker for mac (beta) and docker or docker_images modules periodically fail to pull images";"https://github.com/ansible/ansible-modules-core/issues/3964";
+"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"docker: cant launch container with memory_limit=0";"https://github.com/ansible/ansible-modules-core/issues/3398";
 "docker";"Enable docker connector command override.";"https://github.com/ansible/ansible/pull/16198";
 "docker";"Docker image is required to be pushed when use docker-py>=1.3";"https://github.com/ansible/ansible-modules-core/issues/1794";
@@ -1479,7 +1482,6 @@ module_reference;title;github_url
 "docker";"Ansible 2.0.2.0 cant connect to Docker container using docker connection plugin";"https://github.com/ansible/ansible/issues/15956";
 "docker";"[backport-1.9] docker: fix failing in case of empty image tag";"https://github.com/ansible/ansible-modules-core/pull/3084";
 "docker";"docker: fix _human_to_bytes and cpu_shares";"https://github.com/ansible/ansible-modules-core/pull/3082";
-"docker";"Docker containers not removed by image name alone ";"https://github.com/ansible/ansible-modules-core/issues/2948";
 "docker";"Support SELinux volume modes.";"https://github.com/ansible/ansible-modules-core/issues/2176";
 "docker";"Ansible 2.1.0.0 fails with docker directives.";"https://github.com/ansible/ansible/issues/16595";
 "docker";"docker module ignores `links` on `state: present`";"https://github.com/ansible/ansible-modules-core/issues/2771";
@@ -1519,7 +1521,6 @@ module_reference;title;github_url
 "docker_container";"[docker_container] typo in has_different_configuration";"https://github.com/ansible/ansible-modules-core/pull/3992";
 "docker_facts";"Added Docker Facts module: issue #57";"https://github.com/ansible/ansible-modules-extras/pull/58";
 "docker_image";"Add ability to pass --build-arg to docker build in docker_image module";"https://github.com/ansible/ansible/issues/16265";
-"docker_image";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker_image";"docker_image: should remove previous image";"https://github.com/ansible/ansible-modules-core/issues/2056";
 "docker_image";"Can not use docker_image module from OSX";"https://github.com/ansible/ansible-modules-core/issues/1450";
 "docker_image";"Removes check for authentication data in Docker client configuration file";"https://github.com/ansible/ansible-modules-core/pull/3961";
@@ -1530,6 +1531,7 @@ module_reference;title;github_url
 "docker_image";"ansible docker_image cant find a locally available image on build";"https://github.com/ansible/ansible-modules-core/issues/3760";
 "docker_image";"docker_image: tagging without pushing to repository?";"https://github.com/ansible/ansible/issues/16525";
 "docker_image";"Dont forcibly push loaded images to registry.";"https://github.com/ansible/ansible-modules-core/pull/3887";
+"docker_image";"docker_image: support --build-arg parameter (docker 1.9) ";"https://github.com/ansible/ansible-modules-core/issues/2408";
 "docker_image";"docker_image: Should support load & save";"https://github.com/ansible/ansible-modules-core/issues/2400";
 "docker_image";"docker_image module: Adding optional image_id parameter (for deleting image)";"https://github.com/ansible/ansible-modules-core/issues/1506";
 "docker_image";"docker_image needs ARG directive support";"https://github.com/ansible/ansible-modules-core/issues/2983";
@@ -1675,8 +1677,8 @@ module_reference;title;github_url
 "ec2_eip";"ec2_eip documentation not correct";"https://github.com/ansible/ansible/issues/11125";
 "ec2_eip";"ec2_eip error: module not found";"https://github.com/ansible/ansible-modules-core/issues/3549";
 "ec2_eip";"Fixed ec2_eip.py when assigning a standard elastic IP.";"https://github.com/ansible/ansible-modules-core/pull/3548";
-"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"ec2_eip docs do not explain ip and public_ip parameters correctly";"https://github.com/ansible/ansible-modules-core/issues/3144";
+"ec2_eip";"ec2_eip module returns true even when EIP is already assigned";"https://github.com/ansible/ansible-modules-core/issues/3143";
 "ec2_eip";"ec2_eip idempotency patch was reverted";"https://github.com/ansible/ansible-modules-core/issues/1778";
 "ec2_eip";"Add support to ec2_eip to associate with a secondary ip address";"https://github.com/ansible/ansible-modules-core/pull/3604";
 "ec2_elb";"ec2_elb: Failing with boto exception ( 400 - throttling ) ";"https://github.com/ansible/ansible-modules-core/issues/143";
@@ -1986,6 +1988,7 @@ module_reference;title;github_url
 "get_url";"get_url hides netrc failures ";"https://github.com/ansible/ansible-modules-core/issues/3563";
 "get_url";"KeyError status when running get_url over HTTPS and ssl module is not installed on target";"https://github.com/ansible/ansible/issues/13478";
 "get_url";"add support for client certs to get_url";"https://github.com/ansible/ansible-modules-core/issues/617";
+"get_url";"get_url module fails after imports changed. Ref Issue 16191";"https://github.com/ansible/ansible/issues/16638";
 "get_url";"get_url doesnt check if dest file exists when dest is a directory";"https://github.com/ansible/ansible-modules-core/issues/997";
 "get_url";"get_url not using environment variable no_proxy";"https://github.com/ansible/ansible-modules-core/issues/3924";
 "get_url";"get_url fails with some ftp servers";"https://github.com/ansible/ansible-modules-core/issues/3661";
@@ -2102,6 +2105,7 @@ module_reference;title;github_url
 "group";"What groups are nested in what parent group";"https://github.com/ansible/ansible/issues/16026";
 "group";"Group vars not applied in handler for nested hosts in groups";"https://github.com/ansible/ansible/issues/16602";
 "group";"rules_egress empty array not taken into account";"https://github.com/ansible/ansible-modules-core/issues/2153";
+"group";"A group var of a different group is incorrectly applied to a server not in that group";"https://github.com/ansible/ansible/issues/16641";
 "group";"Feature udm group";"https://github.com/ansible/ansible-modules-extras/pull/2396";
 "group";"non_unique parameter for group module";"https://github.com/ansible/ansible-modules-core/issues/79";
 "group";"Bug Report for RDS Params Group example code";"https://github.com/ansible/ansible-modules-core/issues/1340";
@@ -2133,6 +2137,7 @@ module_reference;title;github_url
 "homebrew_cask";"homebrew_cask module requires force option";"https://github.com/ansible/ansible-modules-extras/issues/1345";
 "homebrew_cask";"homebrew_cask should allow / in name parameter";"https://github.com/ansible/ansible-modules-extras/issues/1905";
 "homebrew_tap";"homebrew_tap: Cannot add tap hosted outside of GitHub";"https://github.com/ansible/ansible-modules-extras/issues/1265";
+"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"Create unique name when two hosts have the same hostname";"https://github.com/ansible/ansible/pull/16367";
 "hostname";"hostname module does not rename correctly on debian";"https://github.com/ansible/ansible-modules-core/issues/2004";
 "hostname";"Limit ansible-pull to a single matching hostname";"https://github.com/ansible/ansible/issues/13101";
@@ -2140,7 +2145,6 @@ module_reference;title;github_url
 "hostname";"Detect if systemd is active on Gentoo Linux";"https://github.com/ansible/ansible-modules-core/pull/3713";
 "hostname";"Hostname not set correctly on Gentoo Linux with systemd";"https://github.com/ansible/ansible-modules-core/issues/3360";
 "hostname";"Support for variables in inventory hostname";"https://github.com/ansible/ansible/issues/16590";
-"hostname";"Opensuse version <= 11 wrong hostname strategy";"https://github.com/ansible/ansible-modules-core/issues/3137";
 "hostname";"Docker troubles with ansible hostname module";"https://github.com/ansible/ansible-modules-core/issues/2331";
 "htpasswd";"Allow htpasswd to update/not update passwords";"https://github.com/ansible/ansible-modules-core/pull/2427";
 "htpasswd";"htpasswd can not be used declarative";"https://github.com/ansible/ansible-modules-core/issues/2107";
@@ -3191,6 +3195,7 @@ module_reference;title;github_url
 "win_localgroupmembers";"added win_localgroupmembers files";"https://github.com/ansible/ansible-modules-extras/pull/2301";
 "win_msi";"win_msi $result log $logcontents not showing logs";"https://github.com/ansible/ansible/issues/16261";
 "win_msi";"win_msi extra_args issue";"https://github.com/ansible/ansible/issues/15459";
+"win_msi";"fix win_msi tests by setting wait: true on all win_msi tasks.";"https://github.com/ansible/ansible/pull/16639";
 "win_msi";"win_msi not working - ansible 2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/3068";
 "win_nssm";"win_nssm issue with no appParameters specified";"https://github.com/ansible/ansible-modules-extras/issues/1161";
 "win_package";"win_package: Download redirected file";"https://github.com/ansible/ansible-modules-extras/issues/1271";
