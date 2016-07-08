@@ -9,14 +9,14 @@
 37;yum
 34;s3
 33;ec2_asg
+31;mount
 30;synchronize
-30;mount
 27;rds
 26;ec2_group
+25;setup
 25;file
 25;apt
 25;vsphere_guest
-24;setup
 23;npm
 22;group
 20;ec2_vpc_route_table
@@ -31,8 +31,8 @@
 16;ec2_vol
 15;cloudformation
 15;get_url
+14;ec2_elb_lb
 14;ec2_vpc
-13;ec2_elb_lb
 13;known_hosts
 13;command
 12;elasticache
@@ -40,6 +40,7 @@
 11;find
 11;postgresql_user
 11;digital_ocean
+11;docker_container
 11;wait_for
 11;azure
 10;iam_policy
@@ -48,7 +49,6 @@
 10;ec2_lc
 10;gem
 10;ini_file
-9;docker_container
 9;hostname
 9;route53
 9;subversion
@@ -117,6 +117,7 @@
 4;rpm_key
 4;virt
 4;ec2_ami
+4;gce_net
 4;set_fact
 4;proxmox
 4;debug
@@ -128,6 +129,7 @@
 4;blockinfile
 4;pkgng
 4;eos_command
+4;ios_command
 4;apt_key
 4;apache2_module
 4;django_manage
@@ -139,9 +141,9 @@
 3;win_acl
 3;ecs_service_facts
 3;dnf
-3;gce_net
 3;route53_zone
 3;postgresql_privs
+3;systemd
 3;ios_template
 3;docker_service
 3;rabbitmq_policy
@@ -153,7 +155,6 @@
 3;pagerduty
 3;debconf
 3;homebrew
-3;ios_command
 3;win_iis_webbinding
 3;locale_gen
 3;win_msi
@@ -165,6 +166,7 @@
 3;ec2_key
 3;accelerate
 3;assemble
+3;os_security_group_rule
 3;async_wrapper
 3;mongodb_user
 3;win_lineinfile
@@ -180,7 +182,6 @@
 2;vmware_vm_facts
 2;async_status
 2;postgres_user
-2;systemd
 2;gce_img
 2;clc_server
 2;launchd
@@ -191,6 +192,7 @@
 2;ec2_vpc_peering
 2;xbps
 2;os_network
+2;junos_command
 2;pkg5_publisher
 2;os_image
 2;github_hooks
@@ -208,7 +210,6 @@
 2;cpanm
 2;redis
 2;uncompress
-2;os_security_group_rule
 2;package
 2;zabbix_host
 2;redshift
@@ -314,7 +315,6 @@
 1;blockfromfile
 1;os_nova_quotas
 1;vmware_datacenter
-1;junos_command
 1;datadog_dashboard
 1;eos_eapi
 1;win_file
@@ -334,6 +334,7 @@
 1;bigip_gtm_facts
 1;apache2_config
 1;vscale_scalets
+1;xml
 1;junos_template
 1;pause
 1;influxdb_retention_policy
