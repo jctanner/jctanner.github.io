@@ -11272,6 +11272,7 @@ module_reference;title;github_url
 "copy";"Copy module: cannot place multiple copy lines in same task, only executes last one";"https://github.com/ansible/ansible/issues/2339";
 "copy";"Add support to directly set content in copy module";"https://github.com/ansible/ansible/pull/2296";
 "copy";"delegate_to localhost operations uses python binary from virtualenv ?";"https://github.com/ansible/ansible/issues/13773";
+"copy";"Bad documentation in Copy module.";"https://github.com/ansible/ansible/issues/8457";
 "copy";"Make copy content= add a newline if there isnt one";"https://github.com/ansible/ansible/pull/11749";
 "copy";"failed_when and ignore_errors ignored in check mode in roles in copy module (and probably others)";"https://github.com/ansible/ansible/issues/9943";
 "copy";"Unicode and other fixes for vault";"https://github.com/ansible/ansible/pull/12075";
@@ -11412,7 +11413,6 @@ module_reference;title;github_url
 "copy";"Copy content from variable to file";"https://github.com/ansible/ansible/issues/11012";
 "copy";"copy module failed to work for file with raw string in in";"https://github.com/ansible/ansible/issues/4377";
 "copy";"added a reference to the template module for clarity";"https://github.com/ansible/ansible-modules-core/pull/2668";
-"copy";"Bad documentation in Copy module.";"https://github.com/ansible/ansible/issues/8457";
 "copy";"Copy module fails after recent commits on devel branch";"https://github.com/ansible/ansible/issues/6682";
 "copy";"Fix obvious copy-paste error in module docs";"https://github.com/ansible/ansible-modules-core/pull/1911";
 "copy";"[ANSIBLE 1.8.2] Fail to copy file : Template error while templating string";"https://github.com/ansible/ansible/issues/9745";
@@ -13331,7 +13331,6 @@ module_reference;title;github_url
 "ec2_vpc";"Fixes #172 Updated ec2_vpc module to return created subnets in the same order as they were defined at the playbook";"https://github.com/ansible/ansible-modules-core/pull/825";
 "ec2_vpc";"fix ec2 subnet tags";"https://github.com/ansible/ansible-modules-core/pull/2750";
 "ec2_vpc";"New vpc module. does not contain subnet or route table functionality.";"https://github.com/ansible/ansible-modules-core/pull/1133";
-"ec2_vpc";"ec2_vpc subnets in seemingly random order";"https://github.com/ansible/ansible-modules-core/issues/172";
 "ec2_vpc";"Ensure params were set in ec2_vpc before accessing them";"https://github.com/ansible/ansible/pull/6985";
 "ec2_vpc";"use simpler ec2_connect ec2 util call";"https://github.com/ansible/ansible-modules-core/pull/254";
 "ec2_vpc";"EC2 route tables module";"https://github.com/ansible/ansible-modules-core/pull/258";
@@ -13371,6 +13370,7 @@ module_reference;title;github_url
 "ec2_vpc";"ec2-vpc does not support network-interface as a gateway";"https://github.com/ansible/ansible-modules-core/issues/1636";
 "ec2_vpc";"ec2_vpc creating/updating incorrect subnets";"https://github.com/ansible/ansible-modules-core/pull/2931";
 "ec2_vpc";"unsupported parameter error when using resource_tags to tag a VPC resource";"https://github.com/ansible/ansible/issues/10191";
+"ec2_vpc";"ec2_vpc subnets in seemingly random order";"https://github.com/ansible/ansible-modules-core/issues/172";
 "ec2_vpc";"ec2_vpc creates a new vpc if you change the resource_tags";"https://github.com/ansible/ansible-modules-core/issues/3207";
 "ec2_vpc";"PR to resolve the issue with ec2_vpc module not allowing to use instance id in route_tables";"https://github.com/ansible/ansible/issues/7368";
 "ec2_vpc";"ec2_vpc with templated tags dont work correctly";"https://github.com/ansible/ansible/issues/7833";
@@ -18029,6 +18029,7 @@ module_reference;title;github_url
 "setup";"support for running modules on windows";"https://github.com/ansible/ansible/pull/2739";
 "setup";"Enables the setup module to run as an unprivileged user on AIX";"https://github.com/ansible/ansible/pull/6811";
 "setup";"Logical bug fix in setup module, Incorrectly marking virtual devices as physical.";"https://github.com/ansible/ansible/pull/2052";
+"setup";"first cut and docs for facts.d mechanism for setup module";"https://github.com/ansible/ansible/pull/3228";
 "setup";"add check_mode fact to setup module";"https://github.com/ansible/ansible-modules-core/pull/2007";
 "setup";"Fixed setup module traceback on OpenBSD release versions.";"https://github.com/ansible/ansible/pull/4202";
 "setup";"Cannot run setup";"https://github.com/ansible/ansible/issues/14035";
@@ -18049,7 +18050,6 @@ module_reference;title;github_url
 "setup";"setup module: ValueError: No JSON object could be decoded and No module named module_exec.setup";"https://github.com/ansible/ansible/issues/16152";
 "setup";"if self._play_context.password:\nAttributeError: AnsibleModule object has no attribute _play_context";"https://github.com/ansible/ansible/issues/13583";
 "setup";"Make exception more specific (OSError) in setup module for selinux call";"https://github.com/ansible/ansible/pull/808";
-"setup";"first cut and docs for facts.d mechanism for setup module";"https://github.com/ansible/ansible/pull/3228";
 "setup";"AIX setup module fails";"https://github.com/ansible/ansible-modules-core/issues/1108";
 "setup";"ansible 2.0 runs setup for all plays when run with -t";"https://github.com/ansible/ansible/issues/13602";
 "setup";"setup module: Replace . by _ in interface name";"https://github.com/ansible/ansible/pull/5201";
