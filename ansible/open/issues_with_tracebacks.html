@@ -90,6 +90,11 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/4116";"docker_image ends with exception in docker-py dependency";
 "https://github.com/ansible/ansible-modules-core/issues/4139";"docker_container module purge_networks FAILS";
 "https://github.com/ansible/ansible-modules-core/issues/4161";"docker_container module fails when no ports are exposed";
+"https://github.com/ansible/ansible-modules-core/issues/4213";"decode error when using nxos_template module";
+"https://github.com/ansible/ansible-modules-core/issues/4223";"nxos_config - TypeError: difference() got an unexpected keyword argument path";
+"https://github.com/ansible/ansible-modules-core/issues/4225";"postgresql_user fails to create user";
+"https://github.com/ansible/ansible-modules-core/issues/4258";"rhn_channel relies on now-deprecated XML RPC interface to RedHat Satellite servers";
+"https://github.com/ansible/ansible-modules-core/issues/4274";"issue with junos_command and argument rpcs (if there is an IP @ in the RPC parameter).";
 "https://github.com/ansible/ansible-modules-core/issues/428";"rds_param_group says too many values to unpack";
 "https://github.com/ansible/ansible-modules-core/issues/487";"ec2_group and multiple default groups";
 "https://github.com/ansible/ansible-modules-core/issues/576";"postgresql_user doc could use more explicit options for expires field";
@@ -104,6 +109,8 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/pull/3818";"Fix cursor.execute requiring an iterable";
 "https://github.com/ansible/ansible-modules-core/pull/3863";"Bugfix: IAM group modules need `module` passed";
 "https://github.com/ansible/ansible-modules-core/pull/4175";"win_file: no longer causes a stack trace if called with --diff & extra return info";
+"https://github.com/ansible/ansible-modules-core/pull/4287";"Fixes #3549";
+"https://github.com/ansible/ansible-modules-core/pull/4293";"[rhn_channel] Add support for setting base channels";
 "https://github.com/ansible/ansible-modules-extras/issues/1063";"nmcli aborting with exception when trying to create a new connection";
 "https://github.com/ansible/ansible-modules-extras/issues/1130";"nmcli module failed to run on Mac OS X 10";
 "https://github.com/ansible/ansible-modules-extras/issues/1224";"Npm module gives errors";
@@ -145,6 +152,8 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/2555";"npm: module crashes du to malformed npm output";
 "https://github.com/ansible/ansible-modules-extras/issues/2571";"Mongodb ssl parameter error";
 "https://github.com/ansible/ansible-modules-extras/issues/2575";"mongodb_user throws exception instead of failing properly";
+"https://github.com/ansible/ansible-modules-extras/issues/2603";"elasticsearch_plugin - cant install plugin through proxy";
+"https://github.com/ansible/ansible-modules-extras/issues/2624";"Win_firewall is not working with ansible  2.0.0.2";
 "https://github.com/ansible/ansible-modules-extras/issues/719";"mysql_replication module:  warning from MySQLdb.Warning result in failed task";
 "https://github.com/ansible/ansible-modules-extras/issues/809";"Bower module throws KeyError for packages specified via git endpoint";
 "https://github.com/ansible/ansible-modules-extras/issues/978";"ovirt module KeyError: authorized_key_user_groups";
@@ -153,6 +162,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/pull/2356";"Enhancements and bug fixes for the ecs_service module";
 "https://github.com/ansible/ansible-modules-extras/pull/2469";"fix ovirt UnboundLocalError during vm_start";
 "https://github.com/ansible/ansible-modules-extras/pull/2534";"Add error handling to vApp creation";
+"https://github.com/ansible/ansible-modules-extras/pull/2607";"Monit fix";
 "https://github.com/ansible/ansible/issues/10480";"Openstack plugins ignore private address";
 "https://github.com/ansible/ansible/issues/10740";"ansible 1.9.1 from homebrew on os 10.10.3 -- winrm kerberos error ...";
 "https://github.com/ansible/ansible/issues/10855";"Ansible async task deletes shell script before execution";
@@ -227,6 +237,15 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16725";"pip module broken under Windows?";
 "https://github.com/ansible/ansible/issues/16737";"ansible_connection=lxd fails when connecting to a gentoo container due to default python 3.4 (even though 2.7 is installed as well)";
 "https://github.com/ansible/ansible/issues/16760";"ansible-galaxy info errors with AttributeError: Values instance has no attribute offline";
+"https://github.com/ansible/ansible/issues/16790";"Error installing on OSX 10.11 due on uninstalling setuptools-1.1.6 step";
+"https://github.com/ansible/ansible/issues/16821";"`ansible -m include` fails with Unexpected Exception. Error should probably just be nope.";
+"https://github.com/ansible/ansible/issues/16837";"ansible fails with ERROR! Unexpected Exception: [Errno 12] Cannot allocate memory for case when inventory file has many hosts";
+"https://github.com/ansible/ansible/issues/16855";"Fact gathering fails due to path in /proc/mounts containing quote";
+"https://github.com/ansible/ansible/issues/16868";"Exception due to NoneType retries variable";
+"https://github.com/ansible/ansible/issues/16873";"WinRM - only fails in the 1st run - Bad HTTP response returned from server. Code 500";
+"https://github.com/ansible/ansible/issues/16875";"nAttributeError: DynamicData_Holder object has no attribute get_element_deviceName\n";
+"https://github.com/ansible/ansible/issues/16889";"during [setup] parse_ip_output fails when using wireguard interfaces";
+"https://github.com/ansible/ansible/issues/16907";"Error on until utilizing variable";
 "https://github.com/ansible/ansible/issues/4583";"Solaris prtdiag hangs during gather facts";
 "https://github.com/ansible/ansible/issues/7957";"lookup(file) cant read AES-256 (probably binary) encrypted files";
 "https://github.com/ansible/ansible/issues/8919";"ansible run on Centos Chroot env will raise is_selinux_enabled() exception";
@@ -240,4 +259,6 @@ github_url;title
 "https://github.com/ansible/ansible/pull/16604";"With os.path.realpath it is impossible to have ec2.py as symlink in i";
 "https://github.com/ansible/ansible/pull/16628";"Fixes #163 in galaxy-issues";
 "https://github.com/ansible/ansible/pull/16723";"Fix exceptions thrown from cryptography import";
+"https://github.com/ansible/ansible/pull/16859";"raise AnsibleError in hashi_vault lookup plugin when hvac module is missing";
+"https://github.com/ansible/ansible/pull/16879";"Fix import of gce/gcdns without a libcloud module";
 </pre>
