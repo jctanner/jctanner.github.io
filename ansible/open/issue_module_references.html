@@ -47,11 +47,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/238">ansible-modules-core/issues/238</a></td>
-<td>git module force does not apply force to submodule</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2638">ansible-modules-core/issues/2638</a></td>
 <td>ec2_asg module throws KeyError moderately frequent</td>
 </tr>
@@ -139,6 +134,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4361">ansible-modules-core/issues/4361</a></td>
 <td>Ansible 2.0.2.0 and later break Webmin port test</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4363">ansible-modules-core/issues/4363</a></td>
+<td>'list' object has no attribute 'items'\r\n"</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3254,6 +3254,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/15511">ansible/issues/15511</a></td>
 <td>Output everything on one line without hostname,sta</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/15517">ansible/issues/15517</a></td>
+<td>include_vars does a hash merge instead of replace </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6662,11 +6667,6 @@
 </tr>
 <tr>
 <td>docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4363">ansible-modules-core/issues/4363</a></td>
-<td>list object has no attribute items\r\n</td>
-</tr>
-<tr>
-<td>docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/522">ansible-modules-core/issues/522</a></td>
 <td>docker volumes aren't bound properly</td>
 </tr>
@@ -7729,11 +7729,6 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/612">ansible-modules-core/issues/612</a></td>
 <td>git module: does not fetch new branches when branc</td>
-</tr>
-<tr>
-<td>git</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/614">ansible-modules-core/issues/614</a></td>
-<td>  git module: overwrites local commits</td>
 </tr>
 <tr>
 <td>git</td>
@@ -12846,41 +12841,6 @@
 <td>Split script module `free_form` parameter into `pa</td>
 </tr>
 <tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
-<td>Playbook role variables overwritten by include_var</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
-<td>include_vars not respecting hash_behaviour</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
-<td>include_vars not merging when called on same file </td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
-<td>Ansible 1.9's include_vars has funky priority</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/15517">ansible/issues/15517</a></td>
-<td>include_vars does a hash merge instead of replace </td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
-<td>include_vars does not consider ignore_errors</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
-<td>include_vars now properly deals with hash_behaviou</td>
-</tr>
-<tr>
 <td>add_host</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3334">ansible-modules-core/issues/3334</a></td>
 <td>Make add_host less verbose</td>
@@ -13384,6 +13344,36 @@
 <td>mail</td>
 <td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
 <td>fix mail when cc and bcc are used if None</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
+<td>Playbook role variables overwritten by include_var</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
+<td>include_vars not respecting hash_behaviour</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
+<td>include_vars not merging when called on same file </td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
+<td>Ansible 1.9's include_vars has funky priority</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
+<td>include_vars does not consider ignore_errors</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
+<td>include_vars now properly deals with hash_behaviou</td>
 </tr>
 <tr>
 <td>debconf</td>
