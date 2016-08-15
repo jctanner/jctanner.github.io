@@ -9,6 +9,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/1397";"Add support for port ranges to the Docker module";
 "https://github.com/ansible/ansible-modules-core/issues/1505";"iam_policy issue";
 "https://github.com/ansible/ansible-modules-core/issues/1611";"ec2_metric_alarm fails to change alarm without dimensions";
+"https://github.com/ansible/ansible-modules-core/issues/1701";"ec2 module: profile option ignored";
 "https://github.com/ansible/ansible-modules-core/issues/1718";"ec2_elb_lb: module does not accept vpc_id";
 "https://github.com/ansible/ansible-modules-core/issues/1772";"ec2_vpc doesnt handle vpc creation failure gracefully";
 "https://github.com/ansible/ansible-modules-core/issues/1773";"ec2 volume creation breaks with older boto in v2";
@@ -24,6 +25,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/2360";"KeyError: host_config";
 "https://github.com/ansible/ansible-modules-core/issues/2389";"temporary AWS Access Keys results in auth failures";
 "https://github.com/ansible/ansible-modules-core/issues/2576";"Idempotence with EC2 Security Groups";
+"https://github.com/ansible/ansible-modules-core/issues/2638";"ec2_asg module throws KeyError moderately frequently";
 "https://github.com/ansible/ansible-modules-core/issues/2652";"Bug Report. AWS ASG module property wait_for_instances: no errors";
 "https://github.com/ansible/ansible-modules-core/issues/2788";"wait_for does not swallow connection errors";
 "https://github.com/ansible/ansible-modules-core/issues/2798";"ec2_elb_lb health check ping_path bug";
@@ -74,7 +76,15 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/4274";"issue with junos_command and argument rpcs (if there is an IP @ in the RPC parameter).";
 "https://github.com/ansible/ansible-modules-core/issues/428";"rds_param_group says too many values to unpack";
 "https://github.com/ansible/ansible-modules-core/issues/4311";"[regression] Exception in multiple nxos_* modules";
+"https://github.com/ansible/ansible-modules-core/issues/4324";"azure_rm_virualmashine issue";
+"https://github.com/ansible/ansible-modules-core/issues/4361";"Ansible 2.0.2.0 and later break Webmin port test";
+"https://github.com/ansible/ansible-modules-core/issues/4363";"list object has no attribute items\r\n";
 "https://github.com/ansible/ansible-modules-core/issues/4364";"S3 module destroys target file and fails with text file busy";
+"https://github.com/ansible/ansible-modules-core/issues/4386";"ios_template cannot write backups to host";
+"https://github.com/ansible/ansible-modules-core/issues/4393";"ansible os_server module doesnot work with async_status";
+"https://github.com/ansible/ansible-modules-core/issues/4396";"ios_facts: show LLDP exception on IOS12.4";
+"https://github.com/ansible/ansible-modules-core/issues/4417";"can someone tell based on this output what wrong m I doing";
+"https://github.com/ansible/ansible-modules-core/issues/4419";"ios_config crashes when theres no dest parameter";
 "https://github.com/ansible/ansible-modules-core/issues/487";"ec2_group and multiple default groups";
 "https://github.com/ansible/ansible-modules-core/issues/576";"postgresql_user doc could use more explicit options for expires field";
 "https://github.com/ansible/ansible-modules-core/issues/770";"ec2_group failing when there is already a rule defined from another AWS account";
@@ -89,6 +99,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/pull/4175";"win_file: no longer causes a stack trace if called with --diff & extra return info";
 "https://github.com/ansible/ansible-modules-core/pull/4293";"[rhn_channel] Add support for setting base channels";
 "https://github.com/ansible/ansible-modules-extras/issues/1063";"nmcli aborting with exception when trying to create a new connection";
+"https://github.com/ansible/ansible-modules-extras/issues/1130";"nmcli module failed to run on Mac OS X 10";
 "https://github.com/ansible/ansible-modules-extras/issues/1224";"Npm module gives errors";
 "https://github.com/ansible/ansible-modules-extras/issues/1278";"rabbitmq_user throws ValueError: need more than 1 value to unpack in some cases";
 "https://github.com/ansible/ansible-modules-extras/issues/1292";"route53_facts.py - fails with unexpected keyword argument boto3";
@@ -97,6 +108,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/1349";"KeyError in bower tasks";
 "https://github.com/ansible/ansible-modules-extras/issues/1433";"win_acl: set permissions to apppool identities dont work";
 "https://github.com/ansible/ansible-modules-extras/issues/1465";"route53_facts will fail when using hosted_zone_id";
+"https://github.com/ansible/ansible-modules-extras/issues/1494";"rabbitmq_exchange not idempotent: fails when exchange already exists";
 "https://github.com/ansible/ansible-modules-extras/issues/1562";"FreeBSD Jail PKGNG Misleading Error";
 "https://github.com/ansible/ansible-modules-extras/issues/1674";"ec2_vpc_route_table not updating?";
 "https://github.com/ansible/ansible-modules-extras/issues/1717";"maven_artifact cannot download sbt published artifact";
@@ -114,12 +126,14 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/2166";"Cloud Module - cloudtrail - Error on existing trail without S3 prefix";
 "https://github.com/ansible/ansible-modules-extras/issues/2189";"vmware/vca_vapp: Improve error reporting when catalog cannot be found";
 "https://github.com/ansible/ansible-modules-extras/issues/2256";"Bug in error handling Librato Annotation module";
-"https://github.com/ansible/ansible-modules-extras/issues/2477";"Kubernetes module error handling fails when creating Deployment (or any unsupported kind)";
 "https://github.com/ansible/ansible-modules-extras/issues/2494";"firewalld Traceback error instead of something meaningful";
 "https://github.com/ansible/ansible-modules-extras/issues/2536";"mail.py shouldnt import ssl unless secure=true";
 "https://github.com/ansible/ansible-modules-extras/issues/2543";"ec2_elb_facts module cant use";
 "https://github.com/ansible/ansible-modules-extras/issues/2555";"npm: module crashes du to malformed npm output";
+"https://github.com/ansible/ansible-modules-extras/issues/2603";"elasticsearch_plugin - cant install plugin through proxy";
+"https://github.com/ansible/ansible-modules-extras/issues/2624";"Win_firewall is not working with ansible  2.0.0.2";
 "https://github.com/ansible/ansible-modules-extras/issues/2684";"firewalld - Permission denied: /var/log/firewalld";
+"https://github.com/ansible/ansible-modules-extras/issues/2703";"deploy_helper crashes when unfinished_filename is a directory rather than a file";
 "https://github.com/ansible/ansible-modules-extras/issues/809";"Bower module throws KeyError for packages specified via git endpoint";
 "https://github.com/ansible/ansible-modules-extras/issues/978";"ovirt module KeyError: authorized_key_user_groups";
 "https://github.com/ansible/ansible-modules-extras/pull/1507";"cloudtrail.py - added sns_topic_name and fixed bug when s3_key_prefix is empty";
@@ -129,6 +143,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/pull/2607";"Monit fix";
 "https://github.com/ansible/ansible/issues/10480";"Openstack plugins ignore private address";
 "https://github.com/ansible/ansible/issues/10740";"ansible 1.9.1 from homebrew on os 10.10.3 -- winrm kerberos error ...";
+"https://github.com/ansible/ansible/issues/10779";"get_mount_facts timeout is very small and not ignored as expected";
 "https://github.com/ansible/ansible/issues/10855";"Ansible async task deletes shell script before execution";
 "https://github.com/ansible/ansible/issues/11212";"accelerated mode not working with Vagrant and forwarded port";
 "https://github.com/ansible/ansible/issues/11913";"ansible_ssh_pass with a # symbol causes trouble";
@@ -165,6 +180,7 @@ github_url;title
 "https://github.com/ansible/ansible/issues/14959";"Unable to define path variable in playbook";
 "https://github.com/ansible/ansible/issues/14991";"setup module fails";
 "https://github.com/ansible/ansible/issues/14996";"test/units/module_utils/test_basic.py test fails if python future module is installed for python2";
+"https://github.com/ansible/ansible/issues/15022";"Documentation for creating modules needs clarification";
 "https://github.com/ansible/ansible/issues/15137";"Regression: inventory directory fails depending on file order";
 "https://github.com/ansible/ansible/issues/15302";"Type error when become password is digit only.";
 "https://github.com/ansible/ansible/issues/15413";"ansible-galaxy: Traceback when role archive is extracted in cwd";
@@ -187,6 +203,7 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16383";"pyasn1 version issue ";
 "https://github.com/ansible/ansible/issues/16444";"Cant start glusterd on Arch Linux?";
 "https://github.com/ansible/ansible/issues/16452";"WinRM NTLM Error 104";
+"https://github.com/ansible/ansible/issues/16557";"Paramiko crashes if a non-ascii character is used in the root password when running the playbook with -K";
 "https://github.com/ansible/ansible/issues/16571";"installation issue of ansible i face in ubuntu 14.04 64 bit";
 "https://github.com/ansible/ansible/issues/16591";"fact_caching_connection= for redis reports ERROR: an integer is required (stable-2.1) ";
 "https://github.com/ansible/ansible/issues/16610";"Documentation: Inaccurate description of !unsafe type in YAML Syntax";
@@ -200,6 +217,10 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16971";"Docker connection ignores ansible_docker_extra_args when querying docker server version.";
 "https://github.com/ansible/ansible/issues/16972";"Exception when using a group name in delegate_to";
 "https://github.com/ansible/ansible/issues/16982";"ziploader lock failure";
+"https://github.com/ansible/ansible/issues/17029";"gathering facts caused setup to fail by using ssh-config environment logname on client side";
+"https://github.com/ansible/ansible/issues/17035";"async_wrapper does not filter garbage from module output";
+"https://github.com/ansible/ansible/issues/17049";"Ubuntu 16.04.1 LTS ImportError: No module named boto.s3.connection";
+"https://github.com/ansible/ansible/issues/17075";"gce module errors on file not found when using OAuth client authentication";
 "https://github.com/ansible/ansible/issues/4583";"Solaris prtdiag hangs during gather facts";
 "https://github.com/ansible/ansible/issues/7957";"lookup(file) cant read AES-256 (probably binary) encrypted files";
 "https://github.com/ansible/ansible/issues/8919";"ansible run on Centos Chroot env will raise is_selinux_enabled() exception";

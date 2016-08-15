@@ -13,6 +13,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/1216";"Unable to get rds parameter groups to work";
 "https://github.com/ansible/ansible-modules-core/issues/127";"Service module fail on systemd host when unit file include \n";
 "https://github.com/ansible/ansible-modules-core/issues/1270";"Standardise on using security group name instead of id";
+"https://github.com/ansible/ansible-modules-core/issues/1319";"BUG: (GCE) cant create GCE VM instances (affects ansible > 1.8.4)";
 "https://github.com/ansible/ansible-modules-core/issues/1337";"Docker: containers fail to start if mounting files on existing ones";
 "https://github.com/ansible/ansible-modules-core/issues/1364";"Openstack: global name HAVE_NOVACLIENT is not defined";
 "https://github.com/ansible/ansible-modules-core/issues/1373";"Docker module crashes";
@@ -134,6 +135,9 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/430";"ec2_eip not idempotent";
 "https://github.com/ansible/ansible-modules-core/issues/4333";"nxos_config exception calling module_utils.netcfg.NetworkConfig.difference() with arg path ";
 "https://github.com/ansible/ansible-modules-core/issues/4347";"ziploader lock failure";
+"https://github.com/ansible/ansible-modules-core/issues/4375";"include_vars_module: ";
+"https://github.com/ansible/ansible-modules-core/issues/4397";"User module break when ssh_key_bits is set";
+"https://github.com/ansible/ansible-modules-core/issues/4425";"git module regression created by #4243 ";
 "https://github.com/ansible/ansible-modules-core/issues/481";"docker module shows AttributeError: RecentlyUsedContainer object has no attribute lock";
 "https://github.com/ansible/ansible-modules-core/issues/500";"Error using gc_storage";
 "https://github.com/ansible/ansible-modules-core/issues/516";"error creating ec2 metric alarms when there are different dimensions ansible -1.8.2";
@@ -203,6 +207,8 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/pull/4236";"fix typo in azure_rm_storageaccount";
 "https://github.com/ansible/ansible-modules-core/pull/4267";"Make group_name resolution VPC aware";
 "https://github.com/ansible/ansible-modules-core/pull/4287";"Fixes #3549";
+"https://github.com/ansible/ansible-modules-core/pull/4306";"Improve regexp for matching file permissions in unarchive module";
+"https://github.com/ansible/ansible-modules-core/pull/4379";"pip: Fix uninitialized variable during check_mode";
 "https://github.com/ansible/ansible-modules-core/pull/466";"Preventing Nonetype is not iterable error when no tags are set for new ASG";
 "https://github.com/ansible/ansible-modules-core/pull/562";"vsphere_guest fix for KeyError: folder message";
 "https://github.com/ansible/ansible-modules-core/pull/564";"Fix compatibility issues with python-apt < 0.7.9";
@@ -267,6 +273,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/237";"rabbitmq_parameter fails when passing dynamically generated json";
 "https://github.com/ansible/ansible-modules-extras/issues/2377";"Amazon - ec2_vpc_route_table - TypeError when propagating existing routes with NGW";
 "https://github.com/ansible/ansible-modules-extras/issues/2415";"zfs module doesnt support management of OpenZFS pools";
+"https://github.com/ansible/ansible-modules-extras/issues/2477";"Kubernetes module error handling fails when creating Deployment (or any unsupported kind)";
 "https://github.com/ansible/ansible-modules-extras/issues/2495";"win_regedit failing due to checking for registryValue default value";
 "https://github.com/ansible/ansible-modules-extras/issues/2514";" docker_container module fails when used with check mode";
 "https://github.com/ansible/ansible-modules-extras/issues/2571";"Mongodb ssl parameter error";
@@ -730,6 +737,7 @@ github_url;title
 "https://github.com/ansible/ansible/issues/15827";"Issue creating Security Groups using Ansible for AWS";
 "https://github.com/ansible/ansible/issues/15841";"Incorrect distribution fact initialization on FreeBSD";
 "https://github.com/ansible/ansible/issues/15893";"can not run pip on python3 with `connection: local`";
+"https://github.com/ansible/ansible/issues/15915";"Cannot use include in task handlers (AttributeError)";
 "https://github.com/ansible/ansible/issues/15933";"fetch module doesnt respect become_method: sudo";
 "https://github.com/ansible/ansible/issues/1596";"Fireball cant transfer binary files";
 "https://github.com/ansible/ansible/issues/15971";"rabbitmq_user broken in devel";
@@ -792,6 +800,11 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16951";"broken plugins cause UnboundLocalError: local variable obj referenced before assignment";
 "https://github.com/ansible/ansible/issues/16969";"ovirt module (start Vm) used by Ansible 2.2.0 and Python 2.7 seems broken";
 "https://github.com/ansible/ansible/issues/16975";"S3 modules destroys file and fails with text file busy";
+"https://github.com/ansible/ansible/issues/17010";"ios_facts - LLDP exception errors on IOS12.4";
+"https://github.com/ansible/ansible/issues/17023";"azure_rm_deployment - InvalidHeader: Header value 27 must be of type str or bytes, not <type int>";
+"https://github.com/ansible/ansible/issues/17033";"ansible os_server module doesnot work with async_status";
+"https://github.com/ansible/ansible/issues/17038";"TypeError: a bytes-like object is required (ansible_modlib.zip/ansible/module_utils/basic.py)";
+"https://github.com/ansible/ansible/issues/17046";"Module was working in 2.0.x versions but not anymore with 2.1.x versions";
 "https://github.com/ansible/ansible/issues/1729";"$PIPE lookup broken?";
 "https://github.com/ansible/ansible/issues/1767";"serial cant be passed as a command line argument (-e) to ansible-playbook";
 "https://github.com/ansible/ansible/issues/1784";"local_action does not use parent interpreter or ansible_python_interpreter";
