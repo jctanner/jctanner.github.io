@@ -297,11 +297,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4425">ansible-modules-core/issues/4425</a></td>
-<td>git module regression created by #4243 </td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/454">ansible-modules-core/issues/454</a></td>
 <td>Alter Security Groups on EC2 Instances</td>
 </tr>
@@ -6597,6 +6592,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17091">ansible/pull/17091</a></td>
+<td>Fix async logic when parsing fails</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/8039">ansible/pull/8039</a></td>
 <td>Suppor for joyent inventory script</td>
 </tr>
@@ -10731,86 +10731,6 @@
 <td>correct command line argument for nmcli autoconnec</td>
 </tr>
 <tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
-<td>ec2_elb_lb: module does not accept vpc_id</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2745">ansible-modules-core/issues/2745</a></td>
-<td>ec2_elb_lb is not idempotent if the elb tags are d</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2798">ansible-modules-core/issues/2798</a></td>
-<td>ec2_elb_lb health check ping_path bug</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2967">ansible-modules-core/issues/2967</a></td>
-<td>Number of cloud modules with the updated method of</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3444">ansible-modules-core/issues/3444</a></td>
-<td>ec2_elb_lb module seems to now expect a backend po</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4053">ansible-modules-core/issues/4053</a></td>
-<td>ec2_elb_lb is not always idempotent when updating </td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4227">ansible-modules-core/issues/4227</a></td>
-<td>ELB documentation does not match reality: listener</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4331">ansible-modules-core/issues/4331</a></td>
-<td>Feature request: allow iterating listeners with wi</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/439">ansible-modules-core/issues/439</a></td>
-<td>can't tag ELBs</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/899">ansible-modules-core/issues/899</a></td>
-<td>Deregistering an instance from an ELB causes healt</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1962">ansible-modules-core/pull/1962</a></td>
-<td>added security_group_names to ec2_lc.py</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3920">ansible-modules-core/pull/3920</a></td>
-<td>amazon returns connection_draining_timeout as an i</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4275">ansible-modules-core/pull/4275</a></td>
-<td>Make ec2_elb_lb respect VPCs when resolving groups</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4286">ansible-modules-core/pull/4286</a></td>
-<td>Fixes #4227</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible/issues/11598">ansible/issues/11598</a></td>
-<td>Support wait in ec2_elb_lb</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible/issues/13796">ansible/issues/13796</a></td>
-<td>AWS API Rate limit exceeds: Are we able to deal wi</td>
-</tr>
-<tr>
 <td>iam</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1339">ansible-modules-core/issues/1339</a></td>
 <td>Document AWS IAM policy requirements for ec2.py dy</td>
@@ -11109,6 +11029,76 @@
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible/issues/16856">ansible/issues/16856</a></td>
 <td>when using synchronize module with delegate_to, "b</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
+<td>ec2_elb_lb: module does not accept vpc_id</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2745">ansible-modules-core/issues/2745</a></td>
+<td>ec2_elb_lb is not idempotent if the elb tags are d</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2798">ansible-modules-core/issues/2798</a></td>
+<td>ec2_elb_lb health check ping_path bug</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2967">ansible-modules-core/issues/2967</a></td>
+<td>Number of cloud modules with the updated method of</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3444">ansible-modules-core/issues/3444</a></td>
+<td>ec2_elb_lb module seems to now expect a backend po</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4053">ansible-modules-core/issues/4053</a></td>
+<td>ec2_elb_lb is not always idempotent when updating </td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4331">ansible-modules-core/issues/4331</a></td>
+<td>Feature request: allow iterating listeners with wi</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/439">ansible-modules-core/issues/439</a></td>
+<td>can't tag ELBs</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/899">ansible-modules-core/issues/899</a></td>
+<td>Deregistering an instance from an ELB causes healt</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1962">ansible-modules-core/pull/1962</a></td>
+<td>added security_group_names to ec2_lc.py</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3920">ansible-modules-core/pull/3920</a></td>
+<td>amazon returns connection_draining_timeout as an i</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4275">ansible-modules-core/pull/4275</a></td>
+<td>Make ec2_elb_lb respect VPCs when resolving groups</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible/issues/11598">ansible/issues/11598</a></td>
+<td>Support wait in ec2_elb_lb</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible/issues/13796">ansible/issues/13796</a></td>
+<td>AWS API Rate limit exceeds: Are we able to deal wi</td>
 </tr>
 <tr>
 <td>ec2_vol</td>
