@@ -4142,18 +4142,8 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17064">ansible/issues/17064</a></td>
-<td>only first variable reference available in include</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17065">ansible/issues/17065</a></td>
 <td>Mandatory variable not defined - since Ansible 2</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17074">ansible/issues/17074</a></td>
-<td>Block/Rescue fails to notify and run handlers.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -12691,6 +12681,41 @@
 <td>Variable value in "vars_files" can not be found in</td>
 </tr>
 <tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1717">ansible-modules-extras/issues/1717</a></td>
+<td>maven_artifact cannot download sbt published artif</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
+<td>maven_artifact does not use classifier when constr</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
+<td>maven_artifact should support version=release.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
+<td>maven_artifact can't get artifact from local repo.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2526">ansible-modules-extras/pull/2526</a></td>
+<td>maven_artifact: Allow to specify a custom timeout</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
+<td>Add ability to specify release version for maven a</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
+<td>Refactor maven plugin.</td>
+</tr>
+<tr>
 <td>postgresql_db</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
 <td>postgresql modules unable to use alternative maint</td>
@@ -13114,36 +13139,6 @@
 <td>mail</td>
 <td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
 <td>fix mail when cc and bcc are used if None</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1717">ansible-modules-extras/issues/1717</a></td>
-<td>maven_artifact cannot download sbt published artif</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
-<td>maven_artifact does not use classifier when constr</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
-<td>maven_artifact should support version=release.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
-<td>maven_artifact can't get artifact from local repo.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2526">ansible-modules-extras/pull/2526</a></td>
-<td>maven_artifact: Allow to specify a custom timeout</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
-<td>Add ability to specify release version for maven a</td>
 </tr>
 <tr>
 <td>django_manage</td>
@@ -14031,6 +14026,26 @@
 <td>win_msi $result "log" $logcontents not showing log</td>
 </tr>
 <tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3984">ansible-modules-core/issues/3984</a></td>
+<td>module junos_config with the parameter lines + del</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4281">ansible-modules-core/issues/4281</a></td>
+<td>junos modules RPC timeout option</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4032">ansible-modules-core/pull/4032</a></td>
+<td>enable the use of configure mode for junos</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/issues/17111">ansible/issues/17111</a></td>
+<td>Fetching of current config in module_utils/junos.p</td>
+</tr>
+<tr>
 <td>elasticsearch_plugin</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1503">ansible-modules-extras/issues/1503</a></td>
 <td>elasticsearch_plugin fails on ES 2.X</td>
@@ -14439,21 +14454,6 @@
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/610">ansible-modules-extras/issues/610</a></td>
 <td>locale_gen creating duplicate lines in /etc/locale</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3984">ansible-modules-core/issues/3984</a></td>
-<td>module junos_config with the parameter lines + del</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4281">ansible-modules-core/issues/4281</a></td>
-<td>junos modules RPC timeout option</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4032">ansible-modules-core/pull/4032</a></td>
-<td>enable the use of configure mode for junos</td>
 </tr>
 <tr>
 <td>os_port</td>
