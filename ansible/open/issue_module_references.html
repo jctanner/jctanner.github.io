@@ -67,8 +67,18 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3047">ansible-modules-core/issues/3047</a></td>
+<td>redhat_subscription inaccurately reports system al</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4063">ansible-modules-core/issues/4063</a></td>
 <td>File mode 0755 fails for a tar in `unarchive`</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4318">ansible-modules-core/issues/4318</a></td>
+<td>Random line wraps breaking the yum module, disabli</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -137,6 +147,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2923">ansible-modules-core/pull/2923</a></td>
+<td>Fix Mount state=mounted opts=bind mounts on every </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2980">ansible-modules-core/pull/2980</a></td>
 <td>Git module refactor and new git clean files featur</td>
 </tr>
@@ -159,6 +174,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4424">ansible-modules-core/pull/4424</a></td>
 <td>Addition of InstanceUUID to  facts</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4439">ansible-modules-core/pull/4439</a></td>
+<td>Fixing bind mount on Linux (#1942)</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3292,6 +3312,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16052">ansible/issues/16052</a></td>
+<td>Failure running command as non privileged user</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16057">ansible/issues/16057</a></td>
 <td>Complex argument parsing returns arrays or objects</td>
 </tr>
@@ -4169,6 +4194,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17100">ansible/issues/17100</a></td>
 <td>Preserve the order of elements in "group_names": [</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17105">ansible/issues/17105</a></td>
+<td>--limit no longer implicitly includes localhost</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7172,11 +7202,6 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible/issues/16052">ansible/issues/16052</a></td>
-<td>Failure running command as non privileged user</td>
-</tr>
-<tr>
-<td>user</td>
 <td><a href="https://github.com/ansible/ansible/issues/16726">ansible/issues/16726</a></td>
 <td>`delegate_to` not using any user with raw tasks</td>
 </tr>
@@ -7644,11 +7669,6 @@
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4273">ansible-modules-core/issues/4273</a></td>
 <td>Support yum autoremove</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4318">ansible-modules-core/issues/4318</a></td>
-<td>Random line wraps breaking the yum module, disabli</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -8761,146 +8781,6 @@
 <td>ec2_group: Small error in "rules" option descripti</td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1158">ansible-modules-core/issues/1158</a></td>
-<td>Docker 1.6 cannot mount a volume with a single fil</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1252">ansible-modules-core/issues/1252</a></td>
-<td>mount module creates fstab entry even if it cannot</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1691">ansible-modules-core/issues/1691</a></td>
-<td>Unable to mount multiple swap files </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1697">ansible-modules-core/issues/1697</a></td>
-<td>Mount command should have an option to suppress "-</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1868">ansible-modules-core/issues/1868</a></td>
-<td>Mount module is not idempotent when passno and dum</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1869">ansible-modules-core/issues/1869</a></td>
-<td>mount documentation incorrectly specifies what "ab</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1889">ansible-modules-core/issues/1889</a></td>
-<td>mount should not require fstype/src for state=unmo</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1942">ansible-modules-core/issues/1942</a></td>
-<td>Mount state=mounted opts=bind mounts on every run</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2571">ansible-modules-core/issues/2571</a></td>
-<td>mount module feature request: allow to mount witho</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2623">ansible-modules-core/issues/2623</a></td>
-<td>mount module with the state=unmounted not removing</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2898">ansible-modules-core/issues/2898</a></td>
-<td>mount module can't handle nested mountpoints</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2924">ansible-modules-core/issues/2924</a></td>
-<td>Checking is mount does not work correctly with "bi</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
-<td>Mount failed but task succeeded</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/464">ansible-modules-core/issues/464</a></td>
-<td>mount documentation does not match code</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1756">ansible-modules-core/pull/1756</a></td>
-<td>Added remount option to the mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2445">ansible-modules-core/pull/2445</a></td>
-<td>try -o remount but fallback to unmount + remount </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2464">ansible-modules-core/pull/2464</a></td>
-<td>mount.py - lazy umount, trailing slash tolerance a</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2923">ansible-modules-core/pull/2923</a></td>
-<td>Fix Mount state=mounted opts=bind mounts on every </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
-<td>Add support for setting fstab location on Linux to</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/11005">ansible/issues/11005</a></td>
-<td>Autofs automounts become mounted by fact gathering</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/16627">ansible/issues/16627</a></td>
-<td>Allow conditions per module/role options</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1066">ansible-modules-core/issues/1066</a></td>
 <td>prevent broken builds in ec2_asg when using "repla</td>
@@ -9039,6 +8919,141 @@
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible/issues/11070">ansible/issues/11070</a></td>
 <td>Feature request: ignore_instances option in ec2_as</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1158">ansible-modules-core/issues/1158</a></td>
+<td>Docker 1.6 cannot mount a volume with a single fil</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1252">ansible-modules-core/issues/1252</a></td>
+<td>mount module creates fstab entry even if it cannot</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1691">ansible-modules-core/issues/1691</a></td>
+<td>Unable to mount multiple swap files </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1697">ansible-modules-core/issues/1697</a></td>
+<td>Mount command should have an option to suppress "-</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1868">ansible-modules-core/issues/1868</a></td>
+<td>Mount module is not idempotent when passno and dum</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1869">ansible-modules-core/issues/1869</a></td>
+<td>mount documentation incorrectly specifies what "ab</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1889">ansible-modules-core/issues/1889</a></td>
+<td>mount should not require fstype/src for state=unmo</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1942">ansible-modules-core/issues/1942</a></td>
+<td>Mount state=mounted opts=bind mounts on every run</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2571">ansible-modules-core/issues/2571</a></td>
+<td>mount module feature request: allow to mount witho</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2623">ansible-modules-core/issues/2623</a></td>
+<td>mount module with the state=unmounted not removing</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2898">ansible-modules-core/issues/2898</a></td>
+<td>mount module can't handle nested mountpoints</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2924">ansible-modules-core/issues/2924</a></td>
+<td>Checking is mount does not work correctly with "bi</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
+<td>Mount failed but task succeeded</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/464">ansible-modules-core/issues/464</a></td>
+<td>mount documentation does not match code</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1756">ansible-modules-core/pull/1756</a></td>
+<td>Added remount option to the mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2445">ansible-modules-core/pull/2445</a></td>
+<td>try -o remount but fallback to unmount + remount </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2464">ansible-modules-core/pull/2464</a></td>
+<td>mount.py - lazy umount, trailing slash tolerance a</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
+<td>Add support for setting fstab location on Linux to</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/11005">ansible/issues/11005</a></td>
+<td>Autofs automounts become mounted by fact gathering</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/16627">ansible/issues/16627</a></td>
+<td>Allow conditions per module/role options</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
 <td>vsphere_guest</td>
@@ -12341,6 +12356,41 @@
 <td>Add intg for apt_repo's mode argument.</td>
 </tr>
 <tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
+<td>Add cors support to s3_bucket module</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
+<td>s3_bucket fails when loading JSON policy from a te</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
+<td>s3_bucket with policy parameter not idempotent</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
+<td>S3 Maven repos with a . in the bucket name generat</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2736">ansible-modules-extras/issues/2736</a></td>
+<td>s3_bucket versioning parameter is required</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2050">ansible-modules-extras/pull/2050</a></td>
+<td>s3_bucket.py - return CORS rules in the output</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
+<td>fixes and refactoring of s3_bucket</td>
+</tr>
+<tr>
 <td>ec2_eip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1778">ansible-modules-core/issues/1778</a></td>
 <td>ec2_eip idempotency patch was reverted</td>
@@ -13074,36 +13124,6 @@
 <td>mail</td>
 <td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
 <td>fix mail when cc and bcc are used if None</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
-<td>Add cors support to s3_bucket module</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
-<td>s3_bucket fails when loading JSON policy from a te</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
-<td>s3_bucket with policy parameter not idempotent</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
-<td>S3 Maven repos with a . in the bucket name generat</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2050">ansible-modules-extras/pull/2050</a></td>
-<td>s3_bucket.py - return CORS rules in the output</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
-<td>fixes and refactoring of s3_bucket</td>
 </tr>
 <tr>
 <td>maven_artifact</td>
@@ -14019,26 +14039,6 @@
 <td>win_msi</td>
 <td><a href="https://github.com/ansible/ansible/issues/16261">ansible/issues/16261</a></td>
 <td>win_msi $result "log" $logcontents not showing log</td>
-</tr>
-<tr>
-<td>redhat_subscription</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3047">ansible-modules-core/issues/3047</a></td>
-<td>redhat_subscription inaccurately reports system al</td>
-</tr>
-<tr>
-<td>redhat_subscription</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3300">ansible-modules-core/issues/3300</a></td>
-<td>Enable/disable/list repos using redhat_subscriptio</td>
-</tr>
-<tr>
-<td>redhat_subscription</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3898">ansible-modules-core/issues/3898</a></td>
-<td>redhat_subscription attaches all pools of the same</td>
-</tr>
-<tr>
-<td>redhat_subscription</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/422">ansible-modules-core/issues/422</a></td>
-<td>Cannot attach pool without unregistering with redh</td>
 </tr>
 <tr>
 <td>elasticsearch_plugin</td>
@@ -14994,6 +14994,16 @@
 <td>facts</td>
 <td><a href="https://github.com/ansible/ansible/pull/17036">ansible/pull/17036</a></td>
 <td>Collect block device uuids in one lsblk call so fa</td>
+</tr>
+<tr>
+<td>redhat_subscription</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3300">ansible-modules-core/issues/3300</a></td>
+<td>Enable/disable/list repos using redhat_subscriptio</td>
+</tr>
+<tr>
+<td>redhat_subscription</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3898">ansible-modules-core/issues/3898</a></td>
+<td>redhat_subscription attaches all pools of the same</td>
 </tr>
 <tr>
 <td>ec2_elb_facts</td>
