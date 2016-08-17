@@ -4212,6 +4212,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17127">ansible/issues/17127</a></td>
+<td>Ansible-vault Decryption Error for tar directory</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -8496,151 +8501,6 @@
 <td>Add pvs output to hardware facts</td>
 </tr>
 <tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
-<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
-<td>ec2_group: Firewall rule configuration options poo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
-<td> ec2_security You have specified two resources tha</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
-<td>FR - update ec2_group to cleanly handle a cidr lis</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
-<td>rules_egress empty array not taken into account</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
-<td>Idempotence with EC2 Security Groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
-<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
-<td>ec2_group.py and --diff</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
-<td>ec2_group check mode is inaccurate</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
-<td>ec2_group failings when using groups in other acco</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
-<td>ec2_group: use of a single port_range argument ins</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
-<td>ec2_group should allow for security group revocati</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
-<td>ec2_group requires "description" to delete SG</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
-<td>ec2_group: add tags</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
-<td>ec2_group and multiple default groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
-<td>ec2_group failing when there is already a rule def</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
-<td>ec2_group fails to give access to ELB security gro</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
-<td>Fix description of rules option in ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
-<td>check either ec2_group source or destination (egre</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
-<td>Add tags support to ec2_group module</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
-<td>ec2_group: Add a check for invalid ports on make_r</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
-<td>Fix ec2_group wait loop/return value consistency</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
-<td>Update ec2_group.py</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
-<td>eu-west-1a is a zone not a region. removed the 'a'</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
-<td>Add rule revocation capabilities to ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
-<td>Fix ec2_group 'rules' doc string.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
-<td>ec2_group should allow for blank egress rules with</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
-<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
-<td>ec2_group: Small error in "rules" option descripti</td>
-</tr>
-<tr>
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1035">ansible-modules-core/issues/1035</a></td>
 <td>support plain gzip in unarchive</td>
@@ -8784,6 +8644,156 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/pull/15386">ansible/pull/15386</a></td>
 <td>Get Runner._remote_checksum() to work when it is u</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/17126">ansible/pull/17126</a></td>
+<td>actions/unarchive: fix unarchive from remote url</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
+<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
+<td>ec2_group: Firewall rule configuration options poo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
+<td> ec2_security You have specified two resources tha</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
+<td>FR - update ec2_group to cleanly handle a cidr lis</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
+<td>rules_egress empty array not taken into account</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
+<td>Idempotence with EC2 Security Groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
+<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
+<td>ec2_group.py and --diff</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
+<td>ec2_group check mode is inaccurate</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
+<td>ec2_group failings when using groups in other acco</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
+<td>ec2_group: use of a single port_range argument ins</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
+<td>ec2_group should allow for security group revocati</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
+<td>ec2_group requires "description" to delete SG</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
+<td>ec2_group: add tags</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
+<td>ec2_group and multiple default groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
+<td>ec2_group failing when there is already a rule def</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
+<td>ec2_group fails to give access to ELB security gro</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
+<td>Fix description of rules option in ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
+<td>check either ec2_group source or destination (egre</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
+<td>Add tags support to ec2_group module</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
+<td>ec2_group: Add a check for invalid ports on make_r</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
+<td>Fix ec2_group wait loop/return value consistency</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
+<td>Update ec2_group.py</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
+<td>eu-west-1a is a zone not a region. removed the 'a'</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
+<td>Add rule revocation capabilities to ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
+<td>Fix ec2_group 'rules' doc string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
+<td>ec2_group should allow for blank egress rules with</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
+<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
+<td>ec2_group: Small error in "rules" option descripti</td>
 </tr>
 <tr>
 <td>ec2_asg</td>
@@ -10461,81 +10471,6 @@
 <td>Amazon cloudformation stack resource and output lo</td>
 </tr>
 <tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
-<td>ec2_elb_lb: module does not accept vpc_id</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2745">ansible-modules-core/issues/2745</a></td>
-<td>ec2_elb_lb is not idempotent if the elb tags are d</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2798">ansible-modules-core/issues/2798</a></td>
-<td>ec2_elb_lb health check ping_path bug</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2967">ansible-modules-core/issues/2967</a></td>
-<td>Number of cloud modules with the updated method of</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3444">ansible-modules-core/issues/3444</a></td>
-<td>ec2_elb_lb module seems to now expect a backend po</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4053">ansible-modules-core/issues/4053</a></td>
-<td>ec2_elb_lb is not always idempotent when updating </td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4331">ansible-modules-core/issues/4331</a></td>
-<td>Feature request: allow iterating listeners with wi</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/439">ansible-modules-core/issues/439</a></td>
-<td>can't tag ELBs</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4414">ansible-modules-core/issues/4414</a></td>
-<td>ec2_elb_lb: Ansible didn't detect "scheme" change</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/899">ansible-modules-core/issues/899</a></td>
-<td>Deregistering an instance from an ELB causes healt</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1962">ansible-modules-core/pull/1962</a></td>
-<td>added security_group_names to ec2_lc.py</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3920">ansible-modules-core/pull/3920</a></td>
-<td>amazon returns connection_draining_timeout as an i</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4275">ansible-modules-core/pull/4275</a></td>
-<td>Make ec2_elb_lb respect VPCs when resolving groups</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible/issues/11598">ansible/issues/11598</a></td>
-<td>Support wait in ec2_elb_lb</td>
-</tr>
-<tr>
-<td>ec2_elb_lb</td>
-<td><a href="https://github.com/ansible/ansible/issues/13796">ansible/issues/13796</a></td>
-<td>AWS API Rate limit exceeds: Are we able to deal wi</td>
-</tr>
-<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
 <td>authorized_key fails in check mode if user doesn't</td>
@@ -10609,6 +10544,76 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible/issues/14369">ansible/issues/14369</a></td>
 <td>2.0.0.2 Loop Error AttributeError: list object has</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
+<td>ec2_elb_lb: module does not accept vpc_id</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2745">ansible-modules-core/issues/2745</a></td>
+<td>ec2_elb_lb is not idempotent if the elb tags are d</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2798">ansible-modules-core/issues/2798</a></td>
+<td>ec2_elb_lb health check ping_path bug</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2967">ansible-modules-core/issues/2967</a></td>
+<td>Number of cloud modules with the updated method of</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3444">ansible-modules-core/issues/3444</a></td>
+<td>ec2_elb_lb module seems to now expect a backend po</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4053">ansible-modules-core/issues/4053</a></td>
+<td>ec2_elb_lb is not always idempotent when updating </td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4331">ansible-modules-core/issues/4331</a></td>
+<td>Feature request: allow iterating listeners with wi</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/439">ansible-modules-core/issues/439</a></td>
+<td>can't tag ELBs</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4414">ansible-modules-core/issues/4414</a></td>
+<td>ec2_elb_lb: Ansible didn't detect "scheme" change</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/899">ansible-modules-core/issues/899</a></td>
+<td>Deregistering an instance from an ELB causes healt</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1962">ansible-modules-core/pull/1962</a></td>
+<td>added security_group_names to ec2_lc.py</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3920">ansible-modules-core/pull/3920</a></td>
+<td>amazon returns connection_draining_timeout as an i</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible/issues/11598">ansible/issues/11598</a></td>
+<td>Support wait in ec2_elb_lb</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible/issues/13796">ansible/issues/13796</a></td>
+<td>AWS API Rate limit exceeds: Are we able to deal wi</td>
 </tr>
 <tr>
 <td>ec2_vpc</td>
@@ -12936,6 +12941,41 @@
 <td>Filter module to match sections in configuration f</td>
 </tr>
 <tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4354">ansible-modules-core/issues/4354</a></td>
+<td>docker_container module not exposed port properly </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4453">ansible-modules-core/issues/4453</a></td>
+<td>docker_container > networks is broken</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4026">ansible-modules-core/pull/4026</a></td>
+<td>Added usage examples for exclude and extra-opts</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
+<td>Add a environment example</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2601">ansible-modules-extras/pull/2601</a></td>
+<td>#2600</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2724">ansible-modules-extras/pull/2724</a></td>
+<td>limit scope of install.ps1 to fix chocolatey insta</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
+<td>documentation for docker_container: b, k, m, or g </td>
+</tr>
+<tr>
 <td>monit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1103">ansible-modules-extras/issues/1103</a></td>
 <td>Monit only handle processes, but not hosts</td>
@@ -13329,36 +13369,6 @@
 <td>stat</td>
 <td><a href="https://github.com/ansible/ansible/issues/17082">ansible/issues/17082</a></td>
 <td>ansible 'stat' module didn't check the absolute pa</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4354">ansible-modules-core/issues/4354</a></td>
-<td>docker_container module not exposed port properly </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4026">ansible-modules-core/pull/4026</a></td>
-<td>Added usage examples for exclude and extra-opts</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
-<td>Add a environment example</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2601">ansible-modules-extras/pull/2601</a></td>
-<td>#2600</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2724">ansible-modules-extras/pull/2724</a></td>
-<td>limit scope of install.ps1 to fix chocolatey insta</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
-<td>documentation for docker_container: b, k, m, or g </td>
 </tr>
 <tr>
 <td>ecs_taskdefinition</td>
@@ -15211,6 +15221,16 @@
 <td>Ansible pear extras module does not allow respondi</td>
 </tr>
 <tr>
+<td>na_eseries_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2714">ansible-modules-extras/pull/2714</a></td>
+<td>Add facts module for NetApp E/EF-Series storage ar</td>
+</tr>
+<tr>
+<td>na_eseries_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2748">ansible-modules-extras/pull/2748</a></td>
+<td>Add facts and storage system modules.</td>
+</tr>
+<tr>
 <td>digital_ocean_sshkey</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/607">ansible-modules-core/issues/607</a></td>
 <td> DigitalOcean key generation</td>
@@ -15229,6 +15249,11 @@
 <td>alternatives</td>
 <td><a href="https://github.com/ansible/ansible/pull/16940">ansible/pull/16940</a></td>
 <td>Set example ansible.cfg *includes_static options t</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
+<td>nxos_interface depends on nxos_feature which doesn</td>
 </tr>
 <tr>
 <td>win_ping</td>
@@ -15746,9 +15771,9 @@
 <td>Jboss cli</td>
 </tr>
 <tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
-<td>nxos_interface depends on nxos_feature which doesn</td>
+<td>bigip_selfip</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2749">ansible-modules-extras/pull/2749</a></td>
+<td>Adds the bigip_selfip module</td>
 </tr>
 <tr>
 <td>profitbricks</td>
@@ -16149,11 +16174,6 @@
 <td>a10</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2628">ansible-modules-extras/pull/2628</a></td>
 <td>Added new option to select the active a10 partitio</td>
-</tr>
-<tr>
-<td>na_eseries_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2714">ansible-modules-extras/pull/2714</a></td>
-<td>Add facts module for NetApp E/EF-Series storage ar</td>
 </tr>
 <tr>
 <td>macports</td>
