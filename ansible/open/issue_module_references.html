@@ -332,6 +332,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2741">ansible-modules-extras/pull/2741</a></td>
+<td>Reload/Add/Remove Winows Server DNS Primary Zone</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/301">ansible-modules-extras/pull/301</a></td>
 <td>Add new module 'kafka_topics'</td>
 </tr>
@@ -369,11 +374,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/958">ansible-modules-extras/pull/958</a></td>
 <td>New modules: openvz, openvz_exec</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/998">ansible-modules-extras/pull/998</a></td>
-<td>Introduces the bigip_sys_db module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11611,6 +11611,56 @@
 <td>Adding Linode common functions to module_utils</td>
 </tr>
 <tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1021">ansible-modules-extras/issues/1021</a></td>
+<td>win_chocolatey throws errors</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1054">ansible-modules-extras/issues/1054</a></td>
+<td>win_chocolatey should accept installation argument</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1164">ansible-modules-extras/issues/1164</a></td>
+<td>win_chocolatey always returning items have changed</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
+<td>Failed to install packages on windows host using w</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1561">ansible-modules-extras/issues/1561</a></td>
+<td>win_chocolatey doesn't force the install when argu</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1886">ansible-modules-extras/issues/1886</a></td>
+<td>win_chocolatey error: "The package was not found w</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2715">ansible-modules-extras/issues/2715</a></td>
+<td>chocolatey 0.10.0 needs to pass argument to choco.</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2742">ansible-modules-extras/issues/2742</a></td>
+<td>win_chocolatey fails during chocolatey installatio</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2657">ansible-modules-extras/pull/2657</a></td>
+<td>Added a nuget module</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2722">ansible-modules-extras/pull/2722</a></td>
+<td>pass flag to choco, allowemptychecksums and ignore</td>
+</tr>
+<tr>
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
 <td>lxc_container: add a way to wait for the container</td>
@@ -11859,51 +11909,6 @@
 <td>firewalld</td>
 <td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
 <td>ansible_firewalld fact</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1021">ansible-modules-extras/issues/1021</a></td>
-<td>win_chocolatey throws errors</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1054">ansible-modules-extras/issues/1054</a></td>
-<td>win_chocolatey should accept installation argument</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1164">ansible-modules-extras/issues/1164</a></td>
-<td>win_chocolatey always returning items have changed</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
-<td>Failed to install packages on windows host using w</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1561">ansible-modules-extras/issues/1561</a></td>
-<td>win_chocolatey doesn't force the install when argu</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1886">ansible-modules-extras/issues/1886</a></td>
-<td>win_chocolatey error: "The package was not found w</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2715">ansible-modules-extras/issues/2715</a></td>
-<td>chocolatey 0.10.0 needs to pass argument to choco.</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2657">ansible-modules-extras/pull/2657</a></td>
-<td>Added a nuget module</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2722">ansible-modules-extras/pull/2722</a></td>
-<td>pass flag to choco, allowemptychecksums and ignore</td>
 </tr>
 <tr>
 <td>group_by</td>
@@ -14611,6 +14616,16 @@
 <td>Add support for managing and configuring Infoblox </td>
 </tr>
 <tr>
+<td>consul_session</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2153">ansible-modules-extras/issues/2153</a></td>
+<td>consul_session: consul.session.create() requires a</td>
+</tr>
+<tr>
+<td>consul_session</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2195">ansible-modules-extras/pull/2195</a></td>
+<td>consul_session: fix scheme and verify not passed t</td>
+</tr>
+<tr>
 <td>ec2_win_password</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2729">ansible-modules-extras/pull/2729</a></td>
 <td>ec2_win_password - handle missing or unparseable k</td>
@@ -14619,16 +14634,6 @@
 <td>ec2_win_password</td>
 <td><a href="https://github.com/ansible/ansible/issues/14980">ansible/issues/14980</a></td>
 <td>Censor module results in ansible.log</td>
-</tr>
-<tr>
-<td>deploy_helper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2703">ansible-modules-extras/issues/2703</a></td>
-<td>deploy_helper crashes when unfinished_filename is </td>
-</tr>
-<tr>
-<td>deploy_helper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2136">ansible-modules-extras/pull/2136</a></td>
-<td>Fix deploy</td>
 </tr>
 <tr>
 <td>vmware_vm_facts</td>
@@ -14659,16 +14664,6 @@
 <td>ec2_vpc_route_table_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1833">ansible-modules-extras/pull/1833</a></td>
 <td>ec2_vpc_route_table_facts.py - added route associa</td>
-</tr>
-<tr>
-<td>consul_session</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2153">ansible-modules-extras/issues/2153</a></td>
-<td>consul_session: consul.session.create() requires a</td>
-</tr>
-<tr>
-<td>consul_session</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2195">ansible-modules-extras/pull/2195</a></td>
-<td>consul_session: fix scheme and verify not passed t</td>
 </tr>
 <tr>
 <td>route53_zone</td>
@@ -14769,6 +14764,16 @@
 <td>azure_rm_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2486">ansible-modules-extras/issues/2486</a></td>
 <td>Azure Resource Manager module doesn't support user</td>
+</tr>
+<tr>
+<td>deploy_helper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2703">ansible-modules-extras/issues/2703</a></td>
+<td>deploy_helper crashes when unfinished_filename is </td>
+</tr>
+<tr>
+<td>deploy_helper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2136">ansible-modules-extras/pull/2136</a></td>
+<td>Fix deploy</td>
 </tr>
 <tr>
 <td>gc_storage</td>
@@ -15311,6 +15316,11 @@
 <td>win_get_url : Exception calling \"DownloadFile\" w</td>
 </tr>
 <tr>
+<td>cloudwatchevent_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2101">ansible-modules-extras/pull/2101</a></td>
+<td>Add module for managing CloudWatch Event rules and</td>
+</tr>
+<tr>
 <td>certificate</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2685">ansible-modules-extras/pull/2685</a></td>
 <td>Adding modules for ca, keytool, and certificates</td>
@@ -15466,11 +15476,6 @@
 <td>docker_service: prevent non specified services fro</td>
 </tr>
 <tr>
-<td>cloudwatchevent_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2101">ansible-modules-extras/pull/2101</a></td>
-<td>Add module for managing CloudWatch Event rules and</td>
-</tr>
-<tr>
 <td>librato_annotation</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2256">ansible-modules-extras/issues/2256</a></td>
 <td>Bug in error handling Librato Annotation module</td>
@@ -15591,11 +15596,6 @@
 <td>To reload Windows DNS zone after edited any change</td>
 </tr>
 <tr>
-<td>bigip_vlan</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2661">ansible-modules-extras/pull/2661</a></td>
-<td>Adds bigip_vlan module</td>
-</tr>
-<tr>
 <td>osx_pref</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2392">ansible-modules-extras/pull/2392</a></td>
 <td>Add osx_pref module for direct access to Core Foun</td>
@@ -15669,11 +15669,6 @@
 <td>os_routers_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2199">ansible-modules-extras/pull/2199</a></td>
 <td>Added os_routers_facts module</td>
-</tr>
-<tr>
-<td>clc_loadbalancer</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1000">ansible-modules-extras/pull/1000</a></td>
-<td>Introduces the bigip_gtm_datacenter module</td>
 </tr>
 <tr>
 <td>fail</td>
