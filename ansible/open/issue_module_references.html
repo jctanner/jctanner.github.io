@@ -132,13 +132,53 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1160">ansible-modules-core/pull/1160</a></td>
+<td>Add EC2 facts from dynamic instance metadata</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/145">ansible-modules-core/pull/145</a></td>
+<td>Detach volumes if trying to delete them and they'r</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1517">ansible-modules-core/pull/1517</a></td>
 <td>fixes cache time handling in apt module</td>
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1614">ansible-modules-core/pull/1614</a></td>
+<td>authorized_keys: fix creating .ssh directory</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1666">ansible-modules-core/pull/1666</a></td>
+<td>yum: refactoring working with yum groups</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1756">ansible-modules-core/pull/1756</a></td>
+<td>Added remount option to the mount module</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1854">ansible-modules-core/pull/1854</a></td>
 <td>get_ssh_info parameter for ec2 module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2426">ansible-modules-core/pull/2426</a></td>
+<td>Improved the expires option in the system/user mod</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2445">ansible-modules-core/pull/2445</a></td>
+<td>try -o remount but fallback to unmount + remount </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2464">ansible-modules-core/pull/2464</a></td>
+<td>mount.py - lazy umount, trailing slash tolerance a</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -162,6 +202,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2823">ansible-modules-core/pull/2823</a></td>
+<td>Added raw example for Windows Server</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2923">ansible-modules-core/pull/2923</a></td>
 <td>Fix Mount state=mounted opts=bind mounts on every </td>
 </tr>
@@ -174,6 +219,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2984">ansible-modules-core/pull/2984</a></td>
 <td>Replace ismount bind</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3259,11 +3309,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/15951">ansible/issues/15951</a></td>
 <td>[2.0] Error 'role is undefined' if Role Include Va</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/15954">ansible/issues/15954</a></td>
-<td>Rolling Update Batch Size</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6372,11 +6417,6 @@
 </tr>
 <tr>
 <td>docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/145">ansible-modules-core/pull/145</a></td>
-<td>Detach volumes if trying to delete them and they'r</td>
-</tr>
-<tr>
-<td>docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2690">ansible-modules-core/pull/2690</a></td>
 <td>Support adding and removing of network devices dur</td>
 </tr>
@@ -6704,11 +6744,6 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/871">ansible-modules-core/issues/871</a></td>
 <td>ec2 creates new instance if instance not running w</td>
-</tr>
-<tr>
-<td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1160">ansible-modules-core/pull/1160</a></td>
-<td>Add EC2 facts from dynamic instance metadata</td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -7087,18 +7122,8 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2426">ansible-modules-core/pull/2426</a></td>
-<td>Improved the expires option in the system/user mod</td>
-</tr>
-<tr>
-<td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2694">ansible-modules-core/pull/2694</a></td>
 <td>user: Fix adding a user who's group exists for SLE</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
 </tr>
 <tr>
 <td>user</td>
@@ -7586,206 +7611,6 @@
 <td>git module `accept_hostkey=yes` option now works w</td>
 </tr>
 <tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1117">ansible-modules-core/issues/1117</a></td>
-<td>Add an option to specifiy cache valid time period </td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1232">ansible-modules-core/issues/1232</a></td>
-<td>yum update incorrectly reporting "All Packages Up </td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1419">ansible-modules-core/issues/1419</a></td>
-<td>Yum can't downgrade packages</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1556">ansible-modules-core/issues/1556</a></td>
-<td>yum: run a single yum command with state=latest</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1558">ansible-modules-core/issues/1558</a></td>
-<td>add --installroot option to yum module </td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1706">ansible-modules-core/issues/1706</a></td>
-<td>yum list and name parameters are mutually exclusiv</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1849">ansible-modules-core/issues/1849</a></td>
-<td>Error when using Yum to install packages from file</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1964">ansible-modules-core/issues/1964</a></td>
-<td>yum module should support state "downloaded"</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2232">ansible-modules-core/issues/2232</a></td>
-<td>Doc: missing examples for yum list</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2390">ansible-modules-core/issues/2390</a></td>
-<td>need for --disableplugin=rhnplugin option for the </td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2392">ansible-modules-core/issues/2392</a></td>
-<td>YUM module: check_mode not supported when name=htt</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2419">ansible-modules-core/issues/2419</a></td>
-<td>Yum plugin doesn't support update-to</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2607">ansible-modules-core/issues/2607</a></td>
-<td>yum module allows people to brick their systems wi</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2667">ansible-modules-core/issues/2667</a></td>
-<td>FR - improve yum clean/makecache support</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2802">ansible-modules-core/issues/2802</a></td>
-<td>yum update not working if lenght of package name +</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3034">ansible-modules-core/issues/3034</a></td>
-<td>Yum not working when providing multiples repos on </td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3212">ansible-modules-core/issues/3212</a></td>
-<td>Please provide yum swap capability</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3420">ansible-modules-core/issues/3420</a></td>
-<td>Ability to ignore excludes in the yum module</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3629">ansible-modules-core/issues/3629</a></td>
-<td>Yum module should support disableexcludes option</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3917">ansible-modules-core/issues/3917</a></td>
-<td>Add state=query option for OS Packaging Modules</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4089">ansible-modules-core/issues/4089</a></td>
-<td>FR: yum module should support sub commands such as</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4119">ansible-modules-core/issues/4119</a></td>
-<td>yum module doesn't install group if 'state=latest'</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4206">ansible-modules-core/issues/4206</a></td>
-<td>module (yum) is missing interpreter line</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4229">ansible-modules-core/issues/4229</a></td>
-<td>yum module saying packages are up to date when it'</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4273">ansible-modules-core/issues/4273</a></td>
-<td>Support yum autoremove</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4384">ansible-modules-core/issues/4384</a></td>
-<td>yum module not reporting error in Ansible 2.1.1.0</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1666">ansible-modules-core/pull/1666</a></td>
-<td>yum: refactoring working with yum groups</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1803">ansible-modules-core/pull/1803</a></td>
-<td>fix for yum to use localinstall when using an rpm</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3016">ansible-modules-core/pull/3016</a></td>
-<td>YUM: Catch 'as root' to attribute permissions erro</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3579">ansible-modules-core/pull/3579</a></td>
-<td>Ansible reports "All packages providing xxx are up</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3772">ansible-modules-core/pull/3772</a></td>
-<td>Added docs on using list. Also added examples</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3967">ansible-modules-core/pull/3967</a></td>
-<td>Yum on rhn-plugin systems requires root</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4141">ansible-modules-core/pull/4141</a></td>
-<td>Correct the handling of state=latest for yum group</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4299">ansible-modules-core/pull/4299</a></td>
-<td>Allow ability to update specific package, do nothi</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/13086">ansible/issues/13086</a></td>
-<td>yum: honour package version pinning via yum-plugin</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/13527">ansible/issues/13527</a></td>
-<td>yum module doesn't call rhnplugin, because module-</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/13998">ansible/issues/13998</a></td>
-<td>[2.1.0] Package or yum modules do not complete dow</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/16006">ansible/issues/16006</a></td>
-<td>Playbook skips to PLAY RECAP when installing speci</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/16597">ansible/issues/16597</a></td>
-<td>with_items (and yum module) returns OK for item th</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/16863">ansible/issues/16863</a></td>
-<td>yum state=present name=$name-$ver-$rel.$arch insta</td>
-</tr>
-<tr>
 <td>service</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1221">ansible-modules-core/issues/1221</a></td>
 <td>Feature Request: Module for integrating with AWS S</td>
@@ -8184,6 +8009,201 @@
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible/pull/9806">ansible/pull/9806</a></td>
 <td>Fixes #302 - Copy fails when source file is identi</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1117">ansible-modules-core/issues/1117</a></td>
+<td>Add an option to specifiy cache valid time period </td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1232">ansible-modules-core/issues/1232</a></td>
+<td>yum update incorrectly reporting "All Packages Up </td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1419">ansible-modules-core/issues/1419</a></td>
+<td>Yum can't downgrade packages</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1556">ansible-modules-core/issues/1556</a></td>
+<td>yum: run a single yum command with state=latest</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1558">ansible-modules-core/issues/1558</a></td>
+<td>add --installroot option to yum module </td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1706">ansible-modules-core/issues/1706</a></td>
+<td>yum list and name parameters are mutually exclusiv</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1849">ansible-modules-core/issues/1849</a></td>
+<td>Error when using Yum to install packages from file</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1964">ansible-modules-core/issues/1964</a></td>
+<td>yum module should support state "downloaded"</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2232">ansible-modules-core/issues/2232</a></td>
+<td>Doc: missing examples for yum list</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2390">ansible-modules-core/issues/2390</a></td>
+<td>need for --disableplugin=rhnplugin option for the </td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2392">ansible-modules-core/issues/2392</a></td>
+<td>YUM module: check_mode not supported when name=htt</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2419">ansible-modules-core/issues/2419</a></td>
+<td>Yum plugin doesn't support update-to</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2607">ansible-modules-core/issues/2607</a></td>
+<td>yum module allows people to brick their systems wi</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2667">ansible-modules-core/issues/2667</a></td>
+<td>FR - improve yum clean/makecache support</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2802">ansible-modules-core/issues/2802</a></td>
+<td>yum update not working if lenght of package name +</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3034">ansible-modules-core/issues/3034</a></td>
+<td>Yum not working when providing multiples repos on </td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3212">ansible-modules-core/issues/3212</a></td>
+<td>Please provide yum swap capability</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3420">ansible-modules-core/issues/3420</a></td>
+<td>Ability to ignore excludes in the yum module</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3629">ansible-modules-core/issues/3629</a></td>
+<td>Yum module should support disableexcludes option</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3917">ansible-modules-core/issues/3917</a></td>
+<td>Add state=query option for OS Packaging Modules</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4089">ansible-modules-core/issues/4089</a></td>
+<td>FR: yum module should support sub commands such as</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4119">ansible-modules-core/issues/4119</a></td>
+<td>yum module doesn't install group if 'state=latest'</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4206">ansible-modules-core/issues/4206</a></td>
+<td>module (yum) is missing interpreter line</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4229">ansible-modules-core/issues/4229</a></td>
+<td>yum module saying packages are up to date when it'</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4273">ansible-modules-core/issues/4273</a></td>
+<td>Support yum autoremove</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4384">ansible-modules-core/issues/4384</a></td>
+<td>yum module not reporting error in Ansible 2.1.1.0</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1803">ansible-modules-core/pull/1803</a></td>
+<td>fix for yum to use localinstall when using an rpm</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3016">ansible-modules-core/pull/3016</a></td>
+<td>YUM: Catch 'as root' to attribute permissions erro</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3579">ansible-modules-core/pull/3579</a></td>
+<td>Ansible reports "All packages providing xxx are up</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3772">ansible-modules-core/pull/3772</a></td>
+<td>Added docs on using list. Also added examples</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3967">ansible-modules-core/pull/3967</a></td>
+<td>Yum on rhn-plugin systems requires root</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4141">ansible-modules-core/pull/4141</a></td>
+<td>Correct the handling of state=latest for yum group</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4299">ansible-modules-core/pull/4299</a></td>
+<td>Allow ability to update specific package, do nothi</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/13086">ansible/issues/13086</a></td>
+<td>yum: honour package version pinning via yum-plugin</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/13527">ansible/issues/13527</a></td>
+<td>yum module doesn't call rhnplugin, because module-</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/13998">ansible/issues/13998</a></td>
+<td>[2.1.0] Package or yum modules do not complete dow</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/16006">ansible/issues/16006</a></td>
+<td>Playbook skips to PLAY RECAP when installing speci</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/16597">ansible/issues/16597</a></td>
+<td>with_items (and yum module) returns OK for item th</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/issues/16863">ansible/issues/16863</a></td>
+<td>yum state=present name=$name-$ver-$rel.$arch insta</td>
 </tr>
 <tr>
 <td>s3</td>
@@ -9096,136 +9116,6 @@
 <td>nAttributeError: DynamicData_Holder object has no </td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1158">ansible-modules-core/issues/1158</a></td>
-<td>Docker 1.6 cannot mount a volume with a single fil</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1252">ansible-modules-core/issues/1252</a></td>
-<td>mount module creates fstab entry even if it cannot</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1691">ansible-modules-core/issues/1691</a></td>
-<td>Unable to mount multiple swap files </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1697">ansible-modules-core/issues/1697</a></td>
-<td>Mount command should have an option to suppress "-</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1868">ansible-modules-core/issues/1868</a></td>
-<td>Mount module is not idempotent when passno and dum</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1869">ansible-modules-core/issues/1869</a></td>
-<td>mount documentation incorrectly specifies what "ab</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1942">ansible-modules-core/issues/1942</a></td>
-<td>Mount state=mounted opts=bind mounts on every run</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2571">ansible-modules-core/issues/2571</a></td>
-<td>mount module feature request: allow to mount witho</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2623">ansible-modules-core/issues/2623</a></td>
-<td>mount module with the state=unmounted not removing</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2898">ansible-modules-core/issues/2898</a></td>
-<td>mount module can't handle nested mountpoints</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2924">ansible-modules-core/issues/2924</a></td>
-<td>Checking is mount does not work correctly with "bi</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
-<td>Mount failed but task succeeded</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/464">ansible-modules-core/issues/464</a></td>
-<td>mount documentation does not match code</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1756">ansible-modules-core/pull/1756</a></td>
-<td>Added remount option to the mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2445">ansible-modules-core/pull/2445</a></td>
-<td>try -o remount but fallback to unmount + remount </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2464">ansible-modules-core/pull/2464</a></td>
-<td>mount.py - lazy umount, trailing slash tolerance a</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
-<td>Add support for setting fstab location on Linux to</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/11005">ansible/issues/11005</a></td>
-<td>Autofs automounts become mounted by fact gathering</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/16627">ansible/issues/16627</a></td>
-<td>Allow conditions per module/role options</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1320">ansible-modules-core/issues/1320</a></td>
 <td>rds should use vpc_security_group_ids parameter wh</td>
@@ -9464,6 +9354,121 @@
 <td>group</td>
 <td><a href="https://github.com/ansible/ansible/pull/16413">ansible/pull/16413</a></td>
 <td>Refactor inventory group 'list' data structures to</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1158">ansible-modules-core/issues/1158</a></td>
+<td>Docker 1.6 cannot mount a volume with a single fil</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1252">ansible-modules-core/issues/1252</a></td>
+<td>mount module creates fstab entry even if it cannot</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1691">ansible-modules-core/issues/1691</a></td>
+<td>Unable to mount multiple swap files </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1697">ansible-modules-core/issues/1697</a></td>
+<td>Mount command should have an option to suppress "-</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1868">ansible-modules-core/issues/1868</a></td>
+<td>Mount module is not idempotent when passno and dum</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1869">ansible-modules-core/issues/1869</a></td>
+<td>mount documentation incorrectly specifies what "ab</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1942">ansible-modules-core/issues/1942</a></td>
+<td>Mount state=mounted opts=bind mounts on every run</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2571">ansible-modules-core/issues/2571</a></td>
+<td>mount module feature request: allow to mount witho</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2623">ansible-modules-core/issues/2623</a></td>
+<td>mount module with the state=unmounted not removing</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2898">ansible-modules-core/issues/2898</a></td>
+<td>mount module can't handle nested mountpoints</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2924">ansible-modules-core/issues/2924</a></td>
+<td>Checking is mount does not work correctly with "bi</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
+<td>Mount failed but task succeeded</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/464">ansible-modules-core/issues/464</a></td>
+<td>mount documentation does not match code</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
+<td>Add support for setting fstab location on Linux to</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/11005">ansible/issues/11005</a></td>
+<td>Autofs automounts become mounted by fact gathering</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/16627">ansible/issues/16627</a></td>
+<td>Allow conditions per module/role options</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
 <td>apt</td>
@@ -10481,81 +10486,6 @@
 <td>Amazon cloudformation stack resource and output lo</td>
 </tr>
 <tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
-<td>authorized_keys assumes home directory is already </td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1614">ansible-modules-core/pull/1614</a></td>
-<td>authorized_keys: fix creating .ssh directory</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
-<td>In system/authorized_key.py make manage_dir create</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/14369">ansible/issues/14369</a></td>
-<td>2.0.0.2 Loop Error AttributeError: list object has</td>
-</tr>
-<tr>
 <td>ec2_vpc</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1271">ansible-modules-core/issues/1271</a></td>
 <td>ec2_vpc has no property to set dhcp_options_set </td>
@@ -10764,6 +10694,76 @@
 <td>ec2_vol</td>
 <td><a href="https://github.com/ansible/ansible/issues/12246">ansible/issues/12246</a></td>
 <td>Verify AWS key/secret has sufficient permission to</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
+<td>authorized_keys assumes home directory is already </td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
+<td>In system/authorized_key.py make manage_dir create</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible/issues/14369">ansible/issues/14369</a></td>
+<td>2.0.0.2 Loop Error AttributeError: list object has</td>
 </tr>
 <tr>
 <td>new</td>
@@ -11216,6 +11216,66 @@
 <td>ec2.py dynamic inventory issue with ElastiCache in</td>
 </tr>
 <tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1904">ansible-modules-core/issues/1904</a></td>
+<td>Uncaught type error in uri module</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3157">ansible-modules-core/issues/3157</a></td>
+<td>Upload binary file possibility in URI module</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3603">ansible-modules-core/issues/3603</a></td>
+<td>Show actual status code for uri</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4217">ansible-modules-core/issues/4217</a></td>
+<td>Uri Module in 2.1 follows redirects strangely</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4361">ansible-modules-core/issues/4361</a></td>
+<td>Ansible 2.0.2.0 and later break Webmin port test</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3527">ansible-modules-core/pull/3527</a></td>
+<td>Added feature to accept an empty list for status_c</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4467">ansible-modules-core/pull/4467</a></td>
+<td>Add use_proxy parameter to uri module for parity w</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/12247">ansible/issues/12247</a></td>
+<td>Unexpected syntax when using multi-line tasks and </td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/12917">ansible/issues/12917</a></td>
+<td>uri module: Both 200 and 304 should be accepted by</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/14804">ansible/issues/14804</a></td>
+<td>add client certificate support to uri module (and </td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/15792">ansible/issues/15792</a></td>
+<td>Documentation difficult to identify changes across</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
+<td>Digest authentication mechanism doesn't work for u</td>
+</tr>
+<tr>
 <td>postgresql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
 <td>Add support for CONNECTION LIMIT to postgresql_use</td>
@@ -11384,61 +11444,6 @@
 <td>shell</td>
 <td><a href="https://github.com/ansible/ansible/issues/7240">ansible/issues/7240</a></td>
 <td>(Doc) Intro to Ad-Hoc Commands:  the command modul</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1904">ansible-modules-core/issues/1904</a></td>
-<td>Uncaught type error in uri module</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3157">ansible-modules-core/issues/3157</a></td>
-<td>Upload binary file possibility in URI module</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3603">ansible-modules-core/issues/3603</a></td>
-<td>Show actual status code for uri</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4217">ansible-modules-core/issues/4217</a></td>
-<td>Uri Module in 2.1 follows redirects strangely</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4361">ansible-modules-core/issues/4361</a></td>
-<td>Ansible 2.0.2.0 and later break Webmin port test</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3527">ansible-modules-core/pull/3527</a></td>
-<td>Added feature to accept an empty list for status_c</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/12247">ansible/issues/12247</a></td>
-<td>Unexpected syntax when using multi-line tasks and </td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/12917">ansible/issues/12917</a></td>
-<td>uri module: Both 200 and 304 should be accepted by</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/14804">ansible/issues/14804</a></td>
-<td>add client certificate support to uri module (and </td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/15792">ansible/issues/15792</a></td>
-<td>Documentation difficult to identify changes across</td>
-</tr>
-<tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
-<td>Digest authentication mechanism doesn't work for u</td>
 </tr>
 <tr>
 <td>ec2_ami_find</td>
@@ -13741,6 +13746,26 @@
 <td>async_wrapper does not filter garbage from module </td>
 </tr>
 <tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
 <td>win_chocolatey</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
 <td>Failed to install packages on windows host using w</td>
@@ -13999,26 +14024,6 @@
 <td>homebrew</td>
 <td><a href="https://github.com/ansible/ansible/pull/16966">ansible/pull/16966</a></td>
 <td>Add homebrew in squash_actions list</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>win_msi</td>
@@ -14431,21 +14436,6 @@
 <td>Please make "waitfor" or "wait_for" consistent in </td>
 </tr>
 <tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/178">ansible-modules-core/issues/178</a></td>
-<td>Request for raw command to not invoke shell</td>
-</tr>
-<tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2823">ansible-modules-core/pull/2823</a></td>
-<td>Added raw example for Windows Server</td>
-</tr>
-<tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible/issues/16017">ansible/issues/16017</a></td>
-<td>Cant use Ansible ios_ core modules to manage Cisco</td>
-</tr>
-<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1638">ansible-modules-extras/issues/1638</a></td>
 <td>locale_gen should check /usr/share/i18n/SUPPORTED </td>
@@ -14761,16 +14751,6 @@
 <td>when write_config is no, we should not try to writ</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14871,6 +14851,16 @@
 <td>Add support for StepScaling policies to ec2_scalin</td>
 </tr>
 <tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/178">ansible-modules-core/issues/178</a></td>
+<td>Request for raw command to not invoke shell</td>
+</tr>
+<tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible/issues/16017">ansible/issues/16017</a></td>
+<td>Cant use Ansible ios_ core modules to manage Cisco</td>
+</tr>
+<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4402">ansible-modules-core/issues/4402</a></td>
 <td>nxos_feature is broken with CLI transport (show fe</td>
@@ -14939,6 +14929,16 @@
 <td>patch</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/793">ansible-modules-extras/issues/793</a></td>
 <td>Patch module sometimes skips files with no overrid</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
 </tr>
 <tr>
 <td>irc</td>
@@ -15546,11 +15546,6 @@
 <td>Add a module to manage Datadog dashboards</td>
 </tr>
 <tr>
-<td>apache2_module</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1240">ansible-modules-extras/pull/1240</a></td>
-<td>simple a2ensite/a2dissite module</td>
-</tr>
-<tr>
 <td>win_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
 <td>win_file: no longer causes a stack trace if called</td>
@@ -15669,11 +15664,6 @@
 <td>os_routers_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2199">ansible-modules-extras/pull/2199</a></td>
 <td>Added os_routers_facts module</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
-<td>Neutron modules fail without admin credentails</td>
 </tr>
 <tr>
 <td>pingdom</td>
@@ -15796,6 +15786,11 @@
 <td>Satellite module to manage activation keys</td>
 </tr>
 <tr>
+<td>apache2_module</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1240">ansible-modules-extras/pull/1240</a></td>
+<td>simple a2ensite/a2dissite module</td>
+</tr>
+<tr>
 <td>os_host_aggregate_member</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2257">ansible-modules-extras/pull/2257</a></td>
 <td>Added os_host_aggregate and os_host_aggregate_memb</td>
@@ -15861,6 +15856,11 @@
 <td>pkg5 failed if package is installed</td>
 </tr>
 <tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
+<td>Neutron modules fail without admin credentails</td>
+</tr>
+<tr>
 <td>lvm_pvs</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2639">ansible-modules-extras/pull/2639</a></td>
 <td>Add lpv module</td>
@@ -15914,6 +15914,11 @@
 <td>fleet_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2345">ansible-modules-extras/pull/2345</a></td>
 <td>add fleet_facts module which gathers information a</td>
+</tr>
+<tr>
+<td>play_context</td>
+<td><a href="https://github.com/ansible/ansible/pull/17143">ansible/pull/17143</a></td>
+<td>become_method: Add support for ksu</td>
 </tr>
 <tr>
 <td>openvswitch_bridge</td>
