@@ -1782,11 +1782,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/13856">ansible/issues/13856</a></td>
-<td>[2.0] Chocolatey Module Fails When It Is Not Alrea</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/13858">ansible/issues/13858</a></td>
 <td>version control your documentation</td>
 </tr>
@@ -2344,6 +2339,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/14641">ansible/issues/14641</a></td>
 <td>ansible_local var no longer available.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/14643">ansible/issues/14643</a></td>
+<td>windows setup module fails if WinRM compatibility </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8412,11 +8412,6 @@
 </tr>
 <tr>
 <td>setup</td>
-<td><a href="https://github.com/ansible/ansible/issues/14643">ansible/issues/14643</a></td>
-<td>Module setup fails on Windows Server 2008 R2 with </td>
-</tr>
-<tr>
-<td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/14991">ansible/issues/14991</a></td>
 <td>setup module fails</td>
 </tr>
@@ -11826,51 +11821,6 @@
 <td>ansible_firewalld fact</td>
 </tr>
 <tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1021">ansible-modules-extras/issues/1021</a></td>
-<td>win_chocolatey throws errors</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1054">ansible-modules-extras/issues/1054</a></td>
-<td>win_chocolatey should accept installation argument</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1164">ansible-modules-extras/issues/1164</a></td>
-<td>win_chocolatey always returning items have changed</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
-<td>Failed to install packages on windows host using w</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1561">ansible-modules-extras/issues/1561</a></td>
-<td>win_chocolatey doesn't force the install when argu</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1886">ansible-modules-extras/issues/1886</a></td>
-<td>win_chocolatey error: "The package was not found w</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2715">ansible-modules-extras/issues/2715</a></td>
-<td>chocolatey 0.10.0 needs to pass argument to choco.</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2657">ansible-modules-extras/pull/2657</a></td>
-<td>Added a nuget module</td>
-</tr>
-<tr>
-<td>win_chocolatey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2722">ansible-modules-extras/pull/2722</a></td>
-<td>pass flag to choco, allowemptychecksums and ignore</td>
-</tr>
-<tr>
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
 <td>docker log_opt ignored if log_driver is not specif</td>
@@ -13436,6 +13386,31 @@
 <td>add dispersed volume support for gluster_volume</td>
 </tr>
 <tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
+<td>Failed to install packages on windows host using w</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1886">ansible-modules-extras/issues/1886</a></td>
+<td>win_chocolatey error: "The package was not found w</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2715">ansible-modules-extras/issues/2715</a></td>
+<td>chocolatey 0.10.0 needs to pass argument to choco.</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2657">ansible-modules-extras/pull/2657</a></td>
+<td>Added a nuget module</td>
+</tr>
+<tr>
+<td>win_chocolatey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2722">ansible-modules-extras/pull/2722</a></td>
+<td>pass flag to choco, allowemptychecksums and ignore</td>
+</tr>
+<tr>
 <td>bower</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1349">ansible-modules-extras/issues/1349</a></td>
 <td>KeyError in bower tasks</td>
@@ -14591,6 +14566,16 @@
 <td>Ansible SELinux fact is misleading</td>
 </tr>
 <tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
+<td>nxos_interface depends on nxos_feature which doesn</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4459">ansible-modules-core/pull/4459</a></td>
+<td>Remove feature check on svis in nxos_interface</td>
+</tr>
+<tr>
 <td>logentries</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/74">ansible-modules-extras/issues/74</a></td>
 <td>Add the "name" parameter in logentries follow modu</td>
@@ -14629,6 +14614,16 @@
 <td>ec2_win_password</td>
 <td><a href="https://github.com/ansible/ansible/issues/14980">ansible/issues/14980</a></td>
 <td>Censor module results in ansible.log</td>
+</tr>
+<tr>
+<td>nxos_switchport</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4082">ansible-modules-core/issues/4082</a></td>
+<td>nxos_switchport not configuring trunk ports proper</td>
+</tr>
+<tr>
+<td>nxos_switchport</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4458">ansible-modules-core/pull/4458</a></td>
+<td>improve working with trunks with nxos_switchport</td>
 </tr>
 <tr>
 <td>win_iis_website</td>
@@ -15191,11 +15186,6 @@
 <td>Set example ansible.cfg *includes_static options t</td>
 </tr>
 <tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
-<td>nxos_interface depends on nxos_feature which doesn</td>
-</tr>
-<tr>
 <td>win_ping</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4430">ansible-modules-core/issues/4430</a></td>
 <td>winrm NanoServer Unable to find type System.Securi</td>
@@ -15259,11 +15249,6 @@
 <td>httpd_proxy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2148">ansible-modules-extras/pull/2148</a></td>
 <td>new module: apache2_mod_proxy</td>
-</tr>
-<tr>
-<td>nxos_switchport</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4082">ansible-modules-core/issues/4082</a></td>
-<td>nxos_switchport not configuring trunk ports proper</td>
 </tr>
 <tr>
 <td>datadog_downtime</td>
