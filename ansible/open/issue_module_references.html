@@ -287,6 +287,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1152">ansible-modules-extras/pull/1152</a></td>
+<td>Add explicit diff of packages installed on system </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1168">ansible-modules-extras/pull/1168</a></td>
+<td>Use mongodb query instead of loop to retrieve user</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1177">ansible-modules-extras/pull/1177</a></td>
 <td>Add CORS support to s3_bucket.</td>
 </tr>
@@ -312,6 +322,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/132">ansible-modules-extras/pull/132</a></td>
+<td>firewalld: Add support for default_zone configurat</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1362">ansible-modules-extras/pull/1362</a></td>
 <td>Return actual queue attributes with result from sq</td>
 </tr>
@@ -327,6 +342,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1419">ansible-modules-extras/pull/1419</a></td>
+<td>Adding source_range and dest_range</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1422">ansible-modules-extras/pull/1422</a></td>
+<td>add a functionality to lvol module, to create thin</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1430">ansible-modules-extras/pull/1430</a></td>
 <td>New AWS VPC Endpoint module for creating and delet</td>
 </tr>
@@ -334,6 +359,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1446">ansible-modules-extras/pull/1446</a></td>
 <td>New facts module for AWS EC2 Managed Nat Gateways</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1480">ansible-modules-extras/pull/1480</a></td>
+<td>Modified win_acl to accept Security Identifiers fo</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11786,56 +11816,6 @@
 <td>Proposed subversion module for use with Windows</td>
 </tr>
 <tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1112">ansible-modules-extras/issues/1112</a></td>
-<td>firewalld fails, if firewall is not started</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1808">ansible-modules-extras/issues/1808</a></td>
-<td>Firewalld fails to add source address to a zone</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/209">ansible-modules-extras/issues/209</a></td>
-<td>Add support of "interface direct" on firewalld</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/236">ansible-modules-extras/issues/236</a></td>
-<td>firewalld: will remove previos rules</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2494">ansible-modules-extras/issues/2494</a></td>
-<td>firewalld Traceback error instead of something mea</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2684">ansible-modules-extras/issues/2684</a></td>
-<td>firewalld - Permission denied: /var/log/firewalld</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/910">ansible-modules-extras/issues/910</a></td>
-<td>firewalld module should provide an option to add a</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/132">ansible-modules-extras/pull/132</a></td>
-<td>firewalld: Add support for default_zone configurat</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
-<td>Add a ansible_fw_manager fact</td>
-</tr>
-<tr>
-<td>firewalld</td>
-<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
-<td>ansible_firewalld fact</td>
-</tr>
-<tr>
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
 <td>docker log_opt ignored if log_driver is not specif</td>
@@ -11969,6 +11949,51 @@
 <td>iam_cert</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4448">ansible-modules-core/pull/4448</a></td>
 <td>Issue: fix pagination bug when it retrieving certi</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1112">ansible-modules-extras/issues/1112</a></td>
+<td>firewalld fails, if firewall is not started</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1808">ansible-modules-extras/issues/1808</a></td>
+<td>Firewalld fails to add source address to a zone</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/209">ansible-modules-extras/issues/209</a></td>
+<td>Add support of "interface direct" on firewalld</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/236">ansible-modules-extras/issues/236</a></td>
+<td>firewalld: will remove previos rules</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2494">ansible-modules-extras/issues/2494</a></td>
+<td>firewalld Traceback error instead of something mea</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2684">ansible-modules-extras/issues/2684</a></td>
+<td>firewalld - Permission denied: /var/log/firewalld</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/910">ansible-modules-extras/issues/910</a></td>
+<td>firewalld module should provide an option to add a</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
+<td>Add a ansible_fw_manager fact</td>
+</tr>
+<tr>
+<td>firewalld</td>
+<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
+<td>ansible_firewalld fact</td>
 </tr>
 <tr>
 <td>template</td>
@@ -12701,41 +12726,6 @@
 <td>Allow setting/changing the default tablespace for </td>
 </tr>
 <tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1959">ansible-modules-extras/issues/1959</a></td>
-<td>lvol does not work with size suffix b or B</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/219">ansible-modules-extras/issues/219</a></td>
-<td>lvol module doesn't take options for lvextend/lvre</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2249">ansible-modules-extras/issues/2249</a></td>
-<td>Problem with unit size description in lvol module</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2353">ansible-modules-extras/issues/2353</a></td>
-<td>Unsupported parameter for module: shrink in lvol m</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2478">ansible-modules-extras/issues/2478</a></td>
-<td>lvol module should not require size if origin is t</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1422">ansible-modules-extras/pull/1422</a></td>
-<td>add a functionality to lvol module, to create thin</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2041">ansible-modules-extras/pull/2041</a></td>
-<td>Add lvol_cache module</td>
-</tr>
-<tr>
 <td>haproxy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2758">ansible-modules-core/pull/2758</a></td>
 <td>Add support for sockets to the file-module</td>
@@ -13209,6 +13199,36 @@
 <td>os_router</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4268">ansible-modules-core/pull/4268</a></td>
 <td>Added function to disregard HA router ports Fixes </td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1959">ansible-modules-extras/issues/1959</a></td>
+<td>lvol does not work with size suffix b or B</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/219">ansible-modules-extras/issues/219</a></td>
+<td>lvol module doesn't take options for lvextend/lvre</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2249">ansible-modules-extras/issues/2249</a></td>
+<td>Problem with unit size description in lvol module</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2353">ansible-modules-extras/issues/2353</a></td>
+<td>Unsupported parameter for module: shrink in lvol m</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2478">ansible-modules-extras/issues/2478</a></td>
+<td>lvol module should not require size if origin is t</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2041">ansible-modules-extras/pull/2041</a></td>
+<td>Add lvol_cache module</td>
 </tr>
 <tr>
 <td>ecs_service</td>
@@ -13776,26 +13796,6 @@
 <td>ec2_metric_alarm.py - added actions_enabled option</td>
 </tr>
 <tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1289">ansible-modules-extras/issues/1289</a></td>
-<td>system/puppet.py check if puppet is disabled does </td>
-</tr>
-<tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1152">ansible-modules-extras/pull/1152</a></td>
-<td>Add explicit diff of packages installed on system </td>
-</tr>
-<tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1807">ansible-modules-extras/pull/1807</a></td>
-<td>Hiera new module added, to parse and use hiera var</td>
-</tr>
-<tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible/issues/14860">ansible/issues/14860</a></td>
-<td>Proposal: Controlling when diff output should be p</td>
-</tr>
-<tr>
 <td>pam_limits</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1083">ansible-modules-extras/issues/1083</a></td>
 <td>module cannot remove certain limits pam_limits.py</td>
@@ -14076,21 +14076,6 @@
 <td>mongodb_users module not creating users</td>
 </tr>
 <tr>
-<td>win_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1433">ansible-modules-extras/issues/1433</a></td>
-<td>win_acl: set permissions to apppool identities don</td>
-</tr>
-<tr>
-<td>win_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1480">ansible-modules-extras/pull/1480</a></td>
-<td>Modified win_acl to accept Security Identifiers fo</td>
-</tr>
-<tr>
-<td>win_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2675">ansible-modules-extras/pull/2675</a></td>
-<td>Added support for IIS AppPool identities</td>
-</tr>
-<tr>
 <td>ec2_vpc_peer</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1985">ansible-modules-core/pull/1985</a></td>
 <td>Add module supporting AWS VPC Peering Connections </td>
@@ -14284,6 +14269,21 @@
 <td>rabbitmq_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2236">ansible-modules-extras/pull/2236</a></td>
 <td>Fixes #1566 Add full change check for rabbitmq pol</td>
+</tr>
+<tr>
+<td>puppet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1289">ansible-modules-extras/issues/1289</a></td>
+<td>system/puppet.py check if puppet is disabled does </td>
+</tr>
+<tr>
+<td>puppet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1807">ansible-modules-extras/pull/1807</a></td>
+<td>Hiera new module added, to parse and use hiera var</td>
+</tr>
+<tr>
+<td>puppet</td>
+<td><a href="https://github.com/ansible/ansible/issues/14860">ansible/issues/14860</a></td>
+<td>Proposal: Controlling when diff output should be p</td>
 </tr>
 <tr>
 <td>slack</td>
@@ -14511,21 +14511,6 @@
 <td>Ansible mercurial clone hangs on deploy, runs fine</td>
 </tr>
 <tr>
-<td>_keystone_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2099">ansible-modules-core/pull/2099</a></td>
-<td>update quantum modules for non-admin users</td>
-</tr>
-<tr>
-<td>_keystone_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2835">ansible-modules-core/pull/2835</a></td>
-<td>add an IPv6 option to Digital Ocean droplet creati</td>
-</tr>
-<tr>
-<td>_keystone_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1168">ansible-modules-extras/pull/1168</a></td>
-<td>Use mongodb query instead of loop to retrieve user</td>
-</tr>
-<tr>
 <td>kubernetes</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2693">ansible-modules-core/pull/2693</a></td>
 <td>Revert "Fixes #4448 reloaded services should be st</td>
@@ -14604,6 +14589,16 @@
 <td>infoblox</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2016">ansible-modules-extras/pull/2016</a></td>
 <td>Add support for managing and configuring Infoblox </td>
+</tr>
+<tr>
+<td>win_acl</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1433">ansible-modules-extras/issues/1433</a></td>
+<td>win_acl: set permissions to apppool identities don</td>
+</tr>
+<tr>
+<td>win_acl</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2675">ansible-modules-extras/pull/2675</a></td>
+<td>Added support for IIS AppPool identities</td>
 </tr>
 <tr>
 <td>ec2_win_password</td>
@@ -15154,6 +15149,16 @@
 <td>lvg</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2622">ansible-modules-extras/pull/2622</a></td>
 <td>Add list command to lvg and lvol modules</td>
+</tr>
+<tr>
+<td>_keystone_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2099">ansible-modules-core/pull/2099</a></td>
+<td>update quantum modules for non-admin users</td>
+</tr>
+<tr>
+<td>_keystone_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2835">ansible-modules-core/pull/2835</a></td>
+<td>add an IPv6 option to Digital Ocean droplet creati</td>
 </tr>
 <tr>
 <td>ec2_vpc_subnet</td>
@@ -15924,11 +15929,6 @@
 <td>action_plugin</td>
 <td><a href="https://github.com/ansible/ansible/issues/16586">ansible/issues/16586</a></td>
 <td>Importing from action plugins depends on the task </td>
-</tr>
-<tr>
-<td>digital_ocean_domain</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1419">ansible-modules-extras/pull/1419</a></td>
-<td>Adding source_range and dest_range</td>
 </tr>
 <tr>
 <td>elastic_beanstalk</td>
