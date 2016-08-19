@@ -212,6 +212,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
+<td>Feature #2731: added postgres import and dump (see</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
 <td>Allow login database to be specified in postgresql</td>
 </tr>
@@ -219,6 +224,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2823">ansible-modules-core/pull/2823</a></td>
 <td>Added raw example for Windows Server</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2904">ansible-modules-core/pull/2904</a></td>
+<td>Ignore errors while deleting a directory using for</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -244,6 +254,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3005">ansible-modules-core/pull/3005</a></td>
 <td>Fix for docker container labels</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3424">ansible-modules-core/pull/3424</a></td>
+<td>add results paging to iam</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4337,18 +4352,13 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17146">ansible/issues/17146</a></td>
-<td>unarchive module error</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17147">ansible/issues/17147</a></td>
-<td>AWS dynamic inventory Python script fails to run</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17148">ansible/issues/17148</a></td>
 <td>Loop  control loop_var value is not always inherit</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17152">ansible/issues/17152</a></td>
+<td>Ansible stalls during setup when pushing to large </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6094,6 +6104,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17130">ansible/pull/17130</a></td>
 <td>vmware inventory: enable threaded host processing</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17150">ansible/pull/17150</a></td>
+<td>pull Config object out of network and into netcfg</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9772,11 +9787,6 @@
 </tr>
 <tr>
 <td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2904">ansible-modules-core/pull/2904</a></td>
-<td>Ignore errors while deleting a directory using for</td>
-</tr>
-<tr>
-<td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3095">ansible-modules-core/pull/3095</a></td>
 <td>Add state=empty into file module (Fixes #902)</td>
 </tr>
@@ -9814,96 +9824,6 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/962">ansible-modules-extras/pull/962</a></td>
 <td>New blockfromfile module</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1339">ansible-modules-core/issues/1339</a></td>
-<td>Document AWS IAM policy requirements for ec2.py dy</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2138">ansible-modules-core/issues/2138</a></td>
-<td>iam module doesn't return role ARN and instance pr</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2192">ansible-modules-core/issues/2192</a></td>
-<td>IAM module can get into weird broken states for IA</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2685">ansible-modules-core/issues/2685</a></td>
-<td>IAM module: Credentials error message is unhelpful</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2687">ansible-modules-core/issues/2687</a></td>
-<td>IAM module: policy_json with template lookup doesn</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2688">ansible-modules-core/issues/2688</a></td>
-<td>IAM module: Managed policies</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3346">ansible-modules-core/issues/3346</a></td>
-<td>setting iam_role state to active or inactive fails</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3349">ansible-modules-core/issues/3349</a></td>
-<td>allow iam group assignment without wiping out all </td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3411">ansible-modules-core/issues/3411</a></td>
-<td>IAM Role getting back truncated results</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3692">ansible-modules-core/issues/3692</a></td>
-<td>iam.py - existing user not added to existing group</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4001">ansible-modules-core/issues/4001</a></td>
-<td>IAM user can not go from N to 0 groups.</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4399">ansible-modules-core/issues/4399</a></td>
-<td>IAM module not reliably deleting IAM roles</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2684">ansible-modules-core/pull/2684</a></td>
-<td>Fix bug in AWS IAM create_role where instance prof</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3201">ansible-modules-core/pull/3201</a></td>
-<td>Add possibility to configure trust policy for role</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3385">ansible-modules-core/pull/3385</a></td>
-<td>IAM Module bugfix</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3424">ansible-modules-core/pull/3424</a></td>
-<td>add results paging to iam</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4400">ansible-modules-core/pull/4400</a></td>
-<td>Make Ansible's IAM module properly delete roles</td>
-</tr>
-<tr>
-<td>iam</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2314">ansible-modules-extras/pull/2314</a></td>
-<td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
 <td>get_url</td>
@@ -10494,6 +10414,86 @@
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible/pull/12880">ansible/pull/12880</a></td>
 <td>Amazon cloudformation stack resource and output lo</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1339">ansible-modules-core/issues/1339</a></td>
+<td>Document AWS IAM policy requirements for ec2.py dy</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2138">ansible-modules-core/issues/2138</a></td>
+<td>iam module doesn't return role ARN and instance pr</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2192">ansible-modules-core/issues/2192</a></td>
+<td>IAM module can get into weird broken states for IA</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2685">ansible-modules-core/issues/2685</a></td>
+<td>IAM module: Credentials error message is unhelpful</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2687">ansible-modules-core/issues/2687</a></td>
+<td>IAM module: policy_json with template lookup doesn</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2688">ansible-modules-core/issues/2688</a></td>
+<td>IAM module: Managed policies</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3346">ansible-modules-core/issues/3346</a></td>
+<td>setting iam_role state to active or inactive fails</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3349">ansible-modules-core/issues/3349</a></td>
+<td>allow iam group assignment without wiping out all </td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3411">ansible-modules-core/issues/3411</a></td>
+<td>IAM Role getting back truncated results</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3692">ansible-modules-core/issues/3692</a></td>
+<td>iam.py - existing user not added to existing group</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4001">ansible-modules-core/issues/4001</a></td>
+<td>IAM user can not go from N to 0 groups.</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4399">ansible-modules-core/issues/4399</a></td>
+<td>IAM module not reliably deleting IAM roles</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3201">ansible-modules-core/pull/3201</a></td>
+<td>Add possibility to configure trust policy for role</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3385">ansible-modules-core/pull/3385</a></td>
+<td>IAM Module bugfix</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4400">ansible-modules-core/pull/4400</a></td>
+<td>Make Ansible's IAM module properly delete roles</td>
+</tr>
+<tr>
+<td>iam</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2314">ansible-modules-extras/pull/2314</a></td>
+<td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -12651,41 +12651,6 @@
 <td>Refactor maven plugin.</td>
 </tr>
 <tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
-<td>postgresql modules unable to use alternative maint</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2731">ansible-modules-core/issues/2731</a></td>
-<td>postgresql_db should support dump and import state</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
-<td>postgresql_db add parameter to set 'connection dat</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
-<td>postgresql_db owner for tables and views</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
-<td>Updated postgresql_db to include support for the t</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
-<td>Feature #2731: added postgres import and dump (see</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
-<td>Allow setting/changing the default tablespace for </td>
-</tr>
-<tr>
 <td>haproxy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2758">ansible-modules-core/pull/2758</a></td>
 <td>Add support for sockets to the file-module</td>
@@ -13129,6 +13094,36 @@
 <td>django_manage</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4316">ansible-modules-core/pull/4316</a></td>
 <td>strip output before filtering to fix #4309</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
+<td>postgresql modules unable to use alternative maint</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2731">ansible-modules-core/issues/2731</a></td>
+<td>postgresql_db should support dump and import state</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
+<td>postgresql_db add parameter to set 'connection dat</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
+<td>postgresql_db owner for tables and views</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
+<td>Updated postgresql_db to include support for the t</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
+<td>Allow setting/changing the default tablespace for </td>
 </tr>
 <tr>
 <td>os_router</td>
@@ -15591,6 +15586,11 @@
 <td>Retrieve facts from Amazon Certificate Manager.</td>
 </tr>
 <tr>
+<td>net_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/17149">ansible/pull/17149</a></td>
+<td>action plugin net_config will now remove any priva</td>
+</tr>
+<tr>
 <td>firehose</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2567">ansible-modules-extras/pull/2567</a></td>
 <td>Amazon Firehose Module - Split Changes Out</td>
@@ -15806,9 +15806,9 @@
 <td>Add error handling to vApp creation</td>
 </tr>
 <tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
-<td>vmware_inventory script improvements</td>
+<td>virtualization_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/17151">ansible/issues/17151</a></td>
+<td>virtualization_type set to 'kvm' without kvm packg</td>
 </tr>
 <tr>
 <td>win_environment</td>
