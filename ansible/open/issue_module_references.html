@@ -5762,11 +5762,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/16331">ansible/pull/16331</a></td>
-<td>Add missing documentation about defaults/main.yml</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
 <td>Add timeout information into async failure message</td>
 </tr>
@@ -6094,11 +6089,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17115">ansible/pull/17115</a></td>
 <td>Issue 11175 relative ansible cfg lookup</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17128">ansible/pull/17128</a></td>
-<td>dont do it</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9741,6 +9731,101 @@
 <td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
+<td>get_url prevents caching of data</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
+<td>get_url: always download on local checksum mismatc</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
+<td>Fixes get_url examples in docs and applies native </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
+</tr>
+<tr>
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
 <td>File/directory mode must be string</td>
@@ -9834,96 +9919,6 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/962">ansible-modules-extras/pull/962</a></td>
 <td>New blockfromfile module</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
-<td>get_url prevents caching of data</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
-<td>get_url: always download on local checksum mismatc</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>lineinfile</td>
