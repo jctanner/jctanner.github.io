@@ -447,6 +447,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1471">ansible-modules-extras/pull/1471</a></td>
+<td>Add bridge support to nmcli module.</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1480">ansible-modules-extras/pull/1480</a></td>
 <td>Modified win_acl to accept Security Identifiers fo</td>
 </tr>
@@ -10126,91 +10131,6 @@
 <td>synchronize: fix for rsync protocol support</td>
 </tr>
 <tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1062">ansible-modules-extras/issues/1062</a></td>
-<td>nmcli returning error if trying to delete an absen</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1063">ansible-modules-extras/issues/1063</a></td>
-<td>nmcli aborting with exception when trying to creat</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1130">ansible-modules-extras/issues/1130</a></td>
-<td>nmcli module failed to run on Mac OS X 10</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1331">ansible-modules-extras/issues/1331</a></td>
-<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1523">ansible-modules-extras/issues/1523</a></td>
-<td>RFE: [nmcli] - support for setting ipv4.dhcp-clien</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1637">ansible-modules-extras/issues/1637</a></td>
-<td>nmcli reports fail, even though success</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1842">ansible-modules-extras/issues/1842</a></td>
-<td>nmcli reports changed status even if nothing needs</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1843">ansible-modules-extras/issues/1843</a></td>
-<td>nmcli: type is required for create/modify actions</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1910">ansible-modules-extras/issues/1910</a></td>
-<td>nmcli dns example does not run</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2044">ansible-modules-extras/issues/2044</a></td>
-<td>nmcli: conn_name required</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2045">ansible-modules-extras/issues/2045</a></td>
-<td>nmcli: Creating VLANs doesn't work on latest cento</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2046">ansible-modules-extras/issues/2046</a></td>
-<td>nmcli: autoconnect not working</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/919">ansible-modules-extras/issues/919</a></td>
-<td>nmcli state "changed" when it fails miserably</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1471">ansible-modules-extras/pull/1471</a></td>
-<td>Add bridge support to nmcli module.</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1536">ansible-modules-extras/pull/1536</a></td>
-<td>Add Infiniband support</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1840">ansible-modules-extras/pull/1840</a></td>
-<td>Allow setting ipv4.dhcp-client-id parameter</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
-<td>correct command line argument for nmcli autoconnec</td>
-</tr>
-<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1532">ansible-modules-core/issues/1532</a></td>
 <td>pip module executable argument does not expand hom</td>
@@ -10454,6 +10374,86 @@
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible/pull/12880">ansible/pull/12880</a></td>
 <td>Amazon cloudformation stack resource and output lo</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1062">ansible-modules-extras/issues/1062</a></td>
+<td>nmcli returning error if trying to delete an absen</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1063">ansible-modules-extras/issues/1063</a></td>
+<td>nmcli aborting with exception when trying to creat</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1130">ansible-modules-extras/issues/1130</a></td>
+<td>nmcli module failed to run on Mac OS X 10</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1331">ansible-modules-extras/issues/1331</a></td>
+<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1523">ansible-modules-extras/issues/1523</a></td>
+<td>RFE: [nmcli] - support for setting ipv4.dhcp-clien</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1637">ansible-modules-extras/issues/1637</a></td>
+<td>nmcli reports fail, even though success</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1842">ansible-modules-extras/issues/1842</a></td>
+<td>nmcli reports changed status even if nothing needs</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1843">ansible-modules-extras/issues/1843</a></td>
+<td>nmcli: type is required for create/modify actions</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1910">ansible-modules-extras/issues/1910</a></td>
+<td>nmcli dns example does not run</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2044">ansible-modules-extras/issues/2044</a></td>
+<td>nmcli: conn_name required</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2045">ansible-modules-extras/issues/2045</a></td>
+<td>nmcli: Creating VLANs doesn't work on latest cento</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2046">ansible-modules-extras/issues/2046</a></td>
+<td>nmcli: autoconnect not working</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/919">ansible-modules-extras/issues/919</a></td>
+<td>nmcli state "changed" when it fails miserably</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1536">ansible-modules-extras/pull/1536</a></td>
+<td>Add Infiniband support</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1840">ansible-modules-extras/pull/1840</a></td>
+<td>Allow setting ipv4.dhcp-client-id parameter</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
+<td>correct command line argument for nmcli autoconnec</td>
 </tr>
 <tr>
 <td>iam</td>
