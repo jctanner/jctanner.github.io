@@ -10912,6 +10912,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16971">ansible/issues/16971</a></td>
+<td>Docker connection ignores ansible_docker_extra_arg</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16974">ansible/issues/16974</a></td>
 <td>"unsupported parameter for module: gather_subset"</td>
 </tr>
@@ -34452,6 +34457,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16841">ansible/pull/16841</a></td>
+<td>Fix docker connection plugin version tests and py2</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16847">ansible/pull/16847</a></td>
 <td>Update CHANGELOG for new os_zone and os_recordset </td>
 </tr>
@@ -34859,6 +34869,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17168">ansible/pull/17168</a></td>
 <td>replaces NetCli in network with CliBase in shell</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17173">ansible/pull/17173</a></td>
+<td>minor update to the ios shared module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -98841,6 +98856,51 @@
 <td>docker-py error again (RHEL/CentOS)</td>
 </tr>
 <tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3274">ansible-modules-core/issues/3274</a></td>
+<td>nxos_config doesnt iterate through parents</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3599">ansible-modules-core/issues/3599</a></td>
+<td>nxos_config doesn't make change when more than two</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4333">ansible-modules-core/issues/4333</a></td>
+<td>nxos_config exception calling module_utils.netcfg.</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4417">ansible-modules-core/issues/4417</a></td>
+<td>can someone tell based on this output what wrong m</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2532">ansible-modules-core/pull/2532</a></td>
+<td>initial add of nxos_config module</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2857">ansible-modules-core/pull/2857</a></td>
+<td>initial add of new nxos_config module</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3522">ansible-modules-core/pull/3522</a></td>
+<td>Modified nxos_config</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible/issues/16499">ansible/issues/16499</a></td>
+<td>Nxos_config fatal error when deploying swtich bann</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/17172">ansible/pull/17172</a></td>
+<td>updates nxos shared module refactor</td>
+</tr>
+<tr>
 <td>jabber</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/271">ansible-modules-core/pull/271</a></td>
 <td>Adding UserKnownHostsFile ssh switch to fix #270</td>
@@ -99314,46 +99374,6 @@
 <td>junos_template</td>
 <td><a href="https://github.com/ansible/ansible/pull/15569">ansible/pull/15569</a></td>
 <td>updates action plugin junos_template to guess file</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3274">ansible-modules-core/issues/3274</a></td>
-<td>nxos_config doesnt iterate through parents</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3599">ansible-modules-core/issues/3599</a></td>
-<td>nxos_config doesn't make change when more than two</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4333">ansible-modules-core/issues/4333</a></td>
-<td>nxos_config exception calling module_utils.netcfg.</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4417">ansible-modules-core/issues/4417</a></td>
-<td>can someone tell based on this output what wrong m</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2532">ansible-modules-core/pull/2532</a></td>
-<td>initial add of nxos_config module</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2857">ansible-modules-core/pull/2857</a></td>
-<td>initial add of new nxos_config module</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3522">ansible-modules-core/pull/3522</a></td>
-<td>Modified nxos_config</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible/issues/16499">ansible/issues/16499</a></td>
-<td>Nxos_config fatal error when deploying swtich bann</td>
 </tr>
 <tr>
 <td>gc_storage</td>
