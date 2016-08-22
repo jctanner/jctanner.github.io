@@ -8691,6 +8691,11 @@
 <td>fix setup module on Fedora Core 5 (#17175)</td>
 </tr>
 <tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible/pull/17186">ansible/pull/17186</a></td>
+<td>Fix errors when using -vvvv with python 3</td>
+</tr>
+<tr>
 <td>ec2_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
 <td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
@@ -10059,6 +10064,11 @@
 <td>lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3975">ansible-modules-core/issues/3975</a></td>
 <td>lineinfile with regexp writes line when there isn'</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4499">ansible-modules-core/issues/4499</a></td>
+<td>lineinfile incorrectly writes outer quotes in resu</td>
 </tr>
 <tr>
 <td>lineinfile</td>
@@ -13481,31 +13491,6 @@
 <td>Bug Report: Bower - No such file or directory</td>
 </tr>
 <tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
-<td>Enable the use of JSON for junos_command</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
-<td>issue with junos_command and argument rpcs (if the</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4104">ansible-modules-core/pull/4104</a></td>
-<td>Enabling JSON for network/junos/junos_command.py #</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4495">ansible-modules-core/pull/4495</a></td>
-<td>re.match for numeric only for kwargs[key] = int(va</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/15611">ansible/issues/15611</a></td>
-<td>junos.py - xml_to_json to not convert hyphen into </td>
-</tr>
-<tr>
 <td>ovirt</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
 <td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
@@ -13939,6 +13924,26 @@
 <td>pam_limits</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2318">ansible-modules-extras/pull/2318</a></td>
 <td>pam_limits: tab before comment and more meaningful</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
+<td>Enable the use of JSON for junos_command</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
+<td>issue with junos_command and argument rpcs (if the</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4104">ansible-modules-core/pull/4104</a></td>
+<td>Enabling JSON for network/junos/junos_command.py #</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/15611">ansible/issues/15611</a></td>
+<td>junos.py - xml_to_json to not convert hyphen into </td>
 </tr>
 <tr>
 <td>znode</td>
@@ -15256,6 +15261,16 @@
 <td>Add list command to lvg and lvol modules</td>
 </tr>
 <tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2766">ansible-modules-extras/issues/2766</a></td>
+<td>Archive with remote_src=yes strips the second / in</td>
+</tr>
+<tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2699">ansible-modules-extras/pull/2699</a></td>
+<td>Updates to `archive` module based on code review</td>
+</tr>
+<tr>
 <td>pear</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1418">ansible-modules-extras/issues/1418</a></td>
 <td>Pear module hangs for module installs expecting an</td>
@@ -16149,11 +16164,6 @@
 <td>win_stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2863">ansible-modules-core/issues/2863</a></td>
 <td>win_stat returns md5, but the data is sha1</td>
-</tr>
-<tr>
-<td>archive</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2699">ansible-modules-extras/pull/2699</a></td>
-<td>Updates to `archive` module based on code review</td>
 </tr>
 <tr>
 <td>cl_ports</td>
