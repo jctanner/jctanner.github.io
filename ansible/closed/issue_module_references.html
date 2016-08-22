@@ -122,6 +122,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4480">ansible-modules-core/pull/4480</a></td>
+<td>added new functionality to ios_command</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4481">ansible-modules-core/pull/4481</a></td>
+<td>fixes issue with duplicated commands in CommandRun</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/907">ansible-modules-core/pull/907</a></td>
 <td>[git] Determine branch name more reliable</td>
 </tr>
@@ -64527,6 +64537,11 @@
 </tr>
 <tr>
 <td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4494">ansible-modules-core/issues/4494</a></td>
+<td>setup module fails with AttributeError: module obj</td>
+</tr>
+<tr>
+<td>setup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1100">ansible-modules-core/pull/1100</a></td>
 <td>Add OS architecture and OS name to the Windows set</td>
 </tr>
@@ -98951,6 +98966,51 @@
 <td>jabber module returns changed=false on success</td>
 </tr>
 <tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3614">ansible-modules-core/issues/3614</a></td>
+<td>junos_command do not check if library jxmlease is </td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4418">ansible-modules-core/issues/4418</a></td>
+<td>Docs for 'port' attribute in junos_* modules are w</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4475">ansible-modules-core/issues/4475</a></td>
+<td>module junos_command rpc_args set int(value for kw</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2729">ansible-modules-core/pull/2729</a></td>
+<td>removed unneeded json.dumps when using policy_json</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3428">ansible-modules-core/pull/3428</a></td>
+<td>add support to junos_command module for netconf tr</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3532">ansible-modules-core/pull/3532</a></td>
+<td>fixes docstring format in junos_command</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/15791">ansible/issues/15791</a></td>
+<td>module_utils/junos.py does not handle library jxml</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17076">ansible/issues/17076</a></td>
+<td>Docs for 'port' attribute in junos_* modules are w</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/pull/17077">ansible/pull/17077</a></td>
+<td>Update junos docs fragment to note the default por</td>
+</tr>
+<tr>
 <td>azure_rm_virtualmachine</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4174">ansible-modules-core/issues/4174</a></td>
 <td>azure_rm_virtualmachine module fails creating a vi</td>
@@ -99499,46 +99559,6 @@
 <td>win_template</td>
 <td><a href="https://github.com/ansible/ansible/pull/9611">ansible/pull/9611</a></td>
 <td>Add support for win_copy, win_file and win_templat</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3614">ansible-modules-core/issues/3614</a></td>
-<td>junos_command do not check if library jxmlease is </td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4418">ansible-modules-core/issues/4418</a></td>
-<td>Docs for 'port' attribute in junos_* modules are w</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2729">ansible-modules-core/pull/2729</a></td>
-<td>removed unneeded json.dumps when using policy_json</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3428">ansible-modules-core/pull/3428</a></td>
-<td>add support to junos_command module for netconf tr</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3532">ansible-modules-core/pull/3532</a></td>
-<td>fixes docstring format in junos_command</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/15791">ansible/issues/15791</a></td>
-<td>module_utils/junos.py does not handle library jxml</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17076">ansible/issues/17076</a></td>
-<td>Docs for 'port' attribute in junos_* modules are w</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/pull/17077">ansible/pull/17077</a></td>
-<td>Update junos docs fragment to note the default por</td>
 </tr>
 <tr>
 <td>rax_cbs</td>
