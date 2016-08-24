@@ -12066,6 +12066,46 @@
 <td>Allow relative paths for jinja2 template extend st</td>
 </tr>
 <tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
+<td>Playbook role variables overwritten by include_var</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
+<td>include_vars not respecting hash_behaviour</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
+<td>include_vars not merging when called on same file </td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
+<td>Ansible 1.9's include_vars has funky priority</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
+<td>include_vars does not consider ignore_errors</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/17101">ansible/issues/17101</a></td>
+<td>loop_control doesnt work with include_vars</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
+<td>include_vars now properly deals with hash_behaviou</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/pull/17207">ansible/pull/17207</a></td>
+<td>Include vars updated to work with directories</td>
+</tr>
+<tr>
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
 <td>lxc_container: add a way to wait for the container</td>
@@ -12474,41 +12514,6 @@
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
 <td>Split script module `free_form` parameter into `pa</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
-<td>Playbook role variables overwritten by include_var</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
-<td>include_vars not respecting hash_behaviour</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
-<td>include_vars not merging when called on same file </td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
-<td>Ansible 1.9's include_vars has funky priority</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
-<td>include_vars does not consider ignore_errors</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/17101">ansible/issues/17101</a></td>
-<td>loop_control doesnt work with include_vars</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
-<td>include_vars now properly deals with hash_behaviou</td>
 </tr>
 <tr>
 <td>mysql_db</td>
@@ -13871,6 +13876,26 @@
 <td>Add native support for IIS appcmd</td>
 </tr>
 <tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
 <td>ec2_metric_alarm</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1611">ansible-modules-core/issues/1611</a></td>
 <td>ec2_metric_alarm fails to change alarm without dim</td>
@@ -14069,26 +14094,6 @@
 <td>homebrew</td>
 <td><a href="https://github.com/ansible/ansible/pull/16966">ansible/pull/16966</a></td>
 <td>Add homebrew in squash_actions list</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>win_msi</td>
@@ -14776,16 +14781,6 @@
 <td>when write_config is no, we should not try to writ</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14966,6 +14961,16 @@
 <td>Patch module sometimes skips files with no overrid</td>
 </tr>
 <tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
+</tr>
+<tr>
 <td>nxos_interface</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
 <td>nxos_interface depends on nxos_feature which doesn</td>
@@ -15114,16 +15119,6 @@
 <td>s3_lifecycle</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1712">ansible-modules-extras/pull/1712</a></td>
 <td>Add new apache2 configuration module</td>
-</tr>
-<tr>
-<td>include_vars_dir</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4510">ansible-modules-core/pull/4510</a></td>
-<td>Documentation for PR 17195 in the ansible repo.</td>
-</tr>
-<tr>
-<td>include_vars_dir</td>
-<td><a href="https://github.com/ansible/ansible/pull/17195">ansible/pull/17195</a></td>
-<td>New action plugin that will include a vars dir.</td>
 </tr>
 <tr>
 <td>foreman</td>
@@ -15811,11 +15806,6 @@
 <td>Added os_routers_facts module</td>
 </tr>
 <tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
-<td>Neutron modules fail without admin credentails</td>
-</tr>
-<tr>
 <td>pingdom</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/308">ansible-modules-extras/issues/308</a></td>
 <td>Support Create checks using pingdom</td>
@@ -16001,6 +15991,11 @@
 <td>pkg5 failed if package is installed</td>
 </tr>
 <tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
+<td>Neutron modules fail without admin credentails</td>
+</tr>
+<tr>
 <td>lvm_pvs</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2639">ansible-modules-extras/pull/2639</a></td>
 <td>Add lpv module</td>
@@ -16039,6 +16034,11 @@
 <td>nxos_vlan</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3876">ansible-modules-core/issues/3876</a></td>
 <td>nxos_vlan returns "Command does not support JSON o</td>
+</tr>
+<tr>
+<td>include_vars_dir</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4510">ansible-modules-core/pull/4510</a></td>
+<td>Documentation for PR 17195 in the ansible repo.</td>
 </tr>
 <tr>
 <td>boto3_wait</td>
