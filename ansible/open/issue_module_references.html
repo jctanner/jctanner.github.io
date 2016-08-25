@@ -57,6 +57,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2792">ansible-modules-extras/issues/2792</a></td>
+<td>asa_command module does not support with_nested</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2305">ansible-modules-extras/pull/2305</a></td>
 <td>Add Amazon Elastic File System (efs) module</td>
 </tr>
@@ -3832,8 +3837,8 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17242">ansible/issues/17242</a></td>
-<td>pip install ansible fails on trying to find cc for</td>
+<td><a href="https://github.com/ansible/ansible/issues/17243">ansible/issues/17243</a></td>
+<td>Ansible group_vars from inventory don't support re</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6972,11 +6977,6 @@
 </tr>
 <tr>
 <td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/17239">ansible/pull/17239</a></td>
-<td>Fix file and copy modules on py3 and enable tests.</td>
-</tr>
-<tr>
-<td>copy</td>
 <td><a href="https://github.com/ansible/ansible/pull/9806">ansible/pull/9806</a></td>
 <td>Fixes #302 - Copy fails when source file is identi</td>
 </tr>
@@ -7414,11 +7414,6 @@
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4249">ansible-modules-core/issues/4249</a></td>
 <td>vsphere_guest Error in vm_disk definition.</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4530">ansible-modules-core/issues/4530</a></td>
-<td>vsphere_guest: should change backend to official A</td>
 </tr>
 <tr>
 <td>vsphere_guest</td>
@@ -10471,61 +10466,6 @@
 <td>gem: add support for --env-shebang</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
-<td>Add posix groups to the list of returned facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15885">ansible/pull/15885</a></td>
-<td>Add support for distribution_major_version on NetB</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16535">ansible/pull/16535</a></td>
-<td>Fix cpu facts for hosts missing fields in cpuinfo </td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17240">ansible/pull/17240</a></td>
-<td>Enable most unittests for python3</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
-</tr>
-<tr>
 <td>ping</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4128">ansible-modules-core/pull/4128</a></td>
 <td>WIP: Test PR, do not merge.</td>
@@ -10874,6 +10814,56 @@
 <td>wait_for</td>
 <td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
 <td>with lsb_release installed and /bin/lsb_release bi</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
+<td>Add posix groups to the list of returned facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15885">ansible/pull/15885</a></td>
+<td>Add support for distribution_major_version on NetB</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16535">ansible/pull/16535</a></td>
+<td>Fix cpu facts for hosts missing fields in cpuinfo </td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>subversion</td>
@@ -14576,16 +14566,6 @@
 <td>apt_key doesn't compare key data in check mode</td>
 </tr>
 <tr>
-<td>ec2_elb_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2445">ansible-modules-extras/issues/2445</a></td>
-<td>ec2_elb_facts fails with boto 2.38</td>
-</tr>
-<tr>
-<td>ec2_elb_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2543">ansible-modules-extras/issues/2543</a></td>
-<td>ec2_elb_facts module cant use</td>
-</tr>
-<tr>
 <td>apache2_module</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1240">ansible-modules-extras/pull/1240</a></td>
 <td>simple a2ensite/a2dissite module</td>
@@ -14674,6 +14654,16 @@
 <td>openstack</td>
 <td><a href="https://github.com/ansible/ansible/pull/17052">ansible/pull/17052</a></td>
 <td>adding use_floatingip arg to openstack inventory s</td>
+</tr>
+<tr>
+<td>ec2_elb_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2445">ansible-modules-extras/issues/2445</a></td>
+<td>ec2_elb_facts fails with boto 2.38</td>
+</tr>
+<tr>
+<td>ec2_elb_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2543">ansible-modules-extras/issues/2543</a></td>
+<td>ec2_elb_facts module cant use</td>
 </tr>
 <tr>
 <td>foreman</td>
@@ -15934,11 +15924,6 @@
 <td>profitbricks_volume</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2769">ansible-modules-extras/pull/2769</a></td>
 <td>Additional provider features added and fixed some </td>
-</tr>
-<tr>
-<td>with_nested</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2792">ansible-modules-extras/issues/2792</a></td>
-<td>asa_command module does not support with_nested</td>
 </tr>
 <tr>
 <td>ops_template</td>
