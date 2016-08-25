@@ -22,6 +22,11 @@
 <tbody>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1124">ansible-modules-core/issues/1124</a></td>
+<td>copy module should preserve mode of src file when </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4533">ansible-modules-core/issues/4533</a></td>
 <td>Support for a2ensite</td>
 </tr>
@@ -67,13 +72,13 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4535">ansible-modules-core/pull/4535</a></td>
-<td>Fix for docker container labels</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4523">ansible-modules-core/pull/4523</a></td>
+<td>updates to vyos_config module arguments</td>
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4536">ansible-modules-core/pull/4536</a></td>
-<td>initial add of network/sros modules</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4535">ansible-modules-core/pull/4535</a></td>
+<td>Fix for docker container labels</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3847,6 +3852,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17213">ansible/issues/17213</a></td>
+<td>"gather_facts: yes" ignored in combination with ga</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17215">ansible/issues/17215</a></td>
 <td>Out of disk space condition gives error: temp_path</td>
 </tr>
@@ -3864,6 +3874,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17243">ansible/issues/17243</a></td>
 <td>Ansible group_vars from inventory don't support re</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17246">ansible/issues/17246</a></td>
+<td>Vault bytes <=> text string API</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4287,11 +4302,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/15938">ansible/pull/15938</a></td>
-<td>New pyformat filter plugin to format python-style</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15975">ansible/pull/15975</a></td>
 <td>Update playbooks_loops.rst</td>
 </tr>
@@ -4442,11 +4452,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17170">ansible/pull/17170</a></td>
-<td>Update command for generating password</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17182">ansible/pull/17182</a></td>
 <td>Add documentation on YAML floating-point values</td>
 </tr>
@@ -4454,11 +4459,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17201">ansible/pull/17201</a></td>
 <td>Windows module docs</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17206">ansible/pull/17206</a></td>
-<td>Document when clause list of conditions</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6557,11 +6557,6 @@
 </tr>
 <tr>
 <td>setup</td>
-<td><a href="https://github.com/ansible/ansible/issues/17213">ansible/issues/17213</a></td>
-<td>"gather_facts: yes" ignored in combination with ga</td>
-</tr>
-<tr>
-<td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/8460">ansible/issues/8460</a></td>
 <td>Outputs from multiple threads are interleaved</td>
 </tr>
@@ -6794,11 +6789,6 @@
 <td>service</td>
 <td><a href="https://github.com/ansible/ansible/pull/14109">ansible/pull/14109</a></td>
 <td>Checking node health on Consul, besides service he</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1124">ansible-modules-core/issues/1124</a></td>
-<td>copy module should preserve mode of src file when </td>
 </tr>
 <tr>
 <td>copy</td>
@@ -8158,7 +8148,7 @@
 <tr>
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4352">ansible-modules-core/pull/4352</a></td>
-<td>Check cmd rc in TgzArchive is_unarchived.</td>
+<td>Detect tar type (bsd, gnu) and only use gnu tar. </td>
 </tr>
 <tr>
 <td>unarchive</td>
@@ -12116,6 +12106,36 @@
 <td>Monit fix</td>
 </tr>
 <tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4538">ansible-modules-core/issues/4538</a></td>
+<td>[ecs_taskdefinition] Invalid type for parameter co</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1169">ansible-modules-extras/issues/1169</a></td>
+<td>ecs_taskdefinition: Should always register when st</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2641">ansible-modules-extras/issues/2641</a></td>
+<td>ecs_taskdefinition bug when looping with_items</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2693">ansible-modules-extras/issues/2693</a></td>
+<td>container_definition hostPort and containerPort ty</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1715">ansible-modules-extras/pull/1715</a></td>
+<td>Allow CPU and Memory to be templatable</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2357">ansible-modules-extras/pull/2357</a></td>
+<td>Enhanced ecs_taskdefinition module</td>
+</tr>
+<tr>
 <td>consul</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1316">ansible-modules-extras/issues/1316</a></td>
 <td>Consul module idempotency</td>
@@ -12656,31 +12676,6 @@
 <td>Auto install roles</td>
 </tr>
 <tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1169">ansible-modules-extras/issues/1169</a></td>
-<td>ecs_taskdefinition: Should always register when st</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2641">ansible-modules-extras/issues/2641</a></td>
-<td>ecs_taskdefinition bug when looping with_items</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2693">ansible-modules-extras/issues/2693</a></td>
-<td>container_definition hostPort and containerPort ty</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1715">ansible-modules-extras/pull/1715</a></td>
-<td>Allow CPU and Memory to be templatable</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2357">ansible-modules-extras/pull/2357</a></td>
-<td>Enhanced ecs_taskdefinition module</td>
-</tr>
-<tr>
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/751">ansible-modules-extras/issues/751</a></td>
 <td>Impossible to pass a JSON string Array to consul_k</td>
@@ -13136,6 +13131,26 @@
 <td>Adds the int_hash filter.</td>
 </tr>
 <tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2239">ansible-modules-extras/issues/2239</a></td>
+<td>New ecs_service_facts module has a return behavior</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2437">ansible-modules-extras/issues/2437</a></td>
+<td>Support large number of services on ecs_service_fa</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2795">ansible-modules-extras/issues/2795</a></td>
+<td>[ecs_service_facts] value of details must be one o</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2242">ansible-modules-extras/pull/2242</a></td>
+<td>Adjusted ecs_service_facts module to be more consi</td>
+</tr>
+<tr>
 <td>win_iis_webapplication</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1436">ansible-modules-extras/issues/1436</a></td>
 <td>win_iis_webapplication: slashes in physical path a</td>
@@ -13436,26 +13451,6 @@
 <td>Refactor and fix the slaac filter. (2. approach)</td>
 </tr>
 <tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1503">ansible-modules-extras/issues/1503</a></td>
-<td>elasticsearch_plugin fails on ES 2.X</td>
-</tr>
-<tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1785">ansible-modules-extras/issues/1785</a></td>
-<td>elasticsearch_plugin - unsupported parameter name </td>
-</tr>
-<tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2603">ansible-modules-extras/issues/2603</a></td>
-<td>elasticsearch_plugin - cant install plugin through</td>
-</tr>
-<tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2604">ansible-modules-extras/pull/2604</a></td>
-<td>elasticsearch_plugin: add force option and some im</td>
-</tr>
-<tr>
 <td>blockinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
 <td>Unsupported parameter for module</td>
@@ -13576,6 +13571,26 @@
 <td>Fetching of current config in module_utils/junos.p</td>
 </tr>
 <tr>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1503">ansible-modules-extras/issues/1503</a></td>
+<td>elasticsearch_plugin fails on ES 2.X</td>
+</tr>
+<tr>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1785">ansible-modules-extras/issues/1785</a></td>
+<td>elasticsearch_plugin - unsupported parameter name </td>
+</tr>
+<tr>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2603">ansible-modules-extras/issues/2603</a></td>
+<td>elasticsearch_plugin - cant install plugin through</td>
+</tr>
+<tr>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2604">ansible-modules-extras/pull/2604</a></td>
+<td>elasticsearch_plugin: add force option and some im</td>
+</tr>
+<tr>
 <td>win_acl</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1480">ansible-modules-extras/pull/1480</a></td>
 <td>Modified win_acl to accept Security Identifiers fo</td>
@@ -13589,21 +13604,6 @@
 <td>win_acl</td>
 <td><a href="https://github.com/ansible/ansible/issues/15737">ansible/issues/15737</a></td>
 <td>win_acl: setting user permissions issue</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2239">ansible-modules-extras/issues/2239</a></td>
-<td>New ecs_service_facts module has a return behavior</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2437">ansible-modules-extras/issues/2437</a></td>
-<td>Support large number of services on ecs_service_fa</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2242">ansible-modules-extras/pull/2242</a></td>
-<td>Adjusted ecs_service_facts module to be more consi</td>
 </tr>
 <tr>
 <td>virt</td>
@@ -14426,6 +14426,16 @@
 <td>Exception using nxos_feature</td>
 </tr>
 <tr>
+<td>foreman</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2450">ansible-modules-extras/pull/2450</a></td>
+<td>New module: Manage Foreman and Katello entities</td>
+</tr>
+<tr>
+<td>foreman</td>
+<td><a href="https://github.com/ansible/ansible/pull/17141">ansible/pull/17141</a></td>
+<td>Add foreman callback plugin</td>
+</tr>
+<tr>
 <td>zfs</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/879">ansible-modules-extras/issues/879</a></td>
 <td>ZFS volsize idempotence</td>
@@ -14676,16 +14686,6 @@
 <td>ec2_elb_facts module cant use</td>
 </tr>
 <tr>
-<td>foreman</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2450">ansible-modules-extras/pull/2450</a></td>
-<td>New module: Manage Foreman and Katello entities</td>
-</tr>
-<tr>
-<td>foreman</td>
-<td><a href="https://github.com/ansible/ansible/pull/17141">ansible/pull/17141</a></td>
-<td>Add foreman callback plugin</td>
-</tr>
-<tr>
 <td>redis</td>
 <td><a href="https://github.com/ansible/ansible/issues/13703">ansible/issues/13703</a></td>
 <td>[bug] Redis fact caching does not work on RHEL6</td>
@@ -14774,16 +14774,6 @@
 <td>pacman</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1038">ansible-modules-extras/pull/1038</a></td>
 <td>Backport pacman updates to 1.9 [take 2]</td>
-</tr>
-<tr>
-<td>vmware_dvs_portgroup</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2761">ansible-modules-extras/issues/2761</a></td>
-<td>vmware_dvs_portgroup destroy fails</td>
-</tr>
-<tr>
-<td>vmware_dvs_portgroup</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2776">ansible-modules-extras/pull/2776</a></td>
-<td>Fix vmware_dvs_portgroup destroy task</td>
 </tr>
 <tr>
 <td>cobbler</td>
@@ -14959,11 +14949,6 @@
 <td>openvz_exec</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/958">ansible-modules-extras/pull/958</a></td>
 <td>New modules: openvz, openvz_exec</td>
-</tr>
-<tr>
-<td>vyos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4523">ansible-modules-core/pull/4523</a></td>
-<td>updates to vyos_config module arguments</td>
 </tr>
 <tr>
 <td>vmware_host</td>
@@ -15576,19 +15561,9 @@
 <td>Add EC2 facts from dynamic instance metadata</td>
 </tr>
 <tr>
-<td>sros</td>
-<td><a href="https://github.com/ansible/ansible/pull/17244">ansible/pull/17244</a></td>
-<td>initial add of shared modules for supporting Nokia</td>
-</tr>
-<tr>
 <td>win_package</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1140">ansible-modules-extras/issues/1140</a></td>
 <td>win_package: does not access user_name + user_pass</td>
-</tr>
-<tr>
-<td>profitbricks</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2471">ansible-modules-extras/issues/2471</a></td>
-<td>profitbricks module news update due to cloudapi v2</td>
 </tr>
 <tr>
 <td>pulp_repo</td>
@@ -15696,9 +15671,9 @@
 <td>Added Check_MK / OMD external inventory script</td>
 </tr>
 <tr>
-<td>rabbitmq_queue</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2786">ansible-modules-extras/pull/2786</a></td>
-<td>rabbitmq_queue - Update requirements to show minim</td>
+<td>conda</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3780">ansible-modules-core/pull/3780</a></td>
+<td>Adding support for conda in ansible</td>
 </tr>
 <tr>
 <td>pamd</td>
@@ -15731,9 +15706,9 @@
 <td>Updated ec2_vpc_nat_gateway to use AWSRetry decora</td>
 </tr>
 <tr>
-<td>conda</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3780">ansible-modules-core/pull/3780</a></td>
-<td>Adding support for conda in ansible</td>
+<td>profitbricks</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2471">ansible-modules-extras/issues/2471</a></td>
+<td>profitbricks module news update due to cloudapi v2</td>
 </tr>
 <tr>
 <td>ec2_vpc_net_facts</td>
@@ -15921,11 +15896,6 @@
 <td>New module for managing AWS Datapipelines</td>
 </tr>
 <tr>
-<td>rabbitmq_binding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2787">ansible-modules-extras/pull/2787</a></td>
-<td>rabbitmq_binding - Update requirements to show min</td>
-</tr>
-<tr>
 <td>atomic</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2784">ansible-modules-extras/pull/2784</a></td>
 <td>Moved the atomic modules to cloud/atomic.</td>
@@ -15964,11 +15934,6 @@
 <td>os_ironic_inspect</td>
 <td><a href="https://github.com/ansible/ansible/pull/15960">ansible/pull/15960</a></td>
 <td>get rid of temporary hack for v2_playbook_on_start</td>
-</tr>
-<tr>
-<td>win_stat</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2863">ansible-modules-core/issues/2863</a></td>
-<td>win_stat returns md5, but the data is sha1</td>
 </tr>
 <tr>
 <td>s3_lifecycle</td>
@@ -16216,9 +16181,9 @@
 <td>Changes to unittests that verify units for interva</td>
 </tr>
 <tr>
-<td>rabbitmq_exchange</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2785">ansible-modules-extras/pull/2785</a></td>
-<td>rabbitmq_exchange - Update requirements to show mi</td>
+<td>win_stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2863">ansible-modules-core/issues/2863</a></td>
+<td>win_stat returns md5, but the data is sha1</td>
 </tr>
 <tr>
 <td>quantum_router_gateway</td>
