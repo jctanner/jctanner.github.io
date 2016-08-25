@@ -20902,6 +20902,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/9391">ansible/issues/9391</a></td>
+<td>Notify doesnt fail if it cant find the service</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/9393">ansible/issues/9393</a></td>
 <td>Templated variables are evaluated too early</td>
 </tr>
@@ -27064,6 +27069,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17233">ansible/pull/17233</a></td>
 <td>Enable more tests that pass on python 3.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17245">ansible/pull/17245</a></td>
+<td>Updated progress on Python 3 CI and test coverage.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -56806,6 +56816,581 @@
 <td>Cache the results for the RackSpace dynamic invent</td>
 </tr>
 <tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10061">ansible/pull/10061</a></td>
+<td>Verify prompt is not null</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10199">ansible/pull/10199</a></td>
+<td>fixes su/ssh with null prompt</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10238">ansible/pull/10238</a></td>
+<td>make ssh plugin resilient against invalid entries </td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10314">ansible/pull/10314</a></td>
+<td>Fixes bug #10225 - Runtime error</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10315">ansible/pull/10315</a></td>
+<td>v2 Avoids ssh Runtime error</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10320">ansible/pull/10320</a></td>
+<td>skips certain ssh errors and attempts to continue</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10435">ansible/pull/10435</a></td>
+<td>fixes password error detection for ssh connection </td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10770">ansible/pull/10770</a></td>
+<td>Fix C.ANSIBLE_SSH_CONTROL_PATH string interpolatio</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10950">ansible/pull/10950</a></td>
+<td>Add compression support for ssh, scp, sftp connect</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/10951">ansible/pull/10951</a></td>
+<td>make compression support for ssh, scp, sftp connec</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11002">ansible/pull/11002</a></td>
+<td>Use a decorator to perform just in time connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11124">ansible/pull/11124</a></td>
+<td>Use a decorator to perform just in time connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11129">ansible/pull/11129</a></td>
+<td>Fix command building for scp if ssh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11163">ansible/pull/11163</a></td>
+<td>Re-introduce ssh connection private key support</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11269">ansible/pull/11269</a></td>
+<td>local and ssh connection plugin fixes</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11595">ansible/pull/11595</a></td>
+<td>ssh port not working as the if clause is wrong</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11676">ansible/pull/11676</a></td>
+<td>fix ipv6 for ssh connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11677">ansible/pull/11677</a></td>
+<td>fix ipv6 for ssh connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11681">ansible/pull/11681</a></td>
+<td>6238 rebase: add ssh_specific_args config option</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11684">ansible/pull/11684</a></td>
+<td>Fix verbose output with module 'script'</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11690">ansible/pull/11690</a></td>
+<td>Don't disable GSSAPIAuthentication or PubkeyAuthen</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11816">ansible/pull/11816</a></td>
+<td>Fix ssh connections to IPv6 addresses</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11908">ansible/pull/11908</a></td>
+<td>Add ansible_ssh_extra_args inventory variable</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12243">ansible/pull/12243</a></td>
+<td>Don't try to run "ssh -O stop" in Connection.close</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12276">ansible/pull/12276</a></td>
+<td>Improve ssh.py organisation and state machine</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12490">ansible/pull/12490</a></td>
+<td>Send initial data before calling select whenever p</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12500">ansible/pull/12500</a></td>
+<td>Clarify select() handling for ssh connections</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12542">ansible/pull/12542</a></td>
+<td>Clarify why we add -q only for ssh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12546">ansible/pull/12546</a></td>
+<td>A couple of ssh cleanups</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/12604">ansible/pull/12604</a></td>
+<td>Rework additional ssh argument handling</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13147">ansible/pull/13147</a></td>
+<td>Increase the escalation prompt timeout</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13156">ansible/pull/13156</a></td>
+<td>If ssh died, it's an error, not a timeout</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13344">ansible/pull/13344</a></td>
+<td>Use connection locking to protect against competin</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13357">ansible/pull/13357</a></td>
+<td>initial add of ssh shared module.</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13512">ansible/pull/13512</a></td>
+<td>Clean up debug logging around _low_level_execute_c</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13555">ansible/pull/13555</a></td>
+<td>adds support for using ssh keys to ssh shared modu</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13589">ansible/pull/13589</a></td>
+<td>Revert to standard port if non-standard port not o</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/13654">ansible/pull/13654</a></td>
+<td>Add ProxyCommand support to the paramiko connectio</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/14245">ansible/pull/14245</a></td>
+<td>If specified non-standard ssh port is not open, re</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1527">ansible/pull/1527</a></td>
+<td>Support scp in an ssh connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/15829">ansible/pull/15829</a></td>
+<td>Disable sftp batch mode if sshpass and !controlper</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16214">ansible/pull/16214</a></td>
+<td>made ssh compression configurable</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1634">ansible/pull/1634</a></td>
+<td>Add password support to -c ssh via sshpass</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16514">ansible/pull/16514</a></td>
+<td>Ignore broken pipe errors if the sshpass process h</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16515">ansible/pull/16515</a></td>
+<td>Ignore broken pipe errors if the sshpass process h</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1666">ansible/pull/1666</a></td>
+<td>Use proper pseudo-tty's instead of pipes when usin</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1669">ansible/pull/1669</a></td>
+<td>Use proper pseudo-tty's instead of pipes when usin</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17234">ansible/pull/17234</a></td>
+<td>Get the ssh plugin working with python3</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1883">ansible/pull/1883</a></td>
+<td>--private-key tilde handling</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/1993">ansible/pull/1993</a></td>
+<td>Add ConnectTimeout=DEFAULT_TIMEOUT to ssh args</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/2453">ansible/pull/2453</a></td>
+<td>Make private key customizable per host using ansib</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/2520">ansible/pull/2520</a></td>
+<td>now ssh plugin 'respects' .ssh/config user </td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/2970">ansible/pull/2970</a></td>
+<td>added support for ssh tunneling using ssh's ProxyC</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3310">ansible/pull/3310</a></td>
+<td>Fix select loop reading from SSH channel</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3430">ansible/pull/3430</a></td>
+<td>Do not disable SSH host key checking</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3571">ansible/pull/3571</a></td>
+<td>run sudo -K on ssh close to ensure sudo credential</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3756">ansible/pull/3756</a></td>
+<td>Added ansible_ssh_config variable</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3879">ansible/pull/3879</a></td>
+<td>Fix ipv6 inventory</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/3895">ansible/pull/3895</a></td>
+<td>make sure ssh do not ask password</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/4049">ansible/pull/4049</a></td>
+<td>Fix no kerberos</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/4132">ansible/pull/4132</a></td>
+<td>fixes for PTY handling</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/4153">ansible/pull/4153</a></td>
+<td>Make ssh's ControlPath configurable via ansible.cf</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/485">ansible/pull/485</a></td>
+<td>Add an ssh command wrapper transport</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/489">ansible/pull/489</a></td>
+<td>Default to using a ControlMaster connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/491">ansible/pull/491</a></td>
+<td>changes to get ssh connection module working</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/4920">ansible/pull/4920</a></td>
+<td>Fix SSH Connection reading problem</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/494">ansible/pull/494</a></td>
+<td>Make the SSH transport helpful</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/496">ansible/pull/496</a></td>
+<td>change STDOUT to PIPE  to get ssh connection modul</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/499">ansible/pull/499</a></td>
+<td>Change to stdout</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/500">ansible/pull/500</a></td>
+<td>change to STDOUT from PIPE to get ssh connection m</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/502">ansible/pull/502</a></td>
+<td>Ssh constants</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/503">ansible/pull/503</a></td>
+<td>move ssh module arguments to constants.py</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/509">ansible/pull/509</a></td>
+<td>support complete username/port/ssh_config (ie, -F </td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/511">ansible/pull/511</a></td>
+<td>added ability to ovverride all ssh settings via AN</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5247">ansible/pull/5247</a></td>
+<td>ssh_alt.py / decrease # of ssh roundtrips</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5254">ansible/pull/5254</a></td>
+<td>Make sure ssh pipes are empty before moving on</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5599">ansible/pull/5599</a></td>
+<td>Fix for bug #5533</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5607">ansible/pull/5607</a></td>
+<td>Fix to bug #5533 in connection plugin 'ssh'</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5729">ansible/pull/5729</a></td>
+<td>ssh pipelining + tty, use python -c</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5807">ansible/pull/5807</a></td>
+<td>Fix .ssh/known_hosts path expansion.</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5831">ansible/pull/5831</a></td>
+<td>ssh connection plugin: Report missing sudo passwor</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/5879">ansible/pull/5879</a></td>
+<td>Fix slow ssh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6090">ansible/pull/6090</a></td>
+<td>Make missing known hosts file message a verbose me</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6156">ansible/pull/6156</a></td>
+<td>Add support for checking host against global known</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6238">ansible/pull/6238</a></td>
+<td>allow for ssh-specific arguments</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/630">ansible/pull/630</a></td>
+<td>Suppress Ubuntu ssh -tt getting ioctl error.</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6337">ansible/pull/6337</a></td>
+<td>Don't remove ControlPersist defaults when custom S</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6708">ansible/pull/6708</a></td>
+<td>Share p.communicate alternative logic between exec</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6774">ansible/pull/6774</a></td>
+<td>ssh: Properly check for wrong su password</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6787">ansible/pull/6787</a></td>
+<td>ssh: propagate prompt to _communicate()</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/6788">ansible/pull/6788</a></td>
+<td>ssh connection plugin: Make comments more verbose</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/7078">ansible/pull/7078</a></td>
+<td>Enhance error message about missing ControlPersist</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/7079">ansible/pull/7079</a></td>
+<td>Clean a bit more the ssh_args configuration</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/7170">ansible/pull/7170</a></td>
+<td>always set user in SSH connection</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/7376">ansible/pull/7376</a></td>
+<td>When ansible_ssh_user is a number ssh fail to conn</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/745">ansible/pull/745</a></td>
+<td>Allowed ssh to determine username and port from ~/</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/7726">ansible/pull/7726</a></td>
+<td>Added quotes around key path - Issue 7713</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/813">ansible/pull/813</a></td>
+<td>Allowed ssh to determine username and port from ~/</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/8341">ansible/pull/8341</a></td>
+<td>ssh - make known_hosts check compatible with entir</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/8349">ansible/pull/8349</a></td>
+<td>ssh - Support for other known_hosts formats in not</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/851">ansible/pull/851</a></td>
+<td>Issue #848: Closing stdin after we read from stdou</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/858">ansible/pull/858</a></td>
+<td>Don't explicitly set SSH Port if it is the default</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/8882">ansible/pull/8882</a></td>
+<td>Make ssh debug easier to read and paste</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9122">ansible/pull/9122</a></td>
+<td>Initial ansible_ssh_proxy support for ssh transpor</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9246">ansible/pull/9246</a></td>
+<td>Warn that ssh_args is incompatible with pipelining</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9386">ansible/pull/9386</a></td>
+<td>Add support for multiple required auth for openssh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9427">ansible/pull/9427</a></td>
+<td>Add a connection backend to manage remote LXC cont</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9477">ansible/pull/9477</a></td>
+<td>Inventory-based SSH proxy/bastion host support, ss</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9480">ansible/pull/9480</a></td>
+<td>Add support for google-authenticator time-based OT</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9545">ansible/pull/9545</a></td>
+<td>Fix ssh sudo hang</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9603">ansible/pull/9603</a></td>
+<td>More useful error when host key verification fails</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9605">ansible/pull/9605</a></td>
+<td>Display more info when SSH errors occur</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9652">ansible/pull/9652</a></td>
+<td>Run sftp in in batch mode.</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9805">ansible/pull/9805</a></td>
+<td>Strip the line to filter lines composed of only wh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/9927">ansible/pull/9927</a></td>
+<td>Retry exec command via ssh</td>
+</tr>
+<tr>
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1121">ansible-modules-core/issues/1121</a></td>
 <td>execute command "/usr/local/tomcat/bin/shutdown.sh</td>
@@ -57374,576 +57959,6 @@
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible/pull/999">ansible/pull/999</a></td>
 <td>Add a removes= keyword to the command module</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10061">ansible/pull/10061</a></td>
-<td>Verify prompt is not null</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10199">ansible/pull/10199</a></td>
-<td>fixes su/ssh with null prompt</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10238">ansible/pull/10238</a></td>
-<td>make ssh plugin resilient against invalid entries </td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10314">ansible/pull/10314</a></td>
-<td>Fixes bug #10225 - Runtime error</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10315">ansible/pull/10315</a></td>
-<td>v2 Avoids ssh Runtime error</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10320">ansible/pull/10320</a></td>
-<td>skips certain ssh errors and attempts to continue</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10435">ansible/pull/10435</a></td>
-<td>fixes password error detection for ssh connection </td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10770">ansible/pull/10770</a></td>
-<td>Fix C.ANSIBLE_SSH_CONTROL_PATH string interpolatio</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10950">ansible/pull/10950</a></td>
-<td>Add compression support for ssh, scp, sftp connect</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/10951">ansible/pull/10951</a></td>
-<td>make compression support for ssh, scp, sftp connec</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11002">ansible/pull/11002</a></td>
-<td>Use a decorator to perform just in time connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11124">ansible/pull/11124</a></td>
-<td>Use a decorator to perform just in time connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11129">ansible/pull/11129</a></td>
-<td>Fix command building for scp if ssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11163">ansible/pull/11163</a></td>
-<td>Re-introduce ssh connection private key support</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11269">ansible/pull/11269</a></td>
-<td>local and ssh connection plugin fixes</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11595">ansible/pull/11595</a></td>
-<td>ssh port not working as the if clause is wrong</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11676">ansible/pull/11676</a></td>
-<td>fix ipv6 for ssh connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11677">ansible/pull/11677</a></td>
-<td>fix ipv6 for ssh connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11681">ansible/pull/11681</a></td>
-<td>6238 rebase: add ssh_specific_args config option</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11684">ansible/pull/11684</a></td>
-<td>Fix verbose output with module 'script'</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11690">ansible/pull/11690</a></td>
-<td>Don't disable GSSAPIAuthentication or PubkeyAuthen</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11816">ansible/pull/11816</a></td>
-<td>Fix ssh connections to IPv6 addresses</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11908">ansible/pull/11908</a></td>
-<td>Add ansible_ssh_extra_args inventory variable</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12243">ansible/pull/12243</a></td>
-<td>Don't try to run "ssh -O stop" in Connection.close</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12276">ansible/pull/12276</a></td>
-<td>Improve ssh.py organisation and state machine</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12490">ansible/pull/12490</a></td>
-<td>Send initial data before calling select whenever p</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12500">ansible/pull/12500</a></td>
-<td>Clarify select() handling for ssh connections</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12542">ansible/pull/12542</a></td>
-<td>Clarify why we add -q only for ssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12546">ansible/pull/12546</a></td>
-<td>A couple of ssh cleanups</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/12604">ansible/pull/12604</a></td>
-<td>Rework additional ssh argument handling</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13147">ansible/pull/13147</a></td>
-<td>Increase the escalation prompt timeout</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13156">ansible/pull/13156</a></td>
-<td>If ssh died, it's an error, not a timeout</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13344">ansible/pull/13344</a></td>
-<td>Use connection locking to protect against competin</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13357">ansible/pull/13357</a></td>
-<td>initial add of ssh shared module.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13512">ansible/pull/13512</a></td>
-<td>Clean up debug logging around _low_level_execute_c</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13555">ansible/pull/13555</a></td>
-<td>adds support for using ssh keys to ssh shared modu</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13589">ansible/pull/13589</a></td>
-<td>Revert to standard port if non-standard port not o</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/13654">ansible/pull/13654</a></td>
-<td>Add ProxyCommand support to the paramiko connectio</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/14245">ansible/pull/14245</a></td>
-<td>If specified non-standard ssh port is not open, re</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1527">ansible/pull/1527</a></td>
-<td>Support scp in an ssh connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/15829">ansible/pull/15829</a></td>
-<td>Disable sftp batch mode if sshpass and !controlper</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16214">ansible/pull/16214</a></td>
-<td>made ssh compression configurable</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1634">ansible/pull/1634</a></td>
-<td>Add password support to -c ssh via sshpass</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16514">ansible/pull/16514</a></td>
-<td>Ignore broken pipe errors if the sshpass process h</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16515">ansible/pull/16515</a></td>
-<td>Ignore broken pipe errors if the sshpass process h</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1666">ansible/pull/1666</a></td>
-<td>Use proper pseudo-tty's instead of pipes when usin</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1669">ansible/pull/1669</a></td>
-<td>Use proper pseudo-tty's instead of pipes when usin</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1883">ansible/pull/1883</a></td>
-<td>--private-key tilde handling</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/1993">ansible/pull/1993</a></td>
-<td>Add ConnectTimeout=DEFAULT_TIMEOUT to ssh args</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/2453">ansible/pull/2453</a></td>
-<td>Make private key customizable per host using ansib</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/2520">ansible/pull/2520</a></td>
-<td>now ssh plugin 'respects' .ssh/config user </td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/2970">ansible/pull/2970</a></td>
-<td>added support for ssh tunneling using ssh's ProxyC</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3310">ansible/pull/3310</a></td>
-<td>Fix select loop reading from SSH channel</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3430">ansible/pull/3430</a></td>
-<td>Do not disable SSH host key checking</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3571">ansible/pull/3571</a></td>
-<td>run sudo -K on ssh close to ensure sudo credential</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3756">ansible/pull/3756</a></td>
-<td>Added ansible_ssh_config variable</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3879">ansible/pull/3879</a></td>
-<td>Fix ipv6 inventory</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/3895">ansible/pull/3895</a></td>
-<td>make sure ssh do not ask password</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/4049">ansible/pull/4049</a></td>
-<td>Fix no kerberos</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/4132">ansible/pull/4132</a></td>
-<td>fixes for PTY handling</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/4153">ansible/pull/4153</a></td>
-<td>Make ssh's ControlPath configurable via ansible.cf</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/485">ansible/pull/485</a></td>
-<td>Add an ssh command wrapper transport</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/489">ansible/pull/489</a></td>
-<td>Default to using a ControlMaster connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/491">ansible/pull/491</a></td>
-<td>changes to get ssh connection module working</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/4920">ansible/pull/4920</a></td>
-<td>Fix SSH Connection reading problem</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/494">ansible/pull/494</a></td>
-<td>Make the SSH transport helpful</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/496">ansible/pull/496</a></td>
-<td>change STDOUT to PIPE  to get ssh connection modul</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/499">ansible/pull/499</a></td>
-<td>Change to stdout</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/500">ansible/pull/500</a></td>
-<td>change to STDOUT from PIPE to get ssh connection m</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/502">ansible/pull/502</a></td>
-<td>Ssh constants</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/503">ansible/pull/503</a></td>
-<td>move ssh module arguments to constants.py</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/509">ansible/pull/509</a></td>
-<td>support complete username/port/ssh_config (ie, -F </td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/511">ansible/pull/511</a></td>
-<td>added ability to ovverride all ssh settings via AN</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5247">ansible/pull/5247</a></td>
-<td>ssh_alt.py / decrease # of ssh roundtrips</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5254">ansible/pull/5254</a></td>
-<td>Make sure ssh pipes are empty before moving on</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5599">ansible/pull/5599</a></td>
-<td>Fix for bug #5533</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5607">ansible/pull/5607</a></td>
-<td>Fix to bug #5533 in connection plugin 'ssh'</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5729">ansible/pull/5729</a></td>
-<td>ssh pipelining + tty, use python -c</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5807">ansible/pull/5807</a></td>
-<td>Fix .ssh/known_hosts path expansion.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5831">ansible/pull/5831</a></td>
-<td>ssh connection plugin: Report missing sudo passwor</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/5879">ansible/pull/5879</a></td>
-<td>Fix slow ssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6090">ansible/pull/6090</a></td>
-<td>Make missing known hosts file message a verbose me</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6156">ansible/pull/6156</a></td>
-<td>Add support for checking host against global known</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6238">ansible/pull/6238</a></td>
-<td>allow for ssh-specific arguments</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/630">ansible/pull/630</a></td>
-<td>Suppress Ubuntu ssh -tt getting ioctl error.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6337">ansible/pull/6337</a></td>
-<td>Don't remove ControlPersist defaults when custom S</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6708">ansible/pull/6708</a></td>
-<td>Share p.communicate alternative logic between exec</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6774">ansible/pull/6774</a></td>
-<td>ssh: Properly check for wrong su password</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6787">ansible/pull/6787</a></td>
-<td>ssh: propagate prompt to _communicate()</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/6788">ansible/pull/6788</a></td>
-<td>ssh connection plugin: Make comments more verbose</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/7078">ansible/pull/7078</a></td>
-<td>Enhance error message about missing ControlPersist</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/7079">ansible/pull/7079</a></td>
-<td>Clean a bit more the ssh_args configuration</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/7170">ansible/pull/7170</a></td>
-<td>always set user in SSH connection</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/7376">ansible/pull/7376</a></td>
-<td>When ansible_ssh_user is a number ssh fail to conn</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/745">ansible/pull/745</a></td>
-<td>Allowed ssh to determine username and port from ~/</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/7726">ansible/pull/7726</a></td>
-<td>Added quotes around key path - Issue 7713</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/813">ansible/pull/813</a></td>
-<td>Allowed ssh to determine username and port from ~/</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/8341">ansible/pull/8341</a></td>
-<td>ssh - make known_hosts check compatible with entir</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/8349">ansible/pull/8349</a></td>
-<td>ssh - Support for other known_hosts formats in not</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/851">ansible/pull/851</a></td>
-<td>Issue #848: Closing stdin after we read from stdou</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/858">ansible/pull/858</a></td>
-<td>Don't explicitly set SSH Port if it is the default</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/8882">ansible/pull/8882</a></td>
-<td>Make ssh debug easier to read and paste</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9122">ansible/pull/9122</a></td>
-<td>Initial ansible_ssh_proxy support for ssh transpor</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9246">ansible/pull/9246</a></td>
-<td>Warn that ssh_args is incompatible with pipelining</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9386">ansible/pull/9386</a></td>
-<td>Add support for multiple required auth for openssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9427">ansible/pull/9427</a></td>
-<td>Add a connection backend to manage remote LXC cont</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9477">ansible/pull/9477</a></td>
-<td>Inventory-based SSH proxy/bastion host support, ss</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9480">ansible/pull/9480</a></td>
-<td>Add support for google-authenticator time-based OT</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9545">ansible/pull/9545</a></td>
-<td>Fix ssh sudo hang</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9603">ansible/pull/9603</a></td>
-<td>More useful error when host key verification fails</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9605">ansible/pull/9605</a></td>
-<td>Display more info when SSH errors occur</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9652">ansible/pull/9652</a></td>
-<td>Run sftp in in batch mode.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9805">ansible/pull/9805</a></td>
-<td>Strip the line to filter lines composed of only wh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/9927">ansible/pull/9927</a></td>
-<td>Retry exec command via ssh</td>
 </tr>
 <tr>
 <td>apt_repository</td>
@@ -77752,6 +77767,11 @@
 </tr>
 <tr>
 <td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17224">ansible/pull/17224</a></td>
+<td>Fix get_distribution for Alpine Linux</td>
+</tr>
+<tr>
+<td>basic</td>
 <td><a href="https://github.com/ansible/ansible/pull/4966">ansible/pull/4966</a></td>
 <td>cope with old json modules with no dumps</td>
 </tr>
@@ -90846,6 +90866,81 @@
 <td>changed plugin load priority to be path based, not</td>
 </tr>
 <tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2558">ansible-modules-core/pull/2558</a></td>
+<td>Fix for 13315 - minute now included in ansible_dat</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/109">ansible-modules-extras/issues/109</a></td>
+<td>bigip_facts:  get_fw_rule NotImplemented Error</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2407">ansible-modules-extras/issues/2407</a></td>
+<td>Trying to gather facts from F5</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/505">ansible-modules-extras/issues/505</a></td>
+<td>Modules with "old" style module_utils imports</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/771">ansible-modules-extras/issues/771</a></td>
+<td>no monitor defined for node causes stack trace big</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1424">ansible-modules-extras/pull/1424</a></td>
+<td>Update f5 validate_certs functionality to do the r</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2515">ansible-modules-extras/pull/2515</a></td>
+<td>Adds coding conventions to the bigip_facts module</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/272">ansible-modules-extras/pull/272</a></td>
+<td>Fixes get_fw_rule NotImplemented error on 11.6 BIG</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/273">ansible-modules-extras/pull/273</a></td>
+<td>Another potential fix for issue 109; now catches W</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2783">ansible-modules-extras/pull/2783</a></td>
+<td>Adds provision info to bigip facts</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/334">ansible-modules-extras/pull/334</a></td>
+<td>Add `verify` param; set false to ignore SSL cert</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/373">ansible-modules-extras/pull/373</a></td>
+<td>bigip_facts: Add missing 'device' option</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/922">ansible-modules-extras/pull/922</a></td>
+<td>Adding check mode to bigip_facts module</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/5602">ansible/pull/5602</a></td>
+<td>New bigip_facts module</td>
+</tr>
+<tr>
+<td>bigip_facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/7516">ansible/pull/7516</a></td>
+<td>Relax suds module requirement</td>
+</tr>
+<tr>
 <td>svr4pkg</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1852">ansible-modules-extras/pull/1852</a></td>
 <td>Do not return failure when the package is installe</td>
@@ -91144,76 +91239,6 @@
 <td>quantum_router_gateway</td>
 <td><a href="https://github.com/ansible/ansible/pull/8252">ansible/pull/8252</a></td>
 <td>Better OpenStack Cloud Support</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2558">ansible-modules-core/pull/2558</a></td>
-<td>Fix for 13315 - minute now included in ansible_dat</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/109">ansible-modules-extras/issues/109</a></td>
-<td>bigip_facts:  get_fw_rule NotImplemented Error</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2407">ansible-modules-extras/issues/2407</a></td>
-<td>Trying to gather facts from F5</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/505">ansible-modules-extras/issues/505</a></td>
-<td>Modules with "old" style module_utils imports</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/771">ansible-modules-extras/issues/771</a></td>
-<td>no monitor defined for node causes stack trace big</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1424">ansible-modules-extras/pull/1424</a></td>
-<td>Update f5 validate_certs functionality to do the r</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2515">ansible-modules-extras/pull/2515</a></td>
-<td>Adds coding conventions to the bigip_facts module</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/272">ansible-modules-extras/pull/272</a></td>
-<td>Fixes get_fw_rule NotImplemented error on 11.6 BIG</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/273">ansible-modules-extras/pull/273</a></td>
-<td>Another potential fix for issue 109; now catches W</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/334">ansible-modules-extras/pull/334</a></td>
-<td>Add `verify` param; set false to ignore SSL cert</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/373">ansible-modules-extras/pull/373</a></td>
-<td>bigip_facts: Add missing 'device' option</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/922">ansible-modules-extras/pull/922</a></td>
-<td>Adding check mode to bigip_facts module</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/5602">ansible/pull/5602</a></td>
-<td>New bigip_facts module</td>
-</tr>
-<tr>
-<td>bigip_facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/7516">ansible/pull/7516</a></td>
-<td>Relax suds module requirement</td>
 </tr>
 <tr>
 <td>ec2_metric_alarm</td>
@@ -94236,6 +94261,56 @@
 <td>win_unzip: force to declare properties on v2.0.0-0</td>
 </tr>
 <tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1000">ansible-modules-core/issues/1000</a></td>
+<td>Add CoreOS OS family and distribution to facts</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2793">ansible-modules-extras/issues/2793</a></td>
+<td>[ecs_taskdefinition] Invalid type for parameter co</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2794">ansible-modules-extras/issues/2794</a></td>
+<td>[ecs_taskdefinition] Invalid type for parameter co</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1025">ansible-modules-extras/pull/1025</a></td>
+<td>remove ecs facts and fix docs for ecs_taskdefiniti</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1722">ansible-modules-extras/pull/1722</a></td>
+<td>ecs_taskdefinition module fixes and improvements</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2320">ansible-modules-extras/pull/2320</a></td>
+<td>Fix ecs_taskdefinition for missing family</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible/pull/10022">ansible/pull/10022</a></td>
+<td>New Jinja2 'resolve' filter.</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible/pull/12261">ansible/pull/12261</a></td>
+<td>added Manjaro as an Archlinux family</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible/pull/13056">ansible/pull/13056</a></td>
+<td>Add SLES_SAP as a Suse family</td>
+</tr>
+<tr>
+<td>ecs_taskdefinition</td>
+<td><a href="https://github.com/ansible/ansible/pull/2132">ansible/pull/2132</a></td>
+<td>Added OS Family facts</td>
+</tr>
+<tr>
 <td>zabbix_maintenance</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/122">ansible-modules-extras/issues/122</a></td>
 <td>zabbix_maintenance : Incorrect method "user.authen</td>
@@ -95934,46 +96009,6 @@
 <td>macports</td>
 <td><a href="https://github.com/ansible/ansible/pull/2498">ansible/pull/2498</a></td>
 <td>Fix reinplace in macports package to work on both </td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1000">ansible-modules-core/issues/1000</a></td>
-<td>Add CoreOS OS family and distribution to facts</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1025">ansible-modules-extras/pull/1025</a></td>
-<td>remove ecs facts and fix docs for ecs_taskdefiniti</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1722">ansible-modules-extras/pull/1722</a></td>
-<td>ecs_taskdefinition module fixes and improvements</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2320">ansible-modules-extras/pull/2320</a></td>
-<td>Fix ecs_taskdefinition for missing family</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible/pull/10022">ansible/pull/10022</a></td>
-<td>New Jinja2 'resolve' filter.</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible/pull/12261">ansible/pull/12261</a></td>
-<td>added Manjaro as an Archlinux family</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible/pull/13056">ansible/pull/13056</a></td>
-<td>Add SLES_SAP as a Suse family</td>
-</tr>
-<tr>
-<td>ecs_taskdefinition</td>
-<td><a href="https://github.com/ansible/ansible/pull/2132">ansible/pull/2132</a></td>
-<td>Added OS Family facts</td>
 </tr>
 <tr>
 <td>rax_files_objects</td>
@@ -101281,6 +101316,26 @@
 <td>New VMware Module to support adding standard portg</td>
 </tr>
 <tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4537">ansible-modules-core/issues/4537</a></td>
+<td>[ecs_service_facts] value of details must be one o</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1483">ansible-modules-extras/issues/1483</a></td>
+<td>Return values in ecs_service.py and ecs_service_fa</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1727">ansible-modules-extras/pull/1727</a></td>
+<td>ecs_service_facts fixes</td>
+</tr>
+<tr>
+<td>ecs_service_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2241">ansible-modules-extras/pull/2241</a></td>
+<td>Adjusted ecs_service_facts module to be more consi</td>
+</tr>
+<tr>
 <td>lxc</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1936">ansible-modules-extras/pull/1936</a></td>
 <td>fix security vulnerability in lxc module</td>
@@ -102491,21 +102546,6 @@
 <td>add ldap module</td>
 </tr>
 <tr>
-<td>helpers</td>
-<td><a href="https://github.com/ansible/ansible/pull/11192">ansible/pull/11192</a></td>
-<td>Raise AnsibleParserError instead of AssertionError</td>
-</tr>
-<tr>
-<td>helpers</td>
-<td><a href="https://github.com/ansible/ansible/pull/11520">ansible/pull/11520</a></td>
-<td>Handle 'include' tasks in handlers</td>
-</tr>
-<tr>
-<td>helpers</td>
-<td><a href="https://github.com/ansible/ansible/pull/17069">ansible/pull/17069</a></td>
-<td>Fix named include handler (#15915)</td>
-</tr>
-<tr>
 <td>consul_io</td>
 <td><a href="https://github.com/ansible/ansible/pull/10777">ansible/pull/10777</a></td>
 <td>Undefined names found by pyflakes in plugins/inven</td>
@@ -102744,21 +102784,6 @@
 <td>vmware_inventory</td>
 <td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
 <td>vmware_inventory script improvements</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1483">ansible-modules-extras/issues/1483</a></td>
-<td>Return values in ecs_service.py and ecs_service_fa</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1727">ansible-modules-extras/pull/1727</a></td>
-<td>ecs_service_facts fixes</td>
-</tr>
-<tr>
-<td>ecs_service_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2241">ansible-modules-extras/pull/2241</a></td>
-<td>Adjusted ecs_service_facts module to be more consi</td>
 </tr>
 <tr>
 <td>win_dns_arecord</td>
@@ -103014,6 +103039,21 @@
 <td>vmware_target_canonical_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/874">ansible-modules-extras/pull/874</a></td>
 <td>New VMware Module to support gathering host target</td>
+</tr>
+<tr>
+<td>helpers</td>
+<td><a href="https://github.com/ansible/ansible/pull/11192">ansible/pull/11192</a></td>
+<td>Raise AnsibleParserError instead of AssertionError</td>
+</tr>
+<tr>
+<td>helpers</td>
+<td><a href="https://github.com/ansible/ansible/pull/11520">ansible/pull/11520</a></td>
+<td>Handle 'include' tasks in handlers</td>
+</tr>
+<tr>
+<td>helpers</td>
+<td><a href="https://github.com/ansible/ansible/pull/17069">ansible/pull/17069</a></td>
+<td>Fix named include handler (#15915)</td>
 </tr>
 <tr>
 <td>dataloader</td>
@@ -105619,6 +105659,11 @@
 <td>win_owner</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1117">ansible-modules-extras/pull/1117</a></td>
 <td>win_owner to change owner</td>
+</tr>
+<tr>
+<td>context_demo</td>
+<td><a href="https://github.com/ansible/ansible/pull/17235">ansible/pull/17235</a></td>
+<td>Fix context_demo callback plugin.</td>
 </tr>
 <tr>
 <td>task_include</td>
