@@ -37,6 +37,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1854">ansible-modules-core/pull/1854</a></td>
+<td>get_ssh_info parameter for ec2 module</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1985">ansible-modules-core/pull/1985</a></td>
 <td>Add module supporting AWS VPC Peering Connections </td>
 </tr>
@@ -47,8 +52,28 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2674">ansible-modules-core/pull/2674</a></td>
+<td>Added additional description lines to draw more at</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
 <td>CommandModule: detect change based on update to so</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3005">ansible-modules-core/pull/3005</a></td>
+<td>Fix for docker container labels</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4535">ansible-modules-core/pull/4535</a></td>
+<td>Fix for docker container labels</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4536">ansible-modules-core/pull/4536</a></td>
+<td>initial add of network/sros modules</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4622,11 +4647,6 @@
 </tr>
 <tr>
 <td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1854">ansible-modules-core/pull/1854</a></td>
-<td>get_ssh_info parameter for ec2 module</td>
-</tr>
-<tr>
-<td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2210">ansible-modules-core/pull/2210</a></td>
 <td>Cancel spot requests before fail. </td>
 </tr>
@@ -5309,11 +5329,6 @@
 <td>docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/984">ansible-modules-core/issues/984</a></td>
 <td>Support capabilities for Docker containers</td>
-</tr>
-<tr>
-<td>docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3005">ansible-modules-core/pull/3005</a></td>
-<td>Fix for docker container labels</td>
 </tr>
 <tr>
 <td>docker</td>
@@ -8546,101 +8561,6 @@
 <td>Support verbose output from npm</td>
 </tr>
 <tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
-<td>[Bug Report] lineinfile unquotes value twice</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1400">ansible-modules-core/issues/1400</a></td>
-<td>Improve lineinfile's line= option with groups/grou</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/174">ansible-modules-core/issues/174</a></td>
-<td>lineinfile does not expand "\t" when some conditio</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2054">ansible-modules-core/issues/2054</a></td>
-<td>lineinfile not insertafter 'EOF' if line presents </td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2227">ansible-modules-core/issues/2227</a></td>
-<td>Incorrect handling of quotes in lineinfile module</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2434">ansible-modules-core/issues/2434</a></td>
-<td>please make lineinfile support edit in-place</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2833">ansible-modules-core/issues/2833</a></td>
-<td>lineinfile does not preserve ACL</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2914">ansible-modules-core/issues/2914</a></td>
-<td>ignore_missing for lineinfile, replace, ...</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3500">ansible-modules-core/issues/3500</a></td>
-<td>lineinfile: regexp="...\b..." no longer matches in</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3648">ansible-modules-core/issues/3648</a></td>
-<td>lineinfile module : insertbefore should insert bef</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3975">ansible-modules-core/issues/3975</a></td>
-<td>lineinfile with regexp writes line when there isn'</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4499">ansible-modules-core/issues/4499</a></td>
-<td>lineinfile incorrectly writes outer quotes in resu</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/52">ansible-modules-core/issues/52</a></td>
-<td>lineinfile should have an option to remove duplica</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2079">ansible-modules-core/pull/2079</a></td>
-<td>Add purge parameter for lineinfile module</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2674">ansible-modules-core/pull/2674</a></td>
-<td>Added additional description lines to draw more at</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/11837">ansible/issues/11837</a></td>
-<td>Proposal: lineinfile - custom location for the bac</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/12044">ansible/issues/12044</a></td>
-<td>lineinfile dropping quoted empty strings</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/15767">ansible/issues/15767</a></td>
-<td>lineinfile: Feature Idea: Add 'count' option to se</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/15813">ansible/issues/15813</a></td>
-<td>Using lineinfile for a file insert in Ansible  pla</td>
-</tr>
-<tr>
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
 <td>Bug Report: Synchronize module asks password</td>
@@ -9014,6 +8934,96 @@
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
 <td>no_log expression support</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
+<td>[Bug Report] lineinfile unquotes value twice</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1400">ansible-modules-core/issues/1400</a></td>
+<td>Improve lineinfile's line= option with groups/grou</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/174">ansible-modules-core/issues/174</a></td>
+<td>lineinfile does not expand "\t" when some conditio</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2054">ansible-modules-core/issues/2054</a></td>
+<td>lineinfile not insertafter 'EOF' if line presents </td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2227">ansible-modules-core/issues/2227</a></td>
+<td>Incorrect handling of quotes in lineinfile module</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2434">ansible-modules-core/issues/2434</a></td>
+<td>please make lineinfile support edit in-place</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2833">ansible-modules-core/issues/2833</a></td>
+<td>lineinfile does not preserve ACL</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2914">ansible-modules-core/issues/2914</a></td>
+<td>ignore_missing for lineinfile, replace, ...</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3500">ansible-modules-core/issues/3500</a></td>
+<td>lineinfile: regexp="...\b..." no longer matches in</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3648">ansible-modules-core/issues/3648</a></td>
+<td>lineinfile module : insertbefore should insert bef</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3975">ansible-modules-core/issues/3975</a></td>
+<td>lineinfile with regexp writes line when there isn'</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4499">ansible-modules-core/issues/4499</a></td>
+<td>lineinfile incorrectly writes outer quotes in resu</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/52">ansible-modules-core/issues/52</a></td>
+<td>lineinfile should have an option to remove duplica</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2079">ansible-modules-core/pull/2079</a></td>
+<td>Add purge parameter for lineinfile module</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/11837">ansible/issues/11837</a></td>
+<td>Proposal: lineinfile - custom location for the bac</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/12044">ansible/issues/12044</a></td>
+<td>lineinfile dropping quoted empty strings</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/15767">ansible/issues/15767</a></td>
+<td>lineinfile: Feature Idea: Add 'count' option to se</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/15813">ansible/issues/15813</a></td>
+<td>Using lineinfile for a file insert in Ansible  pla</td>
 </tr>
 <tr>
 <td>gce</td>
@@ -15564,6 +15574,11 @@
 <td>ec2_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1160">ansible-modules-core/pull/1160</a></td>
 <td>Add EC2 facts from dynamic instance metadata</td>
+</tr>
+<tr>
+<td>sros</td>
+<td><a href="https://github.com/ansible/ansible/pull/17244">ansible/pull/17244</a></td>
+<td>initial add of shared modules for supporting Nokia</td>
 </tr>
 <tr>
 <td>win_package</td>
