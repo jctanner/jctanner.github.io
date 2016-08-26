@@ -3797,6 +3797,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17043">ansible/issues/17043</a></td>
+<td>random MODULE FAILURE on apt module </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17057">ansible/issues/17057</a></td>
 <td>Variable assignment with conditional breaks facts</td>
 </tr>
@@ -8372,11 +8377,6 @@
 </tr>
 <tr>
 <td>apt</td>
-<td><a href="https://github.com/ansible/ansible/issues/17043">ansible/issues/17043</a></td>
-<td>random MODULE FAILURE on apt module </td>
-</tr>
-<tr>
-<td>apt</td>
 <td><a href="https://github.com/ansible/ansible/issues/9154">ansible/issues/9154</a></td>
 <td>tags typo in role dependencies not caught</td>
 </tr>
@@ -8806,6 +8806,101 @@
 <td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
+<td>[Bug Report] lineinfile unquotes value twice</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1400">ansible-modules-core/issues/1400</a></td>
+<td>Improve lineinfile's line= option with groups/grou</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/174">ansible-modules-core/issues/174</a></td>
+<td>lineinfile does not expand "\t" when some conditio</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2054">ansible-modules-core/issues/2054</a></td>
+<td>lineinfile not insertafter 'EOF' if line presents </td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2227">ansible-modules-core/issues/2227</a></td>
+<td>Incorrect handling of quotes in lineinfile module</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2434">ansible-modules-core/issues/2434</a></td>
+<td>please make lineinfile support edit in-place</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2833">ansible-modules-core/issues/2833</a></td>
+<td>lineinfile does not preserve ACL</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2914">ansible-modules-core/issues/2914</a></td>
+<td>ignore_missing for lineinfile, replace, ...</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3500">ansible-modules-core/issues/3500</a></td>
+<td>lineinfile: regexp="...\b..." no longer matches in</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3648">ansible-modules-core/issues/3648</a></td>
+<td>lineinfile module : insertbefore should insert bef</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3975">ansible-modules-core/issues/3975</a></td>
+<td>lineinfile with regexp writes line when there isn'</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4499">ansible-modules-core/issues/4499</a></td>
+<td>lineinfile incorrectly writes outer quotes in resu</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/52">ansible-modules-core/issues/52</a></td>
+<td>lineinfile should have an option to remove duplica</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2079">ansible-modules-core/pull/2079</a></td>
+<td>Add purge parameter for lineinfile module</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4553">ansible-modules-core/pull/4553</a></td>
+<td>Fixes for lineinfile</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/11837">ansible/issues/11837</a></td>
+<td>Proposal: lineinfile - custom location for the bac</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/12044">ansible/issues/12044</a></td>
+<td>lineinfile dropping quoted empty strings</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/15767">ansible/issues/15767</a></td>
+<td>lineinfile: Feature Idea: Add 'count' option to se</td>
+</tr>
+<tr>
+<td>lineinfile</td>
+<td><a href="https://github.com/ansible/ansible/issues/15813">ansible/issues/15813</a></td>
+<td>Using lineinfile for a file insert in Ansible  pla</td>
+</tr>
+<tr>
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
 <td>Bug Report: Synchronize module asks password</td>
@@ -9089,96 +9184,6 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible/issues/14369">ansible/issues/14369</a></td>
 <td>2.0.0.2 Loop Error AttributeError: list object has</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
-<td>[Bug Report] lineinfile unquotes value twice</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1400">ansible-modules-core/issues/1400</a></td>
-<td>Improve lineinfile's line= option with groups/grou</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/174">ansible-modules-core/issues/174</a></td>
-<td>lineinfile does not expand "\t" when some conditio</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2054">ansible-modules-core/issues/2054</a></td>
-<td>lineinfile not insertafter 'EOF' if line presents </td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2227">ansible-modules-core/issues/2227</a></td>
-<td>Incorrect handling of quotes in lineinfile module</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2434">ansible-modules-core/issues/2434</a></td>
-<td>please make lineinfile support edit in-place</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2833">ansible-modules-core/issues/2833</a></td>
-<td>lineinfile does not preserve ACL</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2914">ansible-modules-core/issues/2914</a></td>
-<td>ignore_missing for lineinfile, replace, ...</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3500">ansible-modules-core/issues/3500</a></td>
-<td>lineinfile: regexp="...\b..." no longer matches in</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3648">ansible-modules-core/issues/3648</a></td>
-<td>lineinfile module : insertbefore should insert bef</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3975">ansible-modules-core/issues/3975</a></td>
-<td>lineinfile with regexp writes line when there isn'</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4499">ansible-modules-core/issues/4499</a></td>
-<td>lineinfile incorrectly writes outer quotes in resu</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/52">ansible-modules-core/issues/52</a></td>
-<td>lineinfile should have an option to remove duplica</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2079">ansible-modules-core/pull/2079</a></td>
-<td>Add purge parameter for lineinfile module</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/11837">ansible/issues/11837</a></td>
-<td>Proposal: lineinfile - custom location for the bac</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/12044">ansible/issues/12044</a></td>
-<td>lineinfile dropping quoted empty strings</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/15767">ansible/issues/15767</a></td>
-<td>lineinfile: Feature Idea: Add 'count' option to se</td>
-</tr>
-<tr>
-<td>lineinfile</td>
-<td><a href="https://github.com/ansible/ansible/issues/15813">ansible/issues/15813</a></td>
-<td>Using lineinfile for a file insert in Ansible  pla</td>
 </tr>
 <tr>
 <td>pip</td>
