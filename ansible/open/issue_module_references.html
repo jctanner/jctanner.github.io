@@ -77,6 +77,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3038">ansible-modules-core/pull/3038</a></td>
+<td>if user is empty, it is not converted to tuple whe</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4523">ansible-modules-core/pull/4523</a></td>
 <td>updates to vyos_config module arguments</td>
 </tr>
@@ -6333,7 +6338,7 @@
 <tr>
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4529">ansible-modules-core/issues/4529</a></td>
-<td>Yum module's state=present with RPM of URL won't u</td>
+<td>Yum module's state=present with URL/path of RPM wo</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -9051,96 +9056,6 @@
 <td>2.0.0.2 Loop Error AttributeError: list object has</td>
 </tr>
 <tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
-<td>mysql_user doesn't accept encryption</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
-<td>mysql_user should flush privileges when changed</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
-<td>unable to set mysql root password the first time</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
-<td>Add plugin as parameter for mysql_user </td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
-<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
-<td>mysql_user Provide access to mysql 5.7 installs</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
-<td>mysql_user support EXECUTE ON PROCEDURE</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3038">ansible-modules-core/pull/3038</a></td>
-<td>if user is empty, it is not converted to tuple whe</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
-<td>Fix cursor.execute statements that have only one a</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
-<td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
-<td>Fix cursor.execute requiring an iterable</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
-<td>mysql_user: Fix database table quoting in privileg</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
-<td>use tuple even when pass in the single user parame</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
-<td>mysql_user always reports changed for privs that i</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
-<td>no_log expression support</td>
-</tr>
-<tr>
 <td>lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
 <td>[Bug Report] lineinfile unquotes value twice</td>
@@ -9319,6 +9234,91 @@
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
 <td>#14634: symbolic permissions error</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
+<td>mysql_user doesn't accept encryption</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
+<td>mysql_user should flush privileges when changed</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
+<td>unable to set mysql root password the first time</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
+<td>Add plugin as parameter for mysql_user </td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
+<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
+<td>mysql_user Provide access to mysql 5.7 installs</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
+<td>mysql_user support EXECUTE ON PROCEDURE</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
+<td>Fix cursor.execute statements that have only one a</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
+<td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
+<td>Fix cursor.execute requiring an iterable</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
+<td>mysql_user: Fix database table quoting in privileg</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
+<td>use tuple even when pass in the single user parame</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
+<td>mysql_user always reports changed for privs that i</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
+<td>no_log expression support</td>
 </tr>
 <tr>
 <td>docker_container</td>
@@ -14681,6 +14681,16 @@
 <td>ec2_elb_facts module cant use</td>
 </tr>
 <tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
+<td>os_user does not honor OS env variables</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4546">ansible-modules-core/issues/4546</a></td>
+<td>os_user to not force updating password on existing</td>
+</tr>
+<tr>
 <td>redis</td>
 <td><a href="https://github.com/ansible/ansible/issues/13703">ansible/issues/13703</a></td>
 <td>[bug] Redis fact caching does not work on RHEL6</td>
@@ -15969,11 +15979,6 @@
 <td>rhn_register</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3167">ansible-modules-core/issues/3167</a></td>
 <td>rhn_register stops working after upgrade from 1.9.</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
-<td>os_user does not honor OS env variables</td>
 </tr>
 <tr>
 <td>play_context</td>
