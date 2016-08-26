@@ -6382,6 +6382,11 @@
 </tr>
 <tr>
 <td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4547">ansible-modules-core/pull/4547</a></td>
+<td>Check whether yum file or URL install is an upgrad</td>
+</tr>
+<tr>
+<td>yum</td>
 <td><a href="https://github.com/ansible/ansible/issues/13086">ansible/issues/13086</a></td>
 <td>yum: honour package version pinning via yum-plugin</td>
 </tr>
@@ -6414,6 +6419,11 @@
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible/issues/16863">ansible/issues/16863</a></td>
 <td>yum state=present name=$name-$ver-$rel.$arch insta</td>
+</tr>
+<tr>
+<td>yum</td>
+<td><a href="https://github.com/ansible/ansible/pull/17252">ansible/pull/17252</a></td>
+<td>Correctly infer task results</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -10141,6 +10151,71 @@
 <td>ansible su root prompt</td>
 </tr>
 <tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
+<td>Add check= to shell & command modules or a generic</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
+<td>command module does not return stderr of `postfix </td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
+<td>Add module to hide `mktemp` differences across OS</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4548">ansible-modules-core/issues/4548</a></td>
+<td>Proposal for command module error if special chara</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
+<td>allow playbooks to specify stdin for command</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
+<td>Improves command warnings for commands which requi</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3793">ansible-modules-core/pull/3793</a></td>
+<td>Fixes ansible/ansible#15922</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
+<td>Command module removing characters from rvm comman</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
+<td>Expect a given return code from the command module</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
+<td>confusing ansible command with ansible-playbook</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
+<td>`template` module fails with "/bin/sh: powershell:</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/15922">ansible/issues/15922</a></td>
+<td>'removes' option for command module triggers error</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/pull/14716">ansible/pull/14716</a></td>
+<td>Sanitize JSON from command output of `async` task.</td>
+</tr>
+<tr>
 <td>iam_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1505">ansible-modules-core/issues/1505</a></td>
 <td>iam_policy issue</td>
@@ -10379,66 +10454,6 @@
 <td>postgresql_user</td>
 <td><a href="https://github.com/ansible/ansible/issues/16048">ansible/issues/16048</a></td>
 <td>Describe how to use "postgresql_user" properly wit</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
-<td>Add check= to shell & command modules or a generic</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
-<td>command module does not return stderr of `postfix </td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
-<td>Add module to hide `mktemp` differences across OS</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
-<td>allow playbooks to specify stdin for command</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
-<td>Improves command warnings for commands which requi</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3793">ansible-modules-core/pull/3793</a></td>
-<td>Fixes ansible/ansible#15922</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
-<td>Command module removing characters from rvm comman</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
-<td>Expect a given return code from the command module</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
-<td>confusing ansible command with ansible-playbook</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
-<td>`template` module fails with "/bin/sh: powershell:</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/15922">ansible/issues/15922</a></td>
-<td>'removes' option for command module triggers error</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/pull/14716">ansible/pull/14716</a></td>
-<td>Sanitize JSON from command output of `async` task.</td>
 </tr>
 <tr>
 <td>gem</td>
