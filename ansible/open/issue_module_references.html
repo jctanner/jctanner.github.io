@@ -32,6 +32,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2731">ansible-modules-core/issues/2731</a></td>
+<td>postgresql_db should support dump and import state</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1418">ansible-modules-core/pull/1418</a></td>
 <td>AWS EC2 VPC Gather Information section added</td>
 </tr>
@@ -94,6 +99,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4549">ansible-modules-core/pull/4549</a></td>
 <td>updates nxos_facts with more fact collections</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4551">ansible-modules-core/pull/4551</a></td>
+<td>add new eos_facts module for fact collect of EOS n</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11241,51 +11251,6 @@
 <td>Issue: fix pagination bug when it retrieving certi</td>
 </tr>
 <tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
-<td>postgresql modules unable to use alternative maint</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2731">ansible-modules-core/issues/2731</a></td>
-<td>postgresql_db should support dump and import state</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
-<td>postgresql_db add parameter to set 'connection dat</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
-<td>postgresql_db owner for tables and views</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
-<td>Updated postgresql_db to include support for the t</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
-<td>Feature #2731: added postgres import and dump (see</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
-<td>Allow login database to be specified in postgresql</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
-<td>fix postgres disconnect sessions on drop database</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
-<td>Allow setting/changing the default tablespace for </td>
-</tr>
-<tr>
 <td>jira</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1560">ansible-modules-extras/issues/1560</a></td>
 <td>Jira custom fields not accepting integer variables</td>
@@ -11564,6 +11529,46 @@
 <td>group_by</td>
 <td><a href="https://github.com/ansible/ansible/pull/15966">ansible/pull/15966</a></td>
 <td>Fix vars precedence bug introduced in ansible 2</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
+<td>postgresql modules unable to use alternative maint</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
+<td>postgresql_db add parameter to set 'connection dat</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
+<td>postgresql_db owner for tables and views</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
+<td>Updated postgresql_db to include support for the t</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
+<td>Feature #2731: added postgres import and dump (see</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
+<td>Allow login database to be specified in postgresql</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
+<td>fix postgres disconnect sessions on drop database</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
+<td>Allow setting/changing the default tablespace for </td>
 </tr>
 <tr>
 <td>lvol</td>
@@ -13227,11 +13232,6 @@
 </tr>
 <tr>
 <td>fetch</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2293">ansible-modules-core/issues/2293</a></td>
-<td>problem with hash character (#) in path in fetch m</td>
-</tr>
-<tr>
-<td>fetch</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
 <td>Fetch Silently Fails To Fetch File</td>
 </tr>
@@ -13244,6 +13244,11 @@
 <td>fetch</td>
 <td><a href="https://github.com/ansible/ansible/issues/15126">ansible/issues/15126</a></td>
 <td>Fetch hangs indefinitely for large file when sudo </td>
+</tr>
+<tr>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible/pull/17255">ansible/pull/17255</a></td>
+<td>Fix fetch idempotence</td>
 </tr>
 <tr>
 <td>async_status</td>
@@ -15411,9 +15416,9 @@
 <td>asa_command module does not support with_nested</td>
 </tr>
 <tr>
-<td>nxos_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4023">ansible-modules-core/pull/4023</a></td>
-<td>Fixing nxos_facts parsing</td>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/14975">ansible/pull/14975</a></td>
+<td>Switch etcd lookup plugin to work with etcd v2 api</td>
 </tr>
 <tr>
 <td>blockfromfile</td>
@@ -16131,9 +16136,9 @@
 <td>Adding a module for managing Fastly CDN services</td>
 </tr>
 <tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/14975">ansible/pull/14975</a></td>
-<td>Switch etcd lookup plugin to work with etcd v2 api</td>
+<td>nxos_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4023">ansible-modules-core/pull/4023</a></td>
+<td>Fixing nxos_facts parsing</td>
 </tr>
 <tr>
 <td>win_firewall_rule</td>
