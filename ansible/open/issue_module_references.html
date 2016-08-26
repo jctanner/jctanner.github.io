@@ -3852,11 +3852,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17185">ansible/issues/17185</a></td>
-<td>Ansible  2.2 devel parses `default(int)` wrong</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17194">ansible/issues/17194</a></td>
 <td>ansible-galaxy might need to use credentials for G</td>
 </tr>
@@ -6069,6 +6064,11 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4496">ansible-modules-core/pull/4496</a></td>
 <td>Fix git py3</td>
+</tr>
+<tr>
+<td>git</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4545">ansible-modules-core/pull/4545</a></td>
+<td>Remove colors from git-branch output for correct l</td>
 </tr>
 <tr>
 <td>git</td>
@@ -8671,6 +8671,101 @@
 <td>Improve GCE dynamic inventory configuration handli</td>
 </tr>
 <tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
+<td>get_url prevents caching of data</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
+<td>get_url: always download on local checksum mismatc</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
+<td>Fixes get_url examples in docs and applies native </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
+</tr>
+<tr>
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
 <td>Bug Report: Synchronize module asks password</td>
@@ -8954,101 +9049,6 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible/issues/14369">ansible/issues/14369</a></td>
 <td>2.0.0.2 Loop Error AttributeError: list object has</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
-<td>get_url prevents caching of data</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
-<td>get_url: always download on local checksum mismatc</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
-<td>Fixes get_url examples in docs and applies native </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>mysql_user</td>
@@ -11741,41 +11741,6 @@
 <td>Make is so that the params param truly isn't requi</td>
 </tr>
 <tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1431">ansible-modules-core/issues/1431</a></td>
-<td>Casting boolean values doesn't work for set_fact</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4440">ansible-modules-core/issues/4440</a></td>
-<td>set_fact does not register into hostvars in 2.1.1.</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/11059">ansible/issues/11059</a></td>
-<td>Add JSON example to set_fact documentation</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/13233">ansible/issues/13233</a></td>
-<td>set_fact cannot overwrite with a complex data type</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16008">ansible/issues/16008</a></td>
-<td>traceback on set_fact with numeric var names</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16823">ansible/issues/16823</a></td>
-<td>Adding a checker mode to verify that all variables</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16846">ansible/issues/16846</a></td>
-<td>set_fact inside a role fails in ansible 2.2.0</td>
-</tr>
-<tr>
 <td>ec2_eip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1778">ansible-modules-core/issues/1778</a></td>
 <td>ec2_eip idempotency patch was reverted</td>
@@ -12274,6 +12239,36 @@
 <td>ec2_tag</td>
 <td><a href="https://github.com/ansible/ansible/issues/9984">ansible/issues/9984</a></td>
 <td>AWS credentials are not being used by ec2_tag</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1431">ansible-modules-core/issues/1431</a></td>
+<td>Casting boolean values doesn't work for set_fact</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/11059">ansible/issues/11059</a></td>
+<td>Add JSON example to set_fact documentation</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/13233">ansible/issues/13233</a></td>
+<td>set_fact cannot overwrite with a complex data type</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/16008">ansible/issues/16008</a></td>
+<td>traceback on set_fact with numeric var names</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/16823">ansible/issues/16823</a></td>
+<td>Adding a checker mode to verify that all variables</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/16846">ansible/issues/16846</a></td>
+<td>set_fact inside a role fails in ansible 2.2.0</td>
 </tr>
 <tr>
 <td>sysctl</td>
@@ -15091,11 +15086,6 @@
 <td>Add  dynamic Ansible inventory, based on informati</td>
 </tr>
 <tr>
-<td>openssl_cert</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2343">ansible-modules-extras/pull/2343</a></td>
-<td>network: Add new module openssl_cert</td>
-</tr>
-<tr>
 <td>mongo</td>
 <td><a href="https://github.com/ansible/ansible/pull/13078">ansible/pull/13078</a></td>
 <td>Create mongo.py</td>
@@ -15519,6 +15509,11 @@
 <td>acm_certificate_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2718">ansible-modules-extras/pull/2718</a></td>
 <td>Retrieve facts from Amazon Certificate Manager.</td>
+</tr>
+<tr>
+<td>openssl_cert</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2343">ansible-modules-extras/pull/2343</a></td>
+<td>network: Add new module openssl_cert</td>
 </tr>
 <tr>
 <td>apache2_config</td>
@@ -16034,6 +16029,11 @@
 <td>ssha</td>
 <td><a href="https://github.com/ansible/ansible/pull/11962">ansible/pull/11962</a></td>
 <td>ssha.py convert a term to a SSHA encoded password</td>
+</tr>
+<tr>
+<td>bigip_irule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2797">ansible-modules-extras/pull/2797</a></td>
+<td>Fixes documentation bugs in bigip_irule</td>
 </tr>
 <tr>
 <td>nfsexport</td>
