@@ -48,6 +48,7 @@ version_enum;github_url
 "2.0.0.1";"https://github.com/ansible/ansible/issues/15415";
 "2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/3314";
 "2.0.0.2";"https://github.com/ansible/ansible/issues/15075";
+"2.0.0.2";"https://github.com/ansible/ansible-modules-extras/issues/2128";
 "2.0.1.0";"https://github.com/ansible/ansible-modules-core/pull/3380";
 "2.0.1.0";"https://github.com/ansible/ansible-modules-core/pull/3382";
 "2.0.1.0";"https://github.com/ansible/ansible/issues/15412";
@@ -77,6 +78,7 @@ version_enum;github_url
 "2.1";"https://github.com/ansible/ansible-modules-extras/issues/1345";
 "2.1";"https://github.com/ansible/ansible/issues/15529";
 "2.1";"https://github.com/ansible/ansible/issues/15253";
+"2.1";"https://github.com/ansible/ansible/issues/15252";
 "2.1.0";"https://github.com/ansible/ansible-modules-core/pull/3076";
 "2.1.0";"https://github.com/ansible/ansible/pull/16736";
 "2.1.0";"https://github.com/ansible/ansible-modules-core/pull/3385";
@@ -102,6 +104,7 @@ version_enum;github_url
 "2.2.0";"https://github.com/ansible/ansible-modules-extras/pull/2540";
 "2.2.0";"https://github.com/ansible/ansible/issues/16621";
 "2.2.0.0";"https://github.com/ansible/ansible/issues/16256";
+"1.5.0";"https://github.com/ansible/ansible/issues/4583";
 "1.7.1";"https://github.com/ansible/ansible-modules-extras/issues/84";
 "1.9";"https://github.com/ansible/ansible/pull/10350";
 "1.9.4";"https://github.com/ansible/ansible/issues/15096";
@@ -116,7 +119,6 @@ version_enum;github_url
 "2.0";"https://github.com/ansible/ansible/issues/11775";
 "2.0";"https://github.com/ansible/ansible/issues/11571";
 "2.0.0";"https://github.com/ansible/ansible/pull/10776";
-"2.0.0.2";"https://github.com/ansible/ansible-modules-extras/issues/2128";
 "2.0.0.2";"https://github.com/ansible/ansible-modules-extras/pull/2296";
 "2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/2877";
 "2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/3011";
@@ -130,7 +132,6 @@ version_enum;github_url
 "2.0.1.0";"https://github.com/ansible/ansible-modules-core/issues/4053";
 "2.0.1.0";"https://github.com/ansible/ansible-modules-core/issues/4057";
 "2.0.1.0";"https://github.com/ansible/ansible-modules-extras/issues/1831";
-"2.1";"https://github.com/ansible/ansible/issues/15252";
 "2.1";"https://github.com/ansible/ansible-modules-core/pull/2816";
 "2.1";"https://github.com/ansible/ansible/issues/14230";
 "2.1";"https://github.com/ansible/ansible-modules-core/pull/2724";
@@ -141,9 +142,11 @@ version_enum;github_url
 "2.1";"https://github.com/ansible/ansible/pull/13999";
 "2.1";"https://github.com/ansible/ansible-modules-core/issues/4050";
 "2.1";"https://github.com/ansible/ansible-modules-extras/pull/2057";
+"2.1";"https://github.com/ansible/ansible-modules-extras/pull/2058";
 "2.1.0";"https://github.com/ansible/ansible/pull/15404";
 "2.1.0";"https://github.com/ansible/ansible-modules-extras/issues/2239";
 "2.1.0";"https://github.com/ansible/ansible-modules-extras/pull/2619";
+"2.1.0";"https://github.com/ansible/ansible-modules-extras/pull/2050";
 "2.1.0.0";"https://github.com/ansible/ansible/pull/16160";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-core/pull/3922";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-core/issues/4108";
@@ -153,7 +156,6 @@ version_enum;github_url
 "2.1.1.0";"https://github.com/ansible/ansible-modules-extras/pull/2721";
 "2.2.0";"https://github.com/ansible/ansible/issues/16627";
 "2.2.0";"https://github.com/ansible/ansible-modules-core/pull/3920";
-"1.5.0";"https://github.com/ansible/ansible/issues/4583";
 "1.9.5";"https://github.com/ansible/ansible-modules-core/issues/3497";
 "2.0";"https://github.com/ansible/ansible/pull/12118";
 "2.0";"https://github.com/ansible/ansible/issues/11311";
@@ -163,10 +165,8 @@ version_enum;github_url
 "2.0";"https://github.com/ansible/ansible/issues/10952";
 "2.0";"https://github.com/ansible/ansible/issues/10954";
 "2.0.2.0";"https://github.com/ansible/ansible-modules-core/pull/4380";
-"2.1";"https://github.com/ansible/ansible-modules-extras/pull/2058";
 "2.1";"https://github.com/ansible/ansible/issues/14127";
 "2.1";"https://github.com/ansible/ansible/pull/15470";
-"2.1.0";"https://github.com/ansible/ansible-modules-extras/pull/2050";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-core/issues/4437";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-core/issues/4126";
 "2.1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4433";
@@ -642,11 +642,16 @@ version_enum;github_url
 "2.0";"https://github.com/ansible/ansible/pull/11752";
 "2.1.0.0";"https://github.com/ansible/ansible/issues/16144";
 "devel";"https://github.com/ansible/ansible-modules-core/pull/4564";
+;"https://github.com/ansible/ansible-modules-core/pull/4565";
+;"https://github.com/ansible/ansible-modules-core/pull/4566";
+;"https://github.com/ansible/ansible-modules-core/pull/4567";
 ;"https://github.com/ansible/ansible-modules-core/pull/4560";
 "2.1.1.0";"https://github.com/ansible/ansible-modules-core/issues/4098";
 "devel";"https://github.com/ansible/ansible-modules-core/pull/4562";
 ;"https://github.com/ansible/ansible-modules-core/pull/4563";
 "1.8.0";"https://github.com/ansible/ansible-modules-extras/pull/35";
+;"https://github.com/ansible/ansible-modules-core/pull/4568";
+;"https://github.com/ansible/ansible-modules-core/pull/4569";
 "2.0";"https://github.com/ansible/ansible-modules-core/pull/1713";
 "2.1";"https://github.com/ansible/ansible/pull/14988";
 "1.8.4";"https://github.com/ansible/ansible/issues/10440";
@@ -688,6 +693,7 @@ version_enum;github_url
 "2.0.0.2";"https://github.com/ansible/ansible-modules-core/issues/2875";
 "2.0";"https://github.com/ansible/ansible-modules-extras/issues/550";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-core/pull/4038";
+"2.1.0.0";"https://github.com/ansible/ansible/issues/16235";
 "2.2.0";"https://github.com/ansible/ansible-modules-core/pull/4032";
 "2.0.2.0";"https://github.com/ansible/ansible/pull/16234";
 "2.2.0";"https://github.com/ansible/ansible/issues/16845";
@@ -1396,7 +1402,7 @@ version_enum;github_url
 "2.0";"https://github.com/ansible/ansible-modules-extras/pull/1258";
 "2.1.0.0";"https://github.com/ansible/ansible/issues/16894";
 "2.1.0.0";"https://github.com/ansible/ansible/issues/16237";
-"2.1.0.0";"https://github.com/ansible/ansible/issues/16235";
+"2.0.0";"https://github.com/ansible/ansible/issues/13603";
 "2.1";"https://github.com/ansible/ansible/issues/13731";
 "2.0.1.0";"https://github.com/ansible/ansible/issues/15459";
 "1.5.4";"https://github.com/ansible/ansible/issues/15511";
@@ -2660,7 +2666,6 @@ version_enum;github_url
 "2.0.1.0";"https://github.com/ansible/ansible/issues/16641";
 "2.2.0";"https://github.com/ansible/ansible-modules-extras/pull/2576";
 "2.0.1.0";"https://github.com/ansible/ansible-modules-core/pull/3440";
-"2.0.0";"https://github.com/ansible/ansible/issues/13603";
 "2.1.0.0";"https://github.com/ansible/ansible-modules-extras/pull/2578";
 "2.1";"https://github.com/ansible/ansible-modules-extras/pull/2373";
 "2.1";"https://github.com/ansible/ansible-modules-extras/pull/2372";
