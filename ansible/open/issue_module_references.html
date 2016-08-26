@@ -97,11 +97,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4523">ansible-modules-core/pull/4523</a></td>
-<td>updates to vyos_config module arguments</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4535">ansible-modules-core/pull/4535</a></td>
 <td>Fix for docker container labels</td>
 </tr>
@@ -3857,11 +3852,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17105">ansible/issues/17105</a></td>
-<td>--limit no longer implicitly includes localhost</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17122">ansible/issues/17122</a></td>
 <td>ANSIBLE_STDOUT_CALLBACK=json vs "to retry, use:" m</td>
 </tr>
@@ -4232,6 +4222,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/13491">ansible/pull/13491</a></td>
+<td>filters: Make it simple to get the next or previou</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/13675">ansible/pull/13675</a></td>
 <td>Handle unreachable hosts second-last</td>
 </tr>
@@ -4354,6 +4349,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15836">ansible/pull/15836</a></td>
 <td>docs: {{ net_mask | ipaddr('net') }}  example is w</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/15885">ansible/pull/15885</a></td>
+<td>Add support for distribution_major_version on NetB</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4502,6 +4502,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16893">ansible/pull/16893</a></td>
+<td>Add tests for Git remote URL changes</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16920">ansible/pull/16920</a></td>
 <td>How do nested loops work? Update documentation...</td>
 </tr>
@@ -4534,11 +4539,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17251">ansible/pull/17251</a></td>
 <td>Implement Jinja2 filters for basic arithmetic (add</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17259">ansible/pull/17259</a></td>
-<td>Fix wrong error class</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -5382,6 +5382,11 @@
 </tr>
 <tr>
 <td>docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4557">ansible-modules-core/issues/4557</a></td>
+<td>AttributeError: DockerManager object has no attrib</td>
+</tr>
+<tr>
+<td>docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/522">ansible-modules-core/issues/522</a></td>
 <td>docker volumes aren't bound properly</td>
 </tr>
@@ -5744,11 +5749,6 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4372">ansible-modules-core/pull/4372</a></td>
 <td>Add support for password aging on Solaris</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4497">ansible-modules-core/pull/4497</a></td>
-<td>Fix user module under python3</td>
 </tr>
 <tr>
 <td>user</td>
@@ -6244,11 +6244,6 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible/pull/16741">ansible/pull/16741</a></td>
 <td>Allow implicit int to float conversion</td>
-</tr>
-<tr>
-<td>git</td>
-<td><a href="https://github.com/ansible/ansible/pull/16893">ansible/pull/16893</a></td>
-<td>Add tests for Git remote URL changes</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -8006,146 +8001,6 @@
 <td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/170">ansible-modules-core/issues/170</a></td>
-<td>file touch always 'changed' - [was: need a separat</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
-<td>File/directory mode must be string</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1746">ansible-modules-core/issues/1746</a></td>
-<td>Add a YAML file module?</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2178">ansible-modules-core/issues/2178</a></td>
-<td>'file src=foo dest=bar state=present' should be an</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2473">ansible-modules-core/issues/2473</a></td>
-<td>'file' module cannot create private subdirectories</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2769">ansible-modules-core/issues/2769</a></td>
-<td>Feature request: mutex file locking</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2963">ansible-modules-core/issues/2963</a></td>
-<td>File module: incorrect directory permissions using</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3392">ansible-modules-core/issues/3392</a></td>
-<td>Syntax inconsistency in File module</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3443">ansible-modules-core/issues/3443</a></td>
-<td>Idea on file module: avoid rm -fr /</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4063">ansible-modules-core/issues/4063</a></td>
-<td>File mode 0755 fails for a tar in `unarchive`</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4334">ansible-modules-core/issues/4334</a></td>
-<td>cloudtrail.py - add enable log file validation opt</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4532">ansible-modules-core/issues/4532</a></td>
-<td>"file: path=/path state=absent force=yes" fails wi</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/902">ansible-modules-core/issues/902</a></td>
-<td>Add state=empty into file module</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2758">ansible-modules-core/pull/2758</a></td>
-<td>Add support for sockets to the file-module</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2827">ansible-modules-core/pull/2827</a></td>
-<td>`file` module: Update `prev_state` after updating </td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2904">ansible-modules-core/pull/2904</a></td>
-<td>Ignore errors while deleting a directory using for</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3095">ansible-modules-core/pull/3095</a></td>
-<td>Add state=empty into file module (Fixes #902)</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3395">ansible-modules-core/pull/3395</a></td>
-<td>Add `present` to `file`'s `state` attribute.</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4165">ansible-modules-core/pull/4165</a></td>
-<td>Allow touch on links</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/933">ansible-modules-core/pull/933</a></td>
-<td>add state=empty into file module</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1455">ansible-modules-extras/pull/1455</a></td>
-<td>New module to enable editing the HOSTS file on Win</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2405">ansible-modules-extras/pull/2405</a></td>
-<td>New module for managing hosts file</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/10048">ansible/pull/10048</a></td>
-<td>Add vault support to file lookup plugin</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/10274">ansible/pull/10274</a></td>
-<td>multi-file custom modules (with ModuleReplacer), o</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
-<td>take into account cache file existence in DO inven</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/13528">ansible/pull/13528</a></td>
-<td>choose a random filename for the remote module fil</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/14928">ansible/pull/14928</a></td>
-<td>Merge properties instead of reading only the first</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/17204">ansible/pull/17204</a></td>
-<td>Fix "Text file busy" exception in atomic_move (#95</td>
-</tr>
-<tr>
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1320">ansible-modules-core/issues/1320</a></td>
 <td>rds should use vpc_security_group_ids parameter wh</td>
@@ -8279,6 +8134,141 @@
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible/pull/15526">ansible/pull/15526</a></td>
 <td>Do not set RDS instance hostname if hostname_varia</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/170">ansible-modules-core/issues/170</a></td>
+<td>file touch always 'changed' - [was: need a separat</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
+<td>File/directory mode must be string</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1746">ansible-modules-core/issues/1746</a></td>
+<td>Add a YAML file module?</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2178">ansible-modules-core/issues/2178</a></td>
+<td>'file src=foo dest=bar state=present' should be an</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2473">ansible-modules-core/issues/2473</a></td>
+<td>'file' module cannot create private subdirectories</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2769">ansible-modules-core/issues/2769</a></td>
+<td>Feature request: mutex file locking</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2963">ansible-modules-core/issues/2963</a></td>
+<td>File module: incorrect directory permissions using</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3392">ansible-modules-core/issues/3392</a></td>
+<td>Syntax inconsistency in File module</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3443">ansible-modules-core/issues/3443</a></td>
+<td>Idea on file module: avoid rm -fr /</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4063">ansible-modules-core/issues/4063</a></td>
+<td>File mode 0755 fails for a tar in `unarchive`</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4334">ansible-modules-core/issues/4334</a></td>
+<td>cloudtrail.py - add enable log file validation opt</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4532">ansible-modules-core/issues/4532</a></td>
+<td>"file: path=/path state=absent force=yes" fails wi</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/902">ansible-modules-core/issues/902</a></td>
+<td>Add state=empty into file module</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2758">ansible-modules-core/pull/2758</a></td>
+<td>Add support for sockets to the file-module</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2827">ansible-modules-core/pull/2827</a></td>
+<td>`file` module: Update `prev_state` after updating </td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2904">ansible-modules-core/pull/2904</a></td>
+<td>Ignore errors while deleting a directory using for</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3095">ansible-modules-core/pull/3095</a></td>
+<td>Add state=empty into file module (Fixes #902)</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3395">ansible-modules-core/pull/3395</a></td>
+<td>Add `present` to `file`'s `state` attribute.</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4165">ansible-modules-core/pull/4165</a></td>
+<td>Allow touch on links</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/933">ansible-modules-core/pull/933</a></td>
+<td>add state=empty into file module</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1455">ansible-modules-extras/pull/1455</a></td>
+<td>New module to enable editing the HOSTS file on Win</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2405">ansible-modules-extras/pull/2405</a></td>
+<td>New module for managing hosts file</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/10048">ansible/pull/10048</a></td>
+<td>Add vault support to file lookup plugin</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/10274">ansible/pull/10274</a></td>
+<td>multi-file custom modules (with ModuleReplacer), o</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
+<td>take into account cache file existence in DO inven</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/13528">ansible/pull/13528</a></td>
+<td>choose a random filename for the remote module fil</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/14928">ansible/pull/14928</a></td>
+<td>Merge properties instead of reading only the first</td>
 </tr>
 <tr>
 <td>apt</td>
@@ -9921,76 +9911,6 @@
 <td>boto profile not being used by ec2_vpc</td>
 </tr>
 <tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1129">ansible-modules-extras/issues/1129</a></td>
-<td>known_hosts module fails when using host with port</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1924">ansible-modules-extras/issues/1924</a></td>
-<td>known_hosts module reporting 'changed' incorrectly</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2350">ansible-modules-extras/issues/2350</a></td>
-<td>known_hosts is not idempotent</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2489">ansible-modules-extras/issues/2489</a></td>
-<td>known_hosts module race condition</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2513">ansible-modules-extras/issues/2513</a></td>
-<td>known_hosts module changes ownership of existing f</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2651">ansible-modules-extras/issues/2651</a></td>
-<td>known_hosts doesn't support entries with ssh port </td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/664">ansible-modules-extras/issues/664</a></td>
-<td>known_hosts module not working ?</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/901">ansible-modules-extras/issues/901</a></td>
-<td>known_hosts module could offer 'mode', 'group', an</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/903">ansible-modules-extras/issues/903</a></td>
-<td>known_hosts module not removing all matching keys </td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/987">ansible-modules-extras/issues/987</a></td>
-<td>known_hosts should have user option like authorize</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2488">ansible-modules-extras/pull/2488</a></td>
-<td>Adds keyscan option to known_hosts module</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10975">ansible/issues/10975</a></td>
-<td>SSH connection got stuck when IP and host have dif</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible/issues/15702">ansible/issues/15702</a></td>
-<td>SSH keys aren't checked against known_hosts when u</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible/pull/14583">ansible/pull/14583</a></td>
-<td>add support for SSH ports in git repository URLs, </td>
-</tr>
-<tr>
 <td>ec2_vpc_route_table</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
 <td>tags are empty on ec2_vpc_route_table creation</td>
@@ -10124,6 +10044,71 @@
 <td>new</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/287">ansible-modules-extras/issues/287</a></td>
 <td>Run Windows modules asynchronously as scheduled jo</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1129">ansible-modules-extras/issues/1129</a></td>
+<td>known_hosts module fails when using host with port</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1924">ansible-modules-extras/issues/1924</a></td>
+<td>known_hosts module reporting 'changed' incorrectly</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2350">ansible-modules-extras/issues/2350</a></td>
+<td>known_hosts is not idempotent</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2489">ansible-modules-extras/issues/2489</a></td>
+<td>known_hosts module race condition</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2513">ansible-modules-extras/issues/2513</a></td>
+<td>known_hosts module changes ownership of existing f</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2651">ansible-modules-extras/issues/2651</a></td>
+<td>known_hosts doesn't support entries with ssh port </td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/664">ansible-modules-extras/issues/664</a></td>
+<td>known_hosts module not working ?</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/901">ansible-modules-extras/issues/901</a></td>
+<td>known_hosts module could offer 'mode', 'group', an</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/903">ansible-modules-extras/issues/903</a></td>
+<td>known_hosts module not removing all matching keys </td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/987">ansible-modules-extras/issues/987</a></td>
+<td>known_hosts should have user option like authorize</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2488">ansible-modules-extras/pull/2488</a></td>
+<td>Adds keyscan option to known_hosts module</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10975">ansible/issues/10975</a></td>
+<td>SSH connection got stuck when IP and host have dif</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible/pull/14583">ansible/pull/14583</a></td>
+<td>add support for SSH ports in git repository URLs, </td>
 </tr>
 <tr>
 <td>shell</td>
@@ -10856,56 +10841,6 @@
 <td>with lsb_release installed and /bin/lsb_release bi</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
-<td>Add posix groups to the list of returned facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15885">ansible/pull/15885</a></td>
-<td>Add support for distribution_major_version on NetB</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16535">ansible/pull/16535</a></td>
-<td>Fix cpu facts for hosts missing fields in cpuinfo </td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
-</tr>
-<tr>
 <td>subversion</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2511">ansible-modules-core/issues/2511</a></td>
 <td>FR: add option to provide --accept option for svn </td>
@@ -11229,6 +11164,51 @@
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4057">ansible-modules-core/issues/4057</a></td>
 <td>Volumes do not get dropped when removing the docke</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
+<td>Add posix groups to the list of returned facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16535">ansible/pull/16535</a></td>
+<td>Fix cpu facts for hosts missing fields in cpuinfo </td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>iam_cert</td>
@@ -12001,39 +11981,39 @@
 <td>Don't clobber backup, fixes: #4177 ( https://githu</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/10490">ansible/pull/10490</a></td>
-<td>Make it possible to access the HTTP response data </td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2004">ansible-modules-core/issues/2004</a></td>
+<td>hostname module does not rename correctly on debia</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/12118">ansible/pull/12118</a></td>
-<td>Make sanitze_output function catch other forms of </td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2331">ansible-modules-core/issues/2331</a></td>
+<td>Docker troubles with ansible hostname module</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/12221">ansible/pull/12221</a></td>
-<td>make the way we build search pathes easier to unde</td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
+<td>Opensuse version <= 11 wrong hostname strategy</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/13491">ansible/pull/13491</a></td>
-<td>filters: Make it simple to get the next or previou</td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
+<td>Hostname not set correctly on Gentoo Linux with sy</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/13974">ansible/pull/13974</a></td>
-<td>Make ModuleArgsParser more understandable</td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4559">ansible-modules-core/pull/4559</a></td>
+<td>Convert command output to native string</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/15758">ansible/pull/15758</a></td>
-<td>Make it clear that there is something wrong with t</td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible/issues/13101">ansible/issues/13101</a></td>
+<td>Limit ansible-pull to a single matching hostname</td>
 </tr>
 <tr>
-<td>make</td>
-<td><a href="https://github.com/ansible/ansible/pull/16560">ansible/pull/16560</a></td>
-<td>Make interprocess polling interval configurable</td>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
+<td>Support for variables in inventory hostname</td>
 </tr>
 <tr>
 <td>maven_artifact</td>
@@ -12501,34 +12481,34 @@
 <td>Fix mixed type comparison resulting in wrong `chan</td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2004">ansible-modules-core/issues/2004</a></td>
-<td>hostname module does not rename correctly on debia</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/10490">ansible/pull/10490</a></td>
+<td>Make it possible to access the HTTP response data </td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2331">ansible-modules-core/issues/2331</a></td>
-<td>Docker troubles with ansible hostname module</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/12118">ansible/pull/12118</a></td>
+<td>Make sanitze_output function catch other forms of </td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
-<td>Opensuse version <= 11 wrong hostname strategy</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/12221">ansible/pull/12221</a></td>
+<td>make the way we build search pathes easier to unde</td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
-<td>Hostname not set correctly on Gentoo Linux with sy</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/13974">ansible/pull/13974</a></td>
+<td>Make ModuleArgsParser more understandable</td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible/issues/13101">ansible/issues/13101</a></td>
-<td>Limit ansible-pull to a single matching hostname</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/15758">ansible/pull/15758</a></td>
+<td>Make it clear that there is something wrong with t</td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
-<td>Support for variables in inventory hostname</td>
+<td>make</td>
+<td><a href="https://github.com/ansible/ansible/pull/16560">ansible/pull/16560</a></td>
+<td>Make interprocess polling interval configurable</td>
 </tr>
 <tr>
 <td>django_manage</td>
@@ -13296,6 +13276,26 @@
 <td>Add native support for IIS appcmd</td>
 </tr>
 <tr>
+<td>systemd</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/917">ansible-modules-core/issues/917</a></td>
+<td>Avahi does not disable properly with systemd on ce</td>
+</tr>
+<tr>
+<td>systemd</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4208">ansible-modules-core/pull/4208</a></td>
+<td>system/systemd: enable systemctl --user</td>
+</tr>
+<tr>
+<td>systemd</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4556">ansible-modules-core/pull/4556</a></td>
+<td>Fix traceback on python3</td>
+</tr>
+<tr>
+<td>systemd</td>
+<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
+<td>Streamline Arch Linux detection following systemd </td>
+</tr>
+<tr>
 <td>win_iis_webbinding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
 <td>win_iis_webbinding: remove default binding</td>
@@ -13709,21 +13709,6 @@
 <td>fetch</td>
 <td><a href="https://github.com/ansible/ansible/issues/15126">ansible/issues/15126</a></td>
 <td>Fetch hangs indefinitely for large file when sudo </td>
-</tr>
-<tr>
-<td>systemd</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/917">ansible-modules-core/issues/917</a></td>
-<td>Avahi does not disable properly with systemd on ce</td>
-</tr>
-<tr>
-<td>systemd</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4208">ansible-modules-core/pull/4208</a></td>
-<td>system/systemd: enable systemctl --user</td>
-</tr>
-<tr>
-<td>systemd</td>
-<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
-<td>Streamline Arch Linux detection following systemd </td>
 </tr>
 <tr>
 <td>galaxy</td>
@@ -14316,6 +14301,16 @@
 <td>Fix path_dwim_relative to handle parent dir refs</td>
 </tr>
 <tr>
+<td>route53_health_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2847">ansible-modules-core/issues/2847</a></td>
+<td>route53_health_check fqdn / resource_path uniquene</td>
+</tr>
+<tr>
+<td>route53_health_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2893">ansible-modules-core/issues/2893</a></td>
+<td>Support Latency graphs in route53_health_check mod</td>
+</tr>
+<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14416,14 +14411,14 @@
 <td>easy_install: state 'latest' always shows changed</td>
 </tr>
 <tr>
-<td>route53_health_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2847">ansible-modules-core/issues/2847</a></td>
-<td>route53_health_check fqdn / resource_path uniquene</td>
+<td>open_iscsi</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1812">ansible-modules-extras/issues/1812</a></td>
+<td>[open_scsi] target ip/port should be forced when l</td>
 </tr>
 <tr>
-<td>route53_health_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2893">ansible-modules-core/issues/2893</a></td>
-<td>Support Latency graphs in route53_health_check mod</td>
+<td>open_iscsi</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2137">ansible-modules-extras/issues/2137</a></td>
+<td>open_iscsi fails to login when discovery returns m</td>
 </tr>
 <tr>
 <td>slack</td>
@@ -14434,6 +14429,16 @@
 <td>slack</td>
 <td><a href="https://github.com/ansible/ansible/issues/11935">ansible/issues/11935</a></td>
 <td>allow more colors into slack plugin</td>
+</tr>
+<tr>
+<td>xbps</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1185">ansible-modules-extras/pull/1185</a></td>
+<td>New module: xbps for managing Void Linux packages</td>
+</tr>
+<tr>
+<td>xbps</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1749">ansible-modules-extras/pull/1749</a></td>
+<td>Add XBPS module</td>
 </tr>
 <tr>
 <td>nxos_feature</td>
@@ -14574,16 +14579,6 @@
 <td>modprobe</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2669">ansible-modules-extras/pull/2669</a></td>
 <td>Use `modprobe -r` instead of `rmmod` in modprobe m</td>
-</tr>
-<tr>
-<td>open_iscsi</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1812">ansible-modules-extras/issues/1812</a></td>
-<td>[open_scsi] target ip/port should be forced when l</td>
-</tr>
-<tr>
-<td>open_iscsi</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2137">ansible-modules-extras/issues/2137</a></td>
-<td>open_iscsi fails to login when discovery returns m</td>
 </tr>
 <tr>
 <td>win_zip</td>
@@ -14774,16 +14769,6 @@
 <td>vmware_vm_shell</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2676">ansible-modules-extras/pull/2676</a></td>
 <td>disable ssl check, validate_certs does not work on</td>
-</tr>
-<tr>
-<td>xbps</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1185">ansible-modules-extras/pull/1185</a></td>
-<td>New module: xbps for managing Void Linux packages</td>
-</tr>
-<tr>
-<td>xbps</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1749">ansible-modules-extras/pull/1749</a></td>
-<td>Add XBPS module</td>
 </tr>
 <tr>
 <td>htpasswd</td>
@@ -15069,11 +15054,6 @@
 <td>samba_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2770">ansible-modules-extras/pull/2770</a></td>
 <td>New Module `samba_user` to manage samba users</td>
-</tr>
-<tr>
-<td>until</td>
-<td><a href="https://github.com/ansible/ansible/issues/17256">ansible/issues/17256</a></td>
-<td>until behaviour changed and partly broken</td>
 </tr>
 <tr>
 <td>docker_login</td>
@@ -15429,6 +15409,11 @@
 <td>etcd</td>
 <td><a href="https://github.com/ansible/ansible/pull/14975">ansible/pull/14975</a></td>
 <td>Switch etcd lookup plugin to work with etcd v2 api</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17073">ansible/pull/17073</a></td>
+<td>Fix issue with proxy setting leaving temp files</td>
 </tr>
 <tr>
 <td>blockfromfile</td>
@@ -16096,9 +16081,9 @@
 <td>For ec2_lb make sure we use volume_type like we do</td>
 </tr>
 <tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17073">ansible/pull/17073</a></td>
-<td>Fix issue with proxy setting leaving temp files</td>
+<td>rax_dns_record</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4558">ansible-modules-core/issues/4558</a></td>
+<td>Timeout configuration for rax_dns_record</td>
 </tr>
 <tr>
 <td>digital_ocean_domain_record</td>
