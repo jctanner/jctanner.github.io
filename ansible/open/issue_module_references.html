@@ -112,6 +112,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4578">ansible-modules-core/pull/4578</a></td>
+<td>convert nxos_facts map from dict to frozenset</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -9061,6 +9066,96 @@
 <td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
+<td>mysql_user doesn't accept encryption</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
+<td>mysql_user should flush privileges when changed</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
+<td>unable to set mysql root password the first time</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
+<td>Add plugin as parameter for mysql_user </td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
+<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
+<td>mysql_user Provide access to mysql 5.7 installs</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
+<td>mysql_user support EXECUTE ON PROCEDURE</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
+<td>Fix cursor.execute statements that have only one a</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
+<td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
+<td>Fix cursor.execute requiring an iterable</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
+<td>mysql_user: Fix database table quoting in privileg</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
+<td>use tuple even when pass in the single user parame</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
+<td>mysql_user always reports changed for privs that i</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4576">ansible-modules-core/pull/4576</a></td>
+<td>Fix mysql_user for python3</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
+<td>no_log expression support</td>
+</tr>
+<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
 <td>authorized_key fails in check mode if user doesn't</td>
@@ -9239,91 +9334,6 @@
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
 <td>#14634: symbolic permissions error</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
-<td>mysql_user doesn't accept encryption</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
-<td>mysql_user should flush privileges when changed</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
-<td>unable to set mysql root password the first time</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
-<td>Add plugin as parameter for mysql_user </td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
-<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
-<td>mysql_user Provide access to mysql 5.7 installs</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
-<td>mysql_user support EXECUTE ON PROCEDURE</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
-<td>Fix cursor.execute statements that have only one a</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
-<td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
-<td>Fix cursor.execute requiring an iterable</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
-<td>mysql_user: Fix database table quoting in privileg</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
-<td>use tuple even when pass in the single user parame</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
-<td>mysql_user always reports changed for privs that i</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
-<td>no_log expression support</td>
 </tr>
 <tr>
 <td>docker_container</td>
@@ -10791,6 +10801,56 @@
 <td>Ansible 2.1.0 fails to find custom modules in sub-</td>
 </tr>
 <tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
+<td>docker log_opt ignored if log_driver is not specif</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2818">ansible-modules-core/issues/2818</a></td>
+<td>Ansible docker: error pulling images</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2917">ansible-modules-core/issues/2917</a></td>
+<td>docker: pull image by digest is broken</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2933">ansible-modules-core/issues/2933</a></td>
+<td>docker state: reloaded doesn't get triggered when </td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2948">ansible-modules-core/issues/2948</a></td>
+<td>Docker containers not removed by image name alone </td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3006">ansible-modules-core/issues/3006</a></td>
+<td>Docker module fails on reload with labels</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3044">ansible-modules-core/issues/3044</a></td>
+<td>Remove docker containers by only their name</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4047">ansible-modules-core/issues/4047</a></td>
+<td>Ansible 2.1.x cloud/docker incompatible with docke</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4057">ansible-modules-core/issues/4057</a></td>
+<td>Volumes do not get dropped when removing the docke</td>
+</tr>
+<tr>
+<td>_docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4577">ansible-modules-core/pull/4577</a></td>
+<td>Fix container labels expected vs actual comparison</td>
+</tr>
+<tr>
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
 <td>digital ocean block storage support</td>
@@ -11171,96 +11231,6 @@
 <td>Normalize security_groups parameters to allow mixe</td>
 </tr>
 <tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
-<td>docker log_opt ignored if log_driver is not specif</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2818">ansible-modules-core/issues/2818</a></td>
-<td>Ansible docker: error pulling images</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2917">ansible-modules-core/issues/2917</a></td>
-<td>docker: pull image by digest is broken</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2933">ansible-modules-core/issues/2933</a></td>
-<td>docker state: reloaded doesn't get triggered when </td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2948">ansible-modules-core/issues/2948</a></td>
-<td>Docker containers not removed by image name alone </td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3006">ansible-modules-core/issues/3006</a></td>
-<td>Docker module fails on reload with labels</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3044">ansible-modules-core/issues/3044</a></td>
-<td>Remove docker containers by only their name</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4047">ansible-modules-core/issues/4047</a></td>
-<td>Ansible 2.1.x cloud/docker incompatible with docke</td>
-</tr>
-<tr>
-<td>_docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4057">ansible-modules-core/issues/4057</a></td>
-<td>Volumes do not get dropped when removing the docke</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10668">ansible/pull/10668</a></td>
-<td>Add create_lock_file to basic utilities</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12366">ansible/pull/12366</a></td>
-<td>Add support for purging local outdated backup file</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13538">ansible/pull/13538</a></td>
-<td>Fix multiple backup</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13620">ansible/pull/13620</a></td>
-<td>draft update_json for module intermediate comms</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16281">ansible/pull/16281</a></td>
-<td>Extract a censor_args method to module_utils</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16492">ansible/pull/16492</a></td>
-<td>basic: omit args if default value is set</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16692">ansible/pull/16692</a></td>
-<td>Don't clobber backup, fixes: #4177 ( https://githu</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17271">ansible/pull/17271</a></td>
-<td>Python3 fixes and porting</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17272">ansible/pull/17272</a></td>
-<td>Simple documentation typo fix, 'iIf' to 'If'</td>
-</tr>
-<tr>
 <td>facts</td>
 <td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
 <td>gathering facts caused setup to fail by using ssh-</td>
@@ -11349,6 +11319,51 @@
 <td>iam_cert</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4448">ansible-modules-core/pull/4448</a></td>
 <td>Issue: fix pagination bug when it retrieving certi</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
+<td>postgresql modules unable to use alternative maint</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
+<td>postgresql_db add parameter to set 'connection dat</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
+<td>postgresql_db owner for tables and views</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
+<td>Updated postgresql_db to include support for the t</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
+<td>Feature #2731: added postgres import and dump (see</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
+<td>Allow login database to be specified in postgresql</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
+<td>fix postgres disconnect sessions on drop database</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
+<td>Allow setting/changing the default tablespace for </td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4579">ansible-modules-core/pull/4579</a></td>
+<td>Port postgresql module to python3</td>
 </tr>
 <tr>
 <td>jira</td>
@@ -11551,6 +11566,46 @@
 <td>Fix ValueErrors if extra output picked up from rab</td>
 </tr>
 <tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10668">ansible/pull/10668</a></td>
+<td>Add create_lock_file to basic utilities</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12366">ansible/pull/12366</a></td>
+<td>Add support for purging local outdated backup file</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13538">ansible/pull/13538</a></td>
+<td>Fix multiple backup</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13620">ansible/pull/13620</a></td>
+<td>draft update_json for module intermediate comms</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16281">ansible/pull/16281</a></td>
+<td>Extract a censor_args method to module_utils</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16492">ansible/pull/16492</a></td>
+<td>basic: omit args if default value is set</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16692">ansible/pull/16692</a></td>
+<td>Don't clobber backup, fixes: #4177 ( https://githu</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17271">ansible/pull/17271</a></td>
+<td>Python3 fixes and porting</td>
+</tr>
+<tr>
 <td>route53</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1619">ansible-modules-core/issues/1619</a></td>
 <td>Route53 module cannot differentiate between multip</td>
@@ -11629,46 +11684,6 @@
 <td>group_by</td>
 <td><a href="https://github.com/ansible/ansible/pull/15966">ansible/pull/15966</a></td>
 <td>Fix vars precedence bug introduced in ansible 2</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
-<td>postgresql modules unable to use alternative maint</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
-<td>postgresql_db add parameter to set 'connection dat</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
-<td>postgresql_db owner for tables and views</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
-<td>Updated postgresql_db to include support for the t</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
-<td>Feature #2731: added postgres import and dump (see</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
-<td>Allow login database to be specified in postgresql</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
-<td>fix postgres disconnect sessions on drop database</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
-<td>Allow setting/changing the default tablespace for </td>
 </tr>
 <tr>
 <td>lvol</td>
