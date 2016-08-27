@@ -152,6 +152,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2653">ansible-modules-extras/pull/2653</a></td>
+<td>Add require_full_window option for Datadog monitor</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2798">ansible-modules-extras/pull/2798</a></td>
 <td>We've decided that python-3.5 is our minimum pyhto</td>
 </tr>
@@ -13346,6 +13351,26 @@
 <td>Streamline Arch Linux detection following systemd </td>
 </tr>
 <tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
 <td>win_chocolatey</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
 <td>Failed to install packages on windows host using w</td>
@@ -13584,26 +13609,6 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -14046,6 +14051,21 @@
 <td>add redrive_policy queue property support in sqs_q</td>
 </tr>
 <tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
+<td>os_user does not honor OS env variables</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4546">ansible-modules-core/issues/4546</a></td>
+<td>os_user to not force updating password on existing</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4574">ansible-modules-core/pull/4574</a></td>
+<td>Fixes bug #4546 - Made password optional</td>
+</tr>
+<tr>
 <td>ec2_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/714">ansible-modules-core/issues/714</a></td>
 <td>ec2_key doesn't complain about the "region" parame</td>
@@ -14391,16 +14411,6 @@
 <td>removed feature check for nxos_interface</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14731,6 +14741,16 @@
 <td>Add sat_content_views module</td>
 </tr>
 <tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
+</tr>
+<tr>
 <td>digitalocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4210">ansible-modules-core/pull/4210</a></td>
 <td>Add Floating IP support to DigitalOcean</td>
@@ -14759,16 +14779,6 @@
 <td>ec2_elb_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2543">ansible-modules-extras/issues/2543</a></td>
 <td>ec2_elb_facts module cant use</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
-<td>os_user does not honor OS env variables</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4546">ansible-modules-core/issues/4546</a></td>
-<td>os_user to not force updating password on existing</td>
 </tr>
 <tr>
 <td>redis</td>
@@ -16349,11 +16359,6 @@
 <td>dnsmadeeasy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/342">ansible-modules-extras/issues/342</a></td>
 <td>dnsmadeeasy module can't connect to api.dnsmadeeas</td>
-</tr>
-<tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2653">ansible-modules-extras/pull/2653</a></td>
-<td>Add require_full_window option for Datadog monitor</td>
 </tr>
 <tr>
 <td>config_template</td>
