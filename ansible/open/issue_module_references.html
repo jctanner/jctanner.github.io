@@ -42,6 +42,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
+<td>get_url prevents caching of data</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4585">ansible-modules-core/issues/4585</a></td>
 <td>Ansible 2.1.1 is not returning variable from one h</td>
 </tr>
@@ -89,6 +94,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
 <td>CommandModule: detect change based on update to so</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
+<td>Allow login database to be specified in postgresql</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8696,101 +8706,6 @@
 <td>Support verbose output from npm</td>
 </tr>
 <tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2966">ansible-modules-core/issues/2966</a></td>
-<td>get_url prevents caching of data</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
-<td>get_url: always download on local checksum mismatc</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
-<td>Fixes get_url examples in docs and applies native </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
-</tr>
-<tr>
 <td>gce</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
 <td>gce module should support creating instances with </td>
@@ -9254,6 +9169,96 @@
 <td>docker_container</td>
 <td><a href="https://github.com/ansible/ansible/pull/16997">ansible/pull/16997</a></td>
 <td>doas update</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
+<td>get_url: always download on local checksum mismatc</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
+<td>Fixes get_url examples in docs and applies native </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>uri</td>
@@ -11386,51 +11391,6 @@
 <td>Issue: fix pagination bug when it retrieving certi</td>
 </tr>
 <tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
-<td>postgresql modules unable to use alternative maint</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
-<td>postgresql_db add parameter to set 'connection dat</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
-<td>postgresql_db owner for tables and views</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
-<td>Updated postgresql_db to include support for the t</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
-<td>Feature #2731: added postgres import and dump (see</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2777">ansible-modules-core/pull/2777</a></td>
-<td>Allow login database to be specified in postgresql</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
-<td>fix postgres disconnect sessions on drop database</td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
-<td>Allow setting/changing the default tablespace for </td>
-</tr>
-<tr>
-<td>postgresql_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4579">ansible-modules-core/pull/4579</a></td>
-<td>Port postgresql module to python3</td>
-</tr>
-<tr>
 <td>jira</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1560">ansible-modules-extras/issues/1560</a></td>
 <td>Jira custom fields not accepting integer variables</td>
@@ -11669,6 +11629,46 @@
 <td>group_by</td>
 <td><a href="https://github.com/ansible/ansible/pull/15966">ansible/pull/15966</a></td>
 <td>Fix vars precedence bug introduced in ansible 2</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
+<td>postgresql modules unable to use alternative maint</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3046">ansible-modules-core/issues/3046</a></td>
+<td>postgresql_db add parameter to set 'connection dat</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3997">ansible-modules-core/issues/3997</a></td>
+<td>postgresql_db owner for tables and views</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
+<td>Updated postgresql_db to include support for the t</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
+<td>Feature #2731: added postgres import and dump (see</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3598">ansible-modules-core/pull/3598</a></td>
+<td>fix postgres disconnect sessions on drop database</td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4205">ansible-modules-core/pull/4205</a></td>
+<td>Allow setting/changing the default tablespace for </td>
+</tr>
+<tr>
+<td>postgresql_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4579">ansible-modules-core/pull/4579</a></td>
+<td>Port postgresql module to python3</td>
 </tr>
 <tr>
 <td>lvol</td>
