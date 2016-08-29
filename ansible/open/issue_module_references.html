@@ -4017,6 +4017,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17285">ansible/issues/17285</a></td>
+<td>Kerberos issue - Cant find client principal *** in</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -4459,6 +4464,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15991">ansible/pull/15991</a></td>
 <td>Minor text formatting</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16064">ansible/pull/16064</a></td>
+<td>Allow the use of paths like ~/.project.json</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8701,101 +8711,6 @@
 <td>Support verbose output from npm</td>
 </tr>
 <tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
-<td>gce module should support creating instances with </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
-<td>GCE Metadata field not usable</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
-<td>an instance without an external ip address</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
-<td>GCE module missing local SSD option</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
-<td>Add Target proxy, URL map and SSL certificate reso</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
-<td>Compute Engine: Provide a way to specify initial b</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/977">ansible-modules-core/issues/977</a></td>
-<td>Bad documentation example in gce module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
-<td>GCE: Add support for 'number' parameter for manual</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4541">ansible-modules-core/pull/4541</a></td>
-<td>GCE Managed Instance Group Support</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
-<td>GCE inventory doesn't provide disk names</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
-<td>Doc for GCE module refer to outdated auth strategy</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/17075">ansible/issues/17075</a></td>
-<td>gce module errors on file not found when using OAu</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
-<td>Add node private & public ips to gce groups</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
-<td>change check for GCE auth parameters to allow empt</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
-<td>Allow empty string GCE parameters</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/16064">ansible/pull/16064</a></td>
-<td>Allow the use of paths like ~/.project.json</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/16607">ansible/pull/16607</a></td>
-<td>Small changes to enable make gce to run.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/17249">ansible/pull/17249</a></td>
-<td>[GCE] test_gce_mig integration test</td>
-</tr>
-<tr>
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
 <td>Bug Report: Synchronize module asks password</td>
@@ -9349,6 +9264,96 @@
 <td>get_url</td>
 <td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
 <td>Exception thrown with get_url() when returned HTTP</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
+<td>gce module should support creating instances with </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
+<td>GCE Metadata field not usable</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
+<td>an instance without an external ip address</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
+<td>GCE module missing local SSD option</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
+<td>Add Target proxy, URL map and SSL certificate reso</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
+<td>Compute Engine: Provide a way to specify initial b</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/977">ansible-modules-core/issues/977</a></td>
+<td>Bad documentation example in gce module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
+<td>GCE: Add support for 'number' parameter for manual</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4541">ansible-modules-core/pull/4541</a></td>
+<td>GCE Managed Instance Group Support</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
+<td>GCE inventory doesn't provide disk names</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
+<td>Doc for GCE module refer to outdated auth strategy</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/17075">ansible/issues/17075</a></td>
+<td>gce module errors on file not found when using OAu</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
+<td>Add node private & public ips to gce groups</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
+<td>change check for GCE auth parameters to allow empt</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
+<td>Allow empty string GCE parameters</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/16607">ansible/pull/16607</a></td>
+<td>Small changes to enable make gce to run.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/17249">ansible/pull/17249</a></td>
+<td>[GCE] test_gce_mig integration test</td>
 </tr>
 <tr>
 <td>authorized_key</td>
@@ -13386,6 +13391,26 @@
 <td>Streamline Arch Linux detection following systemd </td>
 </tr>
 <tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
 <td>win_chocolatey</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
 <td>Failed to install packages on windows host using w</td>
@@ -13624,26 +13649,6 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -14431,16 +14436,6 @@
 <td>removed feature check for nxos_interface</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14779,6 +14774,16 @@
 <td>satellite</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2300">ansible-modules-extras/pull/2300</a></td>
 <td>Add sat_content_views module</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
 </tr>
 <tr>
 <td>digitalocean</td>
@@ -15204,11 +15209,6 @@
 <td>ecs_task_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1724">ansible-modules-extras/pull/1724</a></td>
 <td>Added new ecs_task_facts module</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3950">ansible-modules-core/pull/3950</a></td>
-<td>Move call to filter_exit out of command execution </td>
 </tr>
 <tr>
 <td>ziploader</td>
