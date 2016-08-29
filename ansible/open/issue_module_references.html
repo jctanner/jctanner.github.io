@@ -3472,6 +3472,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16597">ansible/issues/16597</a></td>
+<td>with_items (and yum module) returns OK for item th</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16598">ansible/issues/16598</a></td>
 <td>include skips tasks when condition variable change</td>
 </tr>
@@ -4649,6 +4654,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17251">ansible/pull/17251</a></td>
 <td>Implement Jinja2 filters for basic arithmetic (add</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17287">ansible/pull/17287</a></td>
+<td>Fix cryptography remote test failures on shippable</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6529,11 +6539,6 @@
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible/issues/16006">ansible/issues/16006</a></td>
 <td>Playbook skips to PLAY RECAP when installing speci</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible/issues/16597">ansible/issues/16597</a></td>
-<td>with_items (and yum module) returns OK for item th</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -9536,91 +9541,6 @@
 <td>#14634: symbolic permissions error</td>
 </tr>
 <tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
-<td>Feature Idea : cloudformation "describe" state</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1370">ansible-modules-core/issues/1370</a></td>
-<td>cloudformation module throws error when stack is g</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1460">ansible-modules-core/issues/1460</a></td>
-<td>cloudformation: cloudformation template file is no</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
-<td>cloudformation state: absent requires template or </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
-<td>Ansible 2.0 cloudformation module template path</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3122">ansible-modules-core/issues/3122</a></td>
-<td>Running Cloudformation module asynchronously does </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
-<td>cloudformation module fails when state:absent and </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
-<td>Add missing import on cloudformation for boto prof</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
-<td>Remove duplicate logic with invalid validation</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
-<td>fix to allow named profiles to work correctly with</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
-<td>Preserve order during Yaml to JSON parsing</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3638">ansible-modules-core/pull/3638</a></td>
-<td>cloudformation updates tags</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
-<td>cloudformation: add parameter for stack policy dur</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
-<td>Fix cloudformation error invocation and whitespace</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4591">ansible-modules-core/pull/4591</a></td>
-<td>Shows uncaught exceptions from called modules in a</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1230">ansible-modules-extras/pull/1230</a></td>
-<td>Module to retrieve facts about an AWS Cloudformati</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible/pull/12880">ansible/pull/12880</a></td>
-<td>Amazon cloudformation stack resource and output lo</td>
-</tr>
-<tr>
 <td>lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
 <td>[Bug Report] lineinfile unquotes value twice</td>
@@ -9789,6 +9709,86 @@
 <td>nmcli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
 <td>correct command line argument for nmcli autoconnec</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
+<td>Feature Idea : cloudformation "describe" state</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1370">ansible-modules-core/issues/1370</a></td>
+<td>cloudformation module throws error when stack is g</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1460">ansible-modules-core/issues/1460</a></td>
+<td>cloudformation: cloudformation template file is no</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
+<td>cloudformation state: absent requires template or </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
+<td>Ansible 2.0 cloudformation module template path</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
+<td>cloudformation module fails when state:absent and </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
+<td>Add missing import on cloudformation for boto prof</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
+<td>Remove duplicate logic with invalid validation</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
+<td>fix to allow named profiles to work correctly with</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
+<td>Preserve order during Yaml to JSON parsing</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3638">ansible-modules-core/pull/3638</a></td>
+<td>cloudformation updates tags</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
+<td>cloudformation: add parameter for stack policy dur</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
+<td>Fix cloudformation error invocation and whitespace</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4591">ansible-modules-core/pull/4591</a></td>
+<td>Shows uncaught exceptions from called modules in a</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1230">ansible-modules-extras/pull/1230</a></td>
+<td>Module to retrieve facts about an AWS Cloudformati</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible/pull/12880">ansible/pull/12880</a></td>
+<td>Amazon cloudformation stack resource and output lo</td>
 </tr>
 <tr>
 <td>ec2_vol</td>
@@ -13846,6 +13846,21 @@
 <td>You can create private instances in SoftLayer with</td>
 </tr>
 <tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4504">ansible-modules-core/issues/4504</a></td>
+<td>docker_service: timeout option not respected</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4592">ansible-modules-core/issues/4592</a></td>
+<td>docker_service: Failed to cast value to int in sca</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4021">ansible-modules-core/pull/4021</a></td>
+<td>docker_service: prevent non specified services fro</td>
+</tr>
+<tr>
 <td>rabbitmq_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1308">ansible-modules-extras/issues/1308</a></td>
 <td>In rabbitmq_policy, tags values that should be int</td>
@@ -14489,16 +14504,6 @@
 <td>consul_session</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2195">ansible-modules-extras/pull/2195</a></td>
 <td>consul_session: fix scheme and verify not passed t</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4504">ansible-modules-core/issues/4504</a></td>
-<td>docker_service: timeout option not respected</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4021">ansible-modules-core/pull/4021</a></td>
-<td>docker_service: prevent non specified services fro</td>
 </tr>
 <tr>
 <td>gc_storage</td>
