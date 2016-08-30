@@ -4672,6 +4672,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17293">ansible/pull/17293</a></td>
+<td>Make password lookup run on python3</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17294">ansible/pull/17294</a></td>
+<td>Support for specifying item label in a loop</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -10756,6 +10766,56 @@
 <td>Adding nested dictionary lookups</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - disallow line breaks in job param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
+<td>[Cron module] validate cron_file parameter</td>
+</tr>
+<tr>
 <td>ping</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4128">ansible-modules-core/pull/4128</a></td>
 <td>WIP: Test PR, do not merge.</td>
@@ -11054,51 +11114,6 @@
 <td>firewalld</td>
 <td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
 <td>ansible_firewalld fact</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - disallow line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
-<td>[Cron module] validate cron_file parameter</td>
 </tr>
 <tr>
 <td>template</td>
@@ -16014,6 +16029,11 @@
 <td>vmware_inventory</td>
 <td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
 <td>VMWare inventory fails on UnicodeDecodeError excep</td>
+</tr>
+<tr>
+<td>ansible_tower</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2810">ansible-modules-extras/pull/2810</a></td>
+<td>Add ansible_tower module</td>
 </tr>
 <tr>
 <td>virtualization_role</td>
