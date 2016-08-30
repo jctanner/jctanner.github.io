@@ -3602,6 +3602,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16767">ansible/issues/16767</a></td>
+<td>synchronize module doesn't respect ssh_common_args</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16768">ansible/issues/16768</a></td>
 <td>Host variable ignored</td>
 </tr>
@@ -8956,101 +8961,6 @@
 <td>Add Digest auth support for uri module</td>
 </tr>
 <tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
-<td>Bug Report: Synchronize module asks password</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2781">ansible-modules-core/issues/2781</a></td>
-<td>synchronize_module: fetch files from another serve</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2965">ansible-modules-core/issues/2965</a></td>
-<td>synchronize: support multiple sources</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4446">ansible-modules-core/issues/4446</a></td>
-<td>Synchronize module shouldn't use ssh if src and de</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4508">ansible-modules-core/issues/4508</a></td>
-<td>[synchronize] become_user is not honored in the ge</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/727">ansible-modules-core/issues/727</a></td>
-<td>synchronize: cannot use rsync's --inplace option, </td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/10570">ansible/issues/10570</a></td>
-<td>Synchronize doesn't respect  ansible.cfg ssh_args</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/11910">ansible/issues/11910</a></td>
-<td>synchronize: conditional support of -zz instead of</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/13680">ansible/issues/13680</a></td>
-<td>Rename synchronize module owner/group to preserve_</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14345">ansible/issues/14345</a></td>
-<td>Synchronize module: ERROR! privilege output closed</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14836">ansible/issues/14836</a></td>
-<td>Synchronize problems with ssh user/pass auth (work</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14884">ansible/issues/14884</a></td>
-<td>Synchronize module handling of ssh StrictHostKeyCh</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/15405">ansible/issues/15405</a></td>
-<td>Synchronize failed with delegate_to and sudo passw</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/15907">ansible/issues/15907</a></td>
-<td>sychronize rsync_opts and --private-key= will send</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16215">ansible/issues/16215</a></td>
-<td>delegate_to with synchronize forgets ansible_user</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16767">ansible/issues/16767</a></td>
-<td>synchronize module doesn't respect ssh_common_args</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16856">ansible/issues/16856</a></td>
-<td>when using synchronize module with delegate_to, "b</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/17097">ansible/issues/17097</a></td>
-<td>Local synchronize on remote host fails when ansibl</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/pull/16756">ansible/pull/16756</a></td>
-<td>synchronize: fix for rsync protocol support</td>
-</tr>
-<tr>
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
 <td>mysql_user doesn't accept encryption</td>
@@ -9319,6 +9229,96 @@
 <td>gce</td>
 <td><a href="https://github.com/ansible/ansible/pull/17249">ansible/pull/17249</a></td>
 <td>[GCE] test_gce_mig integration test</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
+<td>Bug Report: Synchronize module asks password</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2781">ansible-modules-core/issues/2781</a></td>
+<td>synchronize_module: fetch files from another serve</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2965">ansible-modules-core/issues/2965</a></td>
+<td>synchronize: support multiple sources</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4446">ansible-modules-core/issues/4446</a></td>
+<td>Synchronize module shouldn't use ssh if src and de</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4508">ansible-modules-core/issues/4508</a></td>
+<td>[synchronize] become_user is not honored in the ge</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/727">ansible-modules-core/issues/727</a></td>
+<td>synchronize: cannot use rsync's --inplace option, </td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/10570">ansible/issues/10570</a></td>
+<td>Synchronize doesn't respect  ansible.cfg ssh_args</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/11910">ansible/issues/11910</a></td>
+<td>synchronize: conditional support of -zz instead of</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/13680">ansible/issues/13680</a></td>
+<td>Rename synchronize module owner/group to preserve_</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14345">ansible/issues/14345</a></td>
+<td>Synchronize module: ERROR! privilege output closed</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14836">ansible/issues/14836</a></td>
+<td>Synchronize problems with ssh user/pass auth (work</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14884">ansible/issues/14884</a></td>
+<td>Synchronize module handling of ssh StrictHostKeyCh</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/15405">ansible/issues/15405</a></td>
+<td>Synchronize failed with delegate_to and sudo passw</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/15907">ansible/issues/15907</a></td>
+<td>sychronize rsync_opts and --private-key= will send</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/16215">ansible/issues/16215</a></td>
+<td>delegate_to with synchronize forgets ansible_user</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/16856">ansible/issues/16856</a></td>
+<td>when using synchronize module with delegate_to, "b</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/17097">ansible/issues/17097</a></td>
+<td>Local synchronize on remote host fails when ansibl</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/pull/16756">ansible/pull/16756</a></td>
+<td>synchronize: fix for rsync protocol support</td>
 </tr>
 <tr>
 <td>iam</td>
@@ -15506,16 +15506,6 @@
 <td>Openstack plugins ignore private address</td>
 </tr>
 <tr>
-<td>vmware_maintenancemode</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2809">ansible-modules-extras/pull/2809</a></td>
-<td>Set explicit type for vmware maintenancemode timeo</td>
-</tr>
-<tr>
-<td>exoscale</td>
-<td><a href="https://github.com/ansible/ansible/pull/17230">ansible/pull/17230</a></td>
-<td>exo_dns: new module utils and integration tests fo</td>
-</tr>
-<tr>
 <td>openbsd_rcctl</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1296">ansible-modules-extras/pull/1296</a></td>
 <td>add openbsd_rcctl, to manage service status on the</td>
@@ -16189,11 +16179,6 @@
 <td>os_nova_flavor</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4068">ansible-modules-core/pull/4068</a></td>
 <td>Added extra_specs option (Fixes #3272)</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/17310">ansible/pull/17310</a></td>
-<td>Add support for become_flags on the task level</td>
 </tr>
 <tr>
 <td>assemble</td>
