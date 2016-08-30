@@ -202,6 +202,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2816">ansible-modules-extras/pull/2816</a></td>
+<td>typo fix</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/897">ansible-modules-extras/pull/897</a></td>
 <td>New module: pagerduty_service</td>
 </tr>
@@ -4392,6 +4397,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/14583">ansible/pull/14583</a></td>
+<td>add support for SSH ports in git repository URLs, </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/14630">ansible/pull/14630</a></td>
 <td>Fix code blocks, improve english grammar in docsit</td>
 </tr>
@@ -5762,11 +5772,6 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2322">ansible-modules-core/issues/2322</a></td>
-<td>User module - existing user groups removed, even w</td>
-</tr>
-<tr>
-<td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2488">ansible-modules-core/issues/2488</a></td>
 <td>Apply groups of user module instantly</td>
 </tr>
@@ -5879,11 +5884,6 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2694">ansible-modules-core/pull/2694</a></td>
 <td>user: Fix adding a user who's group exists for SLE</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4256">ansible-modules-core/pull/4256</a></td>
-<td>Fixes #2322 fix for missing append check on Darwin</td>
 </tr>
 <tr>
 <td>user</td>
@@ -6244,11 +6244,6 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4237">ansible-modules-core/pull/4237</a></td>
 <td>[FIX] Git: specify branch in reset</td>
-</tr>
-<tr>
-<td>git</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4545">ansible-modules-core/pull/4545</a></td>
-<td>Remove colors from git-branch output for correct l</td>
 </tr>
 <tr>
 <td>git</td>
@@ -8777,6 +8772,11 @@
 </tr>
 <tr>
 <td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4600">ansible-modules-core/issues/4600</a></td>
+<td>Can not use state: started when specify log_driver</td>
+</tr>
+<tr>
+<td>docker_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
 <td>Adding support for published_ports: ALL, since tha</td>
 </tr>
@@ -9411,96 +9411,6 @@
 <td>"with_subelements" has major precedence than "when</td>
 </tr>
 <tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
-<td>get_url: always download on local checksum mismatc</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
-<td>Fixes get_url examples in docs and applies native </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
-</tr>
-<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1532">ansible-modules-core/issues/1532</a></td>
 <td>pip module executable argument does not expand hom</td>
@@ -9759,6 +9669,91 @@
 <td>nmcli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
 <td>correct command line argument for nmcli autoconnec</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
+<td>Fixes get_url examples in docs and applies native </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>cloudformation</td>
@@ -10326,71 +10321,6 @@
 <td>Sort groups by depth then by name</td>
 </tr>
 <tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1129">ansible-modules-extras/issues/1129</a></td>
-<td>known_hosts module fails when using host with port</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1924">ansible-modules-extras/issues/1924</a></td>
-<td>known_hosts module reporting 'changed' incorrectly</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2350">ansible-modules-extras/issues/2350</a></td>
-<td>known_hosts is not idempotent</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2489">ansible-modules-extras/issues/2489</a></td>
-<td>known_hosts module race condition</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2513">ansible-modules-extras/issues/2513</a></td>
-<td>known_hosts module changes ownership of existing f</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2651">ansible-modules-extras/issues/2651</a></td>
-<td>known_hosts doesn't support entries with ssh port </td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/664">ansible-modules-extras/issues/664</a></td>
-<td>known_hosts module not working ?</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/901">ansible-modules-extras/issues/901</a></td>
-<td>known_hosts module could offer 'mode', 'group', an</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/903">ansible-modules-extras/issues/903</a></td>
-<td>known_hosts module not removing all matching keys </td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/987">ansible-modules-extras/issues/987</a></td>
-<td>known_hosts should have user option like authorize</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2488">ansible-modules-extras/pull/2488</a></td>
-<td>Adds keyscan option to known_hosts module</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10975">ansible/issues/10975</a></td>
-<td>SSH connection got stuck when IP and host have dif</td>
-</tr>
-<tr>
-<td>known_hosts</td>
-<td><a href="https://github.com/ansible/ansible/pull/14583">ansible/pull/14583</a></td>
-<td>add support for SSH ports in git repository URLs, </td>
-</tr>
-<tr>
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
 <td>Add check= to shell & command modules or a generic</td>
@@ -10514,6 +10444,66 @@
 <td>iam_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4381">ansible-modules-core/pull/4381</a></td>
 <td>Remove spurious `changed` state on iam_policy modu</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1129">ansible-modules-extras/issues/1129</a></td>
+<td>known_hosts module fails when using host with port</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1924">ansible-modules-extras/issues/1924</a></td>
+<td>known_hosts module reporting 'changed' incorrectly</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2350">ansible-modules-extras/issues/2350</a></td>
+<td>known_hosts is not idempotent</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2489">ansible-modules-extras/issues/2489</a></td>
+<td>known_hosts module race condition</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2513">ansible-modules-extras/issues/2513</a></td>
+<td>known_hosts module changes ownership of existing f</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2651">ansible-modules-extras/issues/2651</a></td>
+<td>known_hosts doesn't support entries with ssh port </td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/664">ansible-modules-extras/issues/664</a></td>
+<td>known_hosts module not working ?</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/901">ansible-modules-extras/issues/901</a></td>
+<td>known_hosts module could offer 'mode', 'group', an</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/903">ansible-modules-extras/issues/903</a></td>
+<td>known_hosts module not removing all matching keys </td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/987">ansible-modules-extras/issues/987</a></td>
+<td>known_hosts should have user option like authorize</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2488">ansible-modules-extras/pull/2488</a></td>
+<td>Adds keyscan option to known_hosts module</td>
+</tr>
+<tr>
+<td>known_hosts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10975">ansible/issues/10975</a></td>
+<td>SSH connection got stuck when IP and host have dif</td>
 </tr>
 <tr>
 <td>elasticache</td>
@@ -10689,61 +10679,6 @@
 <td>find</td>
 <td><a href="https://github.com/ansible/ansible/issues/17288">ansible/issues/17288</a></td>
 <td>Ansible will not find tasks in a playbook with hos</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2894">ansible-modules-core/issues/2894</a></td>
-<td>Add proxy server parameter to Gem module</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2911">ansible-modules-core/issues/2911</a></td>
-<td>Add gem 'bindir' option</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/354">ansible-modules-core/issues/354</a></td>
-<td>Gem module hangs on updating rake</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3903">ansible-modules-core/issues/3903</a></td>
-<td>Gem module installs executables in directory diffe</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/461">ansible-modules-core/issues/461</a></td>
-<td>Add gem "conservative" option</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/928">ansible-modules-core/issues/928</a></td>
-<td>gem module fails to install new version of a gem w</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2535">ansible-modules-core/pull/2535</a></td>
-<td>gem: Allow enforce version for local file install</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2912">ansible-modules-core/pull/2912</a></td>
-<td>Add bindir option to gem module</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3043">ansible-modules-core/pull/3043</a></td>
-<td>Add option to prevent gem from waiting for human i</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3131">ansible-modules-core/pull/3131</a></td>
-<td>gem: add support for --bindir</td>
-</tr>
-<tr>
-<td>gem</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4377">ansible-modules-core/pull/4377</a></td>
-<td>gem: add support for --env-shebang</td>
 </tr>
 <tr>
 <td>ini_file</td>
@@ -10951,54 +10886,54 @@
 <td>Adding Linode common functions to module_utils</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
-<td>digital ocean block storage support</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2894">ansible-modules-core/issues/2894</a></td>
+<td>Add proxy server parameter to Gem module</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
-<td>Deprecate digital_ocean module</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2911">ansible-modules-core/issues/2911</a></td>
+<td>Add gem 'bindir' option</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
-<td>Fix of adding existing ssh key on DigitalOcean</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/354">ansible-modules-core/issues/354</a></td>
+<td>Gem module hangs on updating rake</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
-<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3903">ansible-modules-core/issues/3903</a></td>
+<td>Gem module installs executables in directory diffe</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4483">ansible-modules-core/pull/4483</a></td>
-<td>Use named parameters in new_droplet method call</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/461">ansible-modules-core/issues/461</a></td>
+<td>Add gem "conservative" option</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
-<td>document module_utils.*</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/928">ansible-modules-core/issues/928</a></td>
+<td>gem module fails to install new version of a gem w</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
-<td>add droplet name support for --host in digital_oce</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2535">ansible-modules-core/pull/2535</a></td>
+<td>gem: Allow enforce version for local file install</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
-<td>Error messages from a CLI should be sent to stderr</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2912">ansible-modules-core/pull/2912</a></td>
+<td>Add bindir option to gem module</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
-<td>use _meta; make cache in more expected way</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3043">ansible-modules-core/pull/3043</a></td>
+<td>Add option to prevent gem from waiting for human i</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
-<td>Correcting new bugs introduced. Added tags as grou</td>
+<td>gem</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3131">ansible-modules-core/pull/3131</a></td>
+<td>gem: add support for --bindir</td>
 </tr>
 <tr>
 <td>wait_for</td>
@@ -11374,6 +11309,51 @@
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4057">ansible-modules-core/issues/4057</a></td>
 <td>Volumes do not get dropped when removing the docke</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
+<td>digital ocean block storage support</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
+<td>Deprecate digital_ocean module</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
+<td>Fix of adding existing ssh key on DigitalOcean</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
+<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
+<td>document module_utils.*</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
+<td>add droplet name support for --host in digital_oce</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
+<td>Error messages from a CLI should be sent to stderr</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
+<td>use _meta; make cache in more expected way</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
+<td>Correcting new bugs introduced. Added tags as grou</td>
 </tr>
 <tr>
 <td>facts</td>
@@ -12691,36 +12671,6 @@
 <td>Support for variables in inventory hostname</td>
 </tr>
 <tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2068">ansible-modules-core/issues/2068</a></td>
-<td>add Django dumpdata support ? </td>
-</tr>
-<tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3871">ansible-modules-core/issues/3871</a></td>
-<td>django_manage createsuperuser does not seem idempo</td>
-</tr>
-<tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4309">ansible-modules-core/issues/4309</a></td>
-<td>django_manage command collectstatic always reports</td>
-</tr>
-<tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/791">ansible-modules-core/issues/791</a></td>
-<td>django-admin.py using manage.pyc instead of manage</td>
-</tr>
-<tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4239">ansible-modules-core/pull/4239</a></td>
-<td>Fix change status on django_manage collectstatic.</td>
-</tr>
-<tr>
-<td>django_manage</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4316">ansible-modules-core/pull/4316</a></td>
-<td>strip output before filtering to fix #4309</td>
-</tr>
-<tr>
 <td>ovirt</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
 <td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
@@ -12924,31 +12874,6 @@
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible/pull/14817">ansible/pull/14817</a></td>
 <td>Add https support for consul lookup plugin</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
-<td>Expose replace module's backup file path</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4479">ansible-modules-core/pull/4479</a></td>
-<td>replace module: diff support</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
-<td>Replace PyCrypto usage with cryptography.io</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
-<td>Replace pipes.quote for shlex_quote</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
-<td>raise an exception on undefined environment variab</td>
 </tr>
 <tr>
 <td>ec2_ami</td>
@@ -13176,6 +13101,31 @@
 <td>Add homebrew in squash_actions list</td>
 </tr>
 <tr>
+<td>django_manage</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2068">ansible-modules-core/issues/2068</a></td>
+<td>add Django dumpdata support ? </td>
+</tr>
+<tr>
+<td>django_manage</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3871">ansible-modules-core/issues/3871</a></td>
+<td>django_manage createsuperuser does not seem idempo</td>
+</tr>
+<tr>
+<td>django_manage</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4309">ansible-modules-core/issues/4309</a></td>
+<td>django_manage command collectstatic always reports</td>
+</tr>
+<tr>
+<td>django_manage</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/791">ansible-modules-core/issues/791</a></td>
+<td>django-admin.py using manage.pyc instead of manage</td>
+</tr>
+<tr>
+<td>django_manage</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4316">ansible-modules-core/pull/4316</a></td>
+<td>strip output before filtering to fix #4309</td>
+</tr>
+<tr>
 <td>os_security_group_rule</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2855">ansible-modules-core/issues/2855</a></td>
 <td>Setting remote_group on os_security_group_rule fai</td>
@@ -13399,6 +13349,26 @@
 <td>ecs_service_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2242">ansible-modules-extras/pull/2242</a></td>
 <td>Adjusted ecs_service_facts module to be more consi</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
+<td>Expose replace module's backup file path</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
+<td>Replace PyCrypto usage with cryptography.io</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
+<td>Replace pipes.quote for shlex_quote</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
+<td>raise an exception on undefined environment variab</td>
 </tr>
 <tr>
 <td>win_iis_webapplication</td>
