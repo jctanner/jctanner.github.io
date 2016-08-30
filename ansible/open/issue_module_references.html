@@ -137,6 +137,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4572">ansible-modules-core/pull/4572</a></td>
 <td>We've decided that pythn 3.5 is the minimum python</td>
 </tr>
@@ -9501,96 +9506,6 @@
 <td>"with_subelements" has major precedence than "when</td>
 </tr>
 <tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
-<td>get_url: always download on local checksum mismatc</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4601">ansible-modules-core/pull/4601</a></td>
-<td>Updated get_url module to process FTP results corr</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
-</tr>
-<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1532">ansible-modules-core/issues/1532</a></td>
 <td>pip module executable argument does not expand hom</td>
@@ -9764,6 +9679,91 @@
 <td>nmcli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
 <td>correct command line argument for nmcli autoconnec</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
+<td>get_url: always download on local checksum mismatc</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4601">ansible-modules-core/pull/4601</a></td>
+<td>Updated get_url module to process FTP results corr</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>cloudformation</td>
@@ -11076,51 +11076,6 @@
 <td>Allow relative paths for jinja2 template extend st</td>
 </tr>
 <tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
-<td>Playbook role variables overwritten by include_var</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
-<td>include_vars not respecting hash_behaviour</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
-<td>include_vars not merging when called on same file </td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
-<td>Ansible 1.9's include_vars has funky priority</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/15517">ansible/issues/15517</a></td>
-<td>include_vars does a hash merge instead of replace </td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
-<td>include_vars does not consider ignore_errors</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/17101">ansible/issues/17101</a></td>
-<td>loop_control doesnt work with include_vars</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
-<td>include_vars now properly deals with hash_behaviou</td>
-</tr>
-<tr>
-<td>include_vars</td>
-<td><a href="https://github.com/ansible/ansible/pull/17207">ansible/pull/17207</a></td>
-<td>Include vars updated to work with directories</td>
-</tr>
-<tr>
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
 <td>lxc_container: add a way to wait for the container</td>
@@ -11554,6 +11509,46 @@
 <td>mail</td>
 <td><a href="https://github.com/ansible/ansible/pull/17067">ansible/pull/17067</a></td>
 <td>Revert to the default behavior of combining/return</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/11592">ansible/issues/11592</a></td>
+<td>Playbook role variables overwritten by include_var</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14308">ansible/issues/14308</a></td>
+<td>include_vars not respecting hash_behaviour</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/14907">ansible/issues/14907</a></td>
+<td>include_vars not merging when called on same file </td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/15483">ansible/issues/15483</a></td>
+<td>Ansible 1.9's include_vars has funky priority</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/15517">ansible/issues/15517</a></td>
+<td>include_vars does a hash merge instead of replace </td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/16581">ansible/issues/16581</a></td>
+<td>include_vars does not consider ignore_errors</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/17101">ansible/issues/17101</a></td>
+<td>loop_control doesnt work with include_vars</td>
+</tr>
+<tr>
+<td>include_vars</td>
+<td><a href="https://github.com/ansible/ansible/pull/15895">ansible/pull/15895</a></td>
+<td>include_vars now properly deals with hash_behaviou</td>
 </tr>
 <tr>
 <td>gem</td>
@@ -15669,11 +15664,6 @@
 <td>playbook</td>
 <td><a href="https://github.com/ansible/ansible/pull/12451">ansible/pull/12451</a></td>
 <td>added --pass-limit-to-inventory as discussed in ht</td>
-</tr>
-<tr>
-<td>rocketchat</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2803">ansible-modules-extras/pull/2803</a></td>
-<td>Require domain in rocketchat</td>
 </tr>
 <tr>
 <td>firehose</td>
