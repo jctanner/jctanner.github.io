@@ -4067,11 +4067,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17307">ansible/issues/17307</a></td>
-<td>Register variables don't work across plays with di</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17311">ansible/issues/17311</a></td>
 <td>Documentation for configuring Windows management i</td>
 </tr>
@@ -4649,6 +4644,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16765">ansible/pull/16765</a></td>
 <td>Change line 172 to reflect lower Python version</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16781">ansible/pull/16781</a></td>
+<td>OpenStack inventory caching multiple environments</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10091,76 +10091,6 @@
 <td>boto profile not being used by ec2_vpc</td>
 </tr>
 <tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
-<td>tags are empty on ec2_vpc_route_table creation</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1510">ansible-modules-extras/issues/1510</a></td>
-<td>Issues with ec2_vpc_route_table module</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1557">ansible-modules-extras/issues/1557</a></td>
-<td>ec2_vpc_route_table tasks marks as changed constan</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1631">ansible-modules-extras/issues/1631</a></td>
-<td>Feature request: purge_subnets for ec2_vpc_route_t</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1674">ansible-modules-extras/issues/1674</a></td>
-<td>ec2_vpc_route_table not updating?</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1746">ansible-modules-extras/issues/1746</a></td>
-<td>add purge_routes option to ec2_vpc_route_table</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1989">ansible-modules-extras/issues/1989</a></td>
-<td>ec2_vpc_route_table should infer "lookup: id" when</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2023">ansible-modules-extras/issues/2023</a></td>
-<td>ec2_vpc_route_table error not clear when Name tag </td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2358">ansible-modules-extras/issues/2358</a></td>
-<td>AWS - ec2_vpc_route_table - Error when configuring</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2493">ansible-modules-extras/issues/2493</a></td>
-<td>ec2_vpc_route_table working inconsistently with NA</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2726">ansible-modules-extras/issues/2726</a></td>
-<td>AWS ec2_vpc_route_table.py Unable to append a rout</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2773">ansible-modules-extras/issues/2773</a></td>
-<td>ec2_vpc_route_table returns plural or singular var</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1846">ansible-modules-extras/pull/1846</a></td>
-<td>re-write ec2_vpc_route_table.py to be Boto3 compat</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2157">ansible-modules-extras/pull/2157</a></td>
-<td>adding a purge_tables option to be able to disable</td>
-</tr>
-<tr>
 <td>new</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1610">ansible-modules-core/issues/1610</a></td>
 <td>Openstack load balancer member management module</td>
@@ -10289,6 +10219,71 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/15942">ansible/pull/15942</a></td>
 <td>Sort groups by depth then by name</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
+<td>tags are empty on ec2_vpc_route_table creation</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1510">ansible-modules-extras/issues/1510</a></td>
+<td>Issues with ec2_vpc_route_table module</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1557">ansible-modules-extras/issues/1557</a></td>
+<td>ec2_vpc_route_table tasks marks as changed constan</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1631">ansible-modules-extras/issues/1631</a></td>
+<td>Feature request: purge_subnets for ec2_vpc_route_t</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1674">ansible-modules-extras/issues/1674</a></td>
+<td>ec2_vpc_route_table not updating?</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1746">ansible-modules-extras/issues/1746</a></td>
+<td>add purge_routes option to ec2_vpc_route_table</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1989">ansible-modules-extras/issues/1989</a></td>
+<td>ec2_vpc_route_table should infer "lookup: id" when</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2023">ansible-modules-extras/issues/2023</a></td>
+<td>ec2_vpc_route_table error not clear when Name tag </td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2358">ansible-modules-extras/issues/2358</a></td>
+<td>AWS - ec2_vpc_route_table - Error when configuring</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2493">ansible-modules-extras/issues/2493</a></td>
+<td>ec2_vpc_route_table working inconsistently with NA</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2726">ansible-modules-extras/issues/2726</a></td>
+<td>AWS ec2_vpc_route_table.py Unable to append a rout</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2773">ansible-modules-extras/issues/2773</a></td>
+<td>ec2_vpc_route_table returns plural or singular var</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2157">ansible-modules-extras/pull/2157</a></td>
+<td>adding a purge_tables option to be able to disable</td>
 </tr>
 <tr>
 <td>shell</td>
@@ -14856,16 +14851,6 @@
 <td>Digitalocean tags (replaces #4209)</td>
 </tr>
 <tr>
-<td>openstack</td>
-<td><a href="https://github.com/ansible/ansible/pull/16781">ansible/pull/16781</a></td>
-<td>OpenStack inventory caching multiple environments</td>
-</tr>
-<tr>
-<td>openstack</td>
-<td><a href="https://github.com/ansible/ansible/pull/17052">ansible/pull/17052</a></td>
-<td>adding use_floatingip arg to openstack inventory s</td>
-</tr>
-<tr>
 <td>os_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
 <td>os_user does not honor OS env variables</td>
@@ -15333,7 +15318,7 @@
 <tr>
 <td>apt_rpm</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4277">ansible-modules-core/pull/4277</a></td>
-<td>run apt-get install with shell</td>
+<td>Dont use shell to run external processes in apt_rp</td>
 </tr>
 <tr>
 <td>os_quota</td>
@@ -16159,6 +16144,11 @@
 <td>datapipeline</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1547">ansible-modules-extras/pull/1547</a></td>
 <td>New module for managing AWS Datapipelines</td>
+</tr>
+<tr>
+<td>openstack</td>
+<td><a href="https://github.com/ansible/ansible/pull/17052">ansible/pull/17052</a></td>
+<td>adding use_floatingip arg to openstack inventory s</td>
 </tr>
 <tr>
 <td>dynamodb_table</td>
