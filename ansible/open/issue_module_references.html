@@ -4707,16 +4707,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17291">ansible/pull/17291</a></td>
-<td>Fix the lines lookup to work on python3</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17292">ansible/pull/17292</a></td>
-<td>Fix indexed_items.py to run on python3</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17293">ansible/pull/17293</a></td>
 <td>Make password lookup run on python3</td>
 </tr>
@@ -10091,6 +10081,76 @@
 <td>boto profile not being used by ec2_vpc</td>
 </tr>
 <tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
+<td>tags are empty on ec2_vpc_route_table creation</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1510">ansible-modules-extras/issues/1510</a></td>
+<td>Issues with ec2_vpc_route_table module</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1557">ansible-modules-extras/issues/1557</a></td>
+<td>ec2_vpc_route_table tasks marks as changed constan</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1631">ansible-modules-extras/issues/1631</a></td>
+<td>Feature request: purge_subnets for ec2_vpc_route_t</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1674">ansible-modules-extras/issues/1674</a></td>
+<td>ec2_vpc_route_table not updating?</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1746">ansible-modules-extras/issues/1746</a></td>
+<td>add purge_routes option to ec2_vpc_route_table</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1989">ansible-modules-extras/issues/1989</a></td>
+<td>ec2_vpc_route_table should infer "lookup: id" when</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2023">ansible-modules-extras/issues/2023</a></td>
+<td>ec2_vpc_route_table error not clear when Name tag </td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2358">ansible-modules-extras/issues/2358</a></td>
+<td>AWS - ec2_vpc_route_table - Error when configuring</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2493">ansible-modules-extras/issues/2493</a></td>
+<td>ec2_vpc_route_table working inconsistently with NA</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2726">ansible-modules-extras/issues/2726</a></td>
+<td>AWS ec2_vpc_route_table.py Unable to append a rout</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2773">ansible-modules-extras/issues/2773</a></td>
+<td>ec2_vpc_route_table returns plural or singular var</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1846">ansible-modules-extras/pull/1846</a></td>
+<td>re-write ec2_vpc_route_table.py to be Boto3 compat</td>
+</tr>
+<tr>
+<td>ec2_vpc_route_table</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2157">ansible-modules-extras/pull/2157</a></td>
+<td>adding a purge_tables option to be able to disable</td>
+</tr>
+<tr>
 <td>new</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1610">ansible-modules-core/issues/1610</a></td>
 <td>Openstack load balancer member management module</td>
@@ -10219,71 +10279,6 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/15942">ansible/pull/15942</a></td>
 <td>Sort groups by depth then by name</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
-<td>tags are empty on ec2_vpc_route_table creation</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1510">ansible-modules-extras/issues/1510</a></td>
-<td>Issues with ec2_vpc_route_table module</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1557">ansible-modules-extras/issues/1557</a></td>
-<td>ec2_vpc_route_table tasks marks as changed constan</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1631">ansible-modules-extras/issues/1631</a></td>
-<td>Feature request: purge_subnets for ec2_vpc_route_t</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1674">ansible-modules-extras/issues/1674</a></td>
-<td>ec2_vpc_route_table not updating?</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1746">ansible-modules-extras/issues/1746</a></td>
-<td>add purge_routes option to ec2_vpc_route_table</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1989">ansible-modules-extras/issues/1989</a></td>
-<td>ec2_vpc_route_table should infer "lookup: id" when</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2023">ansible-modules-extras/issues/2023</a></td>
-<td>ec2_vpc_route_table error not clear when Name tag </td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2358">ansible-modules-extras/issues/2358</a></td>
-<td>AWS - ec2_vpc_route_table - Error when configuring</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2493">ansible-modules-extras/issues/2493</a></td>
-<td>ec2_vpc_route_table working inconsistently with NA</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2726">ansible-modules-extras/issues/2726</a></td>
-<td>AWS ec2_vpc_route_table.py Unable to append a rout</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2773">ansible-modules-extras/issues/2773</a></td>
-<td>ec2_vpc_route_table returns plural or singular var</td>
-</tr>
-<tr>
-<td>ec2_vpc_route_table</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2157">ansible-modules-extras/pull/2157</a></td>
-<td>adding a purge_tables option to be able to disable</td>
 </tr>
 <tr>
 <td>shell</td>
@@ -11586,46 +11581,6 @@
 <td>Revert to the default behavior of combining/return</td>
 </tr>
 <tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
-<td>vca_vapp errors in setting the computer_name to vm</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1575">ansible-modules-extras/issues/1575</a></td>
-<td>vca_vapp missing network_ip option</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1741">ansible-modules-extras/issues/1741</a></td>
-<td>vapp has no vm named ... while trying to create VM</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2189">ansible-modules-extras/issues/2189</a></td>
-<td>vmware/vca_vapp: Improve error reporting when cata</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2203">ansible-modules-extras/issues/2203</a></td>
-<td>vmware/vca_vapp: network not attached to Vapp duri</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2272">ansible-modules-extras/pull/2272</a></td>
-<td>Added attachment to org vDC network after Capp cre</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2534">ansible-modules-extras/pull/2534</a></td>
-<td>Add error handling to vApp creation</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible/issues/15903">ansible/issues/15903</a></td>
-<td>vca_vapp - Error</td>
-</tr>
-<tr>
 <td>gem</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2894">ansible-modules-core/issues/2894</a></td>
 <td>Add proxy server parameter to Gem module</td>
@@ -11904,6 +11859,46 @@
 <td>azure</td>
 <td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
 <td>Updating azure_rm.py to work with azure python sdk</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
+<td>vca_vapp errors in setting the computer_name to vm</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1575">ansible-modules-extras/issues/1575</a></td>
+<td>vca_vapp missing network_ip option</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1741">ansible-modules-extras/issues/1741</a></td>
+<td>vapp has no vm named ... while trying to create VM</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2189">ansible-modules-extras/issues/2189</a></td>
+<td>vmware/vca_vapp: Improve error reporting when cata</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2203">ansible-modules-extras/issues/2203</a></td>
+<td>vmware/vca_vapp: network not attached to Vapp duri</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2272">ansible-modules-extras/pull/2272</a></td>
+<td>Added attachment to org vDC network after Capp cre</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2534">ansible-modules-extras/pull/2534</a></td>
+<td>Add error handling to vApp creation</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible/issues/15903">ansible/issues/15903</a></td>
+<td>vca_vapp - Error</td>
 </tr>
 <tr>
 <td>rds_param_group</td>
@@ -14901,16 +14896,6 @@
 <td>add plugin for uncompress module</td>
 </tr>
 <tr>
-<td>assemble</td>
-<td><a href="https://github.com/ansible/ansible/pull/17303">ansible/pull/17303</a></td>
-<td>file() function in python3 no longer exist, so use</td>
-</tr>
-<tr>
-<td>assemble</td>
-<td><a href="https://github.com/ansible/ansible/pull/17305">ansible/pull/17305</a></td>
-<td>On python3, 'str' no longer have a decode method</td>
-</tr>
-<tr>
 <td>selinux_permissive</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2321">ansible-modules-extras/issues/2321</a></td>
 <td>selinux_permissive no_reload option should be rena</td>
@@ -15009,16 +14994,6 @@
 <td>github_hooks</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/372">ansible-modules-extras/pull/372</a></td>
 <td>Added module for git-flow, V.1.0</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/issues/17308">ansible/issues/17308</a></td>
-<td>Test suite fail on python3 for test_filters.yml</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/pull/17302">ansible/pull/17302</a></td>
-<td>Ignore difference on whitespace</td>
 </tr>
 <tr>
 <td>pear</td>
@@ -15331,11 +15306,6 @@
 <td>Fixing nxos_vrrp status bug</td>
 </tr>
 <tr>
-<td>opendj_globalconfiguration</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
-<td>Added new module opendj_globalconfiguration for up</td>
-</tr>
-<tr>
 <td>gitlab_project</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2159">ansible-modules-extras/issues/2159</a></td>
 <td>Gitlab python binding</td>
@@ -15536,9 +15506,9 @@
 <td>Add support for no-expiration to jsonfile cache</td>
 </tr>
 <tr>
-<td>filter</td>
-<td><a href="https://github.com/ansible/ansible/pull/17304">ansible/pull/17304</a></td>
-<td>Reduce no longer exist in python3, so we have to u</td>
+<td>opendj_globalconfiguration</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
+<td>Added new module opendj_globalconfiguration for up</td>
 </tr>
 <tr>
 <td>asa_command</td>
@@ -15699,6 +15669,11 @@
 <td>elasticsearch_shield_role</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2529">ansible-modules-extras/pull/2529</a></td>
 <td>Add elasticseach shield role module</td>
+</tr>
+<tr>
+<td>cloudfront</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1223">ansible-modules-extras/pull/1223</a></td>
+<td>New AWS Cloudfront module</td>
 </tr>
 <tr>
 <td>os_project</td>
@@ -16271,6 +16246,11 @@
 <td>Add support for become_flags on the task level</td>
 </tr>
 <tr>
+<td>assemble</td>
+<td><a href="https://github.com/ansible/ansible/pull/17305">ansible/pull/17305</a></td>
+<td>On python3, 'str' no longer have a decode method</td>
+</tr>
+<tr>
 <td>ipadm_if</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2416">ansible-modules-extras/pull/2416</a></td>
 <td>Add modules to configure Solaris/illumos networkin</td>
@@ -16371,11 +16351,6 @@
 <td>win_firewall_rule: default profile 'current' not v</td>
 </tr>
 <tr>
-<td>cloudfront</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1223">ansible-modules-extras/pull/1223</a></td>
-<td>New AWS Cloudfront module</td>
-</tr>
-<tr>
 <td>win_uri</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2504">ansible-modules-extras/pull/2504</a></td>
 <td>Fixes win_uri module ignoring body argument</td>
@@ -16474,6 +16449,11 @@
 <td>openssl_dh</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2501">ansible-modules-extras/pull/2501</a></td>
 <td>web_infrastructure: Add new module openssl_dh</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/issues/17308">ansible/issues/17308</a></td>
+<td>Test suite fail on python3 for test_filters.yml</td>
 </tr>
 <tr>
 <td>openvswitch_bridge</td>
