@@ -4047,11 +4047,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17299">ansible/issues/17299</a></td>
-<td>Stalled SSH connections</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17300">ansible/issues/17300</a></td>
 <td>Ansible 2.1.1 not getting other extra vars</td>
 </tr>
@@ -9141,6 +9136,101 @@
 <td>Add Digest auth support for uri module</td>
 </tr>
 <tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
+<td>get_url + file:/// protocol is broken</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
+<td>get_url fails with some ftp servers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
+<td>Fixes issue 3661 where ansible incorrectly raises </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4262">ansible-modules-core/pull/4262</a></td>
+<td>get_url: always download on local checksum mismatc</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
+<td>Fixes get_url examples in docs and applies native </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4601">ansible-modules-core/pull/4601</a></td>
+<td>Updated get_url module to process FTP results corr</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
+<td>Wrong parsing of proxy response lead to SSL handsh</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
+<td>get_url module fails after imports changed. Ref Is</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
+<td>Exception thrown with get_url() when returned HTTP</td>
+</tr>
+<tr>
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
 <td>mysql_user doesn't accept encryption</td>
@@ -9409,96 +9499,6 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible/issues/17276">ansible/issues/17276</a></td>
 <td>"with_subelements" has major precedence than "when</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3511">ansible-modules-core/issues/3511</a></td>
-<td>get_url + file:/// protocol is broken</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3661">ansible-modules-core/issues/3661</a></td>
-<td>get_url fails with some ftp servers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3821">ansible-modules-core/pull/3821</a></td>
-<td>Fixes issue 3661 where ansible incorrectly raises </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4474">ansible-modules-core/pull/4474</a></td>
-<td>Fixes get_url examples in docs and applies native </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4601">ansible-modules-core/pull/4601</a></td>
-<td>Updated get_url module to process FTP results corr</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/16638">ansible/issues/16638</a></td>
-<td>get_url module fails after imports changed. Ref Is</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/17108">ansible/issues/17108</a></td>
-<td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
 <td>pip</td>
@@ -11616,6 +11616,46 @@
 <td>Revert to the default behavior of combining/return</td>
 </tr>
 <tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
+<td>vca_vapp errors in setting the computer_name to vm</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1575">ansible-modules-extras/issues/1575</a></td>
+<td>vca_vapp missing network_ip option</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1741">ansible-modules-extras/issues/1741</a></td>
+<td>vapp has no vm named ... while trying to create VM</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2189">ansible-modules-extras/issues/2189</a></td>
+<td>vmware/vca_vapp: Improve error reporting when cata</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2203">ansible-modules-extras/issues/2203</a></td>
+<td>vmware/vca_vapp: network not attached to Vapp duri</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2272">ansible-modules-extras/pull/2272</a></td>
+<td>Added attachment to org vDC network after Capp cre</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2534">ansible-modules-extras/pull/2534</a></td>
+<td>Add error handling to vApp creation</td>
+</tr>
+<tr>
+<td>vca_vapp</td>
+<td><a href="https://github.com/ansible/ansible/issues/15903">ansible/issues/15903</a></td>
+<td>vca_vapp - Error</td>
+</tr>
+<tr>
 <td>rabbitmq_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1278">ansible-modules-extras/issues/1278</a></td>
 <td>rabbitmq_user throws ValueError: need more than 1 </td>
@@ -11856,46 +11896,6 @@
 <td>Updating azure_rm.py to work with azure python sdk</td>
 </tr>
 <tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
-<td>vca_vapp errors in setting the computer_name to vm</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1575">ansible-modules-extras/issues/1575</a></td>
-<td>vca_vapp missing network_ip option</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1741">ansible-modules-extras/issues/1741</a></td>
-<td>vapp has no vm named ... while trying to create VM</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2189">ansible-modules-extras/issues/2189</a></td>
-<td>vmware/vca_vapp: Improve error reporting when cata</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2203">ansible-modules-extras/issues/2203</a></td>
-<td>vmware/vca_vapp: network not attached to Vapp duri</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2272">ansible-modules-extras/pull/2272</a></td>
-<td>Added attachment to org vDC network after Capp cre</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2534">ansible-modules-extras/pull/2534</a></td>
-<td>Add error handling to vApp creation</td>
-</tr>
-<tr>
-<td>vca_vapp</td>
-<td><a href="https://github.com/ansible/ansible/issues/15903">ansible/issues/15903</a></td>
-<td>vca_vapp - Error</td>
-</tr>
-<tr>
 <td>rds_param_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1037">ansible-modules-core/issues/1037</a></td>
 <td>ansible 1.8.4 module: rds_param_group does not sup</td>
@@ -11929,41 +11929,6 @@
 <td>rds_param_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3861">ansible-modules-core/pull/3861</a></td>
 <td>Make is so that the params param truly isn't requi</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1778">ansible-modules-core/issues/1778</a></td>
-<td>ec2_eip idempotency patch was reverted</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3143">ansible-modules-core/issues/3143</a></td>
-<td>ec2_eip module returns true even when EIP is alrea</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3144">ansible-modules-core/issues/3144</a></td>
-<td>ec2_eip docs do not explain ip and public_ip param</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3548">ansible-modules-core/pull/3548</a></td>
-<td>Fixed ec2_eip.py when assigning a standard elastic</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3604">ansible-modules-core/pull/3604</a></td>
-<td>Add support to ec2_eip to associate with a seconda</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4305">ansible-modules-core/pull/4305</a></td>
-<td>Fixes #3144</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/11125">ansible/issues/11125</a></td>
-<td>ec2_eip documentation not correct</td>
 </tr>
 <tr>
 <td>s3_bucket</td>
@@ -12929,6 +12894,31 @@
 <td>cloudtrail</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2290">ansible-modules-extras/pull/2290</a></td>
 <td>Fix bug in Cloudtrail module and added features</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1778">ansible-modules-core/issues/1778</a></td>
+<td>ec2_eip idempotency patch was reverted</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3143">ansible-modules-core/issues/3143</a></td>
+<td>ec2_eip module returns true even when EIP is alrea</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3548">ansible-modules-core/pull/3548</a></td>
+<td>Fixed ec2_eip.py when assigning a standard elastic</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3604">ansible-modules-core/pull/3604</a></td>
+<td>Add support to ec2_eip to associate with a seconda</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/11125">ansible/issues/11125</a></td>
+<td>ec2_eip documentation not correct</td>
 </tr>
 <tr>
 <td>ec2_metric_alarm</td>
@@ -14931,6 +14921,16 @@
 <td>add plugin for uncompress module</td>
 </tr>
 <tr>
+<td>assemble</td>
+<td><a href="https://github.com/ansible/ansible/pull/17303">ansible/pull/17303</a></td>
+<td>file() function in python3 no longer exist, so use</td>
+</tr>
+<tr>
+<td>assemble</td>
+<td><a href="https://github.com/ansible/ansible/pull/17305">ansible/pull/17305</a></td>
+<td>On python3, 'str' no longer have a decode method</td>
+</tr>
+<tr>
 <td>selinux_permissive</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2321">ansible-modules-extras/issues/2321</a></td>
 <td>selinux_permissive no_reload option should be rena</td>
@@ -15331,6 +15331,11 @@
 <td>Fixing nxos_vrrp status bug</td>
 </tr>
 <tr>
+<td>opendj_globalconfiguration</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
+<td>Added new module opendj_globalconfiguration for up</td>
+</tr>
+<tr>
 <td>gitlab_project</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2159">ansible-modules-extras/issues/2159</a></td>
 <td>Gitlab python binding</td>
@@ -15506,6 +15511,11 @@
 <td>Add ansible_ssh_host</td>
 </tr>
 <tr>
+<td>dnos10_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/17296">ansible/pull/17296</a></td>
+<td>Add support for Dell Networking OS10 Command and C</td>
+</tr>
+<tr>
 <td>ambari_cluster_state</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1226">ansible-modules-extras/pull/1226</a></td>
 <td>Add new ambari_cluster_state module for managing h</td>
@@ -15526,9 +15536,9 @@
 <td>Add support for no-expiration to jsonfile cache</td>
 </tr>
 <tr>
-<td>opendj_globalconfiguration</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
-<td>Added new module opendj_globalconfiguration for up</td>
+<td>filter</td>
+<td><a href="https://github.com/ansible/ansible/pull/17304">ansible/pull/17304</a></td>
+<td>Reduce no longer exist in python3, so we have to u</td>
 </tr>
 <tr>
 <td>asa_command</td>
@@ -15694,11 +15704,6 @@
 <td>elasticsearch_shield_role</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2529">ansible-modules-extras/pull/2529</a></td>
 <td>Add elasticseach shield role module</td>
-</tr>
-<tr>
-<td>cloudfront</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1223">ansible-modules-extras/pull/1223</a></td>
-<td>New AWS Cloudfront module</td>
 </tr>
 <tr>
 <td>os_project</td>
@@ -16356,6 +16361,11 @@
 <td>win_firewall_rule: default profile 'current' not v</td>
 </tr>
 <tr>
+<td>cloudfront</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1223">ansible-modules-extras/pull/1223</a></td>
+<td>New AWS Cloudfront module</td>
+</tr>
+<tr>
 <td>win_uri</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2504">ansible-modules-extras/pull/2504</a></td>
 <td>Fixes win_uri module ignoring body argument</td>
@@ -16454,6 +16464,11 @@
 <td>openssl_dh</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2501">ansible-modules-extras/pull/2501</a></td>
 <td>web_infrastructure: Add new module openssl_dh</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17302">ansible/pull/17302</a></td>
+<td>Ignore difference on whitespace</td>
 </tr>
 <tr>
 <td>openvswitch_bridge</td>

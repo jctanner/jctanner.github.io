@@ -27,6 +27,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3144">ansible-modules-core/issues/3144</a></td>
+<td>ec2_eip docs do not explain ip and public_ip param</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4531">ansible-modules-core/issues/4531</a></td>
 <td>random filter: add optional seed</td>
 </tr>
@@ -119,6 +124,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2798">ansible-modules-extras/pull/2798</a></td>
 <td>We've decided that python-3.5 is our minimum pyhto</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2816">ansible-modules-extras/pull/2816</a></td>
+<td>typo fix</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10994,6 +11004,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/1729">ansible/issues/1729</a></td>
 <td>$PIPE lookup broken?</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17299">ansible/issues/17299</a></td>
+<td>Stalled SSH connections</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -80281,6 +80296,186 @@
 <td>add replica_set attr to mongodb_user module</td>
 </tr>
 <tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1141">ansible-modules-core/issues/1141</a></td>
+<td>ec2_eip changes the public ip of the instance with</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2058">ansible-modules-core/issues/2058</a></td>
+<td>v2: ec2_eip breaks with Address object has no attr</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2950">ansible-modules-core/issues/2950</a></td>
+<td>Prescribed method to disassociate EIP without prev</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/35">ansible-modules-core/issues/35</a></td>
+<td>ec2_eip module creates new ip on repeated run</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3549">ansible-modules-core/issues/3549</a></td>
+<td>ec2_eip error: module not found</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/368">ansible-modules-core/issues/368</a></td>
+<td>Bug report: module ec2_eip not found</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/430">ansible-modules-core/issues/430</a></td>
+<td>ec2_eip not idempotent</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1015">ansible-modules-core/pull/1015</a></td>
+<td>Make ec2_eip idempotent</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1260">ansible-modules-core/pull/1260</a></td>
+<td>Fix ec2_eip ip reuse functionality</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1489">ansible-modules-core/pull/1489</a></td>
+<td>Add ability to associate EIPs with ENIs</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1990">ansible-modules-core/pull/1990</a></td>
+<td>using single device_id and enabling release on dis</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2071">ansible-modules-core/pull/2071</a></td>
+<td>EC2_EIP Fixing bug #2058 and adding some backwards</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2313">ansible-modules-core/pull/2313</a></td>
+<td>fix errant module reference in eip module</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2753">ansible-modules-core/pull/2753</a></td>
+<td>return allocation id for address created in vpc</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/300">ansible-modules-core/pull/300</a></td>
+<td>Fix EC2_EIP: don't try to associate an already-ass</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/325">ansible-modules-core/pull/325</a></td>
+<td>Minor style cleanups to ec2_eip module.</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4287">ansible-modules-core/pull/4287</a></td>
+<td>Fixes #3549</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4305">ansible-modules-core/pull/4305</a></td>
+<td>Fixes #3144</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/14673">ansible/issues/14673</a></td>
+<td>ec2_eip docs do not explain ip and public_ip param</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/14683">ansible/issues/14683</a></td>
+<td>ec2_eip module returns true even when EIP is alrea</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/4436">ansible/issues/4436</a></td>
+<td>EC2_EIP module: Can't associate EIP with VPC insta</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/7803">ansible/issues/7803</a></td>
+<td>ec2_eip module doesn't know public_ip</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/8290">ansible/issues/8290</a></td>
+<td>Race condition in ec2_eip module</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/8344">ansible/issues/8344</a></td>
+<td>ec2_eip.reuse_existing_ip_allowed did not reuse ip</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/issues/8972">ansible/issues/8972</a></td>
+<td>ec2_eip module creates new ip on repeated run</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/4330">ansible/pull/4330</a></td>
+<td>ec2_eip module: note that there may be a delay rea</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/4593">ansible/pull/4593</a></td>
+<td>Add VPC support for EIP module</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/4787">ansible/pull/4787</a></td>
+<td>Fix: ec2_eip connect method references module var </td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/4909">ansible/pull/4909</a></td>
+<td>Allow for reuse of allocated but unassociated Elas</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/5154">ansible/pull/5154</a></td>
+<td>Added ability to manage nova floating IPs</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/6409">ansible/pull/6409</a></td>
+<td>Bulk update of choices=BOOLEANS to type='bool'</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/7059">ansible/pull/7059</a></td>
+<td>ec2_eip integration tests.</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/8291">ansible/pull/8291</a></td>
+<td>Fixes #8290.</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/8327">ansible/pull/8327</a></td>
+<td>Fixes a regression in 1453f7b</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/8518">ansible/pull/8518</a></td>
+<td>Fix for #8344</td>
+</tr>
+<tr>
+<td>ec2_eip</td>
+<td><a href="https://github.com/ansible/ansible/pull/9042">ansible/pull/9042</a></td>
+<td>Don't error when only specifying an instance_id an</td>
+</tr>
+<tr>
 <td>slack</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/100">ansible-modules-extras/issues/100</a></td>
 <td>slack 404</td>
@@ -80814,181 +81009,6 @@
 <td>find</td>
 <td><a href="https://github.com/ansible/ansible/pull/9777">ansible/pull/9777</a></td>
 <td>Augment sys.path to find modules relative to bin/a</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1141">ansible-modules-core/issues/1141</a></td>
-<td>ec2_eip changes the public ip of the instance with</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2058">ansible-modules-core/issues/2058</a></td>
-<td>v2: ec2_eip breaks with Address object has no attr</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2950">ansible-modules-core/issues/2950</a></td>
-<td>Prescribed method to disassociate EIP without prev</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/35">ansible-modules-core/issues/35</a></td>
-<td>ec2_eip module creates new ip on repeated run</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3549">ansible-modules-core/issues/3549</a></td>
-<td>ec2_eip error: module not found</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/368">ansible-modules-core/issues/368</a></td>
-<td>Bug report: module ec2_eip not found</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/430">ansible-modules-core/issues/430</a></td>
-<td>ec2_eip not idempotent</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1015">ansible-modules-core/pull/1015</a></td>
-<td>Make ec2_eip idempotent</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1260">ansible-modules-core/pull/1260</a></td>
-<td>Fix ec2_eip ip reuse functionality</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1489">ansible-modules-core/pull/1489</a></td>
-<td>Add ability to associate EIPs with ENIs</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1990">ansible-modules-core/pull/1990</a></td>
-<td>using single device_id and enabling release on dis</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2071">ansible-modules-core/pull/2071</a></td>
-<td>EC2_EIP Fixing bug #2058 and adding some backwards</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2313">ansible-modules-core/pull/2313</a></td>
-<td>fix errant module reference in eip module</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2753">ansible-modules-core/pull/2753</a></td>
-<td>return allocation id for address created in vpc</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/300">ansible-modules-core/pull/300</a></td>
-<td>Fix EC2_EIP: don't try to associate an already-ass</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/325">ansible-modules-core/pull/325</a></td>
-<td>Minor style cleanups to ec2_eip module.</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4287">ansible-modules-core/pull/4287</a></td>
-<td>Fixes #3549</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/14673">ansible/issues/14673</a></td>
-<td>ec2_eip docs do not explain ip and public_ip param</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/14683">ansible/issues/14683</a></td>
-<td>ec2_eip module returns true even when EIP is alrea</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/4436">ansible/issues/4436</a></td>
-<td>EC2_EIP module: Can't associate EIP with VPC insta</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/7803">ansible/issues/7803</a></td>
-<td>ec2_eip module doesn't know public_ip</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/8290">ansible/issues/8290</a></td>
-<td>Race condition in ec2_eip module</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/8344">ansible/issues/8344</a></td>
-<td>ec2_eip.reuse_existing_ip_allowed did not reuse ip</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/issues/8972">ansible/issues/8972</a></td>
-<td>ec2_eip module creates new ip on repeated run</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/4330">ansible/pull/4330</a></td>
-<td>ec2_eip module: note that there may be a delay rea</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/4593">ansible/pull/4593</a></td>
-<td>Add VPC support for EIP module</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/4787">ansible/pull/4787</a></td>
-<td>Fix: ec2_eip connect method references module var </td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/4909">ansible/pull/4909</a></td>
-<td>Allow for reuse of allocated but unassociated Elas</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/5154">ansible/pull/5154</a></td>
-<td>Added ability to manage nova floating IPs</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/6409">ansible/pull/6409</a></td>
-<td>Bulk update of choices=BOOLEANS to type='bool'</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/7059">ansible/pull/7059</a></td>
-<td>ec2_eip integration tests.</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/8291">ansible/pull/8291</a></td>
-<td>Fixes #8290.</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/8327">ansible/pull/8327</a></td>
-<td>Fixes a regression in 1453f7b</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/8518">ansible/pull/8518</a></td>
-<td>Fix for #8344</td>
-</tr>
-<tr>
-<td>ec2_eip</td>
-<td><a href="https://github.com/ansible/ansible/pull/9042">ansible/pull/9042</a></td>
-<td>Don't error when only specifying an instance_id an</td>
 </tr>
 <tr>
 <td>yum_repository</td>
