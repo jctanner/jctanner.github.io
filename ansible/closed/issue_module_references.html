@@ -122,6 +122,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2713">ansible-modules-extras/pull/2713</a></td>
+<td>Just use netloc to identify bucket name for s3 loc</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2798">ansible-modules-extras/pull/2798</a></td>
 <td>We've decided that python-3.5 is our minimum pyhto</td>
 </tr>
@@ -62922,6 +62927,11 @@
 </tr>
 <tr>
 <td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/17298">ansible/issues/17298</a></td>
+<td>shell module behavior is not logical</td>
+</tr>
+<tr>
+<td>shell</td>
 <td><a href="https://github.com/ansible/ansible/issues/2022">ansible/issues/2022</a></td>
 <td>shell module needs to support changed return value</td>
 </tr>
@@ -100306,6 +100316,31 @@
 <td>rax_keypair module: Allow public_key to be a path </td>
 </tr>
 <tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4412">ansible-modules-core/issues/4412</a></td>
+<td>os_security_group_rule support numbered protocols</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1862">ansible-modules-core/pull/1862</a></td>
+<td>checking remote_group_id while comparing os_securi</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2952">ansible-modules-core/pull/2952</a></td>
+<td>Make remote_group handle name and id in cloud/open</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4444">ansible-modules-core/pull/4444</a></td>
+<td>Fix #4412: os_security_group_rule support numbered</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible/issues/14588">ansible/issues/14588</a></td>
+<td>OpenStack authentication not working anymore?</td>
+</tr>
+<tr>
 <td>vars</td>
 <td><a href="https://github.com/ansible/ansible/pull/11805">ansible/pull/11805</a></td>
 <td>A series of trivial FIXMEs for devel</td>
@@ -100629,6 +100664,31 @@
 <td>os_user_role</td>
 <td><a href="https://github.com/ansible/ansible/issues/16599">ansible/issues/16599</a></td>
 <td>os_user_role module fails with error: "Failed to l</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3302">ansible-modules-core/pull/3302</a></td>
+<td>Allow passing domain name on os_user</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3363">ansible-modules-core/pull/3363</a></td>
+<td>Only check default_project on resource creation</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4574">ansible-modules-core/pull/4574</a></td>
+<td>Fixes bug #4546 - Made password optional</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2480">ansible-modules-extras/issues/2480</a></td>
+<td>os_user does not honor OS env variables</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/315">ansible-modules-extras/pull/315</a></td>
+<td>Add openstack keystone modules</td>
 </tr>
 <tr>
 <td>ec2_key</td>
@@ -101816,26 +101876,6 @@
 <td>Fix doc strings. Use of > was breaking HTML genera</td>
 </tr>
 <tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3302">ansible-modules-core/pull/3302</a></td>
-<td>Allow passing domain name on os_user</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3363">ansible-modules-core/pull/3363</a></td>
-<td>Only check default_project on resource creation</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2480">ansible-modules-extras/issues/2480</a></td>
-<td>os_user does not honor OS env variables</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/315">ansible-modules-extras/pull/315</a></td>
-<td>Add openstack keystone modules</td>
-</tr>
-<tr>
 <td>ec2_vpc_net_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1516">ansible-modules-extras/issues/1516</a></td>
 <td>ec2_vpc_net_facts module missing from Ansible 2.0</td>
@@ -102906,21 +102946,6 @@
 <td>Local variable *choices* referenced before assignm</td>
 </tr>
 <tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1862">ansible-modules-core/pull/1862</a></td>
-<td>checking remote_group_id while comparing os_securi</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2952">ansible-modules-core/pull/2952</a></td>
-<td>Make remote_group handle name and id in cloud/open</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible/issues/14588">ansible/issues/14588</a></td>
-<td>OpenStack authentication not working anymore?</td>
-</tr>
-<tr>
 <td>bigip_monitor_http</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2564">ansible-modules-extras/pull/2564</a></td>
 <td>Adds style conventions to bigip_monitor_http</td>
@@ -103579,6 +103604,21 @@
 <td>worker</td>
 <td><a href="https://github.com/ansible/ansible/pull/14347">ansible/pull/14347</a></td>
 <td>fix termination on user/signal interrupt</td>
+</tr>
+<tr>
+<td>vmware_local_user_manager</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2763">ansible-modules-extras/issues/2763</a></td>
+<td>vmware_local_user_manager error: 'module' not defi</td>
+</tr>
+<tr>
+<td>vmware_local_user_manager</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2447">ansible-modules-extras/pull/2447</a></td>
+<td>New module: vmware_local_users_manager</td>
+</tr>
+<tr>
+<td>vmware_local_user_manager</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2818">ansible-modules-extras/pull/2818</a></td>
+<td>vmware_local_user_manager: fix global name 'module</td>
 </tr>
 <tr>
 <td>together</td>
@@ -107064,11 +107104,6 @@
 <td>mock</td>
 <td><a href="https://github.com/ansible/ansible/pull/17157">ansible/pull/17157</a></td>
 <td>Move py34 mock_open compat to compat/test/mock</td>
-</tr>
-<tr>
-<td>vmware_local_user_manager</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2447">ansible-modules-extras/pull/2447</a></td>
-<td>New module: vmware_local_users_manager</td>
 </tr>
 <tr>
 <td>jenkins_trigger</td>
