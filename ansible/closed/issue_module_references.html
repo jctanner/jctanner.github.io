@@ -52,6 +52,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3038">ansible-modules-core/pull/3038</a></td>
+<td>if user is empty, it is not converted to tuple whe</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4523">ansible-modules-core/pull/4523</a></td>
 <td>updates to vyos_config module arguments</td>
 </tr>
@@ -149,6 +154,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2798">ansible-modules-extras/pull/2798</a></td>
 <td>We've decided that python-3.5 is our minimum pyhto</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2806">ansible-modules-extras/pull/2806</a></td>
+<td>Error if shade is too old for domain_id on os_proj</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -27404,6 +27414,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17321">ansible/pull/17321</a></td>
 <td>fixes authorize method in ios shared module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17333">ansible/pull/17333</a></td>
+<td>Added note about deferring module test relocation.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -95426,6 +95441,56 @@
 <td>Add pam_limits module to ansible : modify PAM limi</td>
 </tr>
 <tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1597">ansible-modules-core/pull/1597</a></td>
+<td>Add OpenStack Keystone Project module</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2433">ansible-modules-core/pull/2433</a></td>
+<td>Add openstack project module</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2805">ansible-modules-extras/issues/2805</a></td>
+<td>os_project requires python-shade 1.8.1 or higher</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1220">ansible-modules-extras/pull/1220</a></td>
+<td>Add openstack project module</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1254">ansible-modules-extras/pull/1254</a></td>
+<td>Fix return documentation</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1390">ansible-modules-extras/pull/1390</a></td>
+<td>Add an __init__.py file in openstack/</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1437">ansible-modules-extras/pull/1437</a></td>
+<td>Fix documentation os_project module.</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1776">ansible-modules-extras/pull/1776</a></td>
+<td>Fix instantiation of openstack_cloud object in os_</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1892">ansible-modules-extras/pull/1892</a></td>
+<td>Allow passing domain name on os_project</td>
+</tr>
+<tr>
+<td>os_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2519">ansible-modules-extras/pull/2519</a></td>
+<td>Ensure os_project checks the right domain</td>
+</tr>
+<tr>
 <td>apache2_site</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1242">ansible-modules-core/pull/1242</a></td>
 <td>apache2_site module for managing apache2 sites in </td>
@@ -96359,51 +96424,6 @@
 <td>junos_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/17077">ansible/pull/17077</a></td>
 <td>Update junos docs fragment to note the default por</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1597">ansible-modules-core/pull/1597</a></td>
-<td>Add OpenStack Keystone Project module</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2433">ansible-modules-core/pull/2433</a></td>
-<td>Add openstack project module</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1220">ansible-modules-extras/pull/1220</a></td>
-<td>Add openstack project module</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1254">ansible-modules-extras/pull/1254</a></td>
-<td>Fix return documentation</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1390">ansible-modules-extras/pull/1390</a></td>
-<td>Add an __init__.py file in openstack/</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1437">ansible-modules-extras/pull/1437</a></td>
-<td>Fix documentation os_project module.</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1776">ansible-modules-extras/pull/1776</a></td>
-<td>Fix instantiation of openstack_cloud object in os_</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1892">ansible-modules-extras/pull/1892</a></td>
-<td>Allow passing domain name on os_project</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2519">ansible-modules-extras/pull/2519</a></td>
-<td>Ensure os_project checks the right domain</td>
 </tr>
 <tr>
 <td>rax_scaling_group</td>
@@ -104886,6 +104906,16 @@
 <td>moved from extras repo where it incorrectly exists</td>
 </tr>
 <tr>
+<td>circonus_annotation</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2048">ansible-modules-extras/pull/2048</a></td>
+<td>Mark api_key as no_log to avoid potential leaks</td>
+</tr>
+<tr>
+<td>circonus_annotation</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/458">ansible-modules-extras/pull/458</a></td>
+<td>New module for creating annotations with Circonus </td>
+</tr>
+<tr>
 <td>digitalocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4209">ansible-modules-core/pull/4209</a></td>
 <td>Fixes #4117: Add DigitalOcean Tag support</td>
@@ -105244,16 +105274,6 @@
 <td>archive</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2323">ansible-modules-extras/pull/2323</a></td>
 <td>New Module: archive</td>
-</tr>
-<tr>
-<td>circonus_annotation</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2048">ansible-modules-extras/pull/2048</a></td>
-<td>Mark api_key as no_log to avoid potential leaks</td>
-</tr>
-<tr>
-<td>circonus_annotation</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/458">ansible-modules-extras/pull/458</a></td>
-<td>New module for creating annotations with Circonus </td>
 </tr>
 <tr>
 <td>neutron_floating_ip_associate</td>
@@ -106089,6 +106109,11 @@
 <td>win_acl_inheritance</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1119">ansible-modules-extras/pull/1119</a></td>
 <td>win_acl_inheritance</td>
+</tr>
+<tr>
+<td>loops</td>
+<td><a href="https://github.com/ansible/ansible/pull/17289">ansible/pull/17289</a></td>
+<td>implemented loop pausing</td>
 </tr>
 <tr>
 <td>rax_queue</td>
@@ -107419,6 +107444,11 @@
 <td>ec2_vpc_nacl</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/403">ansible-modules-core/pull/403</a></td>
 <td>Add initial module for managing AWS VPC network AC</td>
+</tr>
+<tr>
+<td>execute_lambda</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2558">ansible-modules-extras/pull/2558</a></td>
+<td>New module: execute_lambda (AWS)</td>
 </tr>
 <tr>
 <td>clc_modify_server</td>

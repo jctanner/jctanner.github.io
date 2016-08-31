@@ -137,11 +137,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3038">ansible-modules-core/pull/3038</a></td>
-<td>if user is empty, it is not converted to tuple whe</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3424">ansible-modules-core/pull/3424</a></td>
 <td>add results paging to iam</td>
 </tr>
@@ -269,11 +264,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2653">ansible-modules-extras/pull/2653</a></td>
 <td>Add require_full_window option for Datadog monitor</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2806">ansible-modules-extras/pull/2806</a></td>
-<td>Error if shade is too old for domain_id on os_proj</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4052,6 +4042,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17152">ansible/issues/17152</a></td>
+<td>Ansible stalls during setup when pushing to large </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17179">ansible/issues/17179</a></td>
 <td>ansible-playbook with '--check' won't test properl</td>
 </tr>
@@ -7059,11 +7054,6 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/17065">ansible/issues/17065</a></td>
 <td>Mandatory variable not defined - since Ansible 2</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible/issues/17152">ansible/issues/17152</a></td>
-<td>Ansible stalls during setup when pushing to large </td>
 </tr>
 <tr>
 <td>setup</td>
@@ -13941,21 +13931,6 @@
 <td>Netscaler: Expire sessions gracefully instead of t</td>
 </tr>
 <tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
-<td>Neutron modules fail without admin credentails</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
-<td>Don't break out of plays loop when some hosts fail</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
-<td>Update fail behavior for with_items (#16597)</td>
-</tr>
-<tr>
 <td>znode</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2585">ansible-modules-extras/issues/2585</a></td>
 <td>znode: "items" returned by the list operation is i</td>
@@ -14014,6 +13989,21 @@
 <td>requirement</td>
 <td><a href="https://github.com/ansible/ansible/pull/15160">ansible/pull/15160</a></td>
 <td>Fix clone of specific SCM version</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
+<td>Neutron modules fail without admin credentails</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
+<td>Don't break out of plays loop when some hosts fail</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
+<td>Update fail behavior for with_items (#16597)</td>
 </tr>
 <tr>
 <td>irc</td>
@@ -14606,6 +14596,16 @@
 <td>Add XBPS module</td>
 </tr>
 <tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
+</tr>
+<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4402">ansible-modules-core/issues/4402</a></td>
 <td>nxos_feature is broken with CLI transport (show fe</td>
@@ -14704,16 +14704,6 @@
 <td>patch</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/793">ansible-modules-extras/issues/793</a></td>
 <td>Patch module sometimes skips files with no overrid</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
 </tr>
 <tr>
 <td>win_user</td>
@@ -15451,11 +15441,6 @@
 <td>Add couchdb_user module</td>
 </tr>
 <tr>
-<td>loops</td>
-<td><a href="https://github.com/ansible/ansible/pull/17289">ansible/pull/17289</a></td>
-<td>implemented loop pausing</td>
-</tr>
-<tr>
 <td>vca</td>
 <td><a href="https://github.com/ansible/ansible/pull/15904">ansible/pull/15904</a></td>
 <td>Defined children for get_vm</td>
@@ -15654,11 +15639,6 @@
 <td>ec2_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3624">ansible-modules-core/pull/3624</a></td>
 <td>For ec2_lb make sure we use volume_type like we do</td>
-</tr>
-<tr>
-<td>os_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2805">ansible-modules-extras/issues/2805</a></td>
-<td>os_project requires python-shade 1.8.1 or higher</td>
 </tr>
 <tr>
 <td>win_dns_reload_zone</td>
@@ -16359,11 +16339,6 @@
 <td>quantum_router_gateway</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2748">ansible-modules-core/pull/2748</a></td>
 <td>Neutron should manage router ports and not address</td>
-</tr>
-<tr>
-<td>execute_lambda</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2558">ansible-modules-extras/pull/2558</a></td>
-<td>New module: execute_lambda (AWS)</td>
 </tr>
 <tr>
 <td>win_lineinfile</td>
