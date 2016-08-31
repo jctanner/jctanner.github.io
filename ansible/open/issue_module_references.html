@@ -6628,7 +6628,7 @@
 <tr>
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2820">ansible-modules-extras/pull/2820</a></td>
-<td>initial commit</td>
+<td>add module with enable/disable yum repo functional</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -9016,6 +9016,96 @@
 <td>Add Digest auth support for uri module</td>
 </tr>
 <tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
+<td>mysql_user doesn't accept encryption</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
+<td>mysql_user should flush privileges when changed</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
+<td>unable to set mysql root password the first time</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
+<td>Add plugin as parameter for mysql_user </td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
+<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
+<td>mysql_user Provide access to mysql 5.7 installs</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
+<td>mysql_user support EXECUTE ON PROCEDURE</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
+<td>Fix cursor.execute statements that have only one a</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
+<td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
+<td>Fix cursor.execute requiring an iterable</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
+<td>mysql_user: Fix database table quoting in privileg</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
+<td>use tuple even when pass in the single user parame</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
+<td>mysql_user always reports changed for privs that i</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
+<td>no_log expression support</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/pull/17328">ansible/pull/17328</a></td>
+<td>Add test for specific privlege grants on database.</td>
+</tr>
+<tr>
 <td>lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
 <td>[Bug Report] lineinfile unquotes value twice</td>
@@ -9554,91 +9644,6 @@
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
 <td>#14634: symbolic permissions error</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
-<td>mysql_user doesn't accept encryption</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
-<td>mysql_user should flush privileges when changed</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
-<td>unable to set mysql root password the first time</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
-<td>Add plugin as parameter for mysql_user </td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
-<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
-<td>mysql_user Provide access to mysql 5.7 installs</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
-<td>mysql_user support EXECUTE ON PROCEDURE</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
-<td>Fix cursor.execute statements that have only one a</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
-<td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
-<td>Fix cursor.execute requiring an iterable</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3858">ansible-modules-core/pull/3858</a></td>
-<td>mysql_user: Fix database table quoting in privileg</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4271">ansible-modules-core/pull/4271</a></td>
-<td>use tuple even when pass in the single user parame</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
-<td>mysql_user always reports changed for privs that i</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
-<td>no_log expression support</td>
 </tr>
 <tr>
 <td>nmcli</td>
@@ -13476,26 +13481,6 @@
 <td>junos.py - xml_to_json to not convert hyphen into </td>
 </tr>
 <tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/178">ansible-modules-core/issues/178</a></td>
-<td>Request for raw command to not invoke shell</td>
-</tr>
-<tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2823">ansible-modules-core/pull/2823</a></td>
-<td>Added raw example for Windows Server</td>
-</tr>
-<tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible/issues/16017">ansible/issues/16017</a></td>
-<td>Cant use Ansible ios_ core modules to manage Cisco</td>
-</tr>
-<tr>
-<td>raw</td>
-<td><a href="https://github.com/ansible/ansible/pull/15050">ansible/pull/15050</a></td>
-<td>added '--raw' option to ansible cli, which outputs</td>
-</tr>
-<tr>
 <td>docker_image</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3964">ansible-modules-core/issues/3964</a></td>
 <td>docker for mac and docker or docker_images modules</td>
@@ -13654,6 +13639,26 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
+</tr>
+<tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/178">ansible-modules-core/issues/178</a></td>
+<td>Request for raw command to not invoke shell</td>
+</tr>
+<tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2823">ansible-modules-core/pull/2823</a></td>
+<td>Added raw example for Windows Server</td>
+</tr>
+<tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible/issues/16017">ansible/issues/16017</a></td>
+<td>Cant use Ansible ios_ core modules to manage Cisco</td>
+</tr>
+<tr>
+<td>raw</td>
+<td><a href="https://github.com/ansible/ansible/pull/15050">ansible/pull/15050</a></td>
+<td>added '--raw' option to ansible cli, which outputs</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -13916,6 +13921,21 @@
 <td>Netscaler: Expire sessions gracefully instead of t</td>
 </tr>
 <tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
+<td>Neutron modules fail without admin credentails</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
+<td>Don't break out of plays loop when some hosts fail</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
+<td>Update fail behavior for with_items (#16597)</td>
+</tr>
+<tr>
 <td>znode</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2585">ansible-modules-extras/issues/2585</a></td>
 <td>znode: "items" returned by the list operation is i</td>
@@ -13991,21 +14011,6 @@
 <td>Clean up connection and interpreter settings from </td>
 </tr>
 <tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
-<td>eos_command cli transport cryptography error</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4343">ansible-modules-core/issues/4343</a></td>
-<td>eos eapi failed commands</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4615">ansible-modules-core/pull/4615</a></td>
-<td>Consistent naming of Arista EOS device</td>
-</tr>
-<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1638">ansible-modules-extras/issues/1638</a></td>
 <td>locale_gen should check /usr/share/i18n/SUPPORTED </td>
@@ -14064,21 +14069,6 @@
 <td>filesystem</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1863">ansible-modules-extras/pull/1863</a></td>
 <td>Add support to create swap partitions</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
-<td>Neutron modules fail without admin credentails</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
-<td>Don't break out of plays loop when some hosts fail</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
-<td>Update fail behavior for with_items (#16597)</td>
 </tr>
 <tr>
 <td>ec2_elb_facts</td>
@@ -14716,6 +14706,16 @@
 <td>Remove redundant conversion to boolean</td>
 </tr>
 <tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
+<td>eos_command cli transport cryptography error</td>
+</tr>
+<tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4343">ansible-modules-core/issues/4343</a></td>
+<td>eos eapi failed commands</td>
+</tr>
+<tr>
 <td>xenserver_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1953">ansible-modules-extras/pull/1953</a></td>
 <td>Do not import xenapi without checking, so we can a</td>
@@ -14999,6 +14999,11 @@
 <td>os_server_reboot</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2373">ansible-modules-extras/pull/2373</a></td>
 <td>New OpenStack Module - os_server_reboot</td>
+</tr>
+<tr>
+<td>apache2_module</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2764">ansible-modules-extras/pull/2764</a></td>
+<td>add php_module for PHP module management on Debian</td>
 </tr>
 <tr>
 <td>nxos_command</td>
@@ -15944,11 +15949,6 @@
 <td>guestfs</td>
 <td><a href="https://github.com/ansible/ansible/pull/13612">ansible/pull/13612</a></td>
 <td>Add a guestfs connexion plugin</td>
-</tr>
-<tr>
-<td>apache2_module</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2764">ansible-modules-extras/pull/2764</a></td>
-<td>add php_module for PHP module management on Debian</td>
 </tr>
 <tr>
 <td>os_host_aggregate_member</td>
