@@ -32,6 +32,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1658">ansible-modules-core/issues/1658</a></td>
+<td>os_image Has no support for copy_from external URL</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1701">ansible-modules-core/issues/1701</a></td>
 <td>ec2 module: profile option ignored</td>
 </tr>
@@ -164,6 +169,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4614">ansible-modules-core/pull/4614</a></td>
 <td>Feature #2731: added postgres import and dump</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4627">ansible-modules-core/pull/4627</a></td>
+<td>update ops_template module using refactored networ</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -2332,11 +2342,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/1476">ansible/issues/1476</a></td>
-<td>Module "skip" to skip remaining play</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/14809">ansible/issues/14809</a></td>
 <td>Custom callback plugin with same filename as built</td>
 </tr>
@@ -4152,6 +4157,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17329">ansible/issues/17329</a></td>
+<td>importing undefined environment variable results i</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -4762,6 +4772,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17067">ansible/pull/17067</a></td>
+<td>Revert to the default behavior of combining/return</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17070">ansible/pull/17070</a></td>
 <td>WIP: tests: add handlers listen</td>
 </tr>
@@ -4784,6 +4799,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17293">ansible/pull/17293</a></td>
 <td>Make password lookup run on python3</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17331">ansible/pull/17331</a></td>
+<td>add Ssh transport class to openswitch shared modul</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17334">ansible/pull/17334</a></td>
+<td>Network module cleanup</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11571,46 +11596,6 @@
 <td>#2600</td>
 </tr>
 <tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
-<td>mail.py shouldnt import ssl unless secure=true</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
-<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/issues/12791">ansible/issues/12791</a></td>
-<td>Ansible shouldn't overwrite existing files when cr</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/issues/13215">ansible/issues/13215</a></td>
-<td>Allow Excluding and/or overriding transitive role </td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/issues/15607">ansible/issues/15607</a></td>
-<td>mail callback, cc and bcc are used when None</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
-<td>Initial working prototype of a salt bus connection</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
-<td>fix mail when cc and bcc are used if None</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/17067">ansible/pull/17067</a></td>
-<td>Revert to the default behavior of combining/return</td>
-</tr>
-<tr>
 <td>gem</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2894">ansible-modules-core/issues/2894</a></td>
 <td>Add proxy server parameter to Gem module</td>
@@ -11844,6 +11829,41 @@
 <td>rds_param_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3861">ansible-modules-core/pull/3861</a></td>
 <td>Make is so that the params param truly isn't requi</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
+<td>mail.py shouldnt import ssl unless secure=true</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
+<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/issues/12791">ansible/issues/12791</a></td>
+<td>Ansible shouldn't overwrite existing files when cr</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/issues/13215">ansible/issues/13215</a></td>
+<td>Allow Excluding and/or overriding transitive role </td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/issues/15607">ansible/issues/15607</a></td>
+<td>mail callback, cc and bcc are used when None</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
+<td>Initial working prototype of a salt bus connection</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
+<td>fix mail when cc and bcc are used if None</td>
 </tr>
 <tr>
 <td>s3_bucket</td>
@@ -14796,6 +14816,16 @@
 <td>Improved caching for urls</td>
 </tr>
 <tr>
+<td>paramiko_ssh</td>
+<td><a href="https://github.com/ansible/ansible/issues/17330">ansible/issues/17330</a></td>
+<td>While using paramiko as connection exception encou</td>
+</tr>
+<tr>
+<td>paramiko_ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17332">ansible/pull/17332</a></td>
+<td>Fix for https://github.com/ansible/ansible/issues/</td>
+</tr>
+<tr>
 <td>os_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
 <td>os_user does not honor OS env variables</td>
@@ -15599,16 +15629,6 @@
 <td>ec2_vpc_net</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3613">ansible-modules-core/issues/3613</a></td>
 <td>ec2_vpc_net always returns "changed" when state=pr</td>
-</tr>
-<tr>
-<td>junos</td>
-<td><a href="https://github.com/ansible/ansible/pull/17197">ansible/pull/17197</a></td>
-<td>Update Junos to NetworkModule</td>
-</tr>
-<tr>
-<td>os_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1658">ansible-modules-core/issues/1658</a></td>
-<td>os_image Has no support for copy_from external URL</td>
 </tr>
 <tr>
 <td>aws_ranges</td>
