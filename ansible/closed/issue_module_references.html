@@ -6437,6 +6437,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/13634">ansible/issues/13634</a></td>
+<td>group_by creates incorrect groups</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/13638">ansible/issues/13638</a></td>
 <td>Bug Report: make tests-py3 is broken in devel</td>
 </tr>
@@ -27134,6 +27139,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1693">ansible/pull/1693</a></td>
 <td>dpkg -l does not install package, use dpkg -i <pac</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16930">ansible/pull/16930</a></td>
+<td>docs_fragments: Correct spelling mistakes, fix for</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -95331,6 +95341,56 @@
 <td>updates nxos shared module refactor</td>
 </tr>
 <tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1880">ansible-modules-core/issues/1880</a></td>
+<td>os_subnet does not support not having a Gateway IP</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1685">ansible-modules-core/pull/1685</a></td>
+<td>Plumb ipv6 modes into os_subnet</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1818">ansible-modules-core/pull/1818</a></td>
+<td>Handle non-updatable openstack subnet details</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2207">ansible-modules-core/pull/2207</a></td>
+<td>Fix yaml syntax</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2336">ansible-modules-core/pull/2336</a></td>
+<td>return information about created subnet</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3237">ansible-modules-core/pull/3237</a></td>
+<td>Create subnet by project</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3331">ansible-modules-core/pull/3331</a></td>
+<td>Add no_gateway_ip option to os_subnet module</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3664">ansible-modules-core/pull/3664</a></td>
+<td>Fix can_update test in os_subnet</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3736">ansible-modules-core/pull/3736</a></td>
+<td>Add no_gateway_ip option to os_subnet module</td>
+</tr>
+<tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4435">ansible-modules-core/pull/4435</a></td>
+<td>Change ip_version type from str to int to follow N</td>
+</tr>
+<tr>
 <td>azure_rm_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4025">ansible-modules-core/issues/4025</a></td>
 <td> azure_rm_deployment - After creating new VM's.. D</td>
@@ -96244,51 +96304,6 @@
 <td>portinstall</td>
 <td><a href="https://github.com/ansible/ansible/pull/7942">ansible/pull/7942</a></td>
 <td>Fixed FreeBSD ports install issue</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1880">ansible-modules-core/issues/1880</a></td>
-<td>os_subnet does not support not having a Gateway IP</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1685">ansible-modules-core/pull/1685</a></td>
-<td>Plumb ipv6 modes into os_subnet</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1818">ansible-modules-core/pull/1818</a></td>
-<td>Handle non-updatable openstack subnet details</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2207">ansible-modules-core/pull/2207</a></td>
-<td>Fix yaml syntax</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2336">ansible-modules-core/pull/2336</a></td>
-<td>return information about created subnet</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3237">ansible-modules-core/pull/3237</a></td>
-<td>Create subnet by project</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3331">ansible-modules-core/pull/3331</a></td>
-<td>Add no_gateway_ip option to os_subnet module</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3664">ansible-modules-core/pull/3664</a></td>
-<td>Fix can_update test in os_subnet</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3736">ansible-modules-core/pull/3736</a></td>
-<td>Add no_gateway_ip option to os_subnet module</td>
 </tr>
 <tr>
 <td>homebrew_tap</td>

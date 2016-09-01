@@ -167,6 +167,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4632">ansible-modules-core/pull/4632</a></td>
+<td>Python3 fixes to copy, file, and stat so that the </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -1564,11 +1569,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/13610">ansible/issues/13610</a></td>
 <td>ansible_user is ignored in the inventory file</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/13634">ansible/issues/13634</a></td>
-<td>group_by creates incorrect groups</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4762,11 +4762,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/16930">ansible/pull/16930</a></td>
-<td>docs_fragments: Correct spelling mistakes, fix for</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16959">ansible/pull/16959</a></td>
 <td>Allow multiple newline delimited passwords in the </td>
 </tr>
@@ -7699,6 +7694,11 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4575">ansible-modules-core/issues/4575</a></td>
 <td>Unarchive module thinks existing dirs are nonexist</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4633">ansible-modules-core/issues/4633</a></td>
+<td>unarchive module does not actually support downloa</td>
 </tr>
 <tr>
 <td>unarchive</td>
@@ -14496,16 +14496,6 @@
 <td>Module for managing launchd on OS X (system/launch</td>
 </tr>
 <tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3647">ansible-modules-core/pull/3647</a></td>
-<td>Use integers as ip-version in os_subnet</td>
-</tr>
-<tr>
-<td>os_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4435">ansible-modules-core/pull/4435</a></td>
-<td>Change ip_version type from str to int to follow N</td>
-</tr>
-<tr>
 <td>azure_rm_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2299">ansible-modules-extras/issues/2299</a></td>
 <td>Azure Resource Deployment deletes all created reso</td>
@@ -14744,6 +14734,16 @@
 <td>apt_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
 <td>apt_key doesn't compare key data in check mode</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2827">ansible-modules-extras/issues/2827</a></td>
+<td>zypper module: notify crashes because of changed d</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
+<td>WIP: Test PR, do not merge.</td>
 </tr>
 <tr>
 <td>ini</td>
@@ -15421,6 +15421,11 @@
 <td>Add test for the pause in loop feature</td>
 </tr>
 <tr>
+<td>os_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3647">ansible-modules-core/pull/3647</a></td>
+<td>Use integers as ip-version in os_subnet</td>
+</tr>
+<tr>
 <td>vca</td>
 <td><a href="https://github.com/ansible/ansible/pull/15904">ansible/pull/15904</a></td>
 <td>Defined children for get_vm</td>
@@ -15894,11 +15899,6 @@
 <td>datadog_downtime</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2381">ansible-modules-extras/pull/2381</a></td>
 <td>add datadog_downtime module (try 3)</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
-<td>WIP: Test PR, do not merge.</td>
 </tr>
 <tr>
 <td>win_certificate</td>
