@@ -37,8 +37,18 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
+<td>mysql_user doesn't accept encryption</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1701">ansible-modules-core/issues/1701</a></td>
 <td>ec2 module: profile option ignored</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
+<td>mysql_user should flush privileges when changed</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -69,6 +79,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4637">ansible-modules-core/issues/4637</a></td>
 <td>Error "invalid selinux context" in multiple module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4639">ansible-modules-core/issues/4639</a></td>
+<td>meta: flush_handler does not run when notified by </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4807,6 +4822,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17357">ansible/pull/17357</a></td>
+<td>Add detection of python3 to hacking/env-setup</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -7781,6 +7801,156 @@
 <td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
+<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
+<td>ec2_group: Firewall rule configuration options poo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
+<td> ec2_security You have specified two resources tha</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
+<td>FR - update ec2_group to cleanly handle a cidr lis</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
+<td>rules_egress empty array not taken into account</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
+<td>Idempotence with EC2 Security Groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
+<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
+<td>ec2_group.py and --diff</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
+<td>ec2_group check mode is inaccurate</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
+<td>ec2_group failings when using groups in other acco</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
+<td>ec2_group: use of a single port_range argument ins</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
+<td>ec2_group should allow for security group revocati</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
+<td>ec2_group requires "description" to delete SG</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
+<td>ec2_group: add tags</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
+<td>ec2_group and multiple default groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
+<td>ec2_group failing when there is already a rule def</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
+<td>ec2_group fails to give access to ELB security gro</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
+<td>Fix description of rules option in ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
+<td>check either ec2_group source or destination (egre</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
+<td>Add tags support to ec2_group module</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
+<td>ec2_group: Add a check for invalid ports on make_r</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
+<td>Fix ec2_group wait loop/return value consistency</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
+<td>Update ec2_group.py</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
+<td>eu-west-1a is a zone not a region. removed the 'a'</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
+<td>Add rule revocation capabilities to ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
+<td>Fix ec2_group 'rules' doc string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4640">ansible-modules-core/pull/4640</a></td>
+<td>Validate rule fails when rule is an empty string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
+<td>ec2_group should allow for blank egress rules with</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
+<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
+<td>ec2_group: Small error in "rules" option descripti</td>
+</tr>
+<tr>
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1380">ansible-modules-core/issues/1380</a></td>
 <td>vsphere_guest vm_disk 'type' parameter is silently</td>
@@ -7929,151 +8099,6 @@
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible/issues/16875">ansible/issues/16875</a></td>
 <td>nAttributeError: DynamicData_Holder object has no </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
-<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
-<td>ec2_group: Firewall rule configuration options poo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
-<td> ec2_security You have specified two resources tha</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
-<td>FR - update ec2_group to cleanly handle a cidr lis</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
-<td>rules_egress empty array not taken into account</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
-<td>Idempotence with EC2 Security Groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
-<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
-<td>ec2_group.py and --diff</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
-<td>ec2_group check mode is inaccurate</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
-<td>ec2_group failings when using groups in other acco</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
-<td>ec2_group: use of a single port_range argument ins</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
-<td>ec2_group should allow for security group revocati</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
-<td>ec2_group requires "description" to delete SG</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
-<td>ec2_group: add tags</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
-<td>ec2_group and multiple default groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
-<td>ec2_group failing when there is already a rule def</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
-<td>ec2_group fails to give access to ELB security gro</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
-<td>Fix description of rules option in ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
-<td>check either ec2_group source or destination (egre</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
-<td>Add tags support to ec2_group module</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
-<td>ec2_group: Add a check for invalid ports on make_r</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
-<td>Fix ec2_group wait loop/return value consistency</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
-<td>Update ec2_group.py</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
-<td>eu-west-1a is a zone not a region. removed the 'a'</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
-<td>Add rule revocation capabilities to ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
-<td>Fix ec2_group 'rules' doc string.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
-<td>ec2_group should allow for blank egress rules with</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
-<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
-<td>ec2_group: Small error in "rules" option descripti</td>
 </tr>
 <tr>
 <td>rds</td>
@@ -9961,76 +9986,6 @@
 <td>Verify AWS key/secret has sufficient permission to</td>
 </tr>
 <tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
-<td>mysql_user doesn't accept encryption</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
-<td>mysql_user should flush privileges when changed</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
-<td>unable to set mysql root password the first time</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
-<td>Add plugin as parameter for mysql_user </td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
-<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
-<td>mysql_user Provide access to mysql 5.7 installs</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
-<td>mysql_user support EXECUTE ON PROCEDURE</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
-<td>Fix cursor.execute statements that have only one a</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
-<td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
-<td>Fix cursor.execute requiring an iterable</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
-<td>no_log expression support</td>
-</tr>
-<tr>
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
 <td>ec2_elb_lb: module does not accept vpc_id</td>
@@ -10424,6 +10379,66 @@
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible/pull/14716">ansible/pull/14716</a></td>
 <td>Sanitize JSON from command output of `async` task.</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
+<td>unable to set mysql root password the first time</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
+<td>Add plugin as parameter for mysql_user </td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
+<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
+<td>mysql_user Provide access to mysql 5.7 installs</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
+<td>mysql_user support EXECUTE ON PROCEDURE</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
+<td>Fix cursor.execute statements that have only one a</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
+<td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
+<td>Fix cursor.execute requiring an iterable</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
+<td>no_log expression support</td>
 </tr>
 <tr>
 <td>known_hosts</td>
@@ -15206,6 +15221,11 @@
 <td>upcloud inventory script</td>
 </tr>
 <tr>
+<td>sns</td>
+<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
+<td>Amazon SNS module doesnt show up in cloud modules </td>
+</tr>
+<tr>
 <td>osx_mas</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2482">ansible-modules-extras/pull/2482</a></td>
 <td>Add OSX MAS module.</td>
@@ -15304,11 +15324,6 @@
 <td>win_ping</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4430">ansible-modules-core/issues/4430</a></td>
 <td>winrm NanoServer Unable to find type System.Securi</td>
-</tr>
-<tr>
-<td>become_method</td>
-<td><a href="https://github.com/ansible/ansible/pull/17340">ansible/pull/17340</a></td>
-<td>Add ksu privilege escalation</td>
 </tr>
 <tr>
 <td>bigip_ssl_certificate</td>
@@ -15494,11 +15509,6 @@
 <td>opendj_globalconfiguration</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
 <td>Added new module opendj_globalconfiguration for up</td>
-</tr>
-<tr>
-<td>sns</td>
-<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
-<td>Amazon SNS module doesnt show up in cloud modules </td>
 </tr>
 <tr>
 <td>docker_facts</td>
@@ -15811,6 +15821,11 @@
 <td>new open weather fact gathering module</td>
 </tr>
 <tr>
+<td>openssl_privatekey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
+<td>network: Add new module openssl_privatekey</td>
+</tr>
+<tr>
 <td>jboss_cli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1862">ansible-modules-extras/pull/1862</a></td>
 <td>Jboss cli</td>
@@ -15959,6 +15974,11 @@
 <td>os_host_aggregate_member</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2257">ansible-modules-extras/pull/2257</a></td>
 <td>Added os_host_aggregate and os_host_aggregate_memb</td>
+</tr>
+<tr>
+<td>stdout</td>
+<td><a href="https://github.com/ansible/ansible/pull/17355">ansible/pull/17355</a></td>
+<td>better display for free strategy</td>
 </tr>
 <tr>
 <td>cronvar</td>
@@ -16171,6 +16191,11 @@
 <td>New module - elastic_beanstalk - re-submit</td>
 </tr>
 <tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/issues/17356">ansible/issues/17356</a></td>
+<td>Variable-handling error introduced in 2.1.1.0</td>
+</tr>
+<tr>
 <td>os_nova_flavor</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4068">ansible-modules-core/pull/4068</a></td>
 <td>Added extra_specs option (Fixes #3272)</td>
@@ -16311,11 +16336,6 @@
 <td>Add a new "on_exception" callback method.</td>
 </tr>
 <tr>
-<td>openssl_privatekey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
-<td>network: Add new module openssl_privatekey</td>
-</tr>
-<tr>
 <td>win_certificate_store</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2656">ansible-modules-extras/pull/2656</a></td>
 <td>Added a module for installing certificates in the </td>
@@ -16424,6 +16444,11 @@
 <td>dnsmadeeasy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/342">ansible-modules-extras/issues/342</a></td>
 <td>dnsmadeeasy module can't connect to api.dnsmadeeas</td>
+</tr>
+<tr>
+<td>datadog_monitor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2834">ansible-modules-extras/pull/2834</a></td>
+<td>Adding request timeout to datadog_monitor</td>
 </tr>
 <tr>
 <td>glassfish_deploy</td>
