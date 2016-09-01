@@ -112,6 +112,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2694">ansible-modules-core/pull/2694</a></td>
+<td>user: Fix adding a user who's group exists for SLE</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
 <td>Feature #2731: added postgres import and dump (see</td>
 </tr>
@@ -5954,11 +5959,6 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2426">ansible-modules-core/pull/2426</a></td>
 <td>Improved the expires option in the system/user mod</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2694">ansible-modules-core/pull/2694</a></td>
-<td>user: Fix adding a user who's group exists for SLE</td>
 </tr>
 <tr>
 <td>user</td>
@@ -12746,6 +12746,31 @@
 <td>Add https support for consul lookup plugin</td>
 </tr>
 <tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
+<td>Expose replace module's backup file path</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4634">ansible-modules-core/issues/4634</a></td>
+<td>replace.py is failing with an UnboundLocalError</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
+<td>Replace PyCrypto usage with cryptography.io</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
+<td>Replace pipes.quote for shlex_quote</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
+<td>raise an exception on undefined environment variab</td>
+</tr>
+<tr>
 <td>ec2_ami</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3600">ansible-modules-core/issues/3600</a></td>
 <td>Failed AMI creation makes AMI run until timeout</td>
@@ -13246,26 +13271,6 @@
 <td>Adjusted ecs_service_facts module to be more consi</td>
 </tr>
 <tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
-<td>Expose replace module's backup file path</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
-<td>Replace PyCrypto usage with cryptography.io</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
-<td>Replace pipes.quote for shlex_quote</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
-<td>raise an exception on undefined environment variab</td>
-</tr>
-<tr>
 <td>win_iis_webapplication</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1436">ansible-modules-extras/issues/1436</a></td>
 <td>win_iis_webapplication: slashes in physical path a</td>
@@ -13384,6 +13389,26 @@
 <td>win_iis_webbinding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
 <td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
+<td>ios_template module doesnt render {% for %} correc</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3999">ansible-modules-core/issues/3999</a></td>
+<td>ios_template missing backup</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4386">ansible-modules-core/issues/4386</a></td>
+<td>ios_template cannot write backups to host</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4635">ansible-modules-core/issues/4635</a></td>
+<td>ios_template failing to extend a jinja2</td>
 </tr>
 <tr>
 <td>debug</td>
@@ -13796,6 +13821,21 @@
 <td>Fetch hangs indefinitely for large file when sudo </td>
 </tr>
 <tr>
+<td>route53_zone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1756">ansible-modules-extras/issues/1756</a></td>
+<td>route53_zone does not support split horizon setup</td>
+</tr>
+<tr>
+<td>route53_zone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/915">ansible-modules-extras/issues/915</a></td>
+<td>route53_zone: ConflictingDomainExists if domain ex</td>
+</tr>
+<tr>
+<td>route53_zone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2832">ansible-modules-extras/pull/2832</a></td>
+<td>aws/route53_zone: support private zones overlappin</td>
+</tr>
+<tr>
 <td>systemd</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/917">ansible-modules-core/issues/917</a></td>
 <td>Avahi does not disable properly with systemd on ce</td>
@@ -13824,21 +13864,6 @@
 <td>galaxy</td>
 <td><a href="https://github.com/ansible/ansible/pull/17079">ansible/pull/17079</a></td>
 <td>[WIP] Add role templating support</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
-<td>ios_template module doesnt render {% for %} correc</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3999">ansible-modules-core/issues/3999</a></td>
-<td>ios_template missing backup</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4386">ansible-modules-core/issues/4386</a></td>
-<td>ios_template cannot write backups to host</td>
 </tr>
 <tr>
 <td>softlayer</td>
@@ -14409,16 +14434,6 @@
 <td>lxd_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2750">ansible-modules-extras/issues/2750</a></td>
 <td>lxd_container module fails if certificate already </td>
-</tr>
-<tr>
-<td>route53_zone</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1756">ansible-modules-extras/issues/1756</a></td>
-<td>route53_zone does not support split horizon setup</td>
-</tr>
-<tr>
-<td>route53_zone</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/915">ansible-modules-extras/issues/915</a></td>
-<td>route53_zone: ConflictingDomainExists if domain ex</td>
 </tr>
 <tr>
 <td>bigip_facts</td>
