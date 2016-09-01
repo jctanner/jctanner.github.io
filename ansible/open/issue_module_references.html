@@ -2537,11 +2537,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/15192">ansible/issues/15192</a></td>
-<td>ansible-playbook exits 0 on syntax failure</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/15215">ansible/issues/15215</a></td>
 <td>Inventory script does not work with assumed roles </td>
 </tr>
@@ -3767,6 +3762,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16846">ansible/issues/16846</a></td>
+<td>set_fact inside a role fails in ansible 2.2.0</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16848">ansible/issues/16848</a></td>
 <td>Splitting host patterns on commas breaks regex rep</td>
 </tr>
@@ -4138,7 +4138,7 @@
 <tr>
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17324">ansible/issues/17324</a></td>
-<td>No variable substitution  dictionary key</td>
+<td>No  substitution variable with  dictionary key</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7062,6 +7062,11 @@
 </tr>
 <tr>
 <td>setup</td>
+<td><a href="https://github.com/ansible/ansible/issues/17349">ansible/issues/17349</a></td>
+<td>Ansible can not SSH to dynamically added host</td>
+</tr>
+<tr>
+<td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/8460">ansible/issues/8460</a></td>
 <td>Outputs from multiple threads are interleaved</td>
 </tr>
@@ -9741,81 +9746,6 @@
 <td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
-<td>mysql_user doesn't accept encryption</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
-<td>mysql_user should flush privileges when changed</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
-<td>unable to set mysql root password the first time</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
-<td>Add plugin as parameter for mysql_user </td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
-<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
-<td>mysql_user Provide access to mysql 5.7 installs</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
-<td>mysql_user support EXECUTE ON PROCEDURE</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
-<td>Allow for non-standard DB schema</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
-<td>add support for auth_socket</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
-<td>Fix cursor.execute statements that have only one a</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
-<td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
-<td>Fix cursor.execute requiring an iterable</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4428">ansible-modules-core/pull/4428</a></td>
-<td>mysql_user always reports changed for privs that i</td>
-</tr>
-<tr>
-<td>mysql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
-<td>no_log expression support</td>
-</tr>
-<tr>
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
 <td>Feature Idea : cloudformation "describe" state</td>
@@ -9964,6 +9894,76 @@
 <td>ec2_vol</td>
 <td><a href="https://github.com/ansible/ansible/issues/12246">ansible/issues/12246</a></td>
 <td>Verify AWS key/secret has sufficient permission to</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1662">ansible-modules-core/issues/1662</a></td>
+<td>mysql_user doesn't accept encryption</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2357">ansible-modules-core/issues/2357</a></td>
+<td>mysql_user should flush privileges when changed</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
+<td>unable to set mysql root password the first time</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
+<td>Add plugin as parameter for mysql_user </td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3542">ansible-modules-core/issues/3542</a></td>
+<td>mysql_user support REQUIRE NONE to remove a REQUIR</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3712">ansible-modules-core/issues/3712</a></td>
+<td>mysql_user Provide access to mysql 5.7 installs</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4328">ansible-modules-core/issues/4328</a></td>
+<td>mysql_user support EXECUTE ON PROCEDURE</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3000">ansible-modules-core/pull/3000</a></td>
+<td>Allow for non-standard DB schema</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3587">ansible-modules-core/pull/3587</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3589">ansible-modules-core/pull/3589</a></td>
+<td>add support for auth_socket</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3594">ansible-modules-core/pull/3594</a></td>
+<td>Fix cursor.execute statements that have only one a</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
+<td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3818">ansible-modules-core/pull/3818</a></td>
+<td>Fix cursor.execute requiring an iterable</td>
+</tr>
+<tr>
+<td>mysql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
+<td>no_log expression support</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -12311,36 +12311,6 @@
 <td>AWS credentials are not being used by ec2_tag</td>
 </tr>
 <tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1431">ansible-modules-core/issues/1431</a></td>
-<td>Casting boolean values doesn't work for set_fact</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/11059">ansible/issues/11059</a></td>
-<td>Add JSON example to set_fact documentation</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/13233">ansible/issues/13233</a></td>
-<td>set_fact cannot overwrite with a complex data type</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16008">ansible/issues/16008</a></td>
-<td>traceback on set_fact with numeric var names</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16823">ansible/issues/16823</a></td>
-<td>Adding a checker mode to verify that all variables</td>
-</tr>
-<tr>
-<td>set_fact</td>
-<td><a href="https://github.com/ansible/ansible/issues/16846">ansible/issues/16846</a></td>
-<td>set_fact inside a role fails in ansible 2.2.0</td>
-</tr>
-<tr>
 <td>sysctl</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2899">ansible-modules-core/issues/2899</a></td>
 <td>playbook using sysctl module does not remove sysct</td>
@@ -12834,6 +12804,31 @@
 <td>cloudtrail</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2290">ansible-modules-extras/pull/2290</a></td>
 <td>Fix bug in Cloudtrail module and added features</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1431">ansible-modules-core/issues/1431</a></td>
+<td>Casting boolean values doesn't work for set_fact</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/11059">ansible/issues/11059</a></td>
+<td>Add JSON example to set_fact documentation</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/13233">ansible/issues/13233</a></td>
+<td>set_fact cannot overwrite with a complex data type</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/16008">ansible/issues/16008</a></td>
+<td>traceback on set_fact with numeric var names</td>
+</tr>
+<tr>
+<td>set_fact</td>
+<td><a href="https://github.com/ansible/ansible/issues/16823">ansible/issues/16823</a></td>
+<td>Adding a checker mode to verify that all variables</td>
 </tr>
 <tr>
 <td>ec2_eip</td>
@@ -13991,6 +13986,21 @@
 <td>Clean up connection and interpreter settings from </td>
 </tr>
 <tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2827">ansible-modules-extras/issues/2827</a></td>
+<td>zypper module: notify crashes because of changed d</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
+<td>WIP: Test PR, do not merge.</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2830">ansible-modules-extras/pull/2830</a></td>
+<td>Fix traceback due to zypper module, ensure the ret</td>
+</tr>
+<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1638">ansible-modules-extras/issues/1638</a></td>
 <td>locale_gen should check /usr/share/i18n/SUPPORTED </td>
@@ -14741,16 +14751,6 @@
 <td>apt_key doesn't compare key data in check mode</td>
 </tr>
 <tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2827">ansible-modules-extras/issues/2827</a></td>
-<td>zypper module: notify crashes because of changed d</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
-<td>WIP: Test PR, do not merge.</td>
-</tr>
-<tr>
 <td>ini</td>
 <td><a href="https://github.com/ansible/ansible/pull/13442">ansible/pull/13442</a></td>
 <td>Allow ini plugin to load file using other encoding</td>
@@ -15036,6 +15036,11 @@
 <td>with_inventory_hostnames doesn't support wildcards</td>
 </tr>
 <tr>
+<td>stderr</td>
+<td><a href="https://github.com/ansible/ansible/issues/17350">ansible/issues/17350</a></td>
+<td>Revisiting realtime stdout/stderr</td>
+</tr>
+<tr>
 <td>glance_image</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/821">ansible-modules-core/issues/821</a></td>
 <td>glance_image can't set owner to non-member tenant</td>
@@ -15189,11 +15194,6 @@
 <td>upcloud</td>
 <td><a href="https://github.com/ansible/ansible/pull/11586">ansible/pull/11586</a></td>
 <td>upcloud inventory script</td>
-</tr>
-<tr>
-<td>sns</td>
-<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
-<td>Amazon SNS module doesnt show up in cloud modules </td>
 </tr>
 <tr>
 <td>osx_mas</td>
@@ -15446,11 +15446,6 @@
 <td>Add ansible_ssh_host</td>
 </tr>
 <tr>
-<td>dnos10_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/17296">ansible/pull/17296</a></td>
-<td>Add support for Dell Networking OS10 Command and C</td>
-</tr>
-<tr>
 <td>transcoder_preset</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2824">ansible-modules-extras/pull/2824</a></td>
 <td>Aws ElasticTranscoder Preset</td>
@@ -15484,6 +15479,11 @@
 <td>opendj_globalconfiguration</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2403">ansible-modules-extras/pull/2403</a></td>
 <td>Added new module opendj_globalconfiguration for up</td>
+</tr>
+<tr>
+<td>sns</td>
+<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
+<td>Amazon SNS module doesnt show up in cloud modules </td>
 </tr>
 <tr>
 <td>docker_facts</td>
@@ -15791,11 +15791,6 @@
 <td>new open weather fact gathering module</td>
 </tr>
 <tr>
-<td>openssl_privatekey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
-<td>network: Add new module openssl_privatekey</td>
-</tr>
-<tr>
 <td>jboss_cli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1862">ansible-modules-extras/pull/1862</a></td>
 <td>Jboss cli</td>
@@ -16001,6 +15996,11 @@
 <td>Windows Server DNS A Record (Add and Remove)</td>
 </tr>
 <tr>
+<td>lambda_alias</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2829">ansible-modules-extras/pull/2829</a></td>
+<td>Import lambda and lambda_alias modules</td>
+</tr>
+<tr>
 <td>task</td>
 <td><a href="https://github.com/ansible/ansible/pull/16962">ansible/pull/16962</a></td>
 <td>Ensure task retries default is set</td>
@@ -16069,6 +16069,11 @@
 <td>couchbase_bucket</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/35">ansible-modules-extras/pull/35</a></td>
 <td>Ansible module to create and delete Couchbase buck</td>
+</tr>
+<tr>
+<td>kinesis_stream</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2828">ansible-modules-extras/pull/2828</a></td>
+<td>Minor tidyup</td>
 </tr>
 <tr>
 <td>win_localgroupmembers</td>
@@ -16216,11 +16221,6 @@
 <td>ios_facts: show LLDP exception on IOS12.4</td>
 </tr>
 <tr>
-<td>dnos10_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4599">ansible-modules-core/pull/4599</a></td>
-<td>Added Command and Config modules to support Dell N</td>
-</tr>
-<tr>
 <td>win_dns_zone</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2741">ansible-modules-extras/pull/2741</a></td>
 <td>Reload/Add/Remove Winows Server DNS Primary Zone</td>
@@ -16289,6 +16289,11 @@
 <td>cs_volume</td>
 <td><a href="https://github.com/ansible/ansible/pull/11323">ansible/pull/11323</a></td>
 <td>Add a new "on_exception" callback method.</td>
+</tr>
+<tr>
+<td>openssl_privatekey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
+<td>network: Add new module openssl_privatekey</td>
 </tr>
 <tr>
 <td>win_certificate_store</td>
