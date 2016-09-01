@@ -4157,8 +4157,8 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17347">ansible/issues/17347</a></td>
-<td>Python 3.5.2 vs Ansible 2.1.1.0</td>
+<td><a href="https://github.com/ansible/ansible/issues/17353">ansible/issues/17353</a></td>
+<td>Error "invalid selinux context" in multiple module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4799,11 +4799,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17334">ansible/pull/17334</a></td>
 <td>Network module cleanup</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17348">ansible/pull/17348</a></td>
-<td>Mention how to load a specific inventory file</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9396,96 +9391,6 @@
 <td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
-<td>authorized_keys assumes home directory is already </td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1614">ansible-modules-core/pull/1614</a></td>
-<td>authorized_keys: fix creating .ssh directory</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
-<td>In system/authorized_key.py make manage_dir create</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/17276">ansible/issues/17276</a></td>
-<td>"with_subelements" has major precedence than "when</td>
-</tr>
-<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1532">ansible-modules-core/issues/1532</a></td>
 <td>pip module executable argument does not expand hom</td>
@@ -9659,6 +9564,91 @@
 <td>nmcli</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
 <td>correct command line argument for nmcli autoconnec</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
+<td>authorized_keys assumes home directory is already </td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1614">ansible-modules-core/pull/1614</a></td>
+<td>authorized_keys: fix creating .ssh directory</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
+<td>In system/authorized_key.py make manage_dir create</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
 </tr>
 <tr>
 <td>get_url</td>
@@ -15934,6 +15924,11 @@
 <td>apache2_module</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2764">ansible-modules-extras/pull/2764</a></td>
 <td>add php_module for PHP module management on Debian</td>
+</tr>
+<tr>
+<td>__init</td>
+<td><a href="https://github.com/ansible/ansible/issues/17352">ansible/issues/17352</a></td>
+<td>bug report: action_plugins regression in _fixup_pe</td>
 </tr>
 <tr>
 <td>os_host_aggregate_member</td>
