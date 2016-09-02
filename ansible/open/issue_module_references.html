@@ -202,11 +202,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4649">ansible-modules-core/pull/4649</a></td>
-<td>bugfix that adds missing itertools import to ios_f</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -7093,7 +7088,7 @@
 <tr>
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/17349">ansible/issues/17349</a></td>
-<td>Ansible can not SSH to dynamically added host</td>
+<td>[OS X] Can not SSH to hosts unless paramiko is use</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -12131,6 +12126,41 @@
 <td>Refactor maven plugin.</td>
 </tr>
 <tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
+<td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/978">ansible-modules-extras/issues/978</a></td>
+<td>ovirt module KeyError: authorized_key_user_groups</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2469">ansible-modules-extras/pull/2469</a></td>
+<td>fix ovirt UnboundLocalError during vm_start</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2509">ansible-modules-extras/pull/2509</a></td>
+<td>Add oVirt storage management module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2836">ansible-modules-extras/pull/2836</a></td>
+<td>Ovirt auth/vms/disks modules</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/16251">ansible/pull/16251</a></td>
+<td>Fix improper handling of machine_type in  ovirt in</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/17364">ansible/pull/17364</a></td>
+<td>Add oVirt utility module</td>
+</tr>
+<tr>
 <td>group_by</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/832">ansible-modules-core/issues/832</a></td>
 <td>group_by and sparse group variables producing inco</td>
@@ -13131,29 +13161,29 @@
 <td>Add homebrew in squash_actions list</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
-<td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1503">ansible-modules-extras/issues/1503</a></td>
+<td>elasticsearch_plugin fails on ES 2.X</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/978">ansible-modules-extras/issues/978</a></td>
-<td>ovirt module KeyError: authorized_key_user_groups</td>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2603">ansible-modules-extras/issues/2603</a></td>
+<td>elasticsearch_plugin - cant install plugin through</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2469">ansible-modules-extras/pull/2469</a></td>
-<td>fix ovirt UnboundLocalError during vm_start</td>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2604">ansible-modules-extras/pull/2604</a></td>
+<td>elasticsearch_plugin: add force option and some im</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2509">ansible-modules-extras/pull/2509</a></td>
-<td>Add oVirt storage management module</td>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2838">ansible-modules-extras/pull/2838</a></td>
+<td>elasticsearch_plugin: Fix bug when using proxy (#2</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/16251">ansible/pull/16251</a></td>
-<td>Fix improper handling of machine_type in  ovirt in</td>
+<td>elasticsearch_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2839">ansible-modules-extras/pull/2839</a></td>
+<td>elasticsearch_plugin: rewrite module to not use un</td>
 </tr>
 <tr>
 <td>mongodb_user</td>
@@ -14186,21 +14216,6 @@
 <td>add redrive_policy queue property support in sqs_q</td>
 </tr>
 <tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1503">ansible-modules-extras/issues/1503</a></td>
-<td>elasticsearch_plugin fails on ES 2.X</td>
-</tr>
-<tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2603">ansible-modules-extras/issues/2603</a></td>
-<td>elasticsearch_plugin - cant install plugin through</td>
-</tr>
-<tr>
-<td>elasticsearch_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2604">ansible-modules-extras/pull/2604</a></td>
-<td>elasticsearch_plugin: add force option and some im</td>
-</tr>
-<tr>
 <td>ec2_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/714">ansible-modules-core/issues/714</a></td>
 <td>ec2_key doesn't complain about the "region" parame</td>
@@ -15116,11 +15131,6 @@
 <td>Port in modules from openstack-ansible</td>
 </tr>
 <tr>
-<td>ios_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4647">ansible-modules-core/issues/4647</a></td>
-<td>ios_facts: exception due to missing itertools</td>
-</tr>
-<tr>
 <td>ec2_vpc_peer</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1817">ansible-modules-extras/pull/1817</a></td>
 <td>ec2 vpc peering module</td>
@@ -15459,6 +15469,11 @@
 <td>homebrew_cask</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1345">ansible-modules-extras/issues/1345</a></td>
 <td>homebrew_cask module requires force option</td>
+</tr>
+<tr>
+<td>datadog_event</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2837">ansible-modules-extras/issues/2837</a></td>
+<td>datadog_event module does not correctly set host f</td>
 </tr>
 <tr>
 <td>meta</td>
