@@ -197,8 +197,8 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4657">ansible-modules-core/pull/4657</a></td>
-<td>Added semicolon to list of unsupported operators p</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4659">ansible-modules-core/pull/4659</a></td>
+<td>Added semicolon to invalid operators list redux.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3752,6 +3752,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16804">ansible/issues/16804</a></td>
+<td>Multiple ansible roles from a single Git repo with</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16810">ansible/issues/16810</a></td>
 <td>Ansible ohai errors</td>
 </tr>
@@ -4652,11 +4657,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/15943">ansible/pull/15943</a></td>
-<td>Add a few python3 fix, mostly found by trial and e</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15975">ansible/pull/15975</a></td>
 <td>Update playbooks_loops.rst</td>
 </tr>
@@ -4854,11 +4854,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17354">ansible/pull/17354</a></td>
 <td>Improves Inventory Best Practices Documentation</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17357">ansible/pull/17357</a></td>
-<td>Add detection of python3 to hacking/env-setup</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6457,11 +6452,6 @@
 </tr>
 <tr>
 <td>git</td>
-<td><a href="https://github.com/ansible/ansible/issues/16804">ansible/issues/16804</a></td>
-<td>Multiple ansible roles from a single Git repo with</td>
-</tr>
-<tr>
-<td>git</td>
 <td><a href="https://github.com/ansible/ansible/pull/11791">ansible/pull/11791</a></td>
 <td>v2: Fixed delegation when using a host that is not</td>
 </tr>
@@ -7831,156 +7821,6 @@
 <td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
-<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
-<td>ec2_group: Firewall rule configuration options poo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
-<td> ec2_security You have specified two resources tha</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
-<td>FR - update ec2_group to cleanly handle a cidr lis</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
-<td>rules_egress empty array not taken into account</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
-<td>Idempotence with EC2 Security Groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
-<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
-<td>ec2_group.py and --diff</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
-<td>ec2_group check mode is inaccurate</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
-<td>ec2_group failings when using groups in other acco</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
-<td>ec2_group: use of a single port_range argument ins</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
-<td>ec2_group should allow for security group revocati</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
-<td>ec2_group requires "description" to delete SG</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
-<td>ec2_group: add tags</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
-<td>ec2_group and multiple default groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
-<td>ec2_group failing when there is already a rule def</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
-<td>ec2_group fails to give access to ELB security gro</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
-<td>Fix description of rules option in ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
-<td>check either ec2_group source or destination (egre</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
-<td>Add tags support to ec2_group module</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
-<td>ec2_group: Add a check for invalid ports on make_r</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
-<td>Fix ec2_group wait loop/return value consistency</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
-<td>Update ec2_group.py</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
-<td>eu-west-1a is a zone not a region. removed the 'a'</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
-<td>Add rule revocation capabilities to ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
-<td>Fix ec2_group 'rules' doc string.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4640">ansible-modules-core/pull/4640</a></td>
-<td>Validate rule fails when rule is an empty string.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
-<td>ec2_group should allow for blank egress rules with</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
-<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
-<td>ec2_group: Small error in "rules" option descripti</td>
-</tr>
-<tr>
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1380">ansible-modules-core/issues/1380</a></td>
 <td>vsphere_guest vm_disk 'type' parameter is silently</td>
@@ -8129,6 +7969,151 @@
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible/issues/16875">ansible/issues/16875</a></td>
 <td>nAttributeError: DynamicData_Holder object has no </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1068">ansible-modules-core/issues/1068</a></td>
+<td>ec2_group not idempotent if cidr_ip is not 0.0.0.0</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1971">ansible-modules-core/issues/1971</a></td>
+<td>ec2_group: Firewall rule configuration options poo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
+<td> ec2_security You have specified two resources tha</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2120">ansible-modules-core/issues/2120</a></td>
+<td>FR - update ec2_group to cleanly handle a cidr lis</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
+<td>rules_egress empty array not taken into account</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
+<td>Idempotence with EC2 Security Groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3053">ansible-modules-core/issues/3053</a></td>
+<td>ansible 2.0.0.2 - aws ec2_group - rules_egress not</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
+<td>ec2_group.py and --diff</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
+<td>ec2_group check mode is inaccurate</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
+<td>ec2_group failings when using groups in other acco</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/401">ansible-modules-core/issues/401</a></td>
+<td>ec2_group: use of a single port_range argument ins</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
+<td>ec2_group should allow for security group revocati</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
+<td>ec2_group requires "description" to delete SG</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/445">ansible-modules-core/issues/445</a></td>
+<td>ec2_group: add tags</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
+<td>ec2_group and multiple default groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/770">ansible-modules-core/issues/770</a></td>
+<td>ec2_group failing when there is already a rule def</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/771">ansible-modules-core/issues/771</a></td>
+<td>ec2_group fails to give access to ELB security gro</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
+<td>Fix description of rules option in ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
+<td>check either ec2_group source or destination (egre</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
+<td>Add tags support to ec2_group module</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
+<td>ec2_group: Add a check for invalid ports on make_r</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
+<td>Fix ec2_group wait loop/return value consistency</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
+<td>Update ec2_group.py</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
+<td>eu-west-1a is a zone not a region. removed the 'a'</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
+<td>Add rule revocation capabilities to ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
+<td>Fix ec2_group 'rules' doc string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/11249">ansible/issues/11249</a></td>
+<td>ec2_group should allow for blank egress rules with</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/13976">ansible/issues/13976</a></td>
+<td>[EC2-Tag] Ansible 2.0.0.2 - using register with a </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/17004">ansible/issues/17004</a></td>
+<td>ec2_group: Small error in "rules" option descripti</td>
 </tr>
 <tr>
 <td>rds</td>
@@ -10716,61 +10701,6 @@
 <td>Fix issues with syntax errors in policy_json/polic</td>
 </tr>
 <tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4128">ansible-modules-core/pull/4128</a></td>
-<td>WIP: Test PR, do not merge.</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/13410">ansible/issues/13410</a></td>
-<td>Solaris hosts can't be pinged</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/14210">ansible/issues/14210</a></td>
-<td>os.listdir(sysdir) OSError: [Errno 2]</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/14530">ansible/issues/14530</a></td>
-<td>No Ansible Commands Work Ubuntu 14.04, Including P</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/15597">ansible/issues/15597</a></td>
-<td>Become with doas not working</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/15642">ansible/issues/15642</a></td>
-<td>become-method pfexec does not work</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/16396">ansible/issues/16396</a></td>
-<td>Issues with ControlPath/ControlPersist</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/16668">ansible/issues/16668</a></td>
-<td>Unable to ping hosts with new ansible setup</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/16845">ansible/issues/16845</a></td>
-<td>ansible-playbook fails, ansible works</td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/17096">ansible/issues/17096</a></td>
-<td>Ansible SSH Strange behavior </td>
-</tr>
-<tr>
-<td>ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/17367">ansible/issues/17367</a></td>
-<td>-o, --one-line strips data for UNREACHABLE</td>
-</tr>
-<tr>
 <td>find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2775">ansible-modules-core/issues/2775</a></td>
 <td>find_module: allow regex in paths</td>
@@ -10929,6 +10859,56 @@
 <td>cron</td>
 <td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
 <td>[Cron module] validate cron_file parameter</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/13410">ansible/issues/13410</a></td>
+<td>Solaris hosts can't be pinged</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/14210">ansible/issues/14210</a></td>
+<td>os.listdir(sysdir) OSError: [Errno 2]</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/14530">ansible/issues/14530</a></td>
+<td>No Ansible Commands Work Ubuntu 14.04, Including P</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/15597">ansible/issues/15597</a></td>
+<td>Become with doas not working</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/15642">ansible/issues/15642</a></td>
+<td>become-method pfexec does not work</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/16396">ansible/issues/16396</a></td>
+<td>Issues with ControlPath/ControlPersist</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/16668">ansible/issues/16668</a></td>
+<td>Unable to ping hosts with new ansible setup</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/16845">ansible/issues/16845</a></td>
+<td>ansible-playbook fails, ansible works</td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/17096">ansible/issues/17096</a></td>
+<td>Ansible SSH Strange behavior </td>
+</tr>
+<tr>
+<td>ping</td>
+<td><a href="https://github.com/ansible/ansible/issues/17367">ansible/issues/17367</a></td>
+<td>-o, --one-line strips data for UNREACHABLE</td>
 </tr>
 <tr>
 <td>digital_ocean</td>
@@ -12341,36 +12321,6 @@
 <td>Refactored Consul inventory script</td>
 </tr>
 <tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
-<td>Expose replace module's backup file path</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4641">ansible-modules-core/pull/4641</a></td>
-<td>Fix replace</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4646">ansible-modules-core/pull/4646</a></td>
-<td>replace - Declare empty diff dict ahead of time</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
-<td>Replace PyCrypto usage with cryptography.io</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
-<td>Replace pipes.quote for shlex_quote</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
-<td>raise an exception on undefined environment variab</td>
-</tr>
-<tr>
 <td>rpm_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1135">ansible-modules-core/issues/1135</a></td>
 <td>Module rpm_key does not honor proxy env var</td>
@@ -12874,6 +12824,31 @@
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible/pull/14817">ansible/pull/14817</a></td>
 <td>Add https support for consul lookup plugin</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
+<td>Expose replace module's backup file path</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4641">ansible-modules-core/pull/4641</a></td>
+<td>Fix replace</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
+<td>Replace PyCrypto usage with cryptography.io</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
+<td>Replace pipes.quote for shlex_quote</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
+<td>raise an exception on undefined environment variab</td>
 </tr>
 <tr>
 <td>ec2_ami</td>
@@ -13836,6 +13811,26 @@
 <td>Add regex_capture jinja2 filter.</td>
 </tr>
 <tr>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2487">ansible-modules-extras/issues/2487</a></td>
+<td>Deployment kind support on Kubernetes module</td>
+</tr>
+<tr>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2466">ansible-modules-extras/pull/2466</a></td>
+<td>Add the ability to gather the status of pods & con</td>
+</tr>
+<tr>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2762">ansible-modules-extras/pull/2762</a></td>
+<td>Add kubernetes beta resource kinds (Deployment, Da</td>
+</tr>
+<tr>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2843">ansible-modules-extras/pull/2843</a></td>
+<td>Add URLs for objects from extensions API group</td>
+</tr>
+<tr>
 <td>win_acl</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1480">ansible-modules-extras/pull/1480</a></td>
 <td>Modified win_acl to accept Security Identifiers fo</td>
@@ -14136,6 +14131,21 @@
 <td>Clean up connection and interpreter settings from </td>
 </tr>
 <tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2622">ansible-modules-core/issues/2622</a></td>
+<td>apt_key --check falsely reports change</td>
+</tr>
+<tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
+<td>apt_key doesn't compare key data in check mode</td>
+</tr>
+<tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible/issues/17370">ansible/issues/17370</a></td>
+<td>apt_key gives wrong error message when blocked by </td>
+</tr>
+<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1638">ansible-modules-extras/issues/1638</a></td>
 <td>locale_gen should check /usr/share/i18n/SUPPORTED </td>
@@ -14331,21 +14341,6 @@
 <td>Ansible mercurial clone hangs on deploy, runs fine</td>
 </tr>
 <tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2487">ansible-modules-extras/issues/2487</a></td>
-<td>Deployment kind support on Kubernetes module</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2466">ansible-modules-extras/pull/2466</a></td>
-<td>Add the ability to gather the status of pods & con</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2762">ansible-modules-extras/pull/2762</a></td>
-<td>Add kubernetes beta resource kinds (Deployment, Da</td>
-</tr>
-<tr>
 <td>win_regedit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1142">ansible-modules-extras/issues/1142</a></td>
 <td>win_regedit: slow performance when looping (to set</td>
@@ -14464,16 +14459,6 @@
 <td>win_iis_website</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2212">ansible-modules-extras/pull/2212</a></td>
 <td>fix 'The property 'Value' cannot be found on this </td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/issues/17301">ansible/issues/17301</a></td>
-<td>KeyError: become_pass</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/16678">ansible/pull/16678</a></td>
-<td>cache the check for controlpersist on the controlh</td>
 </tr>
 <tr>
 <td>vmware_vm_facts</td>
@@ -14846,16 +14831,6 @@
 <td>Added module win_zip</td>
 </tr>
 <tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2622">ansible-modules-core/issues/2622</a></td>
-<td>apt_key --check falsely reports change</td>
-</tr>
-<tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
-<td>apt_key doesn't compare key data in check mode</td>
-</tr>
-<tr>
 <td>ini</td>
 <td><a href="https://github.com/ansible/ansible/pull/13442">ansible/pull/13442</a></td>
 <td>Allow ini plugin to load file using other encoding</td>
@@ -15219,6 +15194,11 @@
 <td>nxos_evpn_global</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4622">ansible-modules-core/pull/4622</a></td>
 <td>Adding nxos_evpn_global module</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/16678">ansible/pull/16678</a></td>
+<td>cache the check for controlpersist on the controlh</td>
 </tr>
 <tr>
 <td>bigpanda</td>

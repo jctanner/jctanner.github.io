@@ -167,8 +167,18 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4632">ansible-modules-core/pull/4632</a></td>
+<td>Python3 fixes to copy, file, and stat so that the </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4649">ansible-modules-core/pull/4649</a></td>
 <td>bugfix that adds missing itertools import to ios_f</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4657">ansible-modules-core/pull/4657</a></td>
+<td>Added semicolon to list of unsupported operators p</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11159,6 +11169,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17353">ansible/issues/17353</a></td>
 <td>Error "invalid selinux context" in multiple module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17366">ansible/issues/17366</a></td>
+<td>How to copy from a remote Unix share to a Windows </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -26487,6 +26502,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/15943">ansible/pull/15943</a></td>
+<td>Add a few python3 fix, mostly found by trial and e</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15945">ansible/pull/15945</a></td>
 <td>Update for preferred syntax</td>
 </tr>
@@ -27539,6 +27559,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17351">ansible/pull/17351</a></td>
 <td>1st draft really documenting common return vals</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17357">ansible/pull/17357</a></td>
+<td>Add detection of python3 to hacking/env-setup</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -54231,666 +54256,6 @@
 <td>Move backups to module_common and add them for lin</td>
 </tr>
 <tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/340">ansible-modules-core/issues/340</a></td>
-<td>cloud/docker.py not supporting omit policy</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3499">ansible-modules-core/issues/3499</a></td>
-<td>r</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3762">ansible-modules-core/issues/3762</a></td>
-<td>docker_container doesn't (can't) easily work on At</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3765">ansible-modules-core/issues/3765</a></td>
-<td>docker_container networks: unable to join containe</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3766">ansible-modules-core/issues/3766</a></td>
-<td>docker_container networks: unable to join containe</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3768">ansible-modules-core/issues/3768</a></td>
-<td>"docker_container" misses env-file option that "do</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3775">ansible-modules-core/issues/3775</a></td>
-<td>docker_container removes and recreates containers </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3783">ansible-modules-core/issues/3783</a></td>
-<td>docker_container with 'command' returns 'not found</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3811">ansible-modules-core/issues/3811</a></td>
-<td>Problem docker_container module volumes parameter </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3822">ansible-modules-core/issues/3822</a></td>
-<td>docker_container - Setting state to stopped does n</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3823">ansible-modules-core/issues/3823</a></td>
-<td>docker_container - Volume With Root Host Directory</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3824">ansible-modules-core/issues/3824</a></td>
-<td>docker_container - Registry Field Not Used</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3864">ansible-modules-core/issues/3864</a></td>
-<td>docker_container: When using restart_policy, Ansib</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3866">ansible-modules-core/issues/3866</a></td>
-<td>docker_container - env variables with multiple '='</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3927">ansible-modules-core/issues/3927</a></td>
-<td>docker_container state present</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3929">ansible-modules-core/issues/3929</a></td>
-<td>docker_container: quotes are passed to the command</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3941">ansible-modules-core/issues/3941</a></td>
-<td>docker_container: by default will always remove vo</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3942">ansible-modules-core/issues/3942</a></td>
-<td>docker_container plugin: command is not working as</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3945">ansible-modules-core/issues/3945</a></td>
-<td>docker_container detach does not detach the contai</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3949">ansible-modules-core/issues/3949</a></td>
-<td>docker_container: ignore_image flag is not impleme</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3956">ansible-modules-core/issues/3956</a></td>
-<td>docker_container - security_opts - unknown type <t</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3972">ansible-modules-core/issues/3972</a></td>
-<td>docker_container wraps command in single quotes wh</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3989">ansible-modules-core/issues/3989</a></td>
-<td>Docker container. Problem in multi interface port </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4027">ansible-modules-core/issues/4027</a></td>
-<td>docker_container state not functioning as expected</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4028">ansible-modules-core/issues/4028</a></td>
-<td>docker_container restart_policy docs do not match </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4087">ansible-modules-core/issues/4087</a></td>
-<td>docker_container: add </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4088">ansible-modules-core/issues/4088</a></td>
-<td>docker_container: add `cleanup` state value</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4091">ansible-modules-core/issues/4091</a></td>
-<td>docker_container errors out when exposing random e</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4099">ansible-modules-core/issues/4099</a></td>
-<td>docker_container command does not accept YAML fold</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4139">ansible-modules-core/issues/4139</a></td>
-<td>docker_container module purge_networks FAILS</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4161">ansible-modules-core/issues/4161</a></td>
-<td>docker_container module fails when no ports are ex</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4199">ansible-modules-core/issues/4199</a></td>
-<td>docker_container module state stopped should stop </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4228">ansible-modules-core/issues/4228</a></td>
-<td>Docker volumes issue</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4246">ansible-modules-core/issues/4246</a></td>
-<td>docker_container cannot find installed docker-py</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4354">ansible-modules-core/issues/4354</a></td>
-<td>docker_container module not exposed port properly </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4356">ansible-modules-core/issues/4356</a></td>
-<td>docker_container module finishes execution before </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4453">ansible-modules-core/issues/4453</a></td>
-<td>docker_container > networks is broken</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/876">ansible-modules-core/issues/876</a></td>
-<td>Hidden files (dotfiles) are not excluded in 'assem</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1569">ansible-modules-core/pull/1569</a></td>
-<td>Change docs to reflect correct when syntax for mat</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2365">ansible-modules-core/pull/2365</a></td>
-<td>Update documentation to reflect need for mysql cli</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3015">ansible-modules-core/pull/3015</a></td>
-<td>added unsafe_writes option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/312">ansible-modules-core/pull/312</a></td>
-<td>Read files in chunks to avoid OOM scenarios for la</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3327">ansible-modules-core/pull/3327</a></td>
-<td>Added support for accepting extra config options i</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3495">ansible-modules-core/pull/3495</a></td>
-<td>Adding docker_container</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3526">ansible-modules-core/pull/3526</a></td>
-<td>ansible-validate-modules part 4: Enable check on a</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3618">ansible-modules-core/pull/3618</a></td>
-<td>Fixed parameters passing in container_create metho</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3686">ansible-modules-core/pull/3686</a></td>
-<td>move environment variable gathering to end of __in</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3776">ansible-modules-core/pull/3776</a></td>
-<td>Fix "ansbile_facts" typo in docker_container modul</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3779">ansible-modules-core/pull/3779</a></td>
-<td>Fix 'restart_policy' in 'docker_container' module</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3784">ansible-modules-core/pull/3784</a></td>
-<td>Fix for #3783 - command returns not found or does </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3785">ansible-modules-core/pull/3785</a></td>
-<td>Fix restart_poicy</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3786">ansible-modules-core/pull/3786</a></td>
-<td>Fix for issue #3775 - env config comparison</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3787">ansible-modules-core/pull/3787</a></td>
-<td>Fix for 3768 - adding support for env_file</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3796">ansible-modules-core/pull/3796</a></td>
-<td>Fix 3766</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3809">ansible-modules-core/pull/3809</a></td>
-<td>Fix docker ulimit error</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3812">ansible-modules-core/pull/3812</a></td>
-<td>Fix volume to support not binding volumes to host</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3828">ansible-modules-core/pull/3828</a></td>
-<td>Fix volume to support not binding volumes to host</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3832">ansible-modules-core/pull/3832</a></td>
-<td>Fix upate typo</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3836">ansible-modules-core/pull/3836</a></td>
-<td>Remove registery option per #3824.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3837">ansible-modules-core/pull/3837</a></td>
-<td>Fix #3822 stop container</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3853">ansible-modules-core/pull/3853</a></td>
-<td>Remove unused method in ContainerManager</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3856">ansible-modules-core/pull/3856</a></td>
-<td>Fix #147 automatically expose published ports</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3867">ansible-modules-core/pull/3867</a></td>
-<td>Fix issue #3866</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3888">ansible-modules-core/pull/3888</a></td>
-<td>Docker container no dns</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3900">ansible-modules-core/pull/3900</a></td>
-<td>Update GitHub templates to reflect ansible/ansible</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3928">ansible-modules-core/pull/3928</a></td>
-<td>Fix #3927 - only stop/kill running containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3944">ansible-modules-core/pull/3944</a></td>
-<td>docker_container: always removes volumes associate</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3947">ansible-modules-core/pull/3947</a></td>
-<td>docker_container detach not waiting on container t</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3955">ansible-modules-core/pull/3955</a></td>
-<td>docker_container - security_opts - unknown type <t</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3959">ansible-modules-core/pull/3959</a></td>
-<td>docker_container - security_opts - unknown type <t</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3992">ansible-modules-core/pull/3992</a></td>
-<td>[docker_container] typo in has_different_configura</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3994">ansible-modules-core/pull/3994</a></td>
-<td>Fix ulimit comparison</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4039">ansible-modules-core/pull/4039</a></td>
-<td>Initial version of IOSXE modules</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4144">ansible-modules-core/pull/4144</a></td>
-<td>Add cleanup parameter.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4151">ansible-modules-core/pull/4151</a></td>
-<td>Fix purge_networks</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4155">ansible-modules-core/pull/4155</a></td>
-<td>Support publishing all ports.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4157">ansible-modules-core/pull/4157</a></td>
-<td>Fix multi-interface port binding.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4162">ansible-modules-core/pull/4162</a></td>
-<td>Fix 4161 - docker_container module fails when no p</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4166">ansible-modules-core/pull/4166</a></td>
-<td>Fix module failing when no ports are exposed</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4173">ansible-modules-core/pull/4173</a></td>
-<td>Entrypoint fails with 'command not found' error.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4313">ansible-modules-core/pull/4313</a></td>
-<td>Bind published ports to specific host IP when one </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4314">ansible-modules-core/pull/4314</a></td>
-<td>unsafe writes!</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4315">ansible-modules-core/pull/4315</a></td>
-<td>Added implementation of ignore_image</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4353">ansible-modules-core/pull/4353</a></td>
-<td>typo in the documentation of the "state" parameter</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4407">ansible-modules-core/pull/4407</a></td>
-<td>If debug true, include actions and differences in </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4416">ansible-modules-core/pull/4416</a></td>
-<td>Fix network alias and network link comparison.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4456">ansible-modules-core/pull/4456</a></td>
-<td>Exposing tcp and udp for same port fails. Fixes is</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2398">ansible-modules-extras/issues/2398</a></td>
-<td>test issue, ignore</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2399">ansible-modules-extras/issues/2399</a></td>
-<td>test issue, ignore</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2400">ansible-modules-extras/issues/2400</a></td>
-<td>alikins test issue for testing of ansibulbot issue</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2418">ansible-modules-extras/issues/2418</a></td>
-<td>docker_container unable to attach named volumes</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2514">ansible-modules-extras/issues/2514</a></td>
-<td> docker_container module fails when used with chec</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2581">ansible-modules-extras/issues/2581</a></td>
-<td>Error specifying `dns_servers` in `docker_containe</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1286">ansible-modules-extras/pull/1286</a></td>
-<td>Fixing Issue #1236</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2138">ansible-modules-extras/pull/2138</a></td>
-<td>Pull latest changes</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2397">ansible-modules-extras/pull/2397</a></td>
-<td>Update GitHub templates to reflect ansible/ansible</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2507">ansible-modules-extras/pull/2507</a></td>
-<td>fix typo in get_exception(), extends fix #2502</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2557">ansible-modules-extras/pull/2557</a></td>
-<td>which not who</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2723">ansible-modules-extras/pull/2723</a></td>
-<td>Merge pull request #1 from ansible/devel</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2724">ansible-modules-extras/pull/2724</a></td>
-<td>limit scope of install.ps1 to fix chocolatey insta</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16211">ansible/issues/16211</a></td>
-<td>docker_container state present</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16230">ansible/issues/16230</a></td>
-<td>docker_container unable to attach named volumes</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16471">ansible/issues/16471</a></td>
-<td>docker_container does not works unexpectedly</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16472">ansible/issues/16472</a></td>
-<td>docker_container no works correctly</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16543">ansible/issues/16543</a></td>
-<td>docker_container module fails when used with check</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/1021">ansible/pull/1021</a></td>
-<td>Have ansible respect private_key_file option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/10474">ansible/pull/10474</a></td>
-<td>Including diff in Runner results return so the Pla</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/10914">ansible/pull/10914</a></td>
-<td>hack to prevent tempalte/copy errors on vagrant sy</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/11135">ansible/pull/11135</a></td>
-<td>If remote_addr isn't set, set to ipv4_address</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/14644">ansible/pull/14644</a></td>
-<td>Add docker_container module proposal.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/14798">ansible/pull/14798</a></td>
-<td>Update to docker_container module proposal</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/14834">ansible/pull/14834</a></td>
-<td>Updating docker_container module proposal</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/15230">ansible/pull/15230</a></td>
-<td>Only set distribution_release on CoreOS nodes that</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/15272">ansible/pull/15272</a></td>
-<td>Travisreleasebuild</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16076">ansible/pull/16076</a></td>
-<td>Pin paramiko to < 2</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16205">ansible/pull/16205</a></td>
-<td>Remove a useless section, only act on 'shell'</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16247">ansible/pull/16247</a></td>
-<td>Bugfix: (re)allow ansible_python_interpreter to co</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16290">ansible/pull/16290</a></td>
-<td>Delete currently unused code.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16362">ansible/pull/16362</a></td>
-<td>[docker_container] image lookup should default to </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16411">ansible/pull/16411</a></td>
-<td>Added and-quit to all commit statements.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16498">ansible/pull/16498</a></td>
-<td>Fix some typos</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16538">ansible/pull/16538</a></td>
-<td>Use loop_control.loop_var directly</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16559">ansible/pull/16559</a></td>
-<td>Fix authentication via params and env variables.</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16646">ansible/pull/16646</a></td>
-<td>J2 test docs</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16680">ansible/pull/16680</a></td>
-<td>Fix find_image() not matching on tag</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16704">ansible/pull/16704</a></td>
-<td>A little unittest refactoring</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16738">ansible/pull/16738</a></td>
-<td>Move delegate_to out of runner module_vars to prev</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/17063">ansible/pull/17063</a></td>
-<td>updated container detection to new lxc</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/17226">ansible/pull/17226</a></td>
-<td>xrange and izip_longest aren't available in vanill</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/2247">ansible/pull/2247</a></td>
-<td>Adding run_in_check_mode parameter to run_command </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/2485">ansible/pull/2485</a></td>
-<td>Add quotes around postgresql database name</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/8323">ansible/pull/8323</a></td>
-<td>Implement default_omit</td>
-</tr>
-<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1253">ansible-modules-core/issues/1253</a></td>
 <td>authorized_keys with exclusive=yes doesn't work as</td>
@@ -55549,6 +54914,666 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible/pull/9206">ansible/pull/9206</a></td>
 <td>with_items maps back into a single module call for</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/340">ansible-modules-core/issues/340</a></td>
+<td>cloud/docker.py not supporting omit policy</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3499">ansible-modules-core/issues/3499</a></td>
+<td>r</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3762">ansible-modules-core/issues/3762</a></td>
+<td>docker_container doesn't (can't) easily work on At</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3765">ansible-modules-core/issues/3765</a></td>
+<td>docker_container networks: unable to join containe</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3766">ansible-modules-core/issues/3766</a></td>
+<td>docker_container networks: unable to join containe</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3768">ansible-modules-core/issues/3768</a></td>
+<td>"docker_container" misses env-file option that "do</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3775">ansible-modules-core/issues/3775</a></td>
+<td>docker_container removes and recreates containers </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3783">ansible-modules-core/issues/3783</a></td>
+<td>docker_container with 'command' returns 'not found</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3811">ansible-modules-core/issues/3811</a></td>
+<td>Problem docker_container module volumes parameter </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3822">ansible-modules-core/issues/3822</a></td>
+<td>docker_container - Setting state to stopped does n</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3823">ansible-modules-core/issues/3823</a></td>
+<td>docker_container - Volume With Root Host Directory</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3824">ansible-modules-core/issues/3824</a></td>
+<td>docker_container - Registry Field Not Used</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3864">ansible-modules-core/issues/3864</a></td>
+<td>docker_container: When using restart_policy, Ansib</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3866">ansible-modules-core/issues/3866</a></td>
+<td>docker_container - env variables with multiple '='</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3927">ansible-modules-core/issues/3927</a></td>
+<td>docker_container state present</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3929">ansible-modules-core/issues/3929</a></td>
+<td>docker_container: quotes are passed to the command</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3941">ansible-modules-core/issues/3941</a></td>
+<td>docker_container: by default will always remove vo</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3942">ansible-modules-core/issues/3942</a></td>
+<td>docker_container plugin: command is not working as</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3945">ansible-modules-core/issues/3945</a></td>
+<td>docker_container detach does not detach the contai</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3949">ansible-modules-core/issues/3949</a></td>
+<td>docker_container: ignore_image flag is not impleme</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3956">ansible-modules-core/issues/3956</a></td>
+<td>docker_container - security_opts - unknown type <t</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3972">ansible-modules-core/issues/3972</a></td>
+<td>docker_container wraps command in single quotes wh</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3989">ansible-modules-core/issues/3989</a></td>
+<td>Docker container. Problem in multi interface port </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4027">ansible-modules-core/issues/4027</a></td>
+<td>docker_container state not functioning as expected</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4028">ansible-modules-core/issues/4028</a></td>
+<td>docker_container restart_policy docs do not match </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4087">ansible-modules-core/issues/4087</a></td>
+<td>docker_container: add </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4088">ansible-modules-core/issues/4088</a></td>
+<td>docker_container: add `cleanup` state value</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4091">ansible-modules-core/issues/4091</a></td>
+<td>docker_container errors out when exposing random e</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4099">ansible-modules-core/issues/4099</a></td>
+<td>docker_container command does not accept YAML fold</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4139">ansible-modules-core/issues/4139</a></td>
+<td>docker_container module purge_networks FAILS</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4161">ansible-modules-core/issues/4161</a></td>
+<td>docker_container module fails when no ports are ex</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4199">ansible-modules-core/issues/4199</a></td>
+<td>docker_container module state stopped should stop </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4228">ansible-modules-core/issues/4228</a></td>
+<td>Docker volumes issue</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4246">ansible-modules-core/issues/4246</a></td>
+<td>docker_container cannot find installed docker-py</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4354">ansible-modules-core/issues/4354</a></td>
+<td>docker_container module not exposed port properly </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4356">ansible-modules-core/issues/4356</a></td>
+<td>docker_container module finishes execution before </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4453">ansible-modules-core/issues/4453</a></td>
+<td>docker_container > networks is broken</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/876">ansible-modules-core/issues/876</a></td>
+<td>Hidden files (dotfiles) are not excluded in 'assem</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1569">ansible-modules-core/pull/1569</a></td>
+<td>Change docs to reflect correct when syntax for mat</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2365">ansible-modules-core/pull/2365</a></td>
+<td>Update documentation to reflect need for mysql cli</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3015">ansible-modules-core/pull/3015</a></td>
+<td>added unsafe_writes option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/312">ansible-modules-core/pull/312</a></td>
+<td>Read files in chunks to avoid OOM scenarios for la</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3327">ansible-modules-core/pull/3327</a></td>
+<td>Added support for accepting extra config options i</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3495">ansible-modules-core/pull/3495</a></td>
+<td>Adding docker_container</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3526">ansible-modules-core/pull/3526</a></td>
+<td>ansible-validate-modules part 4: Enable check on a</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3618">ansible-modules-core/pull/3618</a></td>
+<td>Fixed parameters passing in container_create metho</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3686">ansible-modules-core/pull/3686</a></td>
+<td>move environment variable gathering to end of __in</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3776">ansible-modules-core/pull/3776</a></td>
+<td>Fix "ansbile_facts" typo in docker_container modul</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3779">ansible-modules-core/pull/3779</a></td>
+<td>Fix 'restart_policy' in 'docker_container' module</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3784">ansible-modules-core/pull/3784</a></td>
+<td>Fix for #3783 - command returns not found or does </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3785">ansible-modules-core/pull/3785</a></td>
+<td>Fix restart_poicy</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3786">ansible-modules-core/pull/3786</a></td>
+<td>Fix for issue #3775 - env config comparison</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3787">ansible-modules-core/pull/3787</a></td>
+<td>Fix for 3768 - adding support for env_file</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3796">ansible-modules-core/pull/3796</a></td>
+<td>Fix 3766</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3809">ansible-modules-core/pull/3809</a></td>
+<td>Fix docker ulimit error</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3812">ansible-modules-core/pull/3812</a></td>
+<td>Fix volume to support not binding volumes to host</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3828">ansible-modules-core/pull/3828</a></td>
+<td>Fix volume to support not binding volumes to host</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3832">ansible-modules-core/pull/3832</a></td>
+<td>Fix upate typo</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3836">ansible-modules-core/pull/3836</a></td>
+<td>Remove registery option per #3824.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3837">ansible-modules-core/pull/3837</a></td>
+<td>Fix #3822 stop container</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3853">ansible-modules-core/pull/3853</a></td>
+<td>Remove unused method in ContainerManager</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3856">ansible-modules-core/pull/3856</a></td>
+<td>Fix #147 automatically expose published ports</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3867">ansible-modules-core/pull/3867</a></td>
+<td>Fix issue #3866</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3888">ansible-modules-core/pull/3888</a></td>
+<td>Docker container no dns</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3900">ansible-modules-core/pull/3900</a></td>
+<td>Update GitHub templates to reflect ansible/ansible</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3928">ansible-modules-core/pull/3928</a></td>
+<td>Fix #3927 - only stop/kill running containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3944">ansible-modules-core/pull/3944</a></td>
+<td>docker_container: always removes volumes associate</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3947">ansible-modules-core/pull/3947</a></td>
+<td>docker_container detach not waiting on container t</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3955">ansible-modules-core/pull/3955</a></td>
+<td>docker_container - security_opts - unknown type <t</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3959">ansible-modules-core/pull/3959</a></td>
+<td>docker_container - security_opts - unknown type <t</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3992">ansible-modules-core/pull/3992</a></td>
+<td>[docker_container] typo in has_different_configura</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3994">ansible-modules-core/pull/3994</a></td>
+<td>Fix ulimit comparison</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4039">ansible-modules-core/pull/4039</a></td>
+<td>Initial version of IOSXE modules</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4144">ansible-modules-core/pull/4144</a></td>
+<td>Add cleanup parameter.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4151">ansible-modules-core/pull/4151</a></td>
+<td>Fix purge_networks</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4155">ansible-modules-core/pull/4155</a></td>
+<td>Support publishing all ports.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4157">ansible-modules-core/pull/4157</a></td>
+<td>Fix multi-interface port binding.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4162">ansible-modules-core/pull/4162</a></td>
+<td>Fix 4161 - docker_container module fails when no p</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4166">ansible-modules-core/pull/4166</a></td>
+<td>Fix module failing when no ports are exposed</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4173">ansible-modules-core/pull/4173</a></td>
+<td>Entrypoint fails with 'command not found' error.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4313">ansible-modules-core/pull/4313</a></td>
+<td>Bind published ports to specific host IP when one </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4314">ansible-modules-core/pull/4314</a></td>
+<td>unsafe writes!</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4315">ansible-modules-core/pull/4315</a></td>
+<td>Added implementation of ignore_image</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4353">ansible-modules-core/pull/4353</a></td>
+<td>typo in the documentation of the "state" parameter</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4407">ansible-modules-core/pull/4407</a></td>
+<td>If debug true, include actions and differences in </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4416">ansible-modules-core/pull/4416</a></td>
+<td>Fix network alias and network link comparison.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4456">ansible-modules-core/pull/4456</a></td>
+<td>Exposing tcp and udp for same port fails. Fixes is</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2398">ansible-modules-extras/issues/2398</a></td>
+<td>test issue, ignore</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2399">ansible-modules-extras/issues/2399</a></td>
+<td>test issue, ignore</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2400">ansible-modules-extras/issues/2400</a></td>
+<td>alikins test issue for testing of ansibulbot issue</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2418">ansible-modules-extras/issues/2418</a></td>
+<td>docker_container unable to attach named volumes</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2514">ansible-modules-extras/issues/2514</a></td>
+<td> docker_container module fails when used with chec</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2581">ansible-modules-extras/issues/2581</a></td>
+<td>Error specifying `dns_servers` in `docker_containe</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1286">ansible-modules-extras/pull/1286</a></td>
+<td>Fixing Issue #1236</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2138">ansible-modules-extras/pull/2138</a></td>
+<td>Pull latest changes</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2397">ansible-modules-extras/pull/2397</a></td>
+<td>Update GitHub templates to reflect ansible/ansible</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2507">ansible-modules-extras/pull/2507</a></td>
+<td>fix typo in get_exception(), extends fix #2502</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2557">ansible-modules-extras/pull/2557</a></td>
+<td>which not who</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2723">ansible-modules-extras/pull/2723</a></td>
+<td>Merge pull request #1 from ansible/devel</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2724">ansible-modules-extras/pull/2724</a></td>
+<td>limit scope of install.ps1 to fix chocolatey insta</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16211">ansible/issues/16211</a></td>
+<td>docker_container state present</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16230">ansible/issues/16230</a></td>
+<td>docker_container unable to attach named volumes</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16471">ansible/issues/16471</a></td>
+<td>docker_container does not works unexpectedly</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16472">ansible/issues/16472</a></td>
+<td>docker_container no works correctly</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16543">ansible/issues/16543</a></td>
+<td>docker_container module fails when used with check</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/1021">ansible/pull/1021</a></td>
+<td>Have ansible respect private_key_file option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/10474">ansible/pull/10474</a></td>
+<td>Including diff in Runner results return so the Pla</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/10914">ansible/pull/10914</a></td>
+<td>hack to prevent tempalte/copy errors on vagrant sy</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/11135">ansible/pull/11135</a></td>
+<td>If remote_addr isn't set, set to ipv4_address</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/14644">ansible/pull/14644</a></td>
+<td>Add docker_container module proposal.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/14798">ansible/pull/14798</a></td>
+<td>Update to docker_container module proposal</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/14834">ansible/pull/14834</a></td>
+<td>Updating docker_container module proposal</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/15230">ansible/pull/15230</a></td>
+<td>Only set distribution_release on CoreOS nodes that</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/15272">ansible/pull/15272</a></td>
+<td>Travisreleasebuild</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16076">ansible/pull/16076</a></td>
+<td>Pin paramiko to < 2</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16205">ansible/pull/16205</a></td>
+<td>Remove a useless section, only act on 'shell'</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16247">ansible/pull/16247</a></td>
+<td>Bugfix: (re)allow ansible_python_interpreter to co</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16290">ansible/pull/16290</a></td>
+<td>Delete currently unused code.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16362">ansible/pull/16362</a></td>
+<td>[docker_container] image lookup should default to </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16411">ansible/pull/16411</a></td>
+<td>Added and-quit to all commit statements.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16498">ansible/pull/16498</a></td>
+<td>Fix some typos</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16538">ansible/pull/16538</a></td>
+<td>Use loop_control.loop_var directly</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16559">ansible/pull/16559</a></td>
+<td>Fix authentication via params and env variables.</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16646">ansible/pull/16646</a></td>
+<td>J2 test docs</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16680">ansible/pull/16680</a></td>
+<td>Fix find_image() not matching on tag</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16704">ansible/pull/16704</a></td>
+<td>A little unittest refactoring</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16738">ansible/pull/16738</a></td>
+<td>Move delegate_to out of runner module_vars to prev</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/17063">ansible/pull/17063</a></td>
+<td>updated container detection to new lxc</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/17226">ansible/pull/17226</a></td>
+<td>xrange and izip_longest aren't available in vanill</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/2247">ansible/pull/2247</a></td>
+<td>Adding run_in_check_mode parameter to run_command </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/2485">ansible/pull/2485</a></td>
+<td>Add quotes around postgresql database name</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/8323">ansible/pull/8323</a></td>
+<td>Implement default_omit</td>
 </tr>
 <tr>
 <td>template</td>
@@ -56629,6 +56654,11 @@
 <td>facts</td>
 <td><a href="https://github.com/ansible/ansible/pull/17240">ansible/pull/17240</a></td>
 <td>Enable most unittests for python3</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17368">ansible/pull/17368</a></td>
+<td>Replace long with int</td>
 </tr>
 <tr>
 <td>facts</td>
@@ -67136,6 +67166,376 @@
 <td>Fix ansible-galaxy install error empty yaml file.</td>
 </tr>
 <tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1469">ansible-modules-core/issues/1469</a></td>
+<td>ec2_group documentation is out of sync on website </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3109">ansible-modules-core/issues/3109</a></td>
+<td>Executing ec2_group with rules fails with "Invalid</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3173">ansible-modules-core/issues/3173</a></td>
+<td>Error on ec2_group module ```Invalid rule paramete</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/373">ansible-modules-core/issues/373</a></td>
+<td>ec2_group can't add rule security group for other </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/529">ansible-modules-core/issues/529</a></td>
+<td>ec2_group module failures with ICMP protocol</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/697">ansible-modules-core/issues/697</a></td>
+<td>ec2_group with purge_rules will purge too many rul</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/895">ansible-modules-core/issues/895</a></td>
+<td>ec2_group fails to add/delete rules</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1081">ansible-modules-core/pull/1081</a></td>
+<td>normalize ports for non-icmp protocols</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1203">ansible-modules-core/pull/1203</a></td>
+<td>Ensure default egress rule when vpc_id is not defi</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1212">ansible-modules-core/pull/1212</a></td>
+<td>ec2_group: select own group if the name matches</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1398">ansible-modules-core/pull/1398</a></td>
+<td>Added support for foreign security groups (Fixes: </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1472">ansible-modules-core/pull/1472</a></td>
+<td>fix for 11177 where module readds rule even if the</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2127">ansible-modules-core/pull/2127</a></td>
+<td>ec2_group.py: added ICMP rule example</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/217">ansible-modules-core/pull/217</a></td>
+<td>Added cidr_ip to ec_group rules_egress example in </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2184">ansible-modules-core/pull/2184</a></td>
+<td>Check mode fix for ec2_group module</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3020">ansible-modules-core/pull/3020</a></td>
+<td>Fixed issues with iterating over ec2_group rules</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3041">ansible-modules-core/pull/3041</a></td>
+<td>ec2_group: specify param types in argument spec</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3096">ansible-modules-core/pull/3096</a></td>
+<td>fix for #14609</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3117">ansible-modules-core/pull/3117</a></td>
+<td>Fixes #3109: Executing ec2_group with rules fails </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/318">ansible-modules-core/pull/318</a></td>
+<td>Allow empty EC2 Security Group rules.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/324">ansible-modules-core/pull/324</a></td>
+<td>Validate Security Group rule parameter names for e</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3345">ansible-modules-core/pull/3345</a></td>
+<td>Prevent ec2group from deleting sgs during check_mo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/399">ansible-modules-core/pull/399</a></td>
+<td>ec2_group: make group_name only match groups in sp</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/405">ansible-modules-core/pull/405</a></td>
+<td>Fix typo of "rules_egress"</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4267">ansible-modules-core/pull/4267</a></td>
+<td>Make group_name resolution VPC aware</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4640">ansible-modules-core/pull/4640</a></td>
+<td>Validate rule fails when rule is an empty string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/51">ansible-modules-core/pull/51</a></td>
+<td>Support specifying cidr_ip as a list</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/531">ansible-modules-core/pull/531</a></td>
+<td>fixes #529 ec2_group module bug</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/698">ansible-modules-core/pull/698</a></td>
+<td>ec2_group with purge_rules will purge too many rul</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2230">ansible-modules-extras/issues/2230</a></td>
+<td>Security Group creation issue</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/10753">ansible/issues/10753</a></td>
+<td>ec2_group fails if security group already exists</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/11177">ansible/issues/11177</a></td>
+<td>ec2_group failure When proto is either 50 or 51</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/14063">ansible/issues/14063</a></td>
+<td>[ec2_group] Ansible 2.0.0.2 - "with_items" & "stdo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/14609">ansible/issues/14609</a></td>
+<td>ec2_group module not using array with rules parame</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/14645">ansible/issues/14645</a></td>
+<td>Executing ec2_group with rules fails with "Invalid</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/14732">ansible/issues/14732</a></td>
+<td>Error on ec2_group module ```Invalid rule paramete</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/15188">ansible/issues/15188</a></td>
+<td>ec2_group module throws duplicate error</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/15827">ansible/issues/15827</a></td>
+<td>Issue creating Security Groups using Ansible for A</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/4128">ansible/issues/4128</a></td>
+<td>ec2_group "delete security group" feature</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/4639">ansible/issues/4639</a></td>
+<td>ec2_group inconsistent vars</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/4643">ansible/issues/4643</a></td>
+<td>ec2_group add group name to options</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/4644">ansible/issues/4644</a></td>
+<td>ec2_group add rule for 'ALL'</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/5309">ansible/issues/5309</a></td>
+<td>ec2_group module: rules can't reference containing</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/5643">ansible/issues/5643</a></td>
+<td>ec2_group fails on repeated run (?)</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/5738">ansible/issues/5738</a></td>
+<td>ec2_group crashes on existing groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/6903">ansible/issues/6903</a></td>
+<td>ec2_group doesn't accept port ranges</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7027">ansible/issues/7027</a></td>
+<td>Default to sane egress policy in ec2_group (change</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7109">ansible/issues/7109</a></td>
+<td>ec2_group does not support groups from other accou</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7309">ansible/issues/7309</a></td>
+<td>ec2_group always detects a change even if there is</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7584">ansible/issues/7584</a></td>
+<td>Iterating cidr_ip values on rules for ec2_group mo</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7592">ansible/issues/7592</a></td>
+<td>ec2_group Errors when using self referencing group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7832">ansible/issues/7832</a></td>
+<td>ec2_group with wide open rule cant be run multiple</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/7850">ansible/issues/7850</a></td>
+<td>ec2_group occasionally fails with InvalidGroup.Not</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/issues/8960">ansible/issues/8960</a></td>
+<td>Allow tagging security groups created via ec2_grou</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/4338">ansible/pull/4338</a></td>
+<td>Add idempotency support to ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/4562">ansible/pull/4562</a></td>
+<td>Adding aws_access_key and aws_secret_key aliases t</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/5069">ansible/pull/5069</a></td>
+<td>Added module to handle nova security groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/5310">ansible/pull/5310</a></td>
+<td>Fix issue #5309: ec2_group: rules can't reference </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/5377">ansible/pull/5377</a></td>
+<td>Fix issue #5309: ec2_group: rules can't reference </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/5380">ansible/pull/5380</a></td>
+<td>ec2_group: rules can't reference containing group </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/5480">ansible/pull/5480</a></td>
+<td>ec2_group support for egress rules and referring t</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/6164">ansible/pull/6164</a></td>
+<td>Egress rules for ec2 security groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/6184">ansible/pull/6184</a></td>
+<td>Properly match existing security group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/6416">ansible/pull/6416</a></td>
+<td>Added support for egress rules and referring to se</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/6598">ansible/pull/6598</a></td>
+<td>library/cloud/ec2_group: Enable egress rules</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/7212">ansible/pull/7212</a></td>
+<td>Make sure a default allow out rule exists if no ot</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/7583">ansible/pull/7583</a></td>
+<td>Adds support to ec2_group for purging group rules</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/7610">ansible/pull/7610</a></td>
+<td>updating ec2_group example, to be more consistent </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/7653">ansible/pull/7653</a></td>
+<td>ec2_group: Fix for 500 error when creating new sec</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/7818">ansible/pull/7818</a></td>
+<td>adding selective rule addition & removal support t</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/8004">ansible/pull/8004</a></td>
+<td>ec2_group: Flag to allow creating a group but not </td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/8174">ansible/pull/8174</a></td>
+<td>Make ec2_group module not just fail</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/8515">ansible/pull/8515</a></td>
+<td>Small doc addition to ec2_group to show the variou</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible/pull/9053">ansible/pull/9053</a></td>
+<td>Support specifying ec2_group cidr_ip as a list</td>
+</tr>
+<tr>
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1094">ansible-modules-core/issues/1094</a></td>
 <td>'absent' state for digital ocean droplets should a</td>
@@ -67504,371 +67904,6 @@
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible/pull/9790">ansible/pull/9790</a></td>
 <td>Update digital_ocean.py to provide "_meta" header</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1469">ansible-modules-core/issues/1469</a></td>
-<td>ec2_group documentation is out of sync on website </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3109">ansible-modules-core/issues/3109</a></td>
-<td>Executing ec2_group with rules fails with "Invalid</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3173">ansible-modules-core/issues/3173</a></td>
-<td>Error on ec2_group module ```Invalid rule paramete</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/373">ansible-modules-core/issues/373</a></td>
-<td>ec2_group can't add rule security group for other </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/529">ansible-modules-core/issues/529</a></td>
-<td>ec2_group module failures with ICMP protocol</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/697">ansible-modules-core/issues/697</a></td>
-<td>ec2_group with purge_rules will purge too many rul</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/895">ansible-modules-core/issues/895</a></td>
-<td>ec2_group fails to add/delete rules</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1081">ansible-modules-core/pull/1081</a></td>
-<td>normalize ports for non-icmp protocols</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1203">ansible-modules-core/pull/1203</a></td>
-<td>Ensure default egress rule when vpc_id is not defi</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1212">ansible-modules-core/pull/1212</a></td>
-<td>ec2_group: select own group if the name matches</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1398">ansible-modules-core/pull/1398</a></td>
-<td>Added support for foreign security groups (Fixes: </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1472">ansible-modules-core/pull/1472</a></td>
-<td>fix for 11177 where module readds rule even if the</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2127">ansible-modules-core/pull/2127</a></td>
-<td>ec2_group.py: added ICMP rule example</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/217">ansible-modules-core/pull/217</a></td>
-<td>Added cidr_ip to ec_group rules_egress example in </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2184">ansible-modules-core/pull/2184</a></td>
-<td>Check mode fix for ec2_group module</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3020">ansible-modules-core/pull/3020</a></td>
-<td>Fixed issues with iterating over ec2_group rules</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3041">ansible-modules-core/pull/3041</a></td>
-<td>ec2_group: specify param types in argument spec</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3096">ansible-modules-core/pull/3096</a></td>
-<td>fix for #14609</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3117">ansible-modules-core/pull/3117</a></td>
-<td>Fixes #3109: Executing ec2_group with rules fails </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/318">ansible-modules-core/pull/318</a></td>
-<td>Allow empty EC2 Security Group rules.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/324">ansible-modules-core/pull/324</a></td>
-<td>Validate Security Group rule parameter names for e</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3345">ansible-modules-core/pull/3345</a></td>
-<td>Prevent ec2group from deleting sgs during check_mo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/399">ansible-modules-core/pull/399</a></td>
-<td>ec2_group: make group_name only match groups in sp</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/405">ansible-modules-core/pull/405</a></td>
-<td>Fix typo of "rules_egress"</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4267">ansible-modules-core/pull/4267</a></td>
-<td>Make group_name resolution VPC aware</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/51">ansible-modules-core/pull/51</a></td>
-<td>Support specifying cidr_ip as a list</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/531">ansible-modules-core/pull/531</a></td>
-<td>fixes #529 ec2_group module bug</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/698">ansible-modules-core/pull/698</a></td>
-<td>ec2_group with purge_rules will purge too many rul</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2230">ansible-modules-extras/issues/2230</a></td>
-<td>Security Group creation issue</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/10753">ansible/issues/10753</a></td>
-<td>ec2_group fails if security group already exists</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/11177">ansible/issues/11177</a></td>
-<td>ec2_group failure When proto is either 50 or 51</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/14063">ansible/issues/14063</a></td>
-<td>[ec2_group] Ansible 2.0.0.2 - "with_items" & "stdo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/14609">ansible/issues/14609</a></td>
-<td>ec2_group module not using array with rules parame</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/14645">ansible/issues/14645</a></td>
-<td>Executing ec2_group with rules fails with "Invalid</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/14732">ansible/issues/14732</a></td>
-<td>Error on ec2_group module ```Invalid rule paramete</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/15188">ansible/issues/15188</a></td>
-<td>ec2_group module throws duplicate error</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/15827">ansible/issues/15827</a></td>
-<td>Issue creating Security Groups using Ansible for A</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/4128">ansible/issues/4128</a></td>
-<td>ec2_group "delete security group" feature</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/4639">ansible/issues/4639</a></td>
-<td>ec2_group inconsistent vars</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/4643">ansible/issues/4643</a></td>
-<td>ec2_group add group name to options</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/4644">ansible/issues/4644</a></td>
-<td>ec2_group add rule for 'ALL'</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/5309">ansible/issues/5309</a></td>
-<td>ec2_group module: rules can't reference containing</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/5643">ansible/issues/5643</a></td>
-<td>ec2_group fails on repeated run (?)</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/5738">ansible/issues/5738</a></td>
-<td>ec2_group crashes on existing groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/6903">ansible/issues/6903</a></td>
-<td>ec2_group doesn't accept port ranges</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7027">ansible/issues/7027</a></td>
-<td>Default to sane egress policy in ec2_group (change</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7109">ansible/issues/7109</a></td>
-<td>ec2_group does not support groups from other accou</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7309">ansible/issues/7309</a></td>
-<td>ec2_group always detects a change even if there is</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7584">ansible/issues/7584</a></td>
-<td>Iterating cidr_ip values on rules for ec2_group mo</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7592">ansible/issues/7592</a></td>
-<td>ec2_group Errors when using self referencing group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7832">ansible/issues/7832</a></td>
-<td>ec2_group with wide open rule cant be run multiple</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/7850">ansible/issues/7850</a></td>
-<td>ec2_group occasionally fails with InvalidGroup.Not</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/issues/8960">ansible/issues/8960</a></td>
-<td>Allow tagging security groups created via ec2_grou</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/4338">ansible/pull/4338</a></td>
-<td>Add idempotency support to ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/4562">ansible/pull/4562</a></td>
-<td>Adding aws_access_key and aws_secret_key aliases t</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/5069">ansible/pull/5069</a></td>
-<td>Added module to handle nova security groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/5310">ansible/pull/5310</a></td>
-<td>Fix issue #5309: ec2_group: rules can't reference </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/5377">ansible/pull/5377</a></td>
-<td>Fix issue #5309: ec2_group: rules can't reference </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/5380">ansible/pull/5380</a></td>
-<td>ec2_group: rules can't reference containing group </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/5480">ansible/pull/5480</a></td>
-<td>ec2_group support for egress rules and referring t</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/6164">ansible/pull/6164</a></td>
-<td>Egress rules for ec2 security groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/6184">ansible/pull/6184</a></td>
-<td>Properly match existing security group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/6416">ansible/pull/6416</a></td>
-<td>Added support for egress rules and referring to se</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/6598">ansible/pull/6598</a></td>
-<td>library/cloud/ec2_group: Enable egress rules</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/7212">ansible/pull/7212</a></td>
-<td>Make sure a default allow out rule exists if no ot</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/7583">ansible/pull/7583</a></td>
-<td>Adds support to ec2_group for purging group rules</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/7610">ansible/pull/7610</a></td>
-<td>updating ec2_group example, to be more consistent </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/7653">ansible/pull/7653</a></td>
-<td>ec2_group: Fix for 500 error when creating new sec</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/7818">ansible/pull/7818</a></td>
-<td>adding selective rule addition & removal support t</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/8004">ansible/pull/8004</a></td>
-<td>ec2_group: Flag to allow creating a group but not </td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/8174">ansible/pull/8174</a></td>
-<td>Make ec2_group module not just fail</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/8515">ansible/pull/8515</a></td>
-<td>Small doc addition to ec2_group to show the variou</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible/pull/9053">ansible/pull/9053</a></td>
-<td>Support specifying ec2_group cidr_ip as a list</td>
 </tr>
 <tr>
 <td>add_host</td>
@@ -68931,6 +68966,346 @@
 <td>Fix concatenated json chunk parsing issue for dock</td>
 </tr>
 <tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1113">ansible-modules-core/issues/1113</a></td>
+<td>ec2_vpc module will not update subnet tags</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/122">ansible-modules-core/issues/122</a></td>
+<td>ec2_vpc module always returns "changed = true" whe</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1636">ansible-modules-core/issues/1636</a></td>
+<td>ec2-vpc does not support network-interface as a ga</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1686">ansible-modules-core/issues/1686</a></td>
+<td>Regression: ec2_vpc</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1717">ansible-modules-core/issues/1717</a></td>
+<td>ec2_vpc report a changed on each run </td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/172">ansible-modules-core/issues/172</a></td>
+<td>ec2_vpc subnets in seemingly random order</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2018">ansible-modules-core/issues/2018</a></td>
+<td>ec2_vpc not all resource_tags are supported</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2930">ansible-modules-core/issues/2930</a></td>
+<td>ec2_vpc doesn't create subnets correctly</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3123">ansible-modules-core/issues/3123</a></td>
+<td>AWS subnets mixed up when creating VPC</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3207">ansible-modules-core/issues/3207</a></td>
+<td>ec2_vpc creates a new vpc if you change the resour</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1">ansible-modules-core/pull/1</a></td>
+<td>Ability to tag route tables</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1133">ansible-modules-core/pull/1133</a></td>
+<td>New vpc module. does not contain subnet or route t</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1184">ansible-modules-core/pull/1184</a></td>
+<td>Fixes regression introduced by edf1ac1ea6ffd5d44bb</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1273">ansible-modules-core/pull/1273</a></td>
+<td>fixes issue 122, returns changed due to routes bei</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1274">ansible-modules-core/pull/1274</a></td>
+<td>fixes issue 122, where the module recreates the ro</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1462">ansible-modules-core/pull/1462</a></td>
+<td>Fixed a typo in ec2_vpc module documentation</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1903">ansible-modules-core/pull/1903</a></td>
+<td>ec2_vpc module update (eni and vpc peering connect</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/258">ansible-modules-core/pull/258</a></td>
+<td>EC2 route tables module</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2931">ansible-modules-core/pull/2931</a></td>
+<td>ec2_vpc creating/updating incorrect subnets</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/322">ansible-modules-core/pull/322</a></td>
+<td>Split out route table and subnet functionality fro</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/355">ansible-modules-core/pull/355</a></td>
+<td>ec2_vpc module: add route table resource tagging</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/356">ansible-modules-core/pull/356</a></td>
+<td>ec2_vpc module: add support for route table propag</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4638">ansible-modules-core/pull/4638</a></td>
+<td>Getting rid of a None type error when no resource </td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/825">ansible-modules-core/pull/825</a></td>
+<td>Fixes #172 Updated ec2_vpc module to return create</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/904">ansible-modules-core/pull/904</a></td>
+<td>Sort subnets by the order they are specified in th</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/995">ansible-modules-core/pull/995</a></td>
+<td>Add dhcp_options to VPC creation in cloud/amazon</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1860">ansible-modules-extras/issues/1860</a></td>
+<td>AWS ec2_vpc: Updating VPC renames/tags of existing</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2650">ansible-modules-extras/issues/2650</a></td>
+<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/47">ansible-modules-extras/issues/47</a></td>
+<td>ec2_vpc module always returns "changed = true"</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/10191">ansible/issues/10191</a></td>
+<td>unsupported parameter error when using resource_ta</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/12727">ansible/issues/12727</a></td>
+<td>After creating VPC peering connection ansible hang</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/12883">ansible/issues/12883</a></td>
+<td>ec2_vpc ignores profile parameter and uses default</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/14517">ansible/issues/14517</a></td>
+<td>skipping: no hosts matched while creating VPC in A</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/14532">ansible/issues/14532</a></td>
+<td>ec2_vpc remove doesn't work as documented</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/16899">ansible/issues/16899</a></td>
+<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/5043">ansible/issues/5043</a></td>
+<td>ec2_vpc module parameter wait=yes traceback</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/6763">ansible/issues/6763</a></td>
+<td>ec2_vpc module arguments should be marked required</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7024">ansible/issues/7024</a></td>
+<td>ec_vpc seems broken in devel branch</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7248">ansible/issues/7248</a></td>
+<td>ec2_vpc not idempotent in devel without resource_t</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7368">ansible/issues/7368</a></td>
+<td>PR to resolve the issue with ec2_vpc module not al</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7712">ansible/issues/7712</a></td>
+<td>ec2_vpc module: Error when not specifying any rout</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7833">ansible/issues/7833</a></td>
+<td>ec2_vpc with templated tags don't work correctly</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7848">ansible/issues/7848</a></td>
+<td>ec2_vpc occasionally fails creation with InvalidVp</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7853">ansible/issues/7853</a></td>
+<td>ec2_vpc confuses "id" and "vpc_id"</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/7905">ansible/issues/7905</a></td>
+<td>ec2_vpc without subnets results in traceback error</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/8147">ansible/issues/8147</a></td>
+<td>ec2_vpc should set subnet resource_tags even if th</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/8552">ansible/issues/8552</a></td>
+<td>ec2_vpc issues with boto 2.32.x</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/8666">ansible/issues/8666</a></td>
+<td>Using ec2_vpc without specifying the (optional) ro</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/8811">ansible/issues/8811</a></td>
+<td>ec2_vpc module always returns "changed = true"</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/4139">ansible/pull/4139</a></td>
+<td>Added module for configuration of ec2 virtual priv</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/5179">ansible/pull/5179</a></td>
+<td>Fix issue #5043: ec2_vpc module wait=yes state att</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/5918">ansible/pull/5918</a></td>
+<td>Added support for multiple VPCs in ec2_vpc module</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6081">ansible/pull/6081</a></td>
+<td>Added support for tagging subnets in ec2_vpc modul</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6085">ansible/pull/6085</a></td>
+<td>Added VPC tagging and ability to provision multipl</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6126">ansible/pull/6126</a></td>
+<td>allow instance or interface targets for routes in </td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6127">ansible/pull/6127</a></td>
+<td>sort returned subnets as specified in config in ec</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6200">ansible/pull/6200</a></td>
+<td>EC2 VPC "instance_tenancy"</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6422">ansible/pull/6422</a></td>
+<td>Bulk update of choices=BOOLEANS to type='bool'</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/6985">ansible/pull/6985</a></td>
+<td>Ensure params were set in ec2_vpc before accessing</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/7288">ansible/pull/7288</a></td>
+<td>Improve VPC support</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/7447">ansible/pull/7447</a></td>
+<td>Fix to resolve VPC NAT routing issue https://githu</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/7849">ansible/pull/7849</a></td>
+<td>This should fix issue #7848</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/7854">ansible/pull/7854</a></td>
+<td>fixing issue #7853 by using the right name for the</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/8005">ansible/pull/8005</a></td>
+<td>Make resource_tags required and do whitespace clea</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/8022">ansible/pull/8022</a></td>
+<td>Fix for #7368 breaks peering connections. Unreak t</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/8574">ansible/pull/8574</a></td>
+<td>Adding support for AWS VPC Peering within ansible.</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/8868">ansible/pull/8868</a></td>
+<td>Fix #8666 for real</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/pull/9179">ansible/pull/9179</a></td>
+<td>ec2_vpc: Ability to tag route tables</td>
+</tr>
+<tr>
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1699">ansible-modules-core/issues/1699</a></td>
 <td>Cloudformation module does not support AWS STS tok</td>
@@ -69606,339 +69981,334 @@
 <td>rearrange description/short_description</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1113">ansible-modules-core/issues/1113</a></td>
-<td>ec2_vpc module will not update subnet tags</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2629">ansible-modules-core/issues/2629</a></td>
+<td>Replace outdated idiom choices=BOOLEANS</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/122">ansible-modules-core/issues/122</a></td>
-<td>ec2_vpc module always returns "changed = true" whe</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3021">ansible-modules-core/issues/3021</a></td>
+<td>[Bug report] Deprecation warning despite no precen</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1636">ansible-modules-core/issues/1636</a></td>
-<td>ec2-vpc does not support network-interface as a ga</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4422">ansible-modules-core/issues/4422</a></td>
+<td>replace module only replaces last match</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1686">ansible-modules-core/issues/1686</a></td>
-<td>Regression: ec2_vpc</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4634">ansible-modules-core/issues/4634</a></td>
+<td>replace.py is failing with an UnboundLocalError</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1717">ansible-modules-core/issues/1717</a></td>
-<td>ec2_vpc report a changed on each run </td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1104">ansible-modules-core/pull/1104</a></td>
+<td>Replace catching of non-existing Exception with ch</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/172">ansible-modules-core/issues/172</a></td>
-<td>ec2_vpc subnets in seemingly random order</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/246">ansible-modules-core/pull/246</a></td>
+<td>Fixed #245: Expose backup file path in replace mod</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2018">ansible-modules-core/issues/2018</a></td>
-<td>ec2_vpc not all resource_tags are supported</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2720">ansible-modules-core/pull/2720</a></td>
+<td>Fix #2629, replace choices=BOOLEANS by type='bool'</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2930">ansible-modules-core/issues/2930</a></td>
-<td>ec2_vpc doesn't create subnets correctly</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3062">ansible-modules-core/pull/3062</a></td>
+<td>replaced sudo with become</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3123">ansible-modules-core/issues/3123</a></td>
-<td>AWS subnets mixed up when creating VPC</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3069">ansible-modules-core/pull/3069</a></td>
+<td>replaced sudo with become</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3207">ansible-modules-core/issues/3207</a></td>
-<td>ec2_vpc creates a new vpc if you change the resour</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4013">ansible-modules-core/pull/4013</a></td>
+<td>replace: support for DOTALL</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1">ansible-modules-core/pull/1</a></td>
-<td>Ability to tag route tables</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4479">ansible-modules-core/pull/4479</a></td>
+<td>replace module: diff support</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1133">ansible-modules-core/pull/1133</a></td>
-<td>New vpc module. does not contain subnet or route t</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4646">ansible-modules-core/pull/4646</a></td>
+<td>replace - Declare empty diff dict ahead of time</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1184">ansible-modules-core/pull/1184</a></td>
-<td>Fixes regression introduced by edf1ac1ea6ffd5d44bb</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/694">ansible-modules-core/pull/694</a></td>
+<td>Fix #10059 - replace module does not obey follow=y</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1273">ansible-modules-core/pull/1273</a></td>
-<td>fixes issue 122, returns changed due to routes bei</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1326">ansible-modules-extras/issues/1326</a></td>
+<td>Replace outdated idiom choices=BOOLEANS</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1274">ansible-modules-core/pull/1274</a></td>
-<td>fixes issue 122, where the module recreates the ro</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1416">ansible-modules-extras/pull/1416</a></td>
+<td>Replace choices=BOOLEANS by type='bool', fix #1326</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1462">ansible-modules-core/pull/1462</a></td>
-<td>Fixed a typo in ec2_vpc module documentation</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/745">ansible-modules-extras/pull/745</a></td>
+<td>re-submit @adematte's PR #278 against HEAD</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1903">ansible-modules-core/pull/1903</a></td>
-<td>ec2_vpc module update (eni and vpc peering connect</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/10059">ansible/issues/10059</a></td>
+<td>replace module does not obey follow=yes</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/258">ansible-modules-core/pull/258</a></td>
-<td>EC2 route tables module</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/10067">ansible/issues/10067</a></td>
+<td>regex_replace seems to be unable to replace "X" wi</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2931">ansible-modules-core/pull/2931</a></td>
-<td>ec2_vpc creating/updating incorrect subnets</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/10356">ansible/issues/10356</a></td>
+<td>Minor feature: Replace variables in name: fields w</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/322">ansible-modules-core/pull/322</a></td>
-<td>Split out route table and subnet functionality fro</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/10444">ansible/issues/10444</a></td>
+<td>replace error with strings inadvertently containin</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/355">ansible-modules-core/pull/355</a></td>
-<td>ec2_vpc module: add route table resource tagging</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/10925">ansible/issues/10925</a></td>
+<td>Replace python2-style octal numbers</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/356">ansible-modules-core/pull/356</a></td>
-<td>ec2_vpc module: add support for route table propag</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/11673">ansible/issues/11673</a></td>
+<td>Regression in replace module with Ansible v2</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/825">ansible-modules-core/pull/825</a></td>
-<td>Fixes #172 Updated ec2_vpc module to return create</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/11675">ansible/issues/11675</a></td>
+<td>replace module: TypeError: unhashable type: dict</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/904">ansible-modules-core/pull/904</a></td>
-<td>Sort subnets by the order they are specified in th</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/12717">ansible/issues/12717</a></td>
+<td>[Replace Module] unsupported parameter for module:</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/995">ansible-modules-core/pull/995</a></td>
-<td>Add dhcp_options to VPC creation in cloud/amazon</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/14680">ansible/issues/14680</a></td>
+<td>Help: Replace where line starts with</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1860">ansible-modules-extras/issues/1860</a></td>
-<td>AWS ec2_vpc: Updating VPC renames/tags of existing</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/151">ansible/issues/151</a></td>
+<td>Eliminate SETUP_CACHE hack / replace with access t</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2650">ansible-modules-extras/issues/2650</a></td>
-<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/6685">ansible/issues/6685</a></td>
+<td>faster and more pythonic : replace dict() by {}</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/47">ansible-modules-extras/issues/47</a></td>
-<td>ec2_vpc module always returns "changed = true"</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/9531">ansible/issues/9531</a></td>
+<td>vars_prompt private logging - feature</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/10191">ansible/issues/10191</a></td>
-<td>unsupported parameter error when using resource_ta</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/10053">ansible/pull/10053</a></td>
+<td>V2 ssl configurable</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/12727">ansible/issues/12727</a></td>
-<td>After creating VPC peering connection ansible hang</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/1091">ansible/pull/1091</a></td>
+<td>Use repr on replacements for only_if</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/12883">ansible/issues/12883</a></td>
-<td>ec2_vpc ignores profile parameter and uses default</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/11165">ansible/pull/11165</a></td>
+<td>Revert '-' replacement</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/14517">ansible/issues/14517</a></td>
-<td>skipping: no hosts matched while creating VPC in A</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/1154">ansible/pull/1154</a></td>
+<td>Replace lists with a comma-separated join</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/14532">ansible/issues/14532</a></td>
-<td>ec2_vpc remove doesn't work as documented</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/1186">ansible/pull/1186</a></td>
+<td>Allow non-string types in with_items variables</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/16899">ansible/issues/16899</a></td>
-<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12082">ansible/pull/12082</a></td>
+<td>Speed up execution</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/5043">ansible/issues/5043</a></td>
-<td>ec2_vpc module parameter wait=yes traceback</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12226">ansible/pull/12226</a></td>
+<td>Replace .iteritems() with six.iteritems()</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/6763">ansible/issues/6763</a></td>
-<td>ec2_vpc module arguments should be marked required</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12244">ansible/pull/12244</a></td>
+<td>Python 3: use six.text_type instead of unicode</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7024">ansible/issues/7024</a></td>
-<td>ec_vpc seems broken in devel branch</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12267">ansible/pull/12267</a></td>
+<td>Add the new module replacer <<INCLUDE_ANSIBLE_MODU</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7248">ansible/issues/7248</a></td>
-<td>ec2_vpc not idempotent in devel without resource_t</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12365">ansible/pull/12365</a></td>
+<td>Replace 'degug' with 'debug'</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7368">ansible/issues/7368</a></td>
-<td>PR to resolve the issue with ec2_vpc module not al</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12456">ansible/pull/12456</a></td>
+<td>Replace categories with tags.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7712">ansible/issues/7712</a></td>
-<td>ec2_vpc module: Error when not specifying any rout</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12552">ansible/pull/12552</a></td>
+<td>Python 3: there's no basestring</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7833">ansible/issues/7833</a></td>
-<td>ec2_vpc with templated tags don't work correctly</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/13393">ansible/pull/13393</a></td>
+<td>Replace -delete with portable -exec rm {} \;</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7848">ansible/issues/7848</a></td>
-<td>ec2_vpc occasionally fails creation with InvalidVp</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/13606">ansible/pull/13606</a></td>
+<td>Fix exeption, replace 'as' by ',' as in 31c0e523</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7853">ansible/issues/7853</a></td>
-<td>ec2_vpc confuses "id" and "vpc_id"</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/13708">ansible/pull/13708</a></td>
+<td>Replace to_string by to_unicode.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/7905">ansible/issues/7905</a></td>
-<td>ec2_vpc without subnets results in traceback error</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/14546">ansible/pull/14546</a></td>
+<td>fix ansible_os_family fact on openSUSE Leap</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/8147">ansible/issues/8147</a></td>
-<td>ec2_vpc should set subnet resource_tags even if th</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/16287">ansible/pull/16287</a></td>
+<td>try/except xmltodict import, misc cleanups</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/8552">ansible/issues/8552</a></td>
-<td>ec2_vpc issues with boto 2.32.x</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/1721">ansible/pull/1721</a></td>
+<td>Import errno to avoid NameError: global name errno</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/8666">ansible/issues/8666</a></td>
-<td>Using ec2_vpc without specifying the (optional) ro</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/2535">ansible/pull/2535</a></td>
+<td>Chnge description as list inside string</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/8811">ansible/issues/8811</a></td>
-<td>ec2_vpc module always returns "changed = true"</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/2766">ansible/pull/2766</a></td>
+<td>Changed atomic_replace to atomic_move, now ti DOES</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/4139">ansible/pull/4139</a></td>
-<td>Added module for configuration of ec2 virtual priv</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/3173">ansible/pull/3173</a></td>
+<td>Introduced ansible-rsync to core.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/5179">ansible/pull/5179</a></td>
-<td>Fix issue #5043: ec2_vpc module wait=yes state att</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/349">ansible/pull/349</a></td>
+<td>Fixup unicode varReplace templating.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/5918">ansible/pull/5918</a></td>
-<td>Added support for multiple VPCs in ec2_vpc module</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/354">ansible/pull/354</a></td>
+<td>Support list indexing in varReplace.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6081">ansible/pull/6081</a></td>
-<td>Added support for tagging subnets in ec2_vpc modul</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/362">ansible/pull/362</a></td>
+<td>Allow camelCase variables in varReplace.</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6085">ansible/pull/6085</a></td>
-<td>Added VPC tagging and ability to provision multipl</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/384">ansible/pull/384</a></td>
+<td>Template fixes</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6126">ansible/pull/6126</a></td>
-<td>allow instance or interface targets for routes in </td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/4717">ansible/pull/4717</a></td>
+<td>replaced e.message with unicode(e)</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6127">ansible/pull/6127</a></td>
-<td>sort returned subnets as specified in config in ec</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/4889">ansible/pull/4889</a></td>
+<td>Added replace module, for multiple regexp match + </td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6200">ansible/pull/6200</a></td>
-<td>EC2 VPC "instance_tenancy"</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/5199">ansible/pull/5199</a></td>
+<td>Replace . by _ in interface name</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6422">ansible/pull/6422</a></td>
-<td>Bulk update of choices=BOOLEANS to type='bool'</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/5730">ansible/pull/5730</a></td>
+<td>Micro-optimization: replace str.find()!=-1 with in</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/6985">ansible/pull/6985</a></td>
-<td>Ensure params were set in ec2_vpc before accessing</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/5968">ansible/pull/5968</a></td>
+<td>Add regex_replace jinja2 filter</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/7288">ansible/pull/7288</a></td>
-<td>Improve VPC support</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/6654">ansible/pull/6654</a></td>
+<td>Replace absolute imports by relative</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/7447">ansible/pull/7447</a></td>
-<td>Fix to resolve VPC NAT routing issue https://githu</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/6996">ansible/pull/6996</a></td>
+<td>module replace - report changed only if contents i</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/7849">ansible/pull/7849</a></td>
-<td>This should fix issue #7848</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/7012">ansible/pull/7012</a></td>
+<td>module replace - new append option</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/7854">ansible/pull/7854</a></td>
-<td>fixing issue #7853 by using the right name for the</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/7013">ansible/pull/7013</a></td>
+<td>module replace - report changed only if contents i</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/8005">ansible/pull/8005</a></td>
-<td>Make resource_tags required and do whitespace clea</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/7524">ansible/pull/7524</a></td>
+<td>Replace CommandException with Exception</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/8022">ansible/pull/8022</a></td>
-<td>Fix for #7368 breaks peering connections. Unreak t</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/8525">ansible/pull/8525</a></td>
+<td>Replace all occurrences of "Digital Ocean" with "D</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/8574">ansible/pull/8574</a></td>
-<td>Adding support for AWS VPC Peering within ansible.</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/8564">ansible/pull/8564</a></td>
+<td>Fix UnicodeDecodeError when replace interpreter in</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/8868">ansible/pull/8868</a></td>
-<td>Fix #8666 for real</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/pull/9179">ansible/pull/9179</a></td>
-<td>ec2_vpc: Ability to tag route tables</td>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/9961">ansible/pull/9961</a></td>
+<td>to replace `running` with `started`</td>
 </tr>
 <tr>
 <td>known_hosts</td>
@@ -70269,331 +70639,6 @@
 <td>known_hosts</td>
 <td><a href="https://github.com/ansible/ansible/pull/9329">ansible/pull/9329</a></td>
 <td>python2.4 compatibility issue with urlparse</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2629">ansible-modules-core/issues/2629</a></td>
-<td>Replace outdated idiom choices=BOOLEANS</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3021">ansible-modules-core/issues/3021</a></td>
-<td>[Bug report] Deprecation warning despite no precen</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4422">ansible-modules-core/issues/4422</a></td>
-<td>replace module only replaces last match</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4634">ansible-modules-core/issues/4634</a></td>
-<td>replace.py is failing with an UnboundLocalError</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1104">ansible-modules-core/pull/1104</a></td>
-<td>Replace catching of non-existing Exception with ch</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/246">ansible-modules-core/pull/246</a></td>
-<td>Fixed #245: Expose backup file path in replace mod</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2720">ansible-modules-core/pull/2720</a></td>
-<td>Fix #2629, replace choices=BOOLEANS by type='bool'</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3062">ansible-modules-core/pull/3062</a></td>
-<td>replaced sudo with become</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3069">ansible-modules-core/pull/3069</a></td>
-<td>replaced sudo with become</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4013">ansible-modules-core/pull/4013</a></td>
-<td>replace: support for DOTALL</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4479">ansible-modules-core/pull/4479</a></td>
-<td>replace module: diff support</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/694">ansible-modules-core/pull/694</a></td>
-<td>Fix #10059 - replace module does not obey follow=y</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1326">ansible-modules-extras/issues/1326</a></td>
-<td>Replace outdated idiom choices=BOOLEANS</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1416">ansible-modules-extras/pull/1416</a></td>
-<td>Replace choices=BOOLEANS by type='bool', fix #1326</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/745">ansible-modules-extras/pull/745</a></td>
-<td>re-submit @adematte's PR #278 against HEAD</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/10059">ansible/issues/10059</a></td>
-<td>replace module does not obey follow=yes</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/10067">ansible/issues/10067</a></td>
-<td>regex_replace seems to be unable to replace "X" wi</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/10356">ansible/issues/10356</a></td>
-<td>Minor feature: Replace variables in name: fields w</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/10444">ansible/issues/10444</a></td>
-<td>replace error with strings inadvertently containin</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/10925">ansible/issues/10925</a></td>
-<td>Replace python2-style octal numbers</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/11673">ansible/issues/11673</a></td>
-<td>Regression in replace module with Ansible v2</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/11675">ansible/issues/11675</a></td>
-<td>replace module: TypeError: unhashable type: dict</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/12717">ansible/issues/12717</a></td>
-<td>[Replace Module] unsupported parameter for module:</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/14680">ansible/issues/14680</a></td>
-<td>Help: Replace where line starts with</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/151">ansible/issues/151</a></td>
-<td>Eliminate SETUP_CACHE hack / replace with access t</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/6685">ansible/issues/6685</a></td>
-<td>faster and more pythonic : replace dict() by {}</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/9531">ansible/issues/9531</a></td>
-<td>vars_prompt private logging - feature</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/10053">ansible/pull/10053</a></td>
-<td>V2 ssl configurable</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/1091">ansible/pull/1091</a></td>
-<td>Use repr on replacements for only_if</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/11165">ansible/pull/11165</a></td>
-<td>Revert '-' replacement</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/1154">ansible/pull/1154</a></td>
-<td>Replace lists with a comma-separated join</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/1186">ansible/pull/1186</a></td>
-<td>Allow non-string types in with_items variables</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12082">ansible/pull/12082</a></td>
-<td>Speed up execution</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12226">ansible/pull/12226</a></td>
-<td>Replace .iteritems() with six.iteritems()</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12244">ansible/pull/12244</a></td>
-<td>Python 3: use six.text_type instead of unicode</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12267">ansible/pull/12267</a></td>
-<td>Add the new module replacer <<INCLUDE_ANSIBLE_MODU</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12365">ansible/pull/12365</a></td>
-<td>Replace 'degug' with 'debug'</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12456">ansible/pull/12456</a></td>
-<td>Replace categories with tags.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12552">ansible/pull/12552</a></td>
-<td>Python 3: there's no basestring</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/13393">ansible/pull/13393</a></td>
-<td>Replace -delete with portable -exec rm {} \;</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/13606">ansible/pull/13606</a></td>
-<td>Fix exeption, replace 'as' by ',' as in 31c0e523</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/13708">ansible/pull/13708</a></td>
-<td>Replace to_string by to_unicode.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/14546">ansible/pull/14546</a></td>
-<td>fix ansible_os_family fact on openSUSE Leap</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/16287">ansible/pull/16287</a></td>
-<td>try/except xmltodict import, misc cleanups</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/1721">ansible/pull/1721</a></td>
-<td>Import errno to avoid NameError: global name errno</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/2535">ansible/pull/2535</a></td>
-<td>Chnge description as list inside string</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/2766">ansible/pull/2766</a></td>
-<td>Changed atomic_replace to atomic_move, now ti DOES</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/3173">ansible/pull/3173</a></td>
-<td>Introduced ansible-rsync to core.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/349">ansible/pull/349</a></td>
-<td>Fixup unicode varReplace templating.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/354">ansible/pull/354</a></td>
-<td>Support list indexing in varReplace.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/362">ansible/pull/362</a></td>
-<td>Allow camelCase variables in varReplace.</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/384">ansible/pull/384</a></td>
-<td>Template fixes</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/4717">ansible/pull/4717</a></td>
-<td>replaced e.message with unicode(e)</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/4889">ansible/pull/4889</a></td>
-<td>Added replace module, for multiple regexp match + </td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/5199">ansible/pull/5199</a></td>
-<td>Replace . by _ in interface name</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/5730">ansible/pull/5730</a></td>
-<td>Micro-optimization: replace str.find()!=-1 with in</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/5968">ansible/pull/5968</a></td>
-<td>Add regex_replace jinja2 filter</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/6654">ansible/pull/6654</a></td>
-<td>Replace absolute imports by relative</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/6996">ansible/pull/6996</a></td>
-<td>module replace - report changed only if contents i</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/7012">ansible/pull/7012</a></td>
-<td>module replace - new append option</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/7013">ansible/pull/7013</a></td>
-<td>module replace - report changed only if contents i</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/7524">ansible/pull/7524</a></td>
-<td>Replace CommandException with Exception</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/8525">ansible/pull/8525</a></td>
-<td>Replace all occurrences of "Digital Ocean" with "D</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/8564">ansible/pull/8564</a></td>
-<td>Fix UnicodeDecodeError when replace interpreter in</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/9961">ansible/pull/9961</a></td>
-<td>to replace `running` with `started`</td>
 </tr>
 <tr>
 <td>assemble</td>
@@ -71897,6 +71942,11 @@
 </tr>
 <tr>
 <td>ping</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4128">ansible-modules-core/pull/4128</a></td>
+<td>WIP: Test PR, do not merge.</td>
+</tr>
+<tr>
+<td>ping</td>
 <td><a href="https://github.com/ansible/ansible/issues/10225">ansible/issues/10225</a></td>
 <td>IndexError: list index out of range</td>
 </tr>
@@ -72174,6 +72224,301 @@
 <td>ping</td>
 <td><a href="https://github.com/ansible/ansible/pull/8020">ansible/pull/8020</a></td>
 <td>Error if private_key_file is group/world readable</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4367">ansible-modules-core/issues/4367</a></td>
+<td>Can't use ec2_tags with ":" in them: templating er</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/issues/17356">ansible/issues/17356</a></td>
+<td>Variable-handling error introduced in 2.1.1.0</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10008">ansible/pull/10008</a></td>
+<td>Customize indent in YAML and JSON filters</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10029">ansible/pull/10029</a></td>
+<td>Add filter to turn a string into a UUID</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10030">ansible/pull/10030</a></td>
+<td>aks: added to_list filter & tests</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10082">ansible/pull/10082</a></td>
+<td>add dictmap function</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10135">ansible/pull/10135</a></td>
+<td>Update core submodule to resolve missing ref</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10145">ansible/pull/10145</a></td>
+<td>filter plugins for IP arithmetic</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10285">ansible/pull/10285</a></td>
+<td>rearranged math filters</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10341">ansible/pull/10341</a></td>
+<td>Release1.8.4</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/10575">ansible/pull/10575</a></td>
+<td>Release1.8.3</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/11743">ansible/pull/11743</a></td>
+<td>Regex escape filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12024">ansible/pull/12024</a></td>
+<td>Add win_splitdrive filter for windows users</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12308">ansible/pull/12308</a></td>
+<td>Resurrection of the comment filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12322">ansible/pull/12322</a></td>
+<td>add function get_number_list</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12323">ansible/pull/12323</a></td>
+<td>New filter get_number_list</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12702">ansible/pull/12702</a></td>
+<td>Expand variables</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12941">ansible/pull/12941</a></td>
+<td>Release1.8.4</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/12966">ansible/pull/12966</a></td>
+<td>Expand variables</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/14096">ansible/pull/14096</a></td>
+<td>Added core filter 'in_container'.</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/14696">ansible/pull/14696</a></td>
+<td>adds two new regex filters for use in playbooks</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/14828">ansible/pull/14828</a></td>
+<td>adds multiline flag to regex test for search and m</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/15651">ansible/pull/15651</a></td>
+<td>Rename function bool() as it is a Python built-in </td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/16035">ansible/pull/16035</a></td>
+<td>Bump ansible-modules-core submodule to latest comm</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17080">ansible/pull/17080</a></td>
+<td>document what glob style is used</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/2234">ansible/pull/2234</a></td>
+<td>add to_nice_yaml|json filters</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/2631">ansible/pull/2631</a></td>
+<td>Add base64 encode and decode filters to templates</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/2978">ansible/pull/2978</a></td>
+<td>add basename and dirname to the core jinja2 filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/3418">ansible/pull/3418</a></td>
+<td>Add Jinja2 filter |bool : return boolean interpret</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/3462">ansible/pull/3462</a></td>
+<td>Introduce exception AnsibleFilterError and use it </td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/3463">ansible/pull/3463</a></td>
+<td>Add Jinja2 filter 'skipped' to test for a register</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/3607">ansible/pull/3607</a></td>
+<td>Use AnsibleFilterError exception</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/4288">ansible/pull/4288</a></td>
+<td>Add regex (search, match, regex) jinja2 filters. F</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/4306">ansible/pull/4306</a></td>
+<td>Add fileglob Jinja2 filter. Fixes #3563</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/4437">ansible/pull/4437</a></td>
+<td>Implement a |changed filter plugin</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/4879">ansible/pull/4879</a></td>
+<td>added unique and intersect filters for dealing wit</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/4981">ansible/pull/4981</a></td>
+<td>Add a 'capture' jinja2 filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/5098">ansible/pull/5098</a></td>
+<td>Add a 'capture' jinja2 filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/5464">ansible/pull/5464</a></td>
+<td>Treat a False mandatory variable as defined (needs</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/5521">ansible/pull/5521</a></td>
+<td>Add in cron_rand to the core filter plugins.</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/5783">ansible/pull/5783</a></td>
+<td>Fixing traceback caused by incorrect argument pass</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/6584">ansible/pull/6584</a></td>
+<td>Expose ansible_version to playbooks, add version_c</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/6835">ansible/pull/6835</a></td>
+<td>Add version_compare filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/6836">ansible/pull/6836</a></td>
+<td>adding ternary operator to filters</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/6915">ansible/pull/6915</a></td>
+<td>Random filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/6917">ansible/pull/6917</a></td>
+<td>simple random filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/7902">ansible/pull/7902</a></td>
+<td>Add os relpath filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/8091">ansible/pull/8091</a></td>
+<td>Add 'stripext' filter plugin.</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/8217">ansible/pull/8217</a></td>
+<td>Register boolean jinja filters as jinja tests</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/8777">ansible/pull/8777</a></td>
+<td>Adds percent filter.</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/8792">ansible/pull/8792</a></td>
+<td>ternary filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9114">ansible/pull/9114</a></td>
+<td>Add Jinja2 filter 'urlquote' to quote string for U</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9270">ansible/pull/9270</a></td>
+<td>added new 'shuffle' filter</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9324">ansible/pull/9324</a></td>
+<td>Winrm setupscript improvements</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9489">ansible/pull/9489</a></td>
+<td>updated ref to core with updated cloud sublcases w</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9492">ansible/pull/9492</a></td>
+<td>updated to latest core module</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9535">ansible/pull/9535</a></td>
+<td>netmask_to_cidr function added</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9840">ansible/pull/9840</a></td>
+<td>Revert "Merge pull request #9611 </td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/9995">ansible/pull/9995</a></td>
+<td>Hash filters</td>
 </tr>
 <tr>
 <td>apt_key</td>
@@ -72754,296 +73099,6 @@
 <td>ansible</td>
 <td><a href="https://github.com/ansible/ansible/pull/9463">ansible/pull/9463</a></td>
 <td>Adds --force-read option to force ansible to read </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4367">ansible-modules-core/issues/4367</a></td>
-<td>Can't use ec2_tags with ":" in them: templating er</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10008">ansible/pull/10008</a></td>
-<td>Customize indent in YAML and JSON filters</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10029">ansible/pull/10029</a></td>
-<td>Add filter to turn a string into a UUID</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10030">ansible/pull/10030</a></td>
-<td>aks: added to_list filter & tests</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10082">ansible/pull/10082</a></td>
-<td>add dictmap function</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10135">ansible/pull/10135</a></td>
-<td>Update core submodule to resolve missing ref</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10145">ansible/pull/10145</a></td>
-<td>filter plugins for IP arithmetic</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10285">ansible/pull/10285</a></td>
-<td>rearranged math filters</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10341">ansible/pull/10341</a></td>
-<td>Release1.8.4</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/10575">ansible/pull/10575</a></td>
-<td>Release1.8.3</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/11743">ansible/pull/11743</a></td>
-<td>Regex escape filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12024">ansible/pull/12024</a></td>
-<td>Add win_splitdrive filter for windows users</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12308">ansible/pull/12308</a></td>
-<td>Resurrection of the comment filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12322">ansible/pull/12322</a></td>
-<td>add function get_number_list</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12323">ansible/pull/12323</a></td>
-<td>New filter get_number_list</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12702">ansible/pull/12702</a></td>
-<td>Expand variables</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12941">ansible/pull/12941</a></td>
-<td>Release1.8.4</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/12966">ansible/pull/12966</a></td>
-<td>Expand variables</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/14096">ansible/pull/14096</a></td>
-<td>Added core filter 'in_container'.</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/14696">ansible/pull/14696</a></td>
-<td>adds two new regex filters for use in playbooks</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/14828">ansible/pull/14828</a></td>
-<td>adds multiline flag to regex test for search and m</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/15651">ansible/pull/15651</a></td>
-<td>Rename function bool() as it is a Python built-in </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/16035">ansible/pull/16035</a></td>
-<td>Bump ansible-modules-core submodule to latest comm</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/17080">ansible/pull/17080</a></td>
-<td>document what glob style is used</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/2234">ansible/pull/2234</a></td>
-<td>add to_nice_yaml|json filters</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/2631">ansible/pull/2631</a></td>
-<td>Add base64 encode and decode filters to templates</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/2978">ansible/pull/2978</a></td>
-<td>add basename and dirname to the core jinja2 filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/3418">ansible/pull/3418</a></td>
-<td>Add Jinja2 filter |bool : return boolean interpret</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/3462">ansible/pull/3462</a></td>
-<td>Introduce exception AnsibleFilterError and use it </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/3463">ansible/pull/3463</a></td>
-<td>Add Jinja2 filter 'skipped' to test for a register</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/3607">ansible/pull/3607</a></td>
-<td>Use AnsibleFilterError exception</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/4288">ansible/pull/4288</a></td>
-<td>Add regex (search, match, regex) jinja2 filters. F</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/4306">ansible/pull/4306</a></td>
-<td>Add fileglob Jinja2 filter. Fixes #3563</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/4437">ansible/pull/4437</a></td>
-<td>Implement a |changed filter plugin</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/4879">ansible/pull/4879</a></td>
-<td>added unique and intersect filters for dealing wit</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/4981">ansible/pull/4981</a></td>
-<td>Add a 'capture' jinja2 filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/5098">ansible/pull/5098</a></td>
-<td>Add a 'capture' jinja2 filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/5464">ansible/pull/5464</a></td>
-<td>Treat a False mandatory variable as defined (needs</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/5521">ansible/pull/5521</a></td>
-<td>Add in cron_rand to the core filter plugins.</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/5783">ansible/pull/5783</a></td>
-<td>Fixing traceback caused by incorrect argument pass</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/6584">ansible/pull/6584</a></td>
-<td>Expose ansible_version to playbooks, add version_c</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/6835">ansible/pull/6835</a></td>
-<td>Add version_compare filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/6836">ansible/pull/6836</a></td>
-<td>adding ternary operator to filters</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/6915">ansible/pull/6915</a></td>
-<td>Random filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/6917">ansible/pull/6917</a></td>
-<td>simple random filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/7902">ansible/pull/7902</a></td>
-<td>Add os relpath filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/8091">ansible/pull/8091</a></td>
-<td>Add 'stripext' filter plugin.</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/8217">ansible/pull/8217</a></td>
-<td>Register boolean jinja filters as jinja tests</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/8777">ansible/pull/8777</a></td>
-<td>Adds percent filter.</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/8792">ansible/pull/8792</a></td>
-<td>ternary filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9114">ansible/pull/9114</a></td>
-<td>Add Jinja2 filter 'urlquote' to quote string for U</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9270">ansible/pull/9270</a></td>
-<td>added new 'shuffle' filter</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9324">ansible/pull/9324</a></td>
-<td>Winrm setupscript improvements</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9489">ansible/pull/9489</a></td>
-<td>updated ref to core with updated cloud sublcases w</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9492">ansible/pull/9492</a></td>
-<td>updated to latest core module</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9535">ansible/pull/9535</a></td>
-<td>netmask_to_cidr function added</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9840">ansible/pull/9840</a></td>
-<td>Revert "Merge pull request #9611 </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/9995">ansible/pull/9995</a></td>
-<td>Hash filters</td>
 </tr>
 <tr>
 <td>azure</td>
@@ -74936,6 +74991,266 @@
 <td>New json file module.</td>
 </tr>
 <tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/130">ansible-modules-extras/issues/130</a></td>
+<td>Zypper should be able to install "pattern"</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/148">ansible-modules-extras/issues/148</a></td>
+<td>zypper module doesn't iterate over items</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/154">ansible-modules-extras/issues/154</a></td>
+<td>zypper module doesn't respect disable_gpg_check=ye</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1627">ansible-modules-extras/issues/1627</a></td>
+<td>Ansible 2.0 zypper module type=patch state=present</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1633">ansible-modules-extras/issues/1633</a></td>
+<td>Zypper repository: change auto-refresh on existing</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2094">ansible-modules-extras/issues/2094</a></td>
+<td>zypper: does not install package from URL</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2158">ansible-modules-extras/issues/2158</a></td>
+<td>allow to specify version number when installing wi</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2171">ansible-modules-extras/issues/2171</a></td>
+<td>Ability to replace conflicting packages that provi</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2218">ansible-modules-extras/issues/2218</a></td>
+<td>zypper module --verbose option causes zypper to er</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2496">ansible-modules-extras/issues/2496</a></td>
+<td>zypper module get_package_state() don't work for t</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2827">ansible-modules-extras/issues/2827</a></td>
+<td>zypper module: notify crashes because of changed d</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/299">ansible-modules-extras/issues/299</a></td>
+<td>Zypper always reports changed</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/546">ansible-modules-extras/issues/546</a></td>
+<td>zypper feature request: name=* state=latest</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/878">ansible-modules-extras/issues/878</a></td>
+<td>zypper module support for --force</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/103">ansible-modules-extras/pull/103</a></td>
+<td>Fixing SuSE to SUSE as latter is the right one sin</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1232">ansible-modules-extras/pull/1232</a></td>
+<td>better cope with rpm not returning package name</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1256">ansible-modules-extras/pull/1256</a></td>
+<td>zypper: Fix installation from paths/urls</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1261">ansible-modules-extras/pull/1261</a></td>
+<td>zypper: Add returncode to result</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1262">ansible-modules-extras/pull/1262</a></td>
+<td>zypper: don't ingore erros when getting the packag</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/128">ansible-modules-extras/pull/128</a></td>
+<td>Patch multiple versions rpm zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1461">ansible-modules-extras/pull/1461</a></td>
+<td>Adding the ability to update all zypper packages</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/156">ansible-modules-extras/pull/156</a></td>
+<td>zypper: Fix gpg check option for state=latest. --n</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1824">ansible-modules-extras/pull/1824</a></td>
+<td>add application to Package Types</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1977">ansible-modules-extras/pull/1977</a></td>
+<td>[zypper] Allow downgrading packages with zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2108">ansible-modules-extras/pull/2108</a></td>
+<td>refactor zypper module</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2224">ansible-modules-extras/pull/2224</a></td>
+<td>zypper: (Bugfix) Remove global option --verbose fr</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2328">ansible-modules-extras/pull/2328</a></td>
+<td>allow to specify versions with zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2411">ansible-modules-extras/pull/2411</a></td>
+<td>Add zypper refresh support in zypper module</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
+<td>WIP: Test PR, do not merge.</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2569">ansible-modules-extras/pull/2569</a></td>
+<td>zypper cleanup checks for failure/diff</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2830">ansible-modules-extras/pull/2830</a></td>
+<td>Fix traceback due to zypper module, ensure the ret</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/368">ansible-modules-extras/pull/368</a></td>
+<td>Add type property to zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/371">ansible-modules-extras/pull/371</a></td>
+<td>fix errorhandling in zypper.py module</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/59">ansible-modules-extras/pull/59</a></td>
+<td>Allow disabling of autorefresh for zypper reposito</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/749">ansible-modules-extras/pull/749</a></td>
+<td>zypper: Add local/remote rpm installation</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/issues/14295">ansible/issues/14295</a></td>
+<td>Ansible 2.0 zypper module type=patch state=present</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/issues/15806">ansible/issues/15806</a></td>
+<td>zypper module --verbose option causes zypper to er</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/issues/1965">ansible/issues/1965</a></td>
+<td>Feature request : openSUSE zypper support</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/issues/9473">ansible/issues/9473</a></td>
+<td>zypper module TypeError: package_present() takes e</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/15004">ansible/pull/15004</a></td>
+<td>Integration tests for zypper repository</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/15596">ansible/pull/15596</a></td>
+<td>extend zypper integration tests</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/3145">ansible/pull/3145</a></td>
+<td>Simple zypper module to install, remove, or upgrad</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/5013">ansible/pull/5013</a></td>
+<td>fixed/extended module package/zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/5979">ansible/pull/5979</a></td>
+<td>remove check for version string</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/6753">ansible/pull/6753</a></td>
+<td>fixed/extended module package/zypper</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/7379">ansible/pull/7379</a></td>
+<td>Added --no-recommends option to zypper module</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8114">ansible/pull/8114</a></td>
+<td>Enhance zypper module: two new options (refresh an</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8598">ansible/pull/8598</a></td>
+<td>zypper: consider -%{RELEASE} as part of the versio</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8636">ansible/pull/8636</a></td>
+<td>Fixing Zypper handling on older distribution versi</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8755">ansible/pull/8755</a></td>
+<td>added the parameters force and force_resolution fo</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8853">ansible/pull/8853</a></td>
+<td>zypper: handle lists of packages efficiently</td>
+</tr>
+<tr>
+<td>zypper</td>
+<td><a href="https://github.com/ansible/ansible/pull/8880">ansible/pull/8880</a></td>
+<td>fix typo in zypper module (requiered -> required)</td>
+</tr>
+<tr>
 <td>callbacks</td>
 <td><a href="https://github.com/ansible/ansible/pull/103">ansible/pull/103</a></td>
 <td>Remove shebang from callbacks.py</td>
@@ -76214,261 +76529,6 @@
 <td>os_server</td>
 <td><a href="https://github.com/ansible/ansible/pull/6674">ansible/pull/6674</a></td>
 <td>Add register_as_list/hash</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/130">ansible-modules-extras/issues/130</a></td>
-<td>Zypper should be able to install "pattern"</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/148">ansible-modules-extras/issues/148</a></td>
-<td>zypper module doesn't iterate over items</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/154">ansible-modules-extras/issues/154</a></td>
-<td>zypper module doesn't respect disable_gpg_check=ye</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1627">ansible-modules-extras/issues/1627</a></td>
-<td>Ansible 2.0 zypper module type=patch state=present</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1633">ansible-modules-extras/issues/1633</a></td>
-<td>Zypper repository: change auto-refresh on existing</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2094">ansible-modules-extras/issues/2094</a></td>
-<td>zypper: does not install package from URL</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2158">ansible-modules-extras/issues/2158</a></td>
-<td>allow to specify version number when installing wi</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2171">ansible-modules-extras/issues/2171</a></td>
-<td>Ability to replace conflicting packages that provi</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2218">ansible-modules-extras/issues/2218</a></td>
-<td>zypper module --verbose option causes zypper to er</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2496">ansible-modules-extras/issues/2496</a></td>
-<td>zypper module get_package_state() don't work for t</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2827">ansible-modules-extras/issues/2827</a></td>
-<td>zypper module: notify crashes because of changed d</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/299">ansible-modules-extras/issues/299</a></td>
-<td>Zypper always reports changed</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/546">ansible-modules-extras/issues/546</a></td>
-<td>zypper feature request: name=* state=latest</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/878">ansible-modules-extras/issues/878</a></td>
-<td>zypper module support for --force</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/103">ansible-modules-extras/pull/103</a></td>
-<td>Fixing SuSE to SUSE as latter is the right one sin</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1232">ansible-modules-extras/pull/1232</a></td>
-<td>better cope with rpm not returning package name</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1256">ansible-modules-extras/pull/1256</a></td>
-<td>zypper: Fix installation from paths/urls</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1261">ansible-modules-extras/pull/1261</a></td>
-<td>zypper: Add returncode to result</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1262">ansible-modules-extras/pull/1262</a></td>
-<td>zypper: don't ingore erros when getting the packag</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/128">ansible-modules-extras/pull/128</a></td>
-<td>Patch multiple versions rpm zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1461">ansible-modules-extras/pull/1461</a></td>
-<td>Adding the ability to update all zypper packages</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/156">ansible-modules-extras/pull/156</a></td>
-<td>zypper: Fix gpg check option for state=latest. --n</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1824">ansible-modules-extras/pull/1824</a></td>
-<td>add application to Package Types</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1977">ansible-modules-extras/pull/1977</a></td>
-<td>[zypper] Allow downgrading packages with zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2108">ansible-modules-extras/pull/2108</a></td>
-<td>refactor zypper module</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2224">ansible-modules-extras/pull/2224</a></td>
-<td>zypper: (Bugfix) Remove global option --verbose fr</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2328">ansible-modules-extras/pull/2328</a></td>
-<td>allow to specify versions with zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2411">ansible-modules-extras/pull/2411</a></td>
-<td>Add zypper refresh support in zypper module</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2569">ansible-modules-extras/pull/2569</a></td>
-<td>zypper cleanup checks for failure/diff</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2830">ansible-modules-extras/pull/2830</a></td>
-<td>Fix traceback due to zypper module, ensure the ret</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/368">ansible-modules-extras/pull/368</a></td>
-<td>Add type property to zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/371">ansible-modules-extras/pull/371</a></td>
-<td>fix errorhandling in zypper.py module</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/59">ansible-modules-extras/pull/59</a></td>
-<td>Allow disabling of autorefresh for zypper reposito</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/749">ansible-modules-extras/pull/749</a></td>
-<td>zypper: Add local/remote rpm installation</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/issues/14295">ansible/issues/14295</a></td>
-<td>Ansible 2.0 zypper module type=patch state=present</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/issues/15806">ansible/issues/15806</a></td>
-<td>zypper module --verbose option causes zypper to er</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/issues/1965">ansible/issues/1965</a></td>
-<td>Feature request : openSUSE zypper support</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/issues/9473">ansible/issues/9473</a></td>
-<td>zypper module TypeError: package_present() takes e</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/15004">ansible/pull/15004</a></td>
-<td>Integration tests for zypper repository</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/15596">ansible/pull/15596</a></td>
-<td>extend zypper integration tests</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/3145">ansible/pull/3145</a></td>
-<td>Simple zypper module to install, remove, or upgrad</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/5013">ansible/pull/5013</a></td>
-<td>fixed/extended module package/zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/5979">ansible/pull/5979</a></td>
-<td>remove check for version string</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/6753">ansible/pull/6753</a></td>
-<td>fixed/extended module package/zypper</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/7379">ansible/pull/7379</a></td>
-<td>Added --no-recommends option to zypper module</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8114">ansible/pull/8114</a></td>
-<td>Enhance zypper module: two new options (refresh an</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8598">ansible/pull/8598</a></td>
-<td>zypper: consider -%{RELEASE} as part of the versio</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8636">ansible/pull/8636</a></td>
-<td>Fixing Zypper handling on older distribution versi</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8755">ansible/pull/8755</a></td>
-<td>added the parameters force and force_resolution fo</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8853">ansible/pull/8853</a></td>
-<td>zypper: handle lists of packages efficiently</td>
-</tr>
-<tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible/pull/8880">ansible/pull/8880</a></td>
-<td>fix typo in zypper module (requiered -> required)</td>
 </tr>
 <tr>
 <td>irc</td>
@@ -89176,6 +89236,101 @@
 <td>Merge stdout and stderr as that is what is expecte</td>
 </tr>
 <tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/issues/17301">ansible/issues/17301</a></td>
+<td>KeyError: become_pass</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/11140">ansible/pull/11140</a></td>
+<td>Fix for task_executor on OS X</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/11440">ansible/pull/11440</a></td>
+<td>Check for name or pkg when templating squashed ite</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/11699">ansible/pull/11699</a></td>
+<td>v2: Fixing delegate_to when using a variable</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/11880">ansible/pull/11880</a></td>
+<td>made squashable with_ plugin list configurable</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/12842">ansible/pull/12842</a></td>
+<td>Revert back to copying self._task.args</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/12954">ansible/pull/12954</a></td>
+<td>Fix proposal for issue #12952 (debug+var issue)</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/12968">ansible/pull/12968</a></td>
+<td>Move evaluation of conditionals to happen before t</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/13254">ansible/pull/13254</a></td>
+<td>Fixes #13252 </td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/13793">ansible/pull/13793</a></td>
+<td>Fixes #13763 Update connections _play_context on e</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/14441">ansible/pull/14441</a></td>
+<td>allow skipping tasks due to undefined var</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/14592">ansible/pull/14592</a></td>
+<td>issue callbacks per item and retry fails</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/15009">ansible/pull/15009</a></td>
+<td>Py3 compat fixes</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/15111">ansible/pull/15111</a></td>
+<td>complete the docstring. Fixed #14794</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/15581">ansible/pull/15581</a></td>
+<td>Convert byte strings to unicode strings in our tas</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/15825">ansible/pull/15825</a></td>
+<td>If we cant squash for any reason, then simply do n</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/16963">ansible/pull/16963</a></td>
+<td>fix for unspecified retries on until + test</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/17091">ansible/pull/17091</a></td>
+<td>Fix async logic when parsing fails</td>
+</tr>
+<tr>
+<td>task_executor</td>
+<td><a href="https://github.com/ansible/ansible/pull/17219">ansible/pull/17219</a></td>
+<td>Clean up task_executor for python3</td>
+</tr>
+<tr>
 <td>pkgin</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2025">ansible-modules-extras/issues/2025</a></td>
 <td>pkgin pattern matching does not support packages s</td>
@@ -90214,96 +90369,6 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/5927">ansible/pull/5927</a></td>
 <td>NEW MODULE: Adds a module to retrieve facts about </td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/11140">ansible/pull/11140</a></td>
-<td>Fix for task_executor on OS X</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/11440">ansible/pull/11440</a></td>
-<td>Check for name or pkg when templating squashed ite</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/11699">ansible/pull/11699</a></td>
-<td>v2: Fixing delegate_to when using a variable</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/11880">ansible/pull/11880</a></td>
-<td>made squashable with_ plugin list configurable</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/12842">ansible/pull/12842</a></td>
-<td>Revert back to copying self._task.args</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/12954">ansible/pull/12954</a></td>
-<td>Fix proposal for issue #12952 (debug+var issue)</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/12968">ansible/pull/12968</a></td>
-<td>Move evaluation of conditionals to happen before t</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/13254">ansible/pull/13254</a></td>
-<td>Fixes #13252 </td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/13793">ansible/pull/13793</a></td>
-<td>Fixes #13763 Update connections _play_context on e</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/14441">ansible/pull/14441</a></td>
-<td>allow skipping tasks due to undefined var</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/14592">ansible/pull/14592</a></td>
-<td>issue callbacks per item and retry fails</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/15009">ansible/pull/15009</a></td>
-<td>Py3 compat fixes</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/15111">ansible/pull/15111</a></td>
-<td>complete the docstring. Fixed #14794</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/15581">ansible/pull/15581</a></td>
-<td>Convert byte strings to unicode strings in our tas</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/15825">ansible/pull/15825</a></td>
-<td>If we cant squash for any reason, then simply do n</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/16963">ansible/pull/16963</a></td>
-<td>fix for unspecified retries on until + test</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/17091">ansible/pull/17091</a></td>
-<td>Fix async logic when parsing fails</td>
-</tr>
-<tr>
-<td>task_executor</td>
-<td><a href="https://github.com/ansible/ansible/pull/17219">ansible/pull/17219</a></td>
-<td>Clean up task_executor for python3</td>
 </tr>
 <tr>
 <td>rpm_key</td>
