@@ -197,8 +197,8 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4632">ansible-modules-core/pull/4632</a></td>
-<td>Python3 fixes to copy, file, and stat so that the </td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4657">ansible-modules-core/pull/4657</a></td>
+<td>Added semicolon to list of unsupported operators p</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4207,11 +4207,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17366">ansible/issues/17366</a></td>
-<td>How to copy from a remote Unix share to a Windows </td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -4654,6 +4649,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/15928">ansible/pull/15928</a></td>
 <td>PEP8ish for new modules</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/15943">ansible/pull/15943</a></td>
+<td>Add a few python3 fix, mostly found by trial and e</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6197,11 +6197,6 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/15943">ansible/pull/15943</a></td>
-<td>Add a few python3 fix, mostly found by trial and e</td>
-</tr>
-<tr>
-<td>user</td>
 <td><a href="https://github.com/ansible/ansible/pull/16228">ansible/pull/16228</a></td>
 <td>fixed dzdo command to work like sudo and properly </td>
 </tr>
@@ -7108,7 +7103,7 @@
 <tr>
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/17349">ansible/issues/17349</a></td>
-<td>[OS X] Can not SSH to hosts unless paramiko is use</td>
+<td>Can not SSH to hosts unless paramiko is used</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -9811,81 +9806,6 @@
 <td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1271">ansible-modules-core/issues/1271</a></td>
-<td>ec2_vpc has no property to set dhcp_options_set </td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1318">ansible-modules-core/issues/1318</a></td>
-<td>Feature idea: support vpc classic link with `ec2_l</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1719">ansible-modules-core/issues/1719</a></td>
-<td>ec2_lc fail to create when no default vpc in regio</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1772">ansible-modules-core/issues/1772</a></td>
-<td>ec2_vpc doesnt handle vpc creation failure gracefu</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1852">ansible-modules-core/issues/1852</a></td>
-<td>ec2_vpc module ignoring aws profile name</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2137">ansible-modules-core/issues/2137</a></td>
-<td>ec2_vpc doesn't return the default route table id </td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2355">ansible-modules-core/issues/2355</a></td>
-<td>ec2_vpc ignores profile parameter and uses default</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3126">ansible-modules-core/issues/3126</a></td>
-<td>ec2_vpc remove doesn't work as documented</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3194">ansible-modules-core/issues/3194</a></td>
-<td>ansible-modules-core/cloud/amazon/ec2_vpc.py tag i</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3384">ansible-modules-core/issues/3384</a></td>
-<td>ec2_vpc module erroneously recreates VPCs when pas</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3689">ansible-modules-core/issues/3689</a></td>
-<td>ec2_vpc module vpc creation fails sometimes with i</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4322">ansible-modules-core/issues/4322</a></td>
-<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4429">ansible-modules-core/issues/4429</a></td>
-<td>ec2_vpc: Must specify resource_tags when deleting(</td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4638">ansible-modules-core/pull/4638</a></td>
-<td>Getting rid of a None type error when no resource </td>
-</tr>
-<tr>
-<td>ec2_vpc</td>
-<td><a href="https://github.com/ansible/ansible/issues/11919">ansible/issues/11919</a></td>
-<td>boto profile not being used by ec2_vpc</td>
-</tr>
-<tr>
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
 <td>Feature Idea : cloudformation "describe" state</td>
@@ -10104,6 +10024,76 @@
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible/issues/13796">ansible/issues/13796</a></td>
 <td>AWS API Rate limit exceeds: Are we able to deal wi</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1271">ansible-modules-core/issues/1271</a></td>
+<td>ec2_vpc has no property to set dhcp_options_set </td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1318">ansible-modules-core/issues/1318</a></td>
+<td>Feature idea: support vpc classic link with `ec2_l</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1719">ansible-modules-core/issues/1719</a></td>
+<td>ec2_lc fail to create when no default vpc in regio</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1772">ansible-modules-core/issues/1772</a></td>
+<td>ec2_vpc doesnt handle vpc creation failure gracefu</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1852">ansible-modules-core/issues/1852</a></td>
+<td>ec2_vpc module ignoring aws profile name</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2137">ansible-modules-core/issues/2137</a></td>
+<td>ec2_vpc doesn't return the default route table id </td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2355">ansible-modules-core/issues/2355</a></td>
+<td>ec2_vpc ignores profile parameter and uses default</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3126">ansible-modules-core/issues/3126</a></td>
+<td>ec2_vpc remove doesn't work as documented</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3194">ansible-modules-core/issues/3194</a></td>
+<td>ansible-modules-core/cloud/amazon/ec2_vpc.py tag i</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3384">ansible-modules-core/issues/3384</a></td>
+<td>ec2_vpc module erroneously recreates VPCs when pas</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3689">ansible-modules-core/issues/3689</a></td>
+<td>ec2_vpc module vpc creation fails sometimes with i</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4322">ansible-modules-core/issues/4322</a></td>
+<td>2.1.1: ec2_vpc does not update/change routing tabl</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4429">ansible-modules-core/issues/4429</a></td>
+<td>ec2_vpc: Must specify resource_tags when deleting(</td>
+</tr>
+<tr>
+<td>ec2_vpc</td>
+<td><a href="https://github.com/ansible/ansible/issues/11919">ansible/issues/11919</a></td>
+<td>boto profile not being used by ec2_vpc</td>
 </tr>
 <tr>
 <td>new</td>
@@ -16021,11 +16011,6 @@
 <td>add datadog_downtime module (try 3)</td>
 </tr>
 <tr>
-<td>zypper</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2540">ansible-modules-extras/pull/2540</a></td>
-<td>WIP: Test PR, do not merge.</td>
-</tr>
-<tr>
 <td>win_certificate</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1374">ansible-modules-extras/pull/1374</a></td>
 <td>New module to enable the installation of certifica</td>
@@ -16282,8 +16267,8 @@
 </tr>
 <tr>
 <td>core</td>
-<td><a href="https://github.com/ansible/ansible/issues/17356">ansible/issues/17356</a></td>
-<td>Variable-handling error introduced in 2.1.1.0</td>
+<td><a href="https://github.com/ansible/ansible/issues/17369">ansible/issues/17369</a></td>
+<td>ansible crashes if cwd has been removed</td>
 </tr>
 <tr>
 <td>os_nova_flavor</td>
