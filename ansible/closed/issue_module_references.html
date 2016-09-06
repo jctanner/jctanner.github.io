@@ -202,6 +202,51 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4687">ansible-modules-core/pull/4687</a></td>
+<td>add new functionality to junos_command module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4688">ansible-modules-core/pull/4688</a></td>
+<td>update junos_netconf module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4689">ansible-modules-core/pull/4689</a></td>
+<td>update junos_template module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4692">ansible-modules-core/pull/4692</a></td>
+<td>update junos_config module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4696">ansible-modules-core/pull/4696</a></td>
+<td>removes state argument from ops_config module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4697">ansible-modules-core/pull/4697</a></td>
+<td>updates nxos_config to remove state argument</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4698">ansible-modules-core/pull/4698</a></td>
+<td>removes state argument from ios_config</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4699">ansible-modules-core/pull/4699</a></td>
+<td>removes argument from vyos_config module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4708">ansible-modules-core/pull/4708</a></td>
+<td>fixes issue where the configobjs are not deseriali</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2790">ansible-modules-extras/issues/2790</a></td>
 <td>Chocolatey - checksums required for HTTP</td>
 </tr>
@@ -244,6 +289,26 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2825">ansible-modules-extras/pull/2825</a></td>
 <td>Add python3 testing for module PRs.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2848">ansible-modules-extras/pull/2848</a></td>
+<td>update asa_config module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2849">ansible-modules-extras/pull/2849</a></td>
+<td>roll up of updates to asa_template</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2850">ansible-modules-extras/pull/2850</a></td>
+<td>added new functionality to asa_command</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2851">ansible-modules-extras/pull/2851</a></td>
+<td>roll up updates to asa_acl module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -27614,6 +27679,26 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17359">ansible/pull/17359</a></td>
 <td>Enable more python 3 tests that now pass.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17375">ansible/pull/17375</a></td>
+<td>Enable more integration tests for python 3.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17376">ansible/pull/17376</a></td>
+<td>Use ansible_python for interpreter in test_uri.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17385">ansible/pull/17385</a></td>
+<td>minor optimizations and clean up in shell.py</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17386">ansible/pull/17386</a></td>
+<td>clean up method signatures in netcli</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -55957,6 +56042,11 @@
 </tr>
 <tr>
 <td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/17394">ansible/pull/17394</a></td>
+<td>fixes bug when template is missing src argument</td>
+</tr>
+<tr>
+<td>template</td>
 <td><a href="https://github.com/ansible/ansible/pull/1826">ansible/pull/1826</a></td>
 <td>Added additional template variables</td>
 </tr>
@@ -63339,6 +63429,11 @@
 <td>shell</td>
 <td><a href="https://github.com/ansible/ansible/issues/17298">ansible/issues/17298</a></td>
 <td>shell module behavior is not logical</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/17403">ansible/issues/17403</a></td>
+<td>Convert stdout from shell command to float is not </td>
 </tr>
 <tr>
 <td>shell</td>
@@ -72611,6 +72706,301 @@
 <td>Hash filters</td>
 </tr>
 <tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/issues/17081">ansible/issues/17081</a></td>
+<td>Python not found on remote host Ubuntu 16.04</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/10976">ansible/pull/10976</a></td>
+<td>Added --check-first parameter to ansible executabl</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/10978">ansible/pull/10978</a></td>
+<td>Test hosts</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/11515">ansible/pull/11515</a></td>
+<td>Don't wrap text for AnsibleParserError</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/11867">ansible/pull/11867</a></td>
+<td>Allow exceptions to pass through the program</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/121">ansible/pull/121</a></td>
+<td>change %{dist} to %{?dist}</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/126">ansible/pull/126</a></td>
+<td>Wired in Michael's usage string optparse style.</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/12798">ansible/pull/12798</a></td>
+<td>allow invoking clis through keywords</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/13006">ansible/pull/13006</a></td>
+<td>Ansible executable does not detect/report unsuppor</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/13007">ansible/pull/13007</a></td>
+<td>Avoid using magic numbers as exit codes</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/13008">ansible/pull/13008</a></td>
+<td>The else clause is the correct place to raise</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/13202">ansible/pull/13202</a></td>
+<td>Raise unexpected exceptions</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/13632">ansible/pull/13632</a></td>
+<td>Initial support for Windows Hosts</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1459">ansible/pull/1459</a></td>
+<td>Added config option to control default of asking o</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/14814">ansible/pull/14814</a></td>
+<td>Allow executing ansible like 'python -m ansible pl</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1495">ansible/pull/1495</a></td>
+<td>Added config option to control default of asking o</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1514">ansible/pull/1514</a></td>
+<td>Added config option for default ask for ssh_pass</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/15274">ansible/pull/15274</a></td>
+<td>Ansible Module Guidelines</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/15972">ansible/pull/15972</a></td>
+<td>Fix py3 cli</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1685">ansible/pull/1685</a></td>
+<td>Multiple interpreters</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/17379">ansible/pull/17379</a></td>
+<td>Do not crash if current dir do not exist</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1741">ansible/pull/1741</a></td>
+<td>add list-hosts support to bin/ansible</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1850">ansible/pull/1850</a></td>
+<td>Pull request for issues #1841 and #1840</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1937">ansible/pull/1937</a></td>
+<td>windows client support</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1978">ansible/pull/1978</a></td>
+<td>ansible stdin</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/1996">ansible/pull/1996</a></td>
+<td>For ansible --list-hosts benefit apply hosts selec</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2001">ansible/pull/2001</a></td>
+<td>For ansible --list-hosts benefit apply hosts selec</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2184">ansible/pull/2184</a></td>
+<td>support keyring module for sudo passwords</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2545">ansible/pull/2545</a></td>
+<td>Add support for common SSH and sudo password</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2546">ansible/pull/2546</a></td>
+<td>trivially add support for diff mode to ansible com</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2548">ansible/pull/2548</a></td>
+<td>Add support for same SSH and sudo password (follow</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/256">ansible/pull/256</a></td>
+<td>Test Pull Request</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2587">ansible/pull/2587</a></td>
+<td>Add support for same SSH and sudo password (follow</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/2602">ansible/pull/2602</a></td>
+<td>Default sudo password to SSH password. (follow up </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/274">ansible/pull/274</a></td>
+<td>Improve async output, refactor async code</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/297">ansible/pull/297</a></td>
+<td>Yet another trivial fix for PyDev</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/3185">ansible/pull/3185</a></td>
+<td>cleanup whitespace and xbit</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/325">ansible/pull/325</a></td>
+<td>Fix non-sudo execution, add --sudo-user to ansible</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/3346">ansible/pull/3346</a></td>
+<td>Refactored Ansible command options</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/3356">ansible/pull/3356</a></td>
+<td>Updates to Ansible command options</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/3455">ansible/pull/3455</a></td>
+<td>ansible: explain --args parameter</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/3781">ansible/pull/3781</a></td>
+<td>Never ask for SSH password when using local connec</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/387">ansible/pull/387</a></td>
+<td>implement --private-key for ansible - to take pem </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/4817">ansible/pull/4817</a></td>
+<td>Exit 0 with no matched hosts</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/5244">ansible/pull/5244</a></td>
+<td>Proposing fix for Issue #4324; adding support for </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/6234">ansible/pull/6234</a></td>
+<td>autodetect ANSIBLE_LIBRARY and PYTHONPATH if missi</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/6681">ansible/pull/6681</a></td>
+<td>Properly revert changes introduced in #6579 </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/6734">ansible/pull/6734</a></td>
+<td>vars_plugins refactor and move into core inventory</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/6833">ansible/pull/6833</a></td>
+<td>Add '--list-groups' flag and support to ansible & </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/6921">ansible/pull/6921</a></td>
+<td>remove "No hosts matched" from --list-hosts</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/7264">ansible/pull/7264</a></td>
+<td>Make --ask-sudo-pass/-K imply --sudo for `ansible`</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/7649">ansible/pull/7649</a></td>
+<td>Allow --vault-password-file to work with a script </td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/8396">ansible/pull/8396</a></td>
+<td>Load callback plugins in the ansible script</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/8597">ansible/pull/8597</a></td>
+<td>add implict --sudo (edit: for /bin/ansible)</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/8911">ansible/pull/8911</a></td>
+<td>Adding a new 'load_callback_plugins' config option</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/90">ansible/pull/90</a></td>
+<td>Fix exception catching for py2.4</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/9063">ansible/pull/9063</a></td>
+<td>Allow ansible (ad-hoc) to support --extra-vars</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/9299">ansible/pull/9299</a></td>
+<td>Remove no-op string declaration</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/9463">ansible/pull/9463</a></td>
+<td>Adds --force-read option to force ansible to read </td>
+</tr>
+<tr>
 <td>apt_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2356">ansible-modules-core/issues/2356</a></td>
 <td>apt_key unable to process  hkp:// protocol</td>
@@ -72899,296 +73289,6 @@
 <td>apt_key</td>
 <td><a href="https://github.com/ansible/ansible/pull/7949">ansible/pull/7949</a></td>
 <td>Check at most 16 characters of the key. Fixes #793</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/issues/17081">ansible/issues/17081</a></td>
-<td>Python not found on remote host Ubuntu 16.04</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/10976">ansible/pull/10976</a></td>
-<td>Added --check-first parameter to ansible executabl</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/10978">ansible/pull/10978</a></td>
-<td>Test hosts</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/11515">ansible/pull/11515</a></td>
-<td>Don't wrap text for AnsibleParserError</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/11867">ansible/pull/11867</a></td>
-<td>Allow exceptions to pass through the program</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/121">ansible/pull/121</a></td>
-<td>change %{dist} to %{?dist}</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/126">ansible/pull/126</a></td>
-<td>Wired in Michael's usage string optparse style.</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/12798">ansible/pull/12798</a></td>
-<td>allow invoking clis through keywords</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/13006">ansible/pull/13006</a></td>
-<td>Ansible executable does not detect/report unsuppor</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/13007">ansible/pull/13007</a></td>
-<td>Avoid using magic numbers as exit codes</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/13008">ansible/pull/13008</a></td>
-<td>The else clause is the correct place to raise</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/13202">ansible/pull/13202</a></td>
-<td>Raise unexpected exceptions</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/13632">ansible/pull/13632</a></td>
-<td>Initial support for Windows Hosts</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1459">ansible/pull/1459</a></td>
-<td>Added config option to control default of asking o</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/14814">ansible/pull/14814</a></td>
-<td>Allow executing ansible like 'python -m ansible pl</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1495">ansible/pull/1495</a></td>
-<td>Added config option to control default of asking o</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1514">ansible/pull/1514</a></td>
-<td>Added config option for default ask for ssh_pass</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/15274">ansible/pull/15274</a></td>
-<td>Ansible Module Guidelines</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/15972">ansible/pull/15972</a></td>
-<td>Fix py3 cli</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1685">ansible/pull/1685</a></td>
-<td>Multiple interpreters</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1741">ansible/pull/1741</a></td>
-<td>add list-hosts support to bin/ansible</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1850">ansible/pull/1850</a></td>
-<td>Pull request for issues #1841 and #1840</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1937">ansible/pull/1937</a></td>
-<td>windows client support</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1978">ansible/pull/1978</a></td>
-<td>ansible stdin</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/1996">ansible/pull/1996</a></td>
-<td>For ansible --list-hosts benefit apply hosts selec</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2001">ansible/pull/2001</a></td>
-<td>For ansible --list-hosts benefit apply hosts selec</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2184">ansible/pull/2184</a></td>
-<td>support keyring module for sudo passwords</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2545">ansible/pull/2545</a></td>
-<td>Add support for common SSH and sudo password</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2546">ansible/pull/2546</a></td>
-<td>trivially add support for diff mode to ansible com</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2548">ansible/pull/2548</a></td>
-<td>Add support for same SSH and sudo password (follow</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/256">ansible/pull/256</a></td>
-<td>Test Pull Request</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2587">ansible/pull/2587</a></td>
-<td>Add support for same SSH and sudo password (follow</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/2602">ansible/pull/2602</a></td>
-<td>Default sudo password to SSH password. (follow up </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/274">ansible/pull/274</a></td>
-<td>Improve async output, refactor async code</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/297">ansible/pull/297</a></td>
-<td>Yet another trivial fix for PyDev</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/3185">ansible/pull/3185</a></td>
-<td>cleanup whitespace and xbit</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/325">ansible/pull/325</a></td>
-<td>Fix non-sudo execution, add --sudo-user to ansible</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/3346">ansible/pull/3346</a></td>
-<td>Refactored Ansible command options</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/3356">ansible/pull/3356</a></td>
-<td>Updates to Ansible command options</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/3455">ansible/pull/3455</a></td>
-<td>ansible: explain --args parameter</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/3781">ansible/pull/3781</a></td>
-<td>Never ask for SSH password when using local connec</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/387">ansible/pull/387</a></td>
-<td>implement --private-key for ansible - to take pem </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/4817">ansible/pull/4817</a></td>
-<td>Exit 0 with no matched hosts</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/5244">ansible/pull/5244</a></td>
-<td>Proposing fix for Issue #4324; adding support for </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/6234">ansible/pull/6234</a></td>
-<td>autodetect ANSIBLE_LIBRARY and PYTHONPATH if missi</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/6681">ansible/pull/6681</a></td>
-<td>Properly revert changes introduced in #6579 </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/6734">ansible/pull/6734</a></td>
-<td>vars_plugins refactor and move into core inventory</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/6833">ansible/pull/6833</a></td>
-<td>Add '--list-groups' flag and support to ansible & </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/6921">ansible/pull/6921</a></td>
-<td>remove "No hosts matched" from --list-hosts</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/7264">ansible/pull/7264</a></td>
-<td>Make --ask-sudo-pass/-K imply --sudo for `ansible`</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/7649">ansible/pull/7649</a></td>
-<td>Allow --vault-password-file to work with a script </td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/8396">ansible/pull/8396</a></td>
-<td>Load callback plugins in the ansible script</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/8597">ansible/pull/8597</a></td>
-<td>add implict --sudo (edit: for /bin/ansible)</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/8911">ansible/pull/8911</a></td>
-<td>Adding a new 'load_callback_plugins' config option</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/90">ansible/pull/90</a></td>
-<td>Fix exception catching for py2.4</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/9063">ansible/pull/9063</a></td>
-<td>Allow ansible (ad-hoc) to support --extra-vars</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/9299">ansible/pull/9299</a></td>
-<td>Remove no-op string declaration</td>
-</tr>
-<tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/9463">ansible/pull/9463</a></td>
-<td>Adds --force-read option to force ansible to read </td>
 </tr>
 <tr>
 <td>azure</td>
@@ -89046,6 +89146,106 @@
 <td>Bug fix for GalaxyCLI.execute_info FIXME</td>
 </tr>
 <tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2025">ansible-modules-extras/issues/2025</a></td>
+<td>pkgin pattern matching does not support packages s</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2846">ansible-modules-extras/issues/2846</a></td>
+<td>pkgin module fails with package names with two hyp</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/475">ansible-modules-extras/issues/475</a></td>
+<td>pkgin failes to ensure packages are present</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1827">ansible-modules-extras/pull/1827</a></td>
+<td>support for 'update_cache' in pkgin module</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1895">ansible-modules-extras/pull/1895</a></td>
+<td>change name to be a list type</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2010">ansible-modules-extras/pull/2010</a></td>
+<td>Tweak and extend the pkgin module</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2029">ansible-modules-extras/pull/2029</a></td>
+<td>pkgin: Fix bad regexp which did not catch packages</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/298">ansible-modules-extras/pull/298</a></td>
+<td>pkgin: added check mode support, laid some groundw</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/316">ansible-modules-extras/pull/316</a></td>
+<td>Require semicolon to support pkgin version 0.7.0 b</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/454">ansible-modules-extras/pull/454</a></td>
+<td>Support both new and old pkgin versions by testing</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/846">ansible-modules-extras/pull/846</a></td>
+<td>pkgin: Support multiple matching packages</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/issues/2134">ansible/issues/2134</a></td>
+<td>hardcoding #!/usr/bin/python breaks modules</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/15834">ansible/pull/15834</a></td>
+<td>Fix pkgin detection on NetBSD 6 and 7</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/1906">ansible/pull/1906</a></td>
+<td>Add basic pkgin package management</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/3599">ansible/pull/3599</a></td>
+<td>Fix pkgin query_package for certain package names</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/3639">ansible/pull/3639</a></td>
+<td>Fix pkgin query_package for certain package names</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/3655">ansible/pull/3655</a></td>
+<td>Fix pkgin search</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/4938">ansible/pull/4938</a></td>
+<td>Added `-y` flag to `query_package`</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/5106">ansible/pull/5106</a></td>
+<td>Answer yes for pkgin list command to update packag</td>
+</tr>
+<tr>
+<td>pkgin</td>
+<td><a href="https://github.com/ansible/ansible/pull/6229">ansible/pull/6229</a></td>
+<td>allow pkgin packages to be specifed with versions</td>
+</tr>
+<tr>
 <td>filesystem</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1518">ansible-modules-core/pull/1518</a></td>
 <td>Add developer docs for the OpenStack modules</td>
@@ -89441,101 +89641,6 @@
 <td>Clean up task_executor for python3</td>
 </tr>
 <tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2025">ansible-modules-extras/issues/2025</a></td>
-<td>pkgin pattern matching does not support packages s</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/475">ansible-modules-extras/issues/475</a></td>
-<td>pkgin failes to ensure packages are present</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1827">ansible-modules-extras/pull/1827</a></td>
-<td>support for 'update_cache' in pkgin module</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1895">ansible-modules-extras/pull/1895</a></td>
-<td>change name to be a list type</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2010">ansible-modules-extras/pull/2010</a></td>
-<td>Tweak and extend the pkgin module</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2029">ansible-modules-extras/pull/2029</a></td>
-<td>pkgin: Fix bad regexp which did not catch packages</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/298">ansible-modules-extras/pull/298</a></td>
-<td>pkgin: added check mode support, laid some groundw</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/316">ansible-modules-extras/pull/316</a></td>
-<td>Require semicolon to support pkgin version 0.7.0 b</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/454">ansible-modules-extras/pull/454</a></td>
-<td>Support both new and old pkgin versions by testing</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/846">ansible-modules-extras/pull/846</a></td>
-<td>pkgin: Support multiple matching packages</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/issues/2134">ansible/issues/2134</a></td>
-<td>hardcoding #!/usr/bin/python breaks modules</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/15834">ansible/pull/15834</a></td>
-<td>Fix pkgin detection on NetBSD 6 and 7</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/1906">ansible/pull/1906</a></td>
-<td>Add basic pkgin package management</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/3599">ansible/pull/3599</a></td>
-<td>Fix pkgin query_package for certain package names</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/3639">ansible/pull/3639</a></td>
-<td>Fix pkgin query_package for certain package names</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/3655">ansible/pull/3655</a></td>
-<td>Fix pkgin search</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/4938">ansible/pull/4938</a></td>
-<td>Added `-y` flag to `query_package`</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/5106">ansible/pull/5106</a></td>
-<td>Answer yes for pkgin list command to update packag</td>
-</tr>
-<tr>
-<td>pkgin</td>
-<td><a href="https://github.com/ansible/ansible/pull/6229">ansible/pull/6229</a></td>
-<td>allow pkgin packages to be specifed with versions</td>
-</tr>
-<tr>
 <td>proxmox</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1217">ansible-modules-extras/issues/1217</a></td>
 <td>module promox is broken with Proxmox VE 4.0</td>
@@ -89629,6 +89734,101 @@
 <td>proxmox</td>
 <td><a href="https://github.com/ansible/ansible/pull/9714">ansible/pull/9714</a></td>
 <td>Added dynamic inventory plugin for ProxmoxVE.</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2707">ansible-modules-core/issues/2707</a></td>
+<td>Module to create NAT gateway to AWS VPC</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/970">ansible-modules-extras/issues/970</a></td>
+<td>Any plans to create a LXD module?</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1526">ansible-modules-extras/pull/1526</a></td>
+<td>Add Infiniband support to nmcli module</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1558">ansible-modules-extras/pull/1558</a></td>
+<td>Change example to include ethernet as the type.</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1559">ansible-modules-extras/pull/1559</a></td>
+<td>DOCS: Fix package list for nmcli module.</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1841">ansible-modules-extras/pull/1841</a></td>
+<td>Fix gw4/gw6 typo</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2852">ansible-modules-extras/pull/2852</a></td>
+<td>Do not crash if the system do not have required mo</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/482">ansible-modules-extras/pull/482</a></td>
+<td>Initial commit of nmcli: NetworkManager module. Cu</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/614">ansible-modules-extras/pull/614</a></td>
+<td>Adding author info</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/938">ansible-modules-extras/pull/938</a></td>
+<td>NetworkManager reimplementation - Initial release</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/issues/13432">ansible/issues/13432</a></td>
+<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/issues/15013">ansible/issues/15013</a></td>
+<td>when use nmcli module , always displayed change st</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/14793">ansible/pull/14793</a></td>
+<td>remove main_q for simplicity.</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/15420">ansible/pull/15420</a></td>
+<td>Distribution version tests</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/15595">ansible/pull/15595</a></td>
+<td>Fix python 2.4 checks for modules</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/15851">ansible/pull/15851</a></td>
+<td>Use .code instead of .getcode() as py24 does not h</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/15958">ansible/pull/15958</a></td>
+<td>new HandlerTaskInclude Class which can run TaskInc</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/346">ansible/pull/346</a></td>
+<td>Support nested variables in varReplace</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/782">ansible/pull/782</a></td>
+<td>Clearer error message if _load_params fails</td>
 </tr>
 <tr>
 <td>easy_install</td>
@@ -90756,96 +90956,6 @@
 <td>add attach operation</td>
 </tr>
 <tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2707">ansible-modules-core/issues/2707</a></td>
-<td>Module to create NAT gateway to AWS VPC</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/970">ansible-modules-extras/issues/970</a></td>
-<td>Any plans to create a LXD module?</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1526">ansible-modules-extras/pull/1526</a></td>
-<td>Add Infiniband support to nmcli module</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1558">ansible-modules-extras/pull/1558</a></td>
-<td>Change example to include ethernet as the type.</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1559">ansible-modules-extras/pull/1559</a></td>
-<td>DOCS: Fix package list for nmcli module.</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1841">ansible-modules-extras/pull/1841</a></td>
-<td>Fix gw4/gw6 typo</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/482">ansible-modules-extras/pull/482</a></td>
-<td>Initial commit of nmcli: NetworkManager module. Cu</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/614">ansible-modules-extras/pull/614</a></td>
-<td>Adding author info</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/938">ansible-modules-extras/pull/938</a></td>
-<td>NetworkManager reimplementation - Initial release</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/issues/13432">ansible/issues/13432</a></td>
-<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/issues/15013">ansible/issues/15013</a></td>
-<td>when use nmcli module , always displayed change st</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/14793">ansible/pull/14793</a></td>
-<td>remove main_q for simplicity.</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/15420">ansible/pull/15420</a></td>
-<td>Distribution version tests</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/15595">ansible/pull/15595</a></td>
-<td>Fix python 2.4 checks for modules</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/15851">ansible/pull/15851</a></td>
-<td>Use .code instead of .getcode() as py24 does not h</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/15958">ansible/pull/15958</a></td>
-<td>new HandlerTaskInclude Class which can run TaskInc</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/346">ansible/pull/346</a></td>
-<td>Support nested variables in varReplace</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/782">ansible/pull/782</a></td>
-<td>Clearer error message if _load_params fails</td>
-</tr>
-<tr>
 <td>fail</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4489">ansible-modules-core/issues/4489</a></td>
 <td>Ansible "fail" module is probably broken in case o</td>
@@ -91374,6 +91484,91 @@
 <td>elasticsearch_plugin</td>
 <td><a href="https://github.com/ansible/ansible/pull/6668">ansible/pull/6668</a></td>
 <td>Add elasticsearch plugin manager [module]</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4320">ansible-modules-core/issues/4320</a></td>
+<td>ios_config.py - "before" not set</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4419">ansible-modules-core/issues/4419</a></td>
+<td>ios_config crashes when theres no dest parameter</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4707">ansible-modules-core/issues/4707</a></td>
+<td>before parameter crashes ios_config</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2596">ansible-modules-core/pull/2596</a></td>
+<td>initial add of the ios_config module</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2860">ansible-modules-core/pull/2860</a></td>
+<td>initial add of new ios_config module</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3627">ansible-modules-core/pull/3627</a></td>
+<td>network/*/*_config.py: Correct typo.</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4152">ansible-modules-core/pull/4152</a></td>
+<td>refactor ios_config for network module</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4181">ansible-modules-core/pull/4181</a></td>
+<td>bug fix in ios_config module for handling config c</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4196">ansible-modules-core/pull/4196</a></td>
+<td>adds update_config argument to ios_config</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4323">ansible-modules-core/pull/4323</a></td>
+<td>Fix ios_config broken logic</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4482">ansible-modules-core/pull/4482</a></td>
+<td>merge functions from ios into ios_config</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/305">ansible-modules-extras/issues/305</a></td>
+<td>Update the README with installation instructions</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2307">ansible-modules-extras/pull/2307</a></td>
+<td>New module asa_config</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible/issues/15654">ansible/issues/15654</a></td>
+<td>The ios_config module does not delete the username</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/16632">ansible/pull/16632</a></td>
+<td>Adding a test for GalaxyCLI. Tests parser method.</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/16645">ansible/pull/16645</a></td>
+<td>Adding a test for GalaxyCLI. Tests execute_init me</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/16674">ansible/pull/16674</a></td>
+<td>adds action plugin for working with network config</td>
 </tr>
 <tr>
 <td>gce_net</td>
@@ -91934,86 +92129,6 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/issues/16546">ansible/issues/16546</a></td>
 <td>Exception while running ios_command which times ou</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4320">ansible-modules-core/issues/4320</a></td>
-<td>ios_config.py - "before" not set</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4419">ansible-modules-core/issues/4419</a></td>
-<td>ios_config crashes when theres no dest parameter</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2596">ansible-modules-core/pull/2596</a></td>
-<td>initial add of the ios_config module</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2860">ansible-modules-core/pull/2860</a></td>
-<td>initial add of new ios_config module</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3627">ansible-modules-core/pull/3627</a></td>
-<td>network/*/*_config.py: Correct typo.</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4152">ansible-modules-core/pull/4152</a></td>
-<td>refactor ios_config for network module</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4181">ansible-modules-core/pull/4181</a></td>
-<td>bug fix in ios_config module for handling config c</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4196">ansible-modules-core/pull/4196</a></td>
-<td>adds update_config argument to ios_config</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4323">ansible-modules-core/pull/4323</a></td>
-<td>Fix ios_config broken logic</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4482">ansible-modules-core/pull/4482</a></td>
-<td>merge functions from ios into ios_config</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/305">ansible-modules-extras/issues/305</a></td>
-<td>Update the README with installation instructions</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2307">ansible-modules-extras/pull/2307</a></td>
-<td>New module asa_config</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible/issues/15654">ansible/issues/15654</a></td>
-<td>The ios_config module does not delete the username</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/16632">ansible/pull/16632</a></td>
-<td>Adding a test for GalaxyCLI. Tests parser method.</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/16645">ansible/pull/16645</a></td>
-<td>Adding a test for GalaxyCLI. Tests execute_init me</td>
-</tr>
-<tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/16674">ansible/pull/16674</a></td>
-<td>adds action plugin for working with network config</td>
 </tr>
 <tr>
 <td>plugins</td>
@@ -92806,6 +92921,76 @@
 <td>rework of the nova inventory</td>
 </tr>
 <tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1073">ansible-modules-extras/issues/1073</a></td>
+<td>win_package: The variable '$script:MsiTools' canno</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1141">ansible-modules-extras/issues/1141</a></td>
+<td>win_package: won't accept non-GUID program IDs</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1271">ansible-modules-extras/issues/1271</a></td>
+<td>win_package: Download redirected file</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2391">ansible-modules-extras/issues/2391</a></td>
+<td>win_package uninstall example</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/984">ansible-modules-extras/issues/984</a></td>
+<td>About option of win_package</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1049">ansible-modules-extras/pull/1049</a></td>
+<td>win_package bugfix</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1174">ansible-modules-extras/pull/1174</a></td>
+<td>Various improvements to win_package</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2281">ansible-modules-extras/pull/2281</a></td>
+<td>Windows: win_package. Add info about where you can</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2286">ansible-modules-extras/pull/2286</a></td>
+<td>fix build and doc cleanups</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2677">ansible-modules-extras/pull/2677</a></td>
+<td>updated documentation for win_package</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/618">ansible-modules-extras/pull/618</a></td>
+<td>Added module win_package</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/713">ansible-modules-extras/pull/713</a></td>
+<td>Added module win_package (was #618)</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible/pull/17383">ansible/pull/17383</a></td>
+<td>add very basic tests of win_package, based on exis</td>
+</tr>
+<tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible/pull/8860">ansible/pull/8860</a></td>
+<td>new module: win_package</td>
+</tr>
+<tr>
 <td>mysql_variables</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1522">ansible-modules-core/issues/1522</a></td>
 <td>mysql_variables: socket=XXXX isnt read from ~/.my.</td>
@@ -93136,6 +93321,71 @@
 <td>Request: Honor the no_proxy environment variable</td>
 </tr>
 <tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3220">ansible-modules-core/issues/3220</a></td>
+<td>junos module hangs on connect</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4007">ansible-modules-core/issues/4007</a></td>
+<td>junos_config.py delete statement not working</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3429">ansible-modules-core/pull/3429</a></td>
+<td>add support for netconf to junos_config</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3561">ansible-modules-core/pull/3561</a></td>
+<td>fixes docstring issue for junos_config arguments</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4008">ansible-modules-core/pull/4008</a></td>
+<td>Fixed delete statement for juniper_config.py #4007</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4031">ansible-modules-core/pull/4031</a></td>
+<td>Fixed delete statement for juniper_config.py #4007</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4032">ansible-modules-core/pull/4032</a></td>
+<td>enable the use of configure mode for junos</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4304">ansible-modules-core/pull/4304</a></td>
+<td>Fix typo in "ssantaize" typo</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/15553">ansible/pull/15553</a></td>
+<td>add new action plugin junos_config</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/15568">ansible/pull/15568</a></td>
+<td>Revert "add new action plugin junos_config"</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/17387">ansible/pull/17387</a></td>
+<td>roll up of updates to junos shared module</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/1839">ansible/pull/1839</a></td>
+<td>Allow YAML hashes to work with hierarchical host/g</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/2691">ansible/pull/2691</a></td>
+<td>Avoid double colon with 'variable: "prompt"' style</td>
+</tr>
+<tr>
 <td>ops_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3312">ansible-modules-core/issues/3312</a></td>
 <td>ops_template.py: Take care of json src variable</td>
@@ -93199,71 +93449,6 @@
 <td>ops_template</td>
 <td><a href="https://github.com/ansible/ansible/pull/6867">ansible/pull/6867</a></td>
 <td>Add helper for modules written in bash</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1073">ansible-modules-extras/issues/1073</a></td>
-<td>win_package: The variable '$script:MsiTools' canno</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1141">ansible-modules-extras/issues/1141</a></td>
-<td>win_package: won't accept non-GUID program IDs</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1271">ansible-modules-extras/issues/1271</a></td>
-<td>win_package: Download redirected file</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2391">ansible-modules-extras/issues/2391</a></td>
-<td>win_package uninstall example</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/984">ansible-modules-extras/issues/984</a></td>
-<td>About option of win_package</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1049">ansible-modules-extras/pull/1049</a></td>
-<td>win_package bugfix</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1174">ansible-modules-extras/pull/1174</a></td>
-<td>Various improvements to win_package</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2281">ansible-modules-extras/pull/2281</a></td>
-<td>Windows: win_package. Add info about where you can</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2286">ansible-modules-extras/pull/2286</a></td>
-<td>fix build and doc cleanups</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2677">ansible-modules-extras/pull/2677</a></td>
-<td>updated documentation for win_package</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/618">ansible-modules-extras/pull/618</a></td>
-<td>Added module win_package</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/713">ansible-modules-extras/pull/713</a></td>
-<td>Added module win_package (was #618)</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible/pull/8860">ansible/pull/8860</a></td>
-<td>new module: win_package</td>
 </tr>
 <tr>
 <td>powershell</td>
@@ -93996,66 +94181,6 @@
 <td>Adding ec2_elb_facts module</td>
 </tr>
 <tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3220">ansible-modules-core/issues/3220</a></td>
-<td>junos module hangs on connect</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4007">ansible-modules-core/issues/4007</a></td>
-<td>junos_config.py delete statement not working</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3429">ansible-modules-core/pull/3429</a></td>
-<td>add support for netconf to junos_config</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3561">ansible-modules-core/pull/3561</a></td>
-<td>fixes docstring issue for junos_config arguments</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4008">ansible-modules-core/pull/4008</a></td>
-<td>Fixed delete statement for juniper_config.py #4007</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4031">ansible-modules-core/pull/4031</a></td>
-<td>Fixed delete statement for juniper_config.py #4007</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4032">ansible-modules-core/pull/4032</a></td>
-<td>enable the use of configure mode for junos</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4304">ansible-modules-core/pull/4304</a></td>
-<td>Fix typo in "ssantaize" typo</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/15553">ansible/pull/15553</a></td>
-<td>add new action plugin junos_config</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/15568">ansible/pull/15568</a></td>
-<td>Revert "add new action plugin junos_config"</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/1839">ansible/pull/1839</a></td>
-<td>Allow YAML hashes to work with hierarchical host/g</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/2691">ansible/pull/2691</a></td>
-<td>Avoid double colon with 'variable: "prompt"' style</td>
-</tr>
-<tr>
 <td>cs_iso</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/493">ansible-modules-extras/issues/493</a></td>
 <td>cloudstack cs_iso module failing on get_zones</td>
@@ -94114,6 +94239,66 @@
 <td>cs_iso</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/896">ansible-modules-extras/pull/896</a></td>
 <td>cloudstack: add api_region arg</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4583">ansible-modules-core/pull/4583</a></td>
+<td>Make async work on python 3</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11265">ansible/pull/11265</a></td>
+<td>Fixes async task failure with TypeError</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11461">ansible/pull/11461</a></td>
+<td>Fix "AttributeError: 'ActionModule' object has no </td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11502">ansible/pull/11502</a></td>
+<td>Add no_syslog option in order to prevent ansible s</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/12382">ansible/pull/12382</a></td>
+<td>Added env_string in async_cmd</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13519">ansible/pull/13519</a></td>
+<td>issue 2625</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13567">ansible/pull/13567</a></td>
+<td>Stable 2.0</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13971">ansible/pull/13971</a></td>
+<td>Strip "BECOME-SUCCESS" from async stdout</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/15248">ansible/pull/15248</a></td>
+<td>Fix async for old style modules and don't send an </td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/16534">ansible/pull/16534</a></td>
+<td>Parse async response in async action.</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/17374">ansible/pull/17374</a></td>
+<td>Pass '_' to async_wrapper for no argsfile.</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/1843">ansible/pull/1843</a></td>
+<td>Clean up imports (taken from PR #1804)</td>
 </tr>
 <tr>
 <td>digital_ocean_domain</td>
@@ -95116,61 +95301,6 @@
 <td>Revised patch for more password entropy</td>
 </tr>
 <tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4583">ansible-modules-core/pull/4583</a></td>
-<td>Make async work on python 3</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11265">ansible/pull/11265</a></td>
-<td>Fixes async task failure with TypeError</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11461">ansible/pull/11461</a></td>
-<td>Fix "AttributeError: 'ActionModule' object has no </td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11502">ansible/pull/11502</a></td>
-<td>Add no_syslog option in order to prevent ansible s</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/12382">ansible/pull/12382</a></td>
-<td>Added env_string in async_cmd</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13519">ansible/pull/13519</a></td>
-<td>issue 2625</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13567">ansible/pull/13567</a></td>
-<td>Stable 2.0</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13971">ansible/pull/13971</a></td>
-<td>Strip "BECOME-SUCCESS" from async stdout</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/15248">ansible/pull/15248</a></td>
-<td>Fix async for old style modules and don't send an </td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/16534">ansible/pull/16534</a></td>
-<td>Parse async response in async action.</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/1843">ansible/pull/1843</a></td>
-<td>Clean up imports (taken from PR #1804)</td>
-</tr>
-<tr>
 <td>os_router</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2474">ansible-modules-core/issues/2474</a></td>
 <td>os_router OpenStack module does not work with TryS</td>
@@ -95884,6 +96014,56 @@
 <td>pam_limits</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/96">ansible-modules-extras/pull/96</a></td>
 <td>Add pam_limits module to ansible : modify PAM limi</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3614">ansible-modules-core/issues/3614</a></td>
+<td>junos_command do not check if library jxmlease is </td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4418">ansible-modules-core/issues/4418</a></td>
+<td>Docs for 'port' attribute in junos_* modules are w</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4475">ansible-modules-core/issues/4475</a></td>
+<td>module junos_command rpc_args set int(value for kw</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3428">ansible-modules-core/pull/3428</a></td>
+<td>add support to junos_command module for netconf tr</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3532">ansible-modules-core/pull/3532</a></td>
+<td>fixes docstring format in junos_command</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4104">ansible-modules-core/pull/4104</a></td>
+<td>Enabling JSON for network/junos/junos_command.py #</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4495">ansible-modules-core/pull/4495</a></td>
+<td>re.match for numeric only for kwargs[key] = int(va</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/15791">ansible/issues/15791</a></td>
+<td>module_utils/junos.py does not handle library jxml</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17076">ansible/issues/17076</a></td>
+<td>Docs for 'port' attribute in junos_* modules are w</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible/pull/17077">ansible/pull/17077</a></td>
+<td>Update junos docs fragment to note the default por</td>
 </tr>
 <tr>
 <td>os_project</td>
@@ -96781,51 +96961,6 @@
 <td>return properties of the newly created scaling pol</td>
 </tr>
 <tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3614">ansible-modules-core/issues/3614</a></td>
-<td>junos_command do not check if library jxmlease is </td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4418">ansible-modules-core/issues/4418</a></td>
-<td>Docs for 'port' attribute in junos_* modules are w</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4475">ansible-modules-core/issues/4475</a></td>
-<td>module junos_command rpc_args set int(value for kw</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3428">ansible-modules-core/pull/3428</a></td>
-<td>add support to junos_command module for netconf tr</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3532">ansible-modules-core/pull/3532</a></td>
-<td>fixes docstring format in junos_command</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4495">ansible-modules-core/pull/4495</a></td>
-<td>re.match for numeric only for kwargs[key] = int(va</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/15791">ansible/issues/15791</a></td>
-<td>module_utils/junos.py does not handle library jxml</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17076">ansible/issues/17076</a></td>
-<td>Docs for 'port' attribute in junos_* modules are w</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible/pull/17077">ansible/pull/17077</a></td>
-<td>Update junos docs fragment to note the default por</td>
-</tr>
-<tr>
 <td>rax_scaling_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/485">ansible-modules-core/issues/485</a></td>
 <td>rax_scaling_group fails to create scaling group</td>
@@ -97449,6 +97584,46 @@
 <td>cloudflare_dns</td>
 <td><a href="https://github.com/ansible/ansible/pull/15169">ansible/pull/15169</a></td>
 <td>Integration tests for the cloudflare_dns module</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4387">ansible-modules-core/issues/4387</a></td>
+<td>ios_template does not recognise save/save_config p</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3222">ansible-modules-core/pull/3222</a></td>
+<td>Fixing title and example typos</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3242">ansible-modules-core/pull/3242</a></td>
+<td>Updating examples to include required fields</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4154">ansible-modules-core/pull/4154</a></td>
+<td>fixup ios_template module to use NetworkModule</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2308">ansible-modules-extras/pull/2308</a></td>
+<td>New module asa_template</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible/issues/17391">ansible/issues/17391</a></td>
+<td>network _template not checking arguments correctly</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/14010">ansible/pull/14010</a></td>
+<td>initial add of action plugin ios_template</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/15383">ansible/pull/15383</a></td>
+<td>Add import ShellError to ios.py</td>
 </tr>
 <tr>
 <td>facter</td>
@@ -98411,6 +98586,46 @@
 <td>add postgresql_lang</td>
 </tr>
 <tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1675">ansible-modules-core/pull/1675</a></td>
+<td>Added no_syslog option to command and async_wrappe</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2503">ansible-modules-core/pull/2503</a></td>
+<td>Py2.4: SystemExit in async_wrapper is not an error</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3358">ansible-modules-core/pull/3358</a></td>
+<td>Allow async to not need an args file since new-sty</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3966">ansible-modules-core/pull/3966</a></td>
+<td>some fixes to async_wrapper error handling</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4051">ansible-modules-core/pull/4051</a></td>
+<td>Use os.rename() in async_wrapper</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4671">ansible-modules-core/pull/4671</a></td>
+<td>Python 3 fixes for async_wrapper and async_status.</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4678">ansible-modules-core/pull/4678</a></td>
+<td>Make async_wrapper ignore '_' as an argsfile.</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible/pull/4806">ansible/pull/4806</a></td>
+<td>Ensure async terminates when time limit is not div</td>
+</tr>
+<tr>
 <td>win_lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2236">ansible-modules-core/issues/2236</a></td>
 <td>win_lineinfile changes permissions of target file </td>
@@ -98671,41 +98886,6 @@
 <td>Fix group variable precedence in #6734</td>
 </tr>
 <tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4387">ansible-modules-core/issues/4387</a></td>
-<td>ios_template does not recognise save/save_config p</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3222">ansible-modules-core/pull/3222</a></td>
-<td>Fixing title and example typos</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3242">ansible-modules-core/pull/3242</a></td>
-<td>Updating examples to include required fields</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4154">ansible-modules-core/pull/4154</a></td>
-<td>fixup ios_template module to use NetworkModule</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2308">ansible-modules-extras/pull/2308</a></td>
-<td>New module asa_template</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible/pull/14010">ansible/pull/14010</a></td>
-<td>initial add of action plugin ios_template</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible/pull/15383">ansible/pull/15383</a></td>
-<td>Add import ShellError to ios.py</td>
-</tr>
-<tr>
 <td>jsonfile</td>
 <td><a href="https://github.com/ansible/ansible/pull/13142">ansible/pull/13142</a></td>
 <td>Make jsonfile fact cache handle fancy paths proper</td>
@@ -98739,6 +98919,41 @@
 <td>jsonfile</td>
 <td><a href="https://github.com/ansible/ansible/pull/9881">ansible/pull/9881</a></td>
 <td>facts caching: fix missing json in jsonfile cachin</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/12312">ansible/pull/12312</a></td>
+<td>Support etcd v2. Use this version by default</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/17373">ansible/pull/17373</a></td>
+<td>typo fix for variable ANSIBLE_ETCD_VERSION</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/4664">ansible/pull/4664</a></td>
+<td>Lookup plugin for etcd</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/5420">ansible/pull/5420</a></td>
+<td>Fixed syntax error and removed unused imports</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/6609">ansible/pull/6609</a></td>
+<td>etcd lookup: use $ANSIBLE_ETCD_URL if it exists in</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/9145">ansible/pull/9145</a></td>
+<td>Allow configuration of which etcd API version to u</td>
+</tr>
+<tr>
+<td>etcd</td>
+<td><a href="https://github.com/ansible/ansible/pull/9804">ansible/pull/9804</a></td>
+<td>Add a etcd backend for caching facts</td>
 </tr>
 <tr>
 <td>hpilo_facts</td>
@@ -99826,36 +100041,6 @@
 <td>minimalist py3 fix to generic_g delegating impl</td>
 </tr>
 <tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/12312">ansible/pull/12312</a></td>
-<td>Support etcd v2. Use this version by default</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/4664">ansible/pull/4664</a></td>
-<td>Lookup plugin for etcd</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/5420">ansible/pull/5420</a></td>
-<td>Fixed syntax error and removed unused imports</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/6609">ansible/pull/6609</a></td>
-<td>etcd lookup: use $ANSIBLE_ETCD_URL if it exists in</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/9145">ansible/pull/9145</a></td>
-<td>Allow configuration of which etcd API version to u</td>
-</tr>
-<tr>
-<td>etcd</td>
-<td><a href="https://github.com/ansible/ansible/pull/9804">ansible/pull/9804</a></td>
-<td>Add a etcd backend for caching facts</td>
-</tr>
-<tr>
 <td>xattr</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3602">ansible-modules-core/issues/3602</a></td>
 <td>ansible 2.0.1.0 not gathering facts on mounted nfs</td>
@@ -100244,36 +100429,6 @@
 <td>lldp</td>
 <td><a href="https://github.com/ansible/ansible/pull/5292">ansible/pull/5292</a></td>
 <td>lldp support in Ansible</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1675">ansible-modules-core/pull/1675</a></td>
-<td>Added no_syslog option to command and async_wrappe</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2503">ansible-modules-core/pull/2503</a></td>
-<td>Py2.4: SystemExit in async_wrapper is not an error</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3358">ansible-modules-core/pull/3358</a></td>
-<td>Allow async to not need an args file since new-sty</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3966">ansible-modules-core/pull/3966</a></td>
-<td>some fixes to async_wrapper error handling</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4051">ansible-modules-core/pull/4051</a></td>
-<td>Use os.rename() in async_wrapper</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible/pull/4806">ansible/pull/4806</a></td>
-<td>Ensure async terminates when time limit is not div</td>
 </tr>
 <tr>
 <td>zabbix_screen</td>
@@ -102011,6 +102166,26 @@
 <td>Add new Amazon SQS module</td>
 </tr>
 <tr>
+<td>asa</td>
+<td><a href="https://github.com/ansible/ansible/pull/15992">ansible/pull/15992</a></td>
+<td>Module util, template action and doc fragment for </td>
+</tr>
+<tr>
+<td>asa</td>
+<td><a href="https://github.com/ansible/ansible/pull/17188">ansible/pull/17188</a></td>
+<td>Update module_utils/asa.py with NetworkModule</td>
+</tr>
+<tr>
+<td>asa</td>
+<td><a href="https://github.com/ansible/ansible/pull/17223">ansible/pull/17223</a></td>
+<td>Relicense module_utils/asa.py</td>
+</tr>
+<tr>
+<td>asa</td>
+<td><a href="https://github.com/ansible/ansible/pull/17388">ansible/pull/17388</a></td>
+<td>fix up asa shared module</td>
+</tr>
+<tr>
 <td>poller</td>
 <td><a href="https://github.com/ansible/ansible/pull/2782">ansible/pull/2782</a></td>
 <td>typo fix</td>
@@ -102329,6 +102504,26 @@
 <td>nxos_template</td>
 <td><a href="https://github.com/ansible/ansible/pull/14012">ansible/pull/14012</a></td>
 <td>initial add of action plugin nxos_template</td>
+</tr>
+<tr>
+<td>rhevm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1383">ansible-modules-extras/pull/1383</a></td>
+<td>Rhev</td>
+</tr>
+<tr>
+<td>rhevm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2202">ansible-modules-extras/pull/2202</a></td>
+<td>rhev</td>
+</tr>
+<tr>
+<td>rhevm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2553">ansible-modules-extras/pull/2553</a></td>
+<td>[pr rebase] Add rhevm module for RHEVM/oVirt</td>
+</tr>
+<tr>
+<td>rhevm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2860">ansible-modules-extras/pull/2860</a></td>
+<td>Rename rhev to rhv</td>
 </tr>
 <tr>
 <td>layman</td>
@@ -103116,6 +103311,21 @@
 <td>Getting a with_dict error when reading through dic</td>
 </tr>
 <tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17302">ansible/pull/17302</a></td>
+<td>Ignore difference on whitespace</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17327">ansible/pull/17327</a></td>
+<td>Disable yum test on python 3</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17380">ansible/pull/17380</a></td>
+<td>Do not hardcode python executable in test</td>
+</tr>
+<tr>
 <td>vmware_host</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1485">ansible-modules-extras/pull/1485</a></td>
 <td>Make vmware_host idempotent</td>
@@ -103431,21 +103641,6 @@
 <td>Removed run_once from alias of any error fatal</td>
 </tr>
 <tr>
-<td>asa</td>
-<td><a href="https://github.com/ansible/ansible/pull/15992">ansible/pull/15992</a></td>
-<td>Module util, template action and doc fragment for </td>
-</tr>
-<tr>
-<td>asa</td>
-<td><a href="https://github.com/ansible/ansible/pull/17188">ansible/pull/17188</a></td>
-<td>Update module_utils/asa.py with NetworkModule</td>
-</tr>
-<tr>
-<td>asa</td>
-<td><a href="https://github.com/ansible/ansible/pull/17223">ansible/pull/17223</a></td>
-<td>Relicense module_utils/asa.py</td>
-</tr>
-<tr>
 <td>librato_annotation</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/733">ansible-modules-extras/pull/733</a></td>
 <td>Port librato_annotation to fetch_url</td>
@@ -103669,21 +103864,6 @@
 <td>bigip_monitor_http</td>
 <td><a href="https://github.com/ansible/ansible/pull/7682">ansible/pull/7682</a></td>
 <td>bigip_monitor bugfix for check mode</td>
-</tr>
-<tr>
-<td>rhevm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1383">ansible-modules-extras/pull/1383</a></td>
-<td>Rhev</td>
-</tr>
-<tr>
-<td>rhevm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2202">ansible-modules-extras/pull/2202</a></td>
-<td>rhev</td>
-</tr>
-<tr>
-<td>rhevm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2553">ansible-modules-extras/pull/2553</a></td>
-<td>[pr rebase] Add rhevm module for RHEVM/oVirt</td>
 </tr>
 <tr>
 <td>dict</td>
@@ -104536,16 +104716,6 @@
 <td>Added OpenStack Quantum port module.</td>
 </tr>
 <tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/pull/17302">ansible/pull/17302</a></td>
-<td>Ignore difference on whitespace</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/pull/17327">ansible/pull/17327</a></td>
-<td>Disable yum test on python 3</td>
-</tr>
-<tr>
 <td>items</td>
 <td><a href="https://github.com/ansible/ansible/pull/3936">ansible/pull/3936</a></td>
 <td>Tweak with_items error message to be more useful.</td>
@@ -104864,6 +105034,16 @@
 <td>cs_loadbalancer_rule_member</td>
 <td><a href="https://github.com/ansible/ansible/pull/12828">ansible/pull/12828</a></td>
 <td>changelog: add cs_loadbalancer_rule_member</td>
+</tr>
+<tr>
+<td>opendj_backendprop</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2402">ansible-modules-extras/pull/2402</a></td>
+<td>Added new module opendj_backendprop for updating b</td>
+</tr>
+<tr>
+<td>opendj_backendprop</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2855">ansible-modules-extras/pull/2855</a></td>
+<td>Added new module opendj_backendprop for updating b</td>
 </tr>
 <tr>
 <td>cs_snapshot_policy</td>
@@ -106556,6 +106736,11 @@
 <td>Modules for managing Rackspace Cloud Databases ins</td>
 </tr>
 <tr>
+<td>role_include</td>
+<td><a href="https://github.com/ansible/ansible/pull/17401">ansible/pull/17401</a></td>
+<td>Dynamic role include</td>
+</tr>
+<tr>
 <td>cloudflare</td>
 <td><a href="https://github.com/ansible/ansible/pull/7365">ansible/pull/7365</a></td>
 <td>Cloudflare module</td>
@@ -106624,11 +106809,6 @@
 <td>loops</td>
 <td><a href="https://github.com/ansible/ansible/pull/17289">ansible/pull/17289</a></td>
 <td>implemented loop pausing</td>
-</tr>
-<tr>
-<td>opendj_backendprop</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2402">ansible-modules-extras/pull/2402</a></td>
-<td>Added new module opendj_backendprop for updating b</td>
 </tr>
 <tr>
 <td>rax_queue</td>
