@@ -172,6 +172,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2364">ansible-modules-core/pull/2364</a></td>
 <td>Add IPv6 option for new DigitalOcean droplets</td>
 </tr>
@@ -409,6 +414,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1422">ansible-modules-extras/pull/1422</a></td>
 <td>add a functionality to lvol module, to create thin</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1428">ansible-modules-extras/pull/1428</a></td>
+<td>New facts module for AWS EC2 VPC Endpoints</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4407,6 +4417,41 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17410">ansible/issues/17410</a></td>
+<td>module_utils/eos.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17411">ansible/issues/17411</a></td>
+<td>module_utils/junos.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17412">ansible/issues/17412</a></td>
+<td>module_utils/netcfg.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17413">ansible/issues/17413</a></td>
+<td>module_utils/netcli.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17414">ansible/issues/17414</a></td>
+<td>module_utils/nxos.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17415">ansible/issues/17415</a></td>
+<td>module_utils/openswitch.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17416">ansible/issues/17416</a></td>
+<td>module_utils/vyos.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -5329,11 +5374,6 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1352">ansible-modules-extras/pull/1352</a></td>
 <td>ec2_group_facts.py - new module for gathering EC2 </td>
-</tr>
-<tr>
-<td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1428">ansible-modules-extras/pull/1428</a></td>
-<td>New facts module for AWS EC2 VPC Endpoints</td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -7103,7 +7143,7 @@
 <tr>
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/17349">ansible/issues/17349</a></td>
-<td>Can not SSH to hosts unless paramiko is used</td>
+<td>Can not SSH to hosts which hostname differ from in</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -9891,86 +9931,6 @@
 <td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
-<td>authorized_keys assumes home directory is already </td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
-<td>In system/authorized_key.py make manage_dir create</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
 <td>Feature Idea : cloudformation "describe" state</td>
@@ -10044,6 +10004,81 @@
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible/pull/12880">ansible/pull/12880</a></td>
 <td>Amazon cloudformation stack resource and output lo</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/59">ansible-modules-core/issues/59</a></td>
+<td>authorized_keys assumes home directory is already </td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3738">ansible-modules-core/pull/3738</a></td>
+<td>In system/authorized_key.py make manage_dir create</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -12456,36 +12491,6 @@
 <td>Refactored Consul inventory script</td>
 </tr>
 <tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
-<td>Expose replace module's backup file path</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4716">ansible-modules-core/issues/4716</a></td>
-<td>Replace Module not able to have replacements with </td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4641">ansible-modules-core/pull/4641</a></td>
-<td>Fix replace</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
-<td>Replace PyCrypto usage with cryptography.io</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
-<td>Replace pipes.quote for shlex_quote</td>
-</tr>
-<tr>
-<td>replace</td>
-<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
-<td>raise an exception on undefined environment variab</td>
-</tr>
-<tr>
 <td>ec2_tag</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1150">ansible-modules-core/issues/1150</a></td>
 <td>ec2_tag module should allow the user to specify ta</td>
@@ -12959,6 +12964,31 @@
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible/pull/14817">ansible/pull/14817</a></td>
 <td>Add https support for consul lookup plugin</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/245">ansible-modules-core/issues/245</a></td>
+<td>Expose replace module's backup file path</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4641">ansible-modules-core/pull/4641</a></td>
+<td>Fix replace</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/issues/13075">ansible/issues/13075</a></td>
+<td>Replace PyCrypto usage with cryptography.io</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/12617">ansible/pull/12617</a></td>
+<td>Replace pipes.quote for shlex_quote</td>
+</tr>
+<tr>
+<td>replace</td>
+<td><a href="https://github.com/ansible/ansible/pull/16034">ansible/pull/16034</a></td>
+<td>raise an exception on undefined environment variab</td>
 </tr>
 <tr>
 <td>rpm_key</td>
@@ -14736,16 +14766,6 @@
 <td>Module for managing launchd on OS X (system/launch</td>
 </tr>
 <tr>
-<td>meta</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4240">ansible-modules-core/issues/4240</a></td>
-<td>meta: refresh_inventory fails when set as handler </td>
-</tr>
-<tr>
-<td>meta</td>
-<td><a href="https://github.com/ansible/ansible/issues/17409">ansible/issues/17409</a></td>
-<td>meta: refresh_inventory does not work for VMware d</td>
-</tr>
-<tr>
 <td>azure_rm_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2299">ansible-modules-extras/issues/2299</a></td>
 <td>Azure Resource Deployment deletes all created reso</td>
@@ -15629,6 +15649,11 @@
 <td>datadog_event</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2837">ansible-modules-extras/issues/2837</a></td>
 <td>datadog_event module does not correctly set host f</td>
+</tr>
+<tr>
+<td>meta</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4240">ansible-modules-core/issues/4240</a></td>
+<td>meta: refresh_inventory fails when set as handler </td>
 </tr>
 <tr>
 <td>couchdb_user</td>
