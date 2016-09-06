@@ -4637,11 +4637,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17396">ansible/issues/17396</a></td>
-<td>unexpected newline in  file name </td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17410">ansible/issues/17410</a></td>
 <td>module_utils/eos.py - Code review</td>
 </tr>
@@ -5394,6 +5389,21 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17422">ansible/pull/17422</a></td>
 <td>bug fix for AttributeError: 'str' object has no at</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17424">ansible/pull/17424</a></td>
+<td>removes unneeded code from netcli</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17425">ansible/pull/17425</a></td>
+<td>removes command caching on retrieve from netcli</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17426">ansible/pull/17426</a></td>
+<td>fixes issue when piping commands through json with</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8546,6 +8556,141 @@
 <td>ec2_group: Small error in "rules" option descripti</td>
 </tr>
 <tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1578">ansible-modules-core/issues/1578</a></td>
+<td>Adding parameter password to unarchive module</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1823">ansible-modules-core/issues/1823</a></td>
+<td>unarchive module not correctly unzipping symlinks</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
+<td>Unarchive module throws an error on OS X</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2866">ansible-modules-core/issues/2866</a></td>
+<td>unarchive: misleading error message when Unexpecte</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
+<td>unarchive module add directory_mode parameter</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
+<td>unarchive inexplicit error message when required c</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4109">ansible-modules-core/issues/4109</a></td>
+<td>Unarchive unable to handle square brackets</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
+<td>unarchive module does not recognize 'creates' para</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4648">ansible-modules-core/issues/4648</a></td>
+<td>unarchive leaving files in .ansible tmp directory</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4660">ansible-modules-core/issues/4660</a></td>
+<td>Unarchive fails with cryptic message</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
+<td>unarchive module doesn't observe umask for idempot</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
+<td>unarchive fails with filename too long when downlo</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/913">ansible-modules-core/issues/913</a></td>
+<td>unarchive + folded scalar vs structured map</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
+<td>Fix unarchive permission issue to tempdir</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4026">ansible-modules-core/pull/4026</a></td>
+<td>Added usage examples for exclude and extra-opts</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4179">ansible-modules-core/pull/4179</a></td>
+<td>Unarchive: stop passing file mode to tar command</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4352">ansible-modules-core/pull/4352</a></td>
+<td>Detect tar type (bsd, gnu) and only use gnu tar. </td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4626">ansible-modules-core/pull/4626</a></td>
+<td>Don't add included files as arguments on the comma</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4702">ansible-modules-core/pull/4702</a></td>
+<td>Ensure unicode characters in zip-compressed filena</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/issues/13665">ansible/issues/13665</a></td>
+<td>Add checksum check to unarchive module [feature_re</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/issues/14506">ansible/issues/14506</a></td>
+<td>unarchive module donwload the archive in the ansib</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/issues/14563">ansible/issues/14563</a></td>
+<td>Unarchive Module dont work in clean Solaris 11.2 S</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/issues/16078">ansible/issues/16078</a></td>
+<td>Unarchive Fails To List Files In TGZ From FAT FS</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/issues/16130">ansible/issues/16130</a></td>
+<td>Add an "include" parameter to unarchive</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
+<td>let chdir support relative path in more modules</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/17423">ansible/pull/17423</a></td>
+<td>Move uses of to_bytes, to_text, to_native to use t</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/17427">ansible/pull/17427</a></td>
+<td>Add partially backwards compatible version of _fix</td>
+</tr>
+<tr>
 <td>apt</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1178">ansible-modules-core/issues/1178</a></td>
 <td>Installing multiple deb files using with_items tog</td>
@@ -8809,131 +8954,6 @@
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
 <td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1578">ansible-modules-core/issues/1578</a></td>
-<td>Adding parameter password to unarchive module</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1823">ansible-modules-core/issues/1823</a></td>
-<td>unarchive module not correctly unzipping symlinks</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
-<td>Unarchive module throws an error on OS X</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2866">ansible-modules-core/issues/2866</a></td>
-<td>unarchive: misleading error message when Unexpecte</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
-<td>unarchive module add directory_mode parameter</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
-<td>unarchive inexplicit error message when required c</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4109">ansible-modules-core/issues/4109</a></td>
-<td>Unarchive unable to handle square brackets</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
-<td>unarchive module does not recognize 'creates' para</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4648">ansible-modules-core/issues/4648</a></td>
-<td>unarchive leaving files in .ansible tmp directory</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4660">ansible-modules-core/issues/4660</a></td>
-<td>Unarchive fails with cryptic message</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
-<td>unarchive module doesn't observe umask for idempot</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
-<td>unarchive fails with filename too long when downlo</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/913">ansible-modules-core/issues/913</a></td>
-<td>unarchive + folded scalar vs structured map</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
-<td>Fix unarchive permission issue to tempdir</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4026">ansible-modules-core/pull/4026</a></td>
-<td>Added usage examples for exclude and extra-opts</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4179">ansible-modules-core/pull/4179</a></td>
-<td>Unarchive: stop passing file mode to tar command</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4352">ansible-modules-core/pull/4352</a></td>
-<td>Detect tar type (bsd, gnu) and only use gnu tar. </td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4626">ansible-modules-core/pull/4626</a></td>
-<td>Don't add included files as arguments on the comma</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4702">ansible-modules-core/pull/4702</a></td>
-<td>Ensure unicode characters in zip-compressed filena</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/issues/13665">ansible/issues/13665</a></td>
-<td>Add checksum check to unarchive module [feature_re</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/issues/14506">ansible/issues/14506</a></td>
-<td>unarchive module donwload the archive in the ansib</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/issues/14563">ansible/issues/14563</a></td>
-<td>Unarchive Module dont work in clean Solaris 11.2 S</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/issues/16078">ansible/issues/16078</a></td>
-<td>Unarchive Fails To List Files In TGZ From FAT FS</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/issues/16130">ansible/issues/16130</a></td>
-<td>Add an "include" parameter to unarchive</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
-<td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
 <td>npm</td>
@@ -13061,31 +13081,6 @@
 <td>Fix bug in Cloudtrail module and added features</td>
 </tr>
 <tr>
-<td>async_status</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2374">ansible-modules-core/issues/2374</a></td>
-<td>Error Evaluating Conditional when using async_stat</td>
-</tr>
-<tr>
-<td>async_status</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4393">ansible-modules-core/issues/4393</a></td>
-<td>ansible os_server module doesnot work with async_s</td>
-</tr>
-<tr>
-<td>async_status</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4432">ansible-modules-core/pull/4432</a></td>
-<td>speed up async module execution by removing some s</td>
-</tr>
-<tr>
-<td>async_status</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4710">ansible-modules-core/pull/4710</a></td>
-<td>Win async</td>
-</tr>
-<tr>
-<td>async_status</td>
-<td><a href="https://github.com/ansible/ansible/issues/17035">ansible/issues/17035</a></td>
-<td>async_wrapper does not filter garbage from module </td>
-</tr>
-<tr>
 <td>set_fact</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1431">ansible-modules-core/issues/1431</a></td>
 <td>Casting boolean values doesn't work for set_fact</td>
@@ -13506,6 +13501,26 @@
 <td>dnf module: NameError: global name util is not def</td>
 </tr>
 <tr>
+<td>async_status</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2374">ansible-modules-core/issues/2374</a></td>
+<td>Error Evaluating Conditional when using async_stat</td>
+</tr>
+<tr>
+<td>async_status</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4393">ansible-modules-core/issues/4393</a></td>
+<td>ansible os_server module doesnot work with async_s</td>
+</tr>
+<tr>
+<td>async_status</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4432">ansible-modules-core/pull/4432</a></td>
+<td>speed up async module execution by removing some s</td>
+</tr>
+<tr>
+<td>async_status</td>
+<td><a href="https://github.com/ansible/ansible/issues/17035">ansible/issues/17035</a></td>
+<td>async_wrapper does not filter garbage from module </td>
+</tr>
+<tr>
 <td>postgresql_privs</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1169">ansible-modules-core/issues/1169</a></td>
 <td>postgresql_user, postgresql_db, postgresql_privs a</td>
@@ -13544,6 +13559,26 @@
 <td>gluster_volume</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2812">ansible-modules-extras/pull/2812</a></td>
 <td>gluster_volume adds replica and stripe arguments w</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>ios_template</td>
@@ -13764,26 +13799,6 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -14731,16 +14746,6 @@
 <td>Support Latency graphs in route53_health_check mod</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14911,6 +14916,16 @@
 <td>Patch module sometimes skips files with no overrid</td>
 </tr>
 <tr>
+<td>letsencrypt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2799">ansible-modules-extras/issues/2799</a></td>
+<td>Cannot request certificate (letsencrypt) with erro</td>
+</tr>
+<tr>
+<td>letsencrypt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2868">ansible-modules-extras/pull/2868</a></td>
+<td>letsencrypt: Improve error handling</td>
+</tr>
+<tr>
 <td>open_iscsi</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1812">ansible-modules-extras/issues/1812</a></td>
 <td>[open_scsi] target ip/port should be forced when l</td>
@@ -15009,6 +15024,16 @@
 <td>urls</td>
 <td><a href="https://github.com/ansible/ansible/pull/17312">ansible/pull/17312</a></td>
 <td>Improved caching for urls</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
 </tr>
 <tr>
 <td>openstack</td>
@@ -15756,11 +15781,6 @@
 <td>Adding nxos_hsrp</td>
 </tr>
 <tr>
-<td>cloudformation_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2329">ansible-modules-extras/pull/2329</a></td>
-<td>New module cloudformation_facts</td>
-</tr>
-<tr>
 <td>as_command</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2792">ansible-modules-extras/issues/2792</a></td>
 <td>asa_command module does not support with_nested</td>
@@ -15999,11 +16019,6 @@
 <td>os_networks_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3971">ansible-modules-core/pull/3971</a></td>
 <td>Change documented options for os_networks_facts</td>
-</tr>
-<tr>
-<td>letsencrypt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2799">ansible-modules-extras/issues/2799</a></td>
-<td>Cannot request certificate (letsencrypt) with erro</td>
 </tr>
 <tr>
 <td>emr</td>
