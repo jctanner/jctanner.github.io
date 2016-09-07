@@ -357,11 +357,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4661">ansible-modules-core/pull/4661</a></td>
-<td>Pluribus Open Netvisor Linux (ONVL) Modules</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4719">ansible-modules-core/pull/4719</a></td>
 <td>minor bug fixes in eos_template</td>
 </tr>
@@ -4317,6 +4312,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16894">ansible/issues/16894</a></td>
+<td>ansible hangs with --ask-pass and encrypted SSH ke</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16902">ansible/issues/16902</a></td>
 <td>Multi-play playbook fails silently and illogically</td>
 </tr>
@@ -5409,6 +5409,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17431">ansible/pull/17431</a></td>
 <td>minor roll up of fixes to eos shared module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17432">ansible/pull/17432</a></td>
+<td>fix windows async_wrapper loop failure</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10771,66 +10776,6 @@
 <td>ec2.py dynamic inventory issue with ElastiCache in</td>
 </tr>
 <tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1075">ansible-modules-core/issues/1075</a></td>
-<td>Feature Request: Better Shell Command Output</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1077">ansible-modules-core/issues/1077</a></td>
-<td>Shell module: "a duplicate parameter was found in </td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
-<td>Support for Shell Commands in Check Mode</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4033">ansible-modules-core/issues/4033</a></td>
-<td>Unable to calculate the checksum of the remote fil</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/651">ansible-modules-core/issues/651</a></td>
-<td>shell not respecting return value</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/12034">ansible/issues/12034</a></td>
-<td>Either the YAML parser or shell module insert lead</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/15206">ansible/issues/15206</a></td>
-<td>shell module in check mode, when creates parameter</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/15741">ansible/issues/15741</a></td>
-<td>If managed system reboots, shell module does not r</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/16235">ansible/issues/16235</a></td>
-<td>Remote shell expansion in environment</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/16894">ansible/issues/16894</a></td>
-<td>ansible hangs with --ask-pass and encrypted SSH ke</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/issues/7240">ansible/issues/7240</a></td>
-<td>(Doc) Intro to Ad-Hoc Commands:  the command modul</td>
-</tr>
-<tr>
-<td>shell</td>
-<td><a href="https://github.com/ansible/ansible/pull/16644">ansible/pull/16644</a></td>
-<td>ansible su root prompt</td>
-</tr>
-<tr>
 <td>postgresql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
 <td>Add support for CONNECTION LIMIT to postgresql_use</td>
@@ -10999,6 +10944,61 @@
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible/issues/15512">ansible/issues/15512</a></td>
 <td>no_log expression support</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1075">ansible-modules-core/issues/1075</a></td>
+<td>Feature Request: Better Shell Command Output</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1077">ansible-modules-core/issues/1077</a></td>
+<td>Shell module: "a duplicate parameter was found in </td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
+<td>Support for Shell Commands in Check Mode</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4033">ansible-modules-core/issues/4033</a></td>
+<td>Unable to calculate the checksum of the remote fil</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/651">ansible-modules-core/issues/651</a></td>
+<td>shell not respecting return value</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/12034">ansible/issues/12034</a></td>
+<td>Either the YAML parser or shell module insert lead</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/15206">ansible/issues/15206</a></td>
+<td>shell module in check mode, when creates parameter</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/15741">ansible/issues/15741</a></td>
+<td>If managed system reboots, shell module does not r</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/16235">ansible/issues/16235</a></td>
+<td>Remote shell expansion in environment</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/issues/7240">ansible/issues/7240</a></td>
+<td>(Doc) Intro to Ad-Hoc Commands:  the command modul</td>
+</tr>
+<tr>
+<td>shell</td>
+<td><a href="https://github.com/ansible/ansible/pull/16644">ansible/pull/16644</a></td>
+<td>ansible su root prompt</td>
 </tr>
 <tr>
 <td>cron</td>
@@ -11424,51 +11424,6 @@
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4057">ansible-modules-core/issues/4057</a></td>
 <td>Volumes do not get dropped when removing the docke</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1674">ansible-modules-core/issues/1674</a></td>
-<td>wait_for module and UDP port check support</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3079">ansible-modules-core/issues/3079</a></td>
-<td>wait_for module for windows (accessing file on win</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3185">ansible-modules-core/issues/3185</a></td>
-<td>exclude_hosts are not working for wait_for/drained</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/861">ansible-modules-core/issues/861</a></td>
-<td>wait_for suck in wait until timeout, it cannot det</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2938">ansible-modules-core/pull/2938</a></td>
-<td>added ability to control sleep between attempts</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/286">ansible-modules-extras/pull/286</a></td>
-<td>Add simple module to import/delete ssl certificate</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/15732">ansible/issues/15732</a></td>
-<td>wait_for will not accept both port and path; shoul</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
-<td>with lsb_release installed and /bin/lsb_release bi</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/17419">ansible/issues/17419</a></td>
-<td>wait_for documenation needs updating for ansible2.</td>
 </tr>
 <tr>
 <td>facts</td>
@@ -11984,6 +11939,46 @@
 <td>rabbitmq_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2253">ansible-modules-extras/pull/2253</a></td>
 <td>Fix ValueErrors if extra output picked up from rab</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1674">ansible-modules-core/issues/1674</a></td>
+<td>wait_for module and UDP port check support</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3079">ansible-modules-core/issues/3079</a></td>
+<td>wait_for module for windows (accessing file on win</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3185">ansible-modules-core/issues/3185</a></td>
+<td>exclude_hosts are not working for wait_for/drained</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/861">ansible-modules-core/issues/861</a></td>
+<td>wait_for suck in wait until timeout, it cannot det</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2938">ansible-modules-core/pull/2938</a></td>
+<td>added ability to control sleep between attempts</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/286">ansible-modules-extras/pull/286</a></td>
+<td>Add simple module to import/delete ssl certificate</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/15732">ansible/issues/15732</a></td>
+<td>wait_for will not accept both port and path; shoul</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
+<td>with lsb_release installed and /bin/lsb_release bi</td>
 </tr>
 <tr>
 <td>azure</td>
@@ -14296,21 +14291,6 @@
 <td>netcli.py: AttributeError: str object has no attri</td>
 </tr>
 <tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2622">ansible-modules-core/issues/2622</a></td>
-<td>apt_key --check falsely reports change</td>
-</tr>
-<tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
-<td>apt_key doesn't compare key data in check mode</td>
-</tr>
-<tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/17370">ansible/issues/17370</a></td>
-<td>apt_key gives wrong error message when blocked by </td>
-</tr>
-<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1638">ansible-modules-extras/issues/1638</a></td>
 <td>locale_gen should check /usr/share/i18n/SUPPORTED </td>
@@ -14974,6 +14954,16 @@
 <td>win_zip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/999">ansible-modules-extras/pull/999</a></td>
 <td>Added module win_zip</td>
+</tr>
+<tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2622">ansible-modules-core/issues/2622</a></td>
+<td>apt_key --check falsely reports change</td>
+</tr>
+<tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
+<td>apt_key doesn't compare key data in check mode</td>
 </tr>
 <tr>
 <td>ini</td>
