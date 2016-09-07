@@ -362,11 +362,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4719">ansible-modules-core/pull/4719</a></td>
-<td>minor bug fixes in eos_template</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -3757,11 +3752,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/16237">ansible/issues/16237</a></td>
-<td>Playbook defined variables are lost within roles</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16241">ansible/issues/16241</a></td>
 <td>ansible serial do not  continue when one host fail</td>
 </tr>
@@ -5444,11 +5434,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17421">ansible/pull/17421</a></td>
 <td>Allow for no prefix in the comment filter</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17431">ansible/pull/17431</a></td>
-<td>minor roll up of fixes to eos shared module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7413,7 +7398,7 @@
 <tr>
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/17349">ansible/issues/17349</a></td>
-<td>SSH connexions fail randomly unless paramiko is us</td>
+<td>Ansible randomly fails to connect to hosts unless </td>
 </tr>
 <tr>
 <td>setup</td>
@@ -13651,24 +13636,24 @@
 <td>Added n7k support</td>
 </tr>
 <tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3964">ansible-modules-core/issues/3964</a></td>
-<td>docker for mac and docker or docker_images modules</td>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
+<td>rax module fails to create Cloud Server with multi</td>
 </tr>
 <tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4623">ansible-modules-core/pull/4623</a></td>
-<td>Docker_image: Properly set changed events for pull</td>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
+<td>rax module doesnot work with async</td>
 </tr>
 <tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible/issues/16265">ansible/issues/16265</a></td>
-<td>Add ability to pass --build-arg to docker build in</td>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4721">ansible-modules-core/issues/4721</a></td>
+<td>Create servers tasks returns with not all instance</td>
 </tr>
 <tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible/issues/16525">ansible/issues/16525</a></td>
-<td>docker_image: tagging without pushing to repositor</td>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
+<td>Updated rax guide for handling RackConnect</td>
 </tr>
 <tr>
 <td>mysql_replication</td>
@@ -13689,26 +13674,6 @@
 <td>mysql_replication</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2223">ansible-modules-extras/pull/2223</a></td>
 <td>mysql_replication: feature - Support Multi-Source </td>
-</tr>
-<tr>
-<td>ipaddr</td>
-<td><a href="https://github.com/ansible/ansible/pull/11658">ansible/pull/11658</a></td>
-<td>Integrate EUI64 SLAAC into ipaddr() Jinja2 filter</td>
-</tr>
-<tr>
-<td>ipaddr</td>
-<td><a href="https://github.com/ansible/ansible/pull/12601">ansible/pull/12601</a></td>
-<td>Fix bug in ipaddr netmask filter when cidr is 32</td>
-</tr>
-<tr>
-<td>ipaddr</td>
-<td><a href="https://github.com/ansible/ansible/pull/16976">ansible/pull/16976</a></td>
-<td>Refactor and fix the slaac filter.</td>
-</tr>
-<tr>
-<td>ipaddr</td>
-<td><a href="https://github.com/ansible/ansible/pull/16979">ansible/pull/16979</a></td>
-<td>Refactor and fix the slaac filter. (2. approach)</td>
 </tr>
 <tr>
 <td>blockinfile</td>
@@ -13809,6 +13774,46 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3964">ansible-modules-core/issues/3964</a></td>
+<td>docker for mac and docker or docker_images modules</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4623">ansible-modules-core/pull/4623</a></td>
+<td>Docker_image: Properly set changed events for pull</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible/issues/16265">ansible/issues/16265</a></td>
+<td>Add ability to pass --build-arg to docker build in</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible/issues/16525">ansible/issues/16525</a></td>
+<td>docker_image: tagging without pushing to repositor</td>
+</tr>
+<tr>
+<td>ipaddr</td>
+<td><a href="https://github.com/ansible/ansible/pull/11658">ansible/pull/11658</a></td>
+<td>Integrate EUI64 SLAAC into ipaddr() Jinja2 filter</td>
+</tr>
+<tr>
+<td>ipaddr</td>
+<td><a href="https://github.com/ansible/ansible/pull/12601">ansible/pull/12601</a></td>
+<td>Fix bug in ipaddr netmask filter when cidr is 32</td>
+</tr>
+<tr>
+<td>ipaddr</td>
+<td><a href="https://github.com/ansible/ansible/pull/16976">ansible/pull/16976</a></td>
+<td>Refactor and fix the slaac filter.</td>
+</tr>
+<tr>
+<td>ipaddr</td>
+<td><a href="https://github.com/ansible/ansible/pull/16979">ansible/pull/16979</a></td>
+<td>Refactor and fix the slaac filter. (2. approach)</td>
 </tr>
 <tr>
 <td>redhat_subscription</td>
@@ -14334,21 +14339,6 @@
 <td>win_msi</td>
 <td><a href="https://github.com/ansible/ansible/issues/16261">ansible/issues/16261</a></td>
 <td>win_msi $result "log" $logcontents not showing log</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
-<td>rax module fails to create Cloud Server with multi</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
-<td>rax module doesnot work with async</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
-<td>Updated rax guide for handling RackConnect</td>
 </tr>
 <tr>
 <td>filesystem</td>
@@ -15776,6 +15766,11 @@
 <td>asa_command module does not support with_nested</td>
 </tr>
 <tr>
+<td>os_aggregate</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2873">ansible-modules-extras/pull/2873</a></td>
+<td>added os_aggregate module</td>
+</tr>
+<tr>
 <td>nxos_vpc</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4669">ansible-modules-core/pull/4669</a></td>
 <td>Adding nxos_vpc</td>
@@ -15849,6 +15844,11 @@
 <td>ec2_vpc_net</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3613">ansible-modules-core/issues/3613</a></td>
 <td>ec2_vpc_net always returns "changed" when state=pr</td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2854">ansible-modules-extras/pull/2854</a></td>
+<td>Start zypper in non-interactive mode</td>
 </tr>
 <tr>
 <td>aws_ranges</td>
@@ -16339,11 +16339,6 @@
 <td>fleet_unit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2344">ansible-modules-extras/pull/2344</a></td>
 <td>add fleet_unit module which manges CoreOS systemd </td>
-</tr>
-<tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2854">ansible-modules-extras/pull/2854</a></td>
-<td>Start zypper in non-interactive mode</td>
 </tr>
 <tr>
 <td>rhvm</td>
