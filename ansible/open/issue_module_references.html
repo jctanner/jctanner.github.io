@@ -307,6 +307,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2906">ansible-modules-core/pull/2906</a></td>
+<td>bugfix in s3 parameters: calling_format was set tw</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2912">ansible-modules-core/pull/2912</a></td>
 <td>Add bindir option to gem module</td>
 </tr>
@@ -819,6 +824,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/11024">ansible/issues/11024</a></td>
 <td>more flexible users' groups management</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/11035">ansible/issues/11035</a></td>
+<td>add support for group roles to postgresql_user</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -4697,6 +4707,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17435">ansible/issues/17435</a></td>
+<td>the problem still exist in higher version :Timeout</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4583">ansible/issues/4583</a></td>
 <td>Solaris prtdiag hangs during gather facts</td>
 </tr>
@@ -7917,11 +7932,6 @@
 </tr>
 <tr>
 <td>s3</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2906">ansible-modules-core/pull/2906</a></td>
-<td>bugfix in s3 parameters: calling_format was set tw</td>
-</tr>
-<tr>
-<td>s3</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3248">ansible-modules-core/pull/3248</a></td>
 <td>Fixings issue #69 where S3 get operations needed t</td>
 </tr>
@@ -10781,66 +10791,6 @@
 <td>ec2.py dynamic inventory issue with ElastiCache in</td>
 </tr>
 <tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
-<td>Add support for CONNECTION LIMIT to postgresql_use</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2317">ansible-modules-core/issues/2317</a></td>
-<td>postgresql_user: throws an error if login_user doe</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2422">ansible-modules-core/issues/2422</a></td>
-<td>postgresql_user module - support password checking</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2591">ansible-modules-core/issues/2591</a></td>
-<td>postgresql_user can't create role without database</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4034">ansible-modules-core/issues/4034</a></td>
-<td>postgres_user module: `role_attr_flags` does nothi</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4225">ansible-modules-core/issues/4225</a></td>
-<td>postgresql_user fails to create user</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/576">ansible-modules-core/issues/576</a></td>
-<td>postgresql_user doc could use more explicit option</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2183">ansible-modules-core/pull/2183</a></td>
-<td>Add connection_limit functionality for PostgreSQL </td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3326">ansible-modules-core/pull/3326</a></td>
-<td>database/postgresql: added synchronous_commit para</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/11035">ansible/issues/11035</a></td>
-<td>add support for group roles to postgresql_user</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/15794">ansible/issues/15794</a></td>
-<td>postgresql_user only grants, does not revoke excep</td>
-</tr>
-<tr>
-<td>postgresql_user</td>
-<td><a href="https://github.com/ansible/ansible/issues/16048">ansible/issues/16048</a></td>
-<td>Describe how to use "postgresql_user" properly wit</td>
-</tr>
-<tr>
 <td>iam_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1505">ansible-modules-core/issues/1505</a></td>
 <td>iam_policy issue</td>
@@ -11004,6 +10954,61 @@
 <td>shell</td>
 <td><a href="https://github.com/ansible/ansible/pull/16644">ansible/pull/16644</a></td>
 <td>ansible su root prompt</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
+<td>Add support for CONNECTION LIMIT to postgresql_use</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2317">ansible-modules-core/issues/2317</a></td>
+<td>postgresql_user: throws an error if login_user doe</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2422">ansible-modules-core/issues/2422</a></td>
+<td>postgresql_user module - support password checking</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2591">ansible-modules-core/issues/2591</a></td>
+<td>postgresql_user can't create role without database</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4034">ansible-modules-core/issues/4034</a></td>
+<td>postgres_user module: `role_attr_flags` does nothi</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4225">ansible-modules-core/issues/4225</a></td>
+<td>postgresql_user fails to create user</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/576">ansible-modules-core/issues/576</a></td>
+<td>postgresql_user doc could use more explicit option</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2183">ansible-modules-core/pull/2183</a></td>
+<td>Add connection_limit functionality for PostgreSQL </td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3326">ansible-modules-core/pull/3326</a></td>
+<td>database/postgresql: added synchronous_commit para</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/15794">ansible/issues/15794</a></td>
+<td>postgresql_user only grants, does not revoke excep</td>
+</tr>
+<tr>
+<td>postgresql_user</td>
+<td><a href="https://github.com/ansible/ansible/issues/16048">ansible/issues/16048</a></td>
+<td>Describe how to use "postgresql_user" properly wit</td>
 </tr>
 <tr>
 <td>cron</td>
@@ -11986,46 +11991,6 @@
 <td>with lsb_release installed and /bin/lsb_release bi</td>
 </tr>
 <tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1191">ansible-modules-core/issues/1191</a></td>
-<td>Enable adding data disks</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1953">ansible-modules-core/issues/1953</a></td>
-<td>Azure module (wait parameter functionality is not </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/328">ansible-modules-core/issues/328</a></td>
-<td>azure: Allow specifying service name separate from</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/397">ansible-modules-core/issues/397</a></td>
-<td>Azure module fails with pythons azure lib above ve</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4713">ansible-modules-core/issues/4713</a></td>
-<td>Cant provide credentials to Ansible Azure module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/494">ansible-modules-core/issues/494</a></td>
-<td>Allow to specify UDP endpoints for Azure VMs</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3116">ansible-modules-core/pull/3116</a></td>
-<td>Add optional field static_virtual_network_ip_addre</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
-<td>Updating azure_rm.py to work with azure python sdk</td>
-</tr>
-<tr>
 <td>vca_vapp</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
 <td>vca_vapp errors in setting the computer_name to vm</td>
@@ -12449,6 +12414,41 @@
 <td>lvol</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2622">ansible-modules-extras/pull/2622</a></td>
 <td>Add list command to lvg and lvol modules</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1191">ansible-modules-core/issues/1191</a></td>
+<td>Enable adding data disks</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1953">ansible-modules-core/issues/1953</a></td>
+<td>Azure module (wait parameter functionality is not </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/328">ansible-modules-core/issues/328</a></td>
+<td>azure: Allow specifying service name separate from</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/397">ansible-modules-core/issues/397</a></td>
+<td>Azure module fails with pythons azure lib above ve</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/494">ansible-modules-core/issues/494</a></td>
+<td>Allow to specify UDP endpoints for Azure VMs</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3116">ansible-modules-core/pull/3116</a></td>
+<td>Add optional field static_virtual_network_ip_addre</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
+<td>Updating azure_rm.py to work with azure python sdk</td>
 </tr>
 <tr>
 <td>monit</td>
@@ -13311,6 +13311,31 @@
 <td>Allow setting/changing the default tablespace for </td>
 </tr>
 <tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2855">ansible-modules-core/issues/2855</a></td>
+<td>Setting remote_group on os_security_group_rule fai</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3981">ansible-modules-core/issues/3981</a></td>
+<td>most os_* moduels don't use clouds.yaml verify:fal</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4108">ansible-modules-core/issues/4108</a></td>
+<td>os_security_group_rule is not idempotent for port_</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4720">ansible-modules-core/issues/4720</a></td>
+<td>os_security_group_rule does not implement delete/r</td>
+</tr>
+<tr>
+<td>os_security_group_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4645">ansible-modules-core/pull/4645</a></td>
+<td>description expanded for 112, AKA VRRP protocol)</td>
+</tr>
+<tr>
 <td>at</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1352">ansible-modules-core/issues/1352</a></td>
 <td>Modules with module_utils imports at the top</td>
@@ -13819,26 +13844,6 @@
 <td>redhat_subscription</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4603">ansible-modules-core/pull/4603</a></td>
 <td>redhat_subcription module accepts id in the pool a</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2855">ansible-modules-core/issues/2855</a></td>
-<td>Setting remote_group on os_security_group_rule fai</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3981">ansible-modules-core/issues/3981</a></td>
-<td>most os_* moduels don't use clouds.yaml verify:fal</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4108">ansible-modules-core/issues/4108</a></td>
-<td>os_security_group_rule is not idempotent for port_</td>
-</tr>
-<tr>
-<td>os_security_group_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4645">ansible-modules-core/pull/4645</a></td>
-<td>description expanded for 112, AKA VRRP protocol)</td>
 </tr>
 <tr>
 <td>mongodb_user</td>
@@ -15431,6 +15436,11 @@
 <td>upcloud inventory script</td>
 </tr>
 <tr>
+<td>sns</td>
+<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
+<td>Amazon SNS module doesnt show up in cloud modules </td>
+</tr>
+<tr>
 <td>osx_mas</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2482">ansible-modules-extras/pull/2482</a></td>
 <td>Add OSX MAS module.</td>
@@ -15719,11 +15729,6 @@
 <td>opendj_globalconfiguration</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2856">ansible-modules-extras/pull/2856</a></td>
 <td>Added new module opendj_globalconfiguration for up</td>
-</tr>
-<tr>
-<td>sns</td>
-<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
-<td>Amazon SNS module doesnt show up in cloud modules </td>
 </tr>
 <tr>
 <td>docker_facts</td>
@@ -16049,6 +16054,11 @@
 <td>openweather_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/536">ansible-modules-extras/pull/536</a></td>
 <td>new open weather fact gathering module</td>
+</tr>
+<tr>
+<td>openssl_privatekey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
+<td>network: Add new module openssl_privatekey</td>
 </tr>
 <tr>
 <td>jboss_cli</td>
@@ -16386,6 +16396,11 @@
 <td>add redrive_policy queue property support in sqs_q</td>
 </tr>
 <tr>
+<td>rabbitmq_binding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2872">ansible-modules-extras/pull/2872</a></td>
+<td>Enable communication to management API over HTTPS</td>
+</tr>
+<tr>
 <td>s3_lifecycle</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3909">ansible-modules-core/pull/3909</a></td>
 <td>Add steps to execute module tests in Travis CI and</td>
@@ -16649,11 +16664,6 @@
 <td>nxos_bgp_af</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4650">ansible-modules-core/pull/4650</a></td>
 <td>Adding nxos_bgp_af module</td>
-</tr>
-<tr>
-<td>openssl_privatekey</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
-<td>network: Add new module openssl_privatekey</td>
 </tr>
 <tr>
 <td>win_certificate_store</td>
