@@ -162,6 +162,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/913">ansible-modules-core/issues/913</a></td>
+<td>unarchive + folded scalar vs structured map</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1160">ansible-modules-core/pull/1160</a></td>
 <td>Add EC2 facts from dynamic instance metadata</td>
 </tr>
@@ -8862,11 +8867,6 @@
 </tr>
 <tr>
 <td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/913">ansible-modules-core/issues/913</a></td>
-<td>unarchive + folded scalar vs structured map</td>
-</tr>
-<tr>
-<td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
 <td>Fix unarchive permission issue to tempdir</td>
 </tr>
@@ -8924,6 +8924,11 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/pull/17423">ansible/pull/17423</a></td>
 <td>Move uses of to_bytes, to_text, to_native to use t</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/17429">ansible/pull/17429</a></td>
+<td>Clean up unarchive action plugin wrt. creates=</td>
 </tr>
 <tr>
 <td>npm</td>
@@ -11976,6 +11981,46 @@
 <td>Updating azure_rm.py to work with azure python sdk</td>
 </tr>
 <tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2434">ansible-modules-extras/issues/2434</a></td>
+<td>ecs_service module - Add support for deployment co</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2637">ansible-modules-extras/issues/2637</a></td>
+<td>ecs_service module should require an ARN</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2869">ansible-modules-extras/issues/2869</a></td>
+<td>ecs_service - task_definition is a required parame</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1630">ansible-modules-extras/pull/1630</a></td>
+<td>Add capability to check if service is successfully</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1954">ansible-modules-extras/pull/1954</a></td>
+<td>ecs_service: keep current values for task_definiti</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2250">ansible-modules-extras/pull/2250</a></td>
+<td>Added more details for for ecs_service load_balanc</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2356">ansible-modules-extras/pull/2356</a></td>
+<td>Enhancements and bug fixes for the ecs_service mod</td>
+</tr>
+<tr>
+<td>ecs_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2409">ansible-modules-extras/pull/2409</a></td>
+<td>taskDefinition may be prefixed causing false posit</td>
+</tr>
+<tr>
 <td>vca_vapp</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
 <td>vca_vapp errors in setting the computer_name to vm</td>
@@ -12399,41 +12444,6 @@
 <td>lvol</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2622">ansible-modules-extras/pull/2622</a></td>
 <td>Add list command to lvg and lvol modules</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2434">ansible-modules-extras/issues/2434</a></td>
-<td>ecs_service module - Add support for deployment co</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2637">ansible-modules-extras/issues/2637</a></td>
-<td>ecs_service module should require an ARN</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1630">ansible-modules-extras/pull/1630</a></td>
-<td>Add capability to check if service is successfully</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1954">ansible-modules-extras/pull/1954</a></td>
-<td>ecs_service: keep current values for task_definiti</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2250">ansible-modules-extras/pull/2250</a></td>
-<td>Added more details for for ecs_service load_balanc</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2356">ansible-modules-extras/pull/2356</a></td>
-<td>Enhancements and bug fixes for the ecs_service mod</td>
-</tr>
-<tr>
-<td>ecs_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2409">ansible-modules-extras/pull/2409</a></td>
-<td>taskDefinition may be prefixed causing false posit</td>
 </tr>
 <tr>
 <td>monit</td>
@@ -13526,6 +13536,26 @@
 <td>gluster_volume adds replica and stripe arguments w</td>
 </tr>
 <tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
+<td>win_iis_webbinding: remove default binding</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
+<td>win_iis_webbinding: ssl_flags property [FR]</td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
+<td>win_iis_webbinding references property 'sslFlags' </td>
+</tr>
+<tr>
+<td>win_iis_webbinding</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
+<td>win_iis_webbinding fails to assign specified certi</td>
+</tr>
+<tr>
 <td>ios_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
 <td>ios_template module doesnt render {% for %} correc</td>
@@ -13744,26 +13774,6 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/pull/16453">ansible/pull/16453</a></td>
 <td>Adding _ under CLI_PROMPTS_RE variable in lib/modu</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
-<td>win_iis_webbinding: remove default binding</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1435">ansible-modules-extras/issues/1435</a></td>
-<td>win_iis_webbinding: ssl_flags property [FR]</td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2728">ansible-modules-extras/issues/2728</a></td>
-<td>win_iis_webbinding references property 'sslFlags' </td>
-</tr>
-<tr>
-<td>win_iis_webbinding</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2733">ansible-modules-extras/issues/2733</a></td>
-<td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -14721,16 +14731,6 @@
 <td>Support Latency graphs in route53_health_check mod</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -15009,6 +15009,16 @@
 <td>urls</td>
 <td><a href="https://github.com/ansible/ansible/pull/17312">ansible/pull/17312</a></td>
 <td>Improved caching for urls</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
 </tr>
 <tr>
 <td>openstack</td>
@@ -16414,11 +16424,6 @@
 <td>hosts</td>
 <td><a href="https://github.com/ansible/ansible/pull/13248">ansible/pull/13248</a></td>
 <td>added instructions for non-standard ssh ports and </td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/17400">ansible/pull/17400</a></td>
-<td>windows async changes and tests</td>
 </tr>
 <tr>
 <td>rhn_register</td>

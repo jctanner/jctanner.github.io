@@ -93591,6 +93591,71 @@
 <td>Add helper for modules written in bash</td>
 </tr>
 <tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4583">ansible-modules-core/pull/4583</a></td>
+<td>Make async work on python 3</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11265">ansible/pull/11265</a></td>
+<td>Fixes async task failure with TypeError</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11461">ansible/pull/11461</a></td>
+<td>Fix "AttributeError: 'ActionModule' object has no </td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/11502">ansible/pull/11502</a></td>
+<td>Add no_syslog option in order to prevent ansible s</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/12382">ansible/pull/12382</a></td>
+<td>Added env_string in async_cmd</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13519">ansible/pull/13519</a></td>
+<td>issue 2625</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13567">ansible/pull/13567</a></td>
+<td>Stable 2.0</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/13971">ansible/pull/13971</a></td>
+<td>Strip "BECOME-SUCCESS" from async stdout</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/15248">ansible/pull/15248</a></td>
+<td>Fix async for old style modules and don't send an </td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/16534">ansible/pull/16534</a></td>
+<td>Parse async response in async action.</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/17374">ansible/pull/17374</a></td>
+<td>Pass '_' to async_wrapper for no argsfile.</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/17400">ansible/pull/17400</a></td>
+<td>windows async changes and tests</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/1843">ansible/pull/1843</a></td>
+<td>Clean up imports (taken from PR #1804)</td>
+</tr>
+<tr>
 <td>powershell</td>
 <td><a href="https://github.com/ansible/ansible/pull/11838">ansible/pull/11838</a></td>
 <td>Fix for PowerShell unquote method when passed None</td>
@@ -94319,66 +94384,6 @@
 <td>cs_iso</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/896">ansible-modules-extras/pull/896</a></td>
 <td>cloudstack: add api_region arg</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4583">ansible-modules-core/pull/4583</a></td>
-<td>Make async work on python 3</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11265">ansible/pull/11265</a></td>
-<td>Fixes async task failure with TypeError</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11461">ansible/pull/11461</a></td>
-<td>Fix "AttributeError: 'ActionModule' object has no </td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/11502">ansible/pull/11502</a></td>
-<td>Add no_syslog option in order to prevent ansible s</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/12382">ansible/pull/12382</a></td>
-<td>Added env_string in async_cmd</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13519">ansible/pull/13519</a></td>
-<td>issue 2625</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13567">ansible/pull/13567</a></td>
-<td>Stable 2.0</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/13971">ansible/pull/13971</a></td>
-<td>Strip "BECOME-SUCCESS" from async stdout</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/15248">ansible/pull/15248</a></td>
-<td>Fix async for old style modules and don't send an </td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/16534">ansible/pull/16534</a></td>
-<td>Parse async response in async action.</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/17374">ansible/pull/17374</a></td>
-<td>Pass '_' to async_wrapper for no argsfile.</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/pull/1843">ansible/pull/1843</a></td>
-<td>Clean up imports (taken from PR #1804)</td>
 </tr>
 <tr>
 <td>digital_ocean_domain</td>
@@ -106121,6 +106126,11 @@
 <td>Adds bigip_vlan module</td>
 </tr>
 <tr>
+<td>jenkins_plugin</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1730">ansible-modules-extras/pull/1730</a></td>
+<td>Adding jenkins_plugin module</td>
+</tr>
+<tr>
 <td>zabbix_api_host</td>
 <td><a href="https://github.com/ansible/ansible/pull/9018">ansible/pull/9018</a></td>
 <td>zabbix_api_host module added</td>
@@ -106231,9 +106241,9 @@
 <td>Create elasticache_parameter_group module</td>
 </tr>
 <tr>
-<td>jenkins_plugin</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1730">ansible-modules-extras/pull/1730</a></td>
-<td>Adding jenkins_plugin module</td>
+<td>bigip_sys_db</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/998">ansible-modules-extras/pull/998</a></td>
+<td>Introduces the bigip_sys_db module</td>
 </tr>
 <tr>
 <td>timedatectl</td>
@@ -107964,11 +107974,6 @@
 <td>cisco_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3435">ansible-modules-core/pull/3435</a></td>
 <td>Fix documentation example, missing ")"</td>
-</tr>
-<tr>
-<td>bigip_sys_db</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/998">ansible-modules-extras/pull/998</a></td>
-<td>Introduces the bigip_sys_db module</td>
 </tr>
 <tr>
 <td>juju</td>
