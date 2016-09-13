@@ -92,6 +92,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/651">ansible-modules-core/issues/651</a></td>
+<td>shell not respecting return value</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/733">ansible-modules-core/issues/733</a></td>
 <td>gc_storage has misnamed arguments in documentation</td>
 </tr>
@@ -444,6 +449,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/57">ansible-modules-extras/issues/57</a></td>
 <td>RFE: Docker Facts module</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/799">ansible-modules-extras/issues/799</a></td>
+<td>bigip_facts reporting URLErrors on some endpoints </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -45647,6 +45657,11 @@
 </tr>
 <tr>
 <td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4077">ansible-modules-core/issues/4077</a></td>
+<td>service module used in handler doesn't get excalat</td>
+</tr>
+<tr>
+<td>service</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4146">ansible-modules-core/issues/4146</a></td>
 <td>Service enabled during check run</td>
 </tr>
@@ -58844,6 +58859,11 @@
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4526">ansible-modules-core/pull/4526</a></td>
 <td>Cleanups of command.py</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4809">ansible-modules-core/pull/4809</a></td>
+<td>Enable passing environment variables to commands</td>
 </tr>
 <tr>
 <td>command</td>
@@ -101161,6 +101181,41 @@
 <td>Module for setting/changing timezone config</td>
 </tr>
 <tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/13776">ansible/pull/13776</a></td>
+<td>initial add of eos shared module</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/15146">ansible/pull/15146</a></td>
+<td>Override params from environment variables, if set</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/16485">ansible/pull/16485</a></td>
+<td>removes dependency on collections module from eos</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/16575">ansible/pull/16575</a></td>
+<td>better fix for stubbing AnsibleModule</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/16618">ansible/pull/16618</a></td>
+<td>Refactor network and eos module_utils to use a sub</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/17189">ansible/pull/17189</a></td>
+<td>updates eos shared module</td>
+</tr>
+<tr>
+<td>eos</td>
+<td><a href="https://github.com/ansible/ansible/pull/17540">ansible/pull/17540</a></td>
+<td>eos: matched error in response: dir all-filesystem</td>
+</tr>
+<tr>
 <td>dnsmadeeasy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1263">ansible-modules-extras/pull/1263</a></td>
 <td>Added support for DNS SRV records in 'dnsmadeeasy'</td>
@@ -102154,36 +102209,6 @@
 <td>win_stat</td>
 <td><a href="https://github.com/ansible/ansible/pull/14226">ansible/pull/14226</a></td>
 <td>fix issue that win_stat fails while another proces</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/13776">ansible/pull/13776</a></td>
-<td>initial add of eos shared module</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/15146">ansible/pull/15146</a></td>
-<td>Override params from environment variables, if set</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/16485">ansible/pull/16485</a></td>
-<td>removes dependency on collections module from eos</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/16575">ansible/pull/16575</a></td>
-<td>better fix for stubbing AnsibleModule</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/16618">ansible/pull/16618</a></td>
-<td>Refactor network and eos module_utils to use a sub</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/17189">ansible/pull/17189</a></td>
-<td>updates eos shared module</td>
 </tr>
 <tr>
 <td>clc_alert_policy</td>
@@ -106151,6 +106176,21 @@
 <td>cloudstack: bugfixes and cleanups</td>
 </tr>
 <tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4498">ansible-modules-core/issues/4498</a></td>
+<td>Archive src with :// and remote_src=yes is removin</td>
+</tr>
+<tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2323">ansible-modules-extras/pull/2323</a></td>
+<td>New Module: archive</td>
+</tr>
+<tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2699">ansible-modules-extras/pull/2699</a></td>
+<td>Updates to `archive` module based on code review</td>
+</tr>
+<tr>
 <td>dpkg_selections</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/28">ansible-modules-extras/pull/28</a></td>
 <td>Add dpkg_selections module</td>
@@ -107681,16 +107721,6 @@
 <td>New module for creating annotations with Circonus </td>
 </tr>
 <tr>
-<td>archive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4498">ansible-modules-core/issues/4498</a></td>
-<td>Archive src with :// and remote_src=yes is removin</td>
-</tr>
-<tr>
-<td>archive</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2323">ansible-modules-extras/pull/2323</a></td>
-<td>New Module: archive</td>
-</tr>
-<tr>
 <td>neutron_floating_ip_associate</td>
 <td><a href="https://github.com/ansible/ansible/pull/4695">ansible/pull/4695</a></td>
 <td>changed quantum to neutron</td>
@@ -108171,9 +108201,9 @@
 <td>Implemented pkg for Solaris 11 package manager</td>
 </tr>
 <tr>
-<td>win_computername</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/658">ansible-modules-core/pull/658</a></td>
-<td>Added new module win_computername to set a Windows</td>
+<td>stdout</td>
+<td><a href="https://github.com/ansible/ansible/pull/17355">ansible/pull/17355</a></td>
+<td>better display for free strategy</td>
 </tr>
 <tr>
 <td>loops</td>
@@ -109496,6 +109526,11 @@
 <td>Adding module azure_rm_securitygroup_facts</td>
 </tr>
 <tr>
+<td>validate</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2898">ansible-modules-extras/pull/2898</a></td>
+<td>New Module (validate) to provide a set of methods </td>
+</tr>
+<tr>
 <td>rcopy</td>
 <td><a href="https://github.com/ansible/ansible/pull/1809">ansible/pull/1809</a></td>
 <td>Add rcopy module to handle recursive copying.</td>
@@ -109829,6 +109864,11 @@
 <td>block</td>
 <td><a href="https://github.com/ansible/ansible/pull/13169">ansible/pull/13169</a></td>
 <td>evaluate includes for skipped tags</td>
+</tr>
+<tr>
+<td>win_computername</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/658">ansible-modules-core/pull/658</a></td>
+<td>Added new module win_computername to set a Windows</td>
 </tr>
 <tr>
 <td>profitbricks_nic</td>

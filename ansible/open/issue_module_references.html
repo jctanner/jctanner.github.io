@@ -1067,6 +1067,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/297">ansible-modules-core/issues/297</a></td>
+<td>postgres_user module doesnt work with AWS RDS data</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3003">ansible-modules-core/issues/3003</a></td>
 <td>Add plugin as parameter for mysql_user </td>
 </tr>
@@ -1434,11 +1439,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/633">ansible-modules-core/issues/633</a></td>
 <td>Allow AWS RDS SSD Storage Type</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/651">ansible-modules-core/issues/651</a></td>
-<td>shell not respecting return value</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -2139,11 +2139,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/792">ansible-modules-extras/issues/792</a></td>
 <td>Bad consul_kv token default</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/799">ansible-modules-extras/issues/799</a></td>
-<td>bigip_facts reporting URLErrors on some endpoints </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8272,6 +8267,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17545">ansible/pull/17545</a></td>
+<td>removes filter attribute from asa</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -9656,101 +9656,6 @@
 <td>Allow S3 urls in requirements.yml files</td>
 </tr>
 <tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2265">ansible-modules-core/issues/2265</a></td>
-<td>systemd ActiveStatus of "activating" does not set </td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2809">ansible-modules-core/issues/2809</a></td>
-<td>more command for service module usage</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3018">ansible-modules-core/issues/3018</a></td>
-<td>Handler fails to restart service cleanly (task wor</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3357">ansible-modules-core/issues/3357</a></td>
-<td>service: reload netfilter-persistent on ubuntu 16.</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4077">ansible-modules-core/issues/4077</a></td>
-<td>service module used in handler doesn't get excalat</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4348">ansible-modules-core/issues/4348</a></td>
-<td>service module: ubuntu xenial on travis: failure 1</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4357">ansible-modules-core/issues/4357</a></td>
-<td>[service] Module should provide an option to query</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4805">ansible-modules-core/issues/4805</a></td>
-<td>service module: misleading error message when serv</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2693">ansible-modules-core/pull/2693</a></td>
-<td>Revert "Fixes #4448 reloaded services should be st</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2724">ansible-modules-core/pull/2724</a></td>
-<td>Service must exist</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2816">ansible-modules-core/pull/2816</a></td>
-<td>Service must exist Ansible 2.0</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3076">ansible-modules-core/pull/3076</a></td>
-<td>LaunchD (OSX) support for the service module</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3316">ansible-modules-core/pull/3316</a></td>
-<td>service: allow user to query service status</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3553">ansible-modules-core/pull/3553</a></td>
-<td>Update service.py</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4374">ansible-modules-core/pull/4374</a></td>
-<td>Fix sysrc version of service enabled check on Free</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4378">ansible-modules-core/pull/4378</a></td>
-<td>Fix service_enable_rcconf() fails to parse rcconf </td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4405">ansible-modules-core/pull/4405</a></td>
-<td>service: add option for ignoring missing runlevel </td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2587">ansible-modules-extras/pull/2587</a></td>
-<td>Adding support for send_command in AWS SSM Service</td>
-</tr>
-<tr>
-<td>service</td>
-<td><a href="https://github.com/ansible/ansible/pull/14109">ansible/pull/14109</a></td>
-<td>Checking node health on Consul, besides service he</td>
-</tr>
-<tr>
 <td>ec2_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
 <td> ec2_security You have specified two resources tha</td>
@@ -9841,94 +9746,94 @@
 <td>ec2_group.py - Fix duplicate rule exception</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2368">ansible-modules-core/issues/2368</a></td>
-<td>RDS encryption support</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2265">ansible-modules-core/issues/2265</a></td>
+<td>systemd ActiveStatus of "activating" does not set </td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2754">ansible-modules-core/issues/2754</a></td>
-<td>main() run without __name__ check in many modules</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2809">ansible-modules-core/issues/2809</a></td>
+<td>more command for service module usage</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/297">ansible-modules-core/issues/297</a></td>
-<td>postgres_user module doesnt work with AWS RDS data</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3018">ansible-modules-core/issues/3018</a></td>
+<td>Handler fails to restart service cleanly (task wor</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3180">ansible-modules-core/issues/3180</a></td>
-<td>Add RDS support for dbengine Aurora</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3357">ansible-modules-core/issues/3357</a></td>
+<td>service: reload netfilter-persistent on ubuntu 16.</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3378">ansible-modules-core/issues/3378</a></td>
-<td>As a DevOPS I would like to be able to spin up poi</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4348">ansible-modules-core/issues/4348</a></td>
+<td>service module: ubuntu xenial on travis: failure 1</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3940">ansible-modules-core/issues/3940</a></td>
-<td>Missing documentation for "profile" option of "rds</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4357">ansible-modules-core/issues/4357</a></td>
+<td>[service] Module should provide an option to query</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4145">ansible-modules-core/issues/4145</a></td>
-<td>rds module modify reports changed but nothing fire</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4805">ansible-modules-core/issues/4805</a></td>
+<td>service module: misleading error message when serv</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4808">ansible-modules-core/issues/4808</a></td>
-<td>oracle-se2 support needed. </td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2693">ansible-modules-core/pull/2693</a></td>
+<td>Revert "Fixes #4448 reloaded services should be st</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3951">ansible-modules-core/pull/3951</a></td>
-<td>Added aws and ec2 extends_documentation_fragment t</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2724">ansible-modules-core/pull/2724</a></td>
+<td>Service must exist</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4143">ansible-modules-core/pull/4143</a></td>
-<td>Make the RDS endpoint available if AWS returns it</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2816">ansible-modules-core/pull/2816</a></td>
+<td>Service must exist Ansible 2.0</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1280">ansible-modules-extras/pull/1280</a></td>
-<td>enables copying rds snapshots across regions</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3076">ansible-modules-core/pull/3076</a></td>
+<td>LaunchD (OSX) support for the service module</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1281">ansible-modules-extras/pull/1281</a></td>
-<td>enables searching/finding rds snapshots</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3316">ansible-modules-core/pull/3316</a></td>
+<td>service: allow user to query service status</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2804">ansible-modules-extras/pull/2804</a></td>
-<td>New AWS module to manage RDS Clusters </td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3553">ansible-modules-core/pull/3553</a></td>
+<td>Update service.py</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2826">ansible-modules-extras/pull/2826</a></td>
-<td>New AWS module rds_option_group.py</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4374">ansible-modules-core/pull/4374</a></td>
+<td>Fix sysrc version of service enabled check on Free</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2845">ansible-modules-extras/pull/2845</a></td>
-<td>New AWS module for managing RDS instance using new</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4378">ansible-modules-core/pull/4378</a></td>
+<td>Fix service_enable_rcconf() fails to parse rcconf </td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2847">ansible-modules-extras/pull/2847</a></td>
-<td>New AWS module for describing RDS facts using boto</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4405">ansible-modules-core/pull/4405</a></td>
+<td>service: add option for ignoring missing runlevel </td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible/pull/15060">ansible/pull/15060</a></td>
-<td>Vault improvements: base64 encoding, no AES-CTR pa</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2587">ansible-modules-extras/pull/2587</a></td>
+<td>Adding support for send_command in AWS SSM Service</td>
 </tr>
 <tr>
-<td>rds</td>
-<td><a href="https://github.com/ansible/ansible/pull/15526">ansible/pull/15526</a></td>
-<td>Do not set RDS instance hostname if hostname_varia</td>
+<td>service</td>
+<td><a href="https://github.com/ansible/ansible/pull/14109">ansible/pull/14109</a></td>
+<td>Checking node health on Consul, besides service he</td>
 </tr>
 <tr>
 <td>file</td>
@@ -10019,6 +9924,91 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible/pull/14928">ansible/pull/14928</a></td>
 <td>Merge properties instead of reading only the first</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2368">ansible-modules-core/issues/2368</a></td>
+<td>RDS encryption support</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2754">ansible-modules-core/issues/2754</a></td>
+<td>main() run without __name__ check in many modules</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3180">ansible-modules-core/issues/3180</a></td>
+<td>Add RDS support for dbengine Aurora</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3378">ansible-modules-core/issues/3378</a></td>
+<td>As a DevOPS I would like to be able to spin up poi</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3940">ansible-modules-core/issues/3940</a></td>
+<td>Missing documentation for "profile" option of "rds</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4145">ansible-modules-core/issues/4145</a></td>
+<td>rds module modify reports changed but nothing fire</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4808">ansible-modules-core/issues/4808</a></td>
+<td>oracle-se2 support needed. </td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3951">ansible-modules-core/pull/3951</a></td>
+<td>Added aws and ec2 extends_documentation_fragment t</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4143">ansible-modules-core/pull/4143</a></td>
+<td>Make the RDS endpoint available if AWS returns it</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1280">ansible-modules-extras/pull/1280</a></td>
+<td>enables copying rds snapshots across regions</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1281">ansible-modules-extras/pull/1281</a></td>
+<td>enables searching/finding rds snapshots</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2804">ansible-modules-extras/pull/2804</a></td>
+<td>New AWS module to manage RDS Clusters </td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2826">ansible-modules-extras/pull/2826</a></td>
+<td>New AWS module rds_option_group.py</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2845">ansible-modules-extras/pull/2845</a></td>
+<td>New AWS module for managing RDS instance using new</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2847">ansible-modules-extras/pull/2847</a></td>
+<td>New AWS module for describing RDS facts using boto</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible/pull/15060">ansible/pull/15060</a></td>
+<td>Vault improvements: base64 encoding, no AES-CTR pa</td>
+</tr>
+<tr>
+<td>rds</td>
+<td><a href="https://github.com/ansible/ansible/pull/15526">ansible/pull/15526</a></td>
+<td>Do not set RDS instance hostname if hostname_varia</td>
 </tr>
 <tr>
 <td>npm</td>
@@ -10244,6 +10234,76 @@
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible/pull/9806">ansible/pull/9806</a></td>
 <td>Fixes #302 - Copy fails when source file is identi</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
+<td>Unarchive module throws an error on OS X</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
+<td>unarchive module add directory_mode parameter</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
+<td>unarchive inexplicit error message when required c</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
+<td>unarchive module does not recognize 'creates' para</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4648">ansible-modules-core/issues/4648</a></td>
+<td>unarchive leaving files in .ansible tmp directory</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
+<td>unarchive module doesn't observe umask for idempot</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
+<td>unarchive fails with filename too long when downlo</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4752">ansible-modules-core/issues/4752</a></td>
+<td>unarchive - does not properly download archive wit</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4792">ansible-modules-core/issues/4792</a></td>
+<td>Unarchive module fails with "--strip" option</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4813">ansible-modules-core/issues/4813</a></td>
+<td>Unarchive module with mode/user breaks</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
+<td>Fix unarchive permission issue to tempdir</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4179">ansible-modules-core/pull/4179</a></td>
+<td>Unarchive: stop passing file mode to tar command</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4352">ansible-modules-core/pull/4352</a></td>
+<td>Detect tar type (bsd, gnu) and only use gnu tar. </td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
+<td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
 <td>authorized_key</td>
@@ -10514,71 +10574,6 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/pull/17176">ansible/pull/17176</a></td>
 <td>fix setup module on Fedora Core 5 (#17175)</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
-<td>Unarchive module throws an error on OS X</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
-<td>unarchive module add directory_mode parameter</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
-<td>unarchive inexplicit error message when required c</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
-<td>unarchive module does not recognize 'creates' para</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4648">ansible-modules-core/issues/4648</a></td>
-<td>unarchive leaving files in .ansible tmp directory</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
-<td>unarchive module doesn't observe umask for idempot</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
-<td>unarchive fails with filename too long when downlo</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4752">ansible-modules-core/issues/4752</a></td>
-<td>unarchive - does not properly download archive wit</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4792">ansible-modules-core/issues/4792</a></td>
-<td>Unarchive module fails with "--strip" option</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
-<td>Fix unarchive permission issue to tempdir</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4179">ansible-modules-core/pull/4179</a></td>
-<td>Unarchive: stop passing file mode to tar command</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4352">ansible-modules-core/pull/4352</a></td>
-<td>Detect tar type (bsd, gnu) and only use gnu tar. </td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
-<td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
 <td>docker_container</td>
@@ -12926,31 +12921,6 @@
 <td>#2096 When discovering backends to enable/disable,</td>
 </tr>
 <tr>
-<td>monit</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1103">ansible-modules-extras/issues/1103</a></td>
-<td>Monit only handle processes, but not hosts</td>
-</tr>
-<tr>
-<td>monit</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2419">ansible-modules-extras/issues/2419</a></td>
-<td>New monit release breaks monit module</td>
-</tr>
-<tr>
-<td>monit</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2462">ansible-modules-extras/issues/2462</a></td>
-<td>Monit 5.18 has new output format for summary which</td>
-</tr>
-<tr>
-<td>monit</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2463">ansible-modules-extras/pull/2463</a></td>
-<td>update monit output</td>
-</tr>
-<tr>
-<td>monit</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2607">ansible-modules-extras/pull/2607</a></td>
-<td>Monit fix</td>
-</tr>
-<tr>
 <td>os_server</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2901">ansible-modules-core/issues/2901</a></td>
 <td>openstack launch vm exception - module os_server</td>
@@ -12974,6 +12944,31 @@
 <td>os_server</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4598">ansible-modules-core/pull/4598</a></td>
 <td>os_server: keep optional nic args for nics specifi</td>
+</tr>
+<tr>
+<td>monit</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1103">ansible-modules-extras/issues/1103</a></td>
+<td>Monit only handle processes, but not hosts</td>
+</tr>
+<tr>
+<td>monit</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2419">ansible-modules-extras/issues/2419</a></td>
+<td>New monit release breaks monit module</td>
+</tr>
+<tr>
+<td>monit</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2462">ansible-modules-extras/issues/2462</a></td>
+<td>Monit 5.18 has new output format for summary which</td>
+</tr>
+<tr>
+<td>monit</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2463">ansible-modules-extras/pull/2463</a></td>
+<td>update monit output</td>
+</tr>
+<tr>
+<td>monit</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2607">ansible-modules-extras/pull/2607</a></td>
+<td>Monit fix</td>
 </tr>
 <tr>
 <td>consul</td>
@@ -13234,6 +13229,26 @@
 <td>ec2_metric_alarm</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2940">ansible-modules-core/pull/2940</a></td>
 <td>ec2_metric_alarm.py - added actions_enabled option</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3334">ansible-modules-core/issues/3334</a></td>
+<td>Make add_host less verbose</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4279">ansible-modules-core/issues/4279</a></td>
+<td>add_host runs only for first host in group</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4812">ansible-modules-core/issues/4812</a></td>
+<td>add_host hosts doesn't inherit host_vars from a va</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/15152">ansible/pull/15152</a></td>
+<td>Adding ip address to ansible-playbook RECAP</td>
 </tr>
 <tr>
 <td>junos_command</td>
@@ -13716,21 +13731,6 @@
 <td>debconf: Passwords are logged in cleartext</td>
 </tr>
 <tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3334">ansible-modules-core/issues/3334</a></td>
-<td>Make add_host less verbose</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4279">ansible-modules-core/issues/4279</a></td>
-<td>add_host runs only for first host in group</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/15152">ansible/pull/15152</a></td>
-<td>Adding ip address to ansible-playbook RECAP</td>
-</tr>
-<tr>
 <td>play</td>
 <td><a href="https://github.com/ansible/ansible/pull/13787">ansible/pull/13787</a></td>
 <td>Support for playbook-level variables (new feature)</td>
@@ -14108,7 +14108,7 @@
 <tr>
 <td>eos_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4810">ansible-modules-core/issues/4810</a></td>
-<td>eos_config match:none has become idempotent (where</td>
+<td>eos_config match:none has become idempotent - impr</td>
 </tr>
 <tr>
 <td>ec2_scaling_policy</td>
@@ -14139,6 +14139,16 @@
 <td>ec2_tag</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2347">ansible-modules-core/pull/2347</a></td>
 <td>ec2_tag.py - Added fail for boto exception and doc</td>
+</tr>
+<tr>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
+<td>Fetch Silently Fails To Fetch File</td>
+</tr>
+<tr>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4814">ansible-modules-core/issues/4814</a></td>
+<td>Bug Report: Fetch fails if ansible_ssh_host is loc</td>
 </tr>
 <tr>
 <td>gce_net</td>
@@ -14661,16 +14671,6 @@
 <td>Async chdir</td>
 </tr>
 <tr>
-<td>github_hooks</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2217">ansible-modules-extras/pull/2217</a></td>
-<td>Update github_hooks.py</td>
-</tr>
-<tr>
-<td>github_hooks</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/372">ansible-modules-extras/pull/372</a></td>
-<td>Added module for git-flow, V.1.0</td>
-</tr>
-<tr>
 <td>mongodb_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2725">ansible-modules-extras/issues/2725</a></td>
 <td>mongodb_user isnt idempotent for mongo 2.4</td>
@@ -14691,14 +14691,14 @@
 <td>Update cobbler.py inventory script to more fully l</td>
 </tr>
 <tr>
-<td>archive</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2766">ansible-modules-extras/issues/2766</a></td>
-<td>Archive with remote_src=yes strips the second / in</td>
+<td>github_hooks</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2217">ansible-modules-extras/pull/2217</a></td>
+<td>Update github_hooks.py</td>
 </tr>
 <tr>
-<td>archive</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2699">ansible-modules-extras/pull/2699</a></td>
-<td>Updates to `archive` module based on code review</td>
+<td>github_hooks</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/372">ansible-modules-extras/pull/372</a></td>
+<td>Added module for git-flow, V.1.0</td>
 </tr>
 <tr>
 <td>a10</td>
@@ -14981,11 +14981,6 @@
 <td>Add  dynamic Ansible inventory, based on informati</td>
 </tr>
 <tr>
-<td>fetch</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
-<td>Fetch Silently Fails To Fetch File</td>
-</tr>
-<tr>
 <td>mongo</td>
 <td><a href="https://github.com/ansible/ansible/pull/13078">ansible/pull/13078</a></td>
 <td>Create mongo.py</td>
@@ -15236,11 +15231,6 @@
 <td>added os_aggregate module</td>
 </tr>
 <tr>
-<td>aws_ranges</td>
-<td><a href="https://github.com/ansible/ansible/pull/14514">ansible/pull/14514</a></td>
-<td>AWS Ranges lookup</td>
-</tr>
-<tr>
 <td>blockfromfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/962">ansible-modules-extras/pull/962</a></td>
 <td>New blockfromfile module</td>
@@ -15314,6 +15304,11 @@
 <td>os_image</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4722">ansible-modules-core/issues/4722</a></td>
 <td>os_image module does not delete image</td>
+</tr>
+<tr>
+<td>aws_ranges</td>
+<td><a href="https://github.com/ansible/ansible/pull/14514">ansible/pull/14514</a></td>
+<td>AWS Ranges lookup</td>
 </tr>
 <tr>
 <td>service_stat</td>
@@ -15404,11 +15399,6 @@
 <td>iptables</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2014">ansible-modules-extras/issues/2014</a></td>
 <td>iptables: option to configure default chain policy</td>
-</tr>
-<tr>
-<td>win_package</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1140">ansible-modules-extras/issues/1140</a></td>
-<td>win_package: does not access user_name + user_pass</td>
 </tr>
 <tr>
 <td>profitbricks</td>
@@ -15676,11 +15666,6 @@
 <td>Make path parameter in win_msi unmandatory</td>
 </tr>
 <tr>
-<td>stdout</td>
-<td><a href="https://github.com/ansible/ansible/pull/17355">ansible/pull/17355</a></td>
-<td>better display for free strategy</td>
-</tr>
-<tr>
 <td>ip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2274">ansible-modules-extras/pull/2274</a></td>
 <td>ip module feature</td>
@@ -15759,11 +15744,6 @@
 <td>lambda_alias</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2829">ansible-modules-extras/pull/2829</a></td>
 <td>Import lambda and lambda_alias modules</td>
-</tr>
-<tr>
-<td>validate</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2898">ansible-modules-extras/pull/2898</a></td>
-<td>New Module (validate) to provide a set of methods </td>
 </tr>
 <tr>
 <td>task</td>
@@ -16041,6 +16021,11 @@
 <td>Fixes win_uri module ignoring body argument</td>
 </tr>
 <tr>
+<td>win_package</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1140">ansible-modules-extras/issues/1140</a></td>
+<td>win_package: does not access user_name + user_pass</td>
+</tr>
+<tr>
 <td>pull</td>
 <td><a href="https://github.com/ansible/ansible/pull/13068">ansible/pull/13068</a></td>
 <td>Add check_opts to ansible-pull</td>
@@ -16109,6 +16094,11 @@
 <td>win_stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2863">ansible-modules-core/issues/2863</a></td>
 <td>win_stat returns md5, but the data is sha1</td>
+</tr>
+<tr>
+<td>archive</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2766">ansible-modules-extras/issues/2766</a></td>
+<td>Archive with remote_src=yes strips the second / in</td>
 </tr>
 <tr>
 <td>quantum_router_gateway</td>
@@ -16194,11 +16184,6 @@
 <td>dnsmadeeasy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/342">ansible-modules-extras/issues/342</a></td>
 <td>dnsmadeeasy module can't connect to api.dnsmadeeas</td>
-</tr>
-<tr>
-<td>eos</td>
-<td><a href="https://github.com/ansible/ansible/pull/17540">ansible/pull/17540</a></td>
-<td>eos: matched error in response: dir all-filesystem</td>
 </tr>
 <tr>
 <td>glassfish_deploy</td>
