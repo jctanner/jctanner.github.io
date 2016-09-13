@@ -5697,11 +5697,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/15597">ansible/issues/15597</a></td>
-<td>Become with doas not working</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/15607">ansible/issues/15607</a></td>
 <td>mail callback, cc and bcc are used when None</td>
 </tr>
@@ -8267,6 +8262,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17551">ansible/pull/17551</a></td>
+<td>Fix slaac filter</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -8342,11 +8342,6 @@
 </tr>
 <tr>
 <td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4011">ansible-modules-core/issues/4011</a></td>
-<td>ec2 termination timeout when instance_ids contains</td>
-</tr>
-<tr>
-<td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4083">ansible-modules-core/issues/4083</a></td>
 <td>Modifying ec2 security groups in ansible playbook </td>
 </tr>
@@ -8419,11 +8414,6 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3440">ansible-modules-core/pull/3440</a></td>
 <td>ec2: add ability to terminate VMs matching tags.</td>
-</tr>
-<tr>
-<td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4012">ansible-modules-core/pull/4012</a></td>
-<td>Unpack AWS reservations while waiting to terminate</td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -10306,76 +10296,6 @@
 <td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
-<td>docker_container: support --tmpfs option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
-<td>docker_container fails to restart containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
-<td>Adding support for published_ports: ALL, since tha</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
-<td>Fix unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
-<td>Add a environment example</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
-<td>Strict Mode fix for IIS versions earlier than IIS8</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
-<td>Add 'refresh' mode to fact gathering</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
-<td>--host option bug fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
-<td>Add timeout information into async failure message</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
-<td>Add special tag 'skip', feature request #11045</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
-<td>version_compare  argument fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
-<td>Adds docker-machine module-utils</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
-<td>More tolerant unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16997">ansible/pull/16997</a></td>
-<td>doas update</td>
-</tr>
-<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
 <td>Add more options to authorized_keys modul for comm</td>
@@ -10644,6 +10564,71 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/pull/17176">ansible/pull/17176</a></td>
 <td>fix setup module on Fedora Core 5 (#17175)</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
+<td>docker_container: support --tmpfs option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
+<td>docker_container fails to restart containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
+<td>Adding support for published_ports: ALL, since tha</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
+<td>Fix unit parsing</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
+<td>Add a environment example</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
+<td>Strict Mode fix for IIS versions earlier than IIS8</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
+<td>Add 'refresh' mode to fact gathering</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
+<td>--host option bug fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
+<td>Add timeout information into async failure message</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
+<td>Add special tag 'skip', feature request #11045</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
+<td>version_compare  argument fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
+<td>Adds docker-machine module-utils</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
+<td>More tolerant unit parsing</td>
 </tr>
 <tr>
 <td>ec2_ami_find</td>
@@ -12821,6 +12806,31 @@
 <td>Make interprocess polling interval configurable</td>
 </tr>
 <tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
+<td>Opensuse version <= 11 wrong hostname strategy</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
+<td>Hostname not set correctly on Gentoo Linux with sy</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4782">ansible-modules-core/issues/4782</a></td>
+<td>make hostname work on SmartOS</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4818">ansible-modules-core/issues/4818</a></td>
+<td>hostname: support alpine(3.4)</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4811">ansible-modules-core/pull/4811</a></td>
+<td>Add support for SmartOS in hostname module</td>
+</tr>
+<tr>
 <td>postgresql_db</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2387">ansible-modules-core/issues/2387</a></td>
 <td>postgresql modules unable to use alternative maint</td>
@@ -13429,26 +13439,6 @@
 <td>wait_for</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/286">ansible-modules-extras/pull/286</a></td>
 <td>Add simple module to import/delete ssl certificate</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
-<td>Opensuse version <= 11 wrong hostname strategy</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
-<td>Hostname not set correctly on Gentoo Linux with sy</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4782">ansible-modules-core/issues/4782</a></td>
-<td>make hostname work on SmartOS</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4811">ansible-modules-core/pull/4811</a></td>
-<td>Add support for SmartOS in hostname module</td>
 </tr>
 <tr>
 <td>route53</td>
@@ -14226,6 +14216,16 @@
 <td>added fact modules for clc_group and clc_server mo</td>
 </tr>
 <tr>
+<td>puppet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1289">ansible-modules-extras/issues/1289</a></td>
+<td>system/puppet.py check if puppet is disabled does </td>
+</tr>
+<tr>
+<td>puppet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1151">ansible-modules-extras/pull/1151</a></td>
+<td>add password_filter option, to filter out any line</td>
+</tr>
+<tr>
 <td>launchd</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3694">ansible-modules-core/pull/3694</a></td>
 <td>[WIP] launchd service plugin</td>
@@ -14286,14 +14286,14 @@
 <td>apt_repository with ppa fails on Linux Mint 18 (Sa</td>
 </tr>
 <tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1289">ansible-modules-extras/issues/1289</a></td>
-<td>system/puppet.py check if puppet is disabled does </td>
+<td>dnos9_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4819">ansible-modules-core/pull/4819</a></td>
+<td>Added support for dnos9_template module</td>
 </tr>
 <tr>
-<td>puppet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1151">ansible-modules-extras/pull/1151</a></td>
-<td>add password_filter option, to filter out any line</td>
+<td>dnos9_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/17549">ansible/pull/17549</a></td>
+<td>Add action plugin for dnos9_template module</td>
 </tr>
 <tr>
 <td>bower</td>
@@ -14506,14 +14506,14 @@
 <td>Add sat_content_views module</td>
 </tr>
 <tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17073">ansible/pull/17073</a></td>
-<td>Fix issue with proxy setting leaving temp files</td>
+<td>validate</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4820">ansible-modules-core/pull/4820</a></td>
+<td>initial 1.0 version of validate module to provide </td>
 </tr>
 <tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17312">ansible/pull/17312</a></td>
-<td>Improved caching for urls</td>
+<td>validate</td>
+<td><a href="https://github.com/ansible/ansible/pull/17552">ansible/pull/17552</a></td>
+<td>initial 1.0 version of validate plugin to provide </td>
 </tr>
 <tr>
 <td>openstack</td>
@@ -14544,16 +14544,6 @@
 <td>ec2_elb_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2445">ansible-modules-extras/issues/2445</a></td>
 <td>ec2_elb_facts fails with boto 2.38</td>
-</tr>
-<tr>
-<td>dnos9_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4816">ansible-modules-core/pull/4816</a></td>
-<td>Added support for dnos9_config module</td>
-</tr>
-<tr>
-<td>dnos9_config</td>
-<td><a href="https://github.com/ansible/ansible/pull/17546">ansible/pull/17546</a></td>
-<td>Added support for dnos9_config module</td>
 </tr>
 <tr>
 <td>ec2_key</td>
@@ -14939,6 +14929,11 @@
 <td>gsettings</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1055">ansible-modules-extras/pull/1055</a></td>
 <td>Gsettings module</td>
+</tr>
+<tr>
+<td>win_msg</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2623">ansible-modules-extras/pull/2623</a></td>
+<td>Add win_msg module</td>
 </tr>
 <tr>
 <td>upcloud</td>
@@ -15671,9 +15666,9 @@
 <td>ip module feature</td>
 </tr>
 <tr>
-<td>win_msg</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2623">ansible-modules-extras/pull/2623</a></td>
-<td>Add win_msg module</td>
+<td>dnos10_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/17550">ansible/pull/17550</a></td>
+<td>Moved the dnos10_template.py action plugin to the </td>
 </tr>
 <tr>
 <td>pagerduty_alert</td>
@@ -15724,6 +15719,11 @@
 <td>virtualization_role</td>
 <td><a href="https://github.com/ansible/ansible/issues/17151">ansible/issues/17151</a></td>
 <td>virtualization_type set to 'kvm' without kvm packg</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17312">ansible/pull/17312</a></td>
+<td>Improved caching for urls</td>
 </tr>
 <tr>
 <td>lxd</td>
@@ -15834,6 +15834,11 @@
 <td>nxos_vlan</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3876">ansible-modules-core/issues/3876</a></td>
 <td>nxos_vlan returns "Command does not support JSON o</td>
+</tr>
+<tr>
+<td>dnos9_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4816">ansible-modules-core/pull/4816</a></td>
+<td>Added support for dnos9_config module</td>
 </tr>
 <tr>
 <td>boto3_wait</td>
