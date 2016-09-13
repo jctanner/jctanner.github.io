@@ -11782,6 +11782,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17392">ansible/issues/17392</a></td>
+<td>Network no_log not honoured when using provider</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17396">ansible/issues/17396</a></td>
 <td>unexpected newline in  file name </td>
 </tr>
@@ -11794,6 +11799,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17411">ansible/issues/17411</a></td>
 <td>module_utils/junos.py - Code review</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17412">ansible/issues/17412</a></td>
+<td>module_utils/netcfg.py - Code review</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -68951,6 +68961,376 @@
 <td>Fix ansible-galaxy install error empty yaml file.</td>
 </tr>
 <tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2259">ansible-modules-core/issues/2259</a></td>
+<td>add_host can't add chroot file paths</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2370">ansible-modules-core/issues/2370</a></td>
+<td>add_host not adding host to in-memory inventory</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2799">ansible-modules-core/issues/2799</a></td>
+<td>add_host overwrites instead of updating existing h</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3681">ansible-modules-core/issues/3681</a></td>
+<td>add_host fails with unexpected exception inside a </td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/104">ansible-modules-core/pull/104</a></td>
+<td>Add documentation that add_host is a host list byp</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/417">ansible-modules-core/pull/417</a></td>
+<td>Make it (even more) obvious you can supply any app</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/532">ansible-modules-core/pull/532</a></td>
+<td>Add warning to docs about parallel use of add_host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/782">ansible-modules-core/pull/782</a></td>
+<td>added note to add_hosts about loop bypass</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/10500">ansible/issues/10500</a></td>
+<td>host_vars for new hosts via add_host are not loade</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/12622">ansible/issues/12622</a></td>
+<td>add_host groups should accept an array</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/12694">ansible/issues/12694</a></td>
+<td>add_host followed by local_action adds 127.0.0.1 t</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/12925">ansible/issues/12925</a></td>
+<td>hostvars not updated after calling add_host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/13582">ansible/issues/13582</a></td>
+<td>add_host does not see complete inventory.</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/13896">ansible/issues/13896</a></td>
+<td>add_host seems to lose variables defined on host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/14001">ansible/issues/14001</a></td>
+<td>add_host does not inherit inventory settings</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/14298">ansible/issues/14298</a></td>
+<td>add_host does not honor 'when'</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/16881">ansible/issues/16881</a></td>
+<td>add_host module in v2.1.1.0 does not follow paths </td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/16898">ansible/issues/16898</a></td>
+<td>playbook incorrectly targets localhost for all pla</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/17544">ansible/issues/17544</a></td>
+<td>add_host hosts doesn't inherit host_vars from a va</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/1980">ansible/issues/1980</a></td>
+<td>Syntax error in add_host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/2092">ansible/issues/2092</a></td>
+<td>Allow add_host module to accept variables</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/2445">ansible/issues/2445</a></td>
+<td>add_host always triggers, ignores conditionals</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/2963">ansible/issues/2963</a></td>
+<td>Please make add_host not bypass the host loop</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/3664">ansible/issues/3664</a></td>
+<td>Hosts added to a group with add_host don't work in</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/3848">ansible/issues/3848</a></td>
+<td>add_host module called second time with second hos</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/4442">ansible/issues/4442</a></td>
+<td>add_host breaks on commit c2e5f78</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/4808">ansible/issues/4808</a></td>
+<td>add_host doesn't add/update hostvars for an invent</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/5056">ansible/issues/5056</a></td>
+<td>add_host with pre-defined group does not reflect a</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/5145">ansible/issues/5145</a></td>
+<td>add_host doesn't run on parallel hosts</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/5235">ansible/issues/5235</a></td>
+<td>add_host module: can't set variables from dynamic </td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/5791">ansible/issues/5791</a></td>
+<td>add_host seems to not be working?</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/6901">ansible/issues/6901</a></td>
+<td>issue with delegate_to + add_host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/6912">ansible/issues/6912</a></td>
+<td>add_host only executed for the first host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/7488">ansible/issues/7488</a></td>
+<td>add_host task is not run (or skipped) for all host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/8605">ansible/issues/8605</a></td>
+<td>group_vars not evaluated for hosts added to group </td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/issues/9931">ansible/issues/9931</a></td>
+<td>add_host task only applied to one host of the grou</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/10503">ansible/pull/10503</a></td>
+<td>now add_host loads hostvars</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/10513">ansible/pull/10513</a></td>
+<td>Update add_host example in AWS Guide</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/11747">ansible/pull/11747</a></td>
+<td>Fix a parsing bug that prevents IPv6 addresses fro</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12431">ansible/pull/12431</a></td>
+<td>Stops using _groups_list to check for host when us</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12592">ansible/pull/12592</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12771">ansible/pull/12771</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12890">ansible/pull/12890</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12934">ansible/pull/12934</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12942">ansible/pull/12942</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/12951">ansible/pull/12951</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13440">ansible/pull/13440</a></td>
+<td>Comma hostpatterns</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13523">ansible/pull/13523</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13622">ansible/pull/13622</a></td>
+<td>allow for non standard hostnames</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13663">ansible/pull/13663</a></td>
+<td>Personalize "fact_path"</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13836">ansible/pull/13836</a></td>
+<td>2799 fix add_host ignores runtime host vars</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/13841">ansible/pull/13841</a></td>
+<td>fix add_host overwrites runtime host vars</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/14047">ansible/pull/14047</a></td>
+<td>Stable 1.9</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/1491">ansible/pull/1491</a></td>
+<td>add  add_host action plugin - add hosts to invento</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/15455">ansible/pull/15455</a></td>
+<td>Fix duplicate host with different uuid created aft</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/1570">ansible/pull/1570</a></td>
+<td>Addhost module</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/2104">ansible/pull/2104</a></td>
+<td>add_host changes to allow vars</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/2112">ansible/pull/2112</a></td>
+<td>Fixing syntax error</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/2712">ansible/pull/2712</a></td>
+<td>correct reference to module</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/2737">ansible/pull/2737</a></td>
+<td>Nit fix spelling of separate</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3254">ansible/pull/3254</a></td>
+<td>Update the add_host docs</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3262">ansible/pull/3262</a></td>
+<td>make name the parameter, with hostname as alias</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3343">ansible/pull/3343</a></td>
+<td>add_host should not be a changed action</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3353">ansible/pull/3353</a></td>
+<td>Remove a trailing quote</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3469">ansible/pull/3469</a></td>
+<td>Fixed indention of vv() output</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/3473">ansible/pull/3473</a></td>
+<td>adding some notes for "add_host" documentation</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/7499">ansible/pull/7499</a></td>
+<td>Add documentation that add_host is a host list byp</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/7585">ansible/pull/7585</a></td>
+<td>groupname is NoneType when not set</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/8682">ansible/pull/8682</a></td>
+<td>Fix a parsing bug that prevents v6 addresses from </td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/8749">ansible/pull/8749</a></td>
+<td>Allow modules to "invoke" add_host</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/9135">ansible/pull/9135</a></td>
+<td>Adding ip address to RECAP</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/9136">ansible/pull/9136</a></td>
+<td>Adding ip address to ansible-playbook RECAP</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/9524">ansible/pull/9524</a></td>
+<td>guide_rax.rst: fix add_host invocations</td>
+</tr>
+<tr>
+<td>add_host</td>
+<td><a href="https://github.com/ansible/ansible/pull/9748">ansible/pull/9748</a></td>
+<td>Add an option to allow an inventory that does not </td>
+</tr>
+<tr>
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1094">ansible-modules-core/issues/1094</a></td>
 <td>'absent' state for digital ocean droplets should a</td>
@@ -69319,371 +69699,6 @@
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible/pull/9790">ansible/pull/9790</a></td>
 <td>Update digital_ocean.py to provide "_meta" header</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2259">ansible-modules-core/issues/2259</a></td>
-<td>add_host can't add chroot file paths</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2370">ansible-modules-core/issues/2370</a></td>
-<td>add_host not adding host to in-memory inventory</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2799">ansible-modules-core/issues/2799</a></td>
-<td>add_host overwrites instead of updating existing h</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3681">ansible-modules-core/issues/3681</a></td>
-<td>add_host fails with unexpected exception inside a </td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/104">ansible-modules-core/pull/104</a></td>
-<td>Add documentation that add_host is a host list byp</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/417">ansible-modules-core/pull/417</a></td>
-<td>Make it (even more) obvious you can supply any app</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/532">ansible-modules-core/pull/532</a></td>
-<td>Add warning to docs about parallel use of add_host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/782">ansible-modules-core/pull/782</a></td>
-<td>added note to add_hosts about loop bypass</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/10500">ansible/issues/10500</a></td>
-<td>host_vars for new hosts via add_host are not loade</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/12622">ansible/issues/12622</a></td>
-<td>add_host groups should accept an array</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/12694">ansible/issues/12694</a></td>
-<td>add_host followed by local_action adds 127.0.0.1 t</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/12925">ansible/issues/12925</a></td>
-<td>hostvars not updated after calling add_host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/13582">ansible/issues/13582</a></td>
-<td>add_host does not see complete inventory.</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/13896">ansible/issues/13896</a></td>
-<td>add_host seems to lose variables defined on host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/14001">ansible/issues/14001</a></td>
-<td>add_host does not inherit inventory settings</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/14298">ansible/issues/14298</a></td>
-<td>add_host does not honor 'when'</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/16881">ansible/issues/16881</a></td>
-<td>add_host module in v2.1.1.0 does not follow paths </td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/16898">ansible/issues/16898</a></td>
-<td>playbook incorrectly targets localhost for all pla</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/1980">ansible/issues/1980</a></td>
-<td>Syntax error in add_host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/2092">ansible/issues/2092</a></td>
-<td>Allow add_host module to accept variables</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/2445">ansible/issues/2445</a></td>
-<td>add_host always triggers, ignores conditionals</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/2963">ansible/issues/2963</a></td>
-<td>Please make add_host not bypass the host loop</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/3664">ansible/issues/3664</a></td>
-<td>Hosts added to a group with add_host don't work in</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/3848">ansible/issues/3848</a></td>
-<td>add_host module called second time with second hos</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/4442">ansible/issues/4442</a></td>
-<td>add_host breaks on commit c2e5f78</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/4808">ansible/issues/4808</a></td>
-<td>add_host doesn't add/update hostvars for an invent</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/5056">ansible/issues/5056</a></td>
-<td>add_host with pre-defined group does not reflect a</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/5145">ansible/issues/5145</a></td>
-<td>add_host doesn't run on parallel hosts</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/5235">ansible/issues/5235</a></td>
-<td>add_host module: can't set variables from dynamic </td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/5791">ansible/issues/5791</a></td>
-<td>add_host seems to not be working?</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/6901">ansible/issues/6901</a></td>
-<td>issue with delegate_to + add_host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/6912">ansible/issues/6912</a></td>
-<td>add_host only executed for the first host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/7488">ansible/issues/7488</a></td>
-<td>add_host task is not run (or skipped) for all host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/8605">ansible/issues/8605</a></td>
-<td>group_vars not evaluated for hosts added to group </td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/issues/9931">ansible/issues/9931</a></td>
-<td>add_host task only applied to one host of the grou</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/10503">ansible/pull/10503</a></td>
-<td>now add_host loads hostvars</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/10513">ansible/pull/10513</a></td>
-<td>Update add_host example in AWS Guide</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/11747">ansible/pull/11747</a></td>
-<td>Fix a parsing bug that prevents IPv6 addresses fro</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12431">ansible/pull/12431</a></td>
-<td>Stops using _groups_list to check for host when us</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12592">ansible/pull/12592</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12771">ansible/pull/12771</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12890">ansible/pull/12890</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12934">ansible/pull/12934</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12942">ansible/pull/12942</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/12951">ansible/pull/12951</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13440">ansible/pull/13440</a></td>
-<td>Comma hostpatterns</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13523">ansible/pull/13523</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13622">ansible/pull/13622</a></td>
-<td>allow for non standard hostnames</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13663">ansible/pull/13663</a></td>
-<td>Personalize "fact_path"</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13836">ansible/pull/13836</a></td>
-<td>2799 fix add_host ignores runtime host vars</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/13841">ansible/pull/13841</a></td>
-<td>fix add_host overwrites runtime host vars</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/14047">ansible/pull/14047</a></td>
-<td>Stable 1.9</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/1491">ansible/pull/1491</a></td>
-<td>add  add_host action plugin - add hosts to invento</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/15455">ansible/pull/15455</a></td>
-<td>Fix duplicate host with different uuid created aft</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/1570">ansible/pull/1570</a></td>
-<td>Addhost module</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/2104">ansible/pull/2104</a></td>
-<td>add_host changes to allow vars</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/2112">ansible/pull/2112</a></td>
-<td>Fixing syntax error</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/2712">ansible/pull/2712</a></td>
-<td>correct reference to module</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/2737">ansible/pull/2737</a></td>
-<td>Nit fix spelling of separate</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3254">ansible/pull/3254</a></td>
-<td>Update the add_host docs</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3262">ansible/pull/3262</a></td>
-<td>make name the parameter, with hostname as alias</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3343">ansible/pull/3343</a></td>
-<td>add_host should not be a changed action</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3353">ansible/pull/3353</a></td>
-<td>Remove a trailing quote</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3469">ansible/pull/3469</a></td>
-<td>Fixed indention of vv() output</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/3473">ansible/pull/3473</a></td>
-<td>adding some notes for "add_host" documentation</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/7499">ansible/pull/7499</a></td>
-<td>Add documentation that add_host is a host list byp</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/7585">ansible/pull/7585</a></td>
-<td>groupname is NoneType when not set</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/8682">ansible/pull/8682</a></td>
-<td>Fix a parsing bug that prevents v6 addresses from </td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/8749">ansible/pull/8749</a></td>
-<td>Allow modules to "invoke" add_host</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/9135">ansible/pull/9135</a></td>
-<td>Adding ip address to RECAP</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/9136">ansible/pull/9136</a></td>
-<td>Adding ip address to ansible-playbook RECAP</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/9524">ansible/pull/9524</a></td>
-<td>guide_rax.rst: fix add_host invocations</td>
-</tr>
-<tr>
-<td>add_host</td>
-<td><a href="https://github.com/ansible/ansible/pull/9748">ansible/pull/9748</a></td>
-<td>Add an option to allow an inventory that does not </td>
 </tr>
 <tr>
 <td>docker_image</td>
@@ -95436,6 +95451,66 @@
 <td>New win_file windows module versione 0.1beta</td>
 </tr>
 <tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/14432">ansible/pull/14432</a></td>
+<td>Cleanup for networking common bits.</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/15629">ansible/pull/15629</a></td>
+<td>make netcfg preserve command order</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/15891">ansible/pull/15891</a></td>
+<td>bugfix for issue with trying to eval contains with</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/16423">ansible/pull/16423</a></td>
+<td>bug fix in netcfg replace method to handle whitesp</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/16483">ansible/pull/16483</a></td>
+<td>fixes dependency on OrderedDict in netcfg</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/16496">ansible/pull/16496</a></td>
+<td>fixes minor issue with expanding blocks in netcfg</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/16587">ansible/pull/16587</a></td>
+<td>minor bug fixes found in netcfg</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/16728">ansible/pull/16728</a></td>
+<td>minor update to the default comment tokens in netc</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/17110">ansible/pull/17110</a></td>
+<td>Relicense netcfg.py to BSD</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/17150">ansible/pull/17150</a></td>
+<td>pull Config object out of network and into netcfg</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/17200">ansible/pull/17200</a></td>
+<td>removes invoke method from Config class</td>
+</tr>
+<tr>
+<td>netcfg</td>
+<td><a href="https://github.com/ansible/ansible/pull/17531">ansible/pull/17531</a></td>
+<td>Cleanup netcfg.py</td>
+</tr>
+<tr>
 <td>profitbricks</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/673">ansible-modules-extras/pull/673</a></td>
 <td>Feature/profitbricks modules</td>
@@ -96354,61 +96429,6 @@
 <td>s3_bucket</td>
 <td><a href="https://github.com/ansible/ansible/issues/15603">ansible/issues/15603</a></td>
 <td>Faulty parsing of JSON template/file lookups (aka </td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/14432">ansible/pull/14432</a></td>
-<td>Cleanup for networking common bits.</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/15629">ansible/pull/15629</a></td>
-<td>make netcfg preserve command order</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/15891">ansible/pull/15891</a></td>
-<td>bugfix for issue with trying to eval contains with</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/16423">ansible/pull/16423</a></td>
-<td>bug fix in netcfg replace method to handle whitesp</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/16483">ansible/pull/16483</a></td>
-<td>fixes dependency on OrderedDict in netcfg</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/16496">ansible/pull/16496</a></td>
-<td>fixes minor issue with expanding blocks in netcfg</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/16587">ansible/pull/16587</a></td>
-<td>minor bug fixes found in netcfg</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/16728">ansible/pull/16728</a></td>
-<td>minor update to the default comment tokens in netc</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/17110">ansible/pull/17110</a></td>
-<td>Relicense netcfg.py to BSD</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/17150">ansible/pull/17150</a></td>
-<td>pull Config object out of network and into netcfg</td>
-</tr>
-<tr>
-<td>netcfg</td>
-<td><a href="https://github.com/ansible/ansible/pull/17200">ansible/pull/17200</a></td>
-<td>removes invoke method from Config class</td>
 </tr>
 <tr>
 <td>azure_rm_virtualmachine</td>
@@ -103346,6 +103366,31 @@
 <td>Added control for external ip and disk size.</td>
 </tr>
 <tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4759">ansible-modules-core/issues/4759</a></td>
+<td>vmware_guest.py testing offer</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2889">ansible-modules-extras/issues/2889</a></td>
+<td>vmware_guest.py testing offer </td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2649">ansible-modules-extras/pull/2649</a></td>
+<td>Pyvmomi vmware_guest module</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2705">ansible-modules-extras/pull/2705</a></td>
+<td>Fix vmware_guest disk and nic parameters and docst</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2844">ansible-modules-extras/pull/2844</a></td>
+<td>Fix: remove 'nic' and 'disk' requirements for fact</td>
+</tr>
+<tr>
 <td>slurp</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2096">ansible-modules-core/pull/2096</a></td>
 <td>Revert "Rename powershell versions of setup and sl</td>
@@ -104516,6 +104561,26 @@
 <td>New module - ec2_vpc_subnet_facts</td>
 </tr>
 <tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
+<td>misc fixes for vmware_inventory.py</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
+<td>vmware_inventory.py excude more properties and fix</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
+<td>vmware_inventory script improvements</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17543">ansible/pull/17543</a></td>
+<td>Corrected port designation in INI file</td>
+</tr>
+<tr>
 <td>vmware_portgroup</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1815">ansible-modules-extras/pull/1815</a></td>
 <td>Fix vmware_portgroup throwing an error if port gro</td>
@@ -104714,26 +104779,6 @@
 <td>digital_ocean_domain_record</td>
 <td><a href="https://github.com/ansible/ansible/pull/8509">ansible/pull/8509</a></td>
 <td>Add digital_ocean_domain_record to manage specific</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4759">ansible-modules-core/issues/4759</a></td>
-<td>vmware_guest.py testing offer</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2889">ansible-modules-extras/issues/2889</a></td>
-<td>vmware_guest.py testing offer </td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2649">ansible-modules-extras/pull/2649</a></td>
-<td>Pyvmomi vmware_guest module</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2705">ansible-modules-extras/pull/2705</a></td>
-<td>Fix vmware_guest disk and nic parameters and docst</td>
 </tr>
 <tr>
 <td>url</td>
@@ -105801,21 +105846,6 @@
 <td>A module to manage global environment variables in</td>
 </tr>
 <tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
-<td>misc fixes for vmware_inventory.py</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
-<td>vmware_inventory.py excude more properties and fix</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
-<td>vmware_inventory script improvements</td>
-</tr>
-<tr>
 <td>helpers</td>
 <td><a href="https://github.com/ansible/ansible/pull/11192">ansible/pull/11192</a></td>
 <td>Raise AnsibleParserError instead of AssertionError</td>
@@ -106549,6 +106579,16 @@
 <td>addresses</td>
 <td><a href="https://github.com/ansible/ansible/pull/12424">ansible/pull/12424</a></td>
 <td>Allow hexadecimal ranges in IPv6 addresses, not on</td>
+</tr>
+<tr>
+<td>loops</td>
+<td><a href="https://github.com/ansible/ansible/pull/17289">ansible/pull/17289</a></td>
+<td>implemented loop pausing</td>
+</tr>
+<tr>
+<td>loops</td>
+<td><a href="https://github.com/ansible/ansible/pull/17336">ansible/pull/17336</a></td>
+<td>Add test for the pause in loop feature</td>
 </tr>
 <tr>
 <td>vmware_vm_facts</td>
@@ -108204,11 +108244,6 @@
 <td>stdout</td>
 <td><a href="https://github.com/ansible/ansible/pull/17355">ansible/pull/17355</a></td>
 <td>better display for free strategy</td>
-</tr>
-<tr>
-<td>loops</td>
-<td><a href="https://github.com/ansible/ansible/pull/17289">ansible/pull/17289</a></td>
-<td>implemented loop pausing</td>
 </tr>
 <tr>
 <td>handler</td>
