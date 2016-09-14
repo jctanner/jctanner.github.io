@@ -1722,6 +1722,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2717">ansible-modules-core/pull/2717</a></td>
+<td>Add version parameter to package modules</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2752">ansible-modules-core/pull/2752</a></td>
 <td>Feature #2731: added postgres import and dump (see</td>
 </tr>
@@ -2394,6 +2399,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/286">ansible-modules-extras/pull/286</a></td>
 <td>Add simple module to import/delete ssl certificate</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2919">ansible-modules-extras/pull/2919</a></td>
+<td>Allow setting the visible name of a host in zabbix</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8272,6 +8282,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17574">ansible/pull/17574</a></td>
+<td>Add python 3 awareness to apt module tests.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17577">ansible/pull/17577</a></td>
+<td>Update to Get-AnsibleParams to allow for multiple </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -10241,6 +10261,76 @@
 <td>Add an option lock_wait to the apt module</td>
 </tr>
 <tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2003">ansible-modules-core/issues/2003</a></td>
+<td>ansible -m setup does not check the dependencies i</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2432">ansible-modules-core/issues/2432</a></td>
+<td>setup module: ansible_selinux var incorrect on Fed</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2718">ansible-modules-core/issues/2718</a></td>
+<td>Add Cumulus Linux OS distribution to facts </td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2725">ansible-modules-core/issues/2725</a></td>
+<td>Improve Cumulus Linux hardware facts</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/278">ansible-modules-core/issues/278</a></td>
+<td>setup does not define "ansible_virtualization_role</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2910">ansible-modules-core/issues/2910</a></td>
+<td>network interfaces not in logical order</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3321">ansible-modules-core/issues/3321</a></td>
+<td>Fact gathering randomly fails on a VM</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3545">ansible-modules-core/issues/3545</a></td>
+<td>in the setup module ansible_default_ipv6.address f</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4260">ansible-modules-core/issues/4260</a></td>
+<td>ansible_os_name missing from linux facts</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4512">ansible-modules-core/issues/4512</a></td>
+<td>Setup.ps1 fails on windows hosts where facter is i</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4076">ansible-modules-core/pull/4076</a></td>
+<td>handle processors always as arrays, sum cores and </td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible/issues/17573">ansible/issues/17573</a></td>
+<td>Wrong ansible_os_family reported for openSUSE Tumb</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
+<td>Potential fix for setup ansible_selinux var incorr</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible/pull/17176">ansible/pull/17176</a></td>
+<td>fix setup module on Fedora Core 5 (#17175)</td>
+</tr>
+<tr>
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1568">ansible-modules-core/issues/1568</a></td>
 <td>Ansible calls "file" module instead of "copy" modu</td>
@@ -10584,71 +10674,6 @@
 <td>new</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/287">ansible-modules-extras/issues/287</a></td>
 <td>Run Windows modules asynchronously as scheduled jo</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2003">ansible-modules-core/issues/2003</a></td>
-<td>ansible -m setup does not check the dependencies i</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2432">ansible-modules-core/issues/2432</a></td>
-<td>setup module: ansible_selinux var incorrect on Fed</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2718">ansible-modules-core/issues/2718</a></td>
-<td>Add Cumulus Linux OS distribution to facts </td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2725">ansible-modules-core/issues/2725</a></td>
-<td>Improve Cumulus Linux hardware facts</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/278">ansible-modules-core/issues/278</a></td>
-<td>setup does not define "ansible_virtualization_role</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2910">ansible-modules-core/issues/2910</a></td>
-<td>network interfaces not in logical order</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3321">ansible-modules-core/issues/3321</a></td>
-<td>Fact gathering randomly fails on a VM</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3545">ansible-modules-core/issues/3545</a></td>
-<td>in the setup module ansible_default_ipv6.address f</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4260">ansible-modules-core/issues/4260</a></td>
-<td>ansible_os_name missing from linux facts</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4512">ansible-modules-core/issues/4512</a></td>
-<td>Setup.ps1 fails on windows hosts where facter is i</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4076">ansible-modules-core/pull/4076</a></td>
-<td>handle processors always as arrays, sum cores and </td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
-<td>Potential fix for setup ansible_selinux var incorr</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible/pull/17176">ansible/pull/17176</a></td>
-<td>fix setup module on Fedora Core 5 (#17175)</td>
 </tr>
 <tr>
 <td>ec2_ami_find</td>
@@ -12126,6 +12151,41 @@
 <td>Exception thrown with get_url() when returned HTTP</td>
 </tr>
 <tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2706">ansible-modules-extras/issues/2706</a></td>
+<td>vmware_guest requires disk.size_gb, but ignores on</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
+<td>Set notes and resource_pool on vmware_guest</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2911">ansible-modules-extras/issues/2911</a></td>
+<td>vmware_guest.py Clone operation not working</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
+<td>vmware_guest.py implement cluster support</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
+<td>vmware_guest.py implement datastore cluster suppor</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
+<td>vmware_guest.py  OS customization</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2918">ansible-modules-extras/pull/2918</a></td>
+<td>vmware_guest: use the disk argument to modify disk</td>
+</tr>
+<tr>
 <td>ecs_taskdefinition</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4538">ansible-modules-core/issues/4538</a></td>
 <td>[ecs_taskdefinition] Invalid type for parameter co</td>
@@ -12514,36 +12574,6 @@
 <td>subversion</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1242">ansible-modules-extras/pull/1242</a></td>
 <td>Proposed subversion module for use with Windows</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2706">ansible-modules-extras/issues/2706</a></td>
-<td>vmware_guest requires disk.size_gb, but ignores on</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
-<td>Set notes and resource_pool on vmware_guest</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2911">ansible-modules-extras/issues/2911</a></td>
-<td>vmware_guest.py Clone operation not working</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
-<td>vmware_guest.py implement cluster support</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
-<td>vmware_guest.py implement datastore cluster suppor</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
-<td>vmware_guest.py  OS customization</td>
 </tr>
 <tr>
 <td>vca_vapp</td>
@@ -13631,21 +13661,6 @@
 <td>Docs improvements to _config</td>
 </tr>
 <tr>
-<td>package</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4472">ansible-modules-core/issues/4472</a></td>
-<td>package: version specifiers only work with `yum`</td>
-</tr>
-<tr>
-<td>package</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2717">ansible-modules-core/pull/2717</a></td>
-<td>Add version parameter to package modules</td>
-</tr>
-<tr>
-<td>package</td>
-<td><a href="https://github.com/ansible/ansible/pull/15657">ansible/pull/15657</a></td>
-<td>Simplify and improve package name squashing</td>
-</tr>
-<tr>
 <td>constants</td>
 <td><a href="https://github.com/ansible/ansible/pull/10261">ansible/pull/10261</a></td>
 <td>Feature/galaxy idempotency</td>
@@ -13946,6 +13961,21 @@
 <td>fixes #4520 os_user does not honor OS env variable</td>
 </tr>
 <tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
+<td>Increase Ansible's performance</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17562">ansible/pull/17562</a></td>
+<td>Treat vars/ and defaults/ in roles like group_vars</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17575">ansible/pull/17575</a></td>
+<td>Set Suse family for openSUSE Tumbleweed & Leap</td>
+</tr>
+<tr>
 <td>azure</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1191">ansible-modules-core/issues/1191</a></td>
 <td>Enable adding data disks</td>
@@ -14139,6 +14169,16 @@
 <td>ec2_remote_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1972">ansible-modules-extras/pull/1972</a></td>
 <td>added code which returns instance & platform type </td>
+</tr>
+<tr>
+<td>package</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4472">ansible-modules-core/issues/4472</a></td>
+<td>package: version specifiers only work with `yum`</td>
+</tr>
+<tr>
+<td>package</td>
+<td><a href="https://github.com/ansible/ansible/pull/15657">ansible/pull/15657</a></td>
+<td>Simplify and improve package name squashing</td>
 </tr>
 <tr>
 <td>hashi_vault</td>
@@ -14511,16 +14551,6 @@
 <td>Added module win_zip</td>
 </tr>
 <tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
-<td>apt_key doesn't compare key data in check mode</td>
-</tr>
-<tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4848">ansible-modules-core/pull/4848</a></td>
-<td>Fix python 3 issues with apt* modules.</td>
-</tr>
-<tr>
 <td>apache2_module</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4745">ansible-modules-core/pull/4745</a></td>
 <td>Added work around for Ubuntu Xenial calling php7_m</td>
@@ -14619,16 +14649,6 @@
 <td>campfire</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2801">ansible-modules-extras/pull/2801</a></td>
 <td>Campfire module fails if the notify option is not </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
-<td>Increase Ansible's performance</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/17562">ansible/pull/17562</a></td>
-<td>Treat vars/ and defaults/ in roles like group_vars</td>
 </tr>
 <tr>
 <td>uncompress</td>
@@ -15696,6 +15716,11 @@
 <td>Add TLS encryption support to MQTT</td>
 </tr>
 <tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
+<td>apt_key doesn't compare key data in check mode</td>
+</tr>
+<tr>
 <td>qemu_img</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2556">ansible-modules-extras/pull/2556</a></td>
 <td>added qemu_img module to interact with qemu-img</td>
@@ -16179,6 +16204,11 @@
 <td>cs_volume</td>
 <td><a href="https://github.com/ansible/ansible/pull/11323">ansible/pull/11323</a></td>
 <td>Add a new "on_exception" callback method.</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/17576">ansible/pull/17576</a></td>
+<td>Fix cow mode to work with unicode task and play na</td>
 </tr>
 <tr>
 <td>win_certificate_store</td>
