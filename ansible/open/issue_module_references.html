@@ -8257,6 +8257,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17556">ansible/pull/17556</a></td>
+<td>Updated grammar starting on line 166.</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -10291,6 +10296,76 @@
 <td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
+<td>docker_container: support --tmpfs option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
+<td>docker_container fails to restart containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
+<td>Adding support for published_ports: ALL, since tha</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
+<td>Fix unit parsing</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4825">ansible-modules-core/pull/4825</a></td>
+<td>Docker module: add support for OomScoreAdj</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
+<td>Add a environment example</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
+<td>Strict Mode fix for IIS versions earlier than IIS8</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
+<td>Add 'refresh' mode to fact gathering</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
+<td>--host option bug fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
+<td>Add timeout information into async failure message</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
+<td>Add special tag 'skip', feature request #11045</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
+<td>version_compare  argument fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
+<td>Adds docker-machine module-utils</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
+<td>More tolerant unit parsing</td>
+</tr>
+<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
 <td>Add more options to authorized_keys modul for comm</td>
@@ -10559,71 +10634,6 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible/pull/17176">ansible/pull/17176</a></td>
 <td>fix setup module on Fedora Core 5 (#17175)</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
-<td>docker_container: support --tmpfs option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
-<td>docker_container fails to restart containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
-<td>Adding support for published_ports: ALL, since tha</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
-<td>Fix unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
-<td>Add a environment example</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
-<td>Strict Mode fix for IIS versions earlier than IIS8</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
-<td>Add 'refresh' mode to fact gathering</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
-<td>--host option bug fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
-<td>Add timeout information into async failure message</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
-<td>Add special tag 'skip', feature request #11045</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
-<td>version_compare  argument fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
-<td>Adds docker-machine module-utils</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
-<td>More tolerant unit parsing</td>
 </tr>
 <tr>
 <td>ec2_ami_find</td>
@@ -15804,6 +15814,11 @@
 <td>fleet_unit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2344">ansible-modules-extras/pull/2344</a></td>
 <td>add fleet_unit module which manges CoreOS systemd </td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2908">ansible-modules-extras/issues/2908</a></td>
+<td>zypper_repository: ImportError: No module named xm</td>
 </tr>
 <tr>
 <td>rhvm</td>
