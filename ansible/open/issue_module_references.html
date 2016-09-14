@@ -8447,6 +8447,11 @@
 </tr>
 <tr>
 <td>ec2</td>
+<td><a href="https://github.com/ansible/ansible/issues/17555">ansible/issues/17555</a></td>
+<td>ec2.py fails with - NameError: name botocore is no</td>
+</tr>
+<tr>
+<td>ec2</td>
 <td><a href="https://github.com/ansible/ansible/pull/10389">ansible/pull/10389</a></td>
 <td>Allow customization of group by tags</td>
 </tr>
@@ -11466,51 +11471,6 @@
 <td>Fix cursor.execute requiring an iterable</td>
 </tr>
 <tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
-<td>lxc_container: add a way to wait for the container</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1998">ansible-modules-extras/issues/1998</a></td>
-<td>lxc_container container_config update is broken</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2577">ansible-modules-extras/issues/2577</a></td>
-<td>lxc_container: snapshot clone container creation i</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2612">ansible-modules-extras/issues/2612</a></td>
-<td>lxc_container: provide option to make automatic co</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2691">ansible-modules-extras/issues/2691</a></td>
-<td>lxc_container: logging is not applied to any actio</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2802">ansible-modules-extras/issues/2802</a></td>
-<td>lxc_container: incompatible with unprivileged cont</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/550">ansible-modules-extras/issues/550</a></td>
-<td>Bundle python2-lxc into the distribution</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/836">ansible-modules-extras/issues/836</a></td>
-<td>lxc_container::container_config : python dict ain'</td>
-</tr>
-<tr>
-<td>lxc_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/17457">ansible/pull/17457</a></td>
-<td>Pass the absolute path to dirname when assigning b</td>
-</tr>
-<tr>
 <td>ini_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/247">ansible-modules-core/issues/247</a></td>
 <td>Expose backup path in ini_file</td>
@@ -11639,6 +11599,46 @@
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4470">ansible-modules-core/pull/4470</a></td>
 <td>ec2_elb_lb: fix errors in module documentation</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
+<td>lxc_container: add a way to wait for the container</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1998">ansible-modules-extras/issues/1998</a></td>
+<td>lxc_container container_config update is broken</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2577">ansible-modules-extras/issues/2577</a></td>
+<td>lxc_container: snapshot clone container creation i</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2612">ansible-modules-extras/issues/2612</a></td>
+<td>lxc_container: provide option to make automatic co</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2691">ansible-modules-extras/issues/2691</a></td>
+<td>lxc_container: logging is not applied to any actio</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2802">ansible-modules-extras/issues/2802</a></td>
+<td>lxc_container: incompatible with unprivileged cont</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/836">ansible-modules-extras/issues/836</a></td>
+<td>lxc_container::container_config : python dict ain'</td>
+</tr>
+<tr>
+<td>lxc_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/17457">ansible/pull/17457</a></td>
+<td>Pass the absolute path to dirname when assigning b</td>
 </tr>
 <tr>
 <td>maven_artifact</td>
@@ -14166,6 +14166,16 @@
 <td>aws/route53_zone: support private zones overlappin</td>
 </tr>
 <tr>
+<td>dnos6_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4824">ansible-modules-core/pull/4824</a></td>
+<td>Added support for dnos6_config module</td>
+</tr>
+<tr>
+<td>dnos6_config</td>
+<td><a href="https://github.com/ansible/ansible/pull/17553">ansible/pull/17553</a></td>
+<td> Add action plugin to support dnos6_config module</td>
+</tr>
+<tr>
 <td>dataloader</td>
 <td><a href="https://github.com/ansible/ansible/pull/16155">ansible/pull/16155</a></td>
 <td>Fix for bash process substitution usage in invento</td>
@@ -14344,6 +14354,16 @@
 <td>netscaler</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2327">ansible-modules-extras/pull/2327</a></td>
 <td>Netscaler: Expire sessions gracefully instead of t</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
+<td>win_file: no longer causes a stack trace if called</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4823">ansible-modules-core/pull/4823</a></td>
+<td>win_file: fix error when creating an existing dir</td>
 </tr>
 <tr>
 <td>znode</td>
@@ -14769,6 +14789,11 @@
 <td>auth0_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2512">ansible-modules-extras/pull/2512</a></td>
 <td>Add 2 modules to create users in auth0 domain and </td>
+</tr>
+<tr>
+<td>dnos6_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/17554">ansible/pull/17554</a></td>
+<td>Add action plugin to support dnos6_template module</td>
 </tr>
 <tr>
 <td>win_acl</td>
@@ -15276,11 +15301,6 @@
 <td>added '--raw' option to ansible cli, which outputs</td>
 </tr>
 <tr>
-<td>win_file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
-<td>win_file: no longer causes a stack trace if called</td>
-</tr>
-<tr>
 <td>win_updates</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/921">ansible-modules-extras/issues/921</a></td>
 <td>win_updates expansion </td>
@@ -15311,9 +15331,9 @@
 <td>please create new module service_stat</td>
 </tr>
 <tr>
-<td>rhn_register</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3167">ansible-modules-core/issues/3167</a></td>
-<td>rhn_register stops working after upgrade from 1.9.</td>
+<td>win_timezone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1767">ansible-modules-extras/issues/1767</a></td>
+<td>New Windows Modules Missing RETURN docs</td>
 </tr>
 <tr>
 <td>elasticsearch_shield_role</td>
@@ -15651,6 +15671,11 @@
 <td>Added os_host_aggregate and os_host_aggregate_memb</td>
 </tr>
 <tr>
+<td>bigip_routedomain</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2907">ansible-modules-extras/pull/2907</a></td>
+<td>Fixes domains method not defined</td>
+</tr>
+<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/610">ansible-modules-extras/issues/610</a></td>
 <td>locale_gen creating duplicate lines in /etc/locale</td>
@@ -15861,9 +15886,9 @@
 <td>to_nice_yaml producing "..." (3 dots) on role vars</td>
 </tr>
 <tr>
-<td>win_timezone</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1767">ansible-modules-extras/issues/1767</a></td>
-<td>New Windows Modules Missing RETURN docs</td>
+<td>rhn_register</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3167">ansible-modules-core/issues/3167</a></td>
+<td>rhn_register stops working after upgrade from 1.9.</td>
 </tr>
 <tr>
 <td>play_context</td>
