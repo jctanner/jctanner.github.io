@@ -1367,6 +1367,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4852">ansible-modules-core/issues/4852</a></td>
+<td>imported module support code for stat</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/487">ansible-modules-core/issues/487</a></td>
 <td>ec2_group and multiple default groups</td>
 </tr>
@@ -7482,6 +7487,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17581">ansible/issues/17581</a></td>
+<td>devel silently loses conditional includes</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -8123,7 +8133,7 @@
 <tr>
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16741">ansible/pull/16741</a></td>
-<td>Allow implicit int to float conversion</td>
+<td>Add a test for implicit int to float conversion</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -14711,16 +14721,6 @@
 <td>Add a way to ignore failure when boolean do not ex</td>
 </tr>
 <tr>
-<td>win_firewall_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2036">ansible-modules-extras/issues/2036</a></td>
-<td>win_firewall_rule: default profile 'current' not v</td>
-</tr>
-<tr>
-<td>win_firewall_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2882">ansible-modules-extras/issues/2882</a></td>
-<td>win_firewall_rule fails if rule already exists</td>
-</tr>
-<tr>
 <td>vmware_vm_shell</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2757">ansible-modules-extras/issues/2757</a></td>
 <td>vmware_vm_shell ignores "validate_certs: false"</td>
@@ -15229,11 +15229,6 @@
 <td>lvol_cache</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2041">ansible-modules-extras/pull/2041</a></td>
 <td>Add lvol_cache module</td>
-</tr>
-<tr>
-<td>vmware_vmotion</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2903">ansible-modules-extras/pull/2903</a></td>
-<td>cloud/vmware/vmware_vmotion: added storage vmotion</td>
 </tr>
 <tr>
 <td>os_nova_flavor</td>
@@ -16001,6 +15996,11 @@
 <td>to_nice_yaml producing "..." (3 dots) on role vars</td>
 </tr>
 <tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/issues/17583">ansible/issues/17583</a></td>
+<td>Sudo on change</td>
+</tr>
+<tr>
 <td>rhn_register</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3167">ansible-modules-core/issues/3167</a></td>
 <td>rhn_register stops working after upgrade from 1.9.</td>
@@ -16039,6 +16039,11 @@
 <td>elastic_beanstalk</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2151">ansible-modules-extras/pull/2151</a></td>
 <td>New module - elastic_beanstalk - re-submit</td>
+</tr>
+<tr>
+<td>nxos_ntp_auth</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4853">ansible-modules-core/pull/4853</a></td>
+<td>Adding nxos_ntp_auth</td>
 </tr>
 <tr>
 <td>gather_facts</td>
@@ -16096,9 +16101,9 @@
 <td>Digital ocean domain record</td>
 </tr>
 <tr>
-<td>bundler</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1858">ansible-modules-extras/issues/1858</a></td>
-<td>Wrong parameter in example "deployment" should "be</td>
+<td>vmware_vmotion</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2903">ansible-modules-extras/pull/2903</a></td>
+<td>cloud/vmware/vmware_vmotion: added storage vmotion</td>
 </tr>
 <tr>
 <td>each_found</td>
@@ -16141,9 +16146,19 @@
 <td>Adding a module for managing Fastly CDN services</td>
 </tr>
 <tr>
+<td>bundler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1858">ansible-modules-extras/issues/1858</a></td>
+<td>Wrong parameter in example "deployment" should "be</td>
+</tr>
+<tr>
 <td>etcd</td>
 <td><a href="https://github.com/ansible/ansible/pull/14975">ansible/pull/14975</a></td>
 <td>Switch etcd lookup plugin to work with etcd v2 api</td>
+</tr>
+<tr>
+<td>win_firewall_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2882">ansible-modules-extras/issues/2882</a></td>
+<td>win_firewall_rule fails if rule already exists</td>
 </tr>
 <tr>
 <td>htpasswd</td>
@@ -16319,6 +16334,11 @@
 <td>digital_ocean_sshkey</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1520">ansible-modules-core/pull/1520</a></td>
 <td>Add DigitalOcean API v2 support for SSH keys and D</td>
+</tr>
+<tr>
+<td>nxos_aaa_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4851">ansible-modules-core/pull/4851</a></td>
+<td>Adding nxos_aaa_server</td>
 </tr>
 <tr>
 <td>dnsmadeeasy</td>
