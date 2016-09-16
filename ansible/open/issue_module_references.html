@@ -1377,6 +1377,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4887">ansible-modules-core/issues/4887</a></td>
+<td>Nodes Unreachable after Increasing Forks and File </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/494">ansible-modules-core/issues/494</a></td>
 <td>Allow to specify UDP endpoints for Azure VMs</td>
 </tr>
@@ -1684,6 +1689,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2464">ansible-modules-core/pull/2464</a></td>
 <td>mount.py - lazy umount, trailing slash tolerance a</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2466">ansible-modules-core/pull/2466</a></td>
+<td>expose a force delete flag</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -2343,7 +2353,7 @@
 <tr>
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2941">ansible-modules-extras/pull/2941</a></td>
-<td>Added win_iis_webapppooldefaults module</td>
+<td>Added win_iis_webapppooldefaults and win_dnsServer</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8232,6 +8242,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17620">ansible/pull/17620</a></td>
+<td>Add os_family to test_distribution_version</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -9464,11 +9479,6 @@
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1921">ansible-modules-core/pull/1921</a></td>
 <td>Allow asg with size of zero.</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2466">ansible-modules-core/pull/2466</a></td>
-<td>expose a force delete flag</td>
 </tr>
 <tr>
 <td>ec2_asg</td>
@@ -10991,61 +11001,6 @@
 <td>lineinfile documentation should clarify whether st</td>
 </tr>
 <tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
-<td>GCE module missing local SSD option</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
-<td>Add Target proxy, URL map and SSL certificate reso</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
-<td>Compute Engine: Provide a way to specify initial b</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
-<td>GCE: Add support for 'number' parameter for manual</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4541">ansible-modules-core/pull/4541</a></td>
-<td>GCE Managed Instance Group Support</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/17075">ansible/issues/17075</a></td>
-<td>gce module errors on file not found when using OAu</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
-<td>Add node private & public ips to gce groups</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
-<td>change check for GCE auth parameters to allow empt</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
-<td>Allow empty string GCE parameters</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/17249">ansible/pull/17249</a></td>
-<td>[GCE] test_gce_mig integration test</td>
-</tr>
-<tr>
 <td>iam</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2192">ansible-modules-core/issues/2192</a></td>
 <td>IAM module can get into weird broken states for IA</td>
@@ -11199,6 +11154,56 @@
 <td>known_hosts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2488">ansible-modules-extras/pull/2488</a></td>
 <td>Adds keyscan option to known_hosts module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
+<td>GCE module missing local SSD option</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
+<td>Add Target proxy, URL map and SSL certificate reso</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
+<td>Compute Engine: Provide a way to specify initial b</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
+<td>GCE: Add support for 'number' parameter for manual</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/17075">ansible/issues/17075</a></td>
+<td>gce module errors on file not found when using OAu</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
+<td>Add node private & public ips to gce groups</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
+<td>change check for GCE auth parameters to allow empt</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
+<td>Allow empty string GCE parameters</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/17249">ansible/pull/17249</a></td>
+<td>[GCE] test_gce_mig integration test</td>
 </tr>
 <tr>
 <td>group</td>
@@ -12991,26 +12996,6 @@
 <td>Monit fix</td>
 </tr>
 <tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2608">ansible-modules-extras/issues/2608</a></td>
-<td>Full service url for consul health checking</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2655">ansible-modules-extras/pull/2655</a></td>
-<td>Added consul module for windows</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible/pull/13281">ansible/pull/13281</a></td>
-<td>Refactored Consul inventory script</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible/pull/17451">ansible/pull/17451</a></td>
-<td>update consul tests to reflect fixes to the core a</td>
-</tr>
-<tr>
 <td>yum_repository</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1680">ansible-modules-extras/issues/1680</a></td>
 <td>yum_repository: remove unmanaged repo files</td>
@@ -13509,6 +13494,21 @@
 <td>kubernetes</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2843">ansible-modules-extras/pull/2843</a></td>
 <td>Add URLs for objects from extensions API group</td>
+</tr>
+<tr>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2608">ansible-modules-extras/issues/2608</a></td>
+<td>Full service url for consul health checking</td>
+</tr>
+<tr>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2655">ansible-modules-extras/pull/2655</a></td>
+<td>Added consul module for windows</td>
+</tr>
+<tr>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible/pull/13281">ansible/pull/13281</a></td>
+<td>Refactored Consul inventory script</td>
 </tr>
 <tr>
 <td>supervisorctl</td>
@@ -14049,6 +14049,21 @@
 <td>at</td>
 <td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
 <td>Fix OS version check for RHEL 4 to prevent executi</td>
+</tr>
+<tr>
+<td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3427">ansible-modules-core/issues/3427</a></td>
+<td>stat module doesn't return lnk_source when follow=</td>
+</tr>
+<tr>
+<td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4882">ansible-modules-core/issues/4882</a></td>
+<td>Feature Idea - add xattr support in FILE & STAT mo</td>
+</tr>
+<tr>
+<td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4886">ansible-modules-core/pull/4886</a></td>
+<td>typo in stat.executable (was stat.excutable)</td>
 </tr>
 <tr>
 <td>a10</td>
@@ -14731,16 +14746,6 @@
 <td>Convert ec2_vpc_subnet module to boto3</td>
 </tr>
 <tr>
-<td>stat</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3427">ansible-modules-core/issues/3427</a></td>
-<td>stat module doesn't return lnk_source when follow=</td>
-</tr>
-<tr>
-<td>stat</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4882">ansible-modules-core/issues/4882</a></td>
-<td>Feature Idea - add xattr support in FILE & STAT mo</td>
-</tr>
-<tr>
 <td>win_unzip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1233">ansible-modules-extras/issues/1233</a></td>
 <td>win_unzip exception on windows 2012 R2 core</td>
@@ -14819,11 +14824,6 @@
 <td>ec2_elb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4857">ansible-modules-core/issues/4857</a></td>
 <td>Add support for AWS Application Load Balancer (ALB</td>
-</tr>
-<tr>
-<td>dell</td>
-<td><a href="https://github.com/ansible/ansible/pull/17617">ansible/pull/17617</a></td>
-<td>Renamed the Modules from dnos* -> dellos*, updated</td>
 </tr>
 <tr>
 <td>win_reboot</td>
@@ -15134,11 +15134,6 @@
 <td>postgres_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4038">ansible-modules-core/pull/4038</a></td>
 <td>postgres_user module: `role_attr_flags` does nothi</td>
-</tr>
-<tr>
-<td>efs_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2305">ansible-modules-extras/pull/2305</a></td>
-<td>Add Amazon Elastic File System (efs) module</td>
 </tr>
 <tr>
 <td>postfix</td>
@@ -15756,11 +15751,6 @@
 <td>Add a guestfs connexion plugin</td>
 </tr>
 <tr>
-<td>__init</td>
-<td><a href="https://github.com/ansible/ansible/issues/17352">ansible/issues/17352</a></td>
-<td>bug report: action_plugins regression in _fixup_pe</td>
-</tr>
-<tr>
 <td>os_host_aggregate_member</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2257">ansible-modules-extras/pull/2257</a></td>
 <td>Added os_host_aggregate and os_host_aggregate_memb</td>
@@ -15809,11 +15799,6 @@
 <td>webfaction_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/710">ansible-modules-extras/pull/710</a></td>
 <td>add module to gather facts from Webfaction</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
-<td>VMWare inventory fails on UnicodeDecodeError excep</td>
 </tr>
 <tr>
 <td>archive</td>
@@ -16009,6 +15994,11 @@
 <td>become</td>
 <td><a href="https://github.com/ansible/ansible/issues/17583">ansible/issues/17583</a></td>
 <td>Sudo on change</td>
+</tr>
+<tr>
+<td>dellos</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4888">ansible-modules-core/pull/4888</a></td>
+<td>Renamed the Modules from dnos* -> dellos*, updated</td>
 </tr>
 <tr>
 <td>rhn_register</td>
