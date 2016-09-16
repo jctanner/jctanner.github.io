@@ -2242,6 +2242,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1365">ansible-modules-extras/pull/1365</a></td>
+<td>Add support for AWS Redshift clusters and snapshot</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1377">ansible-modules-extras/pull/1377</a></td>
 <td>add support for secondary_ip_addresses and finding</td>
 </tr>
@@ -2344,11 +2349,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2925">ansible-modules-extras/pull/2925</a></td>
 <td>ec2_remote_facts extend by public ip_address (#292</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2934">ansible-modules-extras/pull/2934</a></td>
-<td>New Module: Dimonsion Data cloud modules</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7382,11 +7382,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17505">ansible/issues/17505</a></td>
-<td>String converted to array</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17520">ansible/issues/17520</a></td>
 <td>Debugger strategy broken in develop</td>
 </tr>
@@ -7614,6 +7609,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/9984">ansible/issues/9984</a></td>
 <td>AWS credentials are not being used by ec2_tag</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/10274">ansible/pull/10274</a></td>
+<td>multi-file custom modules (with ModuleReplacer), o</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9841,96 +9841,6 @@
 <td>ec2_group.py - Fix duplicate rule exception</td>
 </tr>
 <tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
-<td>File/directory mode must be string</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2178">ansible-modules-core/issues/2178</a></td>
-<td>'file src=foo dest=bar state=present' should be an</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2473">ansible-modules-core/issues/2473</a></td>
-<td>'file' module cannot create private subdirectories</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2769">ansible-modules-core/issues/2769</a></td>
-<td>Feature request: mutex file locking</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3392">ansible-modules-core/issues/3392</a></td>
-<td>Syntax inconsistency in File module</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3443">ansible-modules-core/issues/3443</a></td>
-<td>Idea on file module: avoid rm -fr /</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4532">ansible-modules-core/issues/4532</a></td>
-<td>"file: path=/path state=absent force=yes" fails wi</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4695">ansible-modules-core/issues/4695</a></td>
-<td>file: Allow setting mtime</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3095">ansible-modules-core/pull/3095</a></td>
-<td>Add state=empty into file module (Fixes #902)</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3395">ansible-modules-core/pull/3395</a></td>
-<td>Add `present` to `file`'s `state` attribute.</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4165">ansible-modules-core/pull/4165</a></td>
-<td>Allow touch on links</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1455">ansible-modules-extras/pull/1455</a></td>
-<td>New module to enable editing the HOSTS file on Win</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2405">ansible-modules-extras/pull/2405</a></td>
-<td>New module for managing hosts file</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/10048">ansible/pull/10048</a></td>
-<td>Add vault support to file lookup plugin</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/10274">ansible/pull/10274</a></td>
-<td>multi-file custom modules (with ModuleReplacer), o</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
-<td>take into account cache file existence in DO inven</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/13528">ansible/pull/13528</a></td>
-<td>choose a random filename for the remote module fil</td>
-</tr>
-<tr>
-<td>file</td>
-<td><a href="https://github.com/ansible/ansible/pull/14928">ansible/pull/14928</a></td>
-<td>Merge properties instead of reading only the first</td>
-</tr>
-<tr>
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2368">ansible-modules-core/issues/2368</a></td>
 <td>RDS encryption support</td>
@@ -10014,6 +9924,91 @@
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible/pull/15526">ansible/pull/15526</a></td>
 <td>Do not set RDS instance hostname if hostname_varia</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
+<td>File/directory mode must be string</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2178">ansible-modules-core/issues/2178</a></td>
+<td>'file src=foo dest=bar state=present' should be an</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2473">ansible-modules-core/issues/2473</a></td>
+<td>'file' module cannot create private subdirectories</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2769">ansible-modules-core/issues/2769</a></td>
+<td>Feature request: mutex file locking</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3392">ansible-modules-core/issues/3392</a></td>
+<td>Syntax inconsistency in File module</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3443">ansible-modules-core/issues/3443</a></td>
+<td>Idea on file module: avoid rm -fr /</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4532">ansible-modules-core/issues/4532</a></td>
+<td>"file: path=/path state=absent force=yes" fails wi</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4695">ansible-modules-core/issues/4695</a></td>
+<td>file: Allow setting mtime</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3095">ansible-modules-core/pull/3095</a></td>
+<td>Add state=empty into file module (Fixes #902)</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3395">ansible-modules-core/pull/3395</a></td>
+<td>Add `present` to `file`'s `state` attribute.</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4165">ansible-modules-core/pull/4165</a></td>
+<td>Allow touch on links</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1455">ansible-modules-extras/pull/1455</a></td>
+<td>New module to enable editing the HOSTS file on Win</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2405">ansible-modules-extras/pull/2405</a></td>
+<td>New module for managing hosts file</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/10048">ansible/pull/10048</a></td>
+<td>Add vault support to file lookup plugin</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
+<td>take into account cache file existence in DO inven</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/13528">ansible/pull/13528</a></td>
+<td>choose a random filename for the remote module fil</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/14928">ansible/pull/14928</a></td>
+<td>Merge properties instead of reading only the first</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -10861,6 +10856,66 @@
 <td>Fixes #3270. Allows ec2_vol to create volumes of s</td>
 </tr>
 <tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
+<td>Mount Fails in Ubuntu 14.04</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
+<td>mount module no swap support</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4642">ansible-modules-core/pull/4642</a></td>
+<td>Fix #3153 again</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
+<td>New filter getmountfrompath: retrieve correspondin</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
+</tr>
+<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2237">ansible-modules-core/issues/2237</a></td>
 <td>pip with url installs with -e argument</td>
@@ -11084,61 +11139,6 @@
 <td>iam</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2314">ansible-modules-extras/pull/2314</a></td>
 <td>Added iam_user_facts.py module - gathering facts a</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
-<td>Mount Fails in Ubuntu 14.04</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4642">ansible-modules-core/pull/4642</a></td>
-<td>Fix #3153 again</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
-<td>New filter getmountfrompath: retrieve correspondin</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
 <td>cron</td>
@@ -13191,6 +13191,26 @@
 <td>gluster_volume adds replica and stripe arguments w</td>
 </tr>
 <tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
+<td>mail.py shouldnt import ssl unless secure=true</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
+<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
+<td>Initial working prototype of a salt bus connection</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
+<td>fix mail when cc and bcc are used if None</td>
+</tr>
+<tr>
 <td>win_iis_webbinding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
 <td>win_iis_webbinding: remove default binding</td>
@@ -13471,26 +13491,6 @@
 <td>Support ProxyCommand in module_utils for Network l</td>
 </tr>
 <tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
-<td>mail.py shouldnt import ssl unless secure=true</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
-<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
-<td>Initial working prototype of a salt bus connection</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
-<td>fix mail when cc and bcc are used if None</td>
-</tr>
-<tr>
 <td>route53</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2415">ansible-modules-core/issues/2415</a></td>
 <td>Route53 does not honor boto profile parameter</td>
@@ -13661,6 +13661,21 @@
 <td>Docker_image: Properly set changed events for pull</td>
 </tr>
 <tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/16155">ansible/pull/16155</a></td>
+<td>Fix for bash process substitution usage in invento</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/16173">ansible/pull/16173</a></td>
+<td>Fix path_dwim_relative to handle parent dir refs</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/17615">ansible/pull/17615</a></td>
+<td>Fix dataloader using deprecated version of is_encr</td>
+</tr>
+<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -13796,6 +13811,21 @@
 <td>Changing the return code checking for creation/del</td>
 </tr>
 <tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
+<td>Neutron modules fail without admin credentails</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
+<td>Don't break out of plays loop when some hosts fail</td>
+</tr>
+<tr>
+<td>fail</td>
+<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
+<td>Update fail behavior for with_items (#16597)</td>
+</tr>
+<tr>
 <td>azure_rm_virtualmachine</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4035">ansible-modules-core/issues/4035</a></td>
 <td>Unable to stop VM using azure_rm_virtualmachine wi</td>
@@ -13899,21 +13929,6 @@
 <td>filesystem</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1863">ansible-modules-extras/pull/1863</a></td>
 <td>Add support to create swap partitions</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2747">ansible-modules-core/pull/2747</a></td>
-<td>Neutron modules fail without admin credentails</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/13750">ansible/pull/13750</a></td>
-<td>Don't break out of plays loop when some hosts fail</td>
-</tr>
-<tr>
-<td>fail</td>
-<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
-<td>Update fail behavior for with_items (#16597)</td>
 </tr>
 <tr>
 <td>redhat_subscription</td>
@@ -14296,16 +14311,6 @@
 <td>win_owner adsisearcher doesnt work remotely</td>
 </tr>
 <tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/16155">ansible/pull/16155</a></td>
-<td>Fix for bash process substitution usage in invento</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/16173">ansible/pull/16173</a></td>
-<td>Fix path_dwim_relative to handle parent dir refs</td>
-</tr>
-<tr>
 <td>postgresql_privs</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4493">ansible-modules-core/issues/4493</a></td>
 <td>Add support to postgresql_privs for ALTER DEFAULT </td>
@@ -14636,16 +14641,6 @@
 <td>initial 1.0 version of validate plugin to provide </td>
 </tr>
 <tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2908">ansible-modules-extras/issues/2908</a></td>
-<td>zypper_repository: ImportError: No module named xm</td>
-</tr>
-<tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2937">ansible-modules-extras/pull/2937</a></td>
-<td>List python-xml in requirements for zypper*</td>
-</tr>
-<tr>
 <td>openstack</td>
 <td><a href="https://github.com/ansible/ansible/issues/17344">ansible/issues/17344</a></td>
 <td>Openstack dynamic inventory error running task Ser</td>
@@ -14734,16 +14729,6 @@
 <td>zabbix_host</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2921">ansible-modules-extras/issues/2921</a></td>
 <td>Zabbix module encryption support</td>
-</tr>
-<tr>
-<td>redshift</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1365">ansible-modules-extras/pull/1365</a></td>
-<td>Add support for AWS Redshift clusters and snapshot</td>
-</tr>
-<tr>
-<td>redshift</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
-<td>Amazon Redshift Module - Split Changes Out</td>
 </tr>
 <tr>
 <td>seboolean</td>
@@ -14984,11 +14969,6 @@
 <td>junos_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3962">ansible-modules-core/issues/3962</a></td>
 <td>Unable to deploy config to junos</td>
-</tr>
-<tr>
-<td>dnos10_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4879">ansible-modules-core/pull/4879</a></td>
-<td>Added support for facts module for Dell Networking</td>
 </tr>
 <tr>
 <td>nxos_snmp_community</td>
@@ -15246,9 +15226,9 @@
 <td>Streamline Arch Linux detection following systemd </td>
 </tr>
 <tr>
-<td>keystone_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/732">ansible-modules-core/issues/732</a></td>
-<td>ansible-modules-core/cloud/openstack/keystone_user</td>
+<td>redshift</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
+<td>Amazon Redshift Module - Split Changes Out</td>
 </tr>
 <tr>
 <td>brook</td>
@@ -15259,11 +15239,6 @@
 <td>sts_session_token</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2278">ansible-modules-extras/pull/2278</a></td>
 <td>Minor sts_session_token fixes aligning more closel</td>
-</tr>
-<tr>
-<td>win_certificate</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1374">ansible-modules-extras/pull/1374</a></td>
-<td>New module to enable the installation of certifica</td>
 </tr>
 <tr>
 <td>opendj_backend</td>
@@ -15314,11 +15289,6 @@
 <td>couchdb_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/222">ansible-modules-extras/pull/222</a></td>
 <td>Add couchdb_user module</td>
-</tr>
-<tr>
-<td>loops</td>
-<td><a href="https://github.com/ansible/ansible/pull/17519">ansible/pull/17519</a></td>
-<td>remove bare variable support from loops</td>
 </tr>
 <tr>
 <td>os_subnet</td>
@@ -15656,11 +15626,6 @@
 <td>Adding nxos_gir</td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
 <td>pingdom</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/308">ansible-modules-extras/issues/308</a></td>
 <td>Support Create checks using pingdom</td>
@@ -15816,6 +15781,11 @@
 <td>Added new module interfaces_file</td>
 </tr>
 <tr>
+<td>win_certificate</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1374">ansible-modules-extras/pull/1374</a></td>
+<td>New module to enable the installation of certifica</td>
+</tr>
+<tr>
 <td>otp</td>
 <td><a href="https://github.com/ansible/ansible/pull/12272">ansible/pull/12272</a></td>
 <td>Added support for generating OTP tokens using filt</td>
@@ -15956,6 +15926,11 @@
 <td>Ensure task retries default is set</td>
 </tr>
 <tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
 <td>playbooks</td>
 <td><a href="https://github.com/ansible/ansible/pull/9705">ansible/pull/9705</a></td>
 <td>Submodule ansible-examples at examples/playbooks</td>
@@ -15984,6 +15959,11 @@
 <td>fleet_unit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2344">ansible-modules-extras/pull/2344</a></td>
 <td>add fleet_unit module which manges CoreOS systemd </td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2937">ansible-modules-extras/pull/2937</a></td>
+<td>List python-xml in requirements for zypper*</td>
 </tr>
 <tr>
 <td>rhvm</td>
@@ -16189,6 +16169,11 @@
 <td>digital_ocean_domain_record</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1745">ansible-modules-extras/pull/1745</a></td>
 <td>Digital ocean domain record</td>
+</tr>
+<tr>
+<td>keystone_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/732">ansible-modules-core/issues/732</a></td>
+<td>ansible-modules-core/cloud/openstack/keystone_user</td>
 </tr>
 <tr>
 <td>vmware_vmotion</td>
