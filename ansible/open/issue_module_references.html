@@ -1837,51 +1837,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4727">ansible-modules-core/pull/4727</a></td>
-<td>pn_cluster (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4728">ansible-modules-core/pull/4728</a></td>
-<td>pn_trunk (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4731">ansible-modules-core/pull/4731</a></td>
-<td>pn_vlag (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4732">ansible-modules-core/pull/4732</a></td>
-<td>pn_vlan (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4733">ansible-modules-core/pull/4733</a></td>
-<td>pn_vrouter (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4734">ansible-modules-core/pull/4734</a></td>
-<td>pn_vrouterif (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4735">ansible-modules-core/pull/4735</a></td>
-<td>pn_vrouterlbif (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4737">ansible-modules-core/pull/4737</a></td>
-<td>pn_ospfarea (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4738">ansible-modules-core/pull/4738</a></td>
-<td>pn_bgp (New Module)</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4750">ansible-modules-core/pull/4750</a></td>
 <td>Fix openstack security group rule vrrp choice apos</td>
 </tr>
@@ -7492,6 +7447,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17611">ansible/issues/17611</a></td>
+<td>Task with 'when: VARIABLE is defined' and 'with_it</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -8079,11 +8039,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16560">ansible/pull/16560</a></td>
 <td>Make interprocess polling interval configurable</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/16607">ansible/pull/16607</a></td>
-<td>Small changes to enable make gce to run.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9361,6 +9316,136 @@
 <td>Correctly infer task results</td>
 </tr>
 <tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2362">ansible-modules-core/issues/2362</a></td>
+<td>ec2_asg module unable to find subnet id</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2496">ansible-modules-core/issues/2496</a></td>
+<td>Blue/Green deploy sometimes fails with violate min</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2652">ansible-modules-core/issues/2652</a></td>
+<td>Bug Report. AWS ASG module property wait_for_insta</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2877">ansible-modules-core/issues/2877</a></td>
+<td>ec2_asg: desired_capacity required on ansible 2.0.</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3160">ansible-modules-core/issues/3160</a></td>
+<td>ec2_asg: Usage of replace_all_instances errors out</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3566">ansible-modules-core/issues/3566</a></td>
+<td>Feature request: Support instance protection setti</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3625">ansible-modules-core/issues/3625</a></td>
+<td>ec2_asg module sporadically fails to get async not</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3957">ansible-modules-core/issues/3957</a></td>
+<td>ec2_asg ignores replace_instances if lc_check is t</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4050">ansible-modules-core/issues/4050</a></td>
+<td>Ansible ec2_asg module expiring token for AWS with</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4069">ansible-modules-core/issues/4069</a></td>
+<td>ec2_asg Unable to use Default as default terminati</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4255">ansible-modules-core/issues/4255</a></td>
+<td>TypeError using ec2_asg.py replace_all_instances w</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4460">ansible-modules-core/issues/4460</a></td>
+<td>ec2_asg doesn't reflect load balancer changes to e</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4516">ansible-modules-core/issues/4516</a></td>
+<td>ec_asg does not support creation of ASGs that spec</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1006">ansible-modules-core/pull/1006</a></td>
+<td>replace_batch_wait parameter for ec2_asg module. a</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1921">ansible-modules-core/pull/1921</a></td>
+<td>Allow asg with size of zero.</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2466">ansible-modules-core/pull/2466</a></td>
+<td>expose a force delete flag</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2710">ansible-modules-core/pull/2710</a></td>
+<td>default asg properties 'instances' to an empty lis</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2878">ansible-modules-core/pull/2878</a></td>
+<td>Fix TypeError: unsupported operand type(s) for -: </td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3162">ansible-modules-core/pull/3162</a></td>
+<td>This should fix #1845 and #3160</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3174">ansible-modules-core/pull/3174</a></td>
+<td>Fix ASG termination</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3478">ansible-modules-core/pull/3478</a></td>
+<td>Fix how the module counts healthy instances when A</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3651">ansible-modules-core/pull/3651</a></td>
+<td>ec2_asg: only set default health_check_type when c</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3892">ansible-modules-core/pull/3892</a></td>
+<td>make desired_capacity optional when replacing inst</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4191">ansible-modules-core/pull/4191</a></td>
+<td>fix health instances count when we have more than </td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4383">ansible-modules-core/pull/4383</a></td>
+<td>Remove 'Standby' instances when deleting ASG</td>
+</tr>
+<tr>
+<td>ec2_asg</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4883">ansible-modules-core/pull/4883</a></td>
+<td>Stop sorting of termination_policies in `ec2_asg`</td>
+</tr>
+<tr>
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2450">ansible-modules-core/issues/2450</a></td>
 <td>feature request - vmware boot device</td>
@@ -9489,131 +9574,6 @@
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2915">ansible-modules-extras/issues/2915</a></td>
 <td>vmware_guest.py implement reconfigure options</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2362">ansible-modules-core/issues/2362</a></td>
-<td>ec2_asg module unable to find subnet id</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2496">ansible-modules-core/issues/2496</a></td>
-<td>Blue/Green deploy sometimes fails with violate min</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2652">ansible-modules-core/issues/2652</a></td>
-<td>Bug Report. AWS ASG module property wait_for_insta</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2877">ansible-modules-core/issues/2877</a></td>
-<td>ec2_asg: desired_capacity required on ansible 2.0.</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3160">ansible-modules-core/issues/3160</a></td>
-<td>ec2_asg: Usage of replace_all_instances errors out</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3566">ansible-modules-core/issues/3566</a></td>
-<td>Feature request: Support instance protection setti</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3625">ansible-modules-core/issues/3625</a></td>
-<td>ec2_asg module sporadically fails to get async not</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3957">ansible-modules-core/issues/3957</a></td>
-<td>ec2_asg ignores replace_instances if lc_check is t</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4050">ansible-modules-core/issues/4050</a></td>
-<td>Ansible ec2_asg module expiring token for AWS with</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4069">ansible-modules-core/issues/4069</a></td>
-<td>ec2_asg Unable to use Default as default terminati</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4255">ansible-modules-core/issues/4255</a></td>
-<td>TypeError using ec2_asg.py replace_all_instances w</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4460">ansible-modules-core/issues/4460</a></td>
-<td>ec2_asg doesn't reflect load balancer changes to e</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4516">ansible-modules-core/issues/4516</a></td>
-<td>ec_asg does not support creation of ASGs that spec</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1006">ansible-modules-core/pull/1006</a></td>
-<td>replace_batch_wait parameter for ec2_asg module. a</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1921">ansible-modules-core/pull/1921</a></td>
-<td>Allow asg with size of zero.</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2466">ansible-modules-core/pull/2466</a></td>
-<td>expose a force delete flag</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2710">ansible-modules-core/pull/2710</a></td>
-<td>default asg properties 'instances' to an empty lis</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2878">ansible-modules-core/pull/2878</a></td>
-<td>Fix TypeError: unsupported operand type(s) for -: </td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3162">ansible-modules-core/pull/3162</a></td>
-<td>This should fix #1845 and #3160</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3174">ansible-modules-core/pull/3174</a></td>
-<td>Fix ASG termination</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3478">ansible-modules-core/pull/3478</a></td>
-<td>Fix how the module counts healthy instances when A</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3651">ansible-modules-core/pull/3651</a></td>
-<td>ec2_asg: only set default health_check_type when c</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3892">ansible-modules-core/pull/3892</a></td>
-<td>make desired_capacity optional when replacing inst</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4191">ansible-modules-core/pull/4191</a></td>
-<td>fix health instances count when we have more than </td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4383">ansible-modules-core/pull/4383</a></td>
-<td>Remove 'Standby' instances when deleting ASG</td>
 </tr>
 <tr>
 <td>s3</td>
@@ -11716,6 +11676,46 @@
 <td>ec2_elb_lb: fix errors in module documentation</td>
 </tr>
 <tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
+<td>Add cors support to s3_bucket module</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
+<td>s3_bucket fails when loading JSON policy from a te</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
+<td>s3_bucket with policy parameter not idempotent</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
+<td>S3 Maven repos with a . in the bucket name generat</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2736">ansible-modules-extras/issues/2736</a></td>
+<td>s3_bucket versioning parameter is required</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2050">ansible-modules-extras/pull/2050</a></td>
+<td>s3_bucket.py - return CORS rules in the output</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
+<td>fixes and refactoring of s3_bucket</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2938">ansible-modules-extras/pull/2938</a></td>
+<td>Fixes #2736 - dont overwrite undefined parameters</td>
+</tr>
+<tr>
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1857">ansible-modules-extras/issues/1857</a></td>
 <td>lxc_container: add a way to wait for the container</td>
@@ -11989,41 +11989,6 @@
 <td>win_chocolatey</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2657">ansible-modules-extras/pull/2657</a></td>
 <td>Added a nuget module</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
-<td>Add cors support to s3_bucket module</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
-<td>s3_bucket fails when loading JSON policy from a te</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
-<td>s3_bucket with policy parameter not idempotent</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
-<td>S3 Maven repos with a . in the bucket name generat</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2736">ansible-modules-extras/issues/2736</a></td>
-<td>s3_bucket versioning parameter is required</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2050">ansible-modules-extras/pull/2050</a></td>
-<td>s3_bucket.py - return CORS rules in the output</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
-<td>fixes and refactoring of s3_bucket</td>
 </tr>
 <tr>
 <td>elasticache</td>
@@ -13691,21 +13656,6 @@
 <td>virt: add a parameter for the autostart command</td>
 </tr>
 <tr>
-<td>ec2_remote_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2924">ansible-modules-extras/issues/2924</a></td>
-<td>Add public ip address to ec2_remote_facts result</td>
-</tr>
-<tr>
-<td>ec2_remote_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1795">ansible-modules-extras/pull/1795</a></td>
-<td>added additional instance variables</td>
-</tr>
-<tr>
-<td>ec2_remote_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1972">ansible-modules-extras/pull/1972</a></td>
-<td>added code which returns instance & platform type </td>
-</tr>
-<tr>
 <td>constants</td>
 <td><a href="https://github.com/ansible/ansible/pull/10261">ansible/pull/10261</a></td>
 <td>Feature/galaxy idempotency</td>
@@ -14271,6 +14221,16 @@
 <td>Allow vm_facts to be restricted to a given folder </td>
 </tr>
 <tr>
+<td>ec2_remote_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1795">ansible-modules-extras/pull/1795</a></td>
+<td>added additional instance variables</td>
+</tr>
+<tr>
+<td>ec2_remote_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1972">ansible-modules-extras/pull/1972</a></td>
+<td>added code which returns instance & platform type </td>
+</tr>
+<tr>
 <td>eos_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4807">ansible-modules-core/issues/4807</a></td>
 <td>eos_config: `.updates` not defined when using `src</td>
@@ -14691,6 +14651,16 @@
 <td>initial 1.0 version of validate plugin to provide </td>
 </tr>
 <tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2908">ansible-modules-extras/issues/2908</a></td>
+<td>zypper_repository: ImportError: No module named xm</td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2937">ansible-modules-extras/pull/2937</a></td>
+<td>List python-xml in requirements for zypper*</td>
+</tr>
+<tr>
 <td>openstack</td>
 <td><a href="https://github.com/ansible/ansible/issues/17344">ansible/issues/17344</a></td>
 <td>Openstack dynamic inventory error running task Ser</td>
@@ -14839,6 +14809,16 @@
 <td>ec2_vpc_subnet</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2210">ansible-modules-extras/pull/2210</a></td>
 <td>Convert ec2_vpc_subnet module to boto3</td>
+</tr>
+<tr>
+<td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3427">ansible-modules-core/issues/3427</a></td>
+<td>stat module doesn't return lnk_source when follow=</td>
+</tr>
+<tr>
+<td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4882">ansible-modules-core/issues/4882</a></td>
+<td>Feature Idea - add xattr support in FILE & STAT mo</td>
 </tr>
 <tr>
 <td>win_unzip</td>
@@ -16021,11 +16001,6 @@
 <td>add fleet_unit module which manges CoreOS systemd </td>
 </tr>
 <tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2908">ansible-modules-extras/issues/2908</a></td>
-<td>zypper_repository: ImportError: No module named xm</td>
-</tr>
-<tr>
 <td>rhvm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2861">ansible-modules-extras/pull/2861</a></td>
 <td>Rhv</td>
@@ -16424,11 +16399,6 @@
 <td>openvswitch_bridge</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2711">ansible-modules-extras/pull/2711</a></td>
 <td>Added set value to openvswitch_bridge</td>
-</tr>
-<tr>
-<td>stat</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3427">ansible-modules-core/issues/3427</a></td>
-<td>stat module doesn't return lnk_source when follow=</td>
 </tr>
 <tr>
 <td>mongodb</td>
