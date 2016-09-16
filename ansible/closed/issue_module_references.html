@@ -28752,6 +28752,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17599">ansible/pull/17599</a></td>
+<td>Do not use bare vars in integration tests.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17601">ansible/pull/17601</a></td>
+<td>Use default on undefined vars in tests.</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1766">ansible/pull/1766</a></td>
 <td>Allow parameterized playbook includes to define co</td>
 </tr>
@@ -63721,6 +63731,471 @@
 <td>cron module: add enviroment variables management</td>
 </tr>
 <tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1083">ansible-modules-core/issues/1083</a></td>
+<td>Ansible gce - create or terminate GCE instances me</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/109">ansible-modules-core/issues/109</a></td>
+<td>Create gce instance with permissions / service acc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1319">ansible-modules-core/issues/1319</a></td>
+<td>BUG: (GCE) cant create GCE VM instances (affects a</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1888">ansible-modules-core/issues/1888</a></td>
+<td>GCE module create instance scopes are hardcoded an</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2242">ansible-modules-core/issues/2242</a></td>
+<td>async task did not complete within the requested t</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2295">ansible-modules-core/issues/2295</a></td>
+<td>gce: how to specify service_account_permissions?</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2561">ansible-modules-core/issues/2561</a></td>
+<td>a preemptible instance</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
+<td>an instance without an external ip address</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2595">ansible-modules-core/issues/2595</a></td>
+<td>gce module: can't use service_account_permissions </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2761">ansible-modules-core/issues/2761</a></td>
+<td>Regression: Commit 1bd04f7 broke GCE modules insta</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/103">ansible-modules-core/pull/103</a></td>
+<td>Support libcloud > 0.15 'metadata' argument format</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1071">ansible-modules-core/pull/1071</a></td>
+<td>Use existing disk, set disk size, set disk type.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1080">ansible-modules-core/pull/1080</a></td>
+<td>Allow parsing of a multiline metadata value by esc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/114">ansible-modules-core/pull/114</a></td>
+<td>Adding new metadata_from_file option to GCE module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1151">ansible-modules-core/pull/1151</a></td>
+<td>[WIP] Refactor gce module to be more flexible</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1172">ansible-modules-core/pull/1172</a></td>
+<td>Better gce metadata handling</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1315">ansible-modules-core/pull/1315</a></td>
+<td>Update gce.py to correctly handle propagated metad</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1335">ansible-modules-core/pull/1335</a></td>
+<td>Create gce instance with service account scopes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1366">ansible-modules-core/pull/1366</a></td>
+<td>Changed shebang to use environment python in GCE m</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1439">ansible-modules-core/pull/1439</a></td>
+<td>adjusted docs choices to use existing GCE IP's</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1676">ansible-modules-core/pull/1676</a></td>
+<td>Allowing users to use yaml dicts instead of string</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1753">ansible-modules-core/pull/1753</a></td>
+<td>GCE libcloud 0.15 support</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/206">ansible-modules-core/pull/206</a></td>
+<td>Add support for Google Cloud DNS</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2069">ansible-modules-core/pull/2069</a></td>
+<td>Add doc for gce's return object</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2241">ansible-modules-core/pull/2241</a></td>
+<td>Allowing to specify specific external ip for gce i</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2633">ansible-modules-core/pull/2633</a></td>
+<td>fix: don't set scopes' account to service account </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2665">ansible-modules-core/pull/2665</a></td>
+<td>Change the GCE module to only fetch image names wh</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2702">ansible-modules-core/pull/2702</a></td>
+<td>Add preemptible option on gce.py</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2715">ansible-modules-core/pull/2715</a></td>
+<td>Use JSON credentials for GCE modules</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2738">ansible-modules-core/pull/2738</a></td>
+<td>GCE: Use the Python installation from the env</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3132">ansible-modules-core/pull/3132</a></td>
+<td>Fix #2761: gce.py - UnboundLocalError: local varia</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3306">ansible-modules-core/pull/3306</a></td>
+<td>gce.py - UnboundLocalError: local variable 'md'</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3701">ansible-modules-core/pull/3701</a></td>
+<td>GCE : Add support for subnet networks</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3845">ansible-modules-core/pull/3845</a></td>
+<td>Fixing gce compile time errors irt exception handl</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3933">ansible-modules-core/pull/3933</a></td>
+<td>Added parameter service_account_email_instance to </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4190">ansible-modules-core/pull/4190</a></td>
+<td>Add states for stopping and starting machines</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4878">ansible-modules-core/pull/4878</a></td>
+<td>Document ability to disable external IP with 'none</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/539">ansible-modules-core/pull/539</a></td>
+<td>Added external_ips parameter to GCE</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/56">ansible-modules-core/pull/56</a></td>
+<td>Find python via /usr/bin/env for the GCE's invento</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/789">ansible-modules-core/pull/789</a></td>
+<td>Added the ability to set an instance to forward ip</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/883">ansible-modules-core/pull/883</a></td>
+<td>Allow to spawn instances without external ip in go</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/889">ansible-modules-core/pull/889</a></td>
+<td>GCE module: allow to keep instance boot disk after</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2252">ansible-modules-extras/pull/2252</a></td>
+<td>Add modules to support Google Cloud DNS</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/10998">ansible/issues/10998</a></td>
+<td>BUG: cant create GCE instances  (GCE module affect</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/11884">ansible/issues/11884</a></td>
+<td>GCE module create instance scopes are hardcoded an</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/13299">ansible/issues/13299</a></td>
+<td>a preemptible instance</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/14624">ansible/issues/14624</a></td>
+<td>GCE broken in Ansible 2.0</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/14626">ansible/issues/14626</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/15514">ansible/issues/15514</a></td>
+<td>Ansible GCE module: cannot use external_ip feature</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/16103">ansible/issues/16103</a></td>
+<td>Doc for GCE module has layout issues</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/16770">ansible/issues/16770</a></td>
+<td>GCE credentials are needed everywhere</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/5583">ansible/issues/5583</a></td>
+<td>gce modules need a better way to handle invalid ke</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/6003">ansible/issues/6003</a></td>
+<td>Create gce instance with permissions / service acc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7270">ansible/issues/7270</a></td>
+<td>gce module not support new zone in asia.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7317">ansible/issues/7317</a></td>
+<td>missing pem_file produces incorrect error message</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7845">ansible/issues/7845</a></td>
+<td>bug report: GCE module RSA key format is not suppo</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/8031">ansible/issues/8031</a></td>
+<td>GCE lib</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/8265">ansible/issues/8265</a></td>
+<td>gce module returns - msg: Missing required create </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10481">ansible/pull/10481</a></td>
+<td>If GCE instance not have public ip, set None.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10787">ansible/pull/10787</a></td>
+<td>Fix traceback with using GCE on EL6 with python-cr</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10974">ansible/pull/10974</a></td>
+<td>Workaround for gce.py erroring on VMs with no publ</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/11299">ansible/pull/11299</a></td>
+<td>support instances with no public ip</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/11631">ansible/pull/11631</a></td>
+<td>GCE tag prefix for creating ansible group.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12689">ansible/pull/12689</a></td>
+<td>Remove some warning of undefined name and fix clas</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13146">ansible/pull/13146</a></td>
+<td>fix gce module error reporting</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13623">ansible/pull/13623</a></td>
+<td>Update GCE module to use JSON credentials</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/14138">ansible/pull/14138</a></td>
+<td>Added the ability to filter gce grouped_instances </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15037">ansible/pull/15037</a></td>
+<td>remove logging warning from GCE inventory</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15712">ansible/pull/15712</a></td>
+<td>New inventory_ip_type option in gce inventory tool</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15872">ansible/pull/15872</a></td>
+<td>Port the gce snippet to a python 2.6 to 3 compatib</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15918">ansible/pull/15918</a></td>
+<td>Forked gce utility module to support Google Cloud </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15924">ansible/pull/15924</a></td>
+<td>Refactored gce util module to support other GCP se</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/16286">ansible/pull/16286</a></td>
+<td>Adding instance_states to gce inventory to align w</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4395">ansible/pull/4395</a></td>
+<td>adding Google Compute Engine modules and inventory</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4953">ansible/pull/4953</a></td>
+<td>gce: support virtualenv by detecting python via /u</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4971">ansible/pull/4971</a></td>
+<td>fixes #4954 plus updates for gcutil/v1beta16 tests</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6243">ansible/pull/6243</a></td>
+<td>Gce fixes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6255">ansible/pull/6255</a></td>
+<td>Gce fixes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6265">ansible/pull/6265</a></td>
+<td>Add credential parameters to the GCE modules.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6378">ansible/pull/6378</a></td>
+<td>Add BSD license to module_utils/gce.py</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6423">ansible/pull/6423</a></td>
+<td>Bulk update of choices=BOOLEANS to type='bool'</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6823">ansible/pull/6823</a></td>
+<td>Adds new-style integration tests for GCE modules</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6976">ansible/pull/6976</a></td>
+<td>Adds support for snapshots and extra persistent di</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8397">ansible/pull/8397</a></td>
+<td>Add support for environment variables in GCE modul</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8402">ansible/pull/8402</a></td>
+<td>Envirionment variable support in GCE inventory plu</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8431">ansible/pull/8431</a></td>
+<td>Require pycrypto 2.6+ at the gce.py module level.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8517">ansible/pull/8517</a></td>
+<td>gce.py: Add hosts to group "all" </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8539">ansible/pull/8539</a></td>
+<td>Add external_ip and destroy_boot_disk options to G</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9197">ansible/pull/9197</a></td>
+<td>Update the GCE guid with a working configuration.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9336">ansible/pull/9336</a></td>
+<td>Added _meta hostvars key to gce.py plugin</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9338">ansible/pull/9338</a></td>
+<td>Add --pretty option for gce inventory plugin</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9452">ansible/pull/9452</a></td>
+<td>Google: allow for different libcloud provider to s</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9642">ansible/pull/9642</a></td>
+<td>Permit instances with no public_ip address</td>
+</tr>
+<tr>
 <td>play</td>
 <td><a href="https://github.com/ansible/ansible/pull/10027">ansible/pull/10027</a></td>
 <td>By default, don't hide undefined variable errors</td>
@@ -64184,466 +64659,6 @@
 <td>play</td>
 <td><a href="https://github.com/ansible/ansible/pull/9968">ansible/pull/9968</a></td>
 <td>V2: added environment to play </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1083">ansible-modules-core/issues/1083</a></td>
-<td>Ansible gce - create or terminate GCE instances me</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/109">ansible-modules-core/issues/109</a></td>
-<td>Create gce instance with permissions / service acc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1319">ansible-modules-core/issues/1319</a></td>
-<td>BUG: (GCE) cant create GCE VM instances (affects a</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1888">ansible-modules-core/issues/1888</a></td>
-<td>GCE module create instance scopes are hardcoded an</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2242">ansible-modules-core/issues/2242</a></td>
-<td>async task did not complete within the requested t</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2295">ansible-modules-core/issues/2295</a></td>
-<td>gce: how to specify service_account_permissions?</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2561">ansible-modules-core/issues/2561</a></td>
-<td>a preemptible instance</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
-<td>an instance without an external ip address</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2595">ansible-modules-core/issues/2595</a></td>
-<td>gce module: can't use service_account_permissions </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2761">ansible-modules-core/issues/2761</a></td>
-<td>Regression: Commit 1bd04f7 broke GCE modules insta</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/103">ansible-modules-core/pull/103</a></td>
-<td>Support libcloud > 0.15 'metadata' argument format</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1071">ansible-modules-core/pull/1071</a></td>
-<td>Use existing disk, set disk size, set disk type.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1080">ansible-modules-core/pull/1080</a></td>
-<td>Allow parsing of a multiline metadata value by esc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/114">ansible-modules-core/pull/114</a></td>
-<td>Adding new metadata_from_file option to GCE module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1151">ansible-modules-core/pull/1151</a></td>
-<td>[WIP] Refactor gce module to be more flexible</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1172">ansible-modules-core/pull/1172</a></td>
-<td>Better gce metadata handling</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1315">ansible-modules-core/pull/1315</a></td>
-<td>Update gce.py to correctly handle propagated metad</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1335">ansible-modules-core/pull/1335</a></td>
-<td>Create gce instance with service account scopes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1366">ansible-modules-core/pull/1366</a></td>
-<td>Changed shebang to use environment python in GCE m</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1439">ansible-modules-core/pull/1439</a></td>
-<td>adjusted docs choices to use existing GCE IP's</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1676">ansible-modules-core/pull/1676</a></td>
-<td>Allowing users to use yaml dicts instead of string</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1753">ansible-modules-core/pull/1753</a></td>
-<td>GCE libcloud 0.15 support</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/206">ansible-modules-core/pull/206</a></td>
-<td>Add support for Google Cloud DNS</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2069">ansible-modules-core/pull/2069</a></td>
-<td>Add doc for gce's return object</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2241">ansible-modules-core/pull/2241</a></td>
-<td>Allowing to specify specific external ip for gce i</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2633">ansible-modules-core/pull/2633</a></td>
-<td>fix: don't set scopes' account to service account </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2665">ansible-modules-core/pull/2665</a></td>
-<td>Change the GCE module to only fetch image names wh</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2702">ansible-modules-core/pull/2702</a></td>
-<td>Add preemptible option on gce.py</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2715">ansible-modules-core/pull/2715</a></td>
-<td>Use JSON credentials for GCE modules</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2738">ansible-modules-core/pull/2738</a></td>
-<td>GCE: Use the Python installation from the env</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3132">ansible-modules-core/pull/3132</a></td>
-<td>Fix #2761: gce.py - UnboundLocalError: local varia</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3306">ansible-modules-core/pull/3306</a></td>
-<td>gce.py - UnboundLocalError: local variable 'md'</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3701">ansible-modules-core/pull/3701</a></td>
-<td>GCE : Add support for subnet networks</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3845">ansible-modules-core/pull/3845</a></td>
-<td>Fixing gce compile time errors irt exception handl</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3933">ansible-modules-core/pull/3933</a></td>
-<td>Added parameter service_account_email_instance to </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4190">ansible-modules-core/pull/4190</a></td>
-<td>Add states for stopping and starting machines</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/539">ansible-modules-core/pull/539</a></td>
-<td>Added external_ips parameter to GCE</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/56">ansible-modules-core/pull/56</a></td>
-<td>Find python via /usr/bin/env for the GCE's invento</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/789">ansible-modules-core/pull/789</a></td>
-<td>Added the ability to set an instance to forward ip</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/883">ansible-modules-core/pull/883</a></td>
-<td>Allow to spawn instances without external ip in go</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/889">ansible-modules-core/pull/889</a></td>
-<td>GCE module: allow to keep instance boot disk after</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2252">ansible-modules-extras/pull/2252</a></td>
-<td>Add modules to support Google Cloud DNS</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/10998">ansible/issues/10998</a></td>
-<td>BUG: cant create GCE instances  (GCE module affect</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/11884">ansible/issues/11884</a></td>
-<td>GCE module create instance scopes are hardcoded an</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/13299">ansible/issues/13299</a></td>
-<td>a preemptible instance</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/14624">ansible/issues/14624</a></td>
-<td>GCE broken in Ansible 2.0</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/14626">ansible/issues/14626</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/15514">ansible/issues/15514</a></td>
-<td>Ansible GCE module: cannot use external_ip feature</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/16103">ansible/issues/16103</a></td>
-<td>Doc for GCE module has layout issues</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/16770">ansible/issues/16770</a></td>
-<td>GCE credentials are needed everywhere</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/5583">ansible/issues/5583</a></td>
-<td>gce modules need a better way to handle invalid ke</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/6003">ansible/issues/6003</a></td>
-<td>Create gce instance with permissions / service acc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7270">ansible/issues/7270</a></td>
-<td>gce module not support new zone in asia.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7317">ansible/issues/7317</a></td>
-<td>missing pem_file produces incorrect error message</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7845">ansible/issues/7845</a></td>
-<td>bug report: GCE module RSA key format is not suppo</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/8031">ansible/issues/8031</a></td>
-<td>GCE lib</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/8265">ansible/issues/8265</a></td>
-<td>gce module returns - msg: Missing required create </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10481">ansible/pull/10481</a></td>
-<td>If GCE instance not have public ip, set None.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10787">ansible/pull/10787</a></td>
-<td>Fix traceback with using GCE on EL6 with python-cr</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10974">ansible/pull/10974</a></td>
-<td>Workaround for gce.py erroring on VMs with no publ</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/11299">ansible/pull/11299</a></td>
-<td>support instances with no public ip</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/11631">ansible/pull/11631</a></td>
-<td>GCE tag prefix for creating ansible group.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12689">ansible/pull/12689</a></td>
-<td>Remove some warning of undefined name and fix clas</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13146">ansible/pull/13146</a></td>
-<td>fix gce module error reporting</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13623">ansible/pull/13623</a></td>
-<td>Update GCE module to use JSON credentials</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/14138">ansible/pull/14138</a></td>
-<td>Added the ability to filter gce grouped_instances </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15037">ansible/pull/15037</a></td>
-<td>remove logging warning from GCE inventory</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15712">ansible/pull/15712</a></td>
-<td>New inventory_ip_type option in gce inventory tool</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15872">ansible/pull/15872</a></td>
-<td>Port the gce snippet to a python 2.6 to 3 compatib</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15918">ansible/pull/15918</a></td>
-<td>Forked gce utility module to support Google Cloud </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15924">ansible/pull/15924</a></td>
-<td>Refactored gce util module to support other GCP se</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/16286">ansible/pull/16286</a></td>
-<td>Adding instance_states to gce inventory to align w</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4395">ansible/pull/4395</a></td>
-<td>adding Google Compute Engine modules and inventory</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4953">ansible/pull/4953</a></td>
-<td>gce: support virtualenv by detecting python via /u</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4971">ansible/pull/4971</a></td>
-<td>fixes #4954 plus updates for gcutil/v1beta16 tests</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6243">ansible/pull/6243</a></td>
-<td>Gce fixes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6255">ansible/pull/6255</a></td>
-<td>Gce fixes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6265">ansible/pull/6265</a></td>
-<td>Add credential parameters to the GCE modules.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6378">ansible/pull/6378</a></td>
-<td>Add BSD license to module_utils/gce.py</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6423">ansible/pull/6423</a></td>
-<td>Bulk update of choices=BOOLEANS to type='bool'</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6823">ansible/pull/6823</a></td>
-<td>Adds new-style integration tests for GCE modules</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6976">ansible/pull/6976</a></td>
-<td>Adds support for snapshots and extra persistent di</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8397">ansible/pull/8397</a></td>
-<td>Add support for environment variables in GCE modul</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8402">ansible/pull/8402</a></td>
-<td>Envirionment variable support in GCE inventory plu</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8431">ansible/pull/8431</a></td>
-<td>Require pycrypto 2.6+ at the gce.py module level.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8517">ansible/pull/8517</a></td>
-<td>gce.py: Add hosts to group "all" </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8539">ansible/pull/8539</a></td>
-<td>Add external_ip and destroy_boot_disk options to G</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9197">ansible/pull/9197</a></td>
-<td>Update the GCE guid with a working configuration.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9336">ansible/pull/9336</a></td>
-<td>Added _meta hostvars key to gce.py plugin</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9338">ansible/pull/9338</a></td>
-<td>Add --pretty option for gce inventory plugin</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9452">ansible/pull/9452</a></td>
-<td>Google: allow for different libcloud provider to s</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9642">ansible/pull/9642</a></td>
-<td>Permit instances with no public_ip address</td>
 </tr>
 <tr>
 <td>shell</td>
@@ -86726,6 +86741,146 @@
 <td>Pause tasks (incomplete)</td>
 </tr>
 <tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10185">ansible/pull/10185</a></td>
+<td>better missing editor message</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10215">ansible/pull/10215</a></td>
+<td>Set proper permissions for ansible-vault view</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10260">ansible/pull/10260</a></td>
+<td>Set proper file permissions (umask 077) in write_d</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10634">ansible/pull/10634</a></td>
+<td>Don't pad AES-CTR</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11190">ansible/pull/11190</a></td>
+<td>Add missing import in vault.py</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11336">ansible/pull/11336</a></td>
+<td>Update Vault rekey() in vault.py to validate files</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11767">ansible/pull/11767</a></td>
+<td>add option to ansible-vault to read new password f</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12032">ansible/pull/12032</a></td>
+<td>Allow vault to operate from stdin/to stdout (i.e. </td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12106">ansible/pull/12106</a></td>
+<td>Vault cleanups, pass #1</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12112">ansible/pull/12112</a></td>
+<td>Implement cat-like filtering behaviour for encrypt</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12300">ansible/pull/12300</a></td>
+<td>Vault missing DataLoader for pwd file #12293</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12572">ansible/pull/12572</a></td>
+<td>Make ansible-vault view not write plaintext to a t</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12637">ansible/pull/12637</a></td>
+<td>Fix ansible-vault rekey</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12899">ansible/pull/12899</a></td>
+<td>simplified vault password functions</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/14189">ansible/pull/14189</a></td>
+<td>Changes to convert to unicode at the borders</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17440">ansible/pull/17440</a></td>
+<td>Fix NameError on 'ansible-vault view'</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17590">ansible/pull/17590</a></td>
+<td>Vault fixes</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/3393">ansible/pull/3393</a></td>
+<td>Vault (ie. encryption) functionality</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6044">ansible/pull/6044</a></td>
+<td>Ansible vault: a framework for encrypting any play</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6058">ansible/pull/6058</a></td>
+<td>Ansible vault: a framework for encrypting any play</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6151">ansible/pull/6151</a></td>
+<td>Vault rewrite, pass 1</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6580">ansible/pull/6580</a></td>
+<td>Changed call to EDITOR to allow for parameters</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7040">ansible/pull/7040</a></td>
+<td>ansible-vault view - new command</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7041">ansible/pull/7041</a></td>
+<td>ansible-vault view - new command</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7174">ansible/pull/7174</a></td>
+<td>Initial ansible-vault with GPG support</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/8602">ansible/pull/8602</a></td>
+<td>Encrypts the vault file after edition only if the </td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/8694">ansible/pull/8694</a></td>
+<td>ansible-vault edit: replicate sudoedit behavior</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/9676">ansible/pull/9676</a></td>
+<td>Allow multiple vault password files</td>
+</tr>
+<tr>
 <td>locale_gen</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/13">ansible-modules-extras/issues/13</a></td>
 <td>locale_gen does not generate locales on Arch Linux</td>
@@ -87274,141 +87429,6 @@
 <td>alternatives</td>
 <td><a href="https://github.com/ansible/ansible/pull/9213">ansible/pull/9213</a></td>
 <td>Adding readlink to filters ?</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10185">ansible/pull/10185</a></td>
-<td>better missing editor message</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10215">ansible/pull/10215</a></td>
-<td>Set proper permissions for ansible-vault view</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10260">ansible/pull/10260</a></td>
-<td>Set proper file permissions (umask 077) in write_d</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10634">ansible/pull/10634</a></td>
-<td>Don't pad AES-CTR</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11190">ansible/pull/11190</a></td>
-<td>Add missing import in vault.py</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11336">ansible/pull/11336</a></td>
-<td>Update Vault rekey() in vault.py to validate files</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11767">ansible/pull/11767</a></td>
-<td>add option to ansible-vault to read new password f</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12032">ansible/pull/12032</a></td>
-<td>Allow vault to operate from stdin/to stdout (i.e. </td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12106">ansible/pull/12106</a></td>
-<td>Vault cleanups, pass #1</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12112">ansible/pull/12112</a></td>
-<td>Implement cat-like filtering behaviour for encrypt</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12300">ansible/pull/12300</a></td>
-<td>Vault missing DataLoader for pwd file #12293</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12572">ansible/pull/12572</a></td>
-<td>Make ansible-vault view not write plaintext to a t</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12637">ansible/pull/12637</a></td>
-<td>Fix ansible-vault rekey</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12899">ansible/pull/12899</a></td>
-<td>simplified vault password functions</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/14189">ansible/pull/14189</a></td>
-<td>Changes to convert to unicode at the borders</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/17440">ansible/pull/17440</a></td>
-<td>Fix NameError on 'ansible-vault view'</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/3393">ansible/pull/3393</a></td>
-<td>Vault (ie. encryption) functionality</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6044">ansible/pull/6044</a></td>
-<td>Ansible vault: a framework for encrypting any play</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6058">ansible/pull/6058</a></td>
-<td>Ansible vault: a framework for encrypting any play</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6151">ansible/pull/6151</a></td>
-<td>Vault rewrite, pass 1</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6580">ansible/pull/6580</a></td>
-<td>Changed call to EDITOR to allow for parameters</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7040">ansible/pull/7040</a></td>
-<td>ansible-vault view - new command</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7041">ansible/pull/7041</a></td>
-<td>ansible-vault view - new command</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7174">ansible/pull/7174</a></td>
-<td>Initial ansible-vault with GPG support</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/8602">ansible/pull/8602</a></td>
-<td>Encrypts the vault file after edition only if the </td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/8694">ansible/pull/8694</a></td>
-<td>ansible-vault edit: replicate sudoedit behavior</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/9676">ansible/pull/9676</a></td>
-<td>Allow multiple vault password files</td>
 </tr>
 <tr>
 <td>ufw</td>
