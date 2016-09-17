@@ -28957,6 +28957,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17620">ansible/pull/17620</a></td>
+<td>Add os_family to test_distribution_version</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1766">ansible/pull/1766</a></td>
 <td>Allow parameterized playbook includes to define co</td>
 </tr>
@@ -96411,6 +96416,66 @@
 <td>Win msi improvements</td>
 </tr>
 <tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/10687">ansible/pull/10687</a></td>
+<td>Several more changes to support python3 syntax.</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/10872">ansible/pull/10872</a></td>
+<td>Removed deletion of salt by 'password' lookup Issu</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/11734">ansible/pull/11734</a></td>
+<td>Removed deletion of salt by 'password' lookup (#10</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/12256">ansible/pull/12256</a></td>
+<td>Use parse_kv to correctly parse parameters from pa</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/12550">ansible/pull/12550</a></td>
+<td>Removed deletion of salt by 'password' lookup</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/16361">ansible/pull/16361</a></td>
+<td>Lookup password omit salt</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/17475">ansible/pull/17475</a></td>
+<td>Fix the text model of the password lookup.</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/2348">ansible/pull/2348</a></td>
+<td>password lookup plugin, with working tests and doc</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/2939">ansible/pull/2939</a></td>
+<td>Add support for crypted passwords to password look</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/4078">ansible/pull/4078</a></td>
+<td>add 'chars' parameter to password plugin to allow </td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/4755">ansible/pull/4755</a></td>
+<td>More password entropy; mitigates #4751.</td>
+</tr>
+<tr>
+<td>password</td>
+<td><a href="https://github.com/ansible/ansible/pull/4769">ansible/pull/4769</a></td>
+<td>Revised patch for more password entropy</td>
+</tr>
+<tr>
 <td>iam_cert</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2169">ansible-modules-core/pull/2169</a></td>
 <td>Replaces 'old' get_ec2_creds connection method wit</td>
@@ -97474,61 +97539,6 @@
 <td>crypttab</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/7">ansible-modules-extras/pull/7</a></td>
 <td>New crypttab module for editing Linux /etc/cryptta</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/10687">ansible/pull/10687</a></td>
-<td>Several more changes to support python3 syntax.</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/10872">ansible/pull/10872</a></td>
-<td>Removed deletion of salt by 'password' lookup Issu</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/11734">ansible/pull/11734</a></td>
-<td>Removed deletion of salt by 'password' lookup (#10</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/12256">ansible/pull/12256</a></td>
-<td>Use parse_kv to correctly parse parameters from pa</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/12550">ansible/pull/12550</a></td>
-<td>Removed deletion of salt by 'password' lookup</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/16361">ansible/pull/16361</a></td>
-<td>Lookup password omit salt</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/2348">ansible/pull/2348</a></td>
-<td>password lookup plugin, with working tests and doc</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/2939">ansible/pull/2939</a></td>
-<td>Add support for crypted passwords to password look</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/4078">ansible/pull/4078</a></td>
-<td>add 'chars' parameter to password plugin to allow </td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/4755">ansible/pull/4755</a></td>
-<td>More password entropy; mitigates #4751.</td>
-</tr>
-<tr>
-<td>password</td>
-<td><a href="https://github.com/ansible/ansible/pull/4769">ansible/pull/4769</a></td>
-<td>Revised patch for more password entropy</td>
 </tr>
 <tr>
 <td>os_router</td>
@@ -99726,6 +99736,46 @@
 <td>Filter to convert size for human readable usage</td>
 </tr>
 <tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1058">ansible-modules-extras/pull/1058</a></td>
+<td>Switch from old style replacer code to new style f</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1182">ansible-modules-extras/pull/1182</a></td>
+<td>Added xenvm and moved xenserver_facts</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1609">ansible-modules-extras/pull/1609</a></td>
+<td>Update example in xenserver_facts.py</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1610">ansible-modules-extras/pull/1610</a></td>
+<td>Update return variable in xenserver_facts.py</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1613">ansible-modules-extras/pull/1613</a></td>
+<td>Update to account for changes in XenAPI</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1953">ansible-modules-extras/pull/1953</a></td>
+<td>Do not import xenapi without checking, so we can a</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/40">ansible-modules-extras/pull/40</a></td>
+<td>Add XenServer module</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/7727">ansible/pull/7727</a></td>
+<td>Add XenServer module</td>
+</tr>
+<tr>
 <td>apk</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2389">ansible-modules-extras/issues/2389</a></td>
 <td>Please add support for virtual packages in the apk</td>
@@ -101239,41 +101289,6 @@
 <td>rabbitmq_parameter</td>
 <td><a href="https://github.com/ansible/ansible/pull/2251">ansible/pull/2251</a></td>
 <td>Rabbitmq parameters module</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1058">ansible-modules-extras/pull/1058</a></td>
-<td>Switch from old style replacer code to new style f</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1182">ansible-modules-extras/pull/1182</a></td>
-<td>Added xenvm and moved xenserver_facts</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1609">ansible-modules-extras/pull/1609</a></td>
-<td>Update example in xenserver_facts.py</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1610">ansible-modules-extras/pull/1610</a></td>
-<td>Update return variable in xenserver_facts.py</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1613">ansible-modules-extras/pull/1613</a></td>
-<td>Update to account for changes in XenAPI</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/40">ansible-modules-extras/pull/40</a></td>
-<td>Add XenServer module</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/7727">ansible/pull/7727</a></td>
-<td>Add XenServer module</td>
 </tr>
 <tr>
 <td>playbook_executor</td>
@@ -107776,6 +107791,16 @@
 <td>adding Cumulus Linux image installer module</td>
 </tr>
 <tr>
+<td>influxdb_database</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2012">ansible-modules-extras/pull/2012</a></td>
+<td>InfluxDB database module</td>
+</tr>
+<tr>
+<td>influxdb_database</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2015">ansible-modules-extras/pull/2015</a></td>
+<td>InfluxDB database module</td>
+</tr>
+<tr>
 <td>cs_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1952">ansible-modules-extras/pull/1952</a></td>
 <td>Do not leak passwords in case of error in cloudsta</td>
@@ -108494,16 +108519,6 @@
 <td>os_server_load_balancer</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/382">ansible-modules-extras/pull/382</a></td>
 <td>Adding openstack load balancer management</td>
-</tr>
-<tr>
-<td>influxdb_database</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2012">ansible-modules-extras/pull/2012</a></td>
-<td>InfluxDB database module</td>
-</tr>
-<tr>
-<td>influxdb_database</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2015">ansible-modules-extras/pull/2015</a></td>
-<td>InfluxDB database module</td>
 </tr>
 <tr>
 <td>win_uri</td>
@@ -109486,11 +109501,6 @@
 <td>VMware vSAN license module</td>
 </tr>
 <tr>
-<td>ec2_ami_attributes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2625">ansible-modules-extras/pull/2625</a></td>
-<td>Add ec2_ami_attributes module</td>
-</tr>
-<tr>
 <td>vmware_vsan_cluster</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/865">ansible-modules-extras/pull/865</a></td>
 <td>New VMware Module to support adding a VMware vSAN </td>
@@ -109739,6 +109749,11 @@
 <td>callback</td>
 <td><a href="https://github.com/ansible/ansible/pull/929">ansible/pull/929</a></td>
 <td>Issue #928: rename callbacks.py as callback.py</td>
+</tr>
+<tr>
+<td>vmadm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/169">ansible-modules-extras/pull/169</a></td>
+<td>New modules: imgadm and vmadm (SmartOS Virtualizat</td>
 </tr>
 <tr>
 <td>smolder</td>
@@ -110781,9 +110796,9 @@
 <td>New AWS Managed NAT Gateway module - will resolve </td>
 </tr>
 <tr>
-<td>vmadm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/169">ansible-modules-extras/pull/169</a></td>
-<td>New modules: imgadm and vmadm (SmartOS Virtualizat</td>
+<td>ec2_ami_attributes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2625">ansible-modules-extras/pull/2625</a></td>
+<td>Add ec2_ami_attributes module</td>
 </tr>
 <tr>
 <td>gitflow</td>
