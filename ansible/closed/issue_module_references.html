@@ -28922,6 +28922,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17619">ansible/pull/17619</a></td>
+<td>Fix distribution fact on DragonFly</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1766">ansible/pull/1766</a></td>
 <td>Allow parameterized playbook includes to define co</td>
 </tr>
@@ -67117,6 +67122,11 @@
 </tr>
 <tr>
 <td>stat</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4886">ansible-modules-core/pull/4886</a></td>
+<td>typo in stat.executable (was stat.excutable)</td>
+</tr>
+<tr>
+<td>stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/823">ansible-modules-core/pull/823</a></td>
 <td>draft for documenting module returns</td>
 </tr>
@@ -98576,6 +98586,56 @@
 <td>[2.1] cloudstack: add tests for cs_volume</td>
 </tr>
 <tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/10706">ansible/pull/10706</a></td>
+<td>Pylint show a error "no deprecations variable"</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/10707">ansible/pull/10707</a></td>
+<td>Pylint warning, the method _warning is called warn</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/11708">ansible/pull/11708</a></td>
+<td>adding display to plugins and start moving debug t</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/12529">ansible/pull/12529</a></td>
+<td>fix no self pointer out of class.</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/13738">ansible/pull/13738</a></td>
+<td>now show full callback stacktrace when vvv+</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/13772">ansible/pull/13772</a></td>
+<td>restructure vars_prompt and fix regression</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/14774">ansible/pull/14774</a></td>
+<td>Ignore EPIPE when flushing stdout stderr</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/16270">ansible/pull/16270</a></td>
+<td>Fix string coercion problem in error handling code</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/17576">ansible/pull/17576</a></td>
+<td>Fix cow mode to work with unicode task and play na</td>
+</tr>
+<tr>
+<td>display</td>
+<td><a href="https://github.com/ansible/ansible/pull/17602">ansible/pull/17602</a></td>
+<td>Unescape cli output and error messages</td>
+</tr>
+<tr>
 <td>svc</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/508">ansible-modules-extras/issues/508</a></td>
 <td>Modules missing GPL header</td>
@@ -99479,51 +99539,6 @@
 <td>macports</td>
 <td><a href="https://github.com/ansible/ansible/pull/2498">ansible/pull/2498</a></td>
 <td>Fix reinplace in macports package to work on both </td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/10706">ansible/pull/10706</a></td>
-<td>Pylint show a error "no deprecations variable"</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/10707">ansible/pull/10707</a></td>
-<td>Pylint warning, the method _warning is called warn</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/11708">ansible/pull/11708</a></td>
-<td>adding display to plugins and start moving debug t</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/12529">ansible/pull/12529</a></td>
-<td>fix no self pointer out of class.</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/13738">ansible/pull/13738</a></td>
-<td>now show full callback stacktrace when vvv+</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/13772">ansible/pull/13772</a></td>
-<td>restructure vars_prompt and fix regression</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/14774">ansible/pull/14774</a></td>
-<td>Ignore EPIPE when flushing stdout stderr</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/16270">ansible/pull/16270</a></td>
-<td>Fix string coercion problem in error handling code</td>
-</tr>
-<tr>
-<td>display</td>
-<td><a href="https://github.com/ansible/ansible/pull/17576">ansible/pull/17576</a></td>
-<td>Fix cow mode to work with unicode task and play na</td>
 </tr>
 <tr>
 <td>cobbler</td>
@@ -102591,6 +102606,36 @@
 <td>changed quantum to neutron (module quantum_router)</td>
 </tr>
 <tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
+<td>VMWare inventory fails on UnicodeDecodeError excep</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
+<td>misc fixes for vmware_inventory.py</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
+<td>vmware_inventory.py excude more properties and fix</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
+<td>vmware_inventory script improvements</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17543">ansible/pull/17543</a></td>
+<td>Corrected port designation in INI file</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17618">ansible/pull/17618</a></td>
+<td>vmware_inventory: decode strings to ascii if not a</td>
+</tr>
+<tr>
 <td>pkg5</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/227">ansible-modules-extras/pull/227</a></td>
 <td>Add Solaris 11 package management</td>
@@ -103729,31 +103774,6 @@
 <td>subelements</td>
 <td><a href="https://github.com/ansible/ansible/pull/9005">ansible/pull/9005</a></td>
 <td>Update `with_subelements` to handle sub-lists loca</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
-<td>VMWare inventory fails on UnicodeDecodeError excep</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
-<td>misc fixes for vmware_inventory.py</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
-<td>vmware_inventory.py excude more properties and fix</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
-<td>vmware_inventory script improvements</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17543">ansible/pull/17543</a></td>
-<td>Corrected port designation in INI file</td>
 </tr>
 <tr>
 <td>sendgrid</td>
