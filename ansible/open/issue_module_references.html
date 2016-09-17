@@ -11626,6 +11626,46 @@
 <td>ec2_elb_lb: fix errors in module documentation</td>
 </tr>
 <tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2321">ansible-modules-core/issues/2321</a></td>
+<td>Convert end of line for copy and template modules</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2784">ansible-modules-core/issues/2784</a></td>
+<td>template_module: does not fail anymore when source</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4898">ansible-modules-core/pull/4898</a></td>
+<td>Added support for template module for Dell OS6 dev</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/10046">ansible/pull/10046</a></td>
+<td>Make the source of template errors visible</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/15081">ansible/pull/15081</a></td>
+<td>Make the template lookup match the template action</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/15559">ansible/pull/15559</a></td>
+<td>Make template's relative path available to ansible</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/17625">ansible/pull/17625</a></td>
+<td>Added support for template module for Dell Network</td>
+</tr>
+<tr>
+<td>template</td>
+<td><a href="https://github.com/ansible/ansible/pull/8127">ansible/pull/8127</a></td>
+<td>Allow relative paths for jinja2 template extend st</td>
+</tr>
+<tr>
 <td>s3_bucket</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
 <td>Add cors support to s3_bucket module</td>
@@ -12211,36 +12251,6 @@
 <td>Enhanced ecs_taskdefinition module</td>
 </tr>
 <tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2321">ansible-modules-core/issues/2321</a></td>
-<td>Convert end of line for copy and template modules</td>
-</tr>
-<tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2784">ansible-modules-core/issues/2784</a></td>
-<td>template_module: does not fail anymore when source</td>
-</tr>
-<tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible/pull/10046">ansible/pull/10046</a></td>
-<td>Make the source of template errors visible</td>
-</tr>
-<tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible/pull/15081">ansible/pull/15081</a></td>
-<td>Make the template lookup match the template action</td>
-</tr>
-<tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible/pull/15559">ansible/pull/15559</a></td>
-<td>Make template's relative path available to ansible</td>
-</tr>
-<tr>
-<td>template</td>
-<td><a href="https://github.com/ansible/ansible/pull/8127">ansible/pull/8127</a></td>
-<td>Allow relative paths for jinja2 template extend st</td>
-</tr>
-<tr>
 <td>jira</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2022">ansible-modules-extras/issues/2022</a></td>
 <td>Jira transisition not working by using status=""</td>
@@ -12789,31 +12799,6 @@
 <td>osx_defaults</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1707">ansible-modules-extras/pull/1707</a></td>
 <td>Add dict support to osx_defaults</td>
-</tr>
-<tr>
-<td>rabbitmq_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1278">ansible-modules-extras/issues/1278</a></td>
-<td>rabbitmq_user throws ValueError: need more than 1 </td>
-</tr>
-<tr>
-<td>rabbitmq_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/630">ansible-modules-extras/issues/630</a></td>
-<td>rabbitmq_user: Tags field is not evaluated</td>
-</tr>
-<tr>
-<td>rabbitmq_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/859">ansible-modules-extras/issues/859</a></td>
-<td>rabbitmq_user module assumes users have only one s</td>
-</tr>
-<tr>
-<td>rabbitmq_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1656">ansible-modules-extras/pull/1656</a></td>
-<td>fix trying to iterate None when creating a user</td>
-</tr>
-<tr>
-<td>rabbitmq_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2253">ansible-modules-extras/pull/2253</a></td>
-<td>Fix ValueErrors if extra output picked up from rab</td>
 </tr>
 <tr>
 <td>basic</td>
@@ -13409,6 +13394,26 @@
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible/issues/17514">ansible/issues/17514</a></td>
 <td>Support ProxyCommand in module_utils for Network l</td>
+</tr>
+<tr>
+<td>rabbitmq_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1278">ansible-modules-extras/issues/1278</a></td>
+<td>rabbitmq_user throws ValueError: need more than 1 </td>
+</tr>
+<tr>
+<td>rabbitmq_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/630">ansible-modules-extras/issues/630</a></td>
+<td>rabbitmq_user: Tags field is not evaluated</td>
+</tr>
+<tr>
+<td>rabbitmq_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/859">ansible-modules-extras/issues/859</a></td>
+<td>rabbitmq_user module assumes users have only one s</td>
+</tr>
+<tr>
+<td>rabbitmq_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2253">ansible-modules-extras/pull/2253</a></td>
+<td>Fix ValueErrors if extra output picked up from rab</td>
 </tr>
 <tr>
 <td>mail</td>
@@ -15721,6 +15726,11 @@
 <td>Added new module interfaces_file</td>
 </tr>
 <tr>
+<td>dellos6_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4897">ansible-modules-core/pull/4897</a></td>
+<td>Dellos6 facts</td>
+</tr>
+<tr>
 <td>otp</td>
 <td><a href="https://github.com/ansible/ansible/pull/12272">ansible/pull/12272</a></td>
 <td>Added support for generating OTP tokens using filt</td>
@@ -15959,6 +15969,11 @@
 <td>nxos_vlan</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3876">ansible-modules-core/issues/3876</a></td>
 <td>nxos_vlan returns "Command does not support JSON o</td>
+</tr>
+<tr>
+<td>dellos6_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4899">ansible-modules-core/pull/4899</a></td>
+<td>Updated the config module to use the new Parse met</td>
 </tr>
 <tr>
 <td>nxos_snmp_traps</td>
