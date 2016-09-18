@@ -2342,11 +2342,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2925">ansible-modules-extras/pull/2925</a></td>
-<td>ec2_remote_facts extend by public ip_address (#292</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2939">ansible-modules-extras/pull/2939</a></td>
 <td>Fix for #2166</td>
 </tr>
@@ -8237,6 +8232,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17630">ansible/pull/17630</a></td>
+<td>Minor typo fix for FreeBSD note</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -13121,6 +13121,26 @@
 <td>gluster_volume adds replica and stripe arguments w</td>
 </tr>
 <tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
+<td>mail.py shouldnt import ssl unless secure=true</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
+<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
+<td>Initial working prototype of a salt bus connection</td>
+</tr>
+<tr>
+<td>mail</td>
+<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
+<td>fix mail when cc and bcc are used if None</td>
+</tr>
+<tr>
 <td>win_iis_webbinding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
 <td>win_iis_webbinding: remove default binding</td>
@@ -13399,26 +13419,6 @@
 <td>rabbitmq_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2253">ansible-modules-extras/pull/2253</a></td>
 <td>Fix ValueErrors if extra output picked up from rab</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2536">ansible-modules-extras/issues/2536</a></td>
-<td>mail.py shouldnt import ssl unless secure=true</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/708">ansible-modules-extras/pull/708</a></td>
-<td>Fix some SSL errors in mail.py causing SMTP Syntax</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/12836">ansible/pull/12836</a></td>
-<td>Initial working prototype of a salt bus connection</td>
-</tr>
-<tr>
-<td>mail</td>
-<td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
-<td>fix mail when cc and bcc are used if None</td>
 </tr>
 <tr>
 <td>route53</td>
@@ -14656,16 +14656,6 @@
 <td>Add a way to ignore failure when boolean do not ex</td>
 </tr>
 <tr>
-<td>vmware_vm_shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2757">ansible-modules-extras/issues/2757</a></td>
-<td>vmware_vm_shell ignores "validate_certs: false"</td>
-</tr>
-<tr>
-<td>vmware_vm_shell</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2676">ansible-modules-extras/pull/2676</a></td>
-<td>disable ssl check, validate_certs does not work on</td>
-</tr>
-<tr>
 <td>async_wrapper</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4017">ansible-modules-core/pull/4017</a></td>
 <td>Attempt to track actual wall time in async_wrapper</td>
@@ -15174,11 +15164,6 @@
 <td>os_api_endpoint</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2954">ansible-modules-extras/pull/2954</a></td>
 <td>Create os_api_endpoint</td>
-</tr>
-<tr>
-<td>win_certificate</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1374">ansible-modules-extras/pull/1374</a></td>
-<td>New module to enable the installation of certifica</td>
 </tr>
 <tr>
 <td>opendj_backend</td>
@@ -15746,6 +15731,11 @@
 <td>Dellos6 facts</td>
 </tr>
 <tr>
+<td>win_certificate</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1374">ansible-modules-extras/pull/1374</a></td>
+<td>New module to enable the installation of certifica</td>
+</tr>
+<tr>
 <td>otp</td>
 <td><a href="https://github.com/ansible/ansible/pull/12272">ansible/pull/12272</a></td>
 <td>Added support for generating OTP tokens using filt</td>
@@ -15824,11 +15814,6 @@
 <td>archive</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2766">ansible-modules-extras/issues/2766</a></td>
 <td>Archive with remote_src=yes strips the second / in</td>
-</tr>
-<tr>
-<td>vmware_portgroup</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2895">ansible-modules-extras/issues/2895</a></td>
-<td>Modules vmware_portgroup and vmware_vswitch: [SSL:</td>
 </tr>
 <tr>
 <td>marathon</td>
@@ -16199,6 +16184,11 @@
 <td>win_firewall_rule</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2882">ansible-modules-extras/issues/2882</a></td>
 <td>win_firewall_rule fails if rule already exists</td>
+</tr>
+<tr>
+<td>vmware_vm_shell</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2676">ansible-modules-extras/pull/2676</a></td>
+<td>disable ssl check, validate_certs does not work on</td>
 </tr>
 <tr>
 <td>htpasswd</td>
