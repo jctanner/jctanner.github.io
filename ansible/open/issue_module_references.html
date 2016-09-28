@@ -6702,11 +6702,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/16845">ansible/issues/16845</a></td>
-<td>ansible-playbook fails, ansible works</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16848">ansible/issues/16848</a></td>
 <td>Splitting host patterns on commas breaks regex rep</td>
 </tr>
@@ -7334,11 +7329,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17775">ansible/issues/17775</a></td>
 <td>Changing directory owner, at 1st provision ansible</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17778">ansible/issues/17778</a></td>
-<td>sshpass/ansible_ssh_pass is BROKEN on rhel7</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8139,6 +8129,26 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17776">ansible/pull/17776</a></td>
 <td>DigitalOcean inventory: typo, do_tags, do_volume_i</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17779">ansible/pull/17779</a></td>
+<td>ansible_play_batch</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17782">ansible/pull/17782</a></td>
+<td>Make password lookup treat /dev/null as a special </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17783">ansible/pull/17783</a></td>
+<td>Graceful error handling when delegate_to host null</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17785">ansible/pull/17785</a></td>
+<td>Revert "Clear the plugin path cache when adding ne</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10286,6 +10296,81 @@
 <td>Tentative fix for #2555</td>
 </tr>
 <tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1568">ansible-modules-core/issues/1568</a></td>
+<td>Ansible calls "file" module instead of "copy" modu</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3080">ansible-modules-core/issues/3080</a></td>
+<td>copy module never copies when force is set to no, </td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3149">ansible-modules-core/issues/3149</a></td>
+<td>It would be nice for `copy` to optionally show a p</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/365">ansible-modules-core/issues/365</a></td>
+<td>Feature request: 'copy' module for target-to-targe</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3934">ansible-modules-core/issues/3934</a></td>
+<td>template and copy modules should have state parame</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4010">ansible-modules-core/issues/4010</a></td>
+<td>When copying multiple files in a dir, diff is igno</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4280">ansible-modules-core/issues/4280</a></td>
+<td>Error "invalid selinux context" in copy module whe</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4711">ansible-modules-core/issues/4711</a></td>
+<td>Problm with copy module when using not default ssh</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4593">ansible-modules-core/pull/4593</a></td>
+<td>Update copy.py</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5063">ansible-modules-core/pull/5063</a></td>
+<td>Document `copy` module vault decryption behavior</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible/pull/13939">ansible/pull/13939</a></td>
+<td>Enforce `state='file'` in `copy` module</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible/pull/14631">ansible/pull/14631</a></td>
+<td>Fix copy module handling of symlinks</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible/pull/14687">ansible/pull/14687</a></td>
+<td>allow copy action to preserve file mode</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible/pull/16131">ansible/pull/16131</a></td>
+<td>Add a way to specify default argument to action us</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible/pull/17780">ansible/pull/17780</a></td>
+<td>copy: Use the local file's mode for the argument i</td>
+</tr>
+<tr>
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
 <td>Mount module overrides entries when used with 'wit</td>
@@ -10429,76 +10514,6 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/15942">ansible/pull/15942</a></td>
 <td>Sort groups by depth then by name</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1568">ansible-modules-core/issues/1568</a></td>
-<td>Ansible calls "file" module instead of "copy" modu</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3080">ansible-modules-core/issues/3080</a></td>
-<td>copy module never copies when force is set to no, </td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3149">ansible-modules-core/issues/3149</a></td>
-<td>It would be nice for `copy` to optionally show a p</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/365">ansible-modules-core/issues/365</a></td>
-<td>Feature request: 'copy' module for target-to-targe</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3934">ansible-modules-core/issues/3934</a></td>
-<td>template and copy modules should have state parame</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4010">ansible-modules-core/issues/4010</a></td>
-<td>When copying multiple files in a dir, diff is igno</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4280">ansible-modules-core/issues/4280</a></td>
-<td>Error "invalid selinux context" in copy module whe</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4711">ansible-modules-core/issues/4711</a></td>
-<td>Problm with copy module when using not default ssh</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4593">ansible-modules-core/pull/4593</a></td>
-<td>Update copy.py</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5063">ansible-modules-core/pull/5063</a></td>
-<td>Document `copy` module vault decryption behavior</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/13939">ansible/pull/13939</a></td>
-<td>Enforce `state='file'` in `copy` module</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/14631">ansible/pull/14631</a></td>
-<td>Fix copy module handling of symlinks</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/14687">ansible/pull/14687</a></td>
-<td>allow copy action to preserve file mode</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/16131">ansible/pull/16131</a></td>
-<td>Add a way to specify default argument to action us</td>
 </tr>
 <tr>
 <td>ec2_vol</td>
@@ -11026,6 +11041,61 @@
 <td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
+<td>digital ocean block storage support</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
+<td>Deprecate digital_ocean module</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4613">ansible-modules-core/issues/4613</a></td>
+<td>digital_ocean module not working</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
+<td>Fix of adding existing ssh key on DigitalOcean</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
+<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
+<td>document module_utils.*</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
+<td>add droplet name support for --host in digital_oce</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
+<td>Error messages from a CLI should be sent to stderr</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
+<td>use _meta; make cache in more expected way</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
+<td>Correcting new bugs introduced. Added tags as grou</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17784">ansible/pull/17784</a></td>
+<td>inventory/digital_ocean.py: add tag grouping</td>
+</tr>
+<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2237">ansible-modules-core/issues/2237</a></td>
 <td>pip with url installs with -e argument</td>
@@ -11229,56 +11299,6 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
 <td>let chdir support relative path in more modules</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
-<td>digital ocean block storage support</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
-<td>Deprecate digital_ocean module</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4613">ansible-modules-core/issues/4613</a></td>
-<td>digital_ocean module not working</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
-<td>Fix of adding existing ssh key on DigitalOcean</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
-<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
-<td>document module_utils.*</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
-<td>add droplet name support for --host in digital_oce</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
-<td>Error messages from a CLI should be sent to stderr</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
-<td>use _meta; make cache in more expected way</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
-<td>Correcting new bugs introduced. Added tags as grou</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -13106,26 +13126,6 @@
 <td>async_wrapper does not filter garbage from module </td>
 </tr>
 <tr>
-<td>svr4pkg</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1792">ansible-modules-extras/issues/1792</a></td>
-<td>svr4pkg fails to detect it installed packages</td>
-</tr>
-<tr>
-<td>svr4pkg</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2113">ansible-modules-extras/pull/2113</a></td>
-<td>Treat None as a successful return code</td>
-</tr>
-<tr>
-<td>svr4pkg</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2244">ansible-modules-extras/pull/2244</a></td>
-<td>Resolve error case where state=present fails</td>
-</tr>
-<tr>
-<td>svr4pkg</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2527">ansible-modules-extras/pull/2527</a></td>
-<td>Fix svr4pkg being non-idempotent</td>
-</tr>
-<tr>
 <td>win_iis_webbinding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1432">ansible-modules-extras/issues/1432</a></td>
 <td>win_iis_webbinding: remove default binding</td>
@@ -13546,26 +13546,6 @@
 <td>Update redhat_subscription.py</td>
 </tr>
 <tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3984">ansible-modules-core/issues/3984</a></td>
-<td>module junos_config with the parameter lines + del</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4281">ansible-modules-core/issues/4281</a></td>
-<td>junos modules RPC timeout option</td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5040">ansible-modules-core/issues/5040</a></td>
-<td>"Unable to load config: ConfigLoadError(severity: </td>
-</tr>
-<tr>
-<td>junos_config</td>
-<td><a href="https://github.com/ansible/ansible/issues/17111">ansible/issues/17111</a></td>
-<td>Fetching of current config in module_utils/junos.p</td>
-</tr>
-<tr>
 <td>acl</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/151">ansible-modules-core/issues/151</a></td>
 <td>Incompatibility between BSD and Linux for the acl </td>
@@ -13704,6 +13684,21 @@
 <td>constants</td>
 <td><a href="https://github.com/ansible/ansible/pull/17420">ansible/pull/17420</a></td>
 <td>allow 'nonpersistent facts' for other action plugi</td>
+</tr>
+<tr>
+<td>svr4pkg</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1792">ansible-modules-extras/issues/1792</a></td>
+<td>svr4pkg fails to detect it installed packages</td>
+</tr>
+<tr>
+<td>svr4pkg</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2244">ansible-modules-extras/pull/2244</a></td>
+<td>Resolve error case where state=present fails</td>
+</tr>
+<tr>
+<td>svr4pkg</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2527">ansible-modules-extras/pull/2527</a></td>
+<td>Fix svr4pkg being non-idempotent</td>
 </tr>
 <tr>
 <td>rhn_channel</td>
@@ -13959,6 +13954,21 @@
 <td>docker_image</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5050">ansible-modules-core/pull/5050</a></td>
 <td>Fix intermittent image push error</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3984">ansible-modules-core/issues/3984</a></td>
+<td>module junos_config with the parameter lines + del</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4281">ansible-modules-core/issues/4281</a></td>
+<td>junos modules RPC timeout option</td>
+</tr>
+<tr>
+<td>junos_config</td>
+<td><a href="https://github.com/ansible/ansible/issues/17111">ansible/issues/17111</a></td>
+<td>Fetching of current config in module_utils/junos.p</td>
 </tr>
 <tr>
 <td>nxos_vlan</td>
@@ -14356,16 +14366,6 @@
 <td>docker_service: prevent non specified services fro</td>
 </tr>
 <tr>
-<td>ops_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4860">ansible-modules-core/issues/4860</a></td>
-<td>ansible-modules-core/network/ - Code review</td>
-</tr>
-<tr>
-<td>ops_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5061">ansible-modules-core/pull/5061</a></td>
-<td>Network module code cleanup</td>
-</tr>
-<tr>
 <td>rabbitmq_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1308">ansible-modules-extras/issues/1308</a></td>
 <td>In rabbitmq_policy, tags values that should be int</td>
@@ -14524,6 +14524,16 @@
 <td>os_server_actions</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4376">ansible-modules-core/pull/4376</a></td>
 <td>Add rebuild to os_server_actions</td>
+</tr>
+<tr>
+<td>nxos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
+<td>decode error when using nxos_template module</td>
+</tr>
+<tr>
+<td>nxos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4860">ansible-modules-core/issues/4860</a></td>
+<td>ansible-modules-core/network/ - Code review</td>
 </tr>
 <tr>
 <td>nxos_portchannel</td>
@@ -14906,6 +14916,11 @@
 <td>win_reboot action logs connection tracebacks in so</td>
 </tr>
 <tr>
+<td>nxos</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5065">ansible-modules-core/pull/5065</a></td>
+<td>nxos module cleanup</td>
+</tr>
+<tr>
 <td>auth0_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2512">ansible-modules-extras/pull/2512</a></td>
 <td>Add 2 modules to create users in auth0 domain and </td>
@@ -14981,9 +14996,9 @@
 <td>Fix #14454 with_first_found fails with ansible 2</td>
 </tr>
 <tr>
-<td>datadog_downtime</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2381">ansible-modules-extras/pull/2381</a></td>
-<td>add datadog_downtime module (try 3)</td>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/17781">ansible/pull/17781</a></td>
+<td>better handling of host lists</td>
 </tr>
 <tr>
 <td>junos_template</td>
@@ -15571,11 +15586,6 @@
 <td>Amazon Firehose Module - Split Changes Out</td>
 </tr>
 <tr>
-<td>nxos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
-<td>decode error when using nxos_template module</td>
-</tr>
-<tr>
 <td>asa_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2992">ansible-modules-extras/pull/2992</a></td>
 <td>asa_template is now deprecated</td>
@@ -15859,6 +15869,11 @@
 <td>interfaces_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2027">ansible-modules-extras/pull/2027</a></td>
 <td>Added new module interfaces_file</td>
+</tr>
+<tr>
+<td>datadog_downtime</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2381">ansible-modules-extras/pull/2381</a></td>
+<td>add datadog_downtime module (try 3)</td>
 </tr>
 <tr>
 <td>ldap_entry</td>
