@@ -7332,6 +7332,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17786">ansible/issues/17786</a></td>
+<td>Allow group_vars and host_vars to override role va</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -8144,11 +8149,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17783">ansible/pull/17783</a></td>
 <td>Graceful error handling when delegate_to host null</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17785">ansible/pull/17785</a></td>
-<td>Revert "Clear the plugin path cache when adding ne</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10371,81 +10371,6 @@
 <td>copy: Use the local file's mode for the argument i</td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
-<td>Mount Fails in Ubuntu 14.04</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
-<td>mount module no swap support</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
-<td>Mount With Complex Password Hangs Forever</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
-<td>Mount opts argument default value is incorrect</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4952">ansible-modules-core/pull/4952</a></td>
-<td>Update mount.py documentation</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
-<td>Ultimate fix of the mount module for Linux</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
-<td>New filter getmountfrompath: retrieve correspondin</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2922">ansible-modules-core/issues/2922</a></td>
 <td>ec2_ami_find: owner needs to be string, otherwise </td>
@@ -10514,6 +10439,76 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/15942">ansible/pull/15942</a></td>
 <td>Sort groups by depth then by name</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
+<td>Mount Fails in Ubuntu 14.04</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
+<td>mount module no swap support</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
+<td>Mount With Complex Password Hangs Forever</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
+<td>Mount opts argument default value is incorrect</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
+<td>Ultimate fix of the mount module for Linux</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
+<td>New filter getmountfrompath: retrieve correspondin</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
 <td>ec2_vol</td>
@@ -11201,6 +11196,56 @@
 <td>Fix: mysql_user - permission string with column pr</td>
 </tr>
 <tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
+<td>cloudformation state: absent requires template or </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
+<td>Ansible 2.0 cloudformation module template path</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
+<td>cloudformation module fails when state:absent and </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
+<td>Add missing import on cloudformation for boto prof</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
+<td>Remove duplicate logic with invalid validation</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
+<td>fix to allow named profiles to work correctly with</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
+<td>Preserve order during Yaml to JSON parsing</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
+<td>cloudformation: add parameter for stack policy dur</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
+<td>Fix cloudformation error invocation and whitespace</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5066">ansible-modules-core/pull/5066</a></td>
+<td>Templates can be in both formats: local and remote</td>
+</tr>
+<tr>
 <td>ec2_vpc_route_table</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1557">ansible-modules-extras/issues/1557</a></td>
 <td>ec2_vpc_route_table tasks marks as changed constan</td>
@@ -11344,51 +11389,6 @@
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4470">ansible-modules-core/pull/4470</a></td>
 <td>ec2_elb_lb: fix errors in module documentation</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
-<td>cloudformation state: absent requires template or </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
-<td>Ansible 2.0 cloudformation module template path</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
-<td>cloudformation module fails when state:absent and </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
-<td>Add missing import on cloudformation for boto prof</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
-<td>Remove duplicate logic with invalid validation</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
-<td>fix to allow named profiles to work correctly with</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
-<td>Preserve order during Yaml to JSON parsing</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
-<td>cloudformation: add parameter for stack policy dur</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
-<td>Fix cloudformation error invocation and whitespace</td>
 </tr>
 <tr>
 <td>gce</td>
@@ -13226,26 +13226,6 @@
 <td>Really fix python 2.4 compatibility in `pam_limits</td>
 </tr>
 <tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
-<td>Enable the use of JSON for junos_command</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
-<td>issue with junos_command and argument rpcs (if the</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5060">ansible-modules-core/issues/5060</a></td>
-<td>junos_command: ValueError: need more than 1 value </td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4715">ansible-modules-core/pull/4715</a></td>
-<td>enabling output format JSON for junos #4103 #4104</td>
-</tr>
-<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4402">ansible-modules-core/issues/4402</a></td>
 <td>nxos_feature is broken with CLI transport (show fe</td>
@@ -13774,6 +13754,21 @@
 <td>module_utils</td>
 <td><a href="https://github.com/ansible/ansible/pull/17535">ansible/pull/17535</a></td>
 <td>Support to skip setting defaults for optional fiel</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
+<td>Enable the use of JSON for junos_command</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
+<td>issue with junos_command and argument rpcs (if the</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4715">ansible-modules-core/pull/4715</a></td>
+<td>enabling output format JSON for junos #4103 #4104</td>
 </tr>
 <tr>
 <td>win_file</td>
@@ -14526,16 +14521,6 @@
 <td>Add rebuild to os_server_actions</td>
 </tr>
 <tr>
-<td>nxos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
-<td>decode error when using nxos_template module</td>
-</tr>
-<tr>
-<td>nxos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4860">ansible-modules-core/issues/4860</a></td>
-<td>ansible-modules-core/network/ - Code review</td>
-</tr>
-<tr>
 <td>nxos_portchannel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4895">ansible-modules-core/issues/4895</a></td>
 <td>nxos_portchannel fails with AttributeError: Networ</td>
@@ -15281,6 +15266,11 @@
 <td>Add lvol_cache module</td>
 </tr>
 <tr>
+<td>nxos_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4860">ansible-modules-core/issues/4860</a></td>
+<td>ansible-modules-core/network/ - Code review</td>
+</tr>
+<tr>
 <td>vmware_vmotion</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2903">ansible-modules-extras/pull/2903</a></td>
 <td>cloud/vmware/vmware_vmotion: added storage vmotion</td>
@@ -15584,6 +15574,11 @@
 <td>firehose</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2567">ansible-modules-extras/pull/2567</a></td>
 <td>Amazon Firehose Module - Split Changes Out</td>
+</tr>
+<tr>
+<td>nxos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
+<td>decode error when using nxos_template module</td>
 </tr>
 <tr>
 <td>asa_template</td>
