@@ -1597,11 +1597,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1517">ansible-modules-core/pull/1517</a></td>
-<td>fixes cache time handling in apt module</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1666">ansible-modules-core/pull/1666</a></td>
 <td>yum: refactoring working with yum groups</td>
 </tr>
@@ -10386,6 +10381,81 @@
 <td>copy: Use the local file's mode for the argument i</td>
 </tr>
 <tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
+<td>Mount Fails in Ubuntu 14.04</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
+<td>mount module no swap support</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
+<td>Mount With Complex Password Hangs Forever</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
+<td>Mount opts argument default value is incorrect</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5073">ansible-modules-core/issues/5073</a></td>
+<td>[2.1.2-RC5] Mount issue with nfs storage</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
+<td>Ultimate fix of the mount module for Linux</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
+<td>New filter getmountfrompath: retrieve correspondin</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
+</tr>
+<tr>
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2922">ansible-modules-core/issues/2922</a></td>
 <td>ec2_ami_find: owner needs to be string, otherwise </td>
@@ -10454,76 +10524,6 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible/pull/15942">ansible/pull/15942</a></td>
 <td>Sort groups by depth then by name</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
-<td>Mount Fails in Ubuntu 14.04</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
-<td>mount module no swap support</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
-<td>Mount With Complex Password Hangs Forever</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
-<td>Mount opts argument default value is incorrect</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
-<td>Ultimate fix of the mount module for Linux</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
-<td>New filter getmountfrompath: retrieve correspondin</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
 <td>ec2_vol</td>
@@ -12776,6 +12776,31 @@
 <td>Add dict support to osx_defaults</td>
 </tr>
 <tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
+<td>Unsupported parameter for module</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1926">ansible-modules-extras/issues/1926</a></td>
+<td>Marker in blockinfile is a line prefix, not a whol</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2616">ansible-modules-extras/issues/2616</a></td>
+<td>blockinfile delete last line in file if marker is </td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2687">ansible-modules-extras/issues/2687</a></td>
+<td>blockinfile creates a file without ending newline</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3052">ansible-modules-extras/issues/3052</a></td>
+<td>Blockinfile overwrites symlink with file if change</td>
+</tr>
+<tr>
 <td>group_by</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5046">ansible-modules-core/issues/5046</a></td>
 <td>group_by doesn't add hosts on second run (when gro</td>
@@ -13301,26 +13326,6 @@
 <td>Refactor and fix the slaac filter. (2. approach)</td>
 </tr>
 <tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
-<td>Unsupported parameter for module</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1926">ansible-modules-extras/issues/1926</a></td>
-<td>Marker in blockinfile is a line prefix, not a whol</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2616">ansible-modules-extras/issues/2616</a></td>
-<td>blockinfile delete last line in file if marker is </td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2687">ansible-modules-extras/issues/2687</a></td>
-<td>blockinfile creates a file without ending newline</td>
-</tr>
-<tr>
 <td>find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2608">ansible-modules-core/pull/2608</a></td>
 <td>[find] Add 'link' file_type to find module</td>
@@ -13657,8 +13662,8 @@
 </tr>
 <tr>
 <td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4949">ansible-modules-core/pull/4949</a></td>
-<td>deprecated _fact network modules: Rename in module</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5072">ansible-modules-core/pull/5072</a></td>
+<td>deprecated _template network modules: Rename in mo</td>
 </tr>
 <tr>
 <td>eos_template</td>
@@ -14366,6 +14371,16 @@
 <td>added fact modules for clc_group and clc_server mo</td>
 </tr>
 <tr>
+<td>asa_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3048">ansible-modules-extras/issues/3048</a></td>
+<td>[Regression] asa_command: silently allows invalid </td>
+</tr>
+<tr>
+<td>asa_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3056">ansible-modules-extras/issues/3056</a></td>
+<td>asa_config: matched error in response: show runnin</td>
+</tr>
+<tr>
 <td>docker_service</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4607">ansible-modules-core/issues/4607</a></td>
 <td>Support of new docker 1.12 features (swarm, servic</td>
@@ -14534,6 +14549,16 @@
 <td>os_server_actions</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4376">ansible-modules-core/pull/4376</a></td>
 <td>Add rebuild to os_server_actions</td>
+</tr>
+<tr>
+<td>asa_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3057">ansible-modules-extras/issues/3057</a></td>
+<td>asa_template: matched error in response: configure</td>
+</tr>
+<tr>
+<td>asa_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2992">ansible-modules-extras/pull/2992</a></td>
+<td>asa_template is now deprecated</td>
 </tr>
 <tr>
 <td>nxos_portchannel</td>
@@ -14706,6 +14731,16 @@
 <td>ec2_key.py - Added RETURN structure and minor exce</td>
 </tr>
 <tr>
+<td>openvswitch_bridge</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2711">ansible-modules-extras/pull/2711</a></td>
+<td>Added set value to openvswitch_bridge</td>
+</tr>
+<tr>
+<td>openvswitch_bridge</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3054">ansible-modules-extras/pull/3054</a></td>
+<td>openvswitch_bridge: add fake bridge support</td>
+</tr>
+<tr>
 <td>uncompress</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1301">ansible-modules-extras/pull/1301</a></td>
 <td>Adds uncompress module</td>
@@ -14854,6 +14889,16 @@
 <td>a10</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2865">ansible-modules-extras/pull/2865</a></td>
 <td>Create a10_hostname.py</td>
+</tr>
+<tr>
+<td>pear</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1418">ansible-modules-extras/issues/1418</a></td>
+<td>Pear module hangs for module installs expecting an</td>
+</tr>
+<tr>
+<td>pear</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3053">ansible-modules-extras/issues/3053</a></td>
+<td>Pear module not verbose enough while failing</td>
 </tr>
 <tr>
 <td>win_unzip</td>
@@ -15306,11 +15351,6 @@
 <td>Added extra_specs option (Fixes #3272)</td>
 </tr>
 <tr>
-<td>asa_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3048">ansible-modules-extras/issues/3048</a></td>
-<td>[Regression] asa_command: silently allows invalid </td>
-</tr>
-<tr>
 <td>launchd</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3694">ansible-modules-core/pull/3694</a></td>
 <td>[WIP] launchd service plugin</td>
@@ -15594,11 +15634,6 @@
 <td>nxos_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
 <td>decode error when using nxos_template module</td>
-</tr>
-<tr>
-<td>asa_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2992">ansible-modules-extras/pull/2992</a></td>
-<td>asa_template is now deprecated</td>
 </tr>
 <tr>
 <td>appneta_annotations</td>
@@ -16191,11 +16226,6 @@
 <td>Missing attribute to call cpanm with extra argumen</td>
 </tr>
 <tr>
-<td>openvswitch_bridge</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2711">ansible-modules-extras/pull/2711</a></td>
-<td>Added set value to openvswitch_bridge</td>
-</tr>
-<tr>
 <td>action_plugin</td>
 <td><a href="https://github.com/ansible/ansible/issues/16586">ansible/issues/16586</a></td>
 <td>Importing from action plugins depends on the task </td>
@@ -16479,11 +16509,6 @@
 <td>mongodb</td>
 <td><a href="https://github.com/ansible/ansible/pull/15057">ansible/pull/15057</a></td>
 <td>new lookup module: mongodb</td>
-</tr>
-<tr>
-<td>pear</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1418">ansible-modules-extras/issues/1418</a></td>
-<td>Pear module hangs for module installs expecting an</td>
 </tr>
 <tr>
 <td>vmware_nic</td>

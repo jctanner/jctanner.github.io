@@ -147,6 +147,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1517">ansible-modules-core/pull/1517</a></td>
+<td>fixes cache time handling in apt module</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1614">ansible-modules-core/pull/1614</a></td>
 <td>authorized_keys: fix creating .ssh directory</td>
 </tr>
@@ -29749,6 +29754,21 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17785">ansible/pull/17785</a></td>
 <td>Revert "Clear the plugin path cache when adding ne</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17787">ansible/pull/17787</a></td>
+<td>Update get_url test to use httptester.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17788">ansible/pull/17788</a></td>
+<td>raises ValueError exception if conditional is not </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17789">ansible/pull/17789</a></td>
+<td>Enable unarchive tests for OS X and FreeBSD.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -100496,6 +100516,51 @@
 <td>Docs improvements to _config</td>
 </tr>
 <tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3250">ansible-modules-core/issues/3250</a></td>
+<td>Omitting transport arg in eos.py causes kwarg erro</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3366">ansible-modules-core/issues/3366</a></td>
+<td>eos_template with replace parameter set , replaces</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4704">ansible-modules-core/issues/4704</a></td>
+<td>eos_template TypeError: __call__() got an unexpect</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4801">ansible-modules-core/issues/4801</a></td>
+<td>eos_template: TypeError: load_config() got an unex</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2941">ansible-modules-core/pull/2941</a></td>
+<td>initial add of new module eos_template</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3010">ansible-modules-core/pull/3010</a></td>
+<td>Filter exit commands when no other commands are in</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3950">ansible-modules-core/pull/3950</a></td>
+<td>Move call to filter_exit out of command execution </td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4949">ansible-modules-core/pull/4949</a></td>
+<td>deprecated _fact network modules: Rename in module</td>
+</tr>
+<tr>
+<td>eos_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/14009">ansible/pull/14009</a></td>
+<td>initial add of action plugin eos_template</td>
+</tr>
+<tr>
 <td>f5</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2247">ansible-modules-extras/pull/2247</a></td>
 <td>Fixes 2246 : CI failures on extras due to missing </td>
@@ -101759,46 +101824,6 @@
 <td>docker_login</td>
 <td><a href="https://github.com/ansible/ansible/issues/13865">ansible/issues/13865</a></td>
 <td>docker-py error again (RHEL/CentOS)</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3250">ansible-modules-core/issues/3250</a></td>
-<td>Omitting transport arg in eos.py causes kwarg erro</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3366">ansible-modules-core/issues/3366</a></td>
-<td>eos_template with replace parameter set , replaces</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4704">ansible-modules-core/issues/4704</a></td>
-<td>eos_template TypeError: __call__() got an unexpect</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4801">ansible-modules-core/issues/4801</a></td>
-<td>eos_template: TypeError: load_config() got an unex</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2941">ansible-modules-core/pull/2941</a></td>
-<td>initial add of new module eos_template</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3010">ansible-modules-core/pull/3010</a></td>
-<td>Filter exit commands when no other commands are in</td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3950">ansible-modules-core/pull/3950</a></td>
-<td>Move call to filter_exit out of command execution </td>
-</tr>
-<tr>
-<td>eos_template</td>
-<td><a href="https://github.com/ansible/ansible/pull/14009">ansible/pull/14009</a></td>
-<td>initial add of action plugin eos_template</td>
 </tr>
 <tr>
 <td>rds_subnet_group</td>
