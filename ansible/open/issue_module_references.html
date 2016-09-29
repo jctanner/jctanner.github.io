@@ -2317,11 +2317,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3063">ansible-modules-extras/pull/3063</a></td>
-<td>Update shippable config</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
 <td>Created Comware 5.2 Ansible modules</td>
 </tr>
@@ -7307,6 +7302,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17804">ansible/issues/17804</a></td>
+<td>Some problems with :</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -10356,81 +10356,6 @@
 <td>More tolerant unit parsing</td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
-<td>Mount module overrides entries when used with 'wit</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
-<td>system/mount.py</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
-<td>Mount on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
-<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
-<td>mount using nfs4 and state=mounted triggers error </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
-<td>Mount Fails in Ubuntu 14.04</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
-<td>mount module no swap support</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
-<td>Mount With Complex Password Hangs Forever</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
-<td>Mount opts argument default value is incorrect</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5073">ansible-modules-core/issues/5073</a></td>
-<td>[2.1.2-RC5] Mount issue with nfs storage</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
-<td>mount: Add option 'fail_when_not_empty', which pre</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5087">ansible-modules-core/pull/5087</a></td>
-<td>Set some hosts privileged so they can perform moun</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
-<td>New filter getmountfrompath: retrieve correspondin</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
-<td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2922">ansible-modules-core/issues/2922</a></td>
 <td>ec2_ami_find: owner needs to be string, otherwise </td>
@@ -10501,6 +10426,76 @@
 <td>Sort groups by depth then by name</td>
 </tr>
 <tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2291">ansible-modules-core/issues/2291</a></td>
+<td>Mount module overrides entries when used with 'wit</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2429">ansible-modules-core/issues/2429</a></td>
+<td>system/mount.py</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2868">ansible-modules-core/issues/2868</a></td>
+<td>Mount on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3148">ansible-modules-core/issues/3148</a></td>
+<td>mount is not idempotent for bind mount (Ubuntu 14.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3514">ansible-modules-core/issues/3514</a></td>
+<td>mount using nfs4 and state=mounted triggers error </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
+<td>Mount Fails in Ubuntu 14.04</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4885">ansible-modules-core/issues/4885</a></td>
+<td>mount module no swap support</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4915">ansible-modules-core/issues/4915</a></td>
+<td>Mount With Complex Password Hangs Forever</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
+<td>Mount opts argument default value is incorrect</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5073">ansible-modules-core/issues/5073</a></td>
+<td>[2.1.2-RC5] Mount issue with nfs storage</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4423">ansible-modules-core/pull/4423</a></td>
+<td>mount: Add option 'fail_when_not_empty', which pre</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/12066">ansible/pull/12066</a></td>
+<td>New filter getmountfrompath: retrieve correspondin</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
+<td>add systemd-nspawn connection driver</td>
+</tr>
+<tr>
 <td>ec2_vol</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1308">ansible-modules-core/issues/1308</a></td>
 <td>ec2_vol reports changed = false even if a new vol </td>
@@ -10564,6 +10559,66 @@
 <td>ec2_vol</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4986">ansible-modules-core/pull/4986</a></td>
 <td>Add new HDD EBS volume types</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
+<td>"authorized_key" re-orders the keys and comments i</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
 </tr>
 <tr>
 <td>new</td>
@@ -10684,66 +10739,6 @@
 <td>uri</td>
 <td><a href="https://github.com/ansible/ansible/pull/17089">ansible/pull/17089</a></td>
 <td>Add Digest auth support for uri module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
-<td>"authorized_key" re-orders the keys and comments i</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
 </tr>
 <tr>
 <td>mysql_user</td>
@@ -12841,31 +12836,6 @@
 <td>Added function to disregard HA router ports Fixes </td>
 </tr>
 <tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
-<td>Increase Ansible's performance</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/issues/17686">ansible/issues/17686</a></td>
-<td>Passing variables via nested include_role doesn't </td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/17562">ansible/pull/17562</a></td>
-<td>Treat vars/ and defaults/ in roles like group_vars</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/17575">ansible/pull/17575</a></td>
-<td>Set Suse family for openSUSE Tumbleweed & Leap</td>
-</tr>
-<tr>
-<td>core</td>
-<td><a href="https://github.com/ansible/ansible/pull/17667">ansible/pull/17667</a></td>
-<td>parse_kv now observes check_raw</td>
-</tr>
-<tr>
 <td>haproxy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1442">ansible-modules-extras/issues/1442</a></td>
 <td>haproxy missing socket param</td>
@@ -13561,6 +13531,26 @@
 <td>Update redhat_subscription.py</td>
 </tr>
 <tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
+<td>Increase Ansible's performance</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17562">ansible/pull/17562</a></td>
+<td>Treat vars/ and defaults/ in roles like group_vars</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17575">ansible/pull/17575</a></td>
+<td>Set Suse family for openSUSE Tumbleweed & Leap</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17667">ansible/pull/17667</a></td>
+<td>parse_kv now observes check_raw</td>
+</tr>
+<tr>
 <td>acl</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/151">ansible-modules-core/issues/151</a></td>
 <td>Incompatibility between BSD and Linux for the acl </td>
@@ -14061,6 +14051,16 @@
 <td>Import pass.py from github.com/morphje/ansible_pas</td>
 </tr>
 <tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/17686">ansible/issues/17686</a></td>
+<td>Passing variables via nested include_role doesn't </td>
+</tr>
+<tr>
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/827">ansible-modules-extras/issues/827</a></td>
 <td>urrlib not defined using consul_kv</td>
@@ -14351,6 +14351,16 @@
 <td>route53_facts will fail when using hosted_zone_id</td>
 </tr>
 <tr>
+<td>dimensiondata_load_balancer</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2982">ansible-modules-extras/pull/2982</a></td>
+<td>New dimensiondata load balancer</td>
+</tr>
+<tr>
+<td>dimensiondata_load_balancer</td>
+<td><a href="https://github.com/ansible/ansible/pull/17802">ansible/pull/17802</a></td>
+<td>Tests for dimensiondata_load_balancer module</td>
+</tr>
+<tr>
 <td>apt_repository</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4194">ansible-modules-core/issues/4194</a></td>
 <td>`apt_repository` module cannot upgrade permission </td>
@@ -14499,16 +14509,6 @@
 <td>nxos_portchannel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5019">ansible-modules-core/pull/5019</a></td>
 <td>Fixing nxos_portchannel</td>
-</tr>
-<tr>
-<td>dimensiondata</td>
-<td><a href="https://github.com/ansible/ansible/pull/17604">ansible/pull/17604</a></td>
-<td>module_utils/dimensiondata</td>
-</tr>
-<tr>
-<td>dimensiondata</td>
-<td><a href="https://github.com/ansible/ansible/pull/17802">ansible/pull/17802</a></td>
-<td>New dimensiondata load balancer</td>
 </tr>
 <tr>
 <td>open_iscsi</td>
@@ -14976,11 +14976,6 @@
 <td>Unable to deploy config to junos</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
-<td>include_role does not support tags</td>
-</tr>
-<tr>
 <td>nxos_snmp_community</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5022">ansible-modules-core/pull/5022</a></td>
 <td>Fixing nxos_snmp_community</td>
@@ -14994,11 +14989,6 @@
 <td>dimensiondata_compute</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2985">ansible-modules-extras/pull/2985</a></td>
 <td>New dimensiondata compute</td>
-</tr>
-<tr>
-<td>satellite_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2479">ansible-modules-extras/pull/2479</a></td>
-<td>Add module for managing Satellite hosts</td>
 </tr>
 <tr>
 <td>mysql_query</td>
@@ -15258,7 +15248,7 @@
 <tr>
 <td>bigip_virtual_server</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3061">ansible-modules-extras/pull/3061</a></td>
-<td>Fixes the enabled_vlans argument</td>
+<td>WIP Fixes the enabled_vlans argument</td>
 </tr>
 <tr>
 <td>docs</td>
@@ -15369,11 +15359,6 @@
 <td>easy_install</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4300">ansible-modules-core/issues/4300</a></td>
 <td>easy_install: state 'latest' always shows changed</td>
-</tr>
-<tr>
-<td>dimensiondata_load_balancer</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2982">ansible-modules-extras/pull/2982</a></td>
-<td>New dimensiondata load balancer</td>
 </tr>
 <tr>
 <td>docker_facts</td>
@@ -15541,11 +15526,6 @@
 <td>Add osx_pref module for direct access to Core Foun</td>
 </tr>
 <tr>
-<td>bigip_gtm_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1765">ansible-modules-extras/pull/1765</a></td>
-<td>Module to gather F5 gtm facts</td>
-</tr>
-<tr>
 <td>acm_certificate_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2718">ansible-modules-extras/pull/2718</a></td>
 <td>Retrieve facts from Amazon Certificate Manager.</td>
@@ -15579,11 +15559,6 @@
 <td>nxos_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4213">ansible-modules-core/issues/4213</a></td>
 <td>decode error when using nxos_template module</td>
-</tr>
-<tr>
-<td>asa_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3057">ansible-modules-extras/issues/3057</a></td>
-<td>asa_template: matched error in response: configure</td>
 </tr>
 <tr>
 <td>appneta_annotations</td>
@@ -15639,6 +15614,11 @@
 <td>openssl_csr</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2341">ansible-modules-extras/pull/2341</a></td>
 <td>network: Add new module openssl_csr</td>
+</tr>
+<tr>
+<td>dimensiondata</td>
+<td><a href="https://github.com/ansible/ansible/pull/17604">ansible/pull/17604</a></td>
+<td>module_utils/dimensiondata</td>
 </tr>
 <tr>
 <td>pkgng</td>
@@ -15781,9 +15761,9 @@
 <td>Add ec2_elb_tag module (see issue #439)</td>
 </tr>
 <tr>
-<td>netapp_e_amg_member</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3028">ansible-modules-extras/pull/3028</a></td>
-<td>Add module to add and remove member volumes to an </td>
+<td>satellite_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2479">ansible-modules-extras/pull/2479</a></td>
+<td>Add module for managing Satellite hosts</td>
 </tr>
 <tr>
 <td>xenserver_facts</td>
@@ -15894,6 +15874,11 @@
 <td>guestfs</td>
 <td><a href="https://github.com/ansible/ansible/pull/13612">ansible/pull/13612</a></td>
 <td>Add a guestfs connexion plugin</td>
+</tr>
+<tr>
+<td>netapp_e_amg_member</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3028">ansible-modules-extras/pull/3028</a></td>
+<td>Add module to add and remove member volumes to an </td>
 </tr>
 <tr>
 <td>os_host_aggregate_member</td>
