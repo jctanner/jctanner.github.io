@@ -11912,6 +11912,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/16865">ansible/issues/16865</a></td>
+<td>Ansible 2.1.1.0 ignoring remote_user with delegate</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16866">ansible/issues/16866</a></td>
 <td>Role variable being ignored in some roles</td>
 </tr>
@@ -12694,6 +12699,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/1779">ansible/issues/1779</a></td>
 <td>Permit multiples modules directorys</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17793">ansible/issues/17793</a></td>
+<td>Ordering of roles with at least one 'when' conditi</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17795">ansible/issues/17795</a></td>
+<td>Callback plugins duped in docs</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -21262,6 +21277,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/8340">ansible/issues/8340</a></td>
+<td>Playbook-local vars_files loading a vault-encrypte</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/8342">ansible/issues/8342</a></td>
 <td>--syntax-check doesn't work while specifying vault</td>
 </tr>
@@ -29774,6 +29794,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17789">ansible/pull/17789</a></td>
 <td>Enable unarchive tests for OS X and FreeBSD.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17791">ansible/pull/17791</a></td>
+<td>Run test_template tests on OS X.</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17794">ansible/pull/17794</a></td>
+<td>The mode that we fake from stat is checked more cl</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -40989,6 +41019,11 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible/pull/1760">ansible/pull/1760</a></td>
 <td>if user has manually installed an intermediate ver</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/17723">ansible/pull/17723</a></td>
+<td>Fixes #16865 : Use correct remote user for delegat</td>
 </tr>
 <tr>
 <td>user</td>
@@ -88176,6 +88211,151 @@
 <td>Allow custom hipchat urls</td>
 </tr>
 <tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10185">ansible/pull/10185</a></td>
+<td>better missing editor message</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10215">ansible/pull/10215</a></td>
+<td>Set proper permissions for ansible-vault view</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10260">ansible/pull/10260</a></td>
+<td>Set proper file permissions (umask 077) in write_d</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/10634">ansible/pull/10634</a></td>
+<td>Don't pad AES-CTR</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11190">ansible/pull/11190</a></td>
+<td>Add missing import in vault.py</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11336">ansible/pull/11336</a></td>
+<td>Update Vault rekey() in vault.py to validate files</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/11767">ansible/pull/11767</a></td>
+<td>add option to ansible-vault to read new password f</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12032">ansible/pull/12032</a></td>
+<td>Allow vault to operate from stdin/to stdout (i.e. </td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12106">ansible/pull/12106</a></td>
+<td>Vault cleanups, pass #1</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12112">ansible/pull/12112</a></td>
+<td>Implement cat-like filtering behaviour for encrypt</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12300">ansible/pull/12300</a></td>
+<td>Vault missing DataLoader for pwd file #12293</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12572">ansible/pull/12572</a></td>
+<td>Make ansible-vault view not write plaintext to a t</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12637">ansible/pull/12637</a></td>
+<td>Fix ansible-vault rekey</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/12899">ansible/pull/12899</a></td>
+<td>simplified vault password functions</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/14189">ansible/pull/14189</a></td>
+<td>Changes to convert to unicode at the borders</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17440">ansible/pull/17440</a></td>
+<td>Fix NameError on 'ansible-vault view'</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17590">ansible/pull/17590</a></td>
+<td>Vault fixes</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17777">ansible/pull/17777</a></td>
+<td>Document `copy` module vault decryption behavior</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/3393">ansible/pull/3393</a></td>
+<td>Vault (ie. encryption) functionality</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6044">ansible/pull/6044</a></td>
+<td>Ansible vault: a framework for encrypting any play</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6058">ansible/pull/6058</a></td>
+<td>Ansible vault: a framework for encrypting any play</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6151">ansible/pull/6151</a></td>
+<td>Vault rewrite, pass 1</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/6580">ansible/pull/6580</a></td>
+<td>Changed call to EDITOR to allow for parameters</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7040">ansible/pull/7040</a></td>
+<td>ansible-vault view - new command</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7041">ansible/pull/7041</a></td>
+<td>ansible-vault view - new command</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/7174">ansible/pull/7174</a></td>
+<td>Initial ansible-vault with GPG support</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/8602">ansible/pull/8602</a></td>
+<td>Encrypts the vault file after edition only if the </td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/8694">ansible/pull/8694</a></td>
+<td>ansible-vault edit: replicate sudoedit behavior</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/9676">ansible/pull/9676</a></td>
+<td>Allow multiple vault password files</td>
+</tr>
+<tr>
 <td>pause</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4160">ansible-modules-core/issues/4160</a></td>
 <td>skipped pause with at least one unreachable host c</td>
@@ -88314,146 +88494,6 @@
 <td>pause</td>
 <td><a href="https://github.com/ansible/ansible/pull/976">ansible/pull/976</a></td>
 <td>Pause tasks (incomplete)</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10185">ansible/pull/10185</a></td>
-<td>better missing editor message</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10215">ansible/pull/10215</a></td>
-<td>Set proper permissions for ansible-vault view</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10260">ansible/pull/10260</a></td>
-<td>Set proper file permissions (umask 077) in write_d</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/10634">ansible/pull/10634</a></td>
-<td>Don't pad AES-CTR</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11190">ansible/pull/11190</a></td>
-<td>Add missing import in vault.py</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11336">ansible/pull/11336</a></td>
-<td>Update Vault rekey() in vault.py to validate files</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/11767">ansible/pull/11767</a></td>
-<td>add option to ansible-vault to read new password f</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12032">ansible/pull/12032</a></td>
-<td>Allow vault to operate from stdin/to stdout (i.e. </td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12106">ansible/pull/12106</a></td>
-<td>Vault cleanups, pass #1</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12112">ansible/pull/12112</a></td>
-<td>Implement cat-like filtering behaviour for encrypt</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12300">ansible/pull/12300</a></td>
-<td>Vault missing DataLoader for pwd file #12293</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12572">ansible/pull/12572</a></td>
-<td>Make ansible-vault view not write plaintext to a t</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12637">ansible/pull/12637</a></td>
-<td>Fix ansible-vault rekey</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/12899">ansible/pull/12899</a></td>
-<td>simplified vault password functions</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/14189">ansible/pull/14189</a></td>
-<td>Changes to convert to unicode at the borders</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/17440">ansible/pull/17440</a></td>
-<td>Fix NameError on 'ansible-vault view'</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/17590">ansible/pull/17590</a></td>
-<td>Vault fixes</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/3393">ansible/pull/3393</a></td>
-<td>Vault (ie. encryption) functionality</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6044">ansible/pull/6044</a></td>
-<td>Ansible vault: a framework for encrypting any play</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6058">ansible/pull/6058</a></td>
-<td>Ansible vault: a framework for encrypting any play</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6151">ansible/pull/6151</a></td>
-<td>Vault rewrite, pass 1</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/6580">ansible/pull/6580</a></td>
-<td>Changed call to EDITOR to allow for parameters</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7040">ansible/pull/7040</a></td>
-<td>ansible-vault view - new command</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7041">ansible/pull/7041</a></td>
-<td>ansible-vault view - new command</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/7174">ansible/pull/7174</a></td>
-<td>Initial ansible-vault with GPG support</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/8602">ansible/pull/8602</a></td>
-<td>Encrypts the vault file after edition only if the </td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/8694">ansible/pull/8694</a></td>
-<td>ansible-vault edit: replicate sudoedit behavior</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/9676">ansible/pull/9676</a></td>
-<td>Allow multiple vault password files</td>
 </tr>
 <tr>
 <td>locale_gen</td>
@@ -95066,6 +95106,91 @@
 <td>Fix typo in variable name</td>
 </tr>
 <tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2671">ansible-modules-core/issues/2671</a></td>
+<td>vmware_guest: feature request for snapshots</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4759">ansible-modules-core/issues/4759</a></td>
+<td>vmware_guest.py testing offer</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2706">ansible-modules-extras/issues/2706</a></td>
+<td>vmware_guest requires disk.size_gb, but ignores on</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2889">ansible-modules-extras/issues/2889</a></td>
+<td>vmware_guest.py testing offer </td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2900">ansible-modules-extras/issues/2900</a></td>
+<td>vmware_guest.py - Multiple datacenters folders not</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2911">ansible-modules-extras/issues/2911</a></td>
+<td>vmware_guest.py Clone operation not working</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3026">ansible-modules-extras/issues/3026</a></td>
+<td>vmware_guest module doesn't change VM memory durin</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2649">ansible-modules-extras/pull/2649</a></td>
+<td>Pyvmomi vmware_guest module</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2705">ansible-modules-extras/pull/2705</a></td>
+<td>Fix vmware_guest disk and nic parameters and docst</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2844">ansible-modules-extras/pull/2844</a></td>
+<td>Fix: remove 'nic' and 'disk' requirements for fact</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2909">ansible-modules-extras/pull/2909</a></td>
+<td>vmware_guest implement clonevm for multi-dc enviro</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2918">ansible-modules-extras/pull/2918</a></td>
+<td>vmware_guest: use the disk argument to modify disk</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2926">ansible-modules-extras/pull/2926</a></td>
+<td>vmware_guest improve and fix some of the errors</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2955">ansible-modules-extras/pull/2955</a></td>
+<td>vmware_guest: small refactor</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2974">ansible-modules-extras/pull/2974</a></td>
+<td>vmware_guest: do not assume disk params contain a </td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3027">ansible-modules-extras/pull/3027</a></td>
+<td>vmware_guest: set the cpu and memory settings on c</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3050">ansible-modules-extras/pull/3050</a></td>
+<td>Fix the comment in the vsphere guest example.</td>
+</tr>
+<tr>
 <td>ec2_snapshot</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3114">ansible-modules-core/issues/3114</a></td>
 <td>ec2_snapshot last_snapshot_min_age doesn't work be</td>
@@ -95624,86 +95749,6 @@
 <td>junos_config</td>
 <td><a href="https://github.com/ansible/ansible/pull/2691">ansible/pull/2691</a></td>
 <td>Avoid double colon with 'variable: "prompt"' style</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2671">ansible-modules-core/issues/2671</a></td>
-<td>vmware_guest: feature request for snapshots</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4759">ansible-modules-core/issues/4759</a></td>
-<td>vmware_guest.py testing offer</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2706">ansible-modules-extras/issues/2706</a></td>
-<td>vmware_guest requires disk.size_gb, but ignores on</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2889">ansible-modules-extras/issues/2889</a></td>
-<td>vmware_guest.py testing offer </td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2900">ansible-modules-extras/issues/2900</a></td>
-<td>vmware_guest.py - Multiple datacenters folders not</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2911">ansible-modules-extras/issues/2911</a></td>
-<td>vmware_guest.py Clone operation not working</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3026">ansible-modules-extras/issues/3026</a></td>
-<td>vmware_guest module doesn't change VM memory durin</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2649">ansible-modules-extras/pull/2649</a></td>
-<td>Pyvmomi vmware_guest module</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2705">ansible-modules-extras/pull/2705</a></td>
-<td>Fix vmware_guest disk and nic parameters and docst</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2844">ansible-modules-extras/pull/2844</a></td>
-<td>Fix: remove 'nic' and 'disk' requirements for fact</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2909">ansible-modules-extras/pull/2909</a></td>
-<td>vmware_guest implement clonevm for multi-dc enviro</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2918">ansible-modules-extras/pull/2918</a></td>
-<td>vmware_guest: use the disk argument to modify disk</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2926">ansible-modules-extras/pull/2926</a></td>
-<td>vmware_guest improve and fix some of the errors</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2955">ansible-modules-extras/pull/2955</a></td>
-<td>vmware_guest: small refactor</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2974">ansible-modules-extras/pull/2974</a></td>
-<td>vmware_guest: do not assume disk params contain a </td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3027">ansible-modules-extras/pull/3027</a></td>
-<td>vmware_guest: set the cpu and memory settings on c</td>
 </tr>
 <tr>
 <td>plugins</td>
@@ -106921,6 +106966,26 @@
 <td>flowdock module returns changed=false on succes</td>
 </tr>
 <tr>
+<td>cs_loadbalancer_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1042">ansible-modules-extras/pull/1042</a></td>
+<td>Add cloudstack loadbalancer modules</td>
+</tr>
+<tr>
+<td>cs_loadbalancer_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1125">ansible-modules-extras/pull/1125</a></td>
+<td>cloudstack: add new loadbalancer rule modules</td>
+</tr>
+<tr>
+<td>cs_loadbalancer_rule</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/982">ansible-modules-extras/pull/982</a></td>
+<td>Add cloudstack loadbalancer modules</td>
+</tr>
+<tr>
+<td>cs_loadbalancer_rule</td>
+<td><a href="https://github.com/ansible/ansible/pull/12799">ansible/pull/12799</a></td>
+<td>cloudstack: add tests for cs_loadbalancer_rule and</td>
+</tr>
+<tr>
 <td>rocketchat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2937">ansible-modules-core/issues/2937</a></td>
 <td>Custom TCP connection module </td>
@@ -107179,26 +107244,6 @@
 <td>github_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/692">ansible-modules-extras/pull/692</a></td>
 <td>New module - github_key</td>
-</tr>
-<tr>
-<td>cs_loadbalancer_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1042">ansible-modules-extras/pull/1042</a></td>
-<td>Add cloudstack loadbalancer modules</td>
-</tr>
-<tr>
-<td>cs_loadbalancer_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1125">ansible-modules-extras/pull/1125</a></td>
-<td>cloudstack: add new loadbalancer rule modules</td>
-</tr>
-<tr>
-<td>cs_loadbalancer_rule</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/982">ansible-modules-extras/pull/982</a></td>
-<td>Add cloudstack loadbalancer modules</td>
-</tr>
-<tr>
-<td>cs_loadbalancer_rule</td>
-<td><a href="https://github.com/ansible/ansible/pull/12799">ansible/pull/12799</a></td>
-<td>cloudstack: add tests for cs_loadbalancer_rule and</td>
 </tr>
 <tr>
 <td>conf</td>
@@ -110551,6 +110596,16 @@
 <td>Swap neutron alias</td>
 </tr>
 <tr>
+<td>when</td>
+<td><a href="https://github.com/ansible/ansible/issues/17769">ansible/issues/17769</a></td>
+<td>when x is defined not working to prevent included </td>
+</tr>
+<tr>
+<td>when</td>
+<td><a href="https://github.com/ansible/ansible/pull/17669">ansible/pull/17669</a></td>
+<td>removed 'bare var handling' from conditinals</td>
+</tr>
+<tr>
 <td>digital_ocean_floating_ip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2037">ansible-modules-extras/pull/2037</a></td>
 <td>Created digital_ocean_floating_ip module</td>
@@ -112391,6 +112446,11 @@
 <td>Add OpenStack Auth module</td>
 </tr>
 <tr>
+<td>avi</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2891">ansible-modules-extras/pull/2891</a></td>
+<td>Avi Vantage Ansible Module</td>
+</tr>
+<tr>
 <td>add_facts</td>
 <td><a href="https://github.com/ansible/ansible/pull/4871">ansible/pull/4871</a></td>
 <td>Implementation of add_facts module to allow the ag</td>
@@ -113054,11 +113114,6 @@
 <td>execute_lambda</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2558">ansible-modules-extras/pull/2558</a></td>
 <td>New module: execute_lambda (AWS)</td>
-</tr>
-<tr>
-<td>when</td>
-<td><a href="https://github.com/ansible/ansible/pull/17669">ansible/pull/17669</a></td>
-<td>removed 'bare var handling' from conditinals</td>
 </tr>
 <tr>
 <td>ec2_cache_parameters</td>

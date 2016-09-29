@@ -6732,11 +6732,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/16865">ansible/issues/16865</a></td>
-<td>Ansible 2.1.1.0 ignoring remote_user with delegate</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16868">ansible/issues/16868</a></td>
 <td>Exception due to NoneType retries variable</td>
 </tr>
@@ -7317,11 +7312,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17795">ansible/issues/17795</a></td>
-<td>Callback plugins duped in docs</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -7349,11 +7339,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/8161">ansible/issues/8161</a></td>
 <td>Settings in the inventory file are interpreted as </td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/8340">ansible/issues/8340</a></td>
-<td>Playbook-local vars_files loading a vault-encrypte</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8127,6 +8112,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17799">ansible/pull/17799</a></td>
+<td>Fix gathering=smart and custom module facts</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17800">ansible/pull/17800</a></td>
+<td>Run docker CI containers without privileged mode.</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -8702,6 +8697,11 @@
 </tr>
 <tr>
 <td>docker</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5082">ansible-modules-core/pull/5082</a></td>
+<td>Added check for NoneType RepoTags</td>
+</tr>
+<tr>
+<td>docker</td>
 <td><a href="https://github.com/ansible/ansible/pull/10601">ansible/pull/10601</a></td>
 <td>Fix getting name of container, so links work</td>
 </tr>
@@ -8749,151 +8749,6 @@
 <td>docker</td>
 <td><a href="https://github.com/ansible/ansible/pull/16824">ansible/pull/16824</a></td>
 <td>Fixing remote docker issues</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3198">ansible-modules-core/issues/3198</a></td>
-<td>user/group not accepting an actual array</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3291">ansible-modules-core/issues/3291</a></td>
-<td>user module should allow setting of primary group </td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3377">ansible-modules-core/issues/3377</a></td>
-<td>setting password when creating user causes job sta</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3536">ansible-modules-core/issues/3536</a></td>
-<td>user module on darwin: add support for hidden user</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3626">ansible-modules-core/issues/3626</a></td>
-<td>user module should delete by UID not name</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3808">ansible-modules-core/issues/3808</a></td>
-<td>user module fails on SLES11 SP1-SP3</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3936">ansible-modules-core/issues/3936</a></td>
-<td>user module should be able to configure RBAC attri</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4238">ansible-modules-core/issues/4238</a></td>
-<td>add user with user module for RHEL7 server failed</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4335">ansible-modules-core/issues/4335</a></td>
-<td>user module:  'update_password: on_create' always </td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4389">ansible-modules-core/issues/4389</a></td>
-<td>Cannot change root password on HP-UX</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4756">ansible-modules-core/issues/4756</a></td>
-<td>User module error: "Group  wheel does not exist" f</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/491">ansible-modules-core/issues/491</a></td>
-<td>user.py account removal</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4982">ansible-modules-core/issues/4982</a></td>
-<td>user module: Adding user with primary group keeps </td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1176">ansible-modules-core/pull/1176</a></td>
-<td>Fixes #1131: Add option to only add user to groups</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1709">ansible-modules-core/pull/1709</a></td>
-<td>system/user: add keep_shell option</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/881">ansible-modules-core/pull/881</a></td>
-<td>Fix 'Group does not exist' when adding groups</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1883">ansible-modules-extras/pull/1883</a></td>
-<td>Add a new module to handle schema with postgres</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1884">ansible-modules-extras/pull/1884</a></td>
-<td>Add a new module to handle postgresql tablespace</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2528">ansible-modules-extras/pull/2528</a></td>
-<td>Add elasticseach shield user module</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2598">ansible-modules-extras/pull/2598</a></td>
-<td>Add influxdb user module to create users</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2599">ansible-modules-extras/pull/2599</a></td>
-<td>Add initial version of hpilo modules, based on wor</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2817">ansible-modules-extras/pull/2817</a></td>
-<td>Ansible Artifactory Modules</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/issues/17341">ansible/issues/17341</a></td>
-<td>[BUG] Ansible playbook fails when ran with un-priv</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/12806">ansible/pull/12806</a></td>
-<td>added common user function to get global unique SI</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/13812">ansible/pull/13812</a></td>
-<td>added common user function to get global unique SI</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/16228">ansible/pull/16228</a></td>
-<td>fixed dzdo command to work like sudo and properly </td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/16697">ansible/pull/16697</a></td>
-<td> testing execute_setup without asking the user for</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/16698">ansible/pull/16698</a></td>
-<td> testing execute_delete without asking the user fo</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible/pull/17723">ansible/pull/17723</a></td>
-<td>Fixes #16865 : Use correct remote user for delegat</td>
 </tr>
 <tr>
 <td>git</td>
@@ -9039,6 +8894,146 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible/pull/16160">ansible/pull/16160</a></td>
 <td>git module `accept_hostkey=yes` option now works w</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3198">ansible-modules-core/issues/3198</a></td>
+<td>user/group not accepting an actual array</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3291">ansible-modules-core/issues/3291</a></td>
+<td>user module should allow setting of primary group </td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3377">ansible-modules-core/issues/3377</a></td>
+<td>setting password when creating user causes job sta</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3536">ansible-modules-core/issues/3536</a></td>
+<td>user module on darwin: add support for hidden user</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3626">ansible-modules-core/issues/3626</a></td>
+<td>user module should delete by UID not name</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3808">ansible-modules-core/issues/3808</a></td>
+<td>user module fails on SLES11 SP1-SP3</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3936">ansible-modules-core/issues/3936</a></td>
+<td>user module should be able to configure RBAC attri</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4238">ansible-modules-core/issues/4238</a></td>
+<td>add user with user module for RHEL7 server failed</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4335">ansible-modules-core/issues/4335</a></td>
+<td>user module:  'update_password: on_create' always </td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4389">ansible-modules-core/issues/4389</a></td>
+<td>Cannot change root password on HP-UX</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4756">ansible-modules-core/issues/4756</a></td>
+<td>User module error: "Group  wheel does not exist" f</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/491">ansible-modules-core/issues/491</a></td>
+<td>user.py account removal</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4982">ansible-modules-core/issues/4982</a></td>
+<td>user module: Adding user with primary group keeps </td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1176">ansible-modules-core/pull/1176</a></td>
+<td>Fixes #1131: Add option to only add user to groups</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1709">ansible-modules-core/pull/1709</a></td>
+<td>system/user: add keep_shell option</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/881">ansible-modules-core/pull/881</a></td>
+<td>Fix 'Group does not exist' when adding groups</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1883">ansible-modules-extras/pull/1883</a></td>
+<td>Add a new module to handle schema with postgres</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1884">ansible-modules-extras/pull/1884</a></td>
+<td>Add a new module to handle postgresql tablespace</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2528">ansible-modules-extras/pull/2528</a></td>
+<td>Add elasticseach shield user module</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2598">ansible-modules-extras/pull/2598</a></td>
+<td>Add influxdb user module to create users</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2599">ansible-modules-extras/pull/2599</a></td>
+<td>Add initial version of hpilo modules, based on wor</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2817">ansible-modules-extras/pull/2817</a></td>
+<td>Ansible Artifactory Modules</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/issues/17341">ansible/issues/17341</a></td>
+<td>[BUG] Ansible playbook fails when ran with un-priv</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/12806">ansible/pull/12806</a></td>
+<td>added common user function to get global unique SI</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/13812">ansible/pull/13812</a></td>
+<td>added common user function to get global unique SI</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/16228">ansible/pull/16228</a></td>
+<td>fixed dzdo command to work like sudo and properly </td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/16697">ansible/pull/16697</a></td>
+<td> testing execute_setup without asking the user for</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/pull/16698">ansible/pull/16698</a></td>
+<td> testing execute_delete without asking the user fo</td>
 </tr>
 <tr>
 <td>vsphere_guest</td>
@@ -10141,86 +10136,6 @@
 <td>correct command line argument for nmcli autoconnec</td>
 </tr>
 <tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
-<td>docker_container: support --tmpfs option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
-<td>docker_container fails to restart containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
-<td>docker_container sends volume to docker API errone</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
-<td>Feature idea: docker_container support for --usern</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
-<td>Adding support for published_ports: ALL, since tha</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
-<td>Fix unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
-<td>Add a environment example</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
-<td>Strict Mode fix for IIS versions earlier than IIS8</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2930">ansible-modules-extras/pull/2930</a></td>
-<td>PanOS module for admin password change using PanOS</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
-<td>Add 'refresh' mode to fact gathering</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
-<td>--host option bug fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
-<td>Add timeout information into async failure message</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
-<td>Add special tag 'skip', feature request #11045</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
-<td>version_compare  argument fix</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
-<td>Adds docker-machine module-utils</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
-<td>More tolerant unit parsing</td>
-</tr>
-<tr>
 <td>npm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1098">ansible-modules-extras/issues/1098</a></td>
 <td>npm: install doesn't pick up missing devDependenci</td>
@@ -10369,6 +10284,81 @@
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible/pull/17780">ansible/pull/17780</a></td>
 <td>copy: Use the local file's mode for the argument i</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
+<td>docker_container: support --tmpfs option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
+<td>docker_container fails to restart containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
+<td>docker_container sends volume to docker API errone</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
+<td>Feature idea: docker_container support for --usern</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
+<td>Adding support for published_ports: ALL, since tha</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
+<td>Fix unit parsing</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2088">ansible-modules-extras/pull/2088</a></td>
+<td>Add a environment example</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2752">ansible-modules-extras/pull/2752</a></td>
+<td>Strict Mode fix for IIS versions earlier than IIS8</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
+<td>Add 'refresh' mode to fact gathering</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16267">ansible/pull/16267</a></td>
+<td>--host option bug fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16333">ansible/pull/16333</a></td>
+<td>Add timeout information into async failure message</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
+<td>Add special tag 'skip', feature request #11045</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16493">ansible/pull/16493</a></td>
+<td>version_compare  argument fix</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16510">ansible/pull/16510</a></td>
+<td>Adds docker-machine module-utils</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/pull/16748">ansible/pull/16748</a></td>
+<td>More tolerant unit parsing</td>
 </tr>
 <tr>
 <td>ec2_ami_find</td>
@@ -10576,66 +10566,6 @@
 <td>Add new HDD EBS volume types</td>
 </tr>
 <tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
-<td>"authorized_key" re-orders the keys and comments i</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
 <td>new</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1610">ansible-modules-core/issues/1610</a></td>
 <td>Openstack load balancer member management module</td>
@@ -10754,6 +10684,66 @@
 <td>uri</td>
 <td><a href="https://github.com/ansible/ansible/pull/17089">ansible/pull/17089</a></td>
 <td>Add Digest auth support for uri module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
+<td>"authorized_key" re-orders the keys and comments i</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
 </tr>
 <tr>
 <td>mysql_user</td>
@@ -12416,36 +12406,6 @@
 <td>Add thin pool / volume managment to lvol (follow u</td>
 </tr>
 <tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
-<td>Set notes and resource_pool on vmware_guest</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
-<td>vmware_guest.py implement cluster support</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
-<td>vmware_guest.py implement datastore cluster suppor</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
-<td>vmware_guest.py  OS customization</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2928">ansible-modules-extras/issues/2928</a></td>
-<td>vmware_guest does not create multiple disks on clo</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3050">ansible-modules-extras/pull/3050</a></td>
-<td>Fix the comment in the vsphere guest example.</td>
-</tr>
-<tr>
 <td>vca_vapp</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1019">ansible-modules-extras/issues/1019</a></td>
 <td>vca_vapp errors in setting the computer_name to vm</td>
@@ -12954,6 +12914,31 @@
 <td>azure</td>
 <td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
 <td>Updating azure_rm.py to work with azure python sdk</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
+<td>Set notes and resource_pool on vmware_guest</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
+<td>vmware_guest.py implement cluster support</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
+<td>vmware_guest.py implement datastore cluster suppor</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
+<td>vmware_guest.py  OS customization</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2928">ansible-modules-extras/issues/2928</a></td>
+<td>vmware_guest does not create multiple disks on clo</td>
 </tr>
 <tr>
 <td>ios_config</td>
@@ -13576,6 +13561,26 @@
 <td>Add regex_capture jinja2 filter.</td>
 </tr>
 <tr>
+<td>at</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1694">ansible-modules-extras/issues/1694</a></td>
+<td>Support to wp-cli at web_infrastructure</td>
+</tr>
+<tr>
+<td>at</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1847">ansible-modules-extras/issues/1847</a></td>
+<td>support specifying a specific time to run `at` com</td>
+</tr>
+<tr>
+<td>at</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2930">ansible-modules-extras/pull/2930</a></td>
+<td>PanOS module for admin password change using PanOS</td>
+</tr>
+<tr>
+<td>at</td>
+<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
+<td>Fix OS version check for RHEL 4 to prevent executi</td>
+</tr>
+<tr>
 <td>datadog_monitor</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/3046">ansible-modules-extras/issues/3046</a></td>
 <td>datadog_monitor is not idempotent</td>
@@ -13999,21 +14004,6 @@
 <td>win_uri</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3008">ansible-modules-extras/pull/3008</a></td>
 <td>Adding "File" Attribute for Upload Files</td>
-</tr>
-<tr>
-<td>at</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1694">ansible-modules-extras/issues/1694</a></td>
-<td>Support to wp-cli at web_infrastructure</td>
-</tr>
-<tr>
-<td>at</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1847">ansible-modules-extras/issues/1847</a></td>
-<td>support specifying a specific time to run `at` com</td>
-</tr>
-<tr>
-<td>at</td>
-<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
-<td>Fix OS version check for RHEL 4 to prevent executi</td>
 </tr>
 <tr>
 <td>win_regedit</td>
@@ -14551,16 +14541,6 @@
 <td>test_eos_command: "unable to load response from de</td>
 </tr>
 <tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/issues/17346">ansible/issues/17346</a></td>
-<td>Add support for sharing files/secrets with multipl</td>
-</tr>
-<tr>
-<td>vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/17777">ansible/pull/17777</a></td>
-<td>Document `copy` module vault decryption behavior</td>
-</tr>
-<tr>
 <td>win_zip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/177">ansible-modules-extras/pull/177</a></td>
 <td>win_zip Module</td>
@@ -15016,6 +14996,11 @@
 <td>New dimensiondata compute</td>
 </tr>
 <tr>
+<td>satellite_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2479">ansible-modules-extras/pull/2479</a></td>
+<td>Add module for managing Satellite hosts</td>
+</tr>
+<tr>
 <td>mysql_query</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1593">ansible-modules-extras/pull/1593</a></td>
 <td>Add mysql_query module</td>
@@ -15269,6 +15254,11 @@
 <td>bigip_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/3000">ansible-modules-extras/issues/3000</a></td>
 <td>bigip_selfip fails when using traffic_group parame</td>
+</tr>
+<tr>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3061">ansible-modules-extras/pull/3061</a></td>
+<td>Fixes the enabled_vlans argument</td>
 </tr>
 <tr>
 <td>docs</td>
@@ -15796,9 +15786,9 @@
 <td>Add ec2_elb_tag module (see issue #439)</td>
 </tr>
 <tr>
-<td>satellite_hosts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2479">ansible-modules-extras/pull/2479</a></td>
-<td>Add module for managing Satellite hosts</td>
+<td>netapp_e_amg_member</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3028">ansible-modules-extras/pull/3028</a></td>
+<td>Add module to add and remove member volumes to an </td>
 </tr>
 <tr>
 <td>xenserver_facts</td>
@@ -15814,6 +15804,11 @@
 <td>ec2_vpc_nat_gateway</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2721">ansible-modules-extras/pull/2721</a></td>
 <td>Updated ec2_vpc_nat_gateway to use AWSRetry decora</td>
+</tr>
+<tr>
+<td>vault</td>
+<td><a href="https://github.com/ansible/ansible/issues/17346">ansible/issues/17346</a></td>
+<td>Add support for sharing files/secrets with multipl</td>
 </tr>
 <tr>
 <td>nxos_vpc_interface</td>
@@ -15906,11 +15901,6 @@
 <td>Add a guestfs connexion plugin</td>
 </tr>
 <tr>
-<td>netapp_e_amg_member</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3028">ansible-modules-extras/pull/3028</a></td>
-<td>Add module to add and remove member volumes to an </td>
-</tr>
-<tr>
 <td>os_host_aggregate_member</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2257">ansible-modules-extras/pull/2257</a></td>
 <td>Added os_host_aggregate and os_host_aggregate_memb</td>
@@ -15942,7 +15932,7 @@
 </tr>
 <tr>
 <td>avi</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2891">ansible-modules-extras/pull/2891</a></td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3062">ansible-modules-extras/pull/3062</a></td>
 <td>Avi Vantage Ansible Module</td>
 </tr>
 <tr>
@@ -16454,11 +16444,6 @@
 <td>win_lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3381">ansible-modules-core/issues/3381</a></td>
 <td>win_lineinfile idempotence broken</td>
-</tr>
-<tr>
-<td>when</td>
-<td><a href="https://github.com/ansible/ansible/issues/17769">ansible/issues/17769</a></td>
-<td>when x is defined not working to prevent included </td>
 </tr>
 <tr>
 <td>win_iis_virtualdirectory</td>
