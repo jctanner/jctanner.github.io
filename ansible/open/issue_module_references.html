@@ -7317,6 +7317,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17812">ansible/issues/17812</a></td>
+<td>adhoc and playbook command inconsistent</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -8047,11 +8052,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17526">ansible/pull/17526</a></td>
-<td>mv test_git to 'destructive' integration tests</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17533">ansible/pull/17533</a></td>
 <td>Added ability to add multiple hosts from custom Ac</td>
 </tr>
@@ -8129,6 +8129,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17809">ansible/pull/17809</a></td>
 <td>Fix length of quickstart video mentioned in docs</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17813">ansible/pull/17813</a></td>
+<td>Smart mode for sftp+scp</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17814">ansible/pull/17814</a></td>
+<td>Skip test_aws.py if boto3/botocore are missing</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9616,6 +9626,101 @@
 <td>Checking node health on Consul, besides service he</td>
 </tr>
 <tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
+<td> ec2_security You have specified two resources tha</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
+<td>rules_egress empty array not taken into account</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
+<td>Idempotence with EC2 Security Groups</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
+<td>ec2_group.py and --diff</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
+<td>ec2_group check mode is inaccurate</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
+<td>ec2_group failings when using groups in other acco</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
+<td>ec2_group should allow for security group revocati</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
+<td>ec2_group requires "description" to delete SG</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
+<td>Fix description of rules option in ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
+<td>check either ec2_group source or destination (egre</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
+<td>Add tags support to ec2_group module</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
+<td>ec2_group: Add a check for invalid ports on make_r</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
+<td>Fix ec2_group wait loop/return value consistency</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
+<td>Update ec2_group.py</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
+<td>eu-west-1a is a zone not a region. removed the 'a'</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
+<td>Add rule revocation capabilities to ec2_group</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
+<td>Fix ec2_group 'rules' doc string.</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4793">ansible-modules-core/pull/4793</a></td>
+<td>ec2_group.py - Fix duplicate rule exception</td>
+</tr>
+<tr>
+<td>ec2_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5095">ansible-modules-core/pull/5095</a></td>
+<td>Select EC2 classic security group if vpc_id is not</td>
+</tr>
+<tr>
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1735">ansible-modules-core/issues/1735</a></td>
 <td>File/directory mode must be string</td>
@@ -9804,96 +9909,6 @@
 <td>apt</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5070">ansible-modules-core/pull/5070</a></td>
 <td>Update apt.py documentation</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1987">ansible-modules-core/issues/1987</a></td>
-<td> ec2_security You have specified two resources tha</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2153">ansible-modules-core/issues/2153</a></td>
-<td>rules_egress empty array not taken into account</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2576">ansible-modules-core/issues/2576</a></td>
-<td>Idempotence with EC2 Security Groups</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3221">ansible-modules-core/issues/3221</a></td>
-<td>ec2_group.py and --diff</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3387">ansible-modules-core/issues/3387</a></td>
-<td>ec2_group check mode is inaccurate</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3529">ansible-modules-core/issues/3529</a></td>
-<td>ec2_group failings when using groups in other acco</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4251">ansible-modules-core/issues/4251</a></td>
-<td>ec2_group should allow for security group revocati</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4427">ansible-modules-core/issues/4427</a></td>
-<td>ec2_group requires "description" to delete SG</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2678">ansible-modules-core/pull/2678</a></td>
-<td>Fix description of rules option in ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2749">ansible-modules-core/pull/2749</a></td>
-<td>check either ec2_group source or destination (egre</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2803">ansible-modules-core/pull/2803</a></td>
-<td>Add tags support to ec2_group module</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3258">ansible-modules-core/pull/3258</a></td>
-<td>ec2_group: Add a check for invalid ports on make_r</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3431">ansible-modules-core/pull/3431</a></td>
-<td>Fix ec2_group wait loop/return value consistency</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3588">ansible-modules-core/pull/3588</a></td>
-<td>Update ec2_group.py</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3919">ansible-modules-core/pull/3919</a></td>
-<td>eu-west-1a is a zone not a region. removed the 'a'</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4254">ansible-modules-core/pull/4254</a></td>
-<td>Add rule revocation capabilities to ec2_group</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4362">ansible-modules-core/pull/4362</a></td>
-<td>Fix ec2_group 'rules' doc string.</td>
-</tr>
-<tr>
-<td>ec2_group</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4793">ansible-modules-core/pull/4793</a></td>
-<td>ec2_group.py - Fix duplicate rule exception</td>
 </tr>
 <tr>
 <td>rds</td>
@@ -13256,6 +13271,26 @@
 <td>Really fix python 2.4 compatibility in `pam_limits</td>
 </tr>
 <tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
+<td>Enable the use of JSON for junos_command</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
+<td>junos_command issue with argument rpcs (if there i</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5093">ansible-modules-core/issues/5093</a></td>
+<td>junos_command comparisons</td>
+</tr>
+<tr>
+<td>junos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4715">ansible-modules-core/pull/4715</a></td>
+<td>enabling output format JSON for junos #4103 #4104</td>
+</tr>
+<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4402">ansible-modules-core/issues/4402</a></td>
 <td>nxos_feature is broken with CLI transport (show fe</td>
@@ -13334,6 +13369,26 @@
 <td>find</td>
 <td><a href="https://github.com/ansible/ansible/issues/17288">ansible/issues/17288</a></td>
 <td>Ansible will not find tasks in a playbook with hos</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3718">ansible-modules-core/issues/3718</a></td>
+<td>nxos_config issue with creating L2 vlans using tra</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4223">ansible-modules-core/issues/4223</a></td>
+<td>nxos_config - TypeError: difference() got an unexp</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4896">ansible-modules-core/issues/4896</a></td>
+<td>nxos_config fails with TypeError: execute() got an</td>
+</tr>
+<tr>
+<td>nxos_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5094">ansible-modules-core/issues/5094</a></td>
+<td>nxos_config:  'copy running-config startup-config </td>
 </tr>
 <tr>
 <td>win_iis_webapppool</td>
@@ -13766,21 +13821,6 @@
 <td>debconf: Passwords are logged in cleartext</td>
 </tr>
 <tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
-<td>Enable the use of JSON for junos_command</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4274">ansible-modules-core/issues/4274</a></td>
-<td>junos_command issue with argument rpcs (if there i</td>
-</tr>
-<tr>
-<td>junos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4715">ansible-modules-core/pull/4715</a></td>
-<td>enabling output format JSON for junos #4103 #4104</td>
-</tr>
-<tr>
 <td>win_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
 <td>win_file: no longer causes a stack trace if called</td>
@@ -13809,21 +13849,6 @@
 <td>mysql_replication</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2223">ansible-modules-extras/pull/2223</a></td>
 <td>mysql_replication: feature - Support Multi-Source </td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3718">ansible-modules-core/issues/3718</a></td>
-<td>nxos_config issue with creating L2 vlans using tra</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4223">ansible-modules-core/issues/4223</a></td>
-<td>nxos_config - TypeError: difference() got an unexp</td>
-</tr>
-<tr>
-<td>nxos_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4896">ansible-modules-core/issues/4896</a></td>
-<td>nxos_config fails with TypeError: execute() got an</td>
 </tr>
 <tr>
 <td>pagerduty</td>
@@ -13884,6 +13909,21 @@
 <td>irc</td>
 <td><a href="https://github.com/ansible/ansible/pull/15925">ansible/pull/15925</a></td>
 <td>Clean up connection and interpreter settings from </td>
+</tr>
+<tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
+<td>eos_command cli transport cryptography error</td>
+</tr>
+<tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5092">ansible-modules-core/issues/5092</a></td>
+<td>eos_command: unable to load response from device</td>
+</tr>
+<tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17441">ansible/issues/17441</a></td>
+<td>test_eos_command: "unable to load response from de</td>
 </tr>
 <tr>
 <td>color</td>
@@ -14564,16 +14604,6 @@
 <td>homebrew</td>
 <td><a href="https://github.com/ansible/ansible/pull/13475">ansible/pull/13475</a></td>
 <td>Support for cowsay installed by homebrew</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
-<td>eos_command cli transport cryptography error</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17441">ansible/issues/17441</a></td>
-<td>test_eos_command: "unable to load response from de</td>
 </tr>
 <tr>
 <td>win_zip</td>
@@ -15461,6 +15491,11 @@
 <td>Return type 'string', not 'str'</td>
 </tr>
 <tr>
+<td>jenkins_script</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3068">ansible-modules-extras/pull/3068</a></td>
+<td>add jenkins_script module for running arbitrary je</td>
+</tr>
+<tr>
 <td>win_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4636">ansible-modules-core/issues/4636</a></td>
 <td>win_template always reports "changed"</td>
@@ -15564,11 +15599,6 @@
 <td>acm_certificate_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2718">ansible-modules-extras/pull/2718</a></td>
 <td>Retrieve facts from Amazon Certificate Manager.</td>
-</tr>
-<tr>
-<td>winrm</td>
-<td><a href="https://github.com/ansible/ansible/issues/17758">ansible/issues/17758</a></td>
-<td>kerberos: the specified credentials were rejected </td>
 </tr>
 <tr>
 <td>gce_mig</td>
