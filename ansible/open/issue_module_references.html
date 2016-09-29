@@ -2317,6 +2317,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3063">ansible-modules-extras/pull/3063</a></td>
+<td>Update shippable config</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
 <td>Created Comware 5.2 Ansible modules</td>
 </tr>
@@ -7242,11 +7247,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17724">ansible/issues/17724</a></td>
-<td>Sub-role variables not applied when dependant role</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17743">ansible/issues/17743</a></td>
 <td>OSX "Failed to connect to the host via ssh."</td>
 </tr>
@@ -8113,7 +8113,7 @@
 <tr>
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17800">ansible/pull/17800</a></td>
-<td>Run docker CI containers without privileged mode.</td>
+<td>WIP: Isolate privileged CI tests.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10412,8 +10412,8 @@
 </tr>
 <tr>
 <td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5084">ansible-modules-core/pull/5084</a></td>
-<td>Fixing bind mount pattern in the mount module</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5087">ansible-modules-core/pull/5087</a></td>
+<td>Set some hosts privileged so they can perform moun</td>
 </tr>
 <tr>
 <td>mount</td>
@@ -13421,6 +13421,26 @@
 <td>Adds custom_data parameter to azure virtual machin</td>
 </tr>
 <tr>
+<td>ios_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3831">ansible-modules-core/issues/3831</a></td>
+<td>list supported devices for ios and nxos</td>
+</tr>
+<tr>
+<td>ios_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4098">ansible-modules-core/issues/4098</a></td>
+<td>Exception while running ios_command which times ou</td>
+</tr>
+<tr>
+<td>ios_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5086">ansible-modules-core/issues/5086</a></td>
+<td>ios_template src not idempotent</td>
+</tr>
+<tr>
+<td>ios_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17514">ansible/issues/17514</a></td>
+<td>Support ProxyCommand in module_utils for Network l</td>
+</tr>
+<tr>
 <td>rabbitmq_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1278">ansible-modules-extras/issues/1278</a></td>
 <td>rabbitmq_user throws ValueError: need more than 1 </td>
@@ -13459,6 +13479,26 @@
 <td>mail</td>
 <td><a href="https://github.com/ansible/ansible/pull/15608">ansible/pull/15608</a></td>
 <td>fix mail when cc and bcc are used if None</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3964">ansible-modules-core/issues/3964</a></td>
+<td>docker for mac and docker or docker_images modules</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5085">ansible-modules-core/issues/5085</a></td>
+<td>docker_image module: "Error searching for image ..</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4623">ansible-modules-core/pull/4623</a></td>
+<td>Docker_image: Properly set changed events for pull</td>
+</tr>
+<tr>
+<td>docker_image</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5050">ansible-modules-core/pull/5050</a></td>
+<td>Fix intermittent image push error</td>
 </tr>
 <tr>
 <td>filesystem</td>
@@ -13851,21 +13891,6 @@
 <td>Clean up connection and interpreter settings from </td>
 </tr>
 <tr>
-<td>ios_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3831">ansible-modules-core/issues/3831</a></td>
-<td>list supported devices for ios and nxos</td>
-</tr>
-<tr>
-<td>ios_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4098">ansible-modules-core/issues/4098</a></td>
-<td>Exception while running ios_command which times ou</td>
-</tr>
-<tr>
-<td>ios_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17514">ansible/issues/17514</a></td>
-<td>Support ProxyCommand in module_utils for Network l</td>
-</tr>
-<tr>
 <td>color</td>
 <td><a href="https://github.com/ansible/ansible/issues/17750">ansible/issues/17750</a></td>
 <td>Support 256-color terminals</td>
@@ -13909,21 +13934,6 @@
 <td>make</td>
 <td><a href="https://github.com/ansible/ansible/pull/13974">ansible/pull/13974</a></td>
 <td>Make ModuleArgsParser more understandable</td>
-</tr>
-<tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3964">ansible-modules-core/issues/3964</a></td>
-<td>docker for mac and docker or docker_images modules</td>
-</tr>
-<tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4623">ansible-modules-core/pull/4623</a></td>
-<td>Docker_image: Properly set changed events for pull</td>
-</tr>
-<tr>
-<td>docker_image</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5050">ansible-modules-core/pull/5050</a></td>
-<td>Fix intermittent image push error</td>
 </tr>
 <tr>
 <td>junos_config</td>
@@ -14491,6 +14501,16 @@
 <td>Fixing nxos_portchannel</td>
 </tr>
 <tr>
+<td>dimensiondata</td>
+<td><a href="https://github.com/ansible/ansible/pull/17604">ansible/pull/17604</a></td>
+<td>module_utils/dimensiondata</td>
+</tr>
+<tr>
+<td>dimensiondata</td>
+<td><a href="https://github.com/ansible/ansible/pull/17802">ansible/pull/17802</a></td>
+<td>New dimensiondata load balancer</td>
+</tr>
+<tr>
 <td>open_iscsi</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1812">ansible-modules-extras/issues/1812</a></td>
 <td>[open_scsi] target ip/port should be forced when l</td>
@@ -14729,16 +14749,6 @@
 <td>async_wrapper</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4799">ansible-modules-core/pull/4799</a></td>
 <td>Async chdir</td>
-</tr>
-<tr>
-<td>mongodb_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2731">ansible-modules-extras/issues/2731</a></td>
-<td>unable to add mongo admin user</td>
-</tr>
-<tr>
-<td>mongodb_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3047">ansible-modules-extras/pull/3047</a></td>
-<td>Fix mongodb user compatibility check (#2731)</td>
 </tr>
 <tr>
 <td>cobbler</td>
@@ -15631,11 +15641,6 @@
 <td>network: Add new module openssl_csr</td>
 </tr>
 <tr>
-<td>dimensiondata</td>
-<td><a href="https://github.com/ansible/ansible/pull/17604">ansible/pull/17604</a></td>
-<td>module_utils/dimensiondata</td>
-</tr>
-<tr>
 <td>pkgng</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2339">ansible-modules-extras/pull/2339</a></td>
 <td>Add "clean" option support for pkgng module</td>
@@ -16384,6 +16389,11 @@
 <td>cs_volume</td>
 <td><a href="https://github.com/ansible/ansible/pull/11323">ansible/pull/11323</a></td>
 <td>Add a new "on_exception" callback method.</td>
+</tr>
+<tr>
+<td>mongodb_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2731">ansible-modules-extras/issues/2731</a></td>
+<td>unable to add mongo admin user</td>
 </tr>
 <tr>
 <td>win_certificate_store</td>
