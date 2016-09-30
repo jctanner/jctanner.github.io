@@ -7307,11 +7307,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17808">ansible/issues/17808</a></td>
-<td>review and reopen bug #13401</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17810">ansible/issues/17810</a></td>
 <td>Tasks Running in Included File Despite Conditional</td>
 </tr>
@@ -7324,6 +7319,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17815">ansible/issues/17815</a></td>
 <td>unify the lists of strings/values that are boolean</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17826">ansible/issues/17826</a></td>
+<td>ansible pipelining config for aix</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8133,7 +8133,7 @@
 <tr>
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17800">ansible/pull/17800</a></td>
-<td>WIP: Isolate privileged CI tests.</td>
+<td>Separate privileged/unprivileged tests.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -10084,6 +10084,11 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5078">ansible-modules-core/issues/5078</a></td>
 <td>[windows] ansible_reboot_pending false negative</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5100">ansible-modules-core/issues/5100</a></td>
+<td>Windows setup module fails getting user UID.</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -13736,6 +13741,21 @@
 <td>Simplify and improve package name squashing</td>
 </tr>
 <tr>
+<td>hashi_vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/13907">ansible/pull/13907</a></td>
+<td>Remove 3rdparty dependency, allow token to be spec</td>
+</tr>
+<tr>
+<td>hashi_vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/16169">ansible/pull/16169</a></td>
+<td>hashi_vault: Support self-signed certificates</td>
+</tr>
+<tr>
+<td>hashi_vault</td>
+<td><a href="https://github.com/ansible/ansible/pull/17824">ansible/pull/17824</a></td>
+<td>[UNTESTED] code cleanup and error improvement for </td>
+</tr>
+<tr>
 <td>constants</td>
 <td><a href="https://github.com/ansible/ansible/pull/10261">ansible/pull/10261</a></td>
 <td>Feature/galaxy idempotency</td>
@@ -14076,6 +14096,16 @@
 <td>Add test of the selinux module (as a start)</td>
 </tr>
 <tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5012">ansible-modules-core/pull/5012</a></td>
+<td>Fixing nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible/issues/17825">ansible/issues/17825</a></td>
+<td>Responses from remote devices not sanitized comple</td>
+</tr>
+<tr>
 <td>infoblox</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1757">ansible-modules-extras/pull/1757</a></td>
 <td>Add new infoblox module</td>
@@ -14234,16 +14264,6 @@
 <td>ec2_scaling_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3130">ansible-modules-core/issues/3130</a></td>
 <td>Add support for StepScaling policies to ec2_scalin</td>
-</tr>
-<tr>
-<td>hashi_vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/13907">ansible/pull/13907</a></td>
-<td>Remove 3rdparty dependency, allow token to be spec</td>
-</tr>
-<tr>
-<td>hashi_vault</td>
-<td><a href="https://github.com/ansible/ansible/pull/16169">ansible/pull/16169</a></td>
-<td>hashi_vault: Support self-signed certificates</td>
 </tr>
 <tr>
 <td>ec2_tag</td>
@@ -14906,6 +14926,16 @@
 <td>Pear module not verbose enough while failing</td>
 </tr>
 <tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/issues/17518">ansible/issues/17518</a></td>
+<td>make callback profile_tasks independent from syste</td>
+</tr>
+<tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/17821">ansible/pull/17821</a></td>
+<td>Profile tasks style</td>
+</tr>
+<tr>
 <td>win_unzip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1233">ansible-modules-extras/issues/1233</a></td>
 <td>win_unzip exception on windows 2012 R2 core</td>
@@ -14929,11 +14959,6 @@
 <td>alternatives</td>
 <td><a href="https://github.com/ansible/ansible/pull/16940">ansible/pull/16940</a></td>
 <td>Set example ansible.cfg *includes_static options t</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5012">ansible-modules-core/pull/5012</a></td>
-<td>Fixing nxos_interface</td>
 </tr>
 <tr>
 <td>nxos_ntp</td>
@@ -15696,6 +15721,11 @@
 <td>profitbricks module news update due to cloudapi v2</td>
 </tr>
 <tr>
+<td>filetree</td>
+<td><a href="https://github.com/ansible/ansible/pull/17823">ansible/pull/17823</a></td>
+<td>Filetree deindent</td>
+</tr>
+<tr>
 <td>pulp_repo</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1961">ansible-modules-extras/pull/1961</a></td>
 <td>Pulp repo</td>
@@ -16246,6 +16276,11 @@
 <td>become_method: Add support for ksu</td>
 </tr>
 <tr>
+<td>conditional</td>
+<td><a href="https://github.com/ansible/ansible/pull/17822">ansible/pull/17822</a></td>
+<td>Use a alt constructor for Conditional</td>
+</tr>
+<tr>
 <td>cpanm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/830">ansible-modules-extras/issues/830</a></td>
 <td>Missing attribute to call cpanm with extra argumen</td>
@@ -16544,11 +16579,6 @@
 <td>vmware_nic</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1836">ansible-modules-extras/pull/1836</a></td>
 <td>Vmware nic</td>
-</tr>
-<tr>
-<td>profile_tasks</td>
-<td><a href="https://github.com/ansible/ansible/issues/17518">ansible/issues/17518</a></td>
-<td>make callback profile_tasks independent from syste</td>
 </tr>
 <tr>
 <td>hashing</td>
