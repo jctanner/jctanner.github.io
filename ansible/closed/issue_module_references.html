@@ -152,6 +152,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/857">ansible-modules-core/issues/857</a></td>
+<td>Will ec2_asg support "default_cooldown" and "termi</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1517">ansible-modules-core/pull/1517</a></td>
 <td>fixes cache time handling in apt module</td>
 </tr>
@@ -12774,6 +12779,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17808">ansible/issues/17808</a></td>
 <td>review and reopen bug #13401</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17826">ansible/issues/17826</a></td>
+<td>ansible pipelining config for aix</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -34792,6 +34802,11 @@
 </tr>
 <tr>
 <td>ec2</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3877">ansible-modules-core/issues/3877</a></td>
+<td>ec2 module hangs if spot request fails</td>
+</tr>
+<tr>
+<td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/396">ansible-modules-core/issues/396</a></td>
 <td>ec2 module breaks in Ansible 1.8</td>
 </tr>
@@ -35239,6 +35254,11 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4767">ansible-modules-core/pull/4767</a></td>
 <td>Fix failure when powering on/off EC2 instances by </td>
+</tr>
+<tr>
+<td>ec2</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4990">ansible-modules-core/pull/4990</a></td>
+<td>Check status of finished spot instance requests</td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -63616,511 +63636,6 @@
 <td>Exception when variable name and delegate_to hostn</td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1259">ansible-modules-core/issues/1259</a></td>
-<td>Mount module "state: unmounted" should not require</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1577">ansible-modules-core/issues/1577</a></td>
-<td>Mount task skipping</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/181">ansible-modules-core/issues/181</a></td>
-<td>mount: Support for Check Mode</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1861">ansible-modules-core/issues/1861</a></td>
-<td>mount module _escape_fstab doesnt handle integers</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1889">ansible-modules-core/issues/1889</a></td>
-<td>mount should not require fstype/src for state=unmo</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1968">ansible-modules-core/issues/1968</a></td>
-<td>lookup password does not deal well with spaces in </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2186">ansible-modules-core/issues/2186</a></td>
-<td>Mount fails if ansible user has no read permission</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3153">ansible-modules-core/issues/3153</a></td>
-<td>fstab parameter of mount module won't work</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3192">ansible-modules-core/issues/3192</a></td>
-<td>`system/mount` module adds `fstab` entries with sp</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
-<td>Mount failed but task succeeded</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
-<td>Mount Fails in Ubuntu 14.04</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4983">ansible-modules-core/issues/4983</a></td>
-<td>mount doesn't support -T option on RHEL6</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/499">ansible-modules-core/issues/499</a></td>
-<td>mysql: ansible equivalent to mysql's mysql_secure_</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
-<td>Mount opts argument default value is incorrect</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5073">ansible-modules-core/issues/5073</a></td>
-<td>[2.1.2-RC5] Mount issue with nfs storage</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/530">ansible-modules-core/issues/530</a></td>
-<td>Mount module does not accept spaces in mount point</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/812">ansible-modules-core/issues/812</a></td>
-<td>Mount module throws KeyError exception when "opts"</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/86">ansible-modules-core/issues/86</a></td>
-<td>mount module doesn't work correctly with mount opt</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1283">ansible-modules-core/pull/1283</a></td>
-<td>ansible-modules-core Issue #1252</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1286">ansible-modules-core/pull/1286</a></td>
-<td>Use of proper fstab file on FreeBSD</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1357">ansible-modules-core/pull/1357</a></td>
-<td>Proposed fix to not require src and fstype argumen</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1454">ansible-modules-core/pull/1454</a></td>
-<td>Escape spaces, backslashes and ampersands in fstab</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/195">ansible-modules-core/pull/195</a></td>
-<td> mount: Support for Check Mode fixes #181 </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2737">ansible-modules-core/pull/2737</a></td>
-<td>use custom ismount function in mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3193">ansible-modules-core/pull/3193</a></td>
-<td>Escape spaces, backslashes when create new entry i</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
-<td>Add support for setting fstab location on Linux to</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3412">ansible-modules-core/pull/3412</a></td>
-<td>Allow mount module to take integer passno</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3413">ansible-modules-core/pull/3413</a></td>
-<td>Fix mount's handling of passno</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3417">ansible-modules-core/pull/3417</a></td>
-<td>Fix mounts handling of passno</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3678">ansible-modules-core/pull/3678</a></td>
-<td>Port mount to python3 and python 2.4 compatible sy</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4581">ansible-modules-core/pull/4581</a></td>
-<td>Port mount.py to python3, need to use six.iteritem</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4642">ansible-modules-core/pull/4642</a></td>
-<td>Fix #3153 again</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4771">ansible-modules-core/pull/4771</a></td>
-<td>Added Solaris support to core mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/49">ansible-modules-core/pull/49</a></td>
-<td>Fixes bind mounts</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4952">ansible-modules-core/pull/4952</a></td>
-<td>Update mount.py documentation</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4980">ansible-modules-core/pull/4980</a></td>
-<td>Fix bind mount</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4987">ansible-modules-core/pull/4987</a></td>
-<td>Working subset of mount fixes</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4989">ansible-modules-core/pull/4989</a></td>
-<td>Fix #3153 again</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4993">ansible-modules-core/pull/4993</a></td>
-<td>Set PRIVILEGED=true for Linux integration tests.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
-<td>Ultimate fix of the mount module for Linux</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5084">ansible-modules-core/pull/5084</a></td>
-<td>Fixing bind mount pattern in the mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5087">ansible-modules-core/pull/5087</a></td>
-<td>Set some hosts privileged so they can perform moun</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/578">ansible-modules-core/pull/578</a></td>
-<td>allows spaces in names for mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/815">ansible-modules-core/pull/815</a></td>
-<td>fix for mount w/o opts (bug introduced when fixing</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/925">ansible-modules-core/pull/925</a></td>
-<td>Setting the actual passno and dump defaults, and w</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3031">ansible-modules-extras/pull/3031</a></td>
-<td>Set PRIVILEGED=true for Linux integration tests.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/11529">ansible/issues/11529</a></td>
-<td>Unable to mount multiple swap files</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/11664">ansible/issues/11664</a></td>
-<td>mount module not working with Centos 7 the same wa</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/11781">ansible/issues/11781</a></td>
-<td>"absent" in mount module should not remove the NFS</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/13070">ansible/issues/13070</a></td>
-<td>Ansible Mount module fails because -o remount is a</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/13211">ansible/issues/13211</a></td>
-<td>mount module with the state=unmounted not removing</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/13312">ansible/issues/13312</a></td>
-<td>mount module feature request: allow to mount witho</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14076">ansible/issues/14076</a></td>
-<td>Mount module on OSX</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14123">ansible/issues/14123</a></td>
-<td>mount module problem</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14139">ansible/issues/14139</a></td>
-<td>mount module can't handle nested mountpoints</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14627">ansible/issues/14627</a></td>
-<td>Mount a volume based on Size</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14653">ansible/issues/14653</a></td>
-<td>fstab parameter of mount module won't work</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/14876">ansible/issues/14876</a></td>
-<td>Error in mount module documentation</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/15640">ansible/issues/15640</a></td>
-<td>use command run s3fs  mount failed</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/16086">ansible/issues/16086</a></td>
-<td>Mount failed but task succeeded</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/16323">ansible/issues/16323</a></td>
-<td>mount module does not act as documented</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/16594">ansible/issues/16594</a></td>
-<td>mount module not correctly working in ansible 2.0.</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/2301">ansible/issues/2301</a></td>
-<td>Add label option to mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/3090">ansible/issues/3090</a></td>
-<td>Mount module creates duplicate entries in /etc/fst</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/3613">ansible/issues/3613</a></td>
-<td>Unit test fails if you dont have access to mount i</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/4989">ansible/issues/4989</a></td>
-<td>mount a sub folder: protocol error?</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/5474">ansible/issues/5474</a></td>
-<td>docs are double-html-encoding some characters in c</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/6560">ansible/issues/6560</a></td>
-<td>issues with mount using mac and smbfs: option not </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/6891">ansible/issues/6891</a></td>
-<td>Gathering facts fails if a cifs mount is present o</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/6909">ansible/issues/6909</a></td>
-<td>until module is ignored if when module is used in </td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/7010">ansible/issues/7010</a></td>
-<td>mount module doesn't remount a mount after opts ch</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/7121">ansible/issues/7121</a></td>
-<td>mount module doesn't work correctly with mount opt</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/7791">ansible/issues/7791</a></td>
-<td>mount documentation does not match code</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/8274">ansible/issues/8274</a></td>
-<td>Doc: Add fstype arg to the mount examples</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/8377">ansible/issues/8377</a></td>
-<td>mount module: -o remount fails with nfs</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/8379">ansible/issues/8379</a></td>
-<td>mount module does nothing if /etc/fstab agrees, ev</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/issues/8422">ansible/issues/8422</a></td>
-<td>mount: Bind Mount repeats mount command when using</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/1427">ansible/pull/1427</a></td>
-<td>mount: update example with mandatory option</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/17756">ansible/pull/17756</a></td>
-<td>Re-enable tests and add jtyr's mount update for te</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/1871">ansible/pull/1871</a></td>
-<td>Enhanced mount module to make 'src' optional</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/2014">ansible/pull/2014</a></td>
-<td>Get device facts + get mount facts</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/2304">ansible/pull/2304</a></td>
-<td>add docs to mount module using LABEL and UUID</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/3083">ansible/pull/3083</a></td>
-<td>add "size_{total,free}" to the "mount" facts</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/3242">ansible/pull/3242</a></td>
-<td>now mount/unmount binaries are searched for instea</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/5046">ansible/pull/5046</a></td>
-<td>mention that the mount module will remove mount di</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/5237">ansible/pull/5237</a></td>
-<td>Module for determining which physical disks corres</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/598">ansible/pull/598</a></td>
-<td>mount/fstab module addition</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/6026">ansible/pull/6026</a></td>
-<td>Add support for calling swapon and swapoff from th</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/632">ansible/pull/632</a></td>
-<td>Standardizing the mount module + Bug fixing</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/654">ansible/pull/654</a></td>
-<td>Standardizing the module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/669">ansible/pull/669</a></td>
-<td>Standardizing the mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/7795">ansible/pull/7795</a></td>
-<td>Modifying mount module documentation to match code</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8180">ansible/pull/8180</a></td>
-<td>mount module: execute the mount only after path va</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8223">ansible/pull/8223</a></td>
-<td>Create fstab if not exists</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8270">ansible/pull/8270</a></td>
-<td>Default for fstab missing, causing KeyError: fstab</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8273">ansible/pull/8273</a></td>
-<td>Add fstype arg to the mount examples</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8283">ansible/pull/8283</a></td>
-<td>Add fstype arg to the mount examples</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8447">ansible/pull/8447</a></td>
-<td>Support specifying images and flavors by name</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/8524">ansible/pull/8524</a></td>
-<td>mount: fix for #7121</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/860">ansible/pull/860</a></td>
-<td>fixed missing module argument for mount module</td>
-</tr>
-<tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/9428">ansible/pull/9428</a></td>
-<td>parse /etc/fstab on OpenBSD to get mount facts</td>
-</tr>
-<tr>
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1026">ansible-modules-core/issues/1026</a></td>
 <td>  vsphere_guest  unsupported parameter for module:</td>
@@ -64624,6 +64139,506 @@
 <td>vsphere_guest</td>
 <td><a href="https://github.com/ansible/ansible/pull/8973">ansible/pull/8973</a></td>
 <td>vsphere_guest module doc fix</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1259">ansible-modules-core/issues/1259</a></td>
+<td>Mount module "state: unmounted" should not require</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1577">ansible-modules-core/issues/1577</a></td>
+<td>Mount task skipping</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/181">ansible-modules-core/issues/181</a></td>
+<td>mount: Support for Check Mode</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1861">ansible-modules-core/issues/1861</a></td>
+<td>mount module _escape_fstab doesnt handle integers</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1889">ansible-modules-core/issues/1889</a></td>
+<td>mount should not require fstype/src for state=unmo</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1968">ansible-modules-core/issues/1968</a></td>
+<td>lookup password does not deal well with spaces in </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2186">ansible-modules-core/issues/2186</a></td>
+<td>Mount fails if ansible user has no read permission</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3153">ansible-modules-core/issues/3153</a></td>
+<td>fstab parameter of mount module won't work</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3192">ansible-modules-core/issues/3192</a></td>
+<td>`system/mount` module adds `fstab` entries with sp</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3854">ansible-modules-core/issues/3854</a></td>
+<td>Mount failed but task succeeded</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4693">ansible-modules-core/issues/4693</a></td>
+<td>Mount Fails in Ubuntu 14.04</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4983">ansible-modules-core/issues/4983</a></td>
+<td>mount doesn't support -T option on RHEL6</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/499">ansible-modules-core/issues/499</a></td>
+<td>mysql: ansible equivalent to mysql's mysql_secure_</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5051">ansible-modules-core/issues/5051</a></td>
+<td>Mount opts argument default value is incorrect</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/530">ansible-modules-core/issues/530</a></td>
+<td>Mount module does not accept spaces in mount point</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/812">ansible-modules-core/issues/812</a></td>
+<td>Mount module throws KeyError exception when "opts"</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/86">ansible-modules-core/issues/86</a></td>
+<td>mount module doesn't work correctly with mount opt</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1283">ansible-modules-core/pull/1283</a></td>
+<td>ansible-modules-core Issue #1252</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1286">ansible-modules-core/pull/1286</a></td>
+<td>Use of proper fstab file on FreeBSD</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1357">ansible-modules-core/pull/1357</a></td>
+<td>Proposed fix to not require src and fstype argumen</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1454">ansible-modules-core/pull/1454</a></td>
+<td>Escape spaces, backslashes and ampersands in fstab</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/195">ansible-modules-core/pull/195</a></td>
+<td> mount: Support for Check Mode fixes #181 </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2737">ansible-modules-core/pull/2737</a></td>
+<td>use custom ismount function in mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3193">ansible-modules-core/pull/3193</a></td>
+<td>Escape spaces, backslashes when create new entry i</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3271">ansible-modules-core/pull/3271</a></td>
+<td>Add support for setting fstab location on Linux to</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3412">ansible-modules-core/pull/3412</a></td>
+<td>Allow mount module to take integer passno</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3413">ansible-modules-core/pull/3413</a></td>
+<td>Fix mount's handling of passno</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3417">ansible-modules-core/pull/3417</a></td>
+<td>Fix mounts handling of passno</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3678">ansible-modules-core/pull/3678</a></td>
+<td>Port mount to python3 and python 2.4 compatible sy</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4581">ansible-modules-core/pull/4581</a></td>
+<td>Port mount.py to python3, need to use six.iteritem</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4642">ansible-modules-core/pull/4642</a></td>
+<td>Fix #3153 again</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4771">ansible-modules-core/pull/4771</a></td>
+<td>Added Solaris support to core mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/49">ansible-modules-core/pull/49</a></td>
+<td>Fixes bind mounts</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4952">ansible-modules-core/pull/4952</a></td>
+<td>Update mount.py documentation</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4980">ansible-modules-core/pull/4980</a></td>
+<td>Fix bind mount</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4987">ansible-modules-core/pull/4987</a></td>
+<td>Working subset of mount fixes</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4989">ansible-modules-core/pull/4989</a></td>
+<td>Fix #3153 again</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4993">ansible-modules-core/pull/4993</a></td>
+<td>Set PRIVILEGED=true for Linux integration tests.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5055">ansible-modules-core/pull/5055</a></td>
+<td>Ultimate fix of the mount module for Linux</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5084">ansible-modules-core/pull/5084</a></td>
+<td>Fixing bind mount pattern in the mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5087">ansible-modules-core/pull/5087</a></td>
+<td>Set some hosts privileged so they can perform moun</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/578">ansible-modules-core/pull/578</a></td>
+<td>allows spaces in names for mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/815">ansible-modules-core/pull/815</a></td>
+<td>fix for mount w/o opts (bug introduced when fixing</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/925">ansible-modules-core/pull/925</a></td>
+<td>Setting the actual passno and dump defaults, and w</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3031">ansible-modules-extras/pull/3031</a></td>
+<td>Set PRIVILEGED=true for Linux integration tests.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/11529">ansible/issues/11529</a></td>
+<td>Unable to mount multiple swap files</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/11664">ansible/issues/11664</a></td>
+<td>mount module not working with Centos 7 the same wa</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/11781">ansible/issues/11781</a></td>
+<td>"absent" in mount module should not remove the NFS</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/13070">ansible/issues/13070</a></td>
+<td>Ansible Mount module fails because -o remount is a</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/13211">ansible/issues/13211</a></td>
+<td>mount module with the state=unmounted not removing</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/13312">ansible/issues/13312</a></td>
+<td>mount module feature request: allow to mount witho</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14076">ansible/issues/14076</a></td>
+<td>Mount module on OSX</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14123">ansible/issues/14123</a></td>
+<td>mount module problem</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14139">ansible/issues/14139</a></td>
+<td>mount module can't handle nested mountpoints</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14627">ansible/issues/14627</a></td>
+<td>Mount a volume based on Size</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14653">ansible/issues/14653</a></td>
+<td>fstab parameter of mount module won't work</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/14876">ansible/issues/14876</a></td>
+<td>Error in mount module documentation</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/15640">ansible/issues/15640</a></td>
+<td>use command run s3fs  mount failed</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/16086">ansible/issues/16086</a></td>
+<td>Mount failed but task succeeded</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/16323">ansible/issues/16323</a></td>
+<td>mount module does not act as documented</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/16594">ansible/issues/16594</a></td>
+<td>mount module not correctly working in ansible 2.0.</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/2301">ansible/issues/2301</a></td>
+<td>Add label option to mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/3090">ansible/issues/3090</a></td>
+<td>Mount module creates duplicate entries in /etc/fst</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/3613">ansible/issues/3613</a></td>
+<td>Unit test fails if you dont have access to mount i</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/4989">ansible/issues/4989</a></td>
+<td>mount a sub folder: protocol error?</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/5474">ansible/issues/5474</a></td>
+<td>docs are double-html-encoding some characters in c</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/6560">ansible/issues/6560</a></td>
+<td>issues with mount using mac and smbfs: option not </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/6891">ansible/issues/6891</a></td>
+<td>Gathering facts fails if a cifs mount is present o</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/6909">ansible/issues/6909</a></td>
+<td>until module is ignored if when module is used in </td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/7010">ansible/issues/7010</a></td>
+<td>mount module doesn't remount a mount after opts ch</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/7121">ansible/issues/7121</a></td>
+<td>mount module doesn't work correctly with mount opt</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/7791">ansible/issues/7791</a></td>
+<td>mount documentation does not match code</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/8274">ansible/issues/8274</a></td>
+<td>Doc: Add fstype arg to the mount examples</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/8377">ansible/issues/8377</a></td>
+<td>mount module: -o remount fails with nfs</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/8379">ansible/issues/8379</a></td>
+<td>mount module does nothing if /etc/fstab agrees, ev</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/issues/8422">ansible/issues/8422</a></td>
+<td>mount: Bind Mount repeats mount command when using</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/1427">ansible/pull/1427</a></td>
+<td>mount: update example with mandatory option</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/17756">ansible/pull/17756</a></td>
+<td>Re-enable tests and add jtyr's mount update for te</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/1871">ansible/pull/1871</a></td>
+<td>Enhanced mount module to make 'src' optional</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/2014">ansible/pull/2014</a></td>
+<td>Get device facts + get mount facts</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/2304">ansible/pull/2304</a></td>
+<td>add docs to mount module using LABEL and UUID</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/3083">ansible/pull/3083</a></td>
+<td>add "size_{total,free}" to the "mount" facts</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/3242">ansible/pull/3242</a></td>
+<td>now mount/unmount binaries are searched for instea</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/5046">ansible/pull/5046</a></td>
+<td>mention that the mount module will remove mount di</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/5237">ansible/pull/5237</a></td>
+<td>Module for determining which physical disks corres</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/598">ansible/pull/598</a></td>
+<td>mount/fstab module addition</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/6026">ansible/pull/6026</a></td>
+<td>Add support for calling swapon and swapoff from th</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/632">ansible/pull/632</a></td>
+<td>Standardizing the mount module + Bug fixing</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/654">ansible/pull/654</a></td>
+<td>Standardizing the module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/669">ansible/pull/669</a></td>
+<td>Standardizing the mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/7795">ansible/pull/7795</a></td>
+<td>Modifying mount module documentation to match code</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8180">ansible/pull/8180</a></td>
+<td>mount module: execute the mount only after path va</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8223">ansible/pull/8223</a></td>
+<td>Create fstab if not exists</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8270">ansible/pull/8270</a></td>
+<td>Default for fstab missing, causing KeyError: fstab</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8273">ansible/pull/8273</a></td>
+<td>Add fstype arg to the mount examples</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8283">ansible/pull/8283</a></td>
+<td>Add fstype arg to the mount examples</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8447">ansible/pull/8447</a></td>
+<td>Support specifying images and flavors by name</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/8524">ansible/pull/8524</a></td>
+<td>mount: fix for #7121</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/860">ansible/pull/860</a></td>
+<td>fixed missing module argument for mount module</td>
+</tr>
+<tr>
+<td>mount</td>
+<td><a href="https://github.com/ansible/ansible/pull/9428">ansible/pull/9428</a></td>
+<td>parse /etc/fstab on OpenBSD to get mount facts</td>
 </tr>
 <tr>
 <td>rds</td>
@@ -102756,6 +102771,46 @@
 <td>Vyos cleanup</td>
 </tr>
 <tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
+<td>VMWare inventory fails on UnicodeDecodeError excep</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/issues/17811">ansible/issues/17811</a></td>
+<td>Allow vmware_inventory to control acceptance of SS</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
+<td>misc fixes for vmware_inventory.py</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
+<td>vmware_inventory.py excude more properties and fix</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
+<td>vmware_inventory script improvements</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17543">ansible/pull/17543</a></td>
+<td>Corrected port designation in INI file</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17618">ansible/pull/17618</a></td>
+<td>vmware_inventory: decode strings to ascii if not a</td>
+</tr>
+<tr>
+<td>vmware_inventory</td>
+<td><a href="https://github.com/ansible/ansible/pull/17830">ansible/pull/17830</a></td>
+<td>vmware_inventory: check ssl by default</td>
+</tr>
+<tr>
 <td>ipaddr</td>
 <td><a href="https://github.com/ansible/ansible/pull/10151">ansible/pull/10151</a></td>
 <td>Modified version of PR 9560</td>
@@ -104761,36 +104816,6 @@
 <td>support i18n on sudo failure</td>
 </tr>
 <tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/issues/17281">ansible/issues/17281</a></td>
-<td>VMWare inventory fails on UnicodeDecodeError excep</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16177">ansible/pull/16177</a></td>
-<td>misc fixes for vmware_inventory.py</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/16769">ansible/pull/16769</a></td>
-<td>vmware_inventory.py excude more properties and fix</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17142">ansible/pull/17142</a></td>
-<td>vmware_inventory script improvements</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17543">ansible/pull/17543</a></td>
-<td>Corrected port designation in INI file</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/17618">ansible/pull/17618</a></td>
-<td>vmware_inventory: decode strings to ascii if not a</td>
-</tr>
-<tr>
 <td>sendgrid</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1252">ansible-modules-extras/pull/1252</a></td>
 <td>Sendgrid docs fix</td>
@@ -106446,6 +106471,31 @@
 <td>better getent examples</td>
 </tr>
 <tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/11626">ansible/pull/11626</a></td>
+<td>profile_tasks.py requires CALLBACK_ constants or t</td>
+</tr>
+<tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/14648">ansible/pull/14648</a></td>
+<td>Show tasks with the same name in profile output</td>
+</tr>
+<tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/14661">ansible/pull/14661</a></td>
+<td>Update the profile task callback plugin to include</td>
+</tr>
+<tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/16522">ansible/pull/16522</a></td>
+<td>fix encoding issues in profile_tasks</td>
+</tr>
+<tr>
+<td>profile_tasks</td>
+<td><a href="https://github.com/ansible/ansible/pull/17821">ansible/pull/17821</a></td>
+<td>Profile tasks style</td>
+</tr>
+<tr>
 <td>digital_ocean_sshkey</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/607">ansible-modules-core/issues/607</a></td>
 <td> DigitalOcean key generation</td>
@@ -107754,26 +107804,6 @@
 <td>azure_rm_virtualmachineimage_facts</td>
 <td><a href="https://github.com/ansible/ansible/pull/8900">ansible/pull/8900</a></td>
 <td>Don't throw away useful stdout and stderr. Fixes #</td>
-</tr>
-<tr>
-<td>profile_tasks</td>
-<td><a href="https://github.com/ansible/ansible/pull/11626">ansible/pull/11626</a></td>
-<td>profile_tasks.py requires CALLBACK_ constants or t</td>
-</tr>
-<tr>
-<td>profile_tasks</td>
-<td><a href="https://github.com/ansible/ansible/pull/14648">ansible/pull/14648</a></td>
-<td>Show tasks with the same name in profile output</td>
-</tr>
-<tr>
-<td>profile_tasks</td>
-<td><a href="https://github.com/ansible/ansible/pull/14661">ansible/pull/14661</a></td>
-<td>Update the profile task callback plugin to include</td>
-</tr>
-<tr>
-<td>profile_tasks</td>
-<td><a href="https://github.com/ansible/ansible/pull/16522">ansible/pull/16522</a></td>
-<td>fix encoding issues in profile_tasks</td>
 </tr>
 <tr>
 <td>netapp_e_lun_mapping</td>
@@ -111116,9 +111146,9 @@
 <td>Memcached factcache improvements</td>
 </tr>
 <tr>
-<td>dnos10_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4879">ansible-modules-core/pull/4879</a></td>
-<td>Added support for facts module for Dell Networking</td>
+<td>metadata</td>
+<td><a href="https://github.com/ansible/ansible/pull/17818">ansible/pull/17818</a></td>
+<td>Parse role dependencies consistently</td>
 </tr>
 <tr>
 <td>netconf</td>
@@ -111754,6 +111784,11 @@
 <td>subscription_manager</td>
 <td><a href="https://github.com/ansible/ansible/pull/3139">ansible/pull/3139</a></td>
 <td>Add RHN subscription_manager module</td>
+</tr>
+<tr>
+<td>dnos10_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4879">ansible-modules-core/pull/4879</a></td>
+<td>Added support for facts module for Dell Networking</td>
 </tr>
 <tr>
 <td>proxmox_template</td>
