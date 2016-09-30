@@ -1627,6 +1627,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2210">ansible-modules-core/pull/2210</a></td>
+<td>Cancel spot requests before fail. </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2220">ansible-modules-core/pull/2220</a></td>
 <td>Updated postgresql_db to include support for the t</td>
 </tr>
@@ -6542,11 +6547,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/16734">ansible/issues/16734</a></td>
-<td>New-Alias in powershell.ps1 is trying to use an ex</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16740">ansible/issues/16740</a></td>
 <td>logs are being polluted with skipped include tasks</td>
 </tr>
@@ -8112,11 +8112,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17799">ansible/pull/17799</a></td>
-<td>Fix gathering=smart and custom module facts</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17800">ansible/pull/17800</a></td>
 <td>Separate privileged/unprivileged tests.</td>
 </tr>
@@ -8127,13 +8122,13 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17816">ansible/pull/17816</a></td>
-<td>Bugfix: fixes new-alias bug when debugging powersh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17820">ansible/pull/17820</a></td>
+<td>Add dynamic inventory script and config for Packet</td>
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17820">ansible/pull/17820</a></td>
-<td>Add dynamic inventory script and config for Packet</td>
+<td><a href="https://github.com/ansible/ansible/pull/17835">ansible/pull/17835</a></td>
+<td>fixes issue when calling save_config() and transpo</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -8259,11 +8254,6 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1713">ansible-modules-core/pull/1713</a></td>
 <td>Improve EC2 ELB lookup filtering</td>
-</tr>
-<tr>
-<td>ec2</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2210">ansible-modules-core/pull/2210</a></td>
-<td>Cancel spot requests before fail. </td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -10059,11 +10049,6 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5078">ansible-modules-core/issues/5078</a></td>
 <td>[windows] ansible_reboot_pending false negative</td>
-</tr>
-<tr>
-<td>setup</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5100">ansible-modules-core/issues/5100</a></td>
-<td>Windows setup module fails getting user UID.</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -12136,41 +12121,6 @@
 <td>Sanitize JSON from command output of `async` task.</td>
 </tr>
 <tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2511">ansible-modules-core/issues/2511</a></td>
-<td>FR: add option to provide --accept option for svn </td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3033">ansible-modules-core/issues/3033</a></td>
-<td>Enable svn.update() with local changes</td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3397">ansible-modules-core/issues/3397</a></td>
-<td>subversion update documentation.</td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3405">ansible-modules-core/issues/3405</a></td>
-<td>ansible subversion module silently fails on networ</td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3544">ansible-modules-core/issues/3544</a></td>
-<td>Feature: Make Subversion module better behaved wit</td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1242">ansible-modules-extras/pull/1242</a></td>
-<td>Proposed subversion module for use with Windows</td>
-</tr>
-<tr>
-<td>subversion</td>
-<td><a href="https://github.com/ansible/ansible/issues/17578">ansible/issues/17578</a></td>
-<td>Fail to install 2.1.1.0 on Debian 8 (Docker)</td>
-</tr>
-<tr>
 <td>get_url</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
 <td>add etag option to avoid re-downloading unchanged </td>
@@ -12449,6 +12399,36 @@
 <td>django_manage</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4316">ansible-modules-core/pull/4316</a></td>
 <td>strip output before filtering to fix #4309</td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2511">ansible-modules-core/issues/2511</a></td>
+<td>FR: add option to provide --accept option for svn </td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3033">ansible-modules-core/issues/3033</a></td>
+<td>Enable svn.update() with local changes</td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3397">ansible-modules-core/issues/3397</a></td>
+<td>subversion update documentation.</td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3405">ansible-modules-core/issues/3405</a></td>
+<td>ansible subversion module silently fails on networ</td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3544">ansible-modules-core/issues/3544</a></td>
+<td>Feature: Make Subversion module better behaved wit</td>
+</tr>
+<tr>
+<td>subversion</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1242">ansible-modules-extras/pull/1242</a></td>
+<td>Proposed subversion module for use with Windows</td>
 </tr>
 <tr>
 <td>lvol</td>
@@ -14031,6 +14011,21 @@
 <td>Fixing nxos_vlan</td>
 </tr>
 <tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4017">ansible-modules-core/pull/4017</a></td>
+<td>Attempt to track actual wall time in async_wrapper</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4799">ansible-modules-core/pull/4799</a></td>
+<td>Async chdir</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5107">ansible-modules-core/pull/5107</a></td>
+<td>add JSON junk filter to async_wrapper</td>
+</tr>
+<tr>
 <td>win_uri</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2999">ansible-modules-extras/issues/2999</a></td>
 <td>win_uri : PUT method - payload size = 0</td>
@@ -14846,16 +14841,6 @@
 <td>Add a way to ignore failure when boolean do not ex</td>
 </tr>
 <tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4017">ansible-modules-core/pull/4017</a></td>
-<td>Attempt to track actual wall time in async_wrapper</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4799">ansible-modules-core/pull/4799</a></td>
-<td>Async chdir</td>
-</tr>
-<tr>
 <td>win_package</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1140">ansible-modules-extras/issues/1140</a></td>
 <td>win_package: does not access user_name + user_pass</td>
@@ -15481,11 +15466,6 @@
 <td>JunOS modules don't respect ssh_keyfile or ANSIBLE</td>
 </tr>
 <tr>
-<td>jabber</td>
-<td><a href="https://github.com/ansible/ansible/pull/16981">ansible/pull/16981</a></td>
-<td>jabber callback</td>
-</tr>
-<tr>
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
 <td>Add fetch, raw, script and slurp in the Windows ca</td>
@@ -15571,9 +15551,9 @@
 <td>Docs for http(s) enable issue eos_eapi, nxos_nxapi</td>
 </tr>
 <tr>
-<td>ec2_vpc_net</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3613">ansible-modules-core/issues/3613</a></td>
-<td>ec2_vpc_net always returns "changed" when state=pr</td>
+<td>async_test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17834">ansible/pull/17834</a></td>
+<td>bugfixes to JSON junk filter, added async integrat</td>
 </tr>
 <tr>
 <td>junos</td>
@@ -15744,6 +15724,11 @@
 <td>patch</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/793">ansible-modules-extras/issues/793</a></td>
 <td>Patch module sometimes skips files with no overrid</td>
+</tr>
+<tr>
+<td>ec2_vpc_net</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3613">ansible-modules-core/issues/3613</a></td>
+<td>ec2_vpc_net always returns "changed" when state=pr</td>
 </tr>
 <tr>
 <td>os_networks_facts</td>
