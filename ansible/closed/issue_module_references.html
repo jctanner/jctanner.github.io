@@ -737,6 +737,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5113">ansible-modules-core/pull/5113</a></td>
+<td>roll up of unicode fixes in junos modules</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2602">ansible-modules-extras/issues/2602</a></td>
 <td>F5 LTM Error: ansible requires the stdlib json or </td>
 </tr>
@@ -12789,6 +12794,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17826">ansible/issues/17826</a></td>
 <td>ansible pipelining config for aix</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17838">ansible/issues/17838</a></td>
+<td>become method dzdo fails</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -28952,6 +28962,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/16966">ansible/pull/16966</a></td>
+<td>Add homebrew in squash_actions list</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/16985">ansible/pull/16985</a></td>
 <td>changelog: inform about regression fix breaking re</td>
 </tr>
@@ -29954,6 +29969,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17835">ansible/pull/17835</a></td>
 <td>fixes issue when calling save_config() and transpo</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17839">ansible/pull/17839</a></td>
+<td>adds better error handling when conditional fails</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17841">ansible/pull/17841</a></td>
+<td>fixes unicode conversation from junos get_config()</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -99326,6 +99351,61 @@
 <td>Add pam_limits module to ansible : modify PAM limi</td>
 </tr>
 <tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3422">ansible-modules-core/issues/3422</a></td>
+<td>Junos_template module failing</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3621">ansible-modules-core/issues/3621</a></td>
+<td>junos_template module does not handle the `overwri</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3962">ansible-modules-core/issues/3962</a></td>
+<td>Unable to deploy config to junos</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4059">ansible-modules-core/issues/4059</a></td>
+<td>Unable to update existing vlans using junos_templa</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3165">ansible-modules-core/pull/3165</a></td>
+<td>Fixed BOOLEANS rendering in docsite</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3430">ansible-modules-core/pull/3430</a></td>
+<td>add support for netconf to junos_template</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3534">ansible-modules-core/pull/3534</a></td>
+<td>add support for netconf to junos_template</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3623">ansible-modules-core/pull/3623</a></td>
+<td>junos_template: Simplify arguments. Fixes #3621</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5059">ansible-modules-core/pull/5059</a></td>
+<td>Fix imports in junos_template</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/15567">ansible/pull/15567</a></td>
+<td>removes action plugin junos_template</td>
+</tr>
+<tr>
+<td>junos_template</td>
+<td><a href="https://github.com/ansible/ansible/pull/15569">ansible/pull/15569</a></td>
+<td>updates action plugin junos_template to guess file</td>
+</tr>
+<tr>
 <td>azure_rm_virtualmachine</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4174">ansible-modules-core/issues/4174</a></td>
 <td>azure_rm_virtualmachine module fails creating a vi</td>
@@ -99601,61 +99681,6 @@
 <td>New crypttab module for editing Linux /etc/cryptta</td>
 </tr>
 <tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/11271">ansible/pull/11271</a></td>
-<td>Allow AdHocCLI to be more flexible for overriding</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/11415">ansible/pull/11415</a></td>
-<td>Remove unnecessary imports</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/11416">ansible/pull/11416</a></td>
-<td>Add ability to adhoc apply roles to hosts</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/11426">ansible/pull/11426</a></td>
-<td>adhoc: allow -i * to use all hosts as-is</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/11431">ansible/pull/11431</a></td>
-<td>adhoc: Allow hosts not in inventory to be targeted</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/13414">ansible/pull/13414</a></td>
-<td>Don't override stdout_callback in adhoc</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/13467">ansible/pull/13467</a></td>
-<td>adhoc does not load plugins by default</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/13498">ansible/pull/13498</a></td>
-<td>custom callbacks with adhoc cli</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/14260">ansible/pull/14260</a></td>
-<td>No need to creat the Play instance in adhoc script</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/16807">ansible/pull/16807</a></td>
-<td>custom callbacks with adhoc cli</td>
-</tr>
-<tr>
-<td>adhoc</td>
-<td><a href="https://github.com/ansible/ansible/pull/17781">ansible/pull/17781</a></td>
-<td>better handling of host lists</td>
-</tr>
-<tr>
 <td>os_router</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2474">ansible-modules-core/issues/2474</a></td>
 <td>os_router OpenStack module does not work with TryS</td>
@@ -99709,6 +99734,61 @@
 <td>os_router</td>
 <td><a href="https://github.com/ansible/ansible/issues/16830">ansible/issues/16830</a></td>
 <td>Select ip for interface on os_router module</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/11271">ansible/pull/11271</a></td>
+<td>Allow AdHocCLI to be more flexible for overriding</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/11415">ansible/pull/11415</a></td>
+<td>Remove unnecessary imports</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/11416">ansible/pull/11416</a></td>
+<td>Add ability to adhoc apply roles to hosts</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/11426">ansible/pull/11426</a></td>
+<td>adhoc: allow -i * to use all hosts as-is</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/11431">ansible/pull/11431</a></td>
+<td>adhoc: Allow hosts not in inventory to be targeted</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/13414">ansible/pull/13414</a></td>
+<td>Don't override stdout_callback in adhoc</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/13467">ansible/pull/13467</a></td>
+<td>adhoc does not load plugins by default</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/13498">ansible/pull/13498</a></td>
+<td>custom callbacks with adhoc cli</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/14260">ansible/pull/14260</a></td>
+<td>No need to creat the Play instance in adhoc script</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/16807">ansible/pull/16807</a></td>
+<td>custom callbacks with adhoc cli</td>
+</tr>
+<tr>
+<td>adhoc</td>
+<td><a href="https://github.com/ansible/ansible/pull/17781">ansible/pull/17781</a></td>
+<td>better handling of host lists</td>
 </tr>
 <tr>
 <td>pull</td>
@@ -100319,56 +100399,6 @@
 <td>os_project</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2519">ansible-modules-extras/pull/2519</a></td>
 <td>Ensure os_project checks the right domain</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3422">ansible-modules-core/issues/3422</a></td>
-<td>Junos_template module failing</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3621">ansible-modules-core/issues/3621</a></td>
-<td>junos_template module does not handle the `overwri</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4059">ansible-modules-core/issues/4059</a></td>
-<td>Unable to update existing vlans using junos_templa</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3165">ansible-modules-core/pull/3165</a></td>
-<td>Fixed BOOLEANS rendering in docsite</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3430">ansible-modules-core/pull/3430</a></td>
-<td>add support for netconf to junos_template</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3534">ansible-modules-core/pull/3534</a></td>
-<td>add support for netconf to junos_template</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3623">ansible-modules-core/pull/3623</a></td>
-<td>junos_template: Simplify arguments. Fixes #3621</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5059">ansible-modules-core/pull/5059</a></td>
-<td>Fix imports in junos_template</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible/pull/15567">ansible/pull/15567</a></td>
-<td>removes action plugin junos_template</td>
-</tr>
-<tr>
-<td>junos_template</td>
-<td><a href="https://github.com/ansible/ansible/pull/15569">ansible/pull/15569</a></td>
-<td>updates action plugin junos_template to guess file</td>
 </tr>
 <tr>
 <td>apache2_site</td>
@@ -102306,6 +102336,46 @@
 <td>Integration tests for the cloudflare_dns module</td>
 </tr>
 <tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
+<td>nxos_interface depends on nxos_feature which doesn</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3469">ansible-modules-core/pull/3469</a></td>
+<td>nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3551">ansible-modules-core/pull/3551</a></td>
+<td>add nxos_interface module</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4459">ansible-modules-core/pull/4459</a></td>
+<td>Remove feature check on svis in nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4561">ansible-modules-core/pull/4561</a></td>
+<td>removed feature check for nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4679">ansible-modules-core/pull/4679</a></td>
+<td>Updating nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4850">ansible-modules-core/pull/4850</a></td>
+<td>Fixing nxos_interface</td>
+</tr>
+<tr>
+<td>nxos_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5012">ansible-modules-core/pull/5012</a></td>
+<td>Fixing nxos_interface</td>
+</tr>
+<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/112">ansible-modules-core/issues/112</a></td>
 <td>rhn_channel is using depreciated methods</td>
@@ -102504,6 +102574,46 @@
 <td>runner</td>
 <td><a href="https://github.com/ansible/ansible/pull/407">ansible/pull/407</a></td>
 <td>Search multiple paths for modules.</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3470">ansible-modules-core/pull/3470</a></td>
+<td>nxos_feature</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3690">ansible-modules-core/pull/3690</a></td>
+<td>Convert the network subfolder to py3/py2.4 syntax</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3737">ansible-modules-core/pull/3737</a></td>
+<td>Fixing bug, added missing param</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4676">ansible-modules-core/pull/4676</a></td>
+<td>nxos_feature 2.1 and 2.2 support</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4714">ansible-modules-core/pull/4714</a></td>
+<td>Added n7k support</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4822">ansible-modules-core/pull/4822</a></td>
+<td>Fixing nxos_feature</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4910">ansible-modules-core/pull/4910</a></td>
+<td>Fix nxos_feature 2.2</td>
+</tr>
+<tr>
+<td>nxos_feature</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4956">ansible-modules-core/pull/4956</a></td>
+<td>Add ethernet-link-oam mapping to nxos_feature</td>
 </tr>
 <tr>
 <td>github_hooks</td>
@@ -103631,41 +103741,6 @@
 <td>New module to send text message notifications</td>
 </tr>
 <tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4403">ansible-modules-core/issues/4403</a></td>
-<td>nxos_interface depends on nxos_feature which doesn</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3469">ansible-modules-core/pull/3469</a></td>
-<td>nxos_interface</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3551">ansible-modules-core/pull/3551</a></td>
-<td>add nxos_interface module</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4459">ansible-modules-core/pull/4459</a></td>
-<td>Remove feature check on svis in nxos_interface</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4561">ansible-modules-core/pull/4561</a></td>
-<td>removed feature check for nxos_interface</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4679">ansible-modules-core/pull/4679</a></td>
-<td>Updating nxos_interface</td>
-</tr>
-<tr>
-<td>nxos_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4850">ansible-modules-core/pull/4850</a></td>
-<td>Fixing nxos_interface</td>
-</tr>
-<tr>
 <td>inventory</td>
 <td><a href="https://github.com/ansible/ansible/pull/146">ansible/pull/146</a></td>
 <td>Yaml inventory</td>
@@ -103699,41 +103774,6 @@
 <td>inventory</td>
 <td><a href="https://github.com/ansible/ansible/pull/9620">ansible/pull/9620</a></td>
 <td>Fix group variable precedence in #6734</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3470">ansible-modules-core/pull/3470</a></td>
-<td>nxos_feature</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3690">ansible-modules-core/pull/3690</a></td>
-<td>Convert the network subfolder to py3/py2.4 syntax</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3737">ansible-modules-core/pull/3737</a></td>
-<td>Fixing bug, added missing param</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4676">ansible-modules-core/pull/4676</a></td>
-<td>nxos_feature 2.1 and 2.2 support</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4714">ansible-modules-core/pull/4714</a></td>
-<td>Added n7k support</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4822">ansible-modules-core/pull/4822</a></td>
-<td>Fixing nxos_feature</td>
-</tr>
-<tr>
-<td>nxos_feature</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4910">ansible-modules-core/pull/4910</a></td>
-<td>Fix nxos_feature 2.2</td>
 </tr>
 <tr>
 <td>hpilo_facts</td>
@@ -105111,6 +105151,36 @@
 <td>Devel</td>
 </tr>
 <tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/10723">ansible/pull/10723</a></td>
+<td>Fix errors reporting for playbook/*</td>
+</tr>
+<tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/11146">ansible/pull/11146</a></td>
+<td>Don't set a default on the _become FieldAttribute</td>
+</tr>
+<tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/11232">ansible/pull/11232</a></td>
+<td>v2: Fixed logic when looking up become attribute</td>
+</tr>
+<tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/14891">ansible/pull/14891</a></td>
+<td>Fix misspelling and some cosmetic change</td>
+</tr>
+<tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/17310">ansible/pull/17310</a></td>
+<td>Add support for become_flags on the task level</td>
+</tr>
+<tr>
+<td>become</td>
+<td><a href="https://github.com/ansible/ansible/pull/17840">ansible/pull/17840</a></td>
+<td>Dzdo prompt fix</td>
+</tr>
+<tr>
 <td>nxos_nxapi</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4955">ansible-modules-core/issues/4955</a></td>
 <td>nxos_nxapi isn't idempotent (in some cases)</td>
@@ -106329,31 +106399,6 @@
 <td>play_iterator</td>
 <td><a href="https://github.com/ansible/ansible/pull/17774">ansible/pull/17774</a></td>
 <td>Fix gathering=smart ignoring gather_facts</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/10723">ansible/pull/10723</a></td>
-<td>Fix errors reporting for playbook/*</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/11146">ansible/pull/11146</a></td>
-<td>Don't set a default on the _become FieldAttribute</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/11232">ansible/pull/11232</a></td>
-<td>v2: Fixed logic when looking up become attribute</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/14891">ansible/pull/14891</a></td>
-<td>Fix misspelling and some cosmetic change</td>
-</tr>
-<tr>
-<td>become</td>
-<td><a href="https://github.com/ansible/ansible/pull/17310">ansible/pull/17310</a></td>
-<td>Add support for become_flags on the task level</td>
 </tr>
 <tr>
 <td>gce_pd</td>
@@ -107706,6 +107751,46 @@
 <td>Added missing default values</td>
 </tr>
 <tr>
+<td>nxos_ip_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3516">ansible-modules-core/pull/3516</a></td>
+<td>nxos_ip_interface</td>
+</tr>
+<tr>
+<td>nxos_ip_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4680">ansible-modules-core/pull/4680</a></td>
+<td>nxos_ip_interface support for 2.1 and 2.2</td>
+</tr>
+<tr>
+<td>nxos_ip_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5013">ansible-modules-core/pull/5013</a></td>
+<td>Fxing nxos_ip_interface</td>
+</tr>
+<tr>
+<td>nxos_ip_interface</td>
+<td><a href="https://github.com/ansible/ansible/pull/855">ansible/pull/855</a></td>
+<td>Set ipv4_address and ipv6_address to most likely d</td>
+</tr>
+<tr>
+<td>nxos_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3467">ansible-modules-core/pull/3467</a></td>
+<td>add nxos_vlan module</td>
+</tr>
+<tr>
+<td>nxos_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4682">ansible-modules-core/pull/4682</a></td>
+<td>nxos_vlan support 2.1 and 2.2</td>
+</tr>
+<tr>
+<td>nxos_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5005">ansible-modules-core/pull/5005</a></td>
+<td>Fixing nxos_vlan</td>
+</tr>
+<tr>
+<td>nxos_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1973">ansible-modules-extras/pull/1973</a></td>
+<td>add nxos_vlan module</td>
+</tr>
+<tr>
 <td>ec2_vpc_subnet</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1016">ansible-modules-core/pull/1016</a></td>
 <td>Add ec2_vpc_route_table and ec2_vpc_subnet modules</td>
@@ -108024,6 +108109,21 @@
 <td>cl_license</td>
 <td><a href="https://github.com/ansible/ansible/pull/4294">ansible/pull/4294</a></td>
 <td>For defaults that are integers, enforce it for con</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/17686">ansible/issues/17686</a></td>
+<td>Passing variables via nested include_role doesn't </td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/17761">ansible/issues/17761</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/pull/17232">ansible/pull/17232</a></td>
+<td>include_role (role revamp implementation)</td>
 </tr>
 <tr>
 <td>test</td>
@@ -108656,6 +108756,21 @@
 <td>Fix octal output in a few more places</td>
 </tr>
 <tr>
+<td>nxos_portchannel</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4665">ansible-modules-core/pull/4665</a></td>
+<td>Adding nxos_portchannel</td>
+</tr>
+<tr>
+<td>nxos_portchannel</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4906">ansible-modules-core/pull/4906</a></td>
+<td>Fixing nxos_portchannel</td>
+</tr>
+<tr>
+<td>nxos_portchannel</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5019">ansible-modules-core/pull/5019</a></td>
+<td>Fixing nxos_portchannel</td>
+</tr>
+<tr>
 <td>consul_io</td>
 <td><a href="https://github.com/ansible/ansible/pull/10777">ansible/pull/10777</a></td>
 <td>Undefined names found by pyflakes in plugins/inven</td>
@@ -108941,21 +109056,6 @@
 <td>First cut of gsettings module</td>
 </tr>
 <tr>
-<td>nxos_ip_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3516">ansible-modules-core/pull/3516</a></td>
-<td>nxos_ip_interface</td>
-</tr>
-<tr>
-<td>nxos_ip_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4680">ansible-modules-core/pull/4680</a></td>
-<td>nxos_ip_interface support for 2.1 and 2.2</td>
-</tr>
-<tr>
-<td>nxos_ip_interface</td>
-<td><a href="https://github.com/ansible/ansible/pull/855">ansible/pull/855</a></td>
-<td>Set ipv4_address and ipv6_address to most likely d</td>
-</tr>
-<tr>
 <td>honeybadger_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1942">ansible-modules-extras/pull/1942</a></td>
 <td>Add honeybadger_deployment module</td>
@@ -108969,21 +109069,6 @@
 <td>honeybadger_deployment</td>
 <td><a href="https://github.com/ansible/ansible/pull/7320">ansible/pull/7320</a></td>
 <td>Add honeybadger_deployment module</td>
-</tr>
-<tr>
-<td>nxos_vlan</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3467">ansible-modules-core/pull/3467</a></td>
-<td>add nxos_vlan module</td>
-</tr>
-<tr>
-<td>nxos_vlan</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4682">ansible-modules-core/pull/4682</a></td>
-<td>nxos_vlan support 2.1 and 2.2</td>
-</tr>
-<tr>
-<td>nxos_vlan</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1973">ansible-modules-extras/pull/1973</a></td>
-<td>add nxos_vlan module</td>
 </tr>
 <tr>
 <td>nxos_vrf_interface</td>
@@ -109381,6 +109466,16 @@
 <td>Explicitly convert input to from_yaml to str. This</td>
 </tr>
 <tr>
+<td>nxos_ntp</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4843">ansible-modules-core/pull/4843</a></td>
+<td>Adding nxos_ntp</td>
+</tr>
+<tr>
+<td>nxos_ntp</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5015">ansible-modules-core/pull/5015</a></td>
+<td>Fixing nxos_ntp</td>
+</tr>
+<tr>
 <td>virt_pool</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/756">ansible-modules-extras/pull/756</a></td>
 <td>libvirt: virt_pool module</td>
@@ -109591,14 +109686,14 @@
 <td>Fix exception output for os_keystone_domain.</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/17761">ansible/issues/17761</a></td>
-<td>include_role does not support tags</td>
+<td>nxos_snmp_community</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4832">ansible-modules-core/pull/4832</a></td>
+<td>Adding nxos_snmp_community</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/pull/17232">ansible/pull/17232</a></td>
-<td>include_role (role revamp implementation)</td>
+<td>nxos_snmp_community</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5022">ansible-modules-core/pull/5022</a></td>
+<td>Fixing nxos_snmp_community</td>
 </tr>
 <tr>
 <td>quantum_port</td>
@@ -109629,6 +109724,16 @@
 <td>asa_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2992">ansible-modules-extras/pull/2992</a></td>
 <td>asa_template is now deprecated</td>
+</tr>
+<tr>
+<td>ops_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3537">ansible-modules-core/pull/3537</a></td>
+<td>adds new module ops_facts</td>
+</tr>
+<tr>
+<td>ops_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5061">ansible-modules-core/pull/5061</a></td>
+<td>Network module code cleanup</td>
 </tr>
 <tr>
 <td>cs_snapshot_policy</td>
@@ -109669,6 +109774,16 @@
 <td>addresses</td>
 <td><a href="https://github.com/ansible/ansible/pull/12424">ansible/pull/12424</a></td>
 <td>Allow hexadecimal ranges in IPv6 addresses, not on</td>
+</tr>
+<tr>
+<td>nxos_mtu</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4863">ansible-modules-core/pull/4863</a></td>
+<td>Adding nxos_mtu</td>
+</tr>
+<tr>
+<td>nxos_mtu</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5014">ansible-modules-core/pull/5014</a></td>
+<td>Fixing nxos_mtu</td>
 </tr>
 <tr>
 <td>dnos9_template</td>
@@ -110021,6 +110136,16 @@
 <td>unable to get stdout from asa_command </td>
 </tr>
 <tr>
+<td>nxos_acl_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4621">ansible-modules-core/pull/4621</a></td>
+<td>Adding nxos_acl_interface_module</td>
+</tr>
+<tr>
+<td>nxos_acl_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5007">ansible-modules-core/pull/5007</a></td>
+<td>Fixing nxos_acl_interface</td>
+</tr>
+<tr>
 <td>cartesian</td>
 <td><a href="https://github.com/ansible/ansible/pull/10305">ansible/pull/10305</a></td>
 <td>Cartesian</td>
@@ -110081,6 +110206,16 @@
 <td>Add missing exception name</td>
 </tr>
 <tr>
+<td>nxos_ntp_options</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4856">ansible-modules-core/pull/4856</a></td>
+<td>Adding nxos_ntp_options</td>
+</tr>
+<tr>
+<td>nxos_ntp_options</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5017">ansible-modules-core/pull/5017</a></td>
+<td>Fixing nxos_ntp_options</td>
+</tr>
+<tr>
 <td>nxos_vpc</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4669">ansible-modules-core/pull/4669</a></td>
 <td>Adding nxos_vpc</td>
@@ -110139,6 +110274,16 @@
 <td>cl_img_install</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/944">ansible-modules-extras/pull/944</a></td>
 <td>adding Cumulus Linux image installer module</td>
+</tr>
+<tr>
+<td>nxos_smu</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4666">ansible-modules-core/pull/4666</a></td>
+<td>Adding nxos_smu</td>
+</tr>
+<tr>
+<td>nxos_smu</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5021">ansible-modules-core/pull/5021</a></td>
+<td>Fixing nxos_smu</td>
 </tr>
 <tr>
 <td>influxdb_database</td>
@@ -110221,6 +110366,16 @@
 <td>Add OpenStack Floating IP module</td>
 </tr>
 <tr>
+<td>nxos_snmp_location</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4839">ansible-modules-core/pull/4839</a></td>
+<td>Adding nxos_snmp_location</td>
+</tr>
+<tr>
+<td>nxos_snmp_location</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5025">ansible-modules-core/pull/5025</a></td>
+<td>Fixing nxos_snmp_location</td>
+</tr>
+<tr>
 <td>get</td>
 <td><a href="https://github.com/ansible/ansible/pull/634">ansible/pull/634</a></td>
 <td>get module (with new module-magic-code!)</td>
@@ -110269,16 +110424,6 @@
 <td>db2</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/541">ansible-modules-extras/pull/541</a></td>
 <td>Devel db2</td>
-</tr>
-<tr>
-<td>nxos_portchannel</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4665">ansible-modules-core/pull/4665</a></td>
-<td>Adding nxos_portchannel</td>
-</tr>
-<tr>
-<td>nxos_portchannel</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4906">ansible-modules-core/pull/4906</a></td>
-<td>Fixing nxos_portchannel</td>
 </tr>
 <tr>
 <td>rackhd</td>
@@ -110349,6 +110494,16 @@
 <td>meta</td>
 <td><a href="https://github.com/ansible/ansible/pull/14971">ansible/pull/14971</a></td>
 <td>meta: clear_facts</td>
+</tr>
+<tr>
+<td>nxos_snmp_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4833">ansible-modules-core/pull/4833</a></td>
+<td>Adding nxos_snmp_host</td>
+</tr>
+<tr>
+<td>nxos_snmp_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5024">ansible-modules-core/pull/5024</a></td>
+<td>Fixing nxos_snmp_host</td>
 </tr>
 <tr>
 <td>nxos_save_config</td>
@@ -110481,6 +110636,16 @@
 <td>Correct typos</td>
 </tr>
 <tr>
+<td>nxos_acl</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4618">ansible-modules-core/pull/4618</a></td>
+<td>Adding nxos_acl module</td>
+</tr>
+<tr>
+<td>nxos_acl</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5006">ansible-modules-core/pull/5006</a></td>
+<td>Fixing nxos_acl</td>
+</tr>
+<tr>
 <td>dellos</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4888">ansible-modules-core/pull/4888</a></td>
 <td>Renamed the Modules from dnos* -> dellos*, updated</td>
@@ -110611,6 +110776,16 @@
 <td>Digitalocean tags (replaces #4209)</td>
 </tr>
 <tr>
+<td>nxos_snmp_contact</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4828">ansible-modules-core/pull/4828</a></td>
+<td>Adding nxos_snmp_contact</td>
+</tr>
+<tr>
+<td>nxos_snmp_contact</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5023">ansible-modules-core/pull/5023</a></td>
+<td>Fixing nxos_snmp_contact</td>
+</tr>
+<tr>
 <td>uptimerobot</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/105">ansible-modules-extras/pull/105</a></td>
 <td>Adding Uptime Robot Module</td>
@@ -110721,6 +110896,16 @@
 <td>Add module to create images from Rackspace servers</td>
 </tr>
 <tr>
+<td>nxos_snmp_traps</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4841">ansible-modules-core/pull/4841</a></td>
+<td>Adding nxos_snmp_traps</td>
+</tr>
+<tr>
+<td>nxos_snmp_traps</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5026">ansible-modules-core/pull/5026</a></td>
+<td>Fixing nxos_snmp_traps</td>
+</tr>
+<tr>
 <td>win_iis_webapplication</td>
 <td><a href="https://github.com/ansible/ansible/issues/12848">ansible/issues/12848</a></td>
 <td>[v2]The windows iis modules how to obtain multiple</td>
@@ -110759,6 +110944,16 @@
 <td>win_timezone</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/635">ansible-modules-extras/pull/635</a></td>
 <td>Module: win_timezone</td>
+</tr>
+<tr>
+<td>nxos_ntp_auth</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4853">ansible-modules-core/pull/4853</a></td>
+<td>Adding nxos_ntp_auth</td>
+</tr>
+<tr>
+<td>nxos_ntp_auth</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5016">ansible-modules-core/pull/5016</a></td>
+<td>Fixing nxos_ntp_auth</td>
 </tr>
 <tr>
 <td>aws_mfa_devices</td>
@@ -110849,6 +111044,16 @@
 <td>os_flavor_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1904">ansible-modules-extras/pull/1904</a></td>
 <td>Add shade version check to os_flavor_facts</td>
+</tr>
+<tr>
+<td>nxos_snmp_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4870">ansible-modules-core/pull/4870</a></td>
+<td>Adding nxos_snmp_user</td>
+</tr>
+<tr>
+<td>nxos_snmp_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5027">ansible-modules-core/pull/5027</a></td>
+<td>Fixing nxos_snmp_user</td>
 </tr>
 <tr>
 <td>dnos10_command</td>
@@ -110951,14 +111156,14 @@
 <td>New module for creating annotations with Circonus </td>
 </tr>
 <tr>
-<td>ops_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3537">ansible-modules-core/pull/3537</a></td>
-<td>adds new module ops_facts</td>
+<td>nxos_pim_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4866">ansible-modules-core/pull/4866</a></td>
+<td>Adding nxos_pim_interface</td>
 </tr>
 <tr>
-<td>ops_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5061">ansible-modules-core/pull/5061</a></td>
-<td>Network module code cleanup</td>
+<td>nxos_pim_interface</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5018">ansible-modules-core/pull/5018</a></td>
+<td>Fixing nxos_pim_interface</td>
 </tr>
 <tr>
 <td>neutron_floating_ip_associate</td>
@@ -111051,6 +111256,16 @@
 <td>Add facts and storage system modules.</td>
 </tr>
 <tr>
+<td>nxos_aaa_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4851">ansible-modules-core/pull/4851</a></td>
+<td>Adding nxos_aaa_server</td>
+</tr>
+<tr>
+<td>nxos_aaa_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5002">ansible-modules-core/pull/5002</a></td>
+<td>Fixing nxos_aaa_server</td>
+</tr>
+<tr>
 <td>nxos_udld</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4858">ansible-modules-core/pull/4858</a></td>
 <td>Adding nxos_udld</td>
@@ -111114,11 +111329,6 @@
 <td>napalm_get_interfaces_counters</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1702">ansible-modules-extras/pull/1702</a></td>
 <td>adding napalm_get_interfaces_counters module</td>
-</tr>
-<tr>
-<td>postgresql_schema</td>
-<td><a href="https://github.com/ansible/ansible/pull/8098">ansible/pull/8098</a></td>
-<td>Feature for create schemas in postgresql</td>
 </tr>
 <tr>
 <td>ulimit</td>
@@ -111306,11 +111516,6 @@
 <td>new hash lookup plugin</td>
 </tr>
 <tr>
-<td>nxos_snmp_community</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4832">ansible-modules-core/pull/4832</a></td>
-<td>Adding nxos_snmp_community</td>
-</tr>
-<tr>
 <td>gce_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/519">ansible-modules-extras/pull/519</a></td>
 <td>Google Cloud: added gce_facts module to fetch Goog</td>
@@ -111349,11 +111554,6 @@
 <td>influxdb_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2197">ansible-modules-extras/pull/2197</a></td>
 <td>Add influxdb_user module</td>
-</tr>
-<tr>
-<td>nxos_ntp</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4843">ansible-modules-core/pull/4843</a></td>
-<td>Adding nxos_ntp</td>
 </tr>
 <tr>
 <td>ecs_cluster_facts</td>
@@ -111429,11 +111629,6 @@
 <td>napalm_get_interfaces</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1703">ansible-modules-extras/pull/1703</a></td>
 <td>adding napalm_get_interfaces module</td>
-</tr>
-<tr>
-<td>nxos_mtu</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4863">ansible-modules-core/pull/4863</a></td>
-<td>Adding nxos_mtu</td>
 </tr>
 <tr>
 <td>cs_virtualmachine</td>
@@ -111679,6 +111874,11 @@
 <td>restrict_pattern</td>
 <td><a href="https://github.com/ansible/ansible/pull/3901">ansible/pull/3901</a></td>
 <td>increase test coverage of inventory by around 5% a</td>
+</tr>
+<tr>
+<td>postgresql_schema</td>
+<td><a href="https://github.com/ansible/ansible/pull/8098">ansible/pull/8098</a></td>
+<td>Feature for create schemas in postgresql</td>
 </tr>
 <tr>
 <td>s3_website_redirect_rule</td>
@@ -112021,11 +112221,6 @@
 <td>Added docker_facts for image and container info</td>
 </tr>
 <tr>
-<td>nxos_acl_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4621">ansible-modules-core/pull/4621</a></td>
-<td>Adding nxos_acl_interface_module</td>
-</tr>
-<tr>
 <td>module_utils</td>
 <td><a href="https://github.com/ansible/ansible/pull/17535">ansible/pull/17535</a></td>
 <td>Support to skip setting defaults for optional fiel</td>
@@ -112099,11 +112294,6 @@
 <td>_find_snippet_imports</td>
 <td><a href="https://github.com/ansible/ansible/pull/17585">ansible/pull/17585</a></td>
 <td>Ensure parent tempdir's existence</td>
-</tr>
-<tr>
-<td>nxos_ntp_options</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4856">ansible-modules-core/pull/4856</a></td>
-<td>Adding nxos_ntp_options</td>
 </tr>
 <tr>
 <td>plivo</td>
@@ -112271,11 +112461,6 @@
 <td>a new module named rsyncd can used for managing rs</td>
 </tr>
 <tr>
-<td>nxos_smu</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4666">ansible-modules-core/pull/4666</a></td>
-<td>Adding nxos_smu</td>
-</tr>
-<tr>
 <td>githooks</td>
 <td><a href="https://github.com/ansible/ansible/pull/4731">ansible/pull/4731</a></td>
 <td>new githooks module</td>
@@ -112384,11 +112569,6 @@
 <td>ec2_healthcheck</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/504">ansible-modules-extras/pull/504</a></td>
 <td>Add ec2_healthcheck module</td>
-</tr>
-<tr>
-<td>nxos_snmp_location</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4839">ansible-modules-core/pull/4839</a></td>
-<td>Adding nxos_snmp_location</td>
 </tr>
 <tr>
 <td>kinesis</td>
@@ -112514,11 +112694,6 @@
 <td>azure_deployment</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1839">ansible-modules-extras/pull/1839</a></td>
 <td>Feature/azure deploy</td>
-</tr>
-<tr>
-<td>nxos_snmp_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4833">ansible-modules-core/pull/4833</a></td>
-<td>Adding nxos_snmp_host</td>
 </tr>
 <tr>
 <td>nxos_bgp_neighbor</td>
@@ -112664,11 +112839,6 @@
 <td>gcdns</td>
 <td><a href="https://github.com/ansible/ansible/pull/16879">ansible/pull/16879</a></td>
 <td>Fix import of gce/gcdns without a libcloud module</td>
-</tr>
-<tr>
-<td>nxos_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4618">ansible-modules-core/pull/4618</a></td>
-<td>Adding nxos_acl module</td>
 </tr>
 <tr>
 <td>sts_session_token</td>
@@ -112946,11 +113116,6 @@
 <td>new modules: zabbix_host, zabbix_group, zabbix_scr</td>
 </tr>
 <tr>
-<td>nxos_snmp_contact</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4828">ansible-modules-core/pull/4828</a></td>
-<td>Adding nxos_snmp_contact</td>
-</tr>
-<tr>
 <td>include_files</td>
 <td><a href="https://github.com/ansible/ansible/pull/4721">ansible/pull/4721</a></td>
 <td>This PR would enable variable files to be added du</td>
@@ -113191,11 +113356,6 @@
 <td>Add with_allocate: allocate a list items over a li</td>
 </tr>
 <tr>
-<td>nxos_ntp_auth</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4853">ansible-modules-core/pull/4853</a></td>
-<td>Adding nxos_ntp_auth</td>
-</tr>
-<tr>
 <td>failed_when</td>
 <td><a href="https://github.com/ansible/ansible/issues/17214">ansible/issues/17214</a></td>
 <td>failed_when does not correctly evaluate multiple c</td>
@@ -113291,11 +113451,6 @@
 <td>Added support dnos9_facts module</td>
 </tr>
 <tr>
-<td>nxos_snmp_traps</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4841">ansible-modules-core/pull/4841</a></td>
-<td>Adding nxos_snmp_traps</td>
-</tr>
-<tr>
 <td>azure_rm_securitygroup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3486">ansible-modules-core/pull/3486</a></td>
 <td>Adding module azure_rm_securitygroup</td>
@@ -113314,11 +113469,6 @@
 <td>ec2_vpc_nat_gateway</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1412">ansible-modules-extras/pull/1412</a></td>
 <td>New AWS Managed NAT Gateway module - will resolve </td>
-</tr>
-<tr>
-<td>nxos_snmp_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4870">ansible-modules-core/pull/4870</a></td>
-<td>Adding nxos_snmp_user</td>
 </tr>
 <tr>
 <td>ec2_ami_attributes</td>
@@ -113461,11 +113611,6 @@
 <td>Moving samples/ out of project root into test/</td>
 </tr>
 <tr>
-<td>nxos_pim_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4866">ansible-modules-core/pull/4866</a></td>
-<td>Adding nxos_pim_interface</td>
-</tr>
-<tr>
 <td>ec2_vpc_nacl</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/403">ansible-modules-core/pull/403</a></td>
 <td>Add initial module for managing AWS VPC network AC</td>
@@ -113529,11 +113674,6 @@
 <td>equo</td>
 <td><a href="https://github.com/ansible/ansible/pull/2711">ansible/pull/2711</a></td>
 <td>equo for sabayon</td>
-</tr>
-<tr>
-<td>nxos_aaa_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4851">ansible-modules-core/pull/4851</a></td>
-<td>Adding nxos_aaa_server</td>
 </tr>
 <tr>
 <td>nxos_igmp</td>
