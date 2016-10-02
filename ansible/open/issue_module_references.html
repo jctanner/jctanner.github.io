@@ -7042,11 +7042,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/17258">ansible/issues/17258</a></td>
-<td>Do Until "attempts" key is missing</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17267">ansible/issues/17267</a></td>
 <td>Implement string_prefix() and string_suffix() filt</td>
 </tr>
@@ -10616,66 +10611,6 @@
 <td>Attempt to repro mount race condition.</td>
 </tr>
 <tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
-<td>Verify that cron_file argument is valid.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
-<td>cron does not create cron_file if it does not exis</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5109">ansible-modules-core/issues/5109</a></td>
-<td>cron: OSError: [Errno 25] Inappropriate ioctl for </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - disallow line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
-<td>add correct SELinux file context for crontabs (#45</td>
-</tr>
-<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
 <td>Add more options to authorized_keys modul for comm</td>
@@ -10969,6 +10904,61 @@
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
 <td>Fix: mysql_user - permission string with column pr</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
+<td>Verify that cron_file argument is valid.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
+<td>cron does not create cron_file if it does not exis</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - disallow line breaks in job param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
 </tr>
 <tr>
 <td>cloudformation</td>
@@ -14661,6 +14651,16 @@
 <td>Added module win_zip</td>
 </tr>
 <tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
+<td>apt_key doesn't compare key data in check mode</td>
+</tr>
+<tr>
+<td>apt_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5119">ansible-modules-core/issues/5119</a></td>
+<td>apt_key: key does not seem to have been added. Whi</td>
+</tr>
+<tr>
 <td>apache2_module</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4745">ansible-modules-core/pull/4745</a></td>
 <td>Added work around for Ubuntu Xenial calling php7_m</td>
@@ -15879,11 +15879,6 @@
 <td>mqtt</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2700">ansible-modules-extras/pull/2700</a></td>
 <td>Add TLS encryption support to MQTT</td>
-</tr>
-<tr>
-<td>apt_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3958">ansible-modules-core/issues/3958</a></td>
-<td>apt_key doesn't compare key data in check mode</td>
 </tr>
 <tr>
 <td>qemu_img</td>
