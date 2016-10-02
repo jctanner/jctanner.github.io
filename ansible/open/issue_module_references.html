@@ -8147,11 +8147,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17849">ansible/pull/17849</a></td>
-<td>handler: replace error with warning for undefined </td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17851">ansible/pull/17851</a></td>
 <td>Fix/windows documentation</td>
 </tr>
@@ -12821,6 +12816,31 @@
 <td>Add dict support to osx_defaults</td>
 </tr>
 <tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5118">ansible-modules-core/issues/5118</a></td>
+<td>win_file: Failed to delete folder with broken syml</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
+<td>win_file: no longer causes a stack trace if called</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4823">ansible-modules-core/pull/4823</a></td>
+<td>win_file: fix error when creating an existing dir</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4991">ansible-modules-core/pull/4991</a></td>
+<td>Adding Windows shortcut support to `win_file`</td>
+</tr>
+<tr>
+<td>win_file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5120">ansible-modules-core/pull/5120</a></td>
+<td>Updated win_file with logic on handling sym link d</td>
+</tr>
+<tr>
 <td>blockinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
 <td>Unsupported parameter for module</td>
@@ -13176,6 +13196,26 @@
 <td>implement #2605</td>
 </tr>
 <tr>
+<td>handler</td>
+<td><a href="https://github.com/ansible/ansible/issues/17208">ansible/issues/17208</a></td>
+<td>wrong handler is called when squashed items fail</td>
+</tr>
+<tr>
+<td>handler</td>
+<td><a href="https://github.com/ansible/ansible/issues/17855">ansible/issues/17855</a></td>
+<td>handler: mixing notify listen and name behavior ch</td>
+</tr>
+<tr>
+<td>handler</td>
+<td><a href="https://github.com/ansible/ansible/pull/17847">ansible/pull/17847</a></td>
+<td>handler: force handlers to be named</td>
+</tr>
+<tr>
+<td>handler</td>
+<td><a href="https://github.com/ansible/ansible/pull/17856">ansible/pull/17856</a></td>
+<td>handler: fix handler precedence (name > listen)</td>
+</tr>
+<tr>
 <td>virt</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/84">ansible-modules-extras/issues/84</a></td>
 <td>Virt module: get_xml missing flags option</td>
@@ -13314,26 +13354,6 @@
 <td>pam_limits</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2771">ansible-modules-extras/pull/2771</a></td>
 <td>Really fix python 2.4 compatibility in `pam_limits</td>
-</tr>
-<tr>
-<td>win_file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5118">ansible-modules-core/issues/5118</a></td>
-<td>win_file: Failed to delete folder with broken syml</td>
-</tr>
-<tr>
-<td>win_file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4175">ansible-modules-core/pull/4175</a></td>
-<td>win_file: no longer causes a stack trace if called</td>
-</tr>
-<tr>
-<td>win_file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4823">ansible-modules-core/pull/4823</a></td>
-<td>win_file: fix error when creating an existing dir</td>
-</tr>
-<tr>
-<td>win_file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4991">ansible-modules-core/pull/4991</a></td>
-<td>Adding Windows shortcut support to `win_file`</td>
 </tr>
 <tr>
 <td>rax</td>
@@ -13724,21 +13744,6 @@
 <td>include</td>
 <td><a href="https://github.com/ansible/ansible/issues/17702">ansible/issues/17702</a></td>
 <td>Conditional on include task fails</td>
-</tr>
-<tr>
-<td>handler</td>
-<td><a href="https://github.com/ansible/ansible/issues/17208">ansible/issues/17208</a></td>
-<td>wrong handler is called when squashed items fail</td>
-</tr>
-<tr>
-<td>handler</td>
-<td><a href="https://github.com/ansible/ansible/issues/17855">ansible/issues/17855</a></td>
-<td>handler: mixing notify listen and name behavior ch</td>
-</tr>
-<tr>
-<td>handler</td>
-<td><a href="https://github.com/ansible/ansible/pull/17847">ansible/pull/17847</a></td>
-<td>handler: force handlers to be named</td>
 </tr>
 <tr>
 <td>package</td>
