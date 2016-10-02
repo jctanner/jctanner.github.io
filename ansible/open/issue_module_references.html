@@ -1807,6 +1807,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5125">ansible-modules-core/pull/5125</a></td>
+<td>adds exception handling for adding an invalid cond</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -8147,6 +8152,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17861">ansible/pull/17861</a></td>
+<td>fixes issue with run_commands raising error</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -9409,11 +9419,6 @@
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4383">ansible-modules-core/pull/4383</a></td>
 <td>Remove 'Standby' instances when deleting ASG</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5102">ansible-modules-core/pull/5102</a></td>
-<td>Typo Fix</td>
 </tr>
 <tr>
 <td>ec2_group</td>
@@ -11476,6 +11481,51 @@
 <td>Allow empty string GCE parameters</td>
 </tr>
 <tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11990">ansible/pull/11990</a></td>
+<td>Make SSH binary path a configurable variable</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/14034">ansible/pull/14034</a></td>
+<td>Use SSH askpass instead of sshpass for password lo</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/15437">ansible/pull/15437</a></td>
+<td>SSH fails with '"parsed": false' error message</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16649">ansible/pull/16649</a></td>
+<td>[WIP] Ssh connection stderr parsing for better ssh</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16787">ansible/pull/16787</a></td>
+<td>Ignore ControlPersist broken pipe errors. Fixes #1</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16943">ansible/pull/16943</a></td>
+<td>Add ansible adhoc commandline ssh prompt support f</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17598">ansible/pull/17598</a></td>
+<td>More verbose ssh failure error messages.</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17754">ansible/pull/17754</a></td>
+<td>Fix for failed ssh connection and connection timeo</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17860">ansible/pull/17860</a></td>
+<td>Normalize text and byte type in the ssh plugin hel</td>
+</tr>
+<tr>
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
 <td>docker log_opt ignored if log_driver is not specif</td>
@@ -11644,46 +11694,6 @@
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/836">ansible-modules-extras/issues/836</a></td>
 <td>lxc_container::container_config : python dict ain'</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11990">ansible/pull/11990</a></td>
-<td>Make SSH binary path a configurable variable</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/14034">ansible/pull/14034</a></td>
-<td>Use SSH askpass instead of sshpass for password lo</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/15437">ansible/pull/15437</a></td>
-<td>SSH fails with '"parsed": false' error message</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16649">ansible/pull/16649</a></td>
-<td>[WIP] Ssh connection stderr parsing for better ssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16787">ansible/pull/16787</a></td>
-<td>Ignore ControlPersist broken pipe errors. Fixes #1</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16943">ansible/pull/16943</a></td>
-<td>Add ansible adhoc commandline ssh prompt support f</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/17598">ansible/pull/17598</a></td>
-<td>More verbose ssh failure error messages.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/17754">ansible/pull/17754</a></td>
-<td>Fix for failed ssh connection and connection timeo</td>
 </tr>
 <tr>
 <td>facts</td>
@@ -14026,21 +14036,6 @@
 <td>Clean up connection and interpreter settings from </td>
 </tr>
 <tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
-<td>eos_command cli transport cryptography error</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5092">ansible-modules-core/issues/5092</a></td>
-<td>eos_command: unable to load response from device</td>
-</tr>
-<tr>
-<td>eos_command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17441">ansible/issues/17441</a></td>
-<td>test_eos_command: "unable to load response from de</td>
-</tr>
-<tr>
 <td>color</td>
 <td><a href="https://github.com/ansible/ansible/issues/17750">ansible/issues/17750</a></td>
 <td>Support 256-color terminals</td>
@@ -14981,9 +14976,9 @@
 <td>Responses from remote devices not sanitized comple</td>
 </tr>
 <tr>
-<td>nxos_install_os</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5121">ansible-modules-core/pull/5121</a></td>
-<td>nxos_install_os DOCSTRING</td>
+<td>nxos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4464">ansible-modules-core/issues/4464</a></td>
+<td>Cannot configure NX-OS device with nxos_command in</td>
 </tr>
 <tr>
 <td>logentries</td>
@@ -15129,11 +15124,6 @@
 <td>vmware_add_hdd</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1837">ansible-modules-extras/pull/1837</a></td>
 <td>Added the vmware_add_hdd module. This module enabl</td>
-</tr>
-<tr>
-<td>nxos_command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4464">ansible-modules-core/issues/4464</a></td>
-<td>Cannot configure NX-OS device with nxos_command in</td>
 </tr>
 <tr>
 <td>dimensiondata_disk</td>
@@ -15829,6 +15819,11 @@
 <td>satellite_hosts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2479">ansible-modules-extras/pull/2479</a></td>
 <td>Add module for managing Satellite hosts</td>
+</tr>
+<tr>
+<td>eos_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3884">ansible-modules-core/issues/3884</a></td>
+<td>eos_command cli transport cryptography error</td>
 </tr>
 <tr>
 <td>connection</td>
