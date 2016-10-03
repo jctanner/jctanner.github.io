@@ -30077,6 +30077,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17880">ansible/pull/17880</a></td>
+<td>Update CI config for stable-2.2 branch.</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1802">ansible/pull/1802</a></td>
 <td>[docsite] Added LEMP selected playbook</td>
 </tr>
@@ -54144,6 +54149,11 @@
 <td>synchronize</td>
 <td><a href="https://github.com/ansible/ansible/pull/16756">ansible/pull/16756</a></td>
 <td>synchronize: fix for rsync protocol support</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/pull/17874">ansible/pull/17874</a></td>
+<td>cast/copy keys() to list to avoid py3 errors</td>
 </tr>
 <tr>
 <td>synchronize</td>
@@ -85841,6 +85851,176 @@
 <td>Swap out rspec for vagrant in gem module example</td>
 </tr>
 <tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3504">ansible-modules-core/issues/3504</a></td>
+<td>intermittent failure when running local with multi</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/10688">ansible/pull/10688</a></td>
+<td>Import StringIO from six in a couple more places.</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/12325">ansible/pull/12325</a></td>
+<td>Test for Python must be against basename of interp</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/13189">ansible/pull/13189</a></td>
+<td>add REPLACER_SELINUX back into module_common</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/1552">ansible/pull/1552</a></td>
+<td>Only print 'Invoked with' if there are arguments t</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/16613">ansible/pull/16613</a></td>
+<td>Don't check that we import basic.py in new-style m</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/16817">ansible/pull/16817</a></td>
+<td>No longer try to import __version__ from release.p</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/1689">ansible/pull/1689</a></td>
+<td>Set LANG in module_common.py</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/17211">ansible/pull/17211</a></td>
+<td>Workaround for Ubuntu Python3 looking for modules </td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/17875">ansible/pull/17875</a></td>
+<td>open ANSIBALLZ payload 'wb' for py3 in debug path</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/1851">ansible/pull/1851</a></td>
+<td>Fix distribution detection - return string instead</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/1926">ansible/pull/1926</a></td>
+<td>fixed check for required_together</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/1977">ansible/pull/1977</a></td>
+<td>added block device info gathering, full for linux </td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/2075">ansible/pull/2075</a></td>
+<td>Support for amazon linux distribution facts.</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/2089">ansible/pull/2089</a></td>
+<td>Avoid extra shell</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/2262">ansible/pull/2262</a></td>
+<td>now ansible shows nice message about missing json </td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/2320">ansible/pull/2320</a></td>
+<td>Minor spelling fixes</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/2842">ansible/pull/2842</a></td>
+<td>generalized cleanup and removed atomic_move return</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3253">ansible/pull/3253</a></td>
+<td>Allow caller to disable logging on remote systems</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3278">ansible/pull/3278</a></td>
+<td>Allow caller to disable logging on remote systems </td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3519">ansible/pull/3519</a></td>
+<td>atomic_move fixes</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3548">ansible/pull/3548</a></td>
+<td>Fix pretty_bytes for exa- and zettabytes</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3555">ansible/pull/3555</a></td>
+<td>Update the atomic_move method so that files are al</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3595">ansible/pull/3595</a></td>
+<td>missing self in self method usages</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/3766">ansible/pull/3766</a></td>
+<td>use lgetfilecon_raw instead of lgetfilecon to not </td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/4119">ansible/pull/4119</a></td>
+<td>Added add_info_message function, which will be sho</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/4143">ansible/pull/4143</a></td>
+<td>Fix how module_common handles selevel (issue #4142</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/4263">ansible/pull/4263</a></td>
+<td>Check parameter types before checking their values</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/4474">ansible/pull/4474</a></td>
+<td>Change backup naming</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/5151">ansible/pull/5151</a></td>
+<td>Fix new new module_style determination. Fixes #514</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/644">ansible/pull/644</a></td>
+<td>AnsibleModule now correctly reads param values wit</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/6866">ansible/pull/6866</a></td>
+<td>Add check mode support for non-python modules</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/903">ansible/pull/903</a></td>
+<td>Add method get_bin_path to module_common.py</td>
+</tr>
+<tr>
+<td>module_common</td>
+<td><a href="https://github.com/ansible/ansible/pull/9541">ansible/pull/9541</a></td>
+<td>Allow multiple interpreters to be specified</td>
+</tr>
+<tr>
 <td>ec2_elb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/143">ansible-modules-core/issues/143</a></td>
 <td>ec2_elb: Failing with boto exception ( 400 - throt</td>
@@ -86004,171 +86184,6 @@
 <td>ec2_elb</td>
 <td><a href="https://github.com/ansible/ansible/pull/7577">ansible/pull/7577</a></td>
 <td>extend ec2_elb module to view LB health.</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3504">ansible-modules-core/issues/3504</a></td>
-<td>intermittent failure when running local with multi</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/10688">ansible/pull/10688</a></td>
-<td>Import StringIO from six in a couple more places.</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/12325">ansible/pull/12325</a></td>
-<td>Test for Python must be against basename of interp</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/13189">ansible/pull/13189</a></td>
-<td>add REPLACER_SELINUX back into module_common</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/1552">ansible/pull/1552</a></td>
-<td>Only print 'Invoked with' if there are arguments t</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/16613">ansible/pull/16613</a></td>
-<td>Don't check that we import basic.py in new-style m</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/16817">ansible/pull/16817</a></td>
-<td>No longer try to import __version__ from release.p</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/1689">ansible/pull/1689</a></td>
-<td>Set LANG in module_common.py</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/17211">ansible/pull/17211</a></td>
-<td>Workaround for Ubuntu Python3 looking for modules </td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/1851">ansible/pull/1851</a></td>
-<td>Fix distribution detection - return string instead</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/1926">ansible/pull/1926</a></td>
-<td>fixed check for required_together</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/1977">ansible/pull/1977</a></td>
-<td>added block device info gathering, full for linux </td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/2075">ansible/pull/2075</a></td>
-<td>Support for amazon linux distribution facts.</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/2089">ansible/pull/2089</a></td>
-<td>Avoid extra shell</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/2262">ansible/pull/2262</a></td>
-<td>now ansible shows nice message about missing json </td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/2320">ansible/pull/2320</a></td>
-<td>Minor spelling fixes</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/2842">ansible/pull/2842</a></td>
-<td>generalized cleanup and removed atomic_move return</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3253">ansible/pull/3253</a></td>
-<td>Allow caller to disable logging on remote systems</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3278">ansible/pull/3278</a></td>
-<td>Allow caller to disable logging on remote systems </td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3519">ansible/pull/3519</a></td>
-<td>atomic_move fixes</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3548">ansible/pull/3548</a></td>
-<td>Fix pretty_bytes for exa- and zettabytes</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3555">ansible/pull/3555</a></td>
-<td>Update the atomic_move method so that files are al</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3595">ansible/pull/3595</a></td>
-<td>missing self in self method usages</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/3766">ansible/pull/3766</a></td>
-<td>use lgetfilecon_raw instead of lgetfilecon to not </td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/4119">ansible/pull/4119</a></td>
-<td>Added add_info_message function, which will be sho</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/4143">ansible/pull/4143</a></td>
-<td>Fix how module_common handles selevel (issue #4142</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/4263">ansible/pull/4263</a></td>
-<td>Check parameter types before checking their values</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/4474">ansible/pull/4474</a></td>
-<td>Change backup naming</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/5151">ansible/pull/5151</a></td>
-<td>Fix new new module_style determination. Fixes #514</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/644">ansible/pull/644</a></td>
-<td>AnsibleModule now correctly reads param values wit</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/6866">ansible/pull/6866</a></td>
-<td>Add check mode support for non-python modules</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/903">ansible/pull/903</a></td>
-<td>Add method get_bin_path to module_common.py</td>
-</tr>
-<tr>
-<td>module_common</td>
-<td><a href="https://github.com/ansible/ansible/pull/9541">ansible/pull/9541</a></td>
-<td>Allow multiple interpreters to be specified</td>
 </tr>
 <tr>
 <td>win_chocolatey</td>
@@ -106521,31 +106536,6 @@
 <td>Add new Amazon SQS module</td>
 </tr>
 <tr>
-<td>yumrepo</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2109">ansible-modules-core/pull/2109</a></td>
-<td>Adding yumrepo module</td>
-</tr>
-<tr>
-<td>yumrepo</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2063">ansible-modules-extras/issues/2063</a></td>
-<td>yumrepo listed in Ansible module packaging documen</td>
-</tr>
-<tr>
-<td>yumrepo</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1016">ansible-modules-extras/pull/1016</a></td>
-<td>Adding yumrepo module</td>
-</tr>
-<tr>
-<td>yumrepo</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1415">ansible-modules-extras/pull/1415</a></td>
-<td>Adding params option into the yumrepo module</td>
-</tr>
-<tr>
-<td>yumrepo</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1595">ansible-modules-extras/pull/1595</a></td>
-<td>Adding more options to yumrepo module</td>
-</tr>
-<tr>
 <td>bigpanda</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2043">ansible-modules-extras/pull/2043</a></td>
 <td>Mark the token as sensitive, since it shouldn't be</td>
@@ -106819,6 +106809,31 @@
 <td>getent</td>
 <td><a href="https://github.com/ansible/ansible/pull/8956">ansible/pull/8956</a></td>
 <td>better getent examples</td>
+</tr>
+<tr>
+<td>yumrepo</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2109">ansible-modules-core/pull/2109</a></td>
+<td>Adding yumrepo module</td>
+</tr>
+<tr>
+<td>yumrepo</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2063">ansible-modules-extras/issues/2063</a></td>
+<td>yumrepo listed in Ansible module packaging documen</td>
+</tr>
+<tr>
+<td>yumrepo</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1016">ansible-modules-extras/pull/1016</a></td>
+<td>Adding yumrepo module</td>
+</tr>
+<tr>
+<td>yumrepo</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1415">ansible-modules-extras/pull/1415</a></td>
+<td>Adding params option into the yumrepo module</td>
+</tr>
+<tr>
+<td>yumrepo</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1595">ansible-modules-extras/pull/1595</a></td>
+<td>Adding more options to yumrepo module</td>
 </tr>
 <tr>
 <td>profile_tasks</td>
@@ -113409,6 +113424,11 @@
 <td>statusio_maintenance</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1394">ansible-modules-extras/pull/1394</a></td>
 <td>Adding statusio_maintenance module</td>
+</tr>
+<tr>
+<td>badic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17881">ansible/pull/17881</a></td>
+<td>Make run_command return native strings</td>
 </tr>
 <tr>
 <td>zabbix_webcheck</td>
