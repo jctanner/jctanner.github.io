@@ -1807,11 +1807,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5125">ansible-modules-core/pull/5125</a></td>
-<td>adds exception handling for adding an invalid cond</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/520">ansible-modules-core/pull/520</a></td>
 <td>Add a "create" state, to create a file without spu</td>
 </tr>
@@ -7342,6 +7337,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17862">ansible/issues/17862</a></td>
+<td>ansible-playground prints out wrong error message </td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -8149,11 +8149,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17857">ansible/pull/17857</a></td>
 <td>add windows async_wrapper integration loop test</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17861">ansible/pull/17861</a></td>
-<td>fixes issue with run_commands raising error</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -11481,51 +11476,6 @@
 <td>Allow empty string GCE parameters</td>
 </tr>
 <tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/11990">ansible/pull/11990</a></td>
-<td>Make SSH binary path a configurable variable</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/14034">ansible/pull/14034</a></td>
-<td>Use SSH askpass instead of sshpass for password lo</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/15437">ansible/pull/15437</a></td>
-<td>SSH fails with '"parsed": false' error message</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16649">ansible/pull/16649</a></td>
-<td>[WIP] Ssh connection stderr parsing for better ssh</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16787">ansible/pull/16787</a></td>
-<td>Ignore ControlPersist broken pipe errors. Fixes #1</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/16943">ansible/pull/16943</a></td>
-<td>Add ansible adhoc commandline ssh prompt support f</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/17598">ansible/pull/17598</a></td>
-<td>More verbose ssh failure error messages.</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/17754">ansible/pull/17754</a></td>
-<td>Fix for failed ssh connection and connection timeo</td>
-</tr>
-<tr>
-<td>ssh</td>
-<td><a href="https://github.com/ansible/ansible/pull/17860">ansible/pull/17860</a></td>
-<td>Normalize text and byte type in the ssh plugin hel</td>
-</tr>
-<tr>
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
 <td>docker log_opt ignored if log_driver is not specif</td>
@@ -11616,6 +11566,51 @@
 <td>Add Bandwidth Throttling to module_utils/urls.py</td>
 </tr>
 <tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
+<td>ansible_distribution_release is NA for Debian 6.0.</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17864">ansible/pull/17864</a></td>
+<td>Make 'setup'/facts.py not crash on py3</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
+</tr>
+<tr>
 <td>ecs_taskdefinition</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4538">ansible-modules-core/issues/4538</a></td>
 <td>[ecs_taskdefinition] Invalid type for parameter co</td>
@@ -11696,44 +11691,44 @@
 <td>lxc_container::container_config : python dict ain'</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
-<td>ansible_distribution_release is NA for Debian 6.0.</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/11990">ansible/pull/11990</a></td>
+<td>Make SSH binary path a configurable variable</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/14034">ansible/pull/14034</a></td>
+<td>Use SSH askpass instead of sshpass for password lo</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/15437">ansible/pull/15437</a></td>
+<td>SSH fails with '"parsed": false' error message</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16649">ansible/pull/16649</a></td>
+<td>[WIP] Ssh connection stderr parsing for better ssh</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16787">ansible/pull/16787</a></td>
+<td>Ignore ControlPersist broken pipe errors. Fixes #1</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/16943">ansible/pull/16943</a></td>
+<td>Add ansible adhoc commandline ssh prompt support f</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17598">ansible/pull/17598</a></td>
+<td>More verbose ssh failure error messages.</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17754">ansible/pull/17754</a></td>
+<td>Fix for failed ssh connection and connection timeo</td>
 </tr>
 <tr>
 <td>iam_cert</td>
@@ -14896,6 +14891,16 @@
 <td>win_package not accepting exit code 3010 as succes</td>
 </tr>
 <tr>
+<td>timezone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3041">ansible-modules-extras/issues/3041</a></td>
+<td>Timezone fails on CentOS 6</td>
+</tr>
+<tr>
+<td>timezone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3078">ansible-modules-extras/pull/3078</a></td>
+<td>fix timezone for centos6</td>
+</tr>
+<tr>
 <td>archive</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2766">ansible-modules-extras/issues/2766</a></td>
 <td>Archive with remote_src=yes strips the second / in</td>
@@ -15063,7 +15068,7 @@
 <tr>
 <td>ec2_vpc_peer</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1817">ansible-modules-extras/pull/1817</a></td>
-<td>ec2 vpc peering module</td>
+<td>ec2 vpc peering module [WIP]</td>
 </tr>
 <tr>
 <td>version_check</td>
@@ -15826,11 +15831,6 @@
 <td>eos_command cli transport cryptography error</td>
 </tr>
 <tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/issues/17832">ansible/issues/17832</a></td>
-<td>Ssh plugin is not working with python3</td>
-</tr>
-<tr>
 <td>xenserver_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2753">ansible-modules-extras/pull/2753</a></td>
 <td>Update xenserver_facts module to work with xenserv</td>
@@ -16419,11 +16419,6 @@
 <td>ios_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4712">ansible-modules-core/issues/4712</a></td>
 <td>ios_facts: `dir all-filesystems | include Director</td>
-</tr>
-<tr>
-<td>timezone</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3041">ansible-modules-extras/issues/3041</a></td>
-<td>Timezone fails on CentOS 6</td>
 </tr>
 <tr>
 <td>win_stat</td>

@@ -747,6 +747,21 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5123">ansible-modules-core/pull/5123</a></td>
+<td>adds check for AddConditionError when adding condi</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5124">ansible-modules-core/pull/5124</a></td>
+<td>adds exception handling for AddConditionError</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5125">ansible-modules-core/pull/5125</a></td>
+<td>adds exception handling for adding an invalid cond</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2602">ansible-modules-extras/issues/2602</a></td>
 <td>F5 LTM Error: ansible requires the stdlib json or </td>
 </tr>
@@ -30007,8 +30022,23 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17858">ansible/pull/17858</a></td>
+<td>switches the kickstart arg from True to False for </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17859">ansible/pull/17859</a></td>
+<td>adds new exception for adding condition statements</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/1786">ansible/pull/1786</a></td>
 <td>fixes reference to included files on bestpractices</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17861">ansible/pull/17861</a></td>
+<td>fixes issue with run_commands raising error</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -61239,6 +61269,11 @@
 <td>ssh</td>
 <td><a href="https://github.com/ansible/ansible/pull/17377">ansible/pull/17377</a></td>
 <td>Added option to change ssh executable path</td>
+</tr>
+<tr>
+<td>ssh</td>
+<td><a href="https://github.com/ansible/ansible/pull/17860">ansible/pull/17860</a></td>
+<td>Normalize text and byte type in the ssh plugin hel</td>
 </tr>
 <tr>
 <td>ssh</td>
@@ -98601,6 +98636,66 @@
 <td>test_eos_command: "unable to load response from de</td>
 </tr>
 <tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/issues/17832">ansible/issues/17832</a></td>
+<td>Ssh plugin is not working with python3</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/123">ansible/pull/123</a></td>
+<td>Add LocalConnection class to connection.py</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/132">ansible/pull/132</a></td>
+<td>Make use of LocalConnection explicit</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/134">ansible/pull/134</a></td>
+<td>Allow port override in hosts file</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/1825">ansible/pull/1825</a></td>
+<td>Hostvars for connections</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/2179">ansible/pull/2179</a></td>
+<td>Add support for connection type in ansible_hosts f</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/237">ansible/pull/237</a></td>
+<td>Unify normal and sudo remote exeuction.</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/261">ansible/pull/261</a></td>
+<td>Fix for LocalConnection</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/402">ansible/pull/402</a></td>
+<td>updated connection.py to have the same interface f</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/432">ansible/pull/432</a></td>
+<td>Fix for older versions of sudo.</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/9510">ansible/pull/9510</a></td>
+<td>fixed ssh fix, bad test case but it should work no</td>
+</tr>
+<tr>
+<td>connection</td>
+<td><a href="https://github.com/ansible/ansible/pull/9601">ansible/pull/9601</a></td>
+<td>Set delegate on connection plugin before calling c</td>
+</tr>
+<tr>
 <td>pkgutil</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2144">ansible-modules-extras/issues/2144</a></td>
 <td>pkgutil: the values of update_catalog get always t</td>
@@ -99626,61 +99721,6 @@
 <td>Tests for win_user module</td>
 </tr>
 <tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/123">ansible/pull/123</a></td>
-<td>Add LocalConnection class to connection.py</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/132">ansible/pull/132</a></td>
-<td>Make use of LocalConnection explicit</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/134">ansible/pull/134</a></td>
-<td>Allow port override in hosts file</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/1825">ansible/pull/1825</a></td>
-<td>Hostvars for connections</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/2179">ansible/pull/2179</a></td>
-<td>Add support for connection type in ansible_hosts f</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/237">ansible/pull/237</a></td>
-<td>Unify normal and sudo remote exeuction.</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/261">ansible/pull/261</a></td>
-<td>Fix for LocalConnection</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/402">ansible/pull/402</a></td>
-<td>updated connection.py to have the same interface f</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/432">ansible/pull/432</a></td>
-<td>Fix for older versions of sudo.</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/9510">ansible/pull/9510</a></td>
-<td>fixed ssh fix, bad test case but it should work no</td>
-</tr>
-<tr>
-<td>connection</td>
-<td><a href="https://github.com/ansible/ansible/pull/9601">ansible/pull/9601</a></td>
-<td>Set delegate on connection plugin before calling c</td>
-</tr>
-<tr>
 <td>cs_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2024">ansible-modules-core/issues/2024</a></td>
 <td>rsync src path / goes into system /</td>
@@ -99899,6 +99939,61 @@
 <td>adhoc</td>
 <td><a href="https://github.com/ansible/ansible/pull/17781">ansible/pull/17781</a></td>
 <td>better handling of host lists</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1675">ansible-modules-core/pull/1675</a></td>
+<td>Added no_syslog option to command and async_wrappe</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2503">ansible-modules-core/pull/2503</a></td>
+<td>Py2.4: SystemExit in async_wrapper is not an error</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3358">ansible-modules-core/pull/3358</a></td>
+<td>Allow async to not need an args file since new-sty</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3966">ansible-modules-core/pull/3966</a></td>
+<td>some fixes to async_wrapper error handling</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4051">ansible-modules-core/pull/4051</a></td>
+<td>Use os.rename() in async_wrapper</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4671">ansible-modules-core/pull/4671</a></td>
+<td>Python 3 fixes for async_wrapper and async_status.</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4678">ansible-modules-core/pull/4678</a></td>
+<td>Make async_wrapper ignore '_' as an argsfile.</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4779">ansible-modules-core/pull/4779</a></td>
+<td>Don't change to root dir in async_wrapper</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5107">ansible-modules-core/pull/5107</a></td>
+<td>add JSON junk filter to async_wrapper</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5122">ansible-modules-core/pull/5122</a></td>
+<td>(re)add post-watchdog-launch sleep to Windows asyn</td>
+</tr>
+<tr>
+<td>async_wrapper</td>
+<td><a href="https://github.com/ansible/ansible/pull/4806">ansible/pull/4806</a></td>
+<td>Ensure async terminates when time limit is not div</td>
 </tr>
 <tr>
 <td>pull</td>
@@ -100759,56 +100854,6 @@
 <td>sns_topic</td>
 <td><a href="https://github.com/ansible/ansible/issues/15079">ansible/issues/15079</a></td>
 <td>sns_topic module fails new topic creation on empty</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1675">ansible-modules-core/pull/1675</a></td>
-<td>Added no_syslog option to command and async_wrappe</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2503">ansible-modules-core/pull/2503</a></td>
-<td>Py2.4: SystemExit in async_wrapper is not an error</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3358">ansible-modules-core/pull/3358</a></td>
-<td>Allow async to not need an args file since new-sty</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3966">ansible-modules-core/pull/3966</a></td>
-<td>some fixes to async_wrapper error handling</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4051">ansible-modules-core/pull/4051</a></td>
-<td>Use os.rename() in async_wrapper</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4671">ansible-modules-core/pull/4671</a></td>
-<td>Python 3 fixes for async_wrapper and async_status.</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4678">ansible-modules-core/pull/4678</a></td>
-<td>Make async_wrapper ignore '_' as an argsfile.</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4779">ansible-modules-core/pull/4779</a></td>
-<td>Don't change to root dir in async_wrapper</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5107">ansible-modules-core/pull/5107</a></td>
-<td>add JSON junk filter to async_wrapper</td>
-</tr>
-<tr>
-<td>async_wrapper</td>
-<td><a href="https://github.com/ansible/ansible/pull/4806">ansible/pull/4806</a></td>
-<td>Ensure async terminates when time limit is not div</td>
 </tr>
 <tr>
 <td>cs_volume</td>
