@@ -2007,6 +2007,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3089">ansible-modules-extras/issues/3089</a></td>
+<td>known_hosts: mixed/uppercase host names fail</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/425">ansible-modules-extras/issues/425</a></td>
 <td>locale_gen fails to generate a locale on Ubuntu if</td>
 </tr>
@@ -2329,6 +2334,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3081">ansible-modules-extras/pull/3081</a></td>
 <td>Adds copyright line for F5 contributed modules</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/536">ansible-modules-extras/pull/536</a></td>
+<td>new open weather fact gathering module</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6822,11 +6832,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/16938">ansible/issues/16938</a></td>
-<td>ansible_python_interpreter ignored in 2.1.1.0</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/16941">ansible/issues/16941</a></td>
 <td>ansible_all_ipv4_addresses is empty when run on al</td>
 </tr>
@@ -7349,6 +7354,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17894">ansible/issues/17894</a></td>
 <td>Roles are being searched for directly in the playb</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17896">ansible/issues/17896</a></td>
+<td>[2.1.2] template and copy still uses old CWD </td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -9142,11 +9152,6 @@
 </tr>
 <tr>
 <td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5148">ansible-modules-core/issues/5148</a></td>
-<td>test issue for resolved by PR</td>
-</tr>
-<tr>
-<td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3016">ansible-modules-core/pull/3016</a></td>
 <td>YUM: Catch 'as root' to attribute permissions erro</td>
 </tr>
@@ -10421,6 +10426,76 @@
 <td>More tolerant unit parsing</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
+<td>Verify that cron_file argument is valid.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
+<td>cron does not create cron_file if it does not exis</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
+<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5150">ansible-modules-core/issues/5150</a></td>
+<td>Ansible v2.1.2.0 cron module: job Required if stat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - disallow line breaks in job param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5151">ansible-modules-core/pull/5151</a></td>
+<td>5150 Cron module: Move job parameter to meet expec</td>
+</tr>
+<tr>
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
 <td>unable to set mysql root password the first time</td>
@@ -10679,66 +10754,6 @@
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible/pull/17842">ansible/pull/17842</a></td>
 <td>Attempt to repro mount race condition.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
-<td>Verify that cron_file argument is valid.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
-<td>cron does not create cron_file if it does not exis</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
-<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - disallow line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
-<td>add correct SELinux file context for crontabs (#45</td>
 </tr>
 <tr>
 <td>authorized_key</td>
@@ -11316,6 +11331,61 @@
 <td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
+<td>Unarchive module throws an error on OS X</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
+<td>unarchive module add directory_mode parameter</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
+<td>unarchive inexplicit error message when required c</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
+<td>unarchive module does not recognize 'creates' para</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
+<td>unarchive module doesn't observe umask for idempot</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
+<td>unarchive fails with filename too long when downlo</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4752">ansible-modules-core/issues/4752</a></td>
+<td>unarchive - does not properly download archive wit</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4792">ansible-modules-core/issues/4792</a></td>
+<td>Unarchive module fails with "--strip" option</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5149">ansible-modules-core/issues/5149</a></td>
+<td>unarchive does not recognize size differs</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
+<td>Fix unarchive permission issue to tempdir</td>
+</tr>
+<tr>
+<td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
+<td>let chdir support relative path in more modules</td>
+</tr>
+<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2237">ansible-modules-core/issues/2237</a></td>
 <td>pip with url installs with -e argument</td>
@@ -11369,56 +11439,6 @@
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
 <td>#14634: symbolic permissions error</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2423">ansible-modules-core/issues/2423</a></td>
-<td>Unarchive module throws an error on OS X</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3048">ansible-modules-core/issues/3048</a></td>
-<td>unarchive module add directory_mode parameter</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3974">ansible-modules-core/issues/3974</a></td>
-<td>unarchive inexplicit error message when required c</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4164">ansible-modules-core/issues/4164</a></td>
-<td>unarchive module does not recognize 'creates' para</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4694">ansible-modules-core/issues/4694</a></td>
-<td>unarchive module doesn't observe umask for idempot</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4700">ansible-modules-core/issues/4700</a></td>
-<td>unarchive fails with filename too long when downlo</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4752">ansible-modules-core/issues/4752</a></td>
-<td>unarchive - does not properly download archive wit</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4792">ansible-modules-core/issues/4792</a></td>
-<td>Unarchive module fails with "--strip" option</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3452">ansible-modules-core/pull/3452</a></td>
-<td>Fix unarchive permission issue to tempdir</td>
-</tr>
-<tr>
-<td>unarchive</td>
-<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
-<td>let chdir support relative path in more modules</td>
 </tr>
 <tr>
 <td>maven_artifact</td>
@@ -12971,6 +12991,31 @@
 <td>Blockinfile overwrites symlink with file if change</td>
 </tr>
 <tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3025">ansible-modules-extras/issues/3025</a></td>
+<td>zypper_repository running a second time gives an e</td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3086">ansible-modules-extras/issues/3086</a></td>
+<td>zypper_repository: Adding repo with import of cust</td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3083">ansible-modules-extras/pull/3083</a></td>
+<td>Add documention for enabled option in zypper_repos</td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3088">ansible-modules-extras/pull/3088</a></td>
+<td>zypper_repository: Prepend --gpg-auto-import-keys </td>
+</tr>
+<tr>
+<td>zypper_repository</td>
+<td><a href="https://github.com/ansible/ansible/pull/17898">ansible/pull/17898</a></td>
+<td>Add test for auto_import_keys in zypper_repository</td>
+</tr>
+<tr>
 <td>ovirt</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
 <td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
@@ -14076,21 +14121,6 @@
 <td>added ability to control sleep between attempts</td>
 </tr>
 <tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3025">ansible-modules-extras/issues/3025</a></td>
-<td>zypper_repository running a second time gives an e</td>
-</tr>
-<tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3086">ansible-modules-extras/issues/3086</a></td>
-<td>zypper_repository: Adding repo with import of cust</td>
-</tr>
-<tr>
-<td>zypper_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3083">ansible-modules-extras/pull/3083</a></td>
-<td>Add documention for enabled option in zypper_repos</td>
-</tr>
-<tr>
 <td>junos_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3984">ansible-modules-core/issues/3984</a></td>
 <td>module junos_config with the parameter lines + del</td>
@@ -15111,9 +15141,9 @@
 <td>Add iptables_raw module</td>
 </tr>
 <tr>
-<td>os_stack</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/327">ansible-modules-extras/issues/327</a></td>
-<td>Port in modules from openstack-ansible</td>
+<td>ec2_lc_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3090">ansible-modules-extras/pull/3090</a></td>
+<td>Fix issue with multiple pages of results in ec2_lc</td>
 </tr>
 <tr>
 <td>ec2_vpc_peer</td>
@@ -15341,6 +15371,11 @@
 <td>Module/trigger</td>
 </tr>
 <tr>
+<td>os_stack</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/327">ansible-modules-extras/issues/327</a></td>
+<td>Port in modules from openstack-ansible</td>
+</tr>
+<tr>
 <td>password_hash</td>
 <td><a href="https://github.com/ansible/ansible/issues/17266">ansible/issues/17266</a></td>
 <td>properly support passlib module in password_hash</td>
@@ -15514,6 +15549,11 @@
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
 <td>Add fetch, raw, script and slurp in the Windows ca</td>
+</tr>
+<tr>
+<td>testme</td>
+<td><a href="https://github.com/ansible/ansible/issues/17899">ansible/issues/17899</a></td>
+<td>test issue for resolved by PR</td>
 </tr>
 <tr>
 <td>openbsd_rcctl</td>
@@ -15814,11 +15854,6 @@
 <td>nxos_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4860">ansible-modules-core/issues/4860</a></td>
 <td>ansible-modules-core/network/ - Code review</td>
-</tr>
-<tr>
-<td>openweather_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/536">ansible-modules-extras/pull/536</a></td>
-<td>new open weather fact gathering module</td>
 </tr>
 <tr>
 <td>openssl_privatekey</td>
