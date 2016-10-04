@@ -8157,6 +8157,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17889">ansible/pull/17889</a></td>
+<td>Added iocage tag lookup to jail connector</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -10601,6 +10606,66 @@
 <td>Attempt to repro mount race condition.</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
+<td>Verify that cron_file argument is valid.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
+<td>cron does not create cron_file if it does not exis</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
+<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - disallow line breaks in job param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
+</tr>
+<tr>
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
 <td>Add more options to authorized_keys modul for comm</td>
@@ -10841,6 +10906,66 @@
 <td>Add Digest auth support for uri module</td>
 </tr>
 <tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
+<td>digital ocean block storage support</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
+<td>Deprecate digital_ocean module</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4613">ansible-modules-core/issues/4613</a></td>
+<td>digital_ocean module not working</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
+<td>Fix of adding existing ssh key on DigitalOcean</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
+<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
+<td>document module_utils.*</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
+<td>add droplet name support for --host in digital_oce</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
+<td>Error messages from a CLI should be sent to stderr</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
+<td>use _meta; make cache in more expected way</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
+<td>Correcting new bugs introduced. Added tags as grou</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17784">ansible/pull/17784</a></td>
+<td>inventory/digital_ocean.py: add tag grouping</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17888">ansible/pull/17888</a></td>
+<td>Create groups from tags</td>
+</tr>
+<tr>
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2478">ansible-modules-core/issues/2478</a></td>
 <td>unable to set mysql root password the first time</td>
@@ -10894,61 +11019,6 @@
 <td>mysql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3798">ansible-modules-core/pull/3798</a></td>
 <td>Fix: mysql_user - permission string with column pr</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
-<td>Verify that cron_file argument is valid.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
-<td>cron does not create cron_file if it does not exis</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - disallow line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
-<td>add correct SELinux file context for crontabs (#45</td>
 </tr>
 <tr>
 <td>cloudformation</td>
@@ -11226,61 +11296,6 @@
 <td>Added iam_user_facts.py module - gathering facts a</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
-<td>digital ocean block storage support</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
-<td>Deprecate digital_ocean module</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4613">ansible-modules-core/issues/4613</a></td>
-<td>digital_ocean module not working</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
-<td>Fix of adding existing ssh key on DigitalOcean</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
-<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/issues/16888">ansible/issues/16888</a></td>
-<td>document module_utils.*</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
-<td>add droplet name support for --host in digital_oce</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
-<td>Error messages from a CLI should be sent to stderr</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
-<td>use _meta; make cache in more expected way</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
-<td>Correcting new bugs introduced. Added tags as grou</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/17784">ansible/pull/17784</a></td>
-<td>inventory/digital_ocean.py: add tag grouping</td>
-</tr>
-<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2237">ansible-modules-core/issues/2237</a></td>
 <td>pip with url installs with -e argument</td>
@@ -11384,56 +11399,6 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
 <td>let chdir support relative path in more modules</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
-<td>ansible_distribution_release is NA for Debian 6.0.</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17879">ansible/pull/17879</a></td>
-<td>out.split('\n') -> out.splitlines()</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17886">ansible/pull/17886</a></td>
-<td>Specify run_command decode error style as arg</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -11614,6 +11579,51 @@
 <td>maven_artifact</td>
 <td><a href="https://github.com/ansible/ansible/issues/17685">ansible/issues/17685</a></td>
 <td>Add Bandwidth Throttling to module_utils/urls.py</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
+<td>ansible_distribution_release is NA for Debian 6.0.</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17879">ansible/pull/17879</a></td>
+<td>out.split('\n') -> out.splitlines()</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>ecs_taskdefinition</td>
@@ -14166,6 +14176,16 @@
 <td>Import pass.py from github.com/morphje/ansible_pas</td>
 </tr>
 <tr>
+<td>first_found</td>
+<td><a href="https://github.com/ansible/ansible/pull/15543">ansible/pull/15543</a></td>
+<td>Fix #14454 with_first_found fails with ansible 2</td>
+</tr>
+<tr>
+<td>first_found</td>
+<td><a href="https://github.com/ansible/ansible/pull/17890">ansible/pull/17890</a></td>
+<td>no need for warnings in first_found</td>
+</tr>
+<tr>
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/827">ansible-modules-extras/issues/827</a></td>
 <td>urrlib not defined using consul_kv</td>
@@ -15066,11 +15086,6 @@
 <td>Add version_check callback plugin.</td>
 </tr>
 <tr>
-<td>first_found</td>
-<td><a href="https://github.com/ansible/ansible/pull/15543">ansible/pull/15543</a></td>
-<td>Fix #14454 with_first_found fails with ansible 2</td>
-</tr>
-<tr>
 <td>datadog_downtime</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2381">ansible-modules-extras/pull/2381</a></td>
 <td>add datadog_downtime module (try 3)</td>
@@ -15164,6 +15179,11 @@
 <td>upcloud</td>
 <td><a href="https://github.com/ansible/ansible/pull/11586">ansible/pull/11586</a></td>
 <td>upcloud inventory script</td>
+</tr>
+<tr>
+<td>with_first_found</td>
+<td><a href="https://github.com/ansible/ansible/issues/17891">ansible/issues/17891</a></td>
+<td>with_first_found gets incorrectly traversed in sta</td>
 </tr>
 <tr>
 <td>osx_mas</td>
