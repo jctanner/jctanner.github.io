@@ -8712,11 +8712,6 @@
 </tr>
 <tr>
 <td>docker</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3399">ansible-modules-core/pull/3399</a></td>
-<td>__human_to_bytes has been reworked</td>
-</tr>
-<tr>
-<td>docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4045">ansible-modules-core/pull/4045</a></td>
 <td>Fix inconsistent default value for network mode wh</td>
 </tr>
@@ -9059,6 +9054,11 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible/issues/17341">ansible/issues/17341</a></td>
 <td>[BUG] Ansible playbook fails when ran with un-priv</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible/issues/17908">ansible/issues/17908</a></td>
+<td>Users home directory must be readable for become_u</td>
 </tr>
 <tr>
 <td>user</td>
@@ -13846,6 +13846,36 @@
 <td>handler: fix handler precedence (name > listen)</td>
 </tr>
 <tr>
+<td>with_fileglob</td>
+<td><a href="https://github.com/ansible/ansible/issues/17136">ansible/issues/17136</a></td>
+<td>with_fileglob does not handle a `*` to match a dir</td>
+</tr>
+<tr>
+<td>with_fileglob</td>
+<td><a href="https://github.com/ansible/ansible/issues/17269">ansible/issues/17269</a></td>
+<td>with_fileglob not matching *just* directories</td>
+</tr>
+<tr>
+<td>with_fileglob</td>
+<td><a href="https://github.com/ansible/ansible/issues/17907">ansible/issues/17907</a></td>
+<td>with_fileglob not working with absolute path</td>
+</tr>
+<tr>
+<td>ec2_remote_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3094">ansible-modules-extras/issues/3094</a></td>
+<td>ec2_remote_facts fails to retrieve facts for ec2 s</td>
+</tr>
+<tr>
+<td>ec2_remote_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1795">ansible-modules-extras/pull/1795</a></td>
+<td>added additional instance variables</td>
+</tr>
+<tr>
+<td>ec2_remote_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1972">ansible-modules-extras/pull/1972</a></td>
+<td>added code which returns instance & platform type </td>
+</tr>
+<tr>
 <td>package</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4472">ansible-modules-core/issues/4472</a></td>
 <td>package: version specifiers only work with `yum`</td>
@@ -13949,21 +13979,6 @@
 <td>softlayer</td>
 <td><a href="https://github.com/ansible/ansible/pull/12644">ansible/pull/12644</a></td>
 <td>You can create private instances in SoftLayer with</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4607">ansible-modules-core/issues/4607</a></td>
-<td>Support of new docker 1.12 features (swarm, servic</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5117">ansible-modules-core/issues/5117</a></td>
-<td>docker_service module giving incomplete error mess</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4021">ansible-modules-core/pull/4021</a></td>
-<td>docker_service: prevent non specified services fro</td>
 </tr>
 <tr>
 <td>deploy_helper</td>
@@ -14316,26 +14331,6 @@
 <td>Allow vm_facts to be restricted to a given folder </td>
 </tr>
 <tr>
-<td>with_fileglob</td>
-<td><a href="https://github.com/ansible/ansible/issues/17136">ansible/issues/17136</a></td>
-<td>with_fileglob does not handle a `*` to match a dir</td>
-</tr>
-<tr>
-<td>with_fileglob</td>
-<td><a href="https://github.com/ansible/ansible/issues/17269">ansible/issues/17269</a></td>
-<td>with_fileglob not matching *just* directories</td>
-</tr>
-<tr>
-<td>ec2_remote_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1795">ansible-modules-extras/pull/1795</a></td>
-<td>added additional instance variables</td>
-</tr>
-<tr>
-<td>ec2_remote_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1972">ansible-modules-extras/pull/1972</a></td>
-<td>added code which returns instance & platform type </td>
-</tr>
-<tr>
 <td>ec2_scaling_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1565">ansible-modules-core/issues/1565</a></td>
 <td>Support to AWS scheduled autoscale policy</td>
@@ -14514,6 +14509,16 @@
 <td>launchd</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3073">ansible-modules-extras/pull/3073</a></td>
 <td>Add module "launchd" to manage Mac OS X services.</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4607">ansible-modules-core/issues/4607</a></td>
+<td>Support of new docker 1.12 features (swarm, servic</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5117">ansible-modules-core/issues/5117</a></td>
+<td>docker_service module giving incomplete error mess</td>
 </tr>
 <tr>
 <td>rabbitmq_policy</td>
@@ -15461,11 +15466,6 @@
 <td>cloud/vmware/vmware_vmotion: added storage vmotion</td>
 </tr>
 <tr>
-<td>nxos_ip_interface</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5111">ansible-modules-core/issues/5111</a></td>
-<td>nxos_vlan, nxos_interface, nxos_ip_interface fail </td>
-</tr>
-<tr>
 <td>dimensiondata_backup</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3012">ansible-modules-extras/pull/3012</a></td>
 <td>New dimensiondata backup</td>
@@ -15619,11 +15619,6 @@
 <td>raw</td>
 <td><a href="https://github.com/ansible/ansible/pull/15050">ansible/pull/15050</a></td>
 <td>added '--raw' option to ansible cli, which outputs</td>
-</tr>
-<tr>
-<td>eos_eapi</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4970">ansible-modules-core/issues/4970</a></td>
-<td>Docs for http(s) enable issue eos_eapi, nxos_nxapi</td>
 </tr>
 <tr>
 <td>ec2_vpc_net</td>
@@ -16199,6 +16194,11 @@
 <td>win_localgroupmembers</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2301">ansible-modules-extras/pull/2301</a></td>
 <td>added win_localgroupmembers files</td>
+</tr>
+<tr>
+<td>docsite</td>
+<td><a href="https://github.com/ansible/ansible/pull/17909">ansible/pull/17909</a></td>
+<td>Fix minor typo on testing paths example</td>
 </tr>
 <tr>
 <td>os_ironic_inspect</td>
