@@ -17,6 +17,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/1337";"Docker: containers fail to start if mounting files on existing ones";
 "https://github.com/ansible/ansible-modules-core/issues/1364";"Openstack: global name HAVE_NOVACLIENT is not defined";
 "https://github.com/ansible/ansible-modules-core/issues/1373";"Docker module crashes";
+"https://github.com/ansible/ansible-modules-core/issues/1397";"Add support for port ranges to the Docker module";
 "https://github.com/ansible/ansible-modules-core/issues/143";"ec2_elb: Failing with boto exception ( 400 - throttling ) ";
 "https://github.com/ansible/ansible-modules-core/issues/1475";"vsphere_guest KeyError: memory_mb on reconfigure";
 "https://github.com/ansible/ansible-modules-core/issues/1481";"IAM Module - and group updates - failure";
@@ -75,6 +76,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/2836";"URI module fails with variables in the JSON body";
 "https://github.com/ansible/ansible-modules-core/issues/2861";"ec2_elb_lb stickiness option does not work";
 "https://github.com/ansible/ansible-modules-core/issues/2900";"Unable to use vmware_datacenter module";
+"https://github.com/ansible/ansible-modules-core/issues/2901";"openstack launch vm exception - module os_server";
 "https://github.com/ansible/ansible-modules-core/issues/294";"win_ping module: exception handling error";
 "https://github.com/ansible/ansible-modules-core/issues/2962";"TypeError: build() got an unexpected keyword argument while using docker_image";
 "https://github.com/ansible/ansible-modules-core/issues/2991";"docker_image module: Either path or fileobj needs to be provided";
@@ -154,11 +156,14 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/4449";"include_vars fails when specifying only `file`";
 "https://github.com/ansible/ansible-modules-core/issues/4455";"Expect module not working module failure parsed false";
 "https://github.com/ansible/ansible-modules-core/issues/4461";"pause until broken";
+"https://github.com/ansible/ansible-modules-core/issues/4466";"Docker module fails to parse envvars that are empty strings";
 "https://github.com/ansible/ansible-modules-core/issues/4475";"module junos_command rpc_args set int(value for kwargs[key] with r\d+";
 "https://github.com/ansible/ansible-modules-core/issues/4478";"unarchive module error--cloud not support Chinese";
 "https://github.com/ansible/ansible-modules-core/issues/4494";"setup module fails with AttributeError: module object has no attribute selinux_getpolicytype in get_selinux_facts on Fedora Core 5";
 "https://github.com/ansible/ansible-modules-core/issues/4505";"Out of disk space condition gives error: temp_path is not defined";
 "https://github.com/ansible/ansible-modules-core/issues/4522";"module ec2_ami_find doesnt works";
+"https://github.com/ansible/ansible-modules-core/issues/4557";"AttributeError: DockerManager object has no attribute client";
+"https://github.com/ansible/ansible-modules-core/issues/4613";"digital_ocean module not working";
 "https://github.com/ansible/ansible-modules-core/issues/4628";"junos_command errors out with TypeError: Type str cannot be serialized";
 "https://github.com/ansible/ansible-modules-core/issues/4634";"replace.py is failing with an UnboundLocalError";
 "https://github.com/ansible/ansible-modules-core/issues/4647";"ios_facts: exception due to missing itertools";
@@ -167,6 +172,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/4713";"Cant provide credentials to Ansible Azure module";
 "https://github.com/ansible/ansible-modules-core/issues/4762";"Windows Setup.ps1 fails(Get-PendingRebootStatus)";
 "https://github.com/ansible/ansible-modules-core/issues/4801";"eos_template: TypeError: load_config() got an unexpected keyword argument session";
+"https://github.com/ansible/ansible-modules-core/issues/4802";"TypeError: argument of type NoneType is not iterable during docker image update";
 "https://github.com/ansible/ansible-modules-core/issues/481";"docker module shows AttributeError: RecentlyUsedContainer object has no attribute lock";
 "https://github.com/ansible/ansible-modules-core/issues/4840";"nxos_template and nsox_config error when using src";
 "https://github.com/ansible/ansible-modules-core/issues/4867";"cloudformation module fails with ";
@@ -183,6 +189,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/5109";"cron: OSError: [Errno 25] Inappropriate ioctl for devic";
 "https://github.com/ansible/ansible-modules-core/issues/5111";"nxos_vlan, nxos_interface, nxos_ip_interface fail when trying to change configuration";
 "https://github.com/ansible/ansible-modules-core/issues/5145";"docker_service not creating docker image";
+"https://github.com/ansible/ansible-modules-core/issues/5150";"Ansible v2.1.2.0 cron module: job Required if state=absent result in error";
 "https://github.com/ansible/ansible-modules-core/issues/516";"error creating ec2 metric alarms when there are different dimensions ansible -1.8.2";
 "https://github.com/ansible/ansible-modules-core/issues/529";"ec2_group module failures with ICMP protocol";
 "https://github.com/ansible/ansible-modules-core/issues/542";"ec2_asg errors when using replace_all_instances but not specifying batch max_size";
@@ -299,6 +306,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/1397";"vsphere_copy issues";
 "https://github.com/ansible/ansible-modules-extras/issues/1433";"win_acl: set permissions to apppool identities dont work";
 "https://github.com/ansible/ansible-modules-extras/issues/1452";"Maven artifact module doesnt understand ~ for home directory";
+"https://github.com/ansible/ansible-modules-extras/issues/1465";"route53_facts will fail when using hosted_zone_id";
 "https://github.com/ansible/ansible-modules-extras/issues/1483";"Return values in ecs_service.py and ecs_service_facts.py are not valid";
 "https://github.com/ansible/ansible-modules-extras/issues/1494";"rabbitmq_exchange not idempotent: fails when exchange already exists";
 "https://github.com/ansible/ansible-modules-extras/issues/1512";"win_firewall_rule exception when adding rule";
@@ -314,6 +322,8 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/1718";"win_get_url module appears to require parameter listed as optional in docs (creates)";
 "https://github.com/ansible/ansible-modules-extras/issues/1742";"osx_defaults fails with type set to string: TypeError: isinstance() arg 2 must be a class, type, or tuple of classes and types";
 "https://github.com/ansible/ansible-modules-extras/issues/1743";"win_iis_webapppool: cant delete application pool";
+"https://github.com/ansible/ansible-modules-extras/issues/1785";"elasticsearch_plugin - unsupported parameter name for module";
+"https://github.com/ansible/ansible-modules-extras/issues/1808";"Firewalld fails to add source address to a zone";
 "https://github.com/ansible/ansible-modules-extras/issues/1809";"firewalld: AnsibleModule object has no attribute fail";
 "https://github.com/ansible/ansible-modules-extras/issues/1869";"mongodb_user ValueError: The value of ssl must be true or false\r\n, msg: MODULE FAILURE";
 "https://github.com/ansible/ansible-modules-extras/issues/1889";"sns_topic module fails new topic creation on empty subscriptions argument";
@@ -355,8 +365,10 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/2840";"ec2_asg_facts: Find by name using wrong key in search";
 "https://github.com/ansible/ansible-modules-extras/issues/2846";"pkgin module fails with package names with two hyphens on NetBSD 6.1.5";
 "https://github.com/ansible/ansible-modules-extras/issues/2890";"Cisco ASA_ACL NameError: global name candidate is not defined";
+"https://github.com/ansible/ansible-modules-extras/issues/2893";"Cannot run os_server_group";
 "https://github.com/ansible/ansible-modules-extras/issues/2900";"vmware_guest.py - Multiple datacenters folders not implemented";
 "https://github.com/ansible/ansible-modules-extras/issues/2908";"zypper_repository: ImportError: No module named xml.dom.minidom";
+"https://github.com/ansible/ansible-modules-extras/issues/2935";"Composer module do not work in console";
 "https://github.com/ansible/ansible-modules-extras/issues/2957";"Mail module body parameter should accept lists";
 "https://github.com/ansible/ansible-modules-extras/issues/3021";"ec2_asg_facts fails with exception";
 "https://github.com/ansible/ansible-modules-extras/issues/3041";"Timezone fails on CentOS 6";
@@ -885,6 +897,7 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16821";"`ansible -m include` fails with Unexpected Exception. Error should probably just be nope.";
 "https://github.com/ansible/ansible/issues/16825";"debug strategy fails to import linear";
 "https://github.com/ansible/ansible/issues/16831";"ansible 2.1.0.0 missing to install required setuptools and fails later due to this";
+"https://github.com/ansible/ansible/issues/16837";"ansible fails with ERROR! Unexpected Exception: [Errno 12] Cannot allocate memory for case when inventory file has many hosts";
 "https://github.com/ansible/ansible/issues/16855";"Fact gathering fails due to path in /proc/mounts containing quote";
 "https://github.com/ansible/ansible/issues/16873";"WinRM - only fails in the 1st run - Bad HTTP response returned from server. Code 500";
 "https://github.com/ansible/ansible/issues/16875";"nAttributeError: DynamicData_Holder object has no attribute get_element_deviceName\n";
@@ -936,7 +949,9 @@ github_url;title
 "https://github.com/ansible/ansible/issues/17713";"Using ansible from git in python3 default distros";
 "https://github.com/ansible/ansible/issues/1784";"local_action does not use parent interpreter or ansible_python_interpreter";
 "https://github.com/ansible/ansible/issues/17850";"type=int in AnsibleModule triggers traceback";
+"https://github.com/ansible/ansible/issues/17895";"NameError: global name AnsibleError is not defined";
 "https://github.com/ansible/ansible/issues/1790";"callback plugins are sometimes imported (and subsequently run) twice - once for runner and once for playbook";
+"https://github.com/ansible/ansible/issues/17917";"Wrong doc Installing Multiple Roles From Multiple Files";
 "https://github.com/ansible/ansible/issues/1854";"Setup Module in 0.9: Fails if called on xen host as non-root user ";
 "https://github.com/ansible/ansible/issues/1888";"Incomplete parsing of apt sources.list";
 "https://github.com/ansible/ansible/issues/1895";"postgresql_user now fails on postgresql-8.4.13";
