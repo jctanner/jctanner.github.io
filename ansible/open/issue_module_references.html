@@ -13451,6 +13451,21 @@
 <td>New security group facts module [was PR #1908]</td>
 </tr>
 <tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5166">ansible-modules-core/issues/5166</a></td>
+<td>include_role module silently ignores missing tasks</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5222">ansible-modules-core/issues/5222</a></td>
+<td>include_role does not work with with_items</td>
+</tr>
+<tr>
 <td>handler</td>
 <td><a href="https://github.com/ansible/ansible/issues/17208">ansible/issues/17208</a></td>
 <td>wrong handler is called when squashed items fail</td>
@@ -14051,16 +14066,6 @@
 <td>Adding Managed Mode into the yum_repository module</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
-<td>include_role does not support tags</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5166">ansible-modules-core/issues/5166</a></td>
-<td>include_role module silently ignores missing tasks</td>
-</tr>
-<tr>
 <td>fetch</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
 <td>Fetch Silently Fails To Fetch File</td>
@@ -14261,6 +14266,16 @@
 <td>removed non-feature -include in requirements.txt</td>
 </tr>
 <tr>
+<td>pn_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5191">ansible-modules-core/issues/5191</a></td>
+<td>pn_vlan.py parameter parsing error</td>
+</tr>
+<tr>
+<td>pn_vlan</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5223">ansible-modules-core/pull/5223</a></td>
+<td>Update pn_vlan</td>
+</tr>
+<tr>
 <td>clc_server</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2035">ansible-modules-extras/pull/2035</a></td>
 <td>Minor bug fixes and enhancements</td>
@@ -14369,6 +14384,16 @@
 <td>zypper_repository</td>
 <td><a href="https://github.com/ansible/ansible/pull/17898">ansible/pull/17898</a></td>
 <td>Add test for auto_import_keys in zypper_repository</td>
+</tr>
+<tr>
+<td>play</td>
+<td><a href="https://github.com/ansible/ansible/pull/15404">ansible/pull/15404</a></td>
+<td>add "gather_facts: ignore_restrictions"</td>
+</tr>
+<tr>
+<td>play</td>
+<td><a href="https://github.com/ansible/ansible/pull/17967">ansible/pull/17967</a></td>
+<td>add vars_dirs parameter like vars_files</td>
 </tr>
 <tr>
 <td>zfs</td>
@@ -15221,11 +15246,6 @@
 <td>Use boto3 in sts assume role module</td>
 </tr>
 <tr>
-<td>pn_vlan</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5191">ansible-modules-core/issues/5191</a></td>
-<td>pn_vlan.py parameter parsing error</td>
-</tr>
-<tr>
 <td>vmware_vmotion</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2903">ansible-modules-extras/pull/2903</a></td>
 <td>cloud/vmware/vmware_vmotion: added storage vmotion</td>
@@ -15499,11 +15519,6 @@
 <td>elasticsearch_plugin</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3043">ansible-modules-extras/pull/3043</a></td>
 <td>elasticsearch_plugin: add check mode support</td>
-</tr>
-<tr>
-<td>play</td>
-<td><a href="https://github.com/ansible/ansible/pull/15404">ansible/pull/15404</a></td>
-<td>add "gather_facts: ignore_restrictions"</td>
 </tr>
 <tr>
 <td>elasticsearch_shield_role</td>
