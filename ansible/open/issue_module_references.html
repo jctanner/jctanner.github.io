@@ -3682,6 +3682,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17969">ansible/issues/17969</a></td>
+<td>group_vars ignored with inventory script in ansibl</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -5802,6 +5807,11 @@
 </tr>
 <tr>
 <td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5228">ansible-modules-core/issues/5228</a></td>
+<td>yum install failed but task outputs OK (with_items</td>
+</tr>
+<tr>
+<td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1666">ansible-modules-core/pull/1666</a></td>
 <td>yum: refactoring working with yum groups</td>
 </tr>
@@ -6184,6 +6194,11 @@
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4711">ansible-modules-core/issues/4711</a></td>
 <td>Problm with copy module when using not default ssh</td>
+</tr>
+<tr>
+<td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5227">ansible-modules-core/issues/5227</a></td>
+<td>Copy module takes forever </td>
 </tr>
 <tr>
 <td>copy</td>
@@ -9346,76 +9361,6 @@
 <td>Adding self.log() on IOErrors and OSErrros</td>
 </tr>
 <tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
-<td>Add check= to shell & command modules or a generic</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
-<td>Support for Shell Commands in Check Mode</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
-<td>command module does not return stderr of `postfix </td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
-<td>Add module to hide `mktemp` differences across OS</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4548">ansible-modules-core/issues/4548</a></td>
-<td>Proposal for command module error if special chara</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
-<td>allow playbooks to specify stdin for command</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
-<td>Improves command warnings for commands which requi</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
-<td>CommandModule: detect change based on update to so</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
-<td>Command module removing characters from rvm comman</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
-<td>Expect a given return code from the command module</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
-<td>confusing ansible command with ansible-playbook</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
-<td>`template` module fails with "/bin/sh: powershell:</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17042">ansible/issues/17042</a></td>
-<td>add "mocking" parameter to shell and command modul</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17721">ansible/issues/17721</a></td>
-<td>Rescue block does not execute when a run_once comm</td>
-</tr>
-<tr>
 <td>core</td>
 <td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
 <td>Increase Ansible's performance</td>
@@ -9484,6 +9429,81 @@
 <td>core</td>
 <td><a href="https://github.com/ansible/ansible/pull/17667">ansible/pull/17667</a></td>
 <td>parse_kv now observes check_raw</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17970">ansible/pull/17970</a></td>
+<td>Fix unbound method call for JSONEncoder</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
+<td>Add check= to shell & command modules or a generic</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
+<td>Support for Shell Commands in Check Mode</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
+<td>command module does not return stderr of `postfix </td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
+<td>Add module to hide `mktemp` differences across OS</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4548">ansible-modules-core/issues/4548</a></td>
+<td>Proposal for command module error if special chara</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
+<td>allow playbooks to specify stdin for command</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
+<td>Improves command warnings for commands which requi</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
+<td>CommandModule: detect change based on update to so</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
+<td>Command module removing characters from rvm comman</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
+<td>Expect a given return code from the command module</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
+<td>confusing ansible command with ansible-playbook</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
+<td>`template` module fails with "/bin/sh: powershell:</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17042">ansible/issues/17042</a></td>
+<td>add "mocking" parameter to shell and command modul</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17721">ansible/issues/17721</a></td>
+<td>Rescue block does not execute when a run_once comm</td>
 </tr>
 <tr>
 <td>get_url</td>
@@ -14241,16 +14261,6 @@
 <td>Add more options to magic vars</td>
 </tr>
 <tr>
-<td>nxos_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5170">ansible-modules-core/pull/5170</a></td>
-<td>Pushing changes to nxos modules</td>
-</tr>
-<tr>
-<td>nxos_acl</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5224">ansible-modules-core/pull/5224</a></td>
-<td>Correct typos in argument_spec</td>
-</tr>
-<tr>
 <td>redshift</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1365">ansible-modules-extras/pull/1365</a></td>
 <td>Add support for AWS Redshift clusters and snapshot</td>
@@ -15174,6 +15184,11 @@
 <td>elasticache_tag</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2233">ansible-modules-extras/pull/2233</a></td>
 <td>Create/Modify/Delete Tags for ElastiCache Clusters</td>
+</tr>
+<tr>
+<td>nxos_acl</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5170">ansible-modules-core/pull/5170</a></td>
+<td>Pushing changes to nxos modules</td>
 </tr>
 <tr>
 <td>trigger_command</td>
@@ -16399,6 +16414,11 @@
 <td>assemble</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5039">ansible-modules-core/issues/5039</a></td>
 <td>`assemble` does not create parent directory</td>
+</tr>
+<tr>
+<td>katello</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3136">ansible-modules-extras/pull/3136</a></td>
+<td>Fix broken entities reference in Katello module</td>
 </tr>
 <tr>
 <td>postgresql</td>
