@@ -4202,11 +4202,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/17800">ansible/pull/17800</a></td>
-<td>Separate privileged/unprivileged tests.</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17814">ansible/pull/17814</a></td>
 <td>Skip test_aws.py if boto3/botocore are missing</td>
 </tr>
@@ -4234,6 +4229,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17974">ansible/pull/17974</a></td>
 <td>cloudstack: docs: use local_action, not connection</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17976">ansible/pull/17976</a></td>
+<td>Split integration tests out from Makefile.</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7416,11 +7416,6 @@
 <td>add systemd-nspawn connection driver</td>
 </tr>
 <tr>
-<td>mount</td>
-<td><a href="https://github.com/ansible/ansible/pull/17842">ansible/pull/17842</a></td>
-<td>Attempt to repro mount race condition.</td>
-</tr>
-<tr>
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/170">ansible-modules-core/issues/170</a></td>
 <td>file touch always 'changed' - [was: need a separat</td>
@@ -8606,6 +8601,86 @@
 <td>easy_install fails to install pip with `ok`</td>
 </tr>
 <tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
+<td>Feature Idea : cloudformation "describe" state</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1370">ansible-modules-core/issues/1370</a></td>
+<td>cloudformation module throws error when stack is g</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1460">ansible-modules-core/issues/1460</a></td>
+<td>cloudformation: cloudformation template file is no</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
+<td>cloudformation state: absent requires template or </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
+<td>Ansible 2.0 cloudformation module template path</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
+<td>cloudformation module fails when state:absent and </td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5112">ansible-modules-core/issues/5112</a></td>
+<td>YAML support not working correctly</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
+<td>Add missing import on cloudformation for boto prof</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
+<td>Remove duplicate logic with invalid validation</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
+<td>fix to allow named profiles to work correctly with</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
+<td>Preserve order during Yaml to JSON parsing</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
+<td>cloudformation: add parameter for stack policy dur</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
+<td>Fix cloudformation error invocation and whitespace</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5066">ansible-modules-core/pull/5066</a></td>
+<td>Templates can be in both formats: local and remote</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5207">ansible-modules-core/pull/5207</a></td>
+<td>Use native YAML support in CloudFormation</td>
+</tr>
+<tr>
+<td>cloudformation</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5230">ansible-modules-core/pull/5230</a></td>
+<td>massive rewrite to boto3</td>
+</tr>
+<tr>
 <td>known_hosts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1129">ansible-modules-extras/issues/1129</a></td>
 <td>known_hosts module fails when using host with port</td>
@@ -8994,81 +9069,6 @@
 <td>ec2_vpc</td>
 <td><a href="https://github.com/ansible/ansible/issues/11919">ansible/issues/11919</a></td>
 <td>boto profile not being used by ec2_vpc</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
-<td>Feature Idea : cloudformation "describe" state</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1370">ansible-modules-core/issues/1370</a></td>
-<td>cloudformation module throws error when stack is g</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1460">ansible-modules-core/issues/1460</a></td>
-<td>cloudformation: cloudformation template file is no</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2314">ansible-modules-core/issues/2314</a></td>
-<td>cloudformation state: absent requires template or </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2819">ansible-modules-core/issues/2819</a></td>
-<td>Ansible 2.0 cloudformation module template path</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3293">ansible-modules-core/issues/3293</a></td>
-<td>cloudformation module fails when state:absent and </td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5112">ansible-modules-core/issues/5112</a></td>
-<td>YAML support not working correctly</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2405">ansible-modules-core/pull/2405</a></td>
-<td>Add missing import on cloudformation for boto prof</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2701">ansible-modules-core/pull/2701</a></td>
-<td>Remove duplicate logic with invalid validation</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3317">ansible-modules-core/pull/3317</a></td>
-<td>fix to allow named profiles to work correctly with</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3318">ansible-modules-core/pull/3318</a></td>
-<td>Preserve order during Yaml to JSON parsing</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4380">ansible-modules-core/pull/4380</a></td>
-<td>cloudformation: add parameter for stack policy dur</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4517">ansible-modules-core/pull/4517</a></td>
-<td>Fix cloudformation error invocation and whitespace</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5066">ansible-modules-core/pull/5066</a></td>
-<td>Templates can be in both formats: local and remote</td>
-</tr>
-<tr>
-<td>cloudformation</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5207">ansible-modules-core/pull/5207</a></td>
-<td>Use native YAML support in CloudFormation</td>
 </tr>
 <tr>
 <td>gce</td>
