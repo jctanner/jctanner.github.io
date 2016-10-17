@@ -77,13 +77,11 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/4512";"Setup.ps1 fails on windows hosts where facter is installed";
 "https://github.com/ansible/ansible-modules-core/issues/4538";"[ecs_taskdefinition] Invalid type for parameter containerDefinitions[0]";
 "https://github.com/ansible/ansible-modules-core/issues/4635";"ios_template failing to extend a jinja2";
-"https://github.com/ansible/ansible-modules-core/issues/4712";"ios_facts: `dir all-filesystems | include Directory`not supported on all devices";
 "https://github.com/ansible/ansible-modules-core/issues/4755";"vsphere_guest vm_disk limited to 7 disks using SCSI paravirtual";
 "https://github.com/ansible/ansible-modules-core/issues/4817";"git module always fails on update if submodules are checked out at different commit";
 "https://github.com/ansible/ansible-modules-core/issues/487";"ec2_group and multiple default groups";
 "https://github.com/ansible/ansible-modules-core/issues/4876";"feature request: rhn_channel, and other rhn_* modules, should have validate_certs parameter";
 "https://github.com/ansible/ansible-modules-core/issues/4894";"mysql_user host_all arguments conversion string formatting error";
-"https://github.com/ansible/ansible-modules-core/issues/4909";"Document EOS Min Version";
 "https://github.com/ansible/ansible-modules-core/issues/4958";"ec2_ami_find fails due missing creationDate when run against a Helion Eucalyptus EC2 cloud";
 "https://github.com/ansible/ansible-modules-core/issues/4977";"ec2_elb_lb intermittently failing to create an ELB with KeyError exception";
 "https://github.com/ansible/ansible-modules-core/issues/4996";"setup_module: [Manjaro Linux] TypeError: Cant convert bytes object to str implicitly, rc: 257";
@@ -99,6 +97,9 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/5204";"include_vars - Unexpected failure during module execution";
 "https://github.com/ansible/ansible-modules-core/issues/5214";"Exception when using nxos_snmp_community";
 "https://github.com/ansible/ansible-modules-core/issues/5220";"s3 module is not idempotent for bucket creation (fails when bucket already exists)";
+"https://github.com/ansible/ansible-modules-core/issues/5254";"docker_network cant create overlay network on docker-engine in swarm mode";
+"https://github.com/ansible/ansible-modules-core/issues/5256";"ec2_ami: AttributeError: BlockDeviceType object has no attribute encrypted";
+"https://github.com/ansible/ansible-modules-core/issues/5263";"TypeError: create_load_balancer() got an unexpected keyword argument complex_listeners";
 "https://github.com/ansible/ansible-modules-core/issues/576";"postgresql_user doc could use more explicit options for expires field";
 "https://github.com/ansible/ansible-modules-core/issues/770";"ec2_group failing when there is already a rule defined from another AWS account";
 "https://github.com/ansible/ansible-modules-core/issues/868";"AttributeError: NoneType object has no attribute describe_alarms when creating new ec2_metric_alarm";
@@ -113,6 +114,9 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/pull/4960";"fix ansible-modules-core issue #4958";
 "https://github.com/ansible/ansible-modules-core/pull/5082";"Added check for NoneType RepoTags";
 "https://github.com/ansible/ansible-modules-core/pull/5151";"5150 Cron module: Move job parameter to meet expected requirements";
+"https://github.com/ansible/ansible-modules-core/pull/5260";"ensure remote_head is defined before reference";
+"https://github.com/ansible/ansible-modules-core/pull/5273";"Fix cron.py to remove a cron_file when job: is undefined";
+"https://github.com/ansible/ansible-modules-core/pull/5279";"Make subversion module work on python 3";
 "https://github.com/ansible/ansible-modules-extras/issues/1063";"nmcli aborting with exception when trying to create a new connection";
 "https://github.com/ansible/ansible-modules-extras/issues/1130";"nmcli module failed to run on Mac OS X 10";
 "https://github.com/ansible/ansible-modules-extras/issues/1224";"Npm module gives errors";
@@ -206,7 +210,6 @@ github_url;title
 "https://github.com/ansible/ansible/issues/15413";"ansible-galaxy: Traceback when role archive is extracted in cwd";
 "https://github.com/ansible/ansible/issues/15565";"pkg_resources.DistributionNotFound";
 "https://github.com/ansible/ansible/issues/15669";"WinRMTransport Kerberos authentication error but logged as success in windows logs";
-"https://github.com/ansible/ansible/issues/15693";"tuple object has no attribute items";
 "https://github.com/ansible/ansible/issues/15729";"Jinja2 {% import template as name %} causes AttributeError (patch included)";
 "https://github.com/ansible/ansible/issues/15742";"package module doesnt parse with_items for openbsd_pkg";
 "https://github.com/ansible/ansible/issues/15746";"delegate_to: ignores when:";
@@ -217,7 +220,6 @@ github_url;title
 "https://github.com/ansible/ansible/issues/16111";"error feedback improvements due to improper file permissions on ec2.ini and ec2.py";
 "https://github.com/ansible/ansible/issues/16383";"pyasn1 version issue ";
 "https://github.com/ansible/ansible/issues/16444";"Cant start glusterd on Arch Linux?";
-"https://github.com/ansible/ansible/issues/16557";"Paramiko crashes if a non-ascii character is used in the root password when running the playbook with -K";
 "https://github.com/ansible/ansible/issues/16571";"installation issue of ansible i face in ubuntu 14.04 64 bit";
 "https://github.com/ansible/ansible/issues/16591";"fact_caching_connection= for redis reports ERROR: an integer is required (stable-2.1) ";
 "https://github.com/ansible/ansible/issues/16610";"Documentation: Inaccurate description of !unsafe type in YAML Syntax";
@@ -241,7 +243,6 @@ github_url;title
 "https://github.com/ansible/ansible/issues/17695";"Task retries has no default";
 "https://github.com/ansible/ansible/issues/17727";"error with azure dynamic inventory script -- azure_rm.py";
 "https://github.com/ansible/ansible/issues/17908";"Users home directory must be readable for become_user to work with pipelining enabled";
-"https://github.com/ansible/ansible/issues/17932";"Ansible throws an exception if inventory file path contains non-ascii characters";
 "https://github.com/ansible/ansible/issues/17934";"azure_rm doesnt work if Service Principal doesnt have permission to perform Microsoft.Compute/register/action over entire subscription";
 "https://github.com/ansible/ansible/issues/8919";"ansible run on Centos Chroot env will raise is_selinux_enabled() exception";
 "https://github.com/ansible/ansible/issues/9744";"ansible-galaxy install should fail gracefully when a roles source changes but name stays the same";
@@ -256,4 +257,5 @@ github_url;title
 "https://github.com/ansible/ansible/pull/17156";"[ansible-doc cmd]  Declare choices and default as empty strings.";
 "https://github.com/ansible/ansible/pull/17332";"Fix paramiko as connection via API, exception encountered: TypeError: sequence item 0";
 "https://github.com/ansible/ansible/pull/17596";"Fix test_play_context fail with local config.";
+"https://github.com/ansible/ansible/pull/17978";"Add support for group variables to handlers";
 </pre>
