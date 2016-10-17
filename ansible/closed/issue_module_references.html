@@ -11877,6 +11877,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17877">ansible/issues/17877</a></td>
+<td>Ansible breaks backwards-compatibility when constr</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17882">ansible/issues/17882</a></td>
 <td>Block and Rescue not failing properly with an incl</td>
 </tr>
@@ -11992,8 +11997,23 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18027">ansible/issues/18027</a></td>
+<td>error handling in loops</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/1803">ansible/issues/1803</a></td>
 <td>using dict for exit_json and fail_json, considerin</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18043">ansible/issues/18043</a></td>
+<td>Ansible connects via SSH to localhost if it's defi</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18046">ansible/issues/18046</a></td>
+<td>Unexpected host variables when using groups</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -28857,6 +28877,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/17974">ansible/pull/17974</a></td>
+<td>cloudstack: docs: use local_action, not connection</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/17976">ansible/pull/17976</a></td>
 <td>Split integration tests out from Makefile.</td>
 </tr>
@@ -28904,6 +28929,26 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/18025">ansible/pull/18025</a></td>
 <td>Change hosts.ini to hosts for alternative director</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18028">ansible/pull/18028</a></td>
+<td>Install dependencies for validate-modules</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18031">ansible/pull/18031</a></td>
+<td>Ansible contrib</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18042">ansible/pull/18042</a></td>
+<td>unarchive tests now pass on python3</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18048">ansible/pull/18048</a></td>
+<td>Location of Network Tests</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -64276,6 +64321,971 @@
 <td>Fix: Add support for SSL protocol version configur</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2763">ansible-modules-core/issues/2763</a></td>
+<td>cron module: add jobs into /etc/crontab, not /etc/</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2807">ansible-modules-core/issues/2807</a></td>
+<td>cron module breaks with busybox 'crontab'</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2882">ansible-modules-core/issues/2882</a></td>
+<td>cron module does not correctly use sudo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3216">ansible-modules-core/issues/3216</a></td>
+<td>cron job does not escape `%` characters</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3344">ansible-modules-core/issues/3344</a></td>
+<td>cron module erases other cronjobs of user root and</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3691">ansible-modules-core/issues/3691</a></td>
+<td>Cron module fails to set env variable, instead rai</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3791">ansible-modules-core/issues/3791</a></td>
+<td>cron state is changed when using multiline job</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/415">ansible-modules-core/issues/415</a></td>
+<td>cron module: documentation bug</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/47">ansible-modules-core/issues/47</a></td>
+<td>  [CRON module] Cross-reference List of some OK / </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/50">ansible-modules-core/issues/50</a></td>
+<td>[CRON module] Add Support for Env Variables, eg Ma</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5109">ansible-modules-core/issues/5109</a></td>
+<td>cron: OSError: [Errno 25] Inappropriate ioctl for </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5150">ansible-modules-core/issues/5150</a></td>
+<td>Ansible v2.1.2.0 cron module: job Required if stat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/731">ansible-modules-core/issues/731</a></td>
+<td>cron module do not detect error</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1166">ansible-modules-core/pull/1166</a></td>
+<td>Name is a required parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2010">ansible-modules-core/pull/2010</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2229">ansible-modules-core/pull/2229</a></td>
+<td>[cron] Add missing documentation: cron_file requir</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2768">ansible-modules-core/pull/2768</a></td>
+<td>Allow cron_file to be an absolute path</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2770">ansible-modules-core/pull/2770</a></td>
+<td>Add a flag to register cron jobs at /etc/crontab. </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2820">ansible-modules-core/pull/2820</a></td>
+<td>Update cron.py documentation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3239">ansible-modules-core/pull/3239</a></td>
+<td>Add diff and check mode to cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3674">ansible-modules-core/pull/3674</a></td>
+<td>Port cron to a py3 and py24 compatible syntax</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3750">ansible-modules-core/pull/3750</a></td>
+<td>Fix crontab argument order for writing</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3770">ansible-modules-core/pull/3770</a></td>
+<td>Added statement about escaping characters in cron </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3904">ansible-modules-core/pull/3904</a></td>
+<td>Clarify behaviour when state=present and no name i</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4044">ansible-modules-core/pull/4044</a></td>
+<td>Fix cron module to consider value input in `job` w</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4270">ansible-modules-core/pull/4270</a></td>
+<td>Allow cron to target remote user without sudo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4285">ansible-modules-core/pull/4285</a></td>
+<td>Fixes #3791 cron always returning changed state fo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4777">ansible-modules-core/pull/4777</a></td>
+<td>cron: replacement for os.getlogin()</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5151">ansible-modules-core/pull/5151</a></td>
+<td>5150 Cron module: Move job parameter to meet expec</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5273">ansible-modules-core/pull/5273</a></td>
+<td>Fix cron.py to remove a cron_file when job: is und</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/742">ansible-modules-core/pull/742</a></td>
+<td>Name parameter should not be marked as mandatory</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/83">ansible-modules-core/pull/83</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/878">ansible-modules-core/pull/878</a></td>
+<td>cron module: Add disabled option for commented job</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/986">ansible-modules-core/pull/986</a></td>
+<td>Fix permissions issue with 'cron' module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/10335">ansible/issues/10335</a></td>
+<td>error in cron example.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/10821">ansible/issues/10821</a></td>
+<td>Explicitely set a value to its default raise an ex</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/11636">ansible/issues/11636</a></td>
+<td>cron module has no way to disable jobs temporarily</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/12794">ansible/issues/12794</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/14853">ansible/issues/14853</a></td>
+<td>cron job does not escape `%` characters</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/15181">ansible/issues/15181</a></td>
+<td>[2.0.1.0] Potential issue?</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/15296">ansible/issues/15296</a></td>
+<td>Cron user parameter ignored</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/1787">ansible/issues/1787</a></td>
+<td>should indicate reboot parameter on cron module is</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/1964">ansible/issues/1964</a></td>
+<td>Feature request - 'file' parameter for cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2125">ansible/issues/2125</a></td>
+<td>cron module fails on subsequent runs with complex </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2165">ansible/issues/2165</a></td>
+<td>Fail to set cron via module cron with empty cronta</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2957">ansible/issues/2957</a></td>
+<td>Cron task link creation fails</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3106">ansible/issues/3106</a></td>
+<td>mailto option for cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3180">ansible/issues/3180</a></td>
+<td>cron module traceback</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3304">ansible/issues/3304</a></td>
+<td>cron module bugs</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3495">ansible/issues/3495</a></td>
+<td>cron module throws exceptions when using the cron_</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3933">ansible/issues/3933</a></td>
+<td>It seems the cron module does not handle the user </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4648">ansible/issues/4648</a></td>
+<td>cron module raises exception when used on Solaris </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4795">ansible/issues/4795</a></td>
+<td>Incorrect changed result in cron module. </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4881">ansible/issues/4881</a></td>
+<td>FR for cron module: add jobs into /etc/crontab</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/5479">ansible/issues/5479</a></td>
+<td>Docs for "cron" module say "name" is not required</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6111">ansible/issues/6111</a></td>
+<td>If I use the value "import logs" in a dict, ansibl</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/66">ansible/issues/66</a></td>
+<td>trivial cron module for cron.d</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6844">ansible/issues/6844</a></td>
+<td>Recent cron documentation commit contradicts imple</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6894">ansible/issues/6894</a></td>
+<td>AssertionError in module docstrings</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6896">ansible/issues/6896</a></td>
+<td>[CRON module] add support for random minutes/hours</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/7422">ansible/issues/7422</a></td>
+<td>Simple cron task fails</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/8277">ansible/issues/8277</a></td>
+<td>cron module failure has traceback versus error mes</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/8695">ansible/issues/8695</a></td>
+<td>[Bug] Cron module fails to create cronjob when gat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/9557">ansible/issues/9557</a></td>
+<td>spaces in with_items object</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1011">ansible/pull/1011</a></td>
+<td>Cron support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1077">ansible/pull/1077</a></td>
+<td>Cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1078">ansible/pull/1078</a></td>
+<td>cron feature and test cases</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1243">ansible/pull/1243</a></td>
+<td>cron feature (w/o tests)</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1318">ansible/pull/1318</a></td>
+<td>fixed cron library so backups are python2.4 compat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1785">ansible/pull/1785</a></td>
+<td>Add support for @reboot to cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1796">ansible/pull/1796</a></td>
+<td>fix cron DOCUMENTATION</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/2019">ansible/pull/2019</a></td>
+<td>New feature for 'cron' module: cron_file attribute</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/2698">ansible/pull/2698</a></td>
+<td>Atomic replace and cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3328">ansible/pull/3328</a></td>
+<td>cron: do not permit empty job and allow all specia</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3411">ansible/pull/3411</a></td>
+<td>cron: Validate job parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3482">ansible/pull/3482</a></td>
+<td>cron module: bug fixes and enhancements.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3499">ansible/pull/3499</a></td>
+<td>handle cron_file properly</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3983">ansible/pull/3983</a></td>
+<td>bug-fix: if name given ,not delete cron_file but c</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4304">ansible/pull/4304</a></td>
+<td>Enforce umask for cron module, so cron_file genera</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4584">ansible/pull/4584</a></td>
+<td>Adding env to allow cron jobs with environment var</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4754">ansible/pull/4754</a></td>
+<td>Fix 4648, cron module is not working on solaris</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4797">ansible/pull/4797</a></td>
+<td>fix for https://github.com/ansible/ansible/issues/</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4895">ansible/pull/4895</a></td>
+<td>Fix: absent state removing whole cron.d file inste</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5466">ansible/pull/5466</a></td>
+<td>cron module: Add mailto parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5511">ansible/pull/5511</a></td>
+<td>Added AIX Crontab support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5591">ansible/pull/5591</a></td>
+<td>Add a random filter for templates</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6791">ansible/pull/6791</a></td>
+<td>Fix cron module and memtotal_mb fact on HP-UX</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6829">ansible/pull/6829</a></td>
+<td>Update cron module documentation. The 'name' param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6870">ansible/pull/6870</a></td>
+<td>Modified Cron to add AIX Crontab support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6949">ansible/pull/6949</a></td>
+<td>Minor change to cron core module, to unlink cron f</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7172">ansible/pull/7172</a></td>
+<td>Cron Module: Allow you to specify the full path to</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7348">ansible/pull/7348</a></td>
+<td>Fix grammar and value errors in cron documentation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7954">ansible/pull/7954</a></td>
+<td>cron module: Use correct parameter name in error m</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8253">ansible/pull/8253</a></td>
+<td>Add support for cronfile outside of /etc/cron.d #4</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8740">ansible/pull/8740</a></td>
+<td>Name appears to be a required parameter for cron m</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8741">ansible/pull/8741</a></td>
+<td>Update cron documenation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8772">ansible/pull/8772</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1083">ansible-modules-core/issues/1083</a></td>
+<td>Ansible gce - create or terminate GCE instances me</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/109">ansible-modules-core/issues/109</a></td>
+<td>Create gce instance with permissions / service acc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1319">ansible-modules-core/issues/1319</a></td>
+<td>BUG: (GCE) cant create GCE VM instances (affects a</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1888">ansible-modules-core/issues/1888</a></td>
+<td>GCE module create instance scopes are hardcoded an</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2242">ansible-modules-core/issues/2242</a></td>
+<td>async task did not complete within the requested t</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2295">ansible-modules-core/issues/2295</a></td>
+<td>gce: how to specify service_account_permissions?</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2561">ansible-modules-core/issues/2561</a></td>
+<td>a preemptible instance</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
+<td>an instance without an external ip address</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2595">ansible-modules-core/issues/2595</a></td>
+<td>gce module: can't use service_account_permissions </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2761">ansible-modules-core/issues/2761</a></td>
+<td>Regression: Commit 1bd04f7 broke GCE modules insta</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/977">ansible-modules-core/issues/977</a></td>
+<td>Bad documentation example in gce module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/103">ansible-modules-core/pull/103</a></td>
+<td>Support libcloud > 0.15 'metadata' argument format</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1071">ansible-modules-core/pull/1071</a></td>
+<td>Use existing disk, set disk size, set disk type.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1080">ansible-modules-core/pull/1080</a></td>
+<td>Allow parsing of a multiline metadata value by esc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/114">ansible-modules-core/pull/114</a></td>
+<td>Adding new metadata_from_file option to GCE module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1151">ansible-modules-core/pull/1151</a></td>
+<td>[WIP] Refactor gce module to be more flexible</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1172">ansible-modules-core/pull/1172</a></td>
+<td>Better gce metadata handling</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1315">ansible-modules-core/pull/1315</a></td>
+<td>Update gce.py to correctly handle propagated metad</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1335">ansible-modules-core/pull/1335</a></td>
+<td>Create gce instance with service account scopes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1366">ansible-modules-core/pull/1366</a></td>
+<td>Changed shebang to use environment python in GCE m</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1439">ansible-modules-core/pull/1439</a></td>
+<td>adjusted docs choices to use existing GCE IP's</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1676">ansible-modules-core/pull/1676</a></td>
+<td>Allowing users to use yaml dicts instead of string</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1753">ansible-modules-core/pull/1753</a></td>
+<td>GCE libcloud 0.15 support</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/206">ansible-modules-core/pull/206</a></td>
+<td>Add support for Google Cloud DNS</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2069">ansible-modules-core/pull/2069</a></td>
+<td>Add doc for gce's return object</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2241">ansible-modules-core/pull/2241</a></td>
+<td>Allowing to specify specific external ip for gce i</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2633">ansible-modules-core/pull/2633</a></td>
+<td>fix: don't set scopes' account to service account </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2665">ansible-modules-core/pull/2665</a></td>
+<td>Change the GCE module to only fetch image names wh</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2702">ansible-modules-core/pull/2702</a></td>
+<td>Add preemptible option on gce.py</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2715">ansible-modules-core/pull/2715</a></td>
+<td>Use JSON credentials for GCE modules</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2738">ansible-modules-core/pull/2738</a></td>
+<td>GCE: Use the Python installation from the env</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3132">ansible-modules-core/pull/3132</a></td>
+<td>Fix #2761: gce.py - UnboundLocalError: local varia</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3306">ansible-modules-core/pull/3306</a></td>
+<td>gce.py - UnboundLocalError: local variable 'md'</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3701">ansible-modules-core/pull/3701</a></td>
+<td>GCE : Add support for subnet networks</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3845">ansible-modules-core/pull/3845</a></td>
+<td>Fixing gce compile time errors irt exception handl</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3933">ansible-modules-core/pull/3933</a></td>
+<td>Added parameter service_account_email_instance to </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4190">ansible-modules-core/pull/4190</a></td>
+<td>Add states for stopping and starting machines</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4878">ansible-modules-core/pull/4878</a></td>
+<td>Document ability to disable external IP with 'none</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5192">ansible-modules-core/pull/5192</a></td>
+<td>GCE module examples update.  Correct syntax, demon</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/539">ansible-modules-core/pull/539</a></td>
+<td>Added external_ips parameter to GCE</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/56">ansible-modules-core/pull/56</a></td>
+<td>Find python via /usr/bin/env for the GCE's invento</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/789">ansible-modules-core/pull/789</a></td>
+<td>Added the ability to set an instance to forward ip</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/883">ansible-modules-core/pull/883</a></td>
+<td>Allow to spawn instances without external ip in go</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/889">ansible-modules-core/pull/889</a></td>
+<td>GCE module: allow to keep instance boot disk after</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3185">ansible-modules-extras/pull/3185</a></td>
+<td>Remove gce from the blacklist for python 3 tests, </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3188">ansible-modules-extras/pull/3188</a></td>
+<td>Remove gce from the blacklist for python 3 tests, </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/10998">ansible/issues/10998</a></td>
+<td>BUG: cant create GCE instances  (GCE module affect</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/11884">ansible/issues/11884</a></td>
+<td>GCE module create instance scopes are hardcoded an</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/13299">ansible/issues/13299</a></td>
+<td>a preemptible instance</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/14624">ansible/issues/14624</a></td>
+<td>GCE broken in Ansible 2.0</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/14626">ansible/issues/14626</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/15514">ansible/issues/15514</a></td>
+<td>Ansible GCE module: cannot use external_ip feature</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/16103">ansible/issues/16103</a></td>
+<td>Doc for GCE module has layout issues</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/16770">ansible/issues/16770</a></td>
+<td>GCE credentials are needed everywhere</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/5583">ansible/issues/5583</a></td>
+<td>gce modules need a better way to handle invalid ke</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/6003">ansible/issues/6003</a></td>
+<td>Create gce instance with permissions / service acc</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7270">ansible/issues/7270</a></td>
+<td>gce module not support new zone in asia.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7317">ansible/issues/7317</a></td>
+<td>missing pem_file produces incorrect error message</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/7845">ansible/issues/7845</a></td>
+<td>bug report: GCE module RSA key format is not suppo</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/8031">ansible/issues/8031</a></td>
+<td>GCE lib</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/8265">ansible/issues/8265</a></td>
+<td>gce module returns - msg: Missing required create </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10481">ansible/pull/10481</a></td>
+<td>If GCE instance not have public ip, set None.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10787">ansible/pull/10787</a></td>
+<td>Fix traceback with using GCE on EL6 with python-cr</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/10974">ansible/pull/10974</a></td>
+<td>Workaround for gce.py erroring on VMs with no publ</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/11299">ansible/pull/11299</a></td>
+<td>support instances with no public ip</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/11631">ansible/pull/11631</a></td>
+<td>GCE tag prefix for creating ansible group.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12689">ansible/pull/12689</a></td>
+<td>Remove some warning of undefined name and fix clas</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13146">ansible/pull/13146</a></td>
+<td>fix gce module error reporting</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13623">ansible/pull/13623</a></td>
+<td>Update GCE module to use JSON credentials</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/14138">ansible/pull/14138</a></td>
+<td>Added the ability to filter gce grouped_instances </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15037">ansible/pull/15037</a></td>
+<td>remove logging warning from GCE inventory</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15712">ansible/pull/15712</a></td>
+<td>New inventory_ip_type option in gce inventory tool</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15872">ansible/pull/15872</a></td>
+<td>Port the gce snippet to a python 2.6 to 3 compatib</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/15924">ansible/pull/15924</a></td>
+<td>Refactored gce util module to support other GCP se</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/16286">ansible/pull/16286</a></td>
+<td>Adding instance_states to gce inventory to align w</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4395">ansible/pull/4395</a></td>
+<td>adding Google Compute Engine modules and inventory</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4953">ansible/pull/4953</a></td>
+<td>gce: support virtualenv by detecting python via /u</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/4971">ansible/pull/4971</a></td>
+<td>fixes #4954 plus updates for gcutil/v1beta16 tests</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6243">ansible/pull/6243</a></td>
+<td>Gce fixes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6255">ansible/pull/6255</a></td>
+<td>Gce fixes</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6265">ansible/pull/6265</a></td>
+<td>Add credential parameters to the GCE modules.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6378">ansible/pull/6378</a></td>
+<td>Add BSD license to module_utils/gce.py</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6423">ansible/pull/6423</a></td>
+<td>Bulk update of choices=BOOLEANS to type='bool'</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/6976">ansible/pull/6976</a></td>
+<td>Adds support for snapshots and extra persistent di</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8262">ansible/pull/8262</a></td>
+<td>Bugfix: bulletproof unexpected_error_msg at gce.py</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8282">ansible/pull/8282</a></td>
+<td>Improve GCE dynamic inventory configuration handli</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8397">ansible/pull/8397</a></td>
+<td>Add support for environment variables in GCE modul</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8402">ansible/pull/8402</a></td>
+<td>Envirionment variable support in GCE inventory plu</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8431">ansible/pull/8431</a></td>
+<td>Require pycrypto 2.6+ at the gce.py module level.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8517">ansible/pull/8517</a></td>
+<td>gce.py: Add hosts to group "all" </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/8539">ansible/pull/8539</a></td>
+<td>Add external_ip and destroy_boot_disk options to G</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9197">ansible/pull/9197</a></td>
+<td>Update the GCE guid with a working configuration.</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9336">ansible/pull/9336</a></td>
+<td>Added _meta hostvars key to gce.py plugin</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9338">ansible/pull/9338</a></td>
+<td>Add --pretty option for gce inventory plugin</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9452">ansible/pull/9452</a></td>
+<td>Google: allow for different libcloud provider to s</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/9642">ansible/pull/9642</a></td>
+<td>Permit instances with no public_ip address</td>
+</tr>
+<tr>
 <td>hostname</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1142">ansible-modules-core/issues/1142</a></td>
 <td>hostname module errors on systemd hosts when hostn</td>
@@ -64751,481 +65761,6 @@
 <td>Exception when variable name and delegate_to hostn</td>
 </tr>
 <tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2763">ansible-modules-core/issues/2763</a></td>
-<td>cron module: add jobs into /etc/crontab, not /etc/</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2807">ansible-modules-core/issues/2807</a></td>
-<td>cron module breaks with busybox 'crontab'</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2882">ansible-modules-core/issues/2882</a></td>
-<td>cron module does not correctly use sudo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3216">ansible-modules-core/issues/3216</a></td>
-<td>cron job does not escape `%` characters</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3344">ansible-modules-core/issues/3344</a></td>
-<td>cron module erases other cronjobs of user root and</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3691">ansible-modules-core/issues/3691</a></td>
-<td>Cron module fails to set env variable, instead rai</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3791">ansible-modules-core/issues/3791</a></td>
-<td>cron state is changed when using multiline job</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/415">ansible-modules-core/issues/415</a></td>
-<td>cron module: documentation bug</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/47">ansible-modules-core/issues/47</a></td>
-<td>  [CRON module] Cross-reference List of some OK / </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/50">ansible-modules-core/issues/50</a></td>
-<td>[CRON module] Add Support for Env Variables, eg Ma</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5109">ansible-modules-core/issues/5109</a></td>
-<td>cron: OSError: [Errno 25] Inappropriate ioctl for </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5150">ansible-modules-core/issues/5150</a></td>
-<td>Ansible v2.1.2.0 cron module: job Required if stat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/731">ansible-modules-core/issues/731</a></td>
-<td>cron module do not detect error</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1166">ansible-modules-core/pull/1166</a></td>
-<td>Name is a required parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2010">ansible-modules-core/pull/2010</a></td>
-<td>cron module: add enviroment variables management</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2229">ansible-modules-core/pull/2229</a></td>
-<td>[cron] Add missing documentation: cron_file requir</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2768">ansible-modules-core/pull/2768</a></td>
-<td>Allow cron_file to be an absolute path</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2770">ansible-modules-core/pull/2770</a></td>
-<td>Add a flag to register cron jobs at /etc/crontab. </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2820">ansible-modules-core/pull/2820</a></td>
-<td>Update cron.py documentation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3239">ansible-modules-core/pull/3239</a></td>
-<td>Add diff and check mode to cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3674">ansible-modules-core/pull/3674</a></td>
-<td>Port cron to a py3 and py24 compatible syntax</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3750">ansible-modules-core/pull/3750</a></td>
-<td>Fix crontab argument order for writing</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3770">ansible-modules-core/pull/3770</a></td>
-<td>Added statement about escaping characters in cron </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3904">ansible-modules-core/pull/3904</a></td>
-<td>Clarify behaviour when state=present and no name i</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4044">ansible-modules-core/pull/4044</a></td>
-<td>Fix cron module to consider value input in `job` w</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4270">ansible-modules-core/pull/4270</a></td>
-<td>Allow cron to target remote user without sudo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4285">ansible-modules-core/pull/4285</a></td>
-<td>Fixes #3791 cron always returning changed state fo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4777">ansible-modules-core/pull/4777</a></td>
-<td>cron: replacement for os.getlogin()</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/742">ansible-modules-core/pull/742</a></td>
-<td>Name parameter should not be marked as mandatory</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/83">ansible-modules-core/pull/83</a></td>
-<td>cron module: add enviroment variables management</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/878">ansible-modules-core/pull/878</a></td>
-<td>cron module: Add disabled option for commented job</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/986">ansible-modules-core/pull/986</a></td>
-<td>Fix permissions issue with 'cron' module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/10335">ansible/issues/10335</a></td>
-<td>error in cron example.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/10821">ansible/issues/10821</a></td>
-<td>Explicitely set a value to its default raise an ex</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/11636">ansible/issues/11636</a></td>
-<td>cron module has no way to disable jobs temporarily</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/12794">ansible/issues/12794</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/14853">ansible/issues/14853</a></td>
-<td>cron job does not escape `%` characters</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/15181">ansible/issues/15181</a></td>
-<td>[2.0.1.0] Potential issue?</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/15296">ansible/issues/15296</a></td>
-<td>Cron user parameter ignored</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/1787">ansible/issues/1787</a></td>
-<td>should indicate reboot parameter on cron module is</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/1964">ansible/issues/1964</a></td>
-<td>Feature request - 'file' parameter for cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2125">ansible/issues/2125</a></td>
-<td>cron module fails on subsequent runs with complex </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2165">ansible/issues/2165</a></td>
-<td>Fail to set cron via module cron with empty cronta</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2957">ansible/issues/2957</a></td>
-<td>Cron task link creation fails</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3106">ansible/issues/3106</a></td>
-<td>mailto option for cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3180">ansible/issues/3180</a></td>
-<td>cron module traceback</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3304">ansible/issues/3304</a></td>
-<td>cron module bugs</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3495">ansible/issues/3495</a></td>
-<td>cron module throws exceptions when using the cron_</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3933">ansible/issues/3933</a></td>
-<td>It seems the cron module does not handle the user </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4648">ansible/issues/4648</a></td>
-<td>cron module raises exception when used on Solaris </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4795">ansible/issues/4795</a></td>
-<td>Incorrect changed result in cron module. </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4881">ansible/issues/4881</a></td>
-<td>FR for cron module: add jobs into /etc/crontab</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/5479">ansible/issues/5479</a></td>
-<td>Docs for "cron" module say "name" is not required</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6111">ansible/issues/6111</a></td>
-<td>If I use the value "import logs" in a dict, ansibl</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/66">ansible/issues/66</a></td>
-<td>trivial cron module for cron.d</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6844">ansible/issues/6844</a></td>
-<td>Recent cron documentation commit contradicts imple</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6894">ansible/issues/6894</a></td>
-<td>AssertionError in module docstrings</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6896">ansible/issues/6896</a></td>
-<td>[CRON module] add support for random minutes/hours</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/7422">ansible/issues/7422</a></td>
-<td>Simple cron task fails</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/8277">ansible/issues/8277</a></td>
-<td>cron module failure has traceback versus error mes</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/8695">ansible/issues/8695</a></td>
-<td>[Bug] Cron module fails to create cronjob when gat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/9557">ansible/issues/9557</a></td>
-<td>spaces in with_items object</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1011">ansible/pull/1011</a></td>
-<td>Cron support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1077">ansible/pull/1077</a></td>
-<td>Cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1078">ansible/pull/1078</a></td>
-<td>cron feature and test cases</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1243">ansible/pull/1243</a></td>
-<td>cron feature (w/o tests)</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1318">ansible/pull/1318</a></td>
-<td>fixed cron library so backups are python2.4 compat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1785">ansible/pull/1785</a></td>
-<td>Add support for @reboot to cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1796">ansible/pull/1796</a></td>
-<td>fix cron DOCUMENTATION</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/2019">ansible/pull/2019</a></td>
-<td>New feature for 'cron' module: cron_file attribute</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/2698">ansible/pull/2698</a></td>
-<td>Atomic replace and cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3328">ansible/pull/3328</a></td>
-<td>cron: do not permit empty job and allow all specia</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3411">ansible/pull/3411</a></td>
-<td>cron: Validate job parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3482">ansible/pull/3482</a></td>
-<td>cron module: bug fixes and enhancements.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3499">ansible/pull/3499</a></td>
-<td>handle cron_file properly</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3983">ansible/pull/3983</a></td>
-<td>bug-fix: if name given ,not delete cron_file but c</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4304">ansible/pull/4304</a></td>
-<td>Enforce umask for cron module, so cron_file genera</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4584">ansible/pull/4584</a></td>
-<td>Adding env to allow cron jobs with environment var</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4754">ansible/pull/4754</a></td>
-<td>Fix 4648, cron module is not working on solaris</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4797">ansible/pull/4797</a></td>
-<td>fix for https://github.com/ansible/ansible/issues/</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4895">ansible/pull/4895</a></td>
-<td>Fix: absent state removing whole cron.d file inste</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5466">ansible/pull/5466</a></td>
-<td>cron module: Add mailto parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5511">ansible/pull/5511</a></td>
-<td>Added AIX Crontab support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5591">ansible/pull/5591</a></td>
-<td>Add a random filter for templates</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6791">ansible/pull/6791</a></td>
-<td>Fix cron module and memtotal_mb fact on HP-UX</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6829">ansible/pull/6829</a></td>
-<td>Update cron module documentation. The 'name' param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6870">ansible/pull/6870</a></td>
-<td>Modified Cron to add AIX Crontab support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6949">ansible/pull/6949</a></td>
-<td>Minor change to cron core module, to unlink cron f</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7172">ansible/pull/7172</a></td>
-<td>Cron Module: Allow you to specify the full path to</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7348">ansible/pull/7348</a></td>
-<td>Fix grammar and value errors in cron documentation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7954">ansible/pull/7954</a></td>
-<td>cron module: Use correct parameter name in error m</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8253">ansible/pull/8253</a></td>
-<td>Add support for cronfile outside of /etc/cron.d #4</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8740">ansible/pull/8740</a></td>
-<td>Name appears to be a required parameter for cron m</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8741">ansible/pull/8741</a></td>
-<td>Update cron documenation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8772">ansible/pull/8772</a></td>
-<td>cron module: add enviroment variables management</td>
-</tr>
-<tr>
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1445">ansible-modules-core/issues/1445</a></td>
 <td>Default value for min_size and max_size at autosca</td>
@@ -65694,476 +66229,6 @@
 <td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible/pull/9177">ansible/pull/9177</a></td>
 <td>ec2_asg: remove tags key from asg_properties befor</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1083">ansible-modules-core/issues/1083</a></td>
-<td>Ansible gce - create or terminate GCE instances me</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/109">ansible-modules-core/issues/109</a></td>
-<td>Create gce instance with permissions / service acc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1319">ansible-modules-core/issues/1319</a></td>
-<td>BUG: (GCE) cant create GCE VM instances (affects a</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1888">ansible-modules-core/issues/1888</a></td>
-<td>GCE module create instance scopes are hardcoded an</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2242">ansible-modules-core/issues/2242</a></td>
-<td>async task did not complete within the requested t</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2295">ansible-modules-core/issues/2295</a></td>
-<td>gce: how to specify service_account_permissions?</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2561">ansible-modules-core/issues/2561</a></td>
-<td>a preemptible instance</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2562">ansible-modules-core/issues/2562</a></td>
-<td>an instance without an external ip address</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2595">ansible-modules-core/issues/2595</a></td>
-<td>gce module: can't use service_account_permissions </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2761">ansible-modules-core/issues/2761</a></td>
-<td>Regression: Commit 1bd04f7 broke GCE modules insta</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/977">ansible-modules-core/issues/977</a></td>
-<td>Bad documentation example in gce module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/103">ansible-modules-core/pull/103</a></td>
-<td>Support libcloud > 0.15 'metadata' argument format</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1071">ansible-modules-core/pull/1071</a></td>
-<td>Use existing disk, set disk size, set disk type.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1080">ansible-modules-core/pull/1080</a></td>
-<td>Allow parsing of a multiline metadata value by esc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/114">ansible-modules-core/pull/114</a></td>
-<td>Adding new metadata_from_file option to GCE module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1151">ansible-modules-core/pull/1151</a></td>
-<td>[WIP] Refactor gce module to be more flexible</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1172">ansible-modules-core/pull/1172</a></td>
-<td>Better gce metadata handling</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1315">ansible-modules-core/pull/1315</a></td>
-<td>Update gce.py to correctly handle propagated metad</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1335">ansible-modules-core/pull/1335</a></td>
-<td>Create gce instance with service account scopes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1366">ansible-modules-core/pull/1366</a></td>
-<td>Changed shebang to use environment python in GCE m</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1439">ansible-modules-core/pull/1439</a></td>
-<td>adjusted docs choices to use existing GCE IP's</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1676">ansible-modules-core/pull/1676</a></td>
-<td>Allowing users to use yaml dicts instead of string</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1753">ansible-modules-core/pull/1753</a></td>
-<td>GCE libcloud 0.15 support</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/206">ansible-modules-core/pull/206</a></td>
-<td>Add support for Google Cloud DNS</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2069">ansible-modules-core/pull/2069</a></td>
-<td>Add doc for gce's return object</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2241">ansible-modules-core/pull/2241</a></td>
-<td>Allowing to specify specific external ip for gce i</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2633">ansible-modules-core/pull/2633</a></td>
-<td>fix: don't set scopes' account to service account </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2665">ansible-modules-core/pull/2665</a></td>
-<td>Change the GCE module to only fetch image names wh</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2702">ansible-modules-core/pull/2702</a></td>
-<td>Add preemptible option on gce.py</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2715">ansible-modules-core/pull/2715</a></td>
-<td>Use JSON credentials for GCE modules</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2738">ansible-modules-core/pull/2738</a></td>
-<td>GCE: Use the Python installation from the env</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3132">ansible-modules-core/pull/3132</a></td>
-<td>Fix #2761: gce.py - UnboundLocalError: local varia</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3306">ansible-modules-core/pull/3306</a></td>
-<td>gce.py - UnboundLocalError: local variable 'md'</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3701">ansible-modules-core/pull/3701</a></td>
-<td>GCE : Add support for subnet networks</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3845">ansible-modules-core/pull/3845</a></td>
-<td>Fixing gce compile time errors irt exception handl</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3933">ansible-modules-core/pull/3933</a></td>
-<td>Added parameter service_account_email_instance to </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4190">ansible-modules-core/pull/4190</a></td>
-<td>Add states for stopping and starting machines</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4878">ansible-modules-core/pull/4878</a></td>
-<td>Document ability to disable external IP with 'none</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5192">ansible-modules-core/pull/5192</a></td>
-<td>GCE module examples update.  Correct syntax, demon</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/539">ansible-modules-core/pull/539</a></td>
-<td>Added external_ips parameter to GCE</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/56">ansible-modules-core/pull/56</a></td>
-<td>Find python via /usr/bin/env for the GCE's invento</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/789">ansible-modules-core/pull/789</a></td>
-<td>Added the ability to set an instance to forward ip</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/883">ansible-modules-core/pull/883</a></td>
-<td>Allow to spawn instances without external ip in go</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/889">ansible-modules-core/pull/889</a></td>
-<td>GCE module: allow to keep instance boot disk after</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/10998">ansible/issues/10998</a></td>
-<td>BUG: cant create GCE instances  (GCE module affect</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/11884">ansible/issues/11884</a></td>
-<td>GCE module create instance scopes are hardcoded an</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/13299">ansible/issues/13299</a></td>
-<td>a preemptible instance</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/14624">ansible/issues/14624</a></td>
-<td>GCE broken in Ansible 2.0</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/14626">ansible/issues/14626</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/15514">ansible/issues/15514</a></td>
-<td>Ansible GCE module: cannot use external_ip feature</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/16103">ansible/issues/16103</a></td>
-<td>Doc for GCE module has layout issues</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/16770">ansible/issues/16770</a></td>
-<td>GCE credentials are needed everywhere</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/5583">ansible/issues/5583</a></td>
-<td>gce modules need a better way to handle invalid ke</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/6003">ansible/issues/6003</a></td>
-<td>Create gce instance with permissions / service acc</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7270">ansible/issues/7270</a></td>
-<td>gce module not support new zone in asia.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7317">ansible/issues/7317</a></td>
-<td>missing pem_file produces incorrect error message</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/7845">ansible/issues/7845</a></td>
-<td>bug report: GCE module RSA key format is not suppo</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/8031">ansible/issues/8031</a></td>
-<td>GCE lib</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/8265">ansible/issues/8265</a></td>
-<td>gce module returns - msg: Missing required create </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10481">ansible/pull/10481</a></td>
-<td>If GCE instance not have public ip, set None.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10787">ansible/pull/10787</a></td>
-<td>Fix traceback with using GCE on EL6 with python-cr</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/10974">ansible/pull/10974</a></td>
-<td>Workaround for gce.py erroring on VMs with no publ</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/11299">ansible/pull/11299</a></td>
-<td>support instances with no public ip</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/11631">ansible/pull/11631</a></td>
-<td>GCE tag prefix for creating ansible group.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12689">ansible/pull/12689</a></td>
-<td>Remove some warning of undefined name and fix clas</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13146">ansible/pull/13146</a></td>
-<td>fix gce module error reporting</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13623">ansible/pull/13623</a></td>
-<td>Update GCE module to use JSON credentials</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/14138">ansible/pull/14138</a></td>
-<td>Added the ability to filter gce grouped_instances </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15037">ansible/pull/15037</a></td>
-<td>remove logging warning from GCE inventory</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15712">ansible/pull/15712</a></td>
-<td>New inventory_ip_type option in gce inventory tool</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15872">ansible/pull/15872</a></td>
-<td>Port the gce snippet to a python 2.6 to 3 compatib</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/15924">ansible/pull/15924</a></td>
-<td>Refactored gce util module to support other GCP se</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/16286">ansible/pull/16286</a></td>
-<td>Adding instance_states to gce inventory to align w</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4395">ansible/pull/4395</a></td>
-<td>adding Google Compute Engine modules and inventory</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4953">ansible/pull/4953</a></td>
-<td>gce: support virtualenv by detecting python via /u</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/4971">ansible/pull/4971</a></td>
-<td>fixes #4954 plus updates for gcutil/v1beta16 tests</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6243">ansible/pull/6243</a></td>
-<td>Gce fixes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6255">ansible/pull/6255</a></td>
-<td>Gce fixes</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6265">ansible/pull/6265</a></td>
-<td>Add credential parameters to the GCE modules.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6378">ansible/pull/6378</a></td>
-<td>Add BSD license to module_utils/gce.py</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6423">ansible/pull/6423</a></td>
-<td>Bulk update of choices=BOOLEANS to type='bool'</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/6976">ansible/pull/6976</a></td>
-<td>Adds support for snapshots and extra persistent di</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8262">ansible/pull/8262</a></td>
-<td>Bugfix: bulletproof unexpected_error_msg at gce.py</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8282">ansible/pull/8282</a></td>
-<td>Improve GCE dynamic inventory configuration handli</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8397">ansible/pull/8397</a></td>
-<td>Add support for environment variables in GCE modul</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8402">ansible/pull/8402</a></td>
-<td>Envirionment variable support in GCE inventory plu</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8431">ansible/pull/8431</a></td>
-<td>Require pycrypto 2.6+ at the gce.py module level.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8517">ansible/pull/8517</a></td>
-<td>gce.py: Add hosts to group "all" </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/8539">ansible/pull/8539</a></td>
-<td>Add external_ip and destroy_boot_disk options to G</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9197">ansible/pull/9197</a></td>
-<td>Update the GCE guid with a working configuration.</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9336">ansible/pull/9336</a></td>
-<td>Added _meta hostvars key to gce.py plugin</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9338">ansible/pull/9338</a></td>
-<td>Add --pretty option for gce inventory plugin</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9452">ansible/pull/9452</a></td>
-<td>Google: allow for different libcloud provider to s</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/9642">ansible/pull/9642</a></td>
-<td>Permit instances with no public_ip address</td>
 </tr>
 <tr>
 <td>shell</td>
@@ -77752,6 +77817,11 @@
 </tr>
 <tr>
 <td>debug</td>
+<td><a href="https://github.com/ansible/ansible/issues/18047">ansible/issues/18047</a></td>
+<td>Role variables with underscore fails</td>
+</tr>
+<tr>
+<td>debug</td>
 <td><a href="https://github.com/ansible/ansible/issues/1829">ansible/issues/1829</a></td>
 <td>debug module does not handle some variables handle</td>
 </tr>
@@ -77924,6 +77994,251 @@
 <td>debug</td>
 <td><a href="https://github.com/ansible/ansible/pull/9810">ansible/pull/9810</a></td>
 <td>Do not use the variable name as a key for the resu</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2014">ansible-modules-core/issues/2014</a></td>
+<td>azure required for this module</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2032">ansible-modules-core/issues/2032</a></td>
+<td>Ansible bug supporting Azure SDK for Python 1.0.0</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2204">ansible-modules-core/issues/2204</a></td>
+<td>ansible azure module-error when creating vm</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2245">ansible-modules-core/issues/2245</a></td>
+<td>ResetPasswordOnFirstLogon parameter is deprecated </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/329">ansible-modules-core/issues/329</a></td>
+<td>azure: Rename module to azure-vm to support future</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4340">ansible-modules-core/issues/4340</a></td>
+<td>azure_rm.py inventory script is not installed with</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4713">ansible-modules-core/issues/4713</a></td>
+<td>Cant provide credentials to Ansible Azure module</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1072">ansible-modules-core/pull/1072</a></td>
+<td>azure: Allow specifying service name separate from</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1097">ansible-modules-core/pull/1097</a></td>
+<td>Added module parameter for "vm_image" to support b</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1187">ansible-modules-core/pull/1187</a></td>
+<td>correctly delete disks associated with vms</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1247">ansible-modules-core/pull/1247</a></td>
+<td>Fixed typos</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1552">ansible-modules-core/pull/1552</a></td>
+<td>Azure windows support</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1572">ansible-modules-core/pull/1572</a></td>
+<td>Added new instance sizes</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1696">ansible-modules-core/pull/1696</a></td>
+<td>ensure password or ssh cert specified</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2114">ansible-modules-core/pull/2114</a></td>
+<td>Update Azure Module to work with azure.py=1.0.1</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/26">ansible-modules-core/pull/26</a></td>
+<td>New VM role sizes added. D1-D4 and D11-D4 are new </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2711">ansible-modules-core/pull/2711</a></td>
+<td>Fix azure.py, "ResetPasswordOnFirstLogon parameter</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2842">ansible-modules-core/pull/2842</a></td>
+<td>Add new Dv2 Azure instances</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3698">ansible-modules-core/pull/3698</a></td>
+<td>Py3 exclude list</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/519">ansible-modules-core/pull/519</a></td>
+<td>set network_config.public_ips attribute</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5203">ansible-modules-core/pull/5203</a></td>
+<td>Do not leak the password in log</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/528">ansible-modules-core/pull/528</a></td>
+<td>password required</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/540">ansible-modules-core/pull/540</a></td>
+<td>azure check for hosted service and vm before creat</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/565">ansible-modules-core/pull/565</a></td>
+<td>Feature: provision azure vm with different public </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/763">ansible-modules-core/pull/763</a></td>
+<td>Adds the currently available instance types for az</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3159">ansible-modules-extras/issues/3159</a></td>
+<td>Azure NSG Documenation missing some fields</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3189">ansible-modules-extras/issues/3189</a></td>
+<td>[Azure] - Default deployment mode is inconistent w</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1845">ansible-modules-extras/pull/1845</a></td>
+<td>Azure Image Capture module</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/issues/16480">ansible/issues/16480</a></td>
+<td>Azure RM inventory script fails with azure-python-</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/issues/16786">ansible/issues/16786</a></td>
+<td>Azure module import error</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/issues/8298">ansible/issues/8298</a></td>
+<td>Error in azure module </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/issues/9615">ansible/issues/9615</a></td>
+<td>RFE: Getting azure hosts doesn't return hosts but </td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/15229">ansible/pull/15229</a></td>
+<td>Update Azure module notes</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/15425">ansible/pull/15425</a></td>
+<td>Adding Azure module doc fragments.</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/15450">ansible/pull/15450</a></td>
+<td>Update Azure doc fragment</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/15528">ansible/pull/15528</a></td>
+<td>Rename azure inventory script and fix bug stopping</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/15594">ansible/pull/15594</a></td>
+<td>Added additional azure modules.</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/16490">ansible/pull/16490</a></td>
+<td>Quote the azure requirement to prevent > causing f</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/16558">ansible/pull/16558</a></td>
+<td>Update and pin to azure-2.0.0rc5</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7593">ansible/pull/7593</a></td>
+<td>New module: Windows Azure</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7617">ansible/pull/7617</a></td>
+<td>Azure module Number 2</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7618">ansible/pull/7618</a></td>
+<td>Azure module Number 2</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7694">ansible/pull/7694</a></td>
+<td>azure - fix for: temporary redirect, not deleted v</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7921">ansible/pull/7921</a></td>
+<td>azure - added storage account module</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/7966">ansible/pull/7966</a></td>
+<td>azure - added storage account module</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/8049">ansible/pull/8049</a></td>
+<td>Provision VM using virtual network.</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/8366">ansible/pull/8366</a></td>
+<td>Several azure fixes</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/8370">ansible/pull/8370</a></td>
+<td>azure: Add Role operation which adds a Virtual Mac</td>
+</tr>
+<tr>
+<td>azure</td>
+<td><a href="https://github.com/ansible/ansible/pull/8831">ansible/pull/8831</a></td>
+<td>Add additional Azure Regions</td>
 </tr>
 <tr>
 <td>mongodb_user</td>
@@ -78414,246 +78729,6 @@
 <td>lvol</td>
 <td><a href="https://github.com/ansible/ansible/pull/8284">ansible/pull/8284</a></td>
 <td>Fix for lvcreate vs. lvs case-sensitivity</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2014">ansible-modules-core/issues/2014</a></td>
-<td>azure required for this module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2032">ansible-modules-core/issues/2032</a></td>
-<td>Ansible bug supporting Azure SDK for Python 1.0.0</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2204">ansible-modules-core/issues/2204</a></td>
-<td>ansible azure module-error when creating vm</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2245">ansible-modules-core/issues/2245</a></td>
-<td>ResetPasswordOnFirstLogon parameter is deprecated </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/329">ansible-modules-core/issues/329</a></td>
-<td>azure: Rename module to azure-vm to support future</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4340">ansible-modules-core/issues/4340</a></td>
-<td>azure_rm.py inventory script is not installed with</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4713">ansible-modules-core/issues/4713</a></td>
-<td>Cant provide credentials to Ansible Azure module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1072">ansible-modules-core/pull/1072</a></td>
-<td>azure: Allow specifying service name separate from</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1097">ansible-modules-core/pull/1097</a></td>
-<td>Added module parameter for "vm_image" to support b</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1187">ansible-modules-core/pull/1187</a></td>
-<td>correctly delete disks associated with vms</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1247">ansible-modules-core/pull/1247</a></td>
-<td>Fixed typos</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1552">ansible-modules-core/pull/1552</a></td>
-<td>Azure windows support</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1572">ansible-modules-core/pull/1572</a></td>
-<td>Added new instance sizes</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1696">ansible-modules-core/pull/1696</a></td>
-<td>ensure password or ssh cert specified</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2114">ansible-modules-core/pull/2114</a></td>
-<td>Update Azure Module to work with azure.py=1.0.1</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/26">ansible-modules-core/pull/26</a></td>
-<td>New VM role sizes added. D1-D4 and D11-D4 are new </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2711">ansible-modules-core/pull/2711</a></td>
-<td>Fix azure.py, "ResetPasswordOnFirstLogon parameter</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2842">ansible-modules-core/pull/2842</a></td>
-<td>Add new Dv2 Azure instances</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3698">ansible-modules-core/pull/3698</a></td>
-<td>Py3 exclude list</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/519">ansible-modules-core/pull/519</a></td>
-<td>set network_config.public_ips attribute</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5203">ansible-modules-core/pull/5203</a></td>
-<td>Do not leak the password in log</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/528">ansible-modules-core/pull/528</a></td>
-<td>password required</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/540">ansible-modules-core/pull/540</a></td>
-<td>azure check for hosted service and vm before creat</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/565">ansible-modules-core/pull/565</a></td>
-<td>Feature: provision azure vm with different public </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/763">ansible-modules-core/pull/763</a></td>
-<td>Adds the currently available instance types for az</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3159">ansible-modules-extras/issues/3159</a></td>
-<td>Azure NSG Documenation missing some fields</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1845">ansible-modules-extras/pull/1845</a></td>
-<td>Azure Image Capture module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/issues/16480">ansible/issues/16480</a></td>
-<td>Azure RM inventory script fails with azure-python-</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/issues/16786">ansible/issues/16786</a></td>
-<td>Azure module import error</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/issues/8298">ansible/issues/8298</a></td>
-<td>Error in azure module </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/issues/9615">ansible/issues/9615</a></td>
-<td>RFE: Getting azure hosts doesn't return hosts but </td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/15229">ansible/pull/15229</a></td>
-<td>Update Azure module notes</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/15425">ansible/pull/15425</a></td>
-<td>Adding Azure module doc fragments.</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/15450">ansible/pull/15450</a></td>
-<td>Update Azure doc fragment</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/15528">ansible/pull/15528</a></td>
-<td>Rename azure inventory script and fix bug stopping</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/15594">ansible/pull/15594</a></td>
-<td>Added additional azure modules.</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/16490">ansible/pull/16490</a></td>
-<td>Quote the azure requirement to prevent > causing f</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/16558">ansible/pull/16558</a></td>
-<td>Update and pin to azure-2.0.0rc5</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7593">ansible/pull/7593</a></td>
-<td>New module: Windows Azure</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7617">ansible/pull/7617</a></td>
-<td>Azure module Number 2</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7618">ansible/pull/7618</a></td>
-<td>Azure module Number 2</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7694">ansible/pull/7694</a></td>
-<td>azure - fix for: temporary redirect, not deleted v</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7921">ansible/pull/7921</a></td>
-<td>azure - added storage account module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/7966">ansible/pull/7966</a></td>
-<td>azure - added storage account module</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/8049">ansible/pull/8049</a></td>
-<td>Provision VM using virtual network.</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/8366">ansible/pull/8366</a></td>
-<td>Several azure fixes</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/8370">ansible/pull/8370</a></td>
-<td>azure: Add Role operation which adds a Virtual Mac</td>
-</tr>
-<tr>
-<td>azure</td>
-<td><a href="https://github.com/ansible/ansible/pull/8831">ansible/pull/8831</a></td>
-<td>Add additional Azure Regions</td>
 </tr>
 <tr>
 <td>mail</td>
@@ -90666,6 +90741,116 @@
 <td>Haproxy module for Ansible, to handle enable/disab</td>
 </tr>
 <tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1217">ansible-modules-extras/issues/1217</a></td>
+<td>module promox is broken with Proxmox VE 4.0</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1145">ansible-modules-extras/pull/1145</a></td>
+<td>support proxmox ve version 4</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1146">ansible-modules-extras/pull/1146</a></td>
+<td>add lxc support, without dropping openvz</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1577">ansible-modules-extras/pull/1577</a></td>
+<td>fix typo</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2064">ansible-modules-extras/pull/2064</a></td>
+<td>Fixed netif params when create lxc container - Fix</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2091">ansible-modules-extras/pull/2091</a></td>
+<td>Change disk type to str to allow correct usage of </td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2187">ansible-modules-extras/pull/2187</a></td>
+<td>change netif type to dict and update example</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2426">ansible-modules-extras/pull/2426</a></td>
+<td>Implement mounts in proxmox module</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2755">ansible-modules-extras/pull/2755</a></td>
+<td>Implement template storage selection</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3092">ansible-modules-extras/pull/3092</a></td>
+<td>proxmox add exaples static ip</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3183">ansible-modules-extras/pull/3183</a></td>
+<td>Fix proxmox for python 3</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3190">ansible-modules-extras/pull/3190</a></td>
+<td>Fix proxmox for python 3</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/530">ansible-modules-extras/pull/530</a></td>
+<td>Proxmox VE module</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/531">ansible-modules-extras/pull/531</a></td>
+<td>Proxmox VE module examples</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/532">ansible-modules-extras/pull/532</a></td>
+<td>proxmox: doc update and prevent to log passwords</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/571">ansible-modules-extras/pull/571</a></td>
+<td>proxmox | changed https_verify_ssl to to validate_</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/issues/15527">ansible/issues/15527</a></td>
+<td>Proxmox module failing with 501 Not Implemented</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/issues/15749">ansible/issues/15749</a></td>
+<td>promox: Cannot create nodes when assigning paramet</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/issues/2784">ansible/issues/2784</a></td>
+<td>proxmox module</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/14093">ansible/pull/14093</a></td>
+<td>Proxmox 4 inventory</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/9273">ansible/pull/9273</a></td>
+<td>add a proxmox inventory plugin</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/9714">ansible/pull/9714</a></td>
+<td>Added dynamic inventory plugin for ProxmoxVE.</td>
+</tr>
+<tr>
 <td>rpm_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1796">ansible-modules-core/issues/1796</a></td>
 <td>rpm_key: Fedora 22: Failed to find required execut</td>
@@ -90884,6 +91069,116 @@
 <td>ec2_vpc_route_table</td>
 <td><a href="https://github.com/ansible/ansible/issues/14533">ansible/issues/14533</a></td>
 <td>ec2_vpc_route_table doesn't remove route tables</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2679">ansible-modules-extras/issues/2679</a></td>
+<td>ovirt module (start Vm) used by Ansible 2.2.0 and </td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1829">ansible-modules-extras/pull/1829</a></td>
+<td>remove legacy action style from examples</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1922">ansible-modules-extras/pull/1922</a></td>
+<td>Add cloudinit support to ovirt.py module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1991">ansible-modules-extras/pull/1991</a></td>
+<td>Do not leak password by error for ovirt module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2678">ansible-modules-extras/pull/2678</a></td>
+<td>make sure nic is always defined</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3182">ansible-modules-extras/pull/3182</a></td>
+<td>Port ovirt to python 3</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/319">ansible-modules-extras/pull/319</a></td>
+<td>oVirt/RHEV module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/388">ansible-modules-extras/pull/388</a></td>
+<td>Refactor of the Ovirt module to remove duplicate c</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/581">ansible-modules-extras/pull/581</a></td>
+<td>Added auth key insertion to ovirt module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/583">ansible-modules-extras/pull/583</a></td>
+<td>Ovirt add tagging</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/589">ansible-modules-extras/pull/589</a></td>
+<td>make ovirt module idempotent (optionally)</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/707">ansible-modules-extras/pull/707</a></td>
+<td>Ovirt merge with firstyear</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/79">ansible-modules-extras/pull/79</a></td>
+<td>Added missed importing</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/925">ansible-modules-extras/pull/925</a></td>
+<td>Ovirt merge with firstyear</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/issues/16969">ansible/issues/16969</a></td>
+<td>ovirt module (start Vm) used by Ansible 2.2.0 and </td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/11161">ansible/pull/11161</a></td>
+<td>oVirt Dynamic Inventory</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/14993">ansible/pull/14993</a></td>
+<td>Fixes ovirt inventory to only override credentials</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/15105">ansible/pull/15105</a></td>
+<td>Ovirt indentation fix and ensure run_tests.sh fail</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/17364">ansible/pull/17364</a></td>
+<td>Add oVirt utility module</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/3838">ansible/pull/3838</a></td>
+<td>added new module "ovirt"</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/4680">ansible/pull/4680</a></td>
+<td>fixed permissions of module library/cloud/ovirt</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible/pull/5143">ansible/pull/5143</a></td>
+<td>Use ovirtsdk if it installed, but fall out gracefu</td>
 </tr>
 <tr>
 <td>vmware</td>
@@ -91961,111 +92256,6 @@
 <td>doc: yumrepo renamed to yum_repository</td>
 </tr>
 <tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2679">ansible-modules-extras/issues/2679</a></td>
-<td>ovirt module (start Vm) used by Ansible 2.2.0 and </td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1829">ansible-modules-extras/pull/1829</a></td>
-<td>remove legacy action style from examples</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1922">ansible-modules-extras/pull/1922</a></td>
-<td>Add cloudinit support to ovirt.py module</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1991">ansible-modules-extras/pull/1991</a></td>
-<td>Do not leak password by error for ovirt module</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2678">ansible-modules-extras/pull/2678</a></td>
-<td>make sure nic is always defined</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/319">ansible-modules-extras/pull/319</a></td>
-<td>oVirt/RHEV module</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/388">ansible-modules-extras/pull/388</a></td>
-<td>Refactor of the Ovirt module to remove duplicate c</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/581">ansible-modules-extras/pull/581</a></td>
-<td>Added auth key insertion to ovirt module</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/583">ansible-modules-extras/pull/583</a></td>
-<td>Ovirt add tagging</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/589">ansible-modules-extras/pull/589</a></td>
-<td>make ovirt module idempotent (optionally)</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/707">ansible-modules-extras/pull/707</a></td>
-<td>Ovirt merge with firstyear</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/79">ansible-modules-extras/pull/79</a></td>
-<td>Added missed importing</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/925">ansible-modules-extras/pull/925</a></td>
-<td>Ovirt merge with firstyear</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/issues/16969">ansible/issues/16969</a></td>
-<td>ovirt module (start Vm) used by Ansible 2.2.0 and </td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/11161">ansible/pull/11161</a></td>
-<td>oVirt Dynamic Inventory</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/14993">ansible/pull/14993</a></td>
-<td>Fixes ovirt inventory to only override credentials</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/15105">ansible/pull/15105</a></td>
-<td>Ovirt indentation fix and ensure run_tests.sh fail</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/17364">ansible/pull/17364</a></td>
-<td>Add oVirt utility module</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/3838">ansible/pull/3838</a></td>
-<td>added new module "ovirt"</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/4680">ansible/pull/4680</a></td>
-<td>fixed permissions of module library/cloud/ovirt</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible/pull/5143">ansible/pull/5143</a></td>
-<td>Use ovirtsdk if it installed, but fall out gracefu</td>
-</tr>
-<tr>
 <td>composer</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/175">ansible-modules-extras/issues/175</a></td>
 <td>Composer module won't work as expected</td>
@@ -92274,106 +92464,6 @@
 <td>monit</td>
 <td><a href="https://github.com/ansible/ansible/pull/7334">ansible/pull/7334</a></td>
 <td>Fail if monit reload failed; don't mask the error.</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1217">ansible-modules-extras/issues/1217</a></td>
-<td>module promox is broken with Proxmox VE 4.0</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1145">ansible-modules-extras/pull/1145</a></td>
-<td>support proxmox ve version 4</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1146">ansible-modules-extras/pull/1146</a></td>
-<td>add lxc support, without dropping openvz</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1577">ansible-modules-extras/pull/1577</a></td>
-<td>fix typo</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2064">ansible-modules-extras/pull/2064</a></td>
-<td>Fixed netif params when create lxc container - Fix</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2091">ansible-modules-extras/pull/2091</a></td>
-<td>Change disk type to str to allow correct usage of </td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2187">ansible-modules-extras/pull/2187</a></td>
-<td>change netif type to dict and update example</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2426">ansible-modules-extras/pull/2426</a></td>
-<td>Implement mounts in proxmox module</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2755">ansible-modules-extras/pull/2755</a></td>
-<td>Implement template storage selection</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3092">ansible-modules-extras/pull/3092</a></td>
-<td>proxmox add exaples static ip</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/530">ansible-modules-extras/pull/530</a></td>
-<td>Proxmox VE module</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/531">ansible-modules-extras/pull/531</a></td>
-<td>Proxmox VE module examples</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/532">ansible-modules-extras/pull/532</a></td>
-<td>proxmox: doc update and prevent to log passwords</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/571">ansible-modules-extras/pull/571</a></td>
-<td>proxmox | changed https_verify_ssl to to validate_</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/issues/15527">ansible/issues/15527</a></td>
-<td>Proxmox module failing with 501 Not Implemented</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/issues/15749">ansible/issues/15749</a></td>
-<td>promox: Cannot create nodes when assigning paramet</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/issues/2784">ansible/issues/2784</a></td>
-<td>proxmox module</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/14093">ansible/pull/14093</a></td>
-<td>Proxmox 4 inventory</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/9273">ansible/pull/9273</a></td>
-<td>add a proxmox inventory plugin</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/9714">ansible/pull/9714</a></td>
-<td>Added dynamic inventory plugin for ProxmoxVE.</td>
 </tr>
 <tr>
 <td>patch</td>
@@ -94106,6 +94196,96 @@
 <td>Adds login_unix_socket options to postgresql modul</td>
 </tr>
 <tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1474">ansible-modules-core/issues/1474</a></td>
+<td>Bug Report - can't loop in aync tasks</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/159">ansible-modules-core/issues/159</a></td>
+<td>Add recursive template copying</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4455">ansible-modules-core/issues/4455</a></td>
+<td>Expect module not working module failure parsed fa</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/701">ansible-modules-core/issues/701</a></td>
+<td>Solaris prtdiag hangs during gather facts</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1300">ansible-modules-extras/issues/1300</a></td>
+<td>'expect' module does not detect pexect python modu</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1820">ansible-modules-extras/issues/1820</a></td>
+<td>Feature Idea: Use expect with with_items</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1917">ansible-modules-extras/issues/1917</a></td>
+<td>support environment in expect module</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2484">ansible-modules-extras/issues/2484</a></td>
+<td>Expect module silently kills tasks after timeout i</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/812">ansible-modules-extras/issues/812</a></td>
+<td>expect is not a legal parameter in an Ansible task</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1518">ansible-modules-extras/pull/1518</a></td>
+<td>Allow a list of successive responses for a pattern</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1522">ansible-modules-extras/pull/1522</a></td>
+<td>Add functionality to give multiple iterative respo</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1818">ansible-modules-extras/pull/1818</a></td>
+<td>Catch errors related to insufficient (old) version</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2485">ansible-modules-extras/pull/2485</a></td>
+<td>If rc is null, assume that a timeout happened. Fix</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2823">ansible-modules-extras/pull/2823</a></td>
+<td>Make sure we don't catch rc=0 as a timeout</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3178">ansible-modules-extras/pull/3178</a></td>
+<td>Make expect module compile on python 3</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/600">ansible-modules-extras/pull/600</a></td>
+<td>Add new module 'expect'</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/601">ansible-modules-extras/pull/601</a></td>
+<td>Remove the executable option as it's redundant</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible/pull/3187">ansible/pull/3187</a></td>
+<td>add support for callback_plugins/ relative to play</td>
+</tr>
+<tr>
 <td>ec2_snapshot</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3114">ansible-modules-core/issues/3114</a></td>
 <td>ec2_snapshot last_snapshot_min_age doesn't work be</td>
@@ -94461,91 +94641,6 @@
 <td>Clean up stray space at the end of a line after a </td>
 </tr>
 <tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1474">ansible-modules-core/issues/1474</a></td>
-<td>Bug Report - can't loop in aync tasks</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/159">ansible-modules-core/issues/159</a></td>
-<td>Add recursive template copying</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4455">ansible-modules-core/issues/4455</a></td>
-<td>Expect module not working module failure parsed fa</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/701">ansible-modules-core/issues/701</a></td>
-<td>Solaris prtdiag hangs during gather facts</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1300">ansible-modules-extras/issues/1300</a></td>
-<td>'expect' module does not detect pexect python modu</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1820">ansible-modules-extras/issues/1820</a></td>
-<td>Feature Idea: Use expect with with_items</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1917">ansible-modules-extras/issues/1917</a></td>
-<td>support environment in expect module</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2484">ansible-modules-extras/issues/2484</a></td>
-<td>Expect module silently kills tasks after timeout i</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/812">ansible-modules-extras/issues/812</a></td>
-<td>expect is not a legal parameter in an Ansible task</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1518">ansible-modules-extras/pull/1518</a></td>
-<td>Allow a list of successive responses for a pattern</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1522">ansible-modules-extras/pull/1522</a></td>
-<td>Add functionality to give multiple iterative respo</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1818">ansible-modules-extras/pull/1818</a></td>
-<td>Catch errors related to insufficient (old) version</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2485">ansible-modules-extras/pull/2485</a></td>
-<td>If rc is null, assume that a timeout happened. Fix</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2823">ansible-modules-extras/pull/2823</a></td>
-<td>Make sure we don't catch rc=0 as a timeout</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/600">ansible-modules-extras/pull/600</a></td>
-<td>Add new module 'expect'</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/601">ansible-modules-extras/pull/601</a></td>
-<td>Remove the executable option as it's redundant</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible/pull/3187">ansible/pull/3187</a></td>
-<td>add support for callback_plugins/ relative to play</td>
-</tr>
-<tr>
 <td>rhn_register</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3409">ansible-modules-core/issues/3409</a></td>
 <td>rhn_register Fails When Only Supplying an Activati</td>
@@ -94799,6 +94894,91 @@
 <td>nxos_config</td>
 <td><a href="https://github.com/ansible/ansible/pull/17172">ansible/pull/17172</a></td>
 <td>updates nxos shared module refactor</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/11269">ansible/pull/11269</a></td>
+<td>local and ssh connection plugin fixes</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/12783">ansible/pull/12783</a></td>
+<td>correct value of remote_user for local connections</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/15006">ansible/pull/15006</a></td>
+<td>Add changes necessary for enabling pipelining for </td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/1648">ansible/pull/1648</a></td>
+<td>Use runner's basedir as cwd for -c local</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/16805">ansible/pull/16805</a></td>
+<td>set cwd to task's basedir</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/18044">ansible/pull/18044</a></td>
+<td>Fix become password using non-ascii for local conn</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/18045">ansible/pull/18045</a></td>
+<td>Fixes to handle non-ascii passwords</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/1835">ansible/pull/1835</a></td>
+<td>Sudo local with password</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/1847">ansible/pull/1847</a></td>
+<td>local sudo and password</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/2082">ansible/pull/2082</a></td>
+<td>Local chroot support</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/539">ansible/pull/539</a></td>
+<td>0.5 fixes for master branch</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/540">ansible/pull/540</a></td>
+<td> 0.5 fixes for devel branch</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/5605">ansible/pull/5605</a></td>
+<td>Fix to bug #5533 in connection plugin 'local'</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/613">ansible/pull/613</a></td>
+<td>Allow local plays to execute when --ask-sudo-pass </td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/6981">ansible/pull/6981</a></td>
+<td>Fix localhost tasks with complex executables</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/734">ansible/pull/734</a></td>
+<td>Use sudo_user as an argument in the sudo command</td>
+</tr>
+<tr>
+<td>local</td>
+<td><a href="https://github.com/ansible/ansible/pull/818">ansible/pull/818</a></td>
+<td>Update man pages and the message for an exception.</td>
 </tr>
 <tr>
 <td>win_package</td>
@@ -96479,81 +96659,6 @@
 <td>ec2_remote_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/989">ansible-modules-extras/pull/989</a></td>
 <td>Fix tpyo in ec2_remote_facts module doc</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/11269">ansible/pull/11269</a></td>
-<td>local and ssh connection plugin fixes</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/12783">ansible/pull/12783</a></td>
-<td>correct value of remote_user for local connections</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/15006">ansible/pull/15006</a></td>
-<td>Add changes necessary for enabling pipelining for </td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/1648">ansible/pull/1648</a></td>
-<td>Use runner's basedir as cwd for -c local</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/16805">ansible/pull/16805</a></td>
-<td>set cwd to task's basedir</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/1835">ansible/pull/1835</a></td>
-<td>Sudo local with password</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/1847">ansible/pull/1847</a></td>
-<td>local sudo and password</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/2082">ansible/pull/2082</a></td>
-<td>Local chroot support</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/539">ansible/pull/539</a></td>
-<td>0.5 fixes for master branch</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/540">ansible/pull/540</a></td>
-<td> 0.5 fixes for devel branch</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/5605">ansible/pull/5605</a></td>
-<td>Fix to bug #5533 in connection plugin 'local'</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/613">ansible/pull/613</a></td>
-<td>Allow local plays to execute when --ask-sudo-pass </td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/6981">ansible/pull/6981</a></td>
-<td>Fix localhost tasks with complex executables</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/734">ansible/pull/734</a></td>
-<td>Use sudo_user as an argument in the sudo command</td>
-</tr>
-<tr>
-<td>local</td>
-<td><a href="https://github.com/ansible/ansible/pull/818">ansible/pull/818</a></td>
-<td>Update man pages and the message for an exception.</td>
 </tr>
 <tr>
 <td>powershell</td>
@@ -100126,6 +100231,61 @@
 <td>README.md: Reference module development guide (fix</td>
 </tr>
 <tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1058">ansible-modules-extras/pull/1058</a></td>
+<td>Switch from old style replacer code to new style f</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1182">ansible-modules-extras/pull/1182</a></td>
+<td>Added xenvm and moved xenserver_facts</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1608">ansible-modules-extras/pull/1608</a></td>
+<td>Cope with freshly installed XenServers</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1609">ansible-modules-extras/pull/1609</a></td>
+<td>Update example in xenserver_facts.py</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1610">ansible-modules-extras/pull/1610</a></td>
+<td>Update return variable in xenserver_facts.py</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1611">ansible-modules-extras/pull/1611</a></td>
+<td>Add XenServer 6.5.0 codename to list of codenames</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1613">ansible-modules-extras/pull/1613</a></td>
+<td>Update to account for changes in XenAPI</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1953">ansible-modules-extras/pull/1953</a></td>
+<td>Do not import xenapi without checking, so we can a</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3184">ansible-modules-extras/pull/3184</a></td>
+<td>Make xenserver_facts compile on python 3</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/40">ansible-modules-extras/pull/40</a></td>
+<td>Add XenServer module</td>
+</tr>
+<tr>
+<td>xenserver_facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/7727">ansible/pull/7727</a></td>
+<td>Add XenServer module</td>
+</tr>
+<tr>
 <td>ipaddr</td>
 <td><a href="https://github.com/ansible/ansible/pull/10151">ansible/pull/10151</a></td>
 <td>Modified version of PR 9560</td>
@@ -100389,6 +100549,56 @@
 <td>azure_rm_deployment</td>
 <td><a href="https://github.com/ansible/ansible/issues/17023">ansible/issues/17023</a></td>
 <td>azure_rm_deployment - InvalidHeader: Header value </td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/804">ansible-modules-core/issues/804</a></td>
+<td>when role A depends on role B, role B is run only </td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1525">ansible-modules-extras/pull/1525</a></td>
+<td>Add custom parameter for a sensu_check</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1532">ansible-modules-extras/pull/1532</a></td>
+<td>Add custom parameter for a sensu_check</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1684">ansible-modules-extras/pull/1684</a></td>
+<td>Added a source parameter for setting the JIT clien</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/203">ansible-modules-extras/pull/203</a></td>
+<td>Add sensu_check module</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2193">ansible-modules-extras/pull/2193</a></td>
+<td>high_flap_threshold documentation correction</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3177">ansible-modules-extras/pull/3177</a></td>
+<td>Make sensu_check compile on python 3</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/629">ansible-modules-extras/pull/629</a></td>
+<td>made sensu_check 2.4 friendly</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/983">ansible-modules-extras/pull/983</a></td>
+<td>Fix errors in sensu_check</td>
+</tr>
+<tr>
+<td>sensu_check</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/988">ansible-modules-extras/pull/988</a></td>
+<td>Add github ID to author field in sensu_check</td>
 </tr>
 <tr>
 <td>cs_volume</td>
@@ -100941,56 +101151,6 @@
 <td>fix up asa shared module</td>
 </tr>
 <tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1058">ansible-modules-extras/pull/1058</a></td>
-<td>Switch from old style replacer code to new style f</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1182">ansible-modules-extras/pull/1182</a></td>
-<td>Added xenvm and moved xenserver_facts</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1608">ansible-modules-extras/pull/1608</a></td>
-<td>Cope with freshly installed XenServers</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1609">ansible-modules-extras/pull/1609</a></td>
-<td>Update example in xenserver_facts.py</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1610">ansible-modules-extras/pull/1610</a></td>
-<td>Update return variable in xenserver_facts.py</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1611">ansible-modules-extras/pull/1611</a></td>
-<td>Add XenServer 6.5.0 codename to list of codenames</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1613">ansible-modules-extras/pull/1613</a></td>
-<td>Update to account for changes in XenAPI</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1953">ansible-modules-extras/pull/1953</a></td>
-<td>Do not import xenapi without checking, so we can a</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/40">ansible-modules-extras/pull/40</a></td>
-<td>Add XenServer module</td>
-</tr>
-<tr>
-<td>xenserver_facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/7727">ansible/pull/7727</a></td>
-<td>Add XenServer module</td>
-</tr>
-<tr>
 <td>apache2_site</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1242">ansible-modules-core/pull/1242</a></td>
 <td>apache2_site module for managing apache2 sites in </td>
@@ -101379,51 +101539,6 @@
 <td>changelog</td>
 <td><a href="https://github.com/ansible/ansible/pull/8484">ansible/pull/8484</a></td>
 <td>Fix wrong date in debian/changelog</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/804">ansible-modules-core/issues/804</a></td>
-<td>when role A depends on role B, role B is run only </td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1525">ansible-modules-extras/pull/1525</a></td>
-<td>Add custom parameter for a sensu_check</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1532">ansible-modules-extras/pull/1532</a></td>
-<td>Add custom parameter for a sensu_check</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1684">ansible-modules-extras/pull/1684</a></td>
-<td>Added a source parameter for setting the JIT clien</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/203">ansible-modules-extras/pull/203</a></td>
-<td>Add sensu_check module</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2193">ansible-modules-extras/pull/2193</a></td>
-<td>high_flap_threshold documentation correction</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/629">ansible-modules-extras/pull/629</a></td>
-<td>made sensu_check 2.4 friendly</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/983">ansible-modules-extras/pull/983</a></td>
-<td>Fix errors in sensu_check</td>
-</tr>
-<tr>
-<td>sensu_check</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/988">ansible-modules-extras/pull/988</a></td>
-<td>Add github ID to author field in sensu_check</td>
 </tr>
 <tr>
 <td>fireball</td>
@@ -101919,6 +102034,51 @@
 <td>docker_network</td>
 <td><a href="https://github.com/ansible/ansible/pull/14810">ansible/pull/14810</a></td>
 <td>Updating docker_network module proposal</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3200">ansible-modules-extras/issues/3200</a></td>
+<td>[Enhancement] Support delayed replication for mysq</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/13191">ansible/pull/13191</a></td>
+<td>Add shared connection code for mysql modules</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/14595">ansible/pull/14595</a></td>
+<td>Remove SSL config map when empty</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/14767">ansible/pull/14767</a></td>
+<td>Fixed mysql socket connections</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/14908">ansible/pull/14908</a></td>
+<td>Document mysql connect_timeout and update tests.</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/14924">ansible/pull/14924</a></td>
+<td>Dynamically add ssl key to the mysql config hash i</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/15028">ansible/pull/15028</a></td>
+<td>#15026 - Rare MySQLdb exception raised when remote</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/15385">ansible/pull/15385</a></td>
+<td>mysql_*: enable mysql connection via unix socket</td>
+</tr>
+<tr>
+<td>mysql</td>
+<td><a href="https://github.com/ansible/ansible/pull/580">ansible/pull/580</a></td>
+<td>Code review: MySQL module</td>
 </tr>
 <tr>
 <td>s3_lifecycle</td>
@@ -102461,6 +102621,46 @@
 <td>Can ansible add kubernetes module ?</td>
 </tr>
 <tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/13201">ansible/pull/13201</a></td>
+<td>Fix DataLoader's docstring</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/14197">ansible/pull/14197</a></td>
+<td>load now does not modify the incomming data</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/15384">ansible/pull/15384</a></td>
+<td>Adding current working directory to the dataloader</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/16329">ansible/pull/16329</a></td>
+<td>If decryption of a vaulted file failed, include th</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/16392">ansible/pull/16392</a></td>
+<td>fixed memoryerror when coping huge file</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/17196">ansible/pull/17196</a></td>
+<td>Add some missing imports from last night's py3 fix</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/17615">ansible/pull/17615</a></td>
+<td>Fix dataloader using deprecated version of is_encr</td>
+</tr>
+<tr>
+<td>dataloader</td>
+<td><a href="https://github.com/ansible/ansible/pull/17995">ansible/pull/17995</a></td>
+<td>Fix search path for relative paths in roles (fixes</td>
+</tr>
+<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/112">ansible-modules-core/issues/112</a></td>
 <td>rhn_channel is using depreciated methods</td>
@@ -102659,6 +102859,46 @@
 <td>fail</td>
 <td><a href="https://github.com/ansible/ansible/pull/8410">ansible/pull/8410</a></td>
 <td>fail module: Add an "all" argument to trigger a fa</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4546">ansible-modules-core/issues/4546</a></td>
+<td>os_user to not force updating password on existing</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5183">ansible-modules-core/issues/5183</a></td>
+<td>Openstack/os_user always reports "changed"</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3302">ansible-modules-core/pull/3302</a></td>
+<td>Allow passing domain name on os_user</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3363">ansible-modules-core/pull/3363</a></td>
+<td>Only check default_project on resource creation</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4574">ansible-modules-core/pull/4574</a></td>
+<td>Fixes bug #4546 - Made password optional</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5212">ansible-modules-core/pull/5212</a></td>
+<td>Refactor domain/project handling on os_user module</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2480">ansible-modules-extras/issues/2480</a></td>
+<td>os_user does not honor OS env variables</td>
+</tr>
+<tr>
+<td>os_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/315">ansible-modules-extras/pull/315</a></td>
+<td>Add openstack keystone modules</td>
 </tr>
 <tr>
 <td>rax_dns_record</td>
@@ -103061,6 +103301,46 @@
 <td>win_iis_webapppool : Error when state is absent</td>
 </tr>
 <tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
+<td>[gce_img] module support snapshot disk as source</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1082">ansible-modules-extras/pull/1082</a></td>
+<td>configurable timeout for creating gce image</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
+<td>GCE : Fix image family handling with libcloud > 0.</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/229">ansible-modules-extras/pull/229</a></td>
+<td>Add gce_img module for utilizing GCE image resourc</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3179">ansible-modules-extras/pull/3179</a></td>
+<td>Fix gce module to compile on python 3</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3186">ansible-modules-extras/pull/3186</a></td>
+<td>Sanity check gce.</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3187">ansible-modules-extras/pull/3187</a></td>
+<td>Few more places where gce modules need python3 com</td>
+</tr>
+<tr>
+<td>gce_img</td>
+<td><a href="https://github.com/ansible/ansible/issues/15819">ansible/issues/15819</a></td>
+<td>gce_img module support snapshot disk as source</td>
+</tr>
+<tr>
 <td>default</td>
 <td><a href="https://github.com/ansible/ansible/pull/12214">ansible/pull/12214</a></td>
 <td>fix no_log leakages to local output, add tests</td>
@@ -103259,46 +103539,6 @@
 <td>vmware_inventory</td>
 <td><a href="https://github.com/ansible/ansible/pull/17830">ansible/pull/17830</a></td>
 <td>vmware_inventory: check ssl by default</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/13191">ansible/pull/13191</a></td>
-<td>Add shared connection code for mysql modules</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/14595">ansible/pull/14595</a></td>
-<td>Remove SSL config map when empty</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/14767">ansible/pull/14767</a></td>
-<td>Fixed mysql socket connections</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/14908">ansible/pull/14908</a></td>
-<td>Document mysql connect_timeout and update tests.</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/14924">ansible/pull/14924</a></td>
-<td>Dynamically add ssl key to the mysql config hash i</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/15028">ansible/pull/15028</a></td>
-<td>#15026 - Rare MySQLdb exception raised when remote</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/15385">ansible/pull/15385</a></td>
-<td>mysql_*: enable mysql connection via unix socket</td>
-</tr>
-<tr>
-<td>mysql</td>
-<td><a href="https://github.com/ansible/ansible/pull/580">ansible/pull/580</a></td>
-<td>Code review: MySQL module</td>
 </tr>
 <tr>
 <td>nxos_vtp_password</td>
@@ -103916,41 +104156,6 @@
 <td>During initial argument evaluation, cast args to s</td>
 </tr>
 <tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/13201">ansible/pull/13201</a></td>
-<td>Fix DataLoader's docstring</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/14197">ansible/pull/14197</a></td>
-<td>load now does not modify the incomming data</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/15384">ansible/pull/15384</a></td>
-<td>Adding current working directory to the dataloader</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/16329">ansible/pull/16329</a></td>
-<td>If decryption of a vaulted file failed, include th</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/16392">ansible/pull/16392</a></td>
-<td>fixed memoryerror when coping huge file</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/17196">ansible/pull/17196</a></td>
-<td>Add some missing imports from last night's py3 fix</td>
-</tr>
-<tr>
-<td>dataloader</td>
-<td><a href="https://github.com/ansible/ansible/pull/17615">ansible/pull/17615</a></td>
-<td>Fix dataloader using deprecated version of is_encr</td>
-</tr>
-<tr>
 <td>route53_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4314">ansible-modules-core/pull/4314</a></td>
 <td>unsafe writes!</td>
@@ -103984,6 +104189,41 @@
 <td>route53_facts</td>
 <td><a href="https://github.com/ansible/ansible/pull/16704">ansible/pull/16704</a></td>
 <td>A little unittest refactoring</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3192">ansible-modules-extras/pull/3192</a></td>
+<td>Make zabbix modules compile on python 3</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/12679">ansible/pull/12679</a></td>
+<td>zabbix.py: Added additional ini file search path</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/3771">ansible/pull/3771</a></td>
+<td>Add Zabbix inventory plugin</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/3883">ansible/pull/3883</a></td>
+<td>Added Zabbix inventory plugin</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/3923">ansible/pull/3923</a></td>
+<td>improved zabbix inventory</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/4145">ansible/pull/4145</a></td>
+<td>zabbix inventory: print errors to stderr</td>
+</tr>
+<tr>
+<td>zabbix</td>
+<td><a href="https://github.com/ansible/ansible/pull/9527">ansible/pull/9527</a></td>
+<td>Delete import json. Several syntax changes.</td>
 </tr>
 <tr>
 <td>hpilo_facts</td>
@@ -104089,41 +104329,6 @@
 <td>rabbitmq_binding</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/501">ansible-modules-extras/pull/501</a></td>
 <td>Added missing default</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4546">ansible-modules-core/issues/4546</a></td>
-<td>os_user to not force updating password on existing</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5183">ansible-modules-core/issues/5183</a></td>
-<td>Openstack/os_user always reports "changed"</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3302">ansible-modules-core/pull/3302</a></td>
-<td>Allow passing domain name on os_user</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3363">ansible-modules-core/pull/3363</a></td>
-<td>Only check default_project on resource creation</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4574">ansible-modules-core/pull/4574</a></td>
-<td>Fixes bug #4546 - Made password optional</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2480">ansible-modules-extras/issues/2480</a></td>
-<td>os_user does not honor OS env variables</td>
-</tr>
-<tr>
-<td>os_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/315">ansible-modules-extras/pull/315</a></td>
-<td>Add openstack keystone modules</td>
 </tr>
 <tr>
 <td>ssh_config</td>
@@ -104581,6 +104786,41 @@
 <td>fixes issue with net_template failing unless src a</td>
 </tr>
 <tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/21">ansible-modules-core/pull/21</a></td>
+<td>Add a module to [un]install postgresql extensions</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1192">ansible-modules-extras/pull/1192</a></td>
+<td>BUGFIX: misnamed function name breaks check mode</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2438">ansible-modules-extras/pull/2438</a></td>
+<td>Fixes check mode error on Python 2.4 and wrong cha</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3197">ansible-modules-extras/pull/3197</a></td>
+<td>Do not leak login_password when using verbose, wit</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/787">ansible-modules-extras/pull/787</a></td>
+<td>postgresql_ext: bugfix - change check mode call db</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible/pull/6873">ansible/pull/6873</a></td>
+<td>Add module for adding/deleting extensions in Postg</td>
+</tr>
+<tr>
+<td>postgresql_ext</td>
+<td><a href="https://github.com/ansible/ansible/pull/7874">ansible/pull/7874</a></td>
+<td>Add a module to [un]install postgresql extensions</td>
+</tr>
+<tr>
 <td>znode</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1358">ansible-modules-extras/issues/1358</a></td>
 <td>znode - object is not iterable</td>
@@ -105031,6 +105271,36 @@
 <td>Avoid merging a dict and a AnsibleUnicode</td>
 </tr>
 <tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1830">ansible-modules-extras/pull/1830</a></td>
+<td>Add note server 2012 note to win_scheduled_task.</td>
+</tr>
+<tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2097">ansible-modules-extras/pull/2097</a></td>
+<td>Win_schedule_tasks strict mode fixes, periodicity </td>
+</tr>
+<tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2552">ansible-modules-extras/pull/2552</a></td>
+<td>Update argument parsing add support for working di</td>
+</tr>
+<tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3198">ansible-modules-extras/pull/3198</a></td>
+<td>Fix days_of_week var command typo</td>
+</tr>
+<tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/441">ansible-modules-extras/pull/441</a></td>
+<td>win_scheduled_task module for windows</td>
+</tr>
+<tr>
+<td>win_scheduled_task</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/665">ansible-modules-extras/pull/665</a></td>
+<td>Ability to add/remove scheduled task</td>
+</tr>
+<tr>
 <td>opkg</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/881">ansible-modules-extras/issues/881</a></td>
 <td>opkg module does not support the --force group of </td>
@@ -105059,36 +105329,6 @@
 <td>opkg</td>
 <td><a href="https://github.com/ansible/ansible/pull/8751">ansible/pull/8751</a></td>
 <td>opkg: support for upgrading packages</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/12679">ansible/pull/12679</a></td>
-<td>zabbix.py: Added additional ini file search path</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/3771">ansible/pull/3771</a></td>
-<td>Add Zabbix inventory plugin</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/3883">ansible/pull/3883</a></td>
-<td>Added Zabbix inventory plugin</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/3923">ansible/pull/3923</a></td>
-<td>improved zabbix inventory</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/4145">ansible/pull/4145</a></td>
-<td>zabbix inventory: print errors to stderr</td>
-</tr>
-<tr>
-<td>zabbix</td>
-<td><a href="https://github.com/ansible/ansible/pull/9527">ansible/pull/9527</a></td>
-<td>Delete import json. Several syntax changes.</td>
 </tr>
 <tr>
 <td>conf</td>
@@ -105391,6 +105631,36 @@
 <td>updates iosxr shared module</td>
 </tr>
 <tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1877">ansible-modules-extras/pull/1877</a></td>
+<td>Fix type used by the module</td>
+</tr>
+<tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3181">ansible-modules-extras/pull/3181</a></td>
+<td>Make redis run on python 3</td>
+</tr>
+<tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible/issues/13124">ansible/issues/13124</a></td>
+<td> SENTINEL- REDIS ---> fatal: [pyxrrsap02.pyx.erp]:</td>
+</tr>
+<tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible/pull/3538">ansible/pull/3538</a></td>
+<td>Added redis config module (slave and flush)</td>
+</tr>
+<tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible/pull/5772">ansible/pull/5772</a></td>
+<td>Adding the ability to change redis configuration</td>
+</tr>
+<tr>
+<td>redis</td>
+<td><a href="https://github.com/ansible/ansible/pull/9870">ansible/pull/9870</a></td>
+<td>cache json fixes</td>
+</tr>
+<tr>
 <td>consul_acl</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2213">ansible-modules-extras/issues/2213</a></td>
 <td>consul_acl documentation for token type option app</td>
@@ -105569,36 +105839,6 @@
 <td>rhevm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2860">ansible-modules-extras/pull/2860</a></td>
 <td>Rename rhev to rhv</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/21">ansible-modules-core/pull/21</a></td>
-<td>Add a module to [un]install postgresql extensions</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1192">ansible-modules-extras/pull/1192</a></td>
-<td>BUGFIX: misnamed function name breaks check mode</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2438">ansible-modules-extras/pull/2438</a></td>
-<td>Fixes check mode error on Python 2.4 and wrong cha</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/787">ansible-modules-extras/pull/787</a></td>
-<td>postgresql_ext: bugfix - change check mode call db</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible/pull/6873">ansible/pull/6873</a></td>
-<td>Add module for adding/deleting extensions in Postg</td>
-</tr>
-<tr>
-<td>postgresql_ext</td>
-<td><a href="https://github.com/ansible/ansible/pull/7874">ansible/pull/7874</a></td>
-<td>Add a module to [un]install postgresql extensions</td>
 </tr>
 <tr>
 <td>nxos_nxapi</td>
@@ -106091,31 +106331,6 @@
 <td>[v2] win_iis_webbinding module require additional </td>
 </tr>
 <tr>
-<td>win_scheduled_task</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1830">ansible-modules-extras/pull/1830</a></td>
-<td>Add note server 2012 note to win_scheduled_task.</td>
-</tr>
-<tr>
-<td>win_scheduled_task</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2097">ansible-modules-extras/pull/2097</a></td>
-<td>Win_schedule_tasks strict mode fixes, periodicity </td>
-</tr>
-<tr>
-<td>win_scheduled_task</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2552">ansible-modules-extras/pull/2552</a></td>
-<td>Update argument parsing add support for working di</td>
-</tr>
-<tr>
-<td>win_scheduled_task</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/441">ansible-modules-extras/pull/441</a></td>
-<td>win_scheduled_task module for windows</td>
-</tr>
-<tr>
-<td>win_scheduled_task</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/665">ansible-modules-extras/pull/665</a></td>
-<td>Ability to add/remove scheduled task</td>
-</tr>
-<tr>
 <td>rabbitmq_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1159">ansible-modules-extras/issues/1159</a></td>
 <td>rabbitmq_policy: support for '--apply-to' argument</td>
@@ -106591,31 +106806,6 @@
 <td>rax_keypair module: Allow public_key to be a path </td>
 </tr>
 <tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2229">ansible-modules-extras/issues/2229</a></td>
-<td>[gce_img] module support snapshot disk as source</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1082">ansible-modules-extras/pull/1082</a></td>
-<td>configurable timeout for creating gce image</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2289">ansible-modules-extras/pull/2289</a></td>
-<td>GCE : Fix image family handling with libcloud > 0.</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/229">ansible-modules-extras/pull/229</a></td>
-<td>Add gce_img module for utilizing GCE image resourc</td>
-</tr>
-<tr>
-<td>gce_img</td>
-<td><a href="https://github.com/ansible/ansible/issues/15819">ansible/issues/15819</a></td>
-<td>gce_img module support snapshot disk as source</td>
-</tr>
-<tr>
 <td>bigip_selfip</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2749">ansible-modules-extras/pull/2749</a></td>
 <td>Adds the bigip_selfip module</td>
@@ -106689,31 +106879,6 @@
 <td>role</td>
 <td><a href="https://github.com/ansible/ansible/pull/17943">ansible/pull/17943</a></td>
 <td>Add warnings when installing container type roles</td>
-</tr>
-<tr>
-<td>redis</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1877">ansible-modules-extras/pull/1877</a></td>
-<td>Fix type used by the module</td>
-</tr>
-<tr>
-<td>redis</td>
-<td><a href="https://github.com/ansible/ansible/issues/13124">ansible/issues/13124</a></td>
-<td> SENTINEL- REDIS ---> fatal: [pyxrrsap02.pyx.erp]:</td>
-</tr>
-<tr>
-<td>redis</td>
-<td><a href="https://github.com/ansible/ansible/pull/3538">ansible/pull/3538</a></td>
-<td>Added redis config module (slave and flush)</td>
-</tr>
-<tr>
-<td>redis</td>
-<td><a href="https://github.com/ansible/ansible/pull/5772">ansible/pull/5772</a></td>
-<td>Adding the ability to change redis configuration</td>
-</tr>
-<tr>
-<td>redis</td>
-<td><a href="https://github.com/ansible/ansible/pull/9870">ansible/pull/9870</a></td>
-<td>cache json fixes</td>
 </tr>
 <tr>
 <td>zabbix_screen</td>
@@ -106914,6 +107079,31 @@
 <td>bigpanda</td>
 <td><a href="https://github.com/ansible/ansible/pull/8922">ansible/pull/8922</a></td>
 <td>Don't return 'state' attr in bigpanda module</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5271">ansible-modules-core/issues/5271</a></td>
+<td>[Enhancement] Add a "provider" parameter to snmp_f</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1094">ansible-modules-extras/pull/1094</a></td>
+<td>lookupMib=False for pysnmp 4.3.0</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/135">ansible-modules-extras/pull/135</a></td>
+<td>minor doc tweaks to snmp_facts</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1689">ansible-modules-extras/pull/1689</a></td>
+<td>Fix typo</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/99">ansible-modules-extras/pull/99</a></td>
+<td>Snmp module for Ansible</td>
 </tr>
 <tr>
 <td>nxos_hsrp</td>
@@ -108469,26 +108659,6 @@
 <td>logicmonitor</td>
 <td><a href="https://github.com/ansible/ansible/pull/4434">ansible/pull/4434</a></td>
 <td>Added new LogicMonitor module.</td>
-</tr>
-<tr>
-<td>snmp_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1094">ansible-modules-extras/pull/1094</a></td>
-<td>lookupMib=False for pysnmp 4.3.0</td>
-</tr>
-<tr>
-<td>snmp_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/135">ansible-modules-extras/pull/135</a></td>
-<td>minor doc tweaks to snmp_facts</td>
-</tr>
-<tr>
-<td>snmp_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1689">ansible-modules-extras/pull/1689</a></td>
-<td>Fix typo</td>
-</tr>
-<tr>
-<td>snmp_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/99">ansible-modules-extras/pull/99</a></td>
-<td>Snmp module for Ansible</td>
 </tr>
 <tr>
 <td>junos_netconf</td>
@@ -112896,9 +113066,9 @@
 <td>syncronize not working with hosts behind jumpbox</td>
 </tr>
 <tr>
-<td>couchbase_server</td>
-<td><a href="https://github.com/ansible/ansible/pull/8259">ansible/pull/8259</a></td>
-<td>Couchbase Server module</td>
+<td>exec_command</td>
+<td><a href="https://github.com/ansible/ansible/issues/18029">ansible/issues/18029</a></td>
+<td>SUDO passwords with non-ascii characters break Ans</td>
 </tr>
 <tr>
 <td>delegate_facts</td>
@@ -113004,6 +113174,11 @@
 <td>cs_resourcelimit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1587">ansible-modules-extras/pull/1587</a></td>
 <td>[2.1] cloudstack: new module cs_resourcelimit</td>
+</tr>
+<tr>
+<td>roles</td>
+<td><a href="https://github.com/ansible/ansible/pull/18030">ansible/pull/18030</a></td>
+<td>Better error for bad role def</td>
 </tr>
 <tr>
 <td>syslog</td>
@@ -113661,6 +113836,11 @@
 <td>NEW MODULE: Adds a module to retrieve facts about </td>
 </tr>
 <tr>
+<td>couchbase_server</td>
+<td><a href="https://github.com/ansible/ansible/pull/8259">ansible/pull/8259</a></td>
+<td>Couchbase Server module</td>
+</tr>
+<tr>
 <td>blacklist</td>
 <td><a href="https://github.com/ansible/ansible/pull/4910">ansible/pull/4910</a></td>
 <td>Add system module to blacklist kernel modules</td>
@@ -113724,6 +113904,11 @@
 <td>dict_parser</td>
 <td><a href="https://github.com/ansible/ansible/pull/4187">ansible/pull/4187</a></td>
 <td>Allow creation of Inventory class from a dictionar</td>
+</tr>
+<tr>
+<td>dnssimple</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3193">ansible-modules-extras/pull/3193</a></td>
+<td>Make dnssimple compile on python 3</td>
 </tr>
 <tr>
 <td>apache2_config</td>
@@ -113801,9 +113986,9 @@
 <td>pn_show (New Module)</td>
 </tr>
 <tr>
-<td>fileglob_to_dict</td>
-<td><a href="https://github.com/ansible/ansible/pull/9730">ansible/pull/9730</a></td>
-<td>fileglob_to_dict lookup plugin for returning dicti</td>
+<td>nagios_ndo</td>
+<td><a href="https://github.com/ansible/ansible/pull/6918">ansible/pull/6918</a></td>
+<td>Add Nagios NDO inventory plugin</td>
 </tr>
 <tr>
 <td>netapp_e_host</td>
@@ -113814,6 +113999,11 @@
 <td>dpkg_reconfigure</td>
 <td><a href="https://github.com/ansible/ansible/pull/2805">ansible/pull/2805</a></td>
 <td>New `dpkg_reconfigure` module</td>
+</tr>
+<tr>
+<td>fileglob_to_dict</td>
+<td><a href="https://github.com/ansible/ansible/pull/9730">ansible/pull/9730</a></td>
+<td>fileglob_to_dict lookup plugin for returning dicti</td>
 </tr>
 <tr>
 <td>yum_config_manager</td>
@@ -114981,11 +115171,6 @@
 <td>New module: nfsexport</td>
 </tr>
 <tr>
-<td>nagios_ndo</td>
-<td><a href="https://github.com/ansible/ansible/pull/6918">ansible/pull/6918</a></td>
-<td>Add Nagios NDO inventory plugin</td>
-</tr>
-<tr>
 <td>statvfs_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/563">ansible-modules-extras/pull/563</a></td>
 <td>New module statvfs: retrieve various information o</td>
@@ -115024,6 +115209,11 @@
 <td>restrict_pattern</td>
 <td><a href="https://github.com/ansible/ansible/pull/3901">ansible/pull/3901</a></td>
 <td>increase test coverage of inventory by around 5% a</td>
+</tr>
+<tr>
+<td>dev_guide</td>
+<td><a href="https://github.com/ansible/ansible/pull/18032">ansible/pull/18032</a></td>
+<td>Update dev_guide with Python3 porting advice.</td>
 </tr>
 <tr>
 <td>lines</td>
