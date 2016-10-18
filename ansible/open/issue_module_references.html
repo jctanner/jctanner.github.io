@@ -4282,6 +4282,16 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18086">ansible/pull/18086</a></td>
+<td>Start adding unit tests for facts cpuinfo</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18089">ansible/pull/18089</a></td>
+<td>Pixelrebel amc pr2654</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/9309">ansible/pull/9309</a></td>
 <td>If included file is a symlink, set basedir in util</td>
 </tr>
@@ -4807,11 +4817,6 @@
 </tr>
 <tr>
 <td>git</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2645">ansible-modules-core/issues/2645</a></td>
-<td>git verify_commit not working for tags</td>
-</tr>
-<tr>
-<td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2656">ansible-modules-core/issues/2656</a></td>
 <td>Git ability to clean untracked and ignored files</td>
 </tr>
@@ -4889,11 +4894,6 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1834">ansible-modules-core/pull/1834</a></td>
 <td>Add support for 'single-branch' option in git modu</td>
-</tr>
-<tr>
-<td>git</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2654">ansible-modules-core/pull/2654</a></td>
-<td>verify both tags and commits</td>
 </tr>
 <tr>
 <td>git</td>
@@ -7282,6 +7282,11 @@
 </tr>
 <tr>
 <td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5299">ansible-modules-core/issues/5299</a></td>
+<td>file does not see an existent directory and does n</td>
+</tr>
+<tr>
+<td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/902">ansible-modules-core/issues/902</a></td>
 <td>Add state=empty into file module</td>
 </tr>
@@ -9301,6 +9306,81 @@
 <td>Adding self.log() on IOErrors and OSErrros</td>
 </tr>
 <tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
+<td>Add check= to shell & command modules or a generic</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
+<td>Support for Shell Commands in Check Mode</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
+<td>command module does not return stderr of `postfix </td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
+<td>Add module to hide `mktemp` differences across OS</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4548">ansible-modules-core/issues/4548</a></td>
+<td>Proposal for command module error if special chara</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5300">ansible-modules-core/issues/5300</a></td>
+<td>shell command not escaping double quotes correctly</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
+<td>allow playbooks to specify stdin for command</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
+<td>Improves command warnings for commands which requi</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
+<td>CommandModule: detect change based on update to so</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
+<td>Command module removing characters from rvm comman</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
+<td>Expect a given return code from the command module</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
+<td>confusing ansible command with ansible-playbook</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
+<td>`template` module fails with "/bin/sh: powershell:</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17042">ansible/issues/17042</a></td>
+<td>add "mocking" parameter to shell and command modul</td>
+</tr>
+<tr>
+<td>command</td>
+<td><a href="https://github.com/ansible/ansible/issues/17721">ansible/issues/17721</a></td>
+<td>Rescue block does not execute when a run_once comm</td>
+</tr>
+<tr>
 <td>cloudformation</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1224">ansible-modules-core/issues/1224</a></td>
 <td>Feature Idea : cloudformation "describe" state</td>
@@ -9509,76 +9589,6 @@
 <td>docker_container</td>
 <td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
 <td>documentation for docker_container: b, k, m, or g </td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
-<td>Add check= to shell & command modules or a generic</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3356">ansible-modules-core/issues/3356</a></td>
-<td>Support for Shell Commands in Check Mode</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3459">ansible-modules-core/issues/3459</a></td>
-<td>command module does not return stderr of `postfix </td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/443">ansible-modules-core/issues/443</a></td>
-<td>Add module to hide `mktemp` differences across OS</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4548">ansible-modules-core/issues/4548</a></td>
-<td>Proposal for command module error if special chara</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2306">ansible-modules-core/pull/2306</a></td>
-<td>allow playbooks to specify stdin for command</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2372">ansible-modules-core/pull/2372</a></td>
-<td>Improves command warnings for commands which requi</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2767">ansible-modules-core/pull/2767</a></td>
-<td>CommandModule: detect change based on update to so</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/12808">ansible/issues/12808</a></td>
-<td>Command module removing characters from rvm comman</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13223">ansible/issues/13223</a></td>
-<td>Expect a given return code from the command module</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/13497">ansible/issues/13497</a></td>
-<td>confusing ansible command with ansible-playbook</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/14791">ansible/issues/14791</a></td>
-<td>`template` module fails with "/bin/sh: powershell:</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17042">ansible/issues/17042</a></td>
-<td>add "mocking" parameter to shell and command modul</td>
-</tr>
-<tr>
-<td>command</td>
-<td><a href="https://github.com/ansible/ansible/issues/17721">ansible/issues/17721</a></td>
-<td>Rescue block does not execute when a run_once comm</td>
 </tr>
 <tr>
 <td>core</td>
@@ -11241,6 +11251,46 @@
 <td>Add thin pool / volume managment to lvol (follow u</td>
 </tr>
 <tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3133">ansible-modules-extras/issues/3133</a></td>
+<td>consul_kv: support KV transactions</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/751">ansible-modules-extras/issues/751</a></td>
+<td>Impossible to pass a JSON string Array to consul_k</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/792">ansible-modules-extras/issues/792</a></td>
+<td>Bad consul_kv token default</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/827">ansible-modules-extras/issues/827</a></td>
+<td>urrlib not defined using consul_kv</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3019">ansible-modules-extras/pull/3019</a></td>
+<td>consul_kv read configuration from consul </td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3224">ansible-modules-extras/pull/3224</a></td>
+<td>Adding dc to consul_kv</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible/issues/11042">ansible/issues/11042</a></td>
+<td>add default value support to `consul_kv` lookup</td>
+</tr>
+<tr>
+<td>consul_kv</td>
+<td><a href="https://github.com/ansible/ansible/pull/14817">ansible/pull/14817</a></td>
+<td>Add https support for consul lookup plugin</td>
+</tr>
+<tr>
 <td>ping</td>
 <td><a href="https://github.com/ansible/ansible/issues/13410">ansible/issues/13410</a></td>
 <td>Solaris hosts can't be pinged</td>
@@ -11479,41 +11529,6 @@
 <td>os_server</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4598">ansible-modules-core/pull/4598</a></td>
 <td>os_server: keep optional nic args for nics specifi</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3133">ansible-modules-extras/issues/3133</a></td>
-<td>consul_kv: support KV transactions</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/751">ansible-modules-extras/issues/751</a></td>
-<td>Impossible to pass a JSON string Array to consul_k</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/792">ansible-modules-extras/issues/792</a></td>
-<td>Bad consul_kv token default</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/827">ansible-modules-extras/issues/827</a></td>
-<td>urrlib not defined using consul_kv</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3019">ansible-modules-extras/pull/3019</a></td>
-<td>consul_kv read configuration from consul </td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible/issues/11042">ansible/issues/11042</a></td>
-<td>add default value support to `consul_kv` lookup</td>
-</tr>
-<tr>
-<td>consul_kv</td>
-<td><a href="https://github.com/ansible/ansible/pull/14817">ansible/pull/14817</a></td>
-<td>Add https support for consul lookup plugin</td>
 </tr>
 <tr>
 <td>cloudtrail</td>
@@ -12891,6 +12906,31 @@
 <td>Consistent parameters naming for file and acl modu</td>
 </tr>
 <tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
+<td>additional status besides 'changed', 'ok', or 'fai</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5298">ansible-modules-core/issues/5298</a></td>
+<td>ansible_host and ansible_ssh_host have different b</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
+<td>Expect module not working module failure parsed fa</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
+<td>Created Comware 5.2 Ansible modules</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
+<td>a wrong way to judge ending of a role execution</td>
+</tr>
+<tr>
 <td>datadog_monitor</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/3046">ansible-modules-extras/issues/3046</a></td>
 <td>datadog_monitor is not idempotent</td>
@@ -13476,6 +13516,26 @@
 <td>Refactor and fix the slaac filter. (2. approach)</td>
 </tr>
 <tr>
+<td>azure_rm</td>
+<td><a href="https://github.com/ansible/ansible/issues/17727">ansible/issues/17727</a></td>
+<td>error with azure dynamic inventory script -- azure</td>
+</tr>
+<tr>
+<td>azure_rm</td>
+<td><a href="https://github.com/ansible/ansible/issues/17934">ansible/issues/17934</a></td>
+<td>azure_rm doesnt work if Service Principal doesnt h</td>
+</tr>
+<tr>
+<td>azure_rm</td>
+<td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
+<td>Updating azure_rm.py to work with azure python sdk</td>
+</tr>
+<tr>
+<td>azure_rm</td>
+<td><a href="https://github.com/ansible/ansible/pull/18085">ansible/pull/18085</a></td>
+<td>Capture only the winrm protocol value</td>
+</tr>
+<tr>
 <td>ec2_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/714">ansible-modules-core/issues/714</a></td>
 <td>ec2_key doesn't complain about the "region" parame</td>
@@ -13554,26 +13614,6 @@
 <td>hg</td>
 <td><a href="https://github.com/ansible/ansible/issues/15948">ansible/issues/15948</a></td>
 <td>ansible-playbook --syntax-check repeats line and c</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
-<td>additional status besides 'changed', 'ok', or 'fai</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
-<td>Expect module not working module failure parsed fa</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
-<td>Created Comware 5.2 Ansible modules</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
-<td>a wrong way to judge ending of a role execution</td>
 </tr>
 <tr>
 <td>ios_config</td>
@@ -13716,19 +13756,19 @@
 <td>New security group facts module [was PR #1908]</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
-<td>include_role does not support tags</td>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
+<td>Fetch Silently Fails To Fetch File</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5166">ansible-modules-core/issues/5166</a></td>
-<td>include_role module silently ignores missing tasks</td>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5297">ansible-modules-core/issues/5297</a></td>
+<td>Bug Report: Fetch fails if ansible_ssh_host is loc</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/17966">ansible/issues/17966</a></td>
-<td>include_role does not work with with_items</td>
+<td>fetch</td>
+<td><a href="https://github.com/ansible/ansible/issues/14378">ansible/issues/14378</a></td>
+<td>fetch module doesn't fail if remote file is missin</td>
 </tr>
 <tr>
 <td>handler</td>
@@ -13911,6 +13951,21 @@
 <td>Fixes #1566 Add full change check for rabbitmq pol</td>
 </tr>
 <tr>
+<td>roles_path</td>
+<td><a href="https://github.com/ansible/ansible/issues/18067">ansible/issues/18067</a></td>
+<td>Documentation of relative directories in roles_pat</td>
+</tr>
+<tr>
+<td>roles_path</td>
+<td><a href="https://github.com/ansible/ansible/issues/18079">ansible/issues/18079</a></td>
+<td>[Feature] ability to set roles_path from within pl</td>
+</tr>
+<tr>
+<td>roles_path</td>
+<td><a href="https://github.com/ansible/ansible/issues/18090">ansible/issues/18090</a></td>
+<td>Relative directories in roles_path is broken</td>
+</tr>
+<tr>
 <td>junos_command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4103">ansible-modules-core/issues/4103</a></td>
 <td>Enable the use of JSON for junos_command</td>
@@ -14029,21 +14084,6 @@
 <td>win_msi</td>
 <td><a href="https://github.com/ansible/ansible/issues/16261">ansible/issues/16261</a></td>
 <td>win_msi $result "log" $logcontents not showing log</td>
-</tr>
-<tr>
-<td>azure_rm</td>
-<td><a href="https://github.com/ansible/ansible/issues/17727">ansible/issues/17727</a></td>
-<td>error with azure dynamic inventory script -- azure</td>
-</tr>
-<tr>
-<td>azure_rm</td>
-<td><a href="https://github.com/ansible/ansible/issues/17934">ansible/issues/17934</a></td>
-<td>azure_rm doesnt work if Service Principal doesnt h</td>
-</tr>
-<tr>
-<td>azure_rm</td>
-<td><a href="https://github.com/ansible/ansible/pull/16407">ansible/pull/16407</a></td>
-<td>Updating azure_rm.py to work with azure python sdk</td>
 </tr>
 <tr>
 <td>become</td>
@@ -14276,6 +14316,16 @@
 <td>Adding Managed Mode into the yum_repository module</td>
 </tr>
 <tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5166">ansible-modules-core/issues/5166</a></td>
+<td>include_role module silently ignores missing tasks</td>
+</tr>
+<tr>
 <td>nxos_snmp_community</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5214">ansible-modules-core/issues/5214</a></td>
 <td>Exception when using nxos_snmp_community</td>
@@ -14284,16 +14334,6 @@
 <td>nxos_snmp_community</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5244">ansible-modules-core/pull/5244</a></td>
 <td>Snmp community</td>
-</tr>
-<tr>
-<td>fetch</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
-<td>Fetch Silently Fails To Fetch File</td>
-</tr>
-<tr>
-<td>fetch</td>
-<td><a href="https://github.com/ansible/ansible/issues/14378">ansible/issues/14378</a></td>
-<td>fetch module doesn't fail if remote file is missin</td>
 </tr>
 <tr>
 <td>win_iis_website</td>
@@ -14404,6 +14444,16 @@
 <td>lxd_container</td>
 <td><a href="https://github.com/ansible/ansible/pull/17571">ansible/pull/17571</a></td>
 <td>lxd_container module fails if certificate already </td>
+</tr>
+<tr>
+<td>gitlab_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2159">ansible-modules-extras/issues/2159</a></td>
+<td>Gitlab python binding</td>
+</tr>
+<tr>
+<td>gitlab_project</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3228">ansible-modules-extras/pull/3228</a></td>
+<td>Updated gitlab_project module</td>
 </tr>
 <tr>
 <td>win_hosts</td>
@@ -14566,16 +14616,6 @@
 <td>Add XBPS module</td>
 </tr>
 <tr>
-<td>roles_path</td>
-<td><a href="https://github.com/ansible/ansible/issues/18067">ansible/issues/18067</a></td>
-<td>Documentation of relative directories in roles_pat</td>
-</tr>
-<tr>
-<td>roles_path</td>
-<td><a href="https://github.com/ansible/ansible/issues/18079">ansible/issues/18079</a></td>
-<td>[Feature] ability to set roles_path from within pl</td>
-</tr>
-<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4465">ansible-modules-core/issues/4465</a></td>
 <td>Exception using nxos_feature</td>
@@ -14726,6 +14766,16 @@
 <td>Added module win_zip</td>
 </tr>
 <tr>
+<td>ec2_elb_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4594">ansible-modules-core/issues/4594</a></td>
+<td>ec2_elb_* modules should support operations on ELB</td>
+</tr>
+<tr>
+<td>ec2_elb_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2445">ansible-modules-extras/issues/2445</a></td>
+<td>ec2_elb_facts fails with boto 2.38</td>
+</tr>
+<tr>
 <td>raw</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/178">ansible-modules-core/issues/178</a></td>
 <td>Request for raw command to not invoke shell</td>
@@ -14824,16 +14874,6 @@
 <td>task_queue_manager</td>
 <td><a href="https://github.com/ansible/ansible/pull/17987">ansible/pull/17987</a></td>
 <td>Change `v2_playbook_on_start` logic to positively </td>
-</tr>
-<tr>
-<td>ec2_elb_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4594">ansible-modules-core/issues/4594</a></td>
-<td>ec2_elb_* modules should support operations on ELB</td>
-</tr>
-<tr>
-<td>ec2_elb_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2445">ansible-modules-extras/issues/2445</a></td>
-<td>ec2_elb_facts fails with boto 2.38</td>
 </tr>
 <tr>
 <td>junos_config</td>
@@ -15276,6 +15316,11 @@
 <td>Win say</td>
 </tr>
 <tr>
+<td>ovirt_hosts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3225">ansible-modules-extras/pull/3225</a></td>
+<td>Add oVirt ovirt_hosts and ovirt_storage_hosts_fact</td>
+</tr>
+<tr>
 <td>samba_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2770">ansible-modules-extras/pull/2770</a></td>
 <td>New Module `samba_user` to manage samba users</td>
@@ -15379,11 +15424,6 @@
 <td>os_quota</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2709">ansible-modules-extras/pull/2709</a></td>
 <td>Adding os_quota support to the OpenStack modules</td>
-</tr>
-<tr>
-<td>gitlab_project</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2159">ansible-modules-extras/issues/2159</a></td>
-<td>Gitlab python binding</td>
 </tr>
 <tr>
 <td>gcp</td>
@@ -16611,6 +16651,11 @@
 <td>Add ovirt_datacenters and ovirt_datacenters_facts </td>
 </tr>
 <tr>
+<td>gitlab_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3229">ansible-modules-extras/pull/3229</a></td>
+<td>Updated gitlab_group module</td>
+</tr>
+<tr>
 <td>yum_module</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4384">ansible-modules-core/issues/4384</a></td>
 <td>yum module not reporting error in Ansible 2.1.1.0</td>
@@ -16836,6 +16881,11 @@
 <td>Timeout configuration for rax_dns_record</td>
 </tr>
 <tr>
+<td>docker_image_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5301">ansible-modules-core/issues/5301</a></td>
+<td>docker_image_facts does not search for tag</td>
+</tr>
+<tr>
 <td>digital_ocean_domain_record</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1745">ansible-modules-extras/pull/1745</a></td>
 <td>Digital ocean domain record</td>
@@ -17036,6 +17086,11 @@
 <td>nxos_vrf: NameError: global name protocol is not d</td>
 </tr>
 <tr>
+<td>ovirt_vms_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3226">ansible-modules-extras/pull/3226</a></td>
+<td>Add oVirt ovirt_vms_facts module</td>
+</tr>
+<tr>
 <td>win_iis_virtualdirectory</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2188">ansible-modules-extras/pull/2188</a></td>
 <td>Update win_iis_virtualdirectory.ps1</td>
@@ -17069,6 +17124,11 @@
 <td>vmware_nic</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1836">ansible-modules-extras/pull/1836</a></td>
 <td>Vmware nic</td>
+</tr>
+<tr>
+<td>ovirt_host_networks</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3227">ansible-modules-extras/pull/3227</a></td>
+<td>Add oVirt ovirt_host_networks modules</td>
 </tr>
 <tr>
 <td>infini_export</td>
