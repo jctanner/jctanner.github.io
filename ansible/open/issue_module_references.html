@@ -5397,11 +5397,6 @@
 </tr>
 <tr>
 <td>docker</td>
-<td><a href="https://github.com/ansible/ansible/pull/16488">ansible/pull/16488</a></td>
-<td>Added Docker container for Debian</td>
-</tr>
-<tr>
-<td>docker</td>
 <td><a href="https://github.com/ansible/ansible/pull/16824">ansible/pull/16824</a></td>
 <td>Fixing remote docker issues</td>
 </tr>
@@ -8726,6 +8721,91 @@
 <td>git module `accept_hostkey=yes` option now works w</td>
 </tr>
 <tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
+<td>"authorized_key" re-orders the keys and comments i</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5290">ansible-modules-core/pull/5290</a></td>
+<td>Make the code run on python 3</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
+<td>Prompt for input as a task</td>
+</tr>
+<tr>
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
 <td>ec2_elb_lb: module does not accept vpc_id</td>
@@ -8964,86 +9044,6 @@
 <td>uri</td>
 <td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
 <td>Digest authentication mechanism doesn't work for u</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
-<td>"authorized_key" re-orders the keys and comments i</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
-<td>Prompt for input as a task</td>
 </tr>
 <tr>
 <td>ec2_vpc_route_table</td>
@@ -12631,6 +12631,31 @@
 <td>Updated win_file with logic on handling sym link d</td>
 </tr>
 <tr>
+<td>ec2_eni</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2956">ansible-modules-extras/issues/2956</a></td>
+<td>ec2_eni unable to create new ENIs with secondary p</td>
+</tr>
+<tr>
+<td>ec2_eni</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1377">ansible-modules-extras/pull/1377</a></td>
+<td>add support for secondary_ip_addresses and finding</td>
+</tr>
+<tr>
+<td>ec2_eni</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3219">ansible-modules-extras/pull/3219</a></td>
+<td>Add allow_reassignment parameter to ec2_eni</td>
+</tr>
+<tr>
+<td>ec2_eni</td>
+<td><a href="https://github.com/ansible/ansible/issues/14135">ansible/issues/14135</a></td>
+<td>Ansible 2.0.0.2 - Using with_items and ec2_eni is </td>
+</tr>
+<tr>
+<td>ec2_eni</td>
+<td><a href="https://github.com/ansible/ansible/issues/15932">ansible/issues/15932</a></td>
+<td>Module ec2_eni bug: Line 453: get_ec2_security_gro</td>
+</tr>
+<tr>
 <td>consul_io</td>
 <td><a href="https://github.com/ansible/ansible/pull/10398">ansible/pull/10398</a></td>
 <td>Changes to unittests that verify units for interva</td>
@@ -13276,26 +13301,6 @@
 <td>Add support for delayed replication to mysql repli</td>
 </tr>
 <tr>
-<td>ec2_eni</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2956">ansible-modules-extras/issues/2956</a></td>
-<td>ec2_eni unable to create new ENIs with secondary p</td>
-</tr>
-<tr>
-<td>ec2_eni</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1377">ansible-modules-extras/pull/1377</a></td>
-<td>add support for secondary_ip_addresses and finding</td>
-</tr>
-<tr>
-<td>ec2_eni</td>
-<td><a href="https://github.com/ansible/ansible/issues/14135">ansible/issues/14135</a></td>
-<td>Ansible 2.0.0.2 - Using with_items and ec2_eni is </td>
-</tr>
-<tr>
-<td>ec2_eni</td>
-<td><a href="https://github.com/ansible/ansible/issues/15932">ansible/issues/15932</a></td>
-<td>Module ec2_eni bug: Line 453: get_ec2_security_gro</td>
-</tr>
-<tr>
 <td>win_iis_webapppool</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2072">ansible-modules-extras/issues/2072</a></td>
 <td>win_iis_webapppool failing with 'Specified cast is</td>
@@ -13574,26 +13579,6 @@
 <td>archive</td>
 <td><a href="https://github.com/ansible/ansible/issues/15413">ansible/issues/15413</a></td>
 <td>ansible-galaxy: Traceback when role archive is ext</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/issues/17308">ansible/issues/17308</a></td>
-<td>Test suite fail on python3 for test_filters.yml</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/issues/18051">ansible/issues/18051</a></td>
-<td>Make test hg run on python 3</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/pull/17628">ansible/pull/17628</a></td>
-<td>Add tests for the ipaddr filter</td>
-</tr>
-<tr>
-<td>test</td>
-<td><a href="https://github.com/ansible/ansible/pull/18050">ansible/pull/18050</a></td>
-<td>Make the test run when used on a local system</td>
 </tr>
 <tr>
 <td>stat</td>
@@ -14026,21 +14011,6 @@
 <td>Updating azure_rm.py to work with azure python sdk</td>
 </tr>
 <tr>
-<td>tests</td>
-<td><a href="https://github.com/ansible/ansible/pull/17326">ansible/pull/17326</a></td>
-<td>Enable the test of 'su', since it seems to work fi</td>
-</tr>
-<tr>
-<td>tests</td>
-<td><a href="https://github.com/ansible/ansible/pull/17337">ansible/pull/17337</a></td>
-<td>Add test of the selinux module (as a start)</td>
-</tr>
-<tr>
-<td>tests</td>
-<td><a href="https://github.com/ansible/ansible/pull/18065">ansible/pull/18065</a></td>
-<td>Enable filters test for python 3</td>
-</tr>
-<tr>
 <td>become</td>
 <td><a href="https://github.com/ansible/ansible/issues/17583">ansible/issues/17583</a></td>
 <td>Sudo on change</td>
@@ -14144,6 +14114,21 @@
 <td>win_package</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3126">ansible-modules-extras/pull/3126</a></td>
 <td>Added return code option to documentation</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/issues/17308">ansible/issues/17308</a></td>
+<td>Test suite fail on python3 for test_filters.yml</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/issues/18051">ansible/issues/18051</a></td>
+<td>Make test hg run on python 3</td>
+</tr>
+<tr>
+<td>test</td>
+<td><a href="https://github.com/ansible/ansible/pull/17628">ansible/pull/17628</a></td>
+<td>Add tests for the ipaddr filter</td>
 </tr>
 <tr>
 <td>pear</td>
@@ -14364,6 +14349,16 @@
 <td>ec2_scaling_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3130">ansible-modules-core/issues/3130</a></td>
 <td>Add support for StepScaling policies to ec2_scalin</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3176">ansible-modules-extras/issues/3176</a></td>
+<td>[Enhancement] Add a "provider" parameter to snmp_f</td>
+</tr>
+<tr>
+<td>snmp_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3218">ansible-modules-extras/issues/3218</a></td>
+<td>snmp_facts  cannot import pysnmp</td>
 </tr>
 <tr>
 <td>package</td>
@@ -14826,6 +14821,16 @@
 <td>junos modules RPC timeout option</td>
 </tr>
 <tr>
+<td>tests</td>
+<td><a href="https://github.com/ansible/ansible/pull/17337">ansible/pull/17337</a></td>
+<td>Add test of the selinux module (as a start)</td>
+</tr>
+<tr>
+<td>tests</td>
+<td><a href="https://github.com/ansible/ansible/pull/18065">ansible/pull/18065</a></td>
+<td>Enable filters test for python 3</td>
+</tr>
+<tr>
 <td>cpanm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/830">ansible-modules-extras/issues/830</a></td>
 <td>Missing attribute to call cpanm with extra argumen</td>
@@ -15259,11 +15264,6 @@
 <td>ecs_task_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1724">ansible-modules-extras/pull/1724</a></td>
 <td>Added new ecs_task_facts module</td>
-</tr>
-<tr>
-<td>snmp_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3176">ansible-modules-extras/issues/3176</a></td>
-<td>[Enhancement] Add a "provider" parameter to snmp_f</td>
 </tr>
 <tr>
 <td>quoting</td>
