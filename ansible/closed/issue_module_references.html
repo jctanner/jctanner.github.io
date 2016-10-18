@@ -54072,6 +54072,11 @@
 </tr>
 <tr>
 <td>pip</td>
+<td><a href="https://github.com/ansible/ansible/pull/18078">ansible/pull/18078</a></td>
+<td>epdb doesn't work on python3 so we need a differen</td>
+</tr>
+<tr>
+<td>pip</td>
 <td><a href="https://github.com/ansible/ansible/pull/1942">ansible/pull/1942</a></td>
 <td>library/pip: add support for virtualenv's --system</td>
 </tr>
@@ -56524,6 +56529,11 @@
 <td>authorized_key</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5276">ansible-modules-core/pull/5276</a></td>
 <td>Remove the wide try/expect clause</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5290">ansible-modules-core/pull/5290</a></td>
+<td>Make the code run on python 3</td>
 </tr>
 <tr>
 <td>authorized_key</td>
@@ -105846,6 +105856,36 @@
 <td>win_service module updates and tests</td>
 </tr>
 <tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5222">ansible-modules-core/issues/5222</a></td>
+<td>include_role does not work with with_items</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5133">ansible-modules-core/pull/5133</a></td>
+<td>Add matching quotes</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/17761">ansible/issues/17761</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/18026">ansible/issues/18026</a></td>
+<td>include_role - missing tasks when nested</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/18080">ansible/issues/18080</a></td>
+<td>include_role - role missing in execution when incl</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/pull/17232">ansible/pull/17232</a></td>
+<td>include_role (role revamp implementation)</td>
+</tr>
+<tr>
 <td>bigpanda</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2043">ansible-modules-extras/pull/2043</a></td>
 <td>Mark the token as sensitive, since it shouldn't be</td>
@@ -107159,31 +107199,6 @@
 <td>airbrake_deployment</td>
 <td><a href="https://github.com/ansible/ansible/pull/5039">ansible/pull/5039</a></td>
 <td>airbrake: Made the reporting URL an optional param</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5222">ansible-modules-core/issues/5222</a></td>
-<td>include_role does not work with with_items</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5133">ansible-modules-core/pull/5133</a></td>
-<td>Add matching quotes</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/17761">ansible/issues/17761</a></td>
-<td>include_role does not support tags</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/18026">ansible/issues/18026</a></td>
-<td>include_role - missing tasks when nested</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/pull/17232">ansible/pull/17232</a></td>
-<td>include_role (role revamp implementation)</td>
 </tr>
 <tr>
 <td>fileglob</td>
@@ -109556,6 +109571,21 @@
 <td>Removed run_once from alias of any error fatal</td>
 </tr>
 <tr>
+<td>libvirt_lxc</td>
+<td><a href="https://github.com/ansible/ansible/pull/13157">ansible/pull/13157</a></td>
+<td>LXC inventory scripts: fix libvirt_lxc</td>
+</tr>
+<tr>
+<td>libvirt_lxc</td>
+<td><a href="https://github.com/ansible/ansible/pull/14910">ansible/pull/14910</a></td>
+<td>Add noseclabel support to libvirt_lxc plugin.</td>
+</tr>
+<tr>
+<td>libvirt_lxc</td>
+<td><a href="https://github.com/ansible/ansible/pull/7972">ansible/pull/7972</a></td>
+<td>libvirt_lxc: Fix exec_command prototype for the pl</td>
+</tr>
+<tr>
 <td>_quantum_router</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3848">ansible-modules-core/pull/3848</a></td>
 <td>Fixing open stack compile time errors irt exceptio</td>
@@ -110214,21 +110244,6 @@
 <td>inventory_hostnames</td>
 <td><a href="https://github.com/ansible/ansible/pull/3091">ansible/pull/3091</a></td>
 <td>with_inventory_hostnames inventory based lookup pl</td>
-</tr>
-<tr>
-<td>libvirt_lxc</td>
-<td><a href="https://github.com/ansible/ansible/pull/13157">ansible/pull/13157</a></td>
-<td>LXC inventory scripts: fix libvirt_lxc</td>
-</tr>
-<tr>
-<td>libvirt_lxc</td>
-<td><a href="https://github.com/ansible/ansible/pull/14910">ansible/pull/14910</a></td>
-<td>Add noseclabel support to libvirt_lxc plugin.</td>
-</tr>
-<tr>
-<td>libvirt_lxc</td>
-<td><a href="https://github.com/ansible/ansible/pull/7972">ansible/pull/7972</a></td>
-<td>libvirt_lxc: Fix exec_command prototype for the pl</td>
 </tr>
 <tr>
 <td>ec2_vpc_subnet_facts</td>
@@ -112216,6 +112231,16 @@
 <td>New module cloudformation_facts</td>
 </tr>
 <tr>
+<td>to_datetime</td>
+<td><a href="https://github.com/ansible/ansible/pull/17145">ansible/pull/17145</a></td>
+<td>Added to_datetime filter</td>
+</tr>
+<tr>
+<td>to_datetime</td>
+<td><a href="https://github.com/ansible/ansible/pull/18081">ansible/pull/18081</a></td>
+<td>docsite - Fix styling</td>
+</tr>
+<tr>
 <td>openshift</td>
 <td><a href="https://github.com/ansible/ansible/pull/3797">ansible/pull/3797</a></td>
 <td>Add openshift inventory plugin</td>
@@ -113341,11 +113366,6 @@
 <td>Better error for bad role def</td>
 </tr>
 <tr>
-<td>syslog</td>
-<td><a href="https://github.com/ansible/ansible/pull/10116">ansible/pull/10116</a></td>
-<td>add support for local/remote syslog logging</td>
-</tr>
-<tr>
 <td>azure_rm_resourcegroup_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/3487">ansible-modules-core/pull/3487</a></td>
 <td>Adding new module azure_rm_resourcegroup_facts</td>
@@ -114271,6 +114291,11 @@
 <td>Debmake</td>
 </tr>
 <tr>
+<td>sanity</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5283">ansible-modules-core/pull/5283</a></td>
+<td>Group "apt-get update" and "apt-get install"</td>
+</tr>
+<tr>
 <td>nsot</td>
 <td><a href="https://github.com/ansible/ansible/pull/12368">ansible/pull/12368</a></td>
 <td>Contrib Inventory: NSoT</td>
@@ -114464,6 +114489,11 @@
 <td>dnos10</td>
 <td><a href="https://github.com/ansible/ansible/pull/17603">ansible/pull/17603</a></td>
 <td> Added support for facts module for Dell Networkin</td>
+</tr>
+<tr>
+<td>syslog</td>
+<td><a href="https://github.com/ansible/ansible/pull/10116">ansible/pull/10116</a></td>
+<td>add support for local/remote syslog logging</td>
 </tr>
 <tr>
 <td>ec2_vpc_peer</td>
@@ -114764,11 +114794,6 @@
 <td>python_vars</td>
 <td><a href="https://github.com/ansible/ansible/pull/9767">ansible/pull/9767</a></td>
 <td>added a vars_plugin</td>
-</tr>
-<tr>
-<td>to_datetime</td>
-<td><a href="https://github.com/ansible/ansible/pull/17145">ansible/pull/17145</a></td>
-<td>Added to_datetime filter</td>
 </tr>
 <tr>
 <td>ceph</td>
@@ -115314,6 +115339,11 @@
 <td>nfsexport</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/294">ansible-modules-extras/pull/294</a></td>
 <td>New module: nfsexport</td>
+</tr>
+<tr>
+<td>cmd_functions</td>
+<td><a href="https://github.com/ansible/ansible/pull/18077">ansible/pull/18077</a></td>
+<td>Fix ansible-pull on python3</td>
 </tr>
 <tr>
 <td>statvfs_facts</td>
