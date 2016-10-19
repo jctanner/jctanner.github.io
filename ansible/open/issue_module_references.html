@@ -3657,6 +3657,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/17982">ansible/issues/17982</a></td>
+<td>Optional dependency cryptography raised an excepti</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/17983">ansible/issues/17983</a></td>
 <td>Errors inside blocks don't seem to be included in </td>
 </tr>
@@ -3704,6 +3709,16 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/18082">ansible/issues/18082</a></td>
 <td>WinRM: Certification error when using "delegate_to</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18092">ansible/issues/18092</a></td>
+<td>filter plugins located in a playbook directory don</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18095">ansible/issues/18095</a></td>
+<td>Integer variables are converted to strings when re</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -5909,11 +5924,6 @@
 <td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4299">ansible-modules-core/pull/4299</a></td>
 <td>Allow ability to update specific package, do nothi</td>
-</tr>
-<tr>
-<td>yum</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4617">ansible-modules-core/pull/4617</a></td>
-<td>Ensure yum failures in with-loop result into a fai</td>
 </tr>
 <tr>
 <td>yum</td>
@@ -8761,6 +8771,91 @@
 <td>git module `accept_hostkey=yes` option now works w</td>
 </tr>
 <tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
+<td>"authorized_key" re-orders the keys and comments i</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5304">ansible-modules-core/pull/5304</a></td>
+<td>Fix code for python 3</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
+<td>Prompt for input as a task</td>
+</tr>
+<tr>
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
 <td>ec2_elb_lb: module does not accept vpc_id</td>
@@ -9001,86 +9096,6 @@
 <td>Digest authentication mechanism doesn't work for u</td>
 </tr>
 <tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
-<td>"authorized_key" re-orders the keys and comments i</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
-<td>Prompt for input as a task</td>
-</tr>
-<tr>
 <td>ec2_vpc_route_table</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
 <td>tags are empty on ec2_vpc_route_table creation</td>
@@ -9306,6 +9321,81 @@
 <td>Adding self.log() on IOErrors and OSErrros</td>
 </tr>
 <tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
+<td>docker_container: support --tmpfs option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
+<td>docker_container fails to restart containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
+<td>docker_container sends volume to docker API errone</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
+<td>Feature idea: docker_container support for --usern</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5158">ansible-modules-core/issues/5158</a></td>
+<td>Wrong requirements for docker_container module</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5171">ansible-modules-core/issues/5171</a></td>
+<td>docker_container module - "Error connecting contai</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5184">ansible-modules-core/issues/5184</a></td>
+<td>docker_container module doesnt accept value all fo</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5241">ansible-modules-core/issues/5241</a></td>
+<td>Cannot pass args to docker container</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5269">ansible-modules-core/issues/5269</a></td>
+<td>docker_container doesn't allow setting log_options</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5286">ansible-modules-core/issues/5286</a></td>
+<td>docker_container - missing cap_drop</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
+<td>Adding support for published_ports: ALL, since tha</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
+<td>Fix unit parsing</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5264">ansible-modules-core/pull/5264</a></td>
+<td>Fix for issue #5158</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5305">ansible-modules-core/pull/5305</a></td>
+<td>fix unclear documentation for docker container</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
+<td>documentation for docker_container: b, k, m, or g </td>
+</tr>
+<tr>
 <td>command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1396">ansible-modules-core/issues/1396</a></td>
 <td>Add check= to shell & command modules or a generic</td>
@@ -9451,6 +9541,76 @@
 <td>massive rewrite to boto3</td>
 </tr>
 <tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
+<td>gce module should support creating instances with </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
+<td>GCE Metadata field not usable</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
+<td>GCE module missing local SSD option</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
+<td>Add Target proxy, URL map and SSL certificate reso</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
+<td>Compute Engine: Provide a way to specify initial b</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5187">ansible-modules-core/issues/5187</a></td>
+<td>Add timeout option to gce module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
+<td>GCE: Add support for 'number' parameter for manual</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
+<td>GCE inventory doesn't provide disk names</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
+<td>Doc for GCE module refer to outdated auth strategy</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
+<td>Add node private & public ips to gce groups</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
+<td>change check for GCE auth parameters to allow empt</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
+<td>Allow empty string GCE parameters</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/18093">ansible/pull/18093</a></td>
+<td>[GCE] Caching support for inventory script.</td>
+</tr>
+<tr>
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
 <td>digital ocean block storage support</td>
@@ -9519,76 +9679,6 @@
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible/pull/17888">ansible/pull/17888</a></td>
 <td>Create groups from tags</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
-<td>docker_container: support --tmpfs option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
-<td>docker_container fails to restart containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
-<td>docker_container sends volume to docker API errone</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
-<td>Feature idea: docker_container support for --usern</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5158">ansible-modules-core/issues/5158</a></td>
-<td>Wrong requirements for docker_container module</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5171">ansible-modules-core/issues/5171</a></td>
-<td>docker_container module - "Error connecting contai</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5184">ansible-modules-core/issues/5184</a></td>
-<td>docker_container module doesnt accept value all fo</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5241">ansible-modules-core/issues/5241</a></td>
-<td>Cannot pass args to docker container</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5269">ansible-modules-core/issues/5269</a></td>
-<td>docker_container doesn't allow setting log_options</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5286">ansible-modules-core/issues/5286</a></td>
-<td>docker_container - missing cap_drop</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
-<td>Adding support for published_ports: ALL, since tha</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
-<td>Fix unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5264">ansible-modules-core/pull/5264</a></td>
-<td>Fix for issue #5158</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
-<td>documentation for docker_container: b, k, m, or g </td>
 </tr>
 <tr>
 <td>core</td>
@@ -9859,71 +9949,6 @@
 <td>ec2_ami_find</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4960">ansible-modules-core/pull/4960</a></td>
 <td>fix ansible-modules-core issue #4958</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
-<td>gce module should support creating instances with </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
-<td>GCE Metadata field not usable</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
-<td>GCE module missing local SSD option</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
-<td>Add Target proxy, URL map and SSL certificate reso</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
-<td>Compute Engine: Provide a way to specify initial b</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5187">ansible-modules-core/issues/5187</a></td>
-<td>Add timeout option to gce module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4276">ansible-modules-core/pull/4276</a></td>
-<td>GCE: Add support for 'number' parameter for manual</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
-<td>GCE inventory doesn't provide disk names</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
-<td>Doc for GCE module refer to outdated auth strategy</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
-<td>Add node private & public ips to gce groups</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
-<td>change check for GCE auth parameters to allow empt</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
-<td>Allow empty string GCE parameters</td>
 </tr>
 <tr>
 <td>shell</td>
@@ -12101,6 +12126,36 @@
 <td>allow 'nonpersistent facts' for other action plugi</td>
 </tr>
 <tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
+<td>ios_template module doesnt render {% for %} correc</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3781">ansible-modules-core/issues/3781</a></td>
+<td>change logging server on cisco router failed with </td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3999">ansible-modules-core/issues/3999</a></td>
+<td>ios_template missing backup</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4635">ansible-modules-core/issues/4635</a></td>
+<td>ios_template failing to extend a jinja2</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5190">ansible-modules-core/issues/5190</a></td>
+<td>Fix minor typos in modules</td>
+</tr>
+<tr>
+<td>ios_template</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5302">ansible-modules-core/pull/5302</a></td>
+<td>Fix ios_template docs to refer to ios_config (not </td>
+</tr>
+<tr>
 <td>win_chocolatey</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1496">ansible-modules-extras/issues/1496</a></td>
 <td>Failed to install packages on windows host using w</td>
@@ -12581,31 +12636,6 @@
 <td>ec2_eip documentation not correct</td>
 </tr>
 <tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
-<td>ios_template module doesnt render {% for %} correc</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3781">ansible-modules-core/issues/3781</a></td>
-<td>change logging server on cisco router failed with </td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3999">ansible-modules-core/issues/3999</a></td>
-<td>ios_template missing backup</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4635">ansible-modules-core/issues/4635</a></td>
-<td>ios_template failing to extend a jinja2</td>
-</tr>
-<tr>
-<td>ios_template</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5190">ansible-modules-core/issues/5190</a></td>
-<td>Fix minor typos in modules</td>
-</tr>
-<tr>
 <td>debug</td>
 <td><a href="https://github.com/ansible/ansible/issues/13664">ansible/issues/13664</a></td>
 <td>Environment variables values are printed in debug </td>
@@ -12904,31 +12934,6 @@
 <td>acl</td>
 <td><a href="https://github.com/ansible/ansible/issues/14127">ansible/issues/14127</a></td>
 <td>Consistent parameters naming for file and acl modu</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
-<td>additional status besides 'changed', 'ok', or 'fai</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5298">ansible-modules-core/issues/5298</a></td>
-<td>ansible_host and ansible_ssh_host have different b</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
-<td>Expect module not working module failure parsed fa</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
-<td>Created Comware 5.2 Ansible modules</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
-<td>a wrong way to judge ending of a role execution</td>
 </tr>
 <tr>
 <td>datadog_monitor</td>
@@ -13614,6 +13619,26 @@
 <td>hg</td>
 <td><a href="https://github.com/ansible/ansible/issues/15948">ansible/issues/15948</a></td>
 <td>ansible-playbook --syntax-check repeats line and c</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
+<td>additional status besides 'changed', 'ok', or 'fai</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
+<td>Expect module not working module failure parsed fa</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
+<td>Created Comware 5.2 Ansible modules</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
+<td>a wrong way to judge ending of a role execution</td>
 </tr>
 <tr>
 <td>ios_config</td>
@@ -14506,6 +14531,16 @@
 <td>Port in modules from openstack-ansible</td>
 </tr>
 <tr>
+<td>password_hash</td>
+<td><a href="https://github.com/ansible/ansible/issues/17266">ansible/issues/17266</a></td>
+<td>properly support passlib module in password_hash</td>
+</tr>
+<tr>
+<td>password_hash</td>
+<td><a href="https://github.com/ansible/ansible/pull/18091">ansible/pull/18091</a></td>
+<td>Make blowfish/bcrypt work correctly in password_ha</td>
+</tr>
+<tr>
 <td>redshift</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1365">ansible-modules-extras/pull/1365</a></td>
 <td>Add support for AWS Redshift clusters and snapshot</td>
@@ -14824,16 +14859,6 @@
 <td>freeipa</td>
 <td><a href="https://github.com/ansible/ansible/pull/14695">ansible/pull/14695</a></td>
 <td>Add support for nested hostgroups in FreeIPA</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/issues/18070">ansible/issues/18070</a></td>
-<td>VMware Inventory queries for / returns more than h</td>
-</tr>
-<tr>
-<td>vmware_inventory</td>
-<td><a href="https://github.com/ansible/ansible/pull/18072">ansible/pull/18072</a></td>
-<td>vmware_inventory: fix the --host and add 'properti</td>
 </tr>
 <tr>
 <td>satellite</td>
@@ -15411,6 +15436,11 @@
 <td>Dont use shell to run external processes in apt_rp</td>
 </tr>
 <tr>
+<td>exposed_ports1</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5303">ansible-modules-core/issues/5303</a></td>
+<td>Unclear docker_container exposed_ports documentati</td>
+</tr>
+<tr>
 <td>yarn</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3199">ansible-modules-extras/pull/3199</a></td>
 <td>Add Yarn module</td>
@@ -15549,11 +15579,6 @@
 <td>win_webpicmd</td>
 <td><a href="https://github.com/ansible/ansible/issues/14386">ansible/issues/14386</a></td>
 <td>windows 8.1 .net 3.5 installation: raw, win_chocol</td>
-</tr>
-<tr>
-<td>password_hash</td>
-<td><a href="https://github.com/ansible/ansible/issues/17266">ansible/issues/17266</a></td>
-<td>properly support passlib module in password_hash</td>
 </tr>
 <tr>
 <td>systemd</td>
@@ -15894,6 +15919,11 @@
 <td>ec2_vpc_net</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3613">ansible-modules-core/issues/3613</a></td>
 <td>ec2_vpc_net always returns "changed" when state=pr</td>
+</tr>
+<tr>
+<td>efs</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3231">ansible-modules-extras/issues/3231</a></td>
+<td>cant create new EFS share</td>
 </tr>
 <tr>
 <td>junos</td>
