@@ -3687,11 +3687,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/18075">ansible/issues/18075</a></td>
-<td>Play still fails for "UNREACHABLE" hosts even with</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/18076">ansible/issues/18076</a></td>
 <td>Unable to install Ansible on Ubuntu 16 using DEB p</td>
 </tr>
@@ -4299,6 +4294,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/18101">ansible/pull/18101</a></td>
 <td>Refresh the Galaxy docs</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/pull/18116">ansible/pull/18116</a></td>
+<td>updated devleoping plugins guide</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7821,111 +7821,6 @@
 <td>Tentative fix for #2555</td>
 </tr>
 <tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
-<td>ansible_distribution_release is NA for Debian 6.0.</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
-<td>Add a ansible_fw_manager fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10476">ansible/pull/10476</a></td>
-<td>Darwin uptime_seconds fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/11290">ansible/pull/11290</a></td>
-<td>Refactored AIXNetwork.get_interfaces_info</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/12073">ansible/pull/12073</a></td>
-<td>Add new size computation on mountpoint (used space</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
-<td>ansible_firewalld fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
-<td>Potential fix for setup ansible_selinux var incorr</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
-<td>Add posix groups to the list of returned facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
-<td>Streamline Arch Linux detection following systemd </td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
-<td>Fix OS version check for RHEL 4 to prevent executi</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17586">ansible/pull/17586</a></td>
-<td>Add possibility to limit the list of examined netw</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18112">ansible/pull/18112</a></td>
-<td>Use six.move for module in module_utils/facts.py</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18114">ansible/pull/18114</a></td>
-<td>Add a bit more information for network facts on BS</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
-</tr>
-<tr>
 <td>rds</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1320">ansible-modules-core/issues/1320</a></td>
 <td>rds should use vpc_security_group_ids parameter wh</td>
@@ -8224,6 +8119,106 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/issues/16130">ansible/issues/16130</a></td>
 <td>Add an "include" parameter to unarchive</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
+<td>ansible_distribution_release is NA for Debian 6.0.</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
+<td>Add a ansible_fw_manager fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10476">ansible/pull/10476</a></td>
+<td>Darwin uptime_seconds fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/11290">ansible/pull/11290</a></td>
+<td>Refactored AIXNetwork.get_interfaces_info</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/12073">ansible/pull/12073</a></td>
+<td>Add new size computation on mountpoint (used space</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
+<td>ansible_firewalld fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
+<td>Potential fix for setup ansible_selinux var incorr</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
+<td>Add posix groups to the list of returned facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
+<td>Streamline Arch Linux detection following systemd </td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
+<td>Fix OS version check for RHEL 4 to prevent executi</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17586">ansible/pull/17586</a></td>
+<td>Add possibility to limit the list of examined netw</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18114">ansible/pull/18114</a></td>
+<td>Add a bit more information for network facts on BS</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>mysql_user</td>
@@ -8786,6 +8781,91 @@
 <td>Add support for group variables to handlers</td>
 </tr>
 <tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
+<td>authorized_key fails in check mode if user doesn't</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
+<td>authorized_key reports ok if no key is actually in</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
+<td>Add more options to authorized_keys modul for comm</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
+<td>Feature request: comment on authorized_key module</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
+<td>add follow to authorized_key to enable following s</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
+<td>`authorized_key` with `delegate_to` not always add</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
+<td>"authorized_key" re-orders the keys and comments i</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
+<td>please add more options to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
+<td>Allow for multiple url to be specified in key para</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
+<td>authorized_keys: Maintain order of lines</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
+<td> fix option handling in authorized_key: issue#1715</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
+<td>Module now returns a list existing keys that exist</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
+<td>authorized_key: support --diff</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
+<td>Add comment option to authorized_key</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
+<td>Multiple exclusive keys example</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5329">ansible-modules-core/pull/5329</a></td>
+<td>Fix authorized_key module to preserve the order of</td>
+</tr>
+<tr>
+<td>authorized_key</td>
+<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
+<td>Prompt for input as a task</td>
+</tr>
+<tr>
 <td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1718">ansible-modules-core/issues/1718</a></td>
 <td>ec2_elb_lb: module does not accept vpc_id</td>
@@ -9024,86 +9104,6 @@
 <td>uri</td>
 <td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
 <td>Digest authentication mechanism doesn't work for u</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1515">ansible-modules-core/issues/1515</a></td>
-<td>authorized_key fails in check mode if user doesn't</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1608">ansible-modules-core/issues/1608</a></td>
-<td>authorized_key reports ok if no key is actually in</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2873">ansible-modules-core/issues/2873</a></td>
-<td>Add more options to authorized_keys modul for comm</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2998">ansible-modules-core/issues/2998</a></td>
-<td>Feature request: comment on authorized_key module</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3083">ansible-modules-core/issues/3083</a></td>
-<td>add follow to authorized_key to enable following s</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4542">ansible-modules-core/issues/4542</a></td>
-<td>`authorized_key` with `delegate_to` not always add</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4780">ansible-modules-core/issues/4780</a></td>
-<td>"authorized_key" re-orders the keys and comments i</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/552">ansible-modules-core/issues/552</a></td>
-<td>please add more options to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1829">ansible-modules-core/pull/1829</a></td>
-<td>Allow for multiple url to be specified in key para</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2254">ansible-modules-core/pull/2254</a></td>
-<td>authorized_keys: Maintain order of lines</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2348">ansible-modules-core/pull/2348</a></td>
-<td> fix option handling in authorized_key: issue#1715</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2382">ansible-modules-core/pull/2382</a></td>
-<td>Module now returns a list existing keys that exist</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3026">ansible-modules-core/pull/3026</a></td>
-<td>authorized_key: support --diff</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4094">ansible-modules-core/pull/4094</a></td>
-<td>Add comment option to authorized_key</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4167">ansible-modules-core/pull/4167</a></td>
-<td>Multiple exclusive keys example</td>
-</tr>
-<tr>
-<td>authorized_key</td>
-<td><a href="https://github.com/ansible/ansible/issues/17446">ansible/issues/17446</a></td>
-<td>Prompt for input as a task</td>
 </tr>
 <tr>
 <td>gce</td>
@@ -12811,6 +12811,31 @@
 <td>Add executable path to bower module.</td>
 </tr>
 <tr>
+<td>netscaler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2061">ansible-modules-extras/issues/2061</a></td>
+<td>Ansible (1.9.4) netscaler module got error msg: 'N</td>
+</tr>
+<tr>
+<td>netscaler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3154">ansible-modules-extras/issues/3154</a></td>
+<td>ssh to netscaler device not working</td>
+</tr>
+<tr>
+<td>netscaler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1219">ansible-modules-extras/pull/1219</a></td>
+<td>add proper 'changed' return, add support for parti</td>
+</tr>
+<tr>
+<td>netscaler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2327">ansible-modules-extras/pull/2327</a></td>
+<td>Netscaler: Expire sessions gracefully instead of t</td>
+</tr>
+<tr>
+<td>netscaler</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3246">ansible-modules-extras/pull/3246</a></td>
+<td>Make netscaler pass python3 sanity check</td>
+</tr>
+<tr>
 <td>win_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5118">ansible-modules-core/issues/5118</a></td>
 <td>win_file: Failed to delete folder with broken syml</td>
@@ -13444,26 +13469,6 @@
 <td>pam_limits</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2771">ansible-modules-extras/pull/2771</a></td>
 <td>Really fix python 2.4 compatibility in `pam_limits</td>
-</tr>
-<tr>
-<td>netscaler</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2061">ansible-modules-extras/issues/2061</a></td>
-<td>Ansible (1.9.4) netscaler module got error msg: 'N</td>
-</tr>
-<tr>
-<td>netscaler</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3154">ansible-modules-extras/issues/3154</a></td>
-<td>ssh to netscaler device not working</td>
-</tr>
-<tr>
-<td>netscaler</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1219">ansible-modules-extras/pull/1219</a></td>
-<td>add proper 'changed' return, add support for parti</td>
-</tr>
-<tr>
-<td>netscaler</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2327">ansible-modules-extras/pull/2327</a></td>
-<td>Netscaler: Expire sessions gracefully instead of t</td>
 </tr>
 <tr>
 <td>rax</td>
@@ -14527,8 +14532,8 @@
 </tr>
 <tr>
 <td>lxd_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/17571">ansible/pull/17571</a></td>
-<td>lxd_container module fails if certificate already </td>
+<td><a href="https://github.com/ansible/ansible/pull/18115">ansible/pull/18115</a></td>
+<td>Resubmitting Approved Pull Request #17571</td>
 </tr>
 <tr>
 <td>gitlab_project</td>
@@ -14711,6 +14716,16 @@
 <td>Add XBPS module</td>
 </tr>
 <tr>
+<td>apache2_module</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5328">ansible-modules-core/issues/5328</a></td>
+<td>Unable to change MPM module with apache2_module</td>
+</tr>
+<tr>
+<td>apache2_module</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4745">ansible-modules-core/pull/4745</a></td>
+<td>Added work around for Ubuntu Xenial calling php7_m</td>
+</tr>
+<tr>
 <td>nxos_feature</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4465">ansible-modules-core/issues/4465</a></td>
 <td>Exception using nxos_feature</td>
@@ -14799,16 +14814,6 @@
 <td>os_server_actions</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4376">ansible-modules-core/pull/4376</a></td>
 <td>Add rebuild to os_server_actions</td>
-</tr>
-<tr>
-<td>playbook</td>
-<td><a href="https://github.com/ansible/ansible/issues/18111">ansible/issues/18111</a></td>
-<td>The value of 'serial' in playbook cannot be set ba</td>
-</tr>
-<tr>
-<td>playbook</td>
-<td><a href="https://github.com/ansible/ansible/pull/12451">ansible/pull/12451</a></td>
-<td>added --pass-limit-to-inventory as discussed in ht</td>
 </tr>
 <tr>
 <td>ec2_facts</td>
@@ -15039,6 +15044,16 @@
 <td>uncompress</td>
 <td><a href="https://github.com/ansible/ansible/pull/13352">ansible/pull/13352</a></td>
 <td>add plugin for uncompress module</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/issues/18110">ansible/issues/18110</a></td>
+<td>Async error with check_mode</td>
+</tr>
+<tr>
+<td>async</td>
+<td><a href="https://github.com/ansible/ansible/pull/18117">ansible/pull/18117</a></td>
+<td>Check mode async</td>
 </tr>
 <tr>
 <td>ufw</td>
@@ -15996,11 +16011,6 @@
 <td>Don't blow up on directory access denied when look</td>
 </tr>
 <tr>
-<td>apache2_module</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4745">ansible-modules-core/pull/4745</a></td>
-<td>Added work around for Ubuntu Xenial calling php7_m</td>
-</tr>
-<tr>
 <td>xattr</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2754">ansible-modules-core/issues/2754</a></td>
 <td>main() run without __name__ check in many modules</td>
@@ -16129,6 +16139,11 @@
 <td>apache2_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1712">ansible-modules-extras/pull/1712</a></td>
 <td>Add new apache2 configuration module</td>
+</tr>
+<tr>
+<td>playbook</td>
+<td><a href="https://github.com/ansible/ansible/pull/12451">ansible/pull/12451</a></td>
+<td>added --pass-limit-to-inventory as discussed in ht</td>
 </tr>
 <tr>
 <td>vscale_scalets</td>
@@ -16959,11 +16974,6 @@
 <td>azure_rm_common</td>
 <td><a href="https://github.com/ansible/ansible/issues/17925">ansible/issues/17925</a></td>
 <td>Allow endpoint override in azure_rm module utils</td>
-</tr>
-<tr>
-<td>async</td>
-<td><a href="https://github.com/ansible/ansible/issues/18110">ansible/issues/18110</a></td>
-<td>Async error with check_mode</td>
 </tr>
 <tr>
 <td>assemble</td>
