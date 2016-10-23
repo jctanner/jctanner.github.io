@@ -32,6 +32,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/1727";"Linode action fail: The requested class does not exist";
 "https://github.com/ansible/ansible-modules-core/issues/1766";"Docker module gives error KeyError: Memory when using  remote API v1.19";
 "https://github.com/ansible/ansible-modules-core/issues/1776";"script module no longer works on Windows";
+"https://github.com/ansible/ansible-modules-core/issues/1788";"ini_file fails --check when file doesnt exist";
 "https://github.com/ansible/ansible-modules-core/issues/1792";"ansible-playbook fails with: DEFAULT_DOCKER_API_VERSION not defined";
 "https://github.com/ansible/ansible-modules-core/issues/1812";"Docker module `mem_limit has been moved to host_config in API version 1.19`";
 "https://github.com/ansible/ansible-modules-core/issues/1824";"bug module apt_repository broken for debian";
@@ -211,6 +212,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-core/issues/808";"NameError: global name tenancy is not defined";
 "https://github.com/ansible/ansible-modules-core/issues/813";"ec2_vol: Detaching using instance: None is not working.";
 "https://github.com/ansible/ansible-modules-core/issues/817";"EC2 host launch fails";
+"https://github.com/ansible/ansible-modules-core/issues/868";"AttributeError: NoneType object has no attribute describe_alarms when creating new ec2_metric_alarm";
 "https://github.com/ansible/ansible-modules-core/issues/898";"win_feature breaking with windows 2008 r2";
 "https://github.com/ansible/ansible-modules-core/issues/944";"Script module failing to execute powershell scripts due to the addition of extra backslash in file-path";
 "https://github.com/ansible/ansible-modules-core/issues/946";"docker module cant autodetect use_tls=no from envrionment variables";
@@ -376,13 +378,16 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/issues/2893";"Cannot run os_server_group";
 "https://github.com/ansible/ansible-modules-extras/issues/2900";"vmware_guest.py - Multiple datacenters folders not implemented";
 "https://github.com/ansible/ansible-modules-extras/issues/2908";"zypper_repository: ImportError: No module named xml.dom.minidom";
+"https://github.com/ansible/ansible-modules-extras/issues/2927";"ARM deployment succeeds, Ansible Throws msrestazure.azure_exceptions.CloudError";
 "https://github.com/ansible/ansible-modules-extras/issues/2935";"Composer module do not work in console";
 "https://github.com/ansible/ansible-modules-extras/issues/2957";"Mail module body parameter should accept lists";
 "https://github.com/ansible/ansible-modules-extras/issues/3021";"ec2_asg_facts fails with exception";
 "https://github.com/ansible/ansible-modules-extras/issues/3041";"Timezone fails on CentOS 6";
 "https://github.com/ansible/ansible-modules-extras/issues/3057";"asa_template: matched error in response: configure terminal";
 "https://github.com/ansible/ansible-modules-extras/issues/311";"Ansible script module does not work on windows guest (linux controller)";
+"https://github.com/ansible/ansible-modules-extras/issues/3140";"lvg fails if pvs option omitted when state=absent";
 "https://github.com/ansible/ansible-modules-extras/issues/3142";"Zypper modules fails when running with --diff";
+"https://github.com/ansible/ansible-modules-extras/issues/3231";"cant create new EFS share";
 "https://github.com/ansible/ansible-modules-extras/issues/325";"lxc_container module needs to ensure multiple = signs are not split multiple times.";
 "https://github.com/ansible/ansible-modules-extras/issues/335";"Freshly installed bower raises json error";
 "https://github.com/ansible/ansible-modules-extras/issues/360";"known_hosts module should create missing .ssh dir";
@@ -428,6 +433,7 @@ github_url;title
 "https://github.com/ansible/ansible-modules-extras/pull/2517";"Added fallback for parse_error(string) on elasticsearch_plugin module.";
 "https://github.com/ansible/ansible-modules-extras/pull/2801";"Campfire module fails if the notify option is not set";
 "https://github.com/ansible/ansible-modules-extras/pull/2809";"Set explicit type for vmware maintenancemode timeout";
+"https://github.com/ansible/ansible-modules-extras/pull/2950";"fix rg issue with _nic_to_public_ips_instance()";
 "https://github.com/ansible/ansible-modules-extras/pull/2962";"Improve mongodb_user error message";
 "https://github.com/ansible/ansible-modules-extras/pull/3143";"zypper.py: Check if result isnt None and then run the for loop";
 "https://github.com/ansible/ansible-modules-extras/pull/367";"Import boto.ec2 in sns to allow boto profiles to be used";
@@ -1550,6 +1556,7 @@ github_url;title
 "https://github.com/ansible/ansible/pull/15977";"Adds a general purpose Exception class for F5 modules";
 "https://github.com/ansible/ansible/pull/16018";"Fix missing ignore_certs";
 "https://github.com/ansible/ansible/pull/16170";"Fix linux ip stdout parsing.";
+"https://github.com/ansible/ansible/pull/16251";"Fix improper handling of machine_type in  ovirt inventory";
 "https://github.com/ansible/ansible/pull/16264";"fix error message using fail_json";
 "https://github.com/ansible/ansible/pull/16270";"Fix string coercion problem in error handling code                   ";
 "https://github.com/ansible/ansible/pull/16308";"Check that required arguments src and dest are present.";
