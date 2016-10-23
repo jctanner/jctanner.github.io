@@ -3732,6 +3732,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18154">ansible/issues/18154</a></td>
+<td>inventory/playbook group_vars/<group> has high pre</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -4244,11 +4249,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/18016">ansible/pull/18016</a></td>
 <td>Minor cleanup/speedup to hacking/env-setup</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/18017">ansible/pull/18017</a></td>
-<td>Remove callback.CallbackBase._copy_result_exclude</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -6912,11 +6912,6 @@
 </tr>
 <tr>
 <td>ec2_asg</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2362">ansible-modules-core/issues/2362</a></td>
-<td>ec2_asg module unable to find subnet id</td>
-</tr>
-<tr>
-<td>ec2_asg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2469">ansible-modules-core/issues/2469</a></td>
 <td>ec2_asg hits rate limit for DescribeAutoScalingGro</td>
 </tr>
@@ -9356,81 +9351,6 @@
 <td>Verify AWS key/secret has sufficient permission to</td>
 </tr>
 <tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
-<td>digital ocean block storage support</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
-<td>Deprecate digital_ocean module</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2364">ansible-modules-core/pull/2364</a></td>
-<td>Add IPv6 option for new DigitalOcean droplets</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
-<td>Fix of adding existing ssh key on DigitalOcean</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
-<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5278">ansible-modules-core/pull/5278</a></td>
-<td>Adding do_module and additional rework for #4219</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
-<td>add droplet name support for --host in digital_oce</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
-<td>Error messages from a CLI should be sent to stderr</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
-<td>take into account cache file existence in DO inven</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
-<td>use _meta; make cache in more expected way</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
-<td>Correcting new bugs introduced. Added tags as grou</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/17776">ansible/pull/17776</a></td>
-<td>DigitalOcean inventory: typo, do_tags, do_volume_i</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/17784">ansible/pull/17784</a></td>
-<td>inventory/digital_ocean.py: add tag grouping</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/17888">ansible/pull/17888</a></td>
-<td>Create groups from tags</td>
-</tr>
-<tr>
-<td>digital_ocean</td>
-<td><a href="https://github.com/ansible/ansible/pull/18146">ansible/pull/18146</a></td>
-<td>contrib/inventory/digital_ocean: Correctly read us</td>
-</tr>
-<tr>
 <td>basic</td>
 <td><a href="https://github.com/ansible/ansible/pull/10668">ansible/pull/10668</a></td>
 <td>Add create_lock_file to basic utilities</td>
@@ -9649,6 +9569,76 @@
 <td>gce</td>
 <td><a href="https://github.com/ansible/ansible/pull/18097">ansible/pull/18097</a></td>
 <td>[GCE] updates to gce integration test</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4200">ansible-modules-core/issues/4200</a></td>
+<td>digital ocean block storage support</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4219">ansible-modules-core/issues/4219</a></td>
+<td>Deprecate digital_ocean module</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2364">ansible-modules-core/pull/2364</a></td>
+<td>Add IPv6 option for new DigitalOcean droplets</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2716">ansible-modules-core/pull/2716</a></td>
+<td>Fix of adding existing ssh key on DigitalOcean</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3596">ansible-modules-core/pull/3596</a></td>
+<td>Fixed #581 again. Update dopy dependency up to 0.3</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5278">ansible-modules-core/pull/5278</a></td>
+<td>Adding do_module and additional rework for #4219</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10246">ansible/pull/10246</a></td>
+<td>add droplet name support for --host in digital_oce</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/10776">ansible/pull/10776</a></td>
+<td>Error messages from a CLI should be sent to stderr</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/12662">ansible/pull/12662</a></td>
+<td>take into account cache file existence in DO inven</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/15462">ansible/pull/15462</a></td>
+<td>use _meta; make cache in more expected way</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/16028">ansible/pull/16028</a></td>
+<td>Correcting new bugs introduced. Added tags as grou</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17776">ansible/pull/17776</a></td>
+<td>DigitalOcean inventory: typo, do_tags, do_volume_i</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17784">ansible/pull/17784</a></td>
+<td>inventory/digital_ocean.py: add tag grouping</td>
+</tr>
+<tr>
+<td>digital_ocean</td>
+<td><a href="https://github.com/ansible/ansible/pull/17888">ansible/pull/17888</a></td>
+<td>Create groups from tags</td>
 </tr>
 <tr>
 <td>core</td>
@@ -12821,31 +12811,6 @@
 <td>"| int " pipe does not work as described</td>
 </tr>
 <tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1083">ansible-modules-extras/issues/1083</a></td>
-<td>module cannot remove certain limits pam_limits.py</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2264">ansible-modules-extras/issues/2264</a></td>
-<td>pam_limits comment problem</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2318">ansible-modules-extras/pull/2318</a></td>
-<td>pam_limits: tab before comment and more meaningful</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2771">ansible-modules-extras/pull/2771</a></td>
-<td>Really fix python 2.4 compatibility in `pam_limits</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3266">ansible-modules-extras/pull/3266</a></td>
-<td>system/pam_limits.py module:</td>
-</tr>
-<tr>
 <td>ec2_eni</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2956">ansible-modules-extras/issues/2956</a></td>
 <td>ec2_eni unable to create new ENIs with secondary p</td>
@@ -13564,6 +13529,26 @@
 <td>module_utils</td>
 <td><a href="https://github.com/ansible/ansible/pull/17090">ansible/pull/17090</a></td>
 <td>implement module params deprecation warnings</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1083">ansible-modules-extras/issues/1083</a></td>
+<td>module cannot remove certain limits pam_limits.py</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2264">ansible-modules-extras/issues/2264</a></td>
+<td>pam_limits comment problem</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2318">ansible-modules-extras/pull/2318</a></td>
+<td>pam_limits: tab before comment and more meaningful</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3266">ansible-modules-extras/pull/3266</a></td>
+<td>system/pam_limits.py module:</td>
 </tr>
 <tr>
 <td>netscaler</td>
@@ -15436,9 +15421,9 @@
 <td>Gsettings module</td>
 </tr>
 <tr>
-<td>with_fileglob</td>
-<td><a href="https://github.com/ansible/ansible/issues/17136">ansible/issues/17136</a></td>
-<td>with_fileglob does not handle a `*` to match a dir</td>
+<td>gitlab_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3269">ansible-modules-extras/pull/3269</a></td>
+<td>Used an other python-module for gitlab_user and ad</td>
 </tr>
 <tr>
 <td>upcloud</td>
@@ -17081,6 +17066,11 @@
 <td>Added module for git-flow, V.1.0</td>
 </tr>
 <tr>
+<td>gitlab_hook</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3268">ansible-modules-extras/pull/3268</a></td>
+<td>Added module gitlab_hook</td>
+</tr>
+<tr>
 <td>fastly_service</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1760">ansible-modules-extras/pull/1760</a></td>
 <td>Adding a module for managing Fastly CDN services</td>
@@ -17184,6 +17174,11 @@
 <td>ovirt_nics_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3205">ansible-modules-extras/pull/3205</a></td>
 <td>Add oVirt ovirt_nics and ovirt_nics_facts modules</td>
+</tr>
+<tr>
+<td>with_fileglob</td>
+<td><a href="https://github.com/ansible/ansible/issues/17136">ansible/issues/17136</a></td>
+<td>with_fileglob does not handle a `*` to match a dir</td>
 </tr>
 <tr>
 <td>azure_rm_storageaccount</td>
