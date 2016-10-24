@@ -6307,6 +6307,11 @@
 </tr>
 <tr>
 <td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5360">ansible-modules-core/pull/5360</a></td>
+<td>Make service work when the service is not present </td>
+</tr>
+<tr>
+<td>service</td>
 <td><a href="https://github.com/ansible/ansible/issues/10499">ansible/issues/10499</a></td>
 <td>su password prompt should be configurable in ansib</td>
 </tr>
@@ -9501,6 +9506,76 @@
 <td>Rescue block does not execute when a run_once comm</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
+<td>Verify that cron_file argument is valid.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
+<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5232">ansible-modules-core/issues/5232</a></td>
+<td>Cron "user" parameter not working</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - discourage line breaks in job param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5361">ansible-modules-core/pull/5361</a></td>
+<td>Fixes #4795 - Validate filename portion of `cron_f</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
+<td>[Cron module] validate cron_file parameter</td>
+</tr>
+<tr>
 <td>gce</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
 <td>gce module should support creating instances with </td>
@@ -9779,71 +9854,6 @@
 <td>get_url</td>
 <td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
 <td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
-<td>Verify that cron_file argument is valid.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
-<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5232">ansible-modules-core/issues/5232</a></td>
-<td>Cron "user" parameter not working</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - disallow line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
-<td>add correct SELinux file context for crontabs (#45</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
-<td>[Cron module] validate cron_file parameter</td>
 </tr>
 <tr>
 <td>new</td>
@@ -13411,6 +13421,26 @@
 <td>win_iis_webbinding fails to assign specified certi</td>
 </tr>
 <tr>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3128">ansible-modules-extras/issues/3128</a></td>
+<td>virtual server rule ... already exists in partitio</td>
+</tr>
+<tr>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3129">ansible-modules-extras/pull/3129</a></td>
+<td>Functionality to have default persistence profile </td>
+</tr>
+<tr>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3158">ansible-modules-extras/pull/3158</a></td>
+<td>Adds support for setting an F5 virtual server's "s</td>
+</tr>
+<tr>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3273">ansible-modules-extras/pull/3273</a></td>
+<td>Adds route advertisement state to the bigip_virtua</td>
+</tr>
+<tr>
 <td>ios_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
 <td>ios_template module doesnt render {% for %} correc</td>
@@ -14029,21 +14059,6 @@
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4293">ansible-modules-core/pull/4293</a></td>
 <td>[rhn_channel] Add support for setting base channel</td>
-</tr>
-<tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3128">ansible-modules-extras/issues/3128</a></td>
-<td>virtual server rule ... already exists in partitio</td>
-</tr>
-<tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3129">ansible-modules-extras/pull/3129</a></td>
-<td>Functionality to have default persistence profile </td>
-</tr>
-<tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3158">ansible-modules-extras/pull/3158</a></td>
-<td>Adds support for setting an F5 virtual server's "s</td>
 </tr>
 <tr>
 <td>puppet</td>
@@ -14814,6 +14829,16 @@
 <td>ec2_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4826">ansible-modules-core/pull/4826</a></td>
 <td>Add support for AWS China region (cn-north-1)</td>
+</tr>
+<tr>
+<td>bigip_selfip</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3000">ansible-modules-extras/issues/3000</a></td>
+<td>bigip_selfip fails when using traffic_group parame</td>
+</tr>
+<tr>
+<td>bigip_selfip</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3272">ansible-modules-extras/pull/3272</a></td>
+<td>Adds route_domain parameter to the selfip module.</td>
 </tr>
 <tr>
 <td>patch</td>
@@ -15936,6 +15961,11 @@
 <td>Pear module not verbose enough while failing</td>
 </tr>
 <tr>
+<td>bigip_sys_global</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3271">ansible-modules-extras/pull/3271</a></td>
+<td>Adds bigip_sys_global module</td>
+</tr>
+<tr>
 <td>eos_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4794">ansible-modules-core/pull/4794</a></td>
 <td>Return type 'string', not 'str'</td>
@@ -16149,11 +16179,6 @@
 <td>hiera</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1807">ansible-modules-extras/pull/1807</a></td>
 <td>Hiera new module added, to parse and use hiera var</td>
-</tr>
-<tr>
-<td>bigip_selfip</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3000">ansible-modules-extras/issues/3000</a></td>
-<td>bigip_selfip fails when using traffic_group parame</td>
 </tr>
 <tr>
 <td>profitbricks</td>
