@@ -3737,6 +3737,11 @@
 </tr>
 <tr>
 <td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18177">ansible/issues/18177</a></td>
+<td>Parallelize running sub-playbooks within a main pl</td>
+</tr>
+<tr>
+<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/4816">ansible/issues/4816</a></td>
 <td>Raise a warning when a reserved variable is set</td>
 </tr>
@@ -6112,11 +6117,6 @@
 </tr>
 <tr>
 <td>setup</td>
-<td><a href="https://github.com/ansible/ansible/issues/18151">ansible/issues/18151</a></td>
-<td>Memory facts are floats on python 3</td>
-</tr>
-<tr>
-<td>setup</td>
 <td><a href="https://github.com/ansible/ansible/issues/8460">ansible/issues/8460</a></td>
 <td>Outputs from multiple threads are interleaved</td>
 </tr>
@@ -6357,11 +6357,6 @@
 </tr>
 <tr>
 <td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1124">ansible-modules-core/issues/1124</a></td>
-<td>copy module should preserve mode of src file when </td>
-</tr>
-<tr>
-<td>copy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1401">ansible-modules-core/issues/1401</a></td>
 <td>Bug Report: Output of copy modified</td>
 </tr>
@@ -6544,11 +6539,6 @@
 <td>copy</td>
 <td><a href="https://github.com/ansible/ansible/pull/14687">ansible/pull/14687</a></td>
 <td>allow copy action to preserve file mode</td>
-</tr>
-<tr>
-<td>copy</td>
-<td><a href="https://github.com/ansible/ansible/pull/17780">ansible/pull/17780</a></td>
-<td>copy: Use the local file's mode for the argument i</td>
 </tr>
 <tr>
 <td>s3</td>
@@ -9881,71 +9871,6 @@
 <td>Added check for NoneType RepoTags</td>
 </tr>
 <tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4931">ansible-modules-core/issues/4931</a></td>
-<td>get_url not working with FTP</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5141">ansible-modules-core/issues/5141</a></td>
-<td>get_url does not change mode when checksum matches</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10865">ansible/issues/10865</a></td>
-<td>Wrong parsing of proxy response lead to SSL handsh</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
-</tr>
-<tr>
 <td>cron</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
 <td>cron duplicates cron jobs if '#Ansible: ' comment </td>
@@ -10304,6 +10229,66 @@
 <td>hostname</td>
 <td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
 <td>Support for variables in inventory hostname</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4931">ansible-modules-core/issues/4931</a></td>
+<td>get_url not working with FTP</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5141">ansible-modules-core/issues/5141</a></td>
+<td>get_url does not change mode when checksum matches</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
 </tr>
 <tr>
 <td>ecs_taskdefinition</td>
@@ -10806,51 +10791,6 @@
 <td>Adding Linode common functions to module_utils</td>
 </tr>
 <tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1004">ansible-modules-extras/issues/1004</a></td>
-<td>Proxmox Ansible contrib module handles KVM?</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1542">ansible-modules-extras/issues/1542</a></td>
-<td>proxmox error: authorization on proxmox cluster fa</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1789">ansible-modules-extras/issues/1789</a></td>
-<td>Proxmox : netif and ip_address incompatible with p</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1790">ansible-modules-extras/issues/1790</a></td>
-<td>Proxmox : Impossible to have template not stored i</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2897">ansible-modules-extras/issues/2897</a></td>
-<td>Add public key support to proxmox module</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2859">ansible-modules-extras/pull/2859</a></td>
-<td>support proxmox resource pool</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3087">ansible-modules-extras/pull/3087</a></td>
-<td>proxmox: support ssh-public-keys</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/15888">ansible/pull/15888</a></td>
-<td>[inventory] Permit to query a proxmox server with </td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/17247">ansible/pull/17247</a></td>
-<td>Permit to query a proxmox with invalid certificate</td>
-</tr>
-<tr>
 <td>include_vars</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5204">ansible-modules-core/issues/5204</a></td>
 <td>include_vars - Unexpected failure during module ex</td>
@@ -10984,51 +10924,6 @@
 <td>wait_for</td>
 <td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
 <td>with lsb_release installed and /bin/lsb_release bi</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1717">ansible-modules-extras/issues/1717</a></td>
-<td>maven_artifact cannot download sbt published artif</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
-<td>maven_artifact does not use classifier when constr</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
-<td>maven_artifact should support version=release.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
-<td>maven_artifact can't get artifact from local repo.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2526">ansible-modules-extras/pull/2526</a></td>
-<td>maven_artifact: Allow to specify a custom timeout</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
-<td>Add ability to specify release version for maven a</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
-<td>Refactor maven plugin.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
-<td>Fixes #2139 issue</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3085">ansible-modules-extras/pull/3085</a></td>
-<td>Fixes #1717 maven_artifact cannot download SBT pub</td>
 </tr>
 <tr>
 <td>subversion</td>
@@ -11256,51 +11151,6 @@
 <td>Add thin pool / volume managment to lvol (follow u</td>
 </tr>
 <tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
-<td>Set notes and resource_pool on vmware_guest</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
-<td>vmware_guest.py implement cluster support</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
-<td>vmware_guest.py implement datastore cluster suppor</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
-<td>vmware_guest.py  OS customization</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2915">ansible-modules-extras/issues/2915</a></td>
-<td>vmware_guest.py implement reconfigure options</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2928">ansible-modules-extras/issues/2928</a></td>
-<td>vmware_guest does not create multiple disks on clo</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3237">ansible-modules-extras/issues/3237</a></td>
-<td>Cant delete a VM with vmware_guest module</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3238">ansible-modules-extras/issues/3238</a></td>
-<td>vmware_guest module documentation is broken</td>
-</tr>
-<tr>
-<td>vmware_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3243">ansible-modules-extras/pull/3243</a></td>
-<td>Implement a workaround for broken FindByInventoryP</td>
-</tr>
-<tr>
 <td>consul_kv</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/3133">ansible-modules-extras/issues/3133</a></td>
 <td>consul_kv: support KV transactions</td>
@@ -11421,6 +11271,46 @@
 <td>Configurable fact path</td>
 </tr>
 <tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1004">ansible-modules-extras/issues/1004</a></td>
+<td>Proxmox Ansible contrib module handles KVM?</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1542">ansible-modules-extras/issues/1542</a></td>
+<td>proxmox error: authorization on proxmox cluster fa</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1789">ansible-modules-extras/issues/1789</a></td>
+<td>Proxmox : netif and ip_address incompatible with p</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1790">ansible-modules-extras/issues/1790</a></td>
+<td>Proxmox : Impossible to have template not stored i</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2897">ansible-modules-extras/issues/2897</a></td>
+<td>Add public key support to proxmox module</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3087">ansible-modules-extras/pull/3087</a></td>
+<td>proxmox: support ssh-public-keys</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/15888">ansible/pull/15888</a></td>
+<td>[inventory] Permit to query a proxmox server with </td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/17247">ansible/pull/17247</a></td>
+<td>Permit to query a proxmox with invalid certificate</td>
+</tr>
+<tr>
 <td>s3_bucket</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
 <td>Add cors support to s3_bucket module</td>
@@ -11532,13 +11422,13 @@
 </tr>
 <tr>
 <td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/18083">ansible/pull/18083</a></td>
-<td>Fix #10865 - SSL Error "unknown protocol" on https</td>
+<td><a href="https://github.com/ansible/ansible/pull/18141">ansible/pull/18141</a></td>
+<td>[WIP] Urls client cert auth</td>
 </tr>
 <tr>
 <td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/18141">ansible/pull/18141</a></td>
-<td>[WIP] Urls client cert auth</td>
+<td><a href="https://github.com/ansible/ansible/pull/18175">ansible/pull/18175</a></td>
+<td>A few fixes for python3</td>
 </tr>
 <tr>
 <td>mysql_db</td>
@@ -11579,6 +11469,46 @@
 <td>mysql_db</td>
 <td><a href="https://github.com/ansible/ansible/issues/10093">ansible/issues/10093</a></td>
 <td>mysql_db does not change character set without man</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1717">ansible-modules-extras/issues/1717</a></td>
+<td>maven_artifact cannot download sbt published artif</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
+<td>maven_artifact does not use classifier when constr</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
+<td>maven_artifact should support version=release.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
+<td>maven_artifact can't get artifact from local repo.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
+<td>Add ability to specify release version for maven a</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
+<td>Refactor maven plugin.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
+<td>Fixes #2139 issue</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3085">ansible-modules-extras/pull/3085</a></td>
+<td>Fixes #1717 maven_artifact cannot download SBT pub</td>
 </tr>
 <tr>
 <td>route53</td>
@@ -11939,6 +11869,41 @@
 <td>os_router</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4268">ansible-modules-core/pull/4268</a></td>
 <td>Added function to disregard HA router ports Fixes </td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2796">ansible-modules-extras/issues/2796</a></td>
+<td>Set notes and resource_pool on vmware_guest</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2912">ansible-modules-extras/issues/2912</a></td>
+<td>vmware_guest.py implement cluster support</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2913">ansible-modules-extras/issues/2913</a></td>
+<td>vmware_guest.py implement datastore cluster suppor</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2914">ansible-modules-extras/issues/2914</a></td>
+<td>vmware_guest.py  OS customization</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2915">ansible-modules-extras/issues/2915</a></td>
+<td>vmware_guest.py implement reconfigure options</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2928">ansible-modules-extras/issues/2928</a></td>
+<td>vmware_guest does not create multiple disks on clo</td>
+</tr>
+<tr>
+<td>vmware_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3238">ansible-modules-extras/issues/3238</a></td>
+<td>vmware_guest module documentation is broken</td>
 </tr>
 <tr>
 <td>vca_vapp</td>
@@ -12376,36 +12341,6 @@
 <td>Adding ip address to ansible-playbook RECAP</td>
 </tr>
 <tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
-<td>Unsupported parameter for module</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1926">ansible-modules-extras/issues/1926</a></td>
-<td>Marker in blockinfile is a line prefix, not a whol</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2616">ansible-modules-extras/issues/2616</a></td>
-<td>blockinfile delete last line in file if marker is </td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2687">ansible-modules-extras/issues/2687</a></td>
-<td>blockinfile creates a file without ending newline</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3052">ansible-modules-extras/issues/3052</a></td>
-<td>Blockinfile overwrites symlink with file if change</td>
-</tr>
-<tr>
-<td>blockinfile</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3279">ansible-modules-extras/pull/3279</a></td>
-<td>Make blockinfile work with python3</td>
-</tr>
-<tr>
 <td>galaxy</td>
 <td><a href="https://github.com/ansible/ansible/pull/16283">ansible/pull/16283</a></td>
 <td>[WIP] use classmethod constructors for GalaxyRole</td>
@@ -12821,6 +12756,31 @@
 <td>Module ec2_eni bug: Line 453: get_ec2_security_gro</td>
 </tr>
 <tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
+<td>Unsupported parameter for module</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1926">ansible-modules-extras/issues/1926</a></td>
+<td>Marker in blockinfile is a line prefix, not a whol</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2616">ansible-modules-extras/issues/2616</a></td>
+<td>blockinfile delete last line in file if marker is </td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2687">ansible-modules-extras/issues/2687</a></td>
+<td>blockinfile creates a file without ending newline</td>
+</tr>
+<tr>
+<td>blockinfile</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3052">ansible-modules-extras/issues/3052</a></td>
+<td>Blockinfile overwrites symlink with file if change</td>
+</tr>
+<tr>
 <td>win_iis_webapppool</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2072">ansible-modules-extras/issues/2072</a></td>
 <td>win_iis_webapppool failing with 'Specified cast is</td>
@@ -12844,31 +12804,6 @@
 <td>win_iis_webapppool</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3257">ansible-modules-extras/pull/3257</a></td>
 <td>Fix win_iis_webapppool and documentation</td>
-</tr>
-<tr>
-<td>consul_io</td>
-<td><a href="https://github.com/ansible/ansible/pull/10398">ansible/pull/10398</a></td>
-<td>Changes to unittests that verify units for interva</td>
-</tr>
-<tr>
-<td>consul_io</td>
-<td><a href="https://github.com/ansible/ansible/pull/13281">ansible/pull/13281</a></td>
-<td>Refactored Consul inventory script</td>
-</tr>
-<tr>
-<td>consul_io</td>
-<td><a href="https://github.com/ansible/ansible/pull/14109">ansible/pull/14109</a></td>
-<td>Checking node health on Consul, besides service he</td>
-</tr>
-<tr>
-<td>consul_io</td>
-<td><a href="https://github.com/ansible/ansible/pull/14640">ansible/pull/14640</a></td>
-<td>Update consul_io.py to support HTTPS endpoints</td>
-</tr>
-<tr>
-<td>consul_io</td>
-<td><a href="https://github.com/ansible/ansible/pull/17924">ansible/pull/17924</a></td>
-<td>Add SSL support to Consul inventory script</td>
 </tr>
 <tr>
 <td>azure_rm_virtualmachine</td>
@@ -13589,6 +13524,26 @@
 <td>pagerduty</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3096">ansible-modules-extras/pull/3096</a></td>
 <td>Adding missing required field in doc example</td>
+</tr>
+<tr>
+<td>consul_io</td>
+<td><a href="https://github.com/ansible/ansible/pull/10398">ansible/pull/10398</a></td>
+<td>Changes to unittests that verify units for interva</td>
+</tr>
+<tr>
+<td>consul_io</td>
+<td><a href="https://github.com/ansible/ansible/pull/13281">ansible/pull/13281</a></td>
+<td>Refactored Consul inventory script</td>
+</tr>
+<tr>
+<td>consul_io</td>
+<td><a href="https://github.com/ansible/ansible/pull/14109">ansible/pull/14109</a></td>
+<td>Checking node health on Consul, besides service he</td>
+</tr>
+<tr>
+<td>consul_io</td>
+<td><a href="https://github.com/ansible/ansible/pull/14640">ansible/pull/14640</a></td>
+<td>Update consul_io.py to support HTTPS endpoints</td>
 </tr>
 <tr>
 <td>ios_command</td>
@@ -14466,16 +14421,6 @@
 <td>Add version parameter to package modules</td>
 </tr>
 <tr>
-<td>lxd_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2750">ansible-modules-extras/issues/2750</a></td>
-<td>lxd_container module fails if certificate already </td>
-</tr>
-<tr>
-<td>lxd_container</td>
-<td><a href="https://github.com/ansible/ansible/pull/18115">ansible/pull/18115</a></td>
-<td>Resubmitting Approved Pull Request #17571</td>
-</tr>
-<tr>
 <td>gitlab_project</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2159">ansible-modules-extras/issues/2159</a></td>
 <td>Gitlab python binding</td>
@@ -14504,16 +14449,6 @@
 <td>callback</td>
 <td><a href="https://github.com/ansible/ansible/pull/18007">ansible/pull/18007</a></td>
 <td>new callback plugin wildcard methods and '_callbac</td>
-</tr>
-<tr>
-<td>cloudflare_dns</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2617">ansible-modules-extras/issues/2617</a></td>
-<td>Add proxied support to CloudFlare</td>
-</tr>
-<tr>
-<td>cloudflare_dns</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2961">ansible-modules-extras/pull/2961</a></td>
-<td>Added proxied option to cloudflare_dns</td>
 </tr>
 <tr>
 <td>vars</td>
@@ -15086,16 +15021,6 @@
 <td>Add tests for the ipaddr filter</td>
 </tr>
 <tr>
-<td>openvswitch_bridge</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2711">ansible-modules-extras/pull/2711</a></td>
-<td>Added set value to openvswitch_bridge</td>
-</tr>
-<tr>
-<td>openvswitch_bridge</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3054">ansible-modules-extras/pull/3054</a></td>
-<td>openvswitch_bridge: add fake bridge support</td>
-</tr>
-<tr>
 <td>pear</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1418">ansible-modules-extras/issues/1418</a></td>
 <td>Pear module hangs for module installs expecting an</td>
@@ -15236,9 +15161,9 @@
 <td>Add oVirt ovirt_storage_domains and ovirt_storage_</td>
 </tr>
 <tr>
-<td>first_found</td>
-<td><a href="https://github.com/ansible/ansible/pull/15543">ansible/pull/15543</a></td>
-<td>Fix #14454 with_first_found fails with ansible 2</td>
+<td>winrm</td>
+<td><a href="https://github.com/ansible/ansible/pull/18174">ansible/pull/18174</a></td>
+<td>Update winrm to allow fetch_file to work on files </td>
 </tr>
 <tr>
 <td>adhoc</td>
@@ -15431,9 +15356,9 @@
 <td>[Enhancement] Add a "provider" parameter to snmp_f</td>
 </tr>
 <tr>
-<td>chefserver</td>
-<td><a href="https://github.com/ansible/ansible/pull/9709">ansible/pull/9709</a></td>
-<td>Add  dynamic Ansible inventory, based on informati</td>
+<td>first_found</td>
+<td><a href="https://github.com/ansible/ansible/pull/15543">ansible/pull/15543</a></td>
+<td>Fix #14454 with_first_found fails with ansible 2</td>
 </tr>
 <tr>
 <td>ec2_vpc_nat_gateway_facts</td>
@@ -15579,6 +15504,11 @@
 <td>ecs_taskdefinition_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1036">ansible-modules-extras/pull/1036</a></td>
 <td>Ecs taskdefinition module</td>
+</tr>
+<tr>
+<td>cloudflare_dns</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2617">ansible-modules-extras/issues/2617</a></td>
+<td>Add proxied support to CloudFlare</td>
 </tr>
 <tr>
 <td>gathering_facts</td>
@@ -15959,6 +15889,11 @@
 <td>grub2_hash</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1949">ansible-modules-extras/pull/1949</a></td>
 <td>grub2_hash new module</td>
+</tr>
+<tr>
+<td>chefserver</td>
+<td><a href="https://github.com/ansible/ansible/pull/9709">ansible/pull/9709</a></td>
+<td>Add  dynamic Ansible inventory, based on informati</td>
 </tr>
 <tr>
 <td>gke</td>
@@ -16394,11 +16329,6 @@
 <td>win_regmerge</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2332">ansible-modules-extras/issues/2332</a></td>
 <td>win_regmerge is not idempotent, and does not suppo</td>
-</tr>
-<tr>
-<td>mqtt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2700">ansible-modules-extras/pull/2700</a></td>
-<td>Add TLS encryption support to MQTT</td>
 </tr>
 <tr>
 <td>boundary_meter</td>
@@ -17194,6 +17124,11 @@
 <td>taggable</td>
 <td><a href="https://github.com/ansible/ansible/pull/16342">ansible/pull/16342</a></td>
 <td>Add special tag 'skip', feature request #11045</td>
+</tr>
+<tr>
+<td>openvswitch_bridge</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2711">ansible-modules-extras/pull/2711</a></td>
+<td>Added set value to openvswitch_bridge</td>
 </tr>
 <tr>
 <td>mongodb</td>
