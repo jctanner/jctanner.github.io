@@ -4346,11 +4346,6 @@
 <td>Testing Pull Requests, submodule testing addition </td>
 </tr>
 <tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/9938">ansible/pull/9938</a></td>
-<td>Improve docs in regards to custom module creation</td>
-</tr>
-<tr>
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1033">ansible-modules-core/issues/1033</a></td>
 <td>newest AWS/boto connection style cause AWS_PROFILE</td>
@@ -5004,6 +4999,11 @@
 <td>git</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5374">ansible-modules-core/pull/5374</a></td>
 <td>Git: report changed when needed in check mode</td>
+</tr>
+<tr>
+<td>git</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5383">ansible-modules-core/pull/5383</a></td>
+<td>Document git module return values</td>
 </tr>
 <tr>
 <td>git</td>
@@ -8611,6 +8611,101 @@
 <td>Make Ansible's IAM module properly delete roles</td>
 </tr>
 <tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
+<td>docker_container: support --tmpfs option</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
+<td>docker_container fails to restart containers</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
+<td>docker_container sends volume to docker API errone</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
+<td>Feature idea: docker_container support for --usern</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5158">ansible-modules-core/issues/5158</a></td>
+<td>Wrong requirements for docker_container module</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5171">ansible-modules-core/issues/5171</a></td>
+<td>docker_container module - "Error connecting contai</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5184">ansible-modules-core/issues/5184</a></td>
+<td>docker_container module doesnt accept value all fo</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5241">ansible-modules-core/issues/5241</a></td>
+<td>Cannot pass args to docker container</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5269">ansible-modules-core/issues/5269</a></td>
+<td>docker_container doesn't allow setting log_options</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5286">ansible-modules-core/issues/5286</a></td>
+<td>docker_container - missing cap_drop</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5335">ansible-modules-core/issues/5335</a></td>
+<td>docker_container reports "Error: docker-py version</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5337">ansible-modules-core/issues/5337</a></td>
+<td>docker_container does not allow to disable contain</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5371">ansible-modules-core/issues/5371</a></td>
+<td>docker_container networks not working as expected </td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
+<td>Adding support for published_ports: ALL, since tha</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
+<td>Fix unit parsing</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5264">ansible-modules-core/pull/5264</a></td>
+<td>Fix for issue #5158</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5341">ansible-modules-core/pull/5341</a></td>
+<td>Support option none in docker_container when setti</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5382">ansible-modules-core/pull/5382</a></td>
+<td>bugfix: allow docker containers with no ports</td>
+</tr>
+<tr>
+<td>docker_container</td>
+<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
+<td>documentation for docker_container: b, k, m, or g </td>
+</tr>
+<tr>
 <td>known_hosts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5316">ansible-modules-core/issues/5316</a></td>
 <td>paramiko known_hosts IOError when executed from To</td>
@@ -8789,96 +8884,6 @@
 <td>group</td>
 <td><a href="https://github.com/ansible/ansible/pull/17978">ansible/pull/17978</a></td>
 <td>Add support for group variables to handlers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4643">ansible-modules-core/issues/4643</a></td>
-<td>docker_container: support --tmpfs option</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4815">ansible-modules-core/issues/4815</a></td>
-<td>docker_container fails to restart containers</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4974">ansible-modules-core/issues/4974</a></td>
-<td>docker_container sends volume to docker API errone</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5054">ansible-modules-core/issues/5054</a></td>
-<td>Feature idea: docker_container support for --usern</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5158">ansible-modules-core/issues/5158</a></td>
-<td>Wrong requirements for docker_container module</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5171">ansible-modules-core/issues/5171</a></td>
-<td>docker_container module - "Error connecting contai</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5184">ansible-modules-core/issues/5184</a></td>
-<td>docker_container module doesnt accept value all fo</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5241">ansible-modules-core/issues/5241</a></td>
-<td>Cannot pass args to docker container</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5269">ansible-modules-core/issues/5269</a></td>
-<td>docker_container doesn't allow setting log_options</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5286">ansible-modules-core/issues/5286</a></td>
-<td>docker_container - missing cap_drop</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5335">ansible-modules-core/issues/5335</a></td>
-<td>docker_container reports "Error: docker-py version</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5337">ansible-modules-core/issues/5337</a></td>
-<td>docker_container does not allow to disable contain</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5371">ansible-modules-core/issues/5371</a></td>
-<td>docker_container networks not working as expected </td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4136">ansible-modules-core/pull/4136</a></td>
-<td>Adding support for published_ports: ALL, since tha</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4207">ansible-modules-core/pull/4207</a></td>
-<td>Fix unit parsing</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5264">ansible-modules-core/pull/5264</a></td>
-<td>Fix for issue #5158</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5341">ansible-modules-core/pull/5341</a></td>
-<td>Support option none in docker_container when setti</td>
-</tr>
-<tr>
-<td>docker_container</td>
-<td><a href="https://github.com/ansible/ansible/issues/16526">ansible/issues/16526</a></td>
-<td>documentation for docker_container: b, k, m, or g </td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -14176,6 +14181,21 @@
 <td>Restore "skipping: no hosts matched" message</td>
 </tr>
 <tr>
+<td>task_queue_manager</td>
+<td><a href="https://github.com/ansible/ansible/pull/15960">ansible/pull/15960</a></td>
+<td>get rid of temporary hack for v2_playbook_on_start</td>
+</tr>
+<tr>
+<td>task_queue_manager</td>
+<td><a href="https://github.com/ansible/ansible/pull/17987">ansible/pull/17987</a></td>
+<td>Change `v2_playbook_on_start` logic to positively </td>
+</tr>
+<tr>
+<td>task_queue_manager</td>
+<td><a href="https://github.com/ansible/ansible/pull/18194">ansible/pull/18194</a></td>
+<td>task_queue_manager: fix calc of forks when serial </td>
+</tr>
+<tr>
 <td>become</td>
 <td><a href="https://github.com/ansible/ansible/issues/17583">ansible/issues/17583</a></td>
 <td>Sudo on change</td>
@@ -14879,16 +14899,6 @@
 <td>task</td>
 <td><a href="https://github.com/ansible/ansible/pull/17696">ansible/pull/17696</a></td>
 <td>Set default value for Do-Until loop retries.</td>
-</tr>
-<tr>
-<td>task_queue_manager</td>
-<td><a href="https://github.com/ansible/ansible/pull/15960">ansible/pull/15960</a></td>
-<td>get rid of temporary hack for v2_playbook_on_start</td>
-</tr>
-<tr>
-<td>task_queue_manager</td>
-<td><a href="https://github.com/ansible/ansible/pull/17987">ansible/pull/17987</a></td>
-<td>Change `v2_playbook_on_start` logic to positively </td>
 </tr>
 <tr>
 <td>junos_config</td>
@@ -17179,6 +17189,11 @@
 <td>openssl_dh</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2501">ansible-modules-extras/pull/2501</a></td>
 <td>web_infrastructure: Add new module openssl_dh</td>
+</tr>
+<tr>
+<td>win_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5384">ansible-modules-core/pull/5384</a></td>
+<td>fix win_shell/win_command deadlock on large interl</td>
 </tr>
 <tr>
 <td>taggable</td>
