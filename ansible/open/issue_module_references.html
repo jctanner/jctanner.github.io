@@ -3792,23 +3792,28 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/18196">ansible/issues/18196</a></td>
-<td>Limited / Missing documentation for some Ansible j</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/18197">ansible/issues/18197</a></td>
 <td>ansible_distribution_major_version missing on Sola</td>
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/18200">ansible/issues/18200</a></td>
-<td>Make facts gathering extensible.</td>
+<td><a href="https://github.com/ansible/ansible/issues/18201">ansible/issues/18201</a></td>
+<td>Use custom known_hosts file with ansible-pull </td>
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/18201">ansible/issues/18201</a></td>
-<td>Use custom known_hosts file with ansible-pull </td>
+<td><a href="https://github.com/ansible/ansible/issues/18206">ansible/issues/18206</a></td>
+<td>Nested task include ignores conditional check</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18207">ansible/issues/18207</a></td>
+<td>Building deb from sources requires a2x utility </td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18209">ansible/issues/18209</a></td>
+<td>Ubuntu 16.10 Yakkety Yak deb packages in ppa:ansib</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -5627,8 +5632,8 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2599">ansible-modules-extras/pull/2599</a></td>
-<td>Add initial version of hpilo modules, based on wor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3297">ansible-modules-extras/pull/3297</a></td>
+<td>Hpilo modules rev.2 </td>
 </tr>
 <tr>
 <td>user</td>
@@ -6482,11 +6487,6 @@
 </tr>
 <tr>
 <td>copy</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4010">ansible-modules-core/issues/4010</a></td>
-<td>When copying multiple files in a dir, diff is igno</td>
-</tr>
-<tr>
-<td>copy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4280">ansible-modules-core/issues/4280</a></td>
 <td>Error "invalid selinux context" in copy module whe</td>
 </tr>
@@ -7022,11 +7022,6 @@
 </tr>
 <tr>
 <td>file</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5378">ansible-modules-core/issues/5378</a></td>
-<td>File module calls /usr/bin/python to execute temp_</td>
-</tr>
-<tr>
-<td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/902">ansible-modules-core/issues/902</a></td>
 <td>Add state=empty into file module</td>
 </tr>
@@ -7079,6 +7074,11 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible/pull/16336">ansible/pull/16336</a></td>
 <td>add support for pmrun by dell</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/18208">ansible/pull/18208</a></td>
+<td>Permit to have a action plugin without a empty mod</td>
 </tr>
 <tr>
 <td>ec2_asg</td>
@@ -7356,6 +7356,141 @@
 <td>tags typo in role dependencies not caught</td>
 </tr>
 <tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1380">ansible-modules-core/issues/1380</a></td>
+<td>vsphere_guest vm_disk 'type' parameter is silently</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1434">ansible-modules-core/issues/1434</a></td>
+<td>vsphere_guest - vm_hardware: cpu sockets and cpu c</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2116">ansible-modules-core/issues/2116</a></td>
+<td>vsphere_guest: need an option to attach an existin</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2450">ansible-modules-core/issues/2450</a></td>
+<td>feature request - vmware boot device</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3102">ansible-modules-core/issues/3102</a></td>
+<td>Create VM with vsphere_guest from template and cha</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3104">ansible-modules-core/issues/3104</a></td>
+<td>Create custom VM with vsphere_guest on specific fo</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/335">ansible-modules-core/issues/335</a></td>
+<td>vpshere_guest: vm_nic options is not applied on re</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3615">ansible-modules-core/issues/3615</a></td>
+<td>vsphere_guest: vm_nic should include manual MAC ch</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3616">ansible-modules-core/issues/3616</a></td>
+<td>vsphere_guest: adding vm_disk is failing on 2nd pa</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4126">ansible-modules-core/issues/4126</a></td>
+<td>vsphere_guest: Deploy from template receives [NoPe</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4742">ansible-modules-core/issues/4742</a></td>
+<td>vm_nic - vsphere_guest.py -  Not working on reconf</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4743">ansible-modules-core/issues/4743</a></td>
+<td>vm_disk - vsphere_guest.py - thin disk type</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4755">ansible-modules-core/issues/4755</a></td>
+<td>vsphere_guest vm_disk limited to 7 disks using SCS</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4942">ansible-modules-core/issues/4942</a></td>
+<td>Add ability to handle snapshots to vsphere_guest m</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5393">ansible-modules-core/issues/5393</a></td>
+<td>Modifying VM with vsphere_guest failing with curre</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/692">ansible-modules-core/issues/692</a></td>
+<td>vsphere_guest:when reconfigured, vm_cdrom does not</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/980">ansible-modules-core/issues/980</a></td>
+<td>vsphere_guest.py does not change vm disk</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2690">ansible-modules-core/pull/2690</a></td>
+<td>Support adding and removing of network devices dur</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3097">ansible-modules-core/pull/3097</a></td>
+<td>Treat deploy_template more like create_vm</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3543">ansible-modules-core/pull/3543</a></td>
+<td>Added options to update the reserved memory and th</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3643">ansible-modules-core/pull/3643</a></td>
+<td>Add support for changing MAC address</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3914">ansible-modules-core/pull/3914</a></td>
+<td>posibility to change bootdevice on vsphere_guest</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4226">ansible-modules-core/pull/4226</a></td>
+<td>Manage existing guests by UUID</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4424">ansible-modules-core/pull/4424</a></td>
+<td>Addition of InstanceUUID to  facts</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4880">ansible-modules-core/pull/4880</a></td>
+<td>Added 'suspended' as desired state for VM</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5193">ansible-modules-core/pull/5193</a></td>
+<td>Update vsphere_guest.py to include parameter for e</td>
+</tr>
+<tr>
+<td>vsphere_guest</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5390">ansible-modules-core/pull/5390</a></td>
+<td>update vsphere_guest.py to include snapshot operat</td>
+</tr>
+<tr>
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1158">ansible-modules-core/issues/1158</a></td>
 <td>Docker 1.6 cannot mount a volume with a single fil</td>
@@ -7484,136 +7619,6 @@
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible/pull/14334">ansible/pull/14334</a></td>
 <td>add systemd-nspawn connection driver</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1380">ansible-modules-core/issues/1380</a></td>
-<td>vsphere_guest vm_disk 'type' parameter is silently</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1434">ansible-modules-core/issues/1434</a></td>
-<td>vsphere_guest - vm_hardware: cpu sockets and cpu c</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2116">ansible-modules-core/issues/2116</a></td>
-<td>vsphere_guest: need an option to attach an existin</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2450">ansible-modules-core/issues/2450</a></td>
-<td>feature request - vmware boot device</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3102">ansible-modules-core/issues/3102</a></td>
-<td>Create VM with vsphere_guest from template and cha</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3104">ansible-modules-core/issues/3104</a></td>
-<td>Create custom VM with vsphere_guest on specific fo</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/335">ansible-modules-core/issues/335</a></td>
-<td>vpshere_guest: vm_nic options is not applied on re</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3615">ansible-modules-core/issues/3615</a></td>
-<td>vsphere_guest: vm_nic should include manual MAC ch</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3616">ansible-modules-core/issues/3616</a></td>
-<td>vsphere_guest: adding vm_disk is failing on 2nd pa</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4126">ansible-modules-core/issues/4126</a></td>
-<td>vsphere_guest: Deploy from template receives [NoPe</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4742">ansible-modules-core/issues/4742</a></td>
-<td>vm_nic - vsphere_guest.py -  Not working on reconf</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4743">ansible-modules-core/issues/4743</a></td>
-<td>vm_disk - vsphere_guest.py - thin disk type</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4755">ansible-modules-core/issues/4755</a></td>
-<td>vsphere_guest vm_disk limited to 7 disks using SCS</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4942">ansible-modules-core/issues/4942</a></td>
-<td>Add ability to handle snapshots to vsphere_guest m</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/692">ansible-modules-core/issues/692</a></td>
-<td>vsphere_guest:when reconfigured, vm_cdrom does not</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/980">ansible-modules-core/issues/980</a></td>
-<td>vsphere_guest.py does not change vm disk</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2690">ansible-modules-core/pull/2690</a></td>
-<td>Support adding and removing of network devices dur</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3097">ansible-modules-core/pull/3097</a></td>
-<td>Treat deploy_template more like create_vm</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3543">ansible-modules-core/pull/3543</a></td>
-<td>Added options to update the reserved memory and th</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3643">ansible-modules-core/pull/3643</a></td>
-<td>Add support for changing MAC address</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3914">ansible-modules-core/pull/3914</a></td>
-<td>posibility to change bootdevice on vsphere_guest</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4226">ansible-modules-core/pull/4226</a></td>
-<td>Manage existing guests by UUID</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4424">ansible-modules-core/pull/4424</a></td>
-<td>Addition of InstanceUUID to  facts</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4880">ansible-modules-core/pull/4880</a></td>
-<td>Added 'suspended' as desired state for VM</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5193">ansible-modules-core/pull/5193</a></td>
-<td>Update vsphere_guest.py to include parameter for e</td>
-</tr>
-<tr>
-<td>vsphere_guest</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5390">ansible-modules-core/pull/5390</a></td>
-<td>update vsphere_guest.py to include snapshot operat</td>
 </tr>
 <tr>
 <td>lineinfile</td>
@@ -7844,111 +7849,6 @@
 <td>npm</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3004">ansible-modules-extras/pull/3004</a></td>
 <td>Tentative fix for #2555</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
-<td>Bug Report: Synchronize module asks password</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2965">ansible-modules-core/issues/2965</a></td>
-<td>synchronize: support multiple sources</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4446">ansible-modules-core/issues/4446</a></td>
-<td>Synchronize module shouldn't use ssh if src and de</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4508">ansible-modules-core/issues/4508</a></td>
-<td>[synchronize] become_user is not honored in the ge</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5385">ansible-modules-core/issues/5385</a></td>
-<td>synchronize doesn't work when target is a VM on lo</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/727">ansible-modules-core/issues/727</a></td>
-<td>synchronize: cannot use rsync's --inplace option, </td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5354">ansible-modules-core/pull/5354</a></td>
-<td>clarifies synchronize module docs</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/10570">ansible/issues/10570</a></td>
-<td>Synchronize doesn't respect  ansible.cfg ssh_args</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/11910">ansible/issues/11910</a></td>
-<td>synchronize: conditional support of -zz instead of</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/13680">ansible/issues/13680</a></td>
-<td>Rename synchronize module owner/group to preserve_</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14345">ansible/issues/14345</a></td>
-<td>Synchronize module: ERROR! privilege output closed</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14836">ansible/issues/14836</a></td>
-<td>Synchronize problems with ssh user/pass auth (work</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/14884">ansible/issues/14884</a></td>
-<td>Synchronize module handling of ssh StrictHostKeyCh</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/15405">ansible/issues/15405</a></td>
-<td>Synchronize failed with delegate_to and sudo passw</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/15907">ansible/issues/15907</a></td>
-<td>sychronize rsync_opts and --private-key= will send</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16215">ansible/issues/16215</a></td>
-<td>delegate_to with synchronize forgets ansible_user</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16767">ansible/issues/16767</a></td>
-<td>synchronize module doesn't respect ssh_common_args</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/16856">ansible/issues/16856</a></td>
-<td>when using synchronize module with delegate_to, "b</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/17097">ansible/issues/17097</a></td>
-<td>Local synchronize on remote host fails when ansibl</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/issues/17492">ansible/issues/17492</a></td>
-<td>synchronize 'pull' mode incorrectly prepends PWD t</td>
-</tr>
-<tr>
-<td>synchronize</td>
-<td><a href="https://github.com/ansible/ansible/pull/18145">ansible/pull/18145</a></td>
-<td>Implement docker support for synchronize module.</td>
 </tr>
 <tr>
 <td>unarchive</td>
@@ -8361,6 +8261,106 @@
 <td>defined vars are empty string and not None/null</td>
 </tr>
 <tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2502">ansible-modules-core/issues/2502</a></td>
+<td>Bug Report: Synchronize module asks password</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2965">ansible-modules-core/issues/2965</a></td>
+<td>synchronize: support multiple sources</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4446">ansible-modules-core/issues/4446</a></td>
+<td>Synchronize module shouldn't use ssh if src and de</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4508">ansible-modules-core/issues/4508</a></td>
+<td>[synchronize] become_user is not honored in the ge</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5385">ansible-modules-core/issues/5385</a></td>
+<td>synchronize doesn't work when target is a VM on lo</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/727">ansible-modules-core/issues/727</a></td>
+<td>synchronize: cannot use rsync's --inplace option, </td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/10570">ansible/issues/10570</a></td>
+<td>Synchronize doesn't respect  ansible.cfg ssh_args</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/11910">ansible/issues/11910</a></td>
+<td>synchronize: conditional support of -zz instead of</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/13680">ansible/issues/13680</a></td>
+<td>Rename synchronize module owner/group to preserve_</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14345">ansible/issues/14345</a></td>
+<td>Synchronize module: ERROR! privilege output closed</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14836">ansible/issues/14836</a></td>
+<td>Synchronize problems with ssh user/pass auth (work</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/14884">ansible/issues/14884</a></td>
+<td>Synchronize module handling of ssh StrictHostKeyCh</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/15405">ansible/issues/15405</a></td>
+<td>Synchronize failed with delegate_to and sudo passw</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/15907">ansible/issues/15907</a></td>
+<td>sychronize rsync_opts and --private-key= will send</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/16215">ansible/issues/16215</a></td>
+<td>delegate_to with synchronize forgets ansible_user</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/16767">ansible/issues/16767</a></td>
+<td>synchronize module doesn't respect ssh_common_args</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/16856">ansible/issues/16856</a></td>
+<td>when using synchronize module with delegate_to, "b</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/17097">ansible/issues/17097</a></td>
+<td>Local synchronize on remote host fails when ansibl</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/issues/17492">ansible/issues/17492</a></td>
+<td>synchronize 'pull' mode incorrectly prepends PWD t</td>
+</tr>
+<tr>
+<td>synchronize</td>
+<td><a href="https://github.com/ansible/ansible/pull/18145">ansible/pull/18145</a></td>
+<td>Implement docker support for synchronize module.</td>
+</tr>
+<tr>
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1532">ansible-modules-core/issues/1532</a></td>
 <td>pip module executable argument does not expand hom</td>
@@ -8459,101 +8459,6 @@
 <td>pip</td>
 <td><a href="https://github.com/ansible/ansible/issues/16519">ansible/issues/16519</a></td>
 <td>easy_install fails to install pip with `ok`</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1062">ansible-modules-extras/issues/1062</a></td>
-<td>nmcli returning error if trying to delete an absen</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1063">ansible-modules-extras/issues/1063</a></td>
-<td>nmcli aborting with exception when trying to creat</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1130">ansible-modules-extras/issues/1130</a></td>
-<td>nmcli module failed to run on Mac OS X 10</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1331">ansible-modules-extras/issues/1331</a></td>
-<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1523">ansible-modules-extras/issues/1523</a></td>
-<td>RFE: [nmcli] - support for setting ipv4.dhcp-clien</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1637">ansible-modules-extras/issues/1637</a></td>
-<td>nmcli reports fail, even though success</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1842">ansible-modules-extras/issues/1842</a></td>
-<td>nmcli reports changed status even if nothing needs</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1843">ansible-modules-extras/issues/1843</a></td>
-<td>nmcli: type is required for create/modify actions</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1910">ansible-modules-extras/issues/1910</a></td>
-<td>nmcli dns example does not run</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2044">ansible-modules-extras/issues/2044</a></td>
-<td>nmcli: conn_name required</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2045">ansible-modules-extras/issues/2045</a></td>
-<td>nmcli: Creating VLANs doesn't work on latest cento</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2046">ansible-modules-extras/issues/2046</a></td>
-<td>nmcli: autoconnect not working</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3007">ansible-modules-extras/issues/3007</a></td>
-<td>nmcli module throws IndexError in Subprocess</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/919">ansible-modules-extras/issues/919</a></td>
-<td>nmcli state "changed" when it fails miserably</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1536">ansible-modules-extras/pull/1536</a></td>
-<td>Add Infiniband support</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1840">ansible-modules-extras/pull/1840</a></td>
-<td>Allow setting ipv4.dhcp-client-id parameter</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2000">ansible-modules-extras/pull/2000</a></td>
-<td>correct command line argument for nmcli autoconnec</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/issues/17843">ansible/issues/17843</a></td>
-<td>RFE: Add network manager ipv4.dns-search to the nm</td>
-</tr>
-<tr>
-<td>nmcli</td>
-<td><a href="https://github.com/ansible/ansible/pull/15774">ansible/pull/15774</a></td>
-<td>Enable logging for development mode.</td>
 </tr>
 <tr>
 <td>iam</td>
@@ -8926,89 +8831,94 @@
 <td>Add support for group variables to handlers</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1904">ansible-modules-core/issues/1904</a></td>
-<td>Uncaught type error in uri module</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1062">ansible-modules-extras/issues/1062</a></td>
+<td>nmcli returning error if trying to delete an absen</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3157">ansible-modules-core/issues/3157</a></td>
-<td>Upload binary file possibility in URI module</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1063">ansible-modules-extras/issues/1063</a></td>
+<td>nmcli aborting with exception when trying to creat</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3603">ansible-modules-core/issues/3603</a></td>
-<td>Show actual status code for uri</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1130">ansible-modules-extras/issues/1130</a></td>
+<td>nmcli module failed to run on Mac OS X 10</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4217">ansible-modules-core/issues/4217</a></td>
-<td>Uri Module in 2.1 follows redirects strangely</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1331">ansible-modules-extras/issues/1331</a></td>
+<td>adding an interface with nmcli sets DEFROUTE=yes a</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4361">ansible-modules-core/issues/4361</a></td>
-<td>Ansible 2.0.2.0 and later break Webmin port test</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1523">ansible-modules-extras/issues/1523</a></td>
+<td>RFE: [nmcli] - support for setting ipv4.dhcp-clien</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4490">ansible-modules-core/issues/4490</a></td>
-<td>uri: status "changed" never thrown</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1637">ansible-modules-extras/issues/1637</a></td>
+<td>nmcli reports fail, even though success</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4506">ansible-modules-core/issues/4506</a></td>
-<td>uri module: index out of range</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1842">ansible-modules-extras/issues/1842</a></td>
+<td>nmcli reports changed status even if nothing needs</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4757">ansible-modules-core/issues/4757</a></td>
-<td>Gzip encoding problem in 'uri' module</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1843">ansible-modules-extras/issues/1843</a></td>
+<td>nmcli: type is required for create/modify actions</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3527">ansible-modules-core/pull/3527</a></td>
-<td>Added feature to accept an empty list for status_c</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1910">ansible-modules-extras/issues/1910</a></td>
+<td>nmcli dns example does not run</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4467">ansible-modules-core/pull/4467</a></td>
-<td>Add use_proxy parameter to uri module for parity w</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2044">ansible-modules-extras/issues/2044</a></td>
+<td>nmcli: conn_name required</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4589">ansible-modules-core/pull/4589</a></td>
-<td>add possibility to upload binary file via uri modu</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2045">ansible-modules-extras/issues/2045</a></td>
+<td>nmcli: Creating VLANs doesn't work on latest cento</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5389">ansible-modules-core/pull/5389</a></td>
-<td>uri: Add a second list of status codes, for indica</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2046">ansible-modules-extras/issues/2046</a></td>
+<td>nmcli: autoconnect not working</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/12247">ansible/issues/12247</a></td>
-<td>Unexpected syntax when using multi-line tasks and </td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3007">ansible-modules-extras/issues/3007</a></td>
+<td>nmcli module throws IndexError in Subprocess</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/12917">ansible/issues/12917</a></td>
-<td>uri module: Both 200 and 304 should be accepted by</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/919">ansible-modules-extras/issues/919</a></td>
+<td>nmcli state "changed" when it fails miserably</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/14804">ansible/issues/14804</a></td>
-<td>add client certificate support to uri module (and </td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1536">ansible-modules-extras/pull/1536</a></td>
+<td>Add Infiniband support</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/15792">ansible/issues/15792</a></td>
-<td>Documentation difficult to identify changes across</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1840">ansible-modules-extras/pull/1840</a></td>
+<td>Allow setting ipv4.dhcp-client-id parameter</td>
 </tr>
 <tr>
-<td>uri</td>
-<td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
-<td>Digest authentication mechanism doesn't work for u</td>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/issues/17843">ansible/issues/17843</a></td>
+<td>RFE: Add network manager ipv4.dns-search to the nm</td>
+</tr>
+<tr>
+<td>nmcli</td>
+<td><a href="https://github.com/ansible/ansible/pull/15774">ansible/pull/15774</a></td>
+<td>Enable logging for development mode.</td>
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
@@ -9169,6 +9079,86 @@
 <td>ec2_vpc</td>
 <td><a href="https://github.com/ansible/ansible/issues/11919">ansible/issues/11919</a></td>
 <td>boto profile not being used by ec2_vpc</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1904">ansible-modules-core/issues/1904</a></td>
+<td>Uncaught type error in uri module</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3157">ansible-modules-core/issues/3157</a></td>
+<td>Upload binary file possibility in URI module</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3603">ansible-modules-core/issues/3603</a></td>
+<td>Show actual status code for uri</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4217">ansible-modules-core/issues/4217</a></td>
+<td>Uri Module in 2.1 follows redirects strangely</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4361">ansible-modules-core/issues/4361</a></td>
+<td>Ansible 2.0.2.0 and later break Webmin port test</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4490">ansible-modules-core/issues/4490</a></td>
+<td>uri: status "changed" never thrown</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4506">ansible-modules-core/issues/4506</a></td>
+<td>uri module: index out of range</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4757">ansible-modules-core/issues/4757</a></td>
+<td>Gzip encoding problem in 'uri' module</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3527">ansible-modules-core/pull/3527</a></td>
+<td>Added feature to accept an empty list for status_c</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4467">ansible-modules-core/pull/4467</a></td>
+<td>Add use_proxy parameter to uri module for parity w</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4589">ansible-modules-core/pull/4589</a></td>
+<td>add possibility to upload binary file via uri modu</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/12247">ansible/issues/12247</a></td>
+<td>Unexpected syntax when using multi-line tasks and </td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/12917">ansible/issues/12917</a></td>
+<td>uri module: Both 200 and 304 should be accepted by</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/14804">ansible/issues/14804</a></td>
+<td>add client certificate support to uri module (and </td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/15792">ansible/issues/15792</a></td>
+<td>Documentation difficult to identify changes across</td>
+</tr>
+<tr>
+<td>uri</td>
+<td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
+<td>Digest authentication mechanism doesn't work for u</td>
 </tr>
 <tr>
 <td>basic</td>
@@ -10706,56 +10696,6 @@
 <td>gem: add support for --bindir</td>
 </tr>
 <tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1959">ansible-modules-extras/issues/1959</a></td>
-<td>lvol does not work with size suffix b or B</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/219">ansible-modules-extras/issues/219</a></td>
-<td>lvol module doesn't take options for lvextend/lvre</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2249">ansible-modules-extras/issues/2249</a></td>
-<td>Problem with unit size description in lvol module</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2353">ansible-modules-extras/issues/2353</a></td>
-<td>Unsupported parameter for module: shrink in lvol m</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2478">ansible-modules-extras/issues/2478</a></td>
-<td>lvol module should not require size if origin is t</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/428">ansible-modules-extras/issues/428</a></td>
-<td>lvol module is not idempotent</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1422">ansible-modules-extras/pull/1422</a></td>
-<td>add a functionality to lvol module, to create thin</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2622">ansible-modules-extras/pull/2622</a></td>
-<td>Add list command to lvg and lvol modules</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3042">ansible-modules-extras/pull/3042</a></td>
-<td>Add thin pool / volume managment to lvol (follow u</td>
-</tr>
-<tr>
-<td>lvol</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3288">ansible-modules-extras/pull/3288</a></td>
-<td>lvol: fail when LV already exists</td>
-</tr>
-<tr>
 <td>ecs_service</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2434">ansible-modules-extras/issues/2434</a></td>
 <td>ecs_service module - Add support for deployment co</td>
@@ -10939,6 +10879,51 @@
 <td>linode</td>
 <td><a href="https://github.com/ansible/ansible/pull/12315">ansible/pull/12315</a></td>
 <td>Adding Linode common functions to module_utils</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1004">ansible-modules-extras/issues/1004</a></td>
+<td>Proxmox Ansible contrib module handles KVM?</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1542">ansible-modules-extras/issues/1542</a></td>
+<td>proxmox error: authorization on proxmox cluster fa</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1789">ansible-modules-extras/issues/1789</a></td>
+<td>Proxmox : netif and ip_address incompatible with p</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1790">ansible-modules-extras/issues/1790</a></td>
+<td>Proxmox : Impossible to have template not stored i</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2897">ansible-modules-extras/issues/2897</a></td>
+<td>Add public key support to proxmox module</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3296">ansible-modules-extras/issues/3296</a></td>
+<td>Proxmox: set up multiple netif</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3087">ansible-modules-extras/pull/3087</a></td>
+<td>proxmox: support ssh-public-keys</td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/15888">ansible/pull/15888</a></td>
+<td>[inventory] Permit to query a proxmox server with </td>
+</tr>
+<tr>
+<td>proxmox</td>
+<td><a href="https://github.com/ansible/ansible/pull/17247">ansible/pull/17247</a></td>
+<td>Permit to query a proxmox with invalid certificate</td>
 </tr>
 <tr>
 <td>include_vars</td>
@@ -11376,86 +11361,6 @@
 <td>Configurable fact path</td>
 </tr>
 <tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1004">ansible-modules-extras/issues/1004</a></td>
-<td>Proxmox Ansible contrib module handles KVM?</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1542">ansible-modules-extras/issues/1542</a></td>
-<td>proxmox error: authorization on proxmox cluster fa</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1789">ansible-modules-extras/issues/1789</a></td>
-<td>Proxmox : netif and ip_address incompatible with p</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1790">ansible-modules-extras/issues/1790</a></td>
-<td>Proxmox : Impossible to have template not stored i</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2897">ansible-modules-extras/issues/2897</a></td>
-<td>Add public key support to proxmox module</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3087">ansible-modules-extras/pull/3087</a></td>
-<td>proxmox: support ssh-public-keys</td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/15888">ansible/pull/15888</a></td>
-<td>[inventory] Permit to query a proxmox server with </td>
-</tr>
-<tr>
-<td>proxmox</td>
-<td><a href="https://github.com/ansible/ansible/pull/17247">ansible/pull/17247</a></td>
-<td>Permit to query a proxmox with invalid certificate</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
-<td>Add cors support to s3_bucket module</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
-<td>s3_bucket fails when loading JSON policy from a te</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
-<td>s3_bucket with policy parameter not idempotent</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
-<td>S3 Maven repos with a . in the bucket name generat</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3040">ansible-modules-extras/issues/3040</a></td>
-<td>allow s3_bucket to append tags</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1177">ansible-modules-extras/pull/1177</a></td>
-<td>Add CORS support to s3_bucket.</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2050">ansible-modules-extras/pull/2050</a></td>
-<td>s3_bucket.py - return CORS rules in the output</td>
-</tr>
-<tr>
-<td>s3_bucket</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
-<td>fixes and refactoring of s3_bucket</td>
-</tr>
-<tr>
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
 <td>script module should support templating</td>
@@ -11494,46 +11399,6 @@
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
 <td>Split script module `free_form` parameter into `pa</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/issues/17685">ansible/issues/17685</a></td>
-<td>Add Bandwidth Throttling to module_utils/urls.py</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/10490">ansible/pull/10490</a></td>
-<td>Make it possible to access the HTTP response data </td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17089">ansible/pull/17089</a></td>
-<td>Add Digest auth support for uri module</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17644">ansible/pull/17644</a></td>
-<td>Fix http_request for IPv6-only machines</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17645">ansible/pull/17645</a></td>
-<td>Fix misleading SSL error message</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/17999">ansible/pull/17999</a></td>
-<td>SSL ipv6 support for certificate handler in urls.p</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/18141">ansible/pull/18141</a></td>
-<td>[WIP] Urls client cert auth</td>
-</tr>
-<tr>
-<td>urls</td>
-<td><a href="https://github.com/ansible/ansible/pull/18175">ansible/pull/18175</a></td>
-<td>A few fixes for python3</td>
 </tr>
 <tr>
 <td>mysql_db</td>
@@ -11654,6 +11519,46 @@
 <td>route53</td>
 <td><a href="https://github.com/ansible/ansible/issues/11068">ansible/issues/11068</a></td>
 <td>route53: add support to create and delete dns zone</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1959">ansible-modules-extras/issues/1959</a></td>
+<td>lvol does not work with size suffix b or B</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/219">ansible-modules-extras/issues/219</a></td>
+<td>lvol module doesn't take options for lvextend/lvre</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2249">ansible-modules-extras/issues/2249</a></td>
+<td>Problem with unit size description in lvol module</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2353">ansible-modules-extras/issues/2353</a></td>
+<td>Unsupported parameter for module: shrink in lvol m</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2478">ansible-modules-extras/issues/2478</a></td>
+<td>lvol module should not require size if origin is t</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/428">ansible-modules-extras/issues/428</a></td>
+<td>lvol module is not idempotent</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3042">ansible-modules-extras/pull/3042</a></td>
+<td>Add thin pool / volume managment to lvol (follow u</td>
+</tr>
+<tr>
+<td>lvol</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3288">ansible-modules-extras/pull/3288</a></td>
+<td>lvol: fail when LV already exists</td>
 </tr>
 <tr>
 <td>os_server</td>
@@ -11871,6 +11776,41 @@
 <td>Add intg for apt_repo's mode argument.</td>
 </tr>
 <tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/issues/17685">ansible/issues/17685</a></td>
+<td>Add Bandwidth Throttling to module_utils/urls.py</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/10490">ansible/pull/10490</a></td>
+<td>Make it possible to access the HTTP response data </td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17089">ansible/pull/17089</a></td>
+<td>Add Digest auth support for uri module</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17644">ansible/pull/17644</a></td>
+<td>Fix http_request for IPv6-only machines</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17645">ansible/pull/17645</a></td>
+<td>Fix misleading SSL error message</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/17999">ansible/pull/17999</a></td>
+<td>SSL ipv6 support for certificate handler in urls.p</td>
+</tr>
+<tr>
+<td>urls</td>
+<td><a href="https://github.com/ansible/ansible/pull/18141">ansible/pull/18141</a></td>
+<td>[WIP] Urls client cert auth</td>
+</tr>
+<tr>
 <td>ini_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/247">ansible-modules-core/issues/247</a></td>
 <td>Expose backup path in ini_file</td>
@@ -11904,41 +11844,6 @@
 <td>ini_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5334">ansible-modules-core/pull/5334</a></td>
 <td>Adds description for ini_file "section: null"</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1118">ansible-modules-extras/issues/1118</a></td>
-<td>osx_defaults should have an option to restart cfpr</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1705">ansible-modules-extras/issues/1705</a></td>
-<td>[osx_defaults] Add dict/dict-add support</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2492">ansible-modules-extras/issues/2492</a></td>
-<td>Incorrect documentation: osx_defaults does not all</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2579">ansible-modules-extras/issues/2579</a></td>
-<td>Rename osx_defaults module to macos_defaults</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2610">ansible-modules-extras/issues/2610</a></td>
-<td>osx_defaults "Invalid value. Expected value to be </td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1444">ansible-modules-extras/pull/1444</a></td>
-<td>Fix boolean type conversion in osx_defaults module</td>
-</tr>
-<tr>
-<td>osx_defaults</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1707">ansible-modules-extras/pull/1707</a></td>
-<td>Add dict support to osx_defaults</td>
 </tr>
 <tr>
 <td>django_manage</td>
@@ -12366,6 +12271,36 @@
 <td>Cleanup import for sysctl module</td>
 </tr>
 <tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1163">ansible-modules-extras/issues/1163</a></td>
+<td>Add cors support to s3_bucket module</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1813">ansible-modules-extras/issues/1813</a></td>
+<td>s3_bucket fails when loading JSON policy from a te</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2618">ansible-modules-extras/issues/2618</a></td>
+<td>s3_bucket with policy parameter not idempotent</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2658">ansible-modules-extras/issues/2658</a></td>
+<td>S3 Maven repos with a . in the bucket name generat</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3040">ansible-modules-extras/issues/3040</a></td>
+<td>allow s3_bucket to append tags</td>
+</tr>
+<tr>
+<td>s3_bucket</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2735">ansible-modules-extras/pull/2735</a></td>
+<td>fixes and refactoring of s3_bucket</td>
+</tr>
+<tr>
 <td>bower</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1349">ansible-modules-extras/issues/1349</a></td>
 <td>KeyError in bower tasks</td>
@@ -12396,6 +12331,36 @@
 <td>Add executable path to bower module.</td>
 </tr>
 <tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1118">ansible-modules-extras/issues/1118</a></td>
+<td>osx_defaults should have an option to restart cfpr</td>
+</tr>
+<tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1705">ansible-modules-extras/issues/1705</a></td>
+<td>[osx_defaults] Add dict/dict-add support</td>
+</tr>
+<tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2492">ansible-modules-extras/issues/2492</a></td>
+<td>Incorrect documentation: osx_defaults does not all</td>
+</tr>
+<tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2579">ansible-modules-extras/issues/2579</a></td>
+<td>Rename osx_defaults module to macos_defaults</td>
+</tr>
+<tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2610">ansible-modules-extras/issues/2610</a></td>
+<td>osx_defaults "Invalid value. Expected value to be </td>
+</tr>
+<tr>
+<td>osx_defaults</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1707">ansible-modules-extras/pull/1707</a></td>
+<td>Add dict support to osx_defaults</td>
+</tr>
+<tr>
 <td>win_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5118">ansible-modules-core/issues/5118</a></td>
 <td>win_file: Failed to delete folder with broken syml</td>
@@ -12424,6 +12389,36 @@
 <td>win_file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5120">ansible-modules-core/pull/5120</a></td>
 <td>Updated win_file with logic on handling sym link d</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
+<td>rax module fails to create Cloud Server with multi</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
+<td>rax module doesnot work with async</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4721">ansible-modules-core/issues/4721</a></td>
+<td>Create servers tasks returns with not all instance</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible/issues/18203">ansible/issues/18203</a></td>
+<td>[rax.py] TypeError: get_config() got an unexpected</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
+<td>Updated rax guide for handling RackConnect</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible/pull/18204">ansible/pull/18204</a></td>
+<td>Port rax dynamic inventory script to Ansible 2.3 g</td>
 </tr>
 <tr>
 <td>add_host</td>
@@ -12514,36 +12509,6 @@
 <td>rabbitmq_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2253">ansible-modules-extras/pull/2253</a></td>
 <td>Fix ValueErrors if extra output picked up from rab</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
-<td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3059">ansible-modules-extras/issues/3059</a></td>
-<td>There are now three ovirt modules. Is there a path</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/978">ansible-modules-extras/issues/978</a></td>
-<td>ovirt module KeyError: authorized_key_user_groups</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1543">ansible-modules-extras/pull/1543</a></td>
-<td>Ovirt module refactor</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2469">ansible-modules-extras/pull/2469</a></td>
-<td>fix ovirt UnboundLocalError during vm_start</td>
-</tr>
-<tr>
-<td>ovirt</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3153">ansible-modules-extras/pull/3153</a></td>
-<td>Add oVirt users/groups and users_facts/group/facts</td>
 </tr>
 <tr>
 <td>os_user</td>
@@ -12666,34 +12631,29 @@
 <td>kubernetes_templating</td>
 </tr>
 <tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3046">ansible-modules-extras/issues/3046</a></td>
-<td>datadog_monitor is not idempotent</td>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1316">ansible-modules-extras/issues/1316</a></td>
+<td>Consul module idempotency</td>
 </tr>
 <tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2653">ansible-modules-extras/pull/2653</a></td>
-<td>Add require_full_window option for Datadog monitor</td>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3249">ansible-modules-extras/issues/3249</a></td>
+<td>Consul module does not allow for more than one che</td>
 </tr>
 <tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2834">ansible-modules-extras/pull/2834</a></td>
-<td>Adding request timeout to datadog_monitor</td>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/564">ansible-modules-extras/issues/564</a></td>
+<td>consul: Delete service by name (probably) can't wo</td>
 </tr>
 <tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2888">ansible-modules-extras/pull/2888</a></td>
-<td>add require_full_window boolean option for datadog</td>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3295">ansible-modules-extras/pull/3295</a></td>
+<td>Pass through service_id if specified on a check</td>
 </tr>
 <tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3014">ansible-modules-extras/pull/3014</a></td>
-<td>Support not requiring a full window of data</td>
-</tr>
-<tr>
-<td>datadog_monitor</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3252">ansible-modules-extras/pull/3252</a></td>
-<td>Update to Create-example in docs</td>
+<td>consul</td>
+<td><a href="https://github.com/ansible/ansible/issues/17002">ansible/issues/17002</a></td>
+<td>Design a facts plugin system</td>
 </tr>
 <tr>
 <td>win_acl</td>
@@ -12921,6 +12881,31 @@
 <td>Adds custom_data parameter to azure virtual machin</td>
 </tr>
 <tr>
+<td>play_iterator</td>
+<td><a href="https://github.com/ansible/ansible/issues/17661">ansible/issues/17661</a></td>
+<td>role dependency doesn't work as expected</td>
+</tr>
+<tr>
+<td>play_iterator</td>
+<td><a href="https://github.com/ansible/ansible/issues/18198">ansible/issues/18198</a></td>
+<td>Automatic setup task doesn't have name</td>
+</tr>
+<tr>
+<td>play_iterator</td>
+<td><a href="https://github.com/ansible/ansible/pull/14564">ansible/pull/14564</a></td>
+<td>fix rescue not executing in includes</td>
+</tr>
+<tr>
+<td>play_iterator</td>
+<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
+<td>Add 'refresh' mode to fact gathering</td>
+</tr>
+<tr>
+<td>play_iterator</td>
+<td><a href="https://github.com/ansible/ansible/pull/17837">ansible/pull/17837</a></td>
+<td>Look for 'module_setup' to set _gathered_facts</td>
+</tr>
+<tr>
 <td>filesystem</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1472">ansible-modules-extras/issues/1472</a></td>
 <td>Filesystem module doesn't allow re-initialization</td>
@@ -12969,6 +12954,31 @@
 <td>openstack</td>
 <td><a href="https://github.com/ansible/ansible/pull/17948">ansible/pull/17948</a></td>
 <td>Openstack dynamic inventory: respect OS_CLOUD env </td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1540">ansible-modules-extras/issues/1540</a></td>
+<td>oVirt module uses ovirtsdk.xml.params.VM when clas</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3059">ansible-modules-extras/issues/3059</a></td>
+<td>There are now three ovirt modules. Is there a path</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/978">ansible-modules-extras/issues/978</a></td>
+<td>ovirt module KeyError: authorized_key_user_groups</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2469">ansible-modules-extras/pull/2469</a></td>
+<td>fix ovirt UnboundLocalError during vm_start</td>
+</tr>
+<tr>
+<td>ovirt</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3153">ansible-modules-extras/pull/3153</a></td>
+<td>Add oVirt users/groups and users_facts/group/facts</td>
 </tr>
 <tr>
 <td>redhat_subscription</td>
@@ -13021,56 +13031,6 @@
 <td>Consistent parameters naming for file and acl modu</td>
 </tr>
 <tr>
-<td>zabbix_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2835">ansible-modules-extras/issues/2835</a></td>
-<td>zabbix_host.py does not update linked templates or</td>
-</tr>
-<tr>
-<td>zabbix_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2921">ansible-modules-extras/issues/2921</a></td>
-<td>Zabbix module encryption support</td>
-</tr>
-<tr>
-<td>zabbix_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3280">ansible-modules-extras/issues/3280</a></td>
-<td>zabbix_host result is always 'changed' without zab</td>
-</tr>
-<tr>
-<td>zabbix_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1247">ansible-modules-extras/pull/1247</a></td>
-<td>If and else blocks differs only in using exist_int</td>
-</tr>
-<tr>
-<td>zabbix_host</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2919">ansible-modules-extras/pull/2919</a></td>
-<td>Allow setting the visible name of a host in zabbix</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
-<td>additional status besides 'changed', 'ok', or 'fai</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
-<td>Expect module not working module failure parsed fa</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3254">ansible-modules-extras/issues/3254</a></td>
-<td>Expect module - Expected results feature</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/71">ansible-modules-extras/pull/71</a></td>
-<td>Created Comware 5.2 Ansible modules</td>
-</tr>
-<tr>
-<td>expect</td>
-<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
-<td>a wrong way to judge ending of a role execution</td>
-</tr>
-<tr>
 <td>stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3427">ansible-modules-core/issues/3427</a></td>
 <td>stat module doesn't return lnk_source when follow=</td>
@@ -13094,26 +13054,6 @@
 <td>stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5358">ansible-modules-core/pull/5358</a></td>
 <td>Stat attr</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1316">ansible-modules-extras/issues/1316</a></td>
-<td>Consul module idempotency</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3249">ansible-modules-extras/issues/3249</a></td>
-<td>Consul module does not allow for more than one che</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/564">ansible-modules-extras/issues/564</a></td>
-<td>consul: Delete service by name (probably) can't wo</td>
-</tr>
-<tr>
-<td>consul</td>
-<td><a href="https://github.com/ansible/ansible/issues/17002">ansible/issues/17002</a></td>
-<td>Design a facts plugin system</td>
 </tr>
 <tr>
 <td>include</td>
@@ -13476,26 +13416,6 @@
 <td>implement module params deprecation warnings</td>
 </tr>
 <tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1083">ansible-modules-extras/issues/1083</a></td>
-<td>module cannot remove certain limits pam_limits.py</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2264">ansible-modules-extras/issues/2264</a></td>
-<td>pam_limits comment problem</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2318">ansible-modules-extras/pull/2318</a></td>
-<td>pam_limits: tab before comment and more meaningful</td>
-</tr>
-<tr>
-<td>pam_limits</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3266">ansible-modules-extras/pull/3266</a></td>
-<td>system/pam_limits.py module:</td>
-</tr>
-<tr>
 <td>netscaler</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2061">ansible-modules-extras/issues/2061</a></td>
 <td>Ansible (1.9.4) netscaler module got error msg: 'N</td>
@@ -13514,46 +13434,6 @@
 <td>netscaler</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2327">ansible-modules-extras/pull/2327</a></td>
 <td>Netscaler: Expire sessions gracefully instead of t</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
-<td>rax module fails to create Cloud Server with multi</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
-<td>rax module doesnot work with async</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4721">ansible-modules-core/issues/4721</a></td>
-<td>Create servers tasks returns with not all instance</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
-<td>Updated rax guide for handling RackConnect</td>
-</tr>
-<tr>
-<td>mysql_replication</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2180">ansible-modules-extras/issues/2180</a></td>
-<td>mysql_replication: feature - Support Multi-Source </td>
-</tr>
-<tr>
-<td>mysql_replication</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/817">ansible-modules-extras/issues/817</a></td>
-<td>[mysql_replication] Support MariaDB GTID</td>
-</tr>
-<tr>
-<td>mysql_replication</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2223">ansible-modules-extras/pull/2223</a></td>
-<td>mysql_replication: feature - Support Multi-Source </td>
-</tr>
-<tr>
-<td>mysql_replication</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3201">ansible-modules-extras/pull/3201</a></td>
-<td>Add support for delayed replication to mysql repli</td>
 </tr>
 <tr>
 <td>blockinfile</td>
@@ -13656,26 +13536,6 @@
 <td>Support ProxyCommand in module_utils for Network l</td>
 </tr>
 <tr>
-<td>play_iterator</td>
-<td><a href="https://github.com/ansible/ansible/issues/17661">ansible/issues/17661</a></td>
-<td>role dependency doesn't work as expected</td>
-</tr>
-<tr>
-<td>play_iterator</td>
-<td><a href="https://github.com/ansible/ansible/pull/14564">ansible/pull/14564</a></td>
-<td>fix rescue not executing in includes</td>
-</tr>
-<tr>
-<td>play_iterator</td>
-<td><a href="https://github.com/ansible/ansible/pull/15502">ansible/pull/15502</a></td>
-<td>Add 'refresh' mode to fact gathering</td>
-</tr>
-<tr>
-<td>play_iterator</td>
-<td><a href="https://github.com/ansible/ansible/pull/17837">ansible/pull/17837</a></td>
-<td>Look for 'module_setup' to set _gathered_facts</td>
-</tr>
-<tr>
 <td>ipaddr</td>
 <td><a href="https://github.com/ansible/ansible/pull/11658">ansible/pull/11658</a></td>
 <td>Integrate EUI64 SLAAC into ipaddr() Jinja2 filter</td>
@@ -13776,6 +13636,26 @@
 <td>declare a "port" parameter for os_security_group_r</td>
 </tr>
 <tr>
+<td>zabbix_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2835">ansible-modules-extras/issues/2835</a></td>
+<td>zabbix_host.py does not update linked templates or</td>
+</tr>
+<tr>
+<td>zabbix_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2921">ansible-modules-extras/issues/2921</a></td>
+<td>Zabbix module encryption support</td>
+</tr>
+<tr>
+<td>zabbix_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3280">ansible-modules-extras/issues/3280</a></td>
+<td>zabbix_host result is always 'changed' without zab</td>
+</tr>
+<tr>
+<td>zabbix_host</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2919">ansible-modules-extras/pull/2919</a></td>
+<td>Allow setting the visible name of a host in zabbix</td>
+</tr>
+<tr>
 <td>hg</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1851">ansible-modules-core/issues/1851</a></td>
 <td>Wording of hg module documentation misleading</td>
@@ -13794,6 +13674,26 @@
 <td>hg</td>
 <td><a href="https://github.com/ansible/ansible/issues/15948">ansible/issues/15948</a></td>
 <td>ansible-playbook --syntax-check repeats line and c</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1872">ansible-modules-core/issues/1872</a></td>
+<td>additional status besides 'changed', 'ok', or 'fai</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2751">ansible-modules-extras/issues/2751</a></td>
+<td>Expect module not working module failure parsed fa</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3254">ansible-modules-extras/issues/3254</a></td>
+<td>Expect module - Expected results feature</td>
+</tr>
+<tr>
+<td>expect</td>
+<td><a href="https://github.com/ansible/ansible/issues/17664">ansible/issues/17664</a></td>
+<td>a wrong way to judge ending of a role execution</td>
 </tr>
 <tr>
 <td>archive</td>
@@ -13834,6 +13734,26 @@
 <td>win_regedit</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/3134">ansible-modules-extras/issues/3134</a></td>
 <td>Using win_regedit with binary values always result</td>
+</tr>
+<tr>
+<td>datadog_monitor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3046">ansible-modules-extras/issues/3046</a></td>
+<td>datadog_monitor is not idempotent</td>
+</tr>
+<tr>
+<td>datadog_monitor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2653">ansible-modules-extras/pull/2653</a></td>
+<td>Add require_full_window option for Datadog monitor</td>
+</tr>
+<tr>
+<td>datadog_monitor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2834">ansible-modules-extras/pull/2834</a></td>
+<td>Adding request timeout to datadog_monitor</td>
+</tr>
+<tr>
+<td>datadog_monitor</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3252">ansible-modules-extras/pull/3252</a></td>
+<td>Update to Create-example in docs</td>
 </tr>
 <tr>
 <td>win_reboot</td>
@@ -13986,21 +13906,6 @@
 <td>[rhn_channel] Add support for setting base channel</td>
 </tr>
 <tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3128">ansible-modules-extras/issues/3128</a></td>
-<td>virtual server rule ... already exists in partitio</td>
-</tr>
-<tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3129">ansible-modules-extras/pull/3129</a></td>
-<td>Functionality to have default persistence profile </td>
-</tr>
-<tr>
-<td>bigip_virtual_server</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3273">ansible-modules-extras/pull/3273</a></td>
-<td>Adds route advertisement state to the bigip_virtua</td>
-</tr>
-<tr>
 <td>ios_template</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3601">ansible-modules-core/issues/3601</a></td>
 <td>ios_template module doesnt render {% for %} correc</td>
@@ -14091,6 +13996,21 @@
 <td>Fixes #1566 Add full change check for rabbitmq pol</td>
 </tr>
 <tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1083">ansible-modules-extras/issues/1083</a></td>
+<td>module cannot remove certain limits pam_limits.py</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2264">ansible-modules-extras/issues/2264</a></td>
+<td>pam_limits comment problem</td>
+</tr>
+<tr>
+<td>pam_limits</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3266">ansible-modules-extras/pull/3266</a></td>
+<td>system/pam_limits.py module:</td>
+</tr>
+<tr>
 <td>roles_path</td>
 <td><a href="https://github.com/ansible/ansible/issues/18067">ansible/issues/18067</a></td>
 <td>Documentation of relative directories in roles_pat</td>
@@ -14136,6 +14056,21 @@
 <td>Add an op to check if a znode exists</td>
 </tr>
 <tr>
+<td>mysql_replication</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2180">ansible-modules-extras/issues/2180</a></td>
+<td>mysql_replication: feature - Support Multi-Source </td>
+</tr>
+<tr>
+<td>mysql_replication</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/817">ansible-modules-extras/issues/817</a></td>
+<td>[mysql_replication] Support MariaDB GTID</td>
+</tr>
+<tr>
+<td>mysql_replication</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3201">ansible-modules-extras/pull/3201</a></td>
+<td>Add support for delayed replication to mysql repli</td>
+</tr>
+<tr>
 <td>with_items</td>
 <td><a href="https://github.com/ansible/ansible/issues/17701">ansible/issues/17701</a></td>
 <td>List not parsed as a list ?</td>
@@ -14148,7 +14083,7 @@
 <tr>
 <td>with_items</td>
 <td><a href="https://github.com/ansible/ansible/issues/18195">ansible/issues/18195</a></td>
-<td>with_items and multi line args don't work properly</td>
+<td>debug gives improper error when adding non support</td>
 </tr>
 <tr>
 <td>pkgng</td>
@@ -14179,6 +14114,21 @@
 <td>requirement</td>
 <td><a href="https://github.com/ansible/ansible/pull/15160">ansible/pull/15160</a></td>
 <td>Fix clone of specific SCM version</td>
+</tr>
+<tr>
+<td>win_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5368">ansible-modules-core/issues/5368</a></td>
+<td>Ansible connection is sometimes dropped mid-play o</td>
+</tr>
+<tr>
+<td>win_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5391">ansible-modules-core/issues/5391</a></td>
+<td>win_user module check mode always returns skipping</td>
+</tr>
+<tr>
+<td>win_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2289">ansible-modules-core/pull/2289</a></td>
+<td>Remove redundant conversion to boolean</td>
 </tr>
 <tr>
 <td>color</td>
@@ -14239,21 +14189,6 @@
 <td>playbook_executor</td>
 <td><a href="https://github.com/ansible/ansible/pull/17929">ansible/pull/17929</a></td>
 <td>Restore "skipping: no hosts matched" message</td>
-</tr>
-<tr>
-<td>task_queue_manager</td>
-<td><a href="https://github.com/ansible/ansible/pull/15960">ansible/pull/15960</a></td>
-<td>get rid of temporary hack for v2_playbook_on_start</td>
-</tr>
-<tr>
-<td>task_queue_manager</td>
-<td><a href="https://github.com/ansible/ansible/pull/17987">ansible/pull/17987</a></td>
-<td>Change `v2_playbook_on_start` logic to positively </td>
-</tr>
-<tr>
-<td>task_queue_manager</td>
-<td><a href="https://github.com/ansible/ansible/pull/18194">ansible/pull/18194</a></td>
-<td>task_queue_manager: fix calc of forks when serial </td>
 </tr>
 <tr>
 <td>become</td>
@@ -14391,16 +14326,6 @@
 <td>Ansible module win_unzip donot work on windows ser</td>
 </tr>
 <tr>
-<td>all</td>
-<td><a href="https://github.com/ansible/ansible/issues/18202">ansible/issues/18202</a></td>
-<td>How to loop over hashes having an undefined number</td>
-</tr>
-<tr>
-<td>all</td>
-<td><a href="https://github.com/ansible/ansible/pull/12628">ansible/pull/12628</a></td>
-<td>inventory inheritence: add new parent inventory op</td>
-</tr>
-<tr>
 <td>infoblox</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1757">ansible-modules-extras/pull/1757</a></td>
 <td>Add new infoblox module</td>
@@ -14419,16 +14344,6 @@
 <td>dig</td>
 <td><a href="https://github.com/ansible/ansible/pull/13193">ansible/pull/13193</a></td>
 <td>Allow real addresses as dig lookup argument</td>
-</tr>
-<tr>
-<td>parted</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2518">ansible-modules-extras/pull/2518</a></td>
-<td>Add parted module</td>
-</tr>
-<tr>
-<td>parted</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2971">ansible-modules-extras/pull/2971</a></td>
-<td>Added parted module</td>
 </tr>
 <tr>
 <td>os_stack</td>
@@ -14601,14 +14516,14 @@
 <td>Avahi does not disable properly with systemd on ce</td>
 </tr>
 <tr>
-<td>redshift</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1365">ansible-modules-extras/pull/1365</a></td>
-<td>Add support for AWS Redshift clusters and snapshot</td>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3128">ansible-modules-extras/issues/3128</a></td>
+<td>virtual server rule ... already exists in partitio</td>
 </tr>
 <tr>
-<td>redshift</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
-<td>Amazon Redshift Module - Split Changes Out</td>
+<td>bigip_virtual_server</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3129">ansible-modules-extras/pull/3129</a></td>
+<td>Functionality to have default persistence profile </td>
 </tr>
 <tr>
 <td>docs</td>
@@ -14801,16 +14716,6 @@
 <td>Add support for AWS China region (cn-north-1)</td>
 </tr>
 <tr>
-<td>bigip_selfip</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3000">ansible-modules-extras/issues/3000</a></td>
-<td>bigip_selfip fails when using traffic_group parame</td>
-</tr>
-<tr>
-<td>bigip_selfip</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3272">ansible-modules-extras/pull/3272</a></td>
-<td>Adds route_domain parameter to the selfip module.</td>
-</tr>
-<tr>
 <td>patch</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/434">ansible-modules-extras/issues/434</a></td>
 <td>patch modules doesn't source from files path when </td>
@@ -14831,16 +14736,6 @@
 <td>open_iscsi fails to login when discovery returns m</td>
 </tr>
 <tr>
-<td>win_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5368">ansible-modules-core/issues/5368</a></td>
-<td>Ansible connection is sometimes dropped mid-play o</td>
-</tr>
-<tr>
-<td>win_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2289">ansible-modules-core/pull/2289</a></td>
-<td>Remove redundant conversion to boolean</td>
-</tr>
-<tr>
 <td>homebrew</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1921">ansible-modules-extras/issues/1921</a></td>
 <td>brew bundle support</td>
@@ -14849,6 +14744,16 @@
 <td>homebrew</td>
 <td><a href="https://github.com/ansible/ansible/issues/10740">ansible/issues/10740</a></td>
 <td>ansible 1.9.1 from homebrew on os 10.10.3 -- winrm</td>
+</tr>
+<tr>
+<td>loader</td>
+<td><a href="https://github.com/ansible/ansible/pull/17885">ansible/pull/17885</a></td>
+<td>Allow for namespaced galaxy module calls</td>
+</tr>
+<tr>
+<td>loader</td>
+<td><a href="https://github.com/ansible/ansible/pull/18210">ansible/pull/18210</a></td>
+<td>Move PluginLoader from __init__.py to loader.py</td>
 </tr>
 <tr>
 <td>win_zip</td>
@@ -14949,6 +14854,16 @@
 <td>task</td>
 <td><a href="https://github.com/ansible/ansible/pull/17696">ansible/pull/17696</a></td>
 <td>Set default value for Do-Until loop retries.</td>
+</tr>
+<tr>
+<td>task_queue_manager</td>
+<td><a href="https://github.com/ansible/ansible/pull/15960">ansible/pull/15960</a></td>
+<td>get rid of temporary hack for v2_playbook_on_start</td>
+</tr>
+<tr>
+<td>task_queue_manager</td>
+<td><a href="https://github.com/ansible/ansible/pull/17987">ansible/pull/17987</a></td>
+<td>Change `v2_playbook_on_start` logic to positively </td>
 </tr>
 <tr>
 <td>junos_config</td>
@@ -15146,6 +15061,11 @@
 <td>Adds docker-machine modules</td>
 </tr>
 <tr>
+<td>all</td>
+<td><a href="https://github.com/ansible/ansible/pull/12628">ansible/pull/12628</a></td>
+<td>inventory inheritence: add new parent inventory op</td>
+</tr>
+<tr>
 <td>selinux</td>
 <td><a href="https://github.com/ansible/ansible/issues/16612">ansible/issues/16612</a></td>
 <td>Ansible SELinux fact is misleading</td>
@@ -15236,9 +15156,14 @@
 <td>Parsing error results in ERROR! Unexpected Excepti</td>
 </tr>
 <tr>
-<td>ssh_args</td>
-<td><a href="https://github.com/ansible/ansible/issues/17979">ansible/issues/17979</a></td>
-<td>Path relativity has changed and broken use of path</td>
+<td>ssm_send_command</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3294">ansible-modules-extras/pull/3294</a></td>
+<td>Added cloud/Amazon module for SSM</td>
+</tr>
+<tr>
+<td>parted</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2971">ansible-modules-extras/pull/2971</a></td>
+<td>Added parted module</td>
 </tr>
 <tr>
 <td>ec2_win_password</td>
@@ -15311,11 +15236,6 @@
 <td>vmware_host is not idempotent</td>
 </tr>
 <tr>
-<td>kafka_topics</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/301">ansible-modules-extras/pull/301</a></td>
-<td>Add new module 'kafka_topics'</td>
-</tr>
-<tr>
 <td>redshift_security_group</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/293">ansible-modules-extras/pull/293</a></td>
 <td>aws Redshift Security Group module</td>
@@ -15329,11 +15249,6 @@
 <td>mysql_query</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1593">ansible-modules-extras/pull/1593</a></td>
 <td>Add mysql_query module</td>
-</tr>
-<tr>
-<td>ecs_cluster_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1035">ansible-modules-extras/pull/1035</a></td>
-<td>Ecs cluster module</td>
 </tr>
 <tr>
 <td>portenforce</td>
@@ -15353,7 +15268,7 @@
 <tr>
 <td>vmware_add_hdd</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1837">ansible-modules-extras/pull/1837</a></td>
-<td>Added the vmware_add_hdd module. This module enabl</td>
+<td>[WIP] Added the vmware_add_hdd module. This module</td>
 </tr>
 <tr>
 <td>dimensiondata_disk</td>
@@ -15421,11 +15336,6 @@
 <td>upcloud inventory script</td>
 </tr>
 <tr>
-<td>sns</td>
-<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
-<td>Amazon SNS module doesnt show up in cloud modules </td>
-</tr>
-<tr>
 <td>sorcery</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1040">ansible-modules-extras/pull/1040</a></td>
 <td>Source Mage GNU/Linux package manager support</td>
@@ -15481,11 +15391,6 @@
 <td>Create mongo.py</td>
 </tr>
 <tr>
-<td>pagerduty_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/897">ansible-modules-extras/pull/897</a></td>
-<td>New module: pagerduty_service</td>
-</tr>
-<tr>
 <td>attribute</td>
 <td><a href="https://github.com/ansible/ansible/pull/15106">ansible/pull/15106</a></td>
 <td>check required and default in py code</td>
@@ -15499,11 +15404,6 @@
 <td>yarn</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3199">ansible-modules-extras/pull/3199</a></td>
 <td>Add Yarn module</td>
-</tr>
-<tr>
-<td>serial</td>
-<td><a href="https://github.com/ansible/ansible/issues/18191">ansible/issues/18191</a></td>
-<td>serial with % groups task per host</td>
 </tr>
 <tr>
 <td>digital_ocean_tag</td>
@@ -15566,9 +15466,9 @@
 <td>New facts module for AWS EC2 VPC Endpoints</td>
 </tr>
 <tr>
-<td>win_ping</td>
-<td><a href="https://github.com/ansible/ansible/issues/18066">ansible/issues/18066</a></td>
-<td>Failed to delegate a task to a Windows server on a</td>
+<td>sns</td>
+<td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
+<td>Amazon SNS module doesnt show up in cloud modules </td>
 </tr>
 <tr>
 <td>os_object</td>
@@ -15611,14 +15511,9 @@
 <td>choose a random filename for the remote module fil</td>
 </tr>
 <tr>
-<td>ecs_taskdefinition_facts</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1036">ansible-modules-extras/pull/1036</a></td>
-<td>Ecs taskdefinition module</td>
-</tr>
-<tr>
-<td>gathering_facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18168">ansible/pull/18168</a></td>
-<td>Fix fact gathering intg test asserts</td>
+<td>os_keystone_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5250">ansible-modules-core/issues/5250</a></td>
+<td>OpenStack modules don't work with cloud specified </td>
 </tr>
 <tr>
 <td>elasticache_tag</td>
@@ -15649,6 +15544,11 @@
 <td>tempfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2991">ansible-modules-extras/pull/2991</a></td>
 <td>tempfile module</td>
+</tr>
+<tr>
+<td>redshift</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
+<td>Amazon Redshift Module - Split Changes Out</td>
 </tr>
 <tr>
 <td>brook</td>
@@ -15846,6 +15746,11 @@
 <td>Added new module opendj_globalconfiguration for up</td>
 </tr>
 <tr>
+<td>ssh_args</td>
+<td><a href="https://github.com/ansible/ansible/issues/17979">ansible/issues/17979</a></td>
+<td>Path relativity has changed and broken use of path</td>
+</tr>
+<tr>
 <td>ec2_direct_connect_vif_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2013">ansible-modules-extras/pull/2013</a></td>
 <td>New AWS module for ec2 direct connect virtual inte</td>
@@ -15926,11 +15831,6 @@
 <td>Pear module not verbose enough while failing</td>
 </tr>
 <tr>
-<td>bigip_sys_global</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3271">ansible-modules-extras/pull/3271</a></td>
-<td>Adds bigip_sys_global module</td>
-</tr>
-<tr>
 <td>eos_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4794">ansible-modules-core/pull/4794</a></td>
 <td>Return type 'string', not 'str'</td>
@@ -16006,11 +15906,6 @@
 <td>Add  dynamic Ansible inventory, based on informati</td>
 </tr>
 <tr>
-<td>gke</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1264">ansible-modules-extras/pull/1264</a></td>
-<td>Google Container Engine cluster management module</td>
-</tr>
-<tr>
 <td>service_stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4555">ansible-modules-core/issues/4555</a></td>
 <td>please create new module service_stat</td>
@@ -16029,11 +15924,6 @@
 <td>elasticsearch_shield_role</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2529">ansible-modules-extras/pull/2529</a></td>
 <td>Add elasticseach shield role module</td>
-</tr>
-<tr>
-<td>os_keystone_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5250">ansible-modules-core/issues/5250</a></td>
-<td>OpenStack modules don't work with cloud specified </td>
 </tr>
 <tr>
 <td>rhv</td>
@@ -16101,11 +15991,6 @@
 <td>Add new apache2 configuration module</td>
 </tr>
 <tr>
-<td>vscale_scalets</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1386">ansible-modules-extras/pull/1386</a></td>
-<td>Added modules for manage scalets and SSH keys in V</td>
-</tr>
-<tr>
 <td>firehose</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2567">ansible-modules-extras/pull/2567</a></td>
 <td>Amazon Firehose Module - Split Changes Out</td>
@@ -16156,6 +16041,11 @@
 <td>Hiera new module added, to parse and use hiera var</td>
 </tr>
 <tr>
+<td>bigip_selfip</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3000">ansible-modules-extras/issues/3000</a></td>
+<td>bigip_selfip fails when using traffic_group parame</td>
+</tr>
+<tr>
 <td>vm_disk</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4249">ansible-modules-core/issues/4249</a></td>
 <td>vsphere_guest Error in vm_disk definition.</td>
@@ -16174,11 +16064,6 @@
 <td>elasticsearch_shield_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2528">ansible-modules-extras/pull/2528</a></td>
 <td>Add elasticseach shield user module</td>
-</tr>
-<tr>
-<td>openssl_csr</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2341">ansible-modules-extras/pull/2341</a></td>
-<td>network: Add new module openssl_csr</td>
 </tr>
 <tr>
 <td>dimensiondata</td>
@@ -16399,16 +16284,6 @@
 <td>group_vars</td>
 <td><a href="https://github.com/ansible/ansible/pull/18128">ansible/pull/18128</a></td>
 <td>group_vars: host_vars: warn for non-yaml files in </td>
-</tr>
-<tr>
-<td>openvz_exec</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/958">ansible-modules-extras/pull/958</a></td>
-<td>New modules: openvz, openvz_exec</td>
-</tr>
-<tr>
-<td>loader</td>
-<td><a href="https://github.com/ansible/ansible/pull/17885">ansible/pull/17885</a></td>
-<td>Allow for namespaced galaxy module calls</td>
 </tr>
 <tr>
 <td>ec2_vpc_net_facts</td>
@@ -17193,7 +17068,7 @@
 <tr>
 <td>gcdataproc</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3293">ansible-modules-extras/pull/3293</a></td>
-<td>Gcdataproc</td>
+<td>gcdataproc module PR: Interact with Google Datapro</td>
 </tr>
 <tr>
 <td>gitlab_tag</td>
