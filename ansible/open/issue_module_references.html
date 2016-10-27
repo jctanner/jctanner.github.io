@@ -10976,6 +10976,51 @@
 <td>Permit to query a proxmox with invalid certificate</td>
 </tr>
 <tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
+<td>script module should support templating</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5340">ansible-modules-core/issues/5340</a></td>
+<td>WebException Unable to unzip package using built-i</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5410">ansible-modules-core/issues/5410</a></td>
+<td>Confuse ansible output executing script module ( i</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
+<td>Add fetch, raw, script and slurp in the Windows ca</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/14151">ansible/issues/14151</a></td>
+<td>Ansible 2.0.0.2 : "ERROR! file or module does not </td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15415">ansible/issues/15415</a></td>
+<td>WinRM Raw/Script module not executing powershell s</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15430">ansible/issues/15430</a></td>
+<td>script module should have an optional stdin parame</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/16046">ansible/issues/16046</a></td>
+<td>Ansible lost tmp dir when run script module</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
+<td>Split script module `free_form` parameter into `pa</td>
+</tr>
+<tr>
 <td>include_vars</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5204">ansible-modules-core/issues/5204</a></td>
 <td>include_vars - Unexpected failure during module ex</td>
@@ -11449,46 +11494,6 @@
 <td>apt_repository</td>
 <td><a href="https://github.com/ansible/ansible/pull/16690">ansible/pull/16690</a></td>
 <td>Add intg for apt_repo's mode argument.</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
-<td>script module should support templating</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5340">ansible-modules-core/issues/5340</a></td>
-<td>WebException Unable to unzip package using built-i</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
-<td>Add fetch, raw, script and slurp in the Windows ca</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/14151">ansible/issues/14151</a></td>
-<td>Ansible 2.0.0.2 : "ERROR! file or module does not </td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15415">ansible/issues/15415</a></td>
-<td>WinRM Raw/Script module not executing powershell s</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15430">ansible/issues/15430</a></td>
-<td>script module should have an optional stdin parame</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/16046">ansible/issues/16046</a></td>
-<td>Ansible lost tmp dir when run script module</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
-<td>Split script module `free_form` parameter into `pa</td>
 </tr>
 <tr>
 <td>mysql_db</td>
@@ -12756,6 +12761,31 @@
 <td>module_utils/vmware: added find_datastore_by_name </td>
 </tr>
 <tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
+<td>include_role does not support tags</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5408">ansible-modules-core/issues/5408</a></td>
+<td>include_role : troubleshooting passing variable</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5409">ansible-modules-core/issues/5409</a></td>
+<td>include_role: privilege escalation (nested role)</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/18124">ansible/issues/18124</a></td>
+<td>include_role role does not work with `when:` if co</td>
+</tr>
+<tr>
+<td>include_role</td>
+<td><a href="https://github.com/ansible/ansible/issues/18140">ansible/issues/18140</a></td>
+<td>Handlers from roles included with include_role mod</td>
+</tr>
+<tr>
 <td>docker_image</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5161">ansible-modules-core/issues/5161</a></td>
 <td>docker_image not showing build output</td>
@@ -13831,21 +13861,6 @@
 <td>New security group facts module [was PR #1908]</td>
 </tr>
 <tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5077">ansible-modules-core/issues/5077</a></td>
-<td>include_role does not support tags</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/18124">ansible/issues/18124</a></td>
-<td>include_role role does not work with `when:` if co</td>
-</tr>
-<tr>
-<td>include_role</td>
-<td><a href="https://github.com/ansible/ansible/issues/18140">ansible/issues/18140</a></td>
-<td>Handlers from roles included with include_role mod</td>
-</tr>
-<tr>
 <td>fetch</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3375">ansible-modules-core/issues/3375</a></td>
 <td>Fetch Silently Fails To Fetch File</td>
@@ -13859,21 +13874,6 @@
 <td>fetch</td>
 <td><a href="https://github.com/ansible/ansible/issues/14378">ansible/issues/14378</a></td>
 <td>fetch module doesn't fail if remote file is missin</td>
-</tr>
-<tr>
-<td>win_nssm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2646">ansible-modules-extras/issues/2646</a></td>
-<td>win_nssm idempodence problems</td>
-</tr>
-<tr>
-<td>win_nssm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2867">ansible-modules-extras/pull/2867</a></td>
-<td>Detect and correct PowerShell mishandling nssm Uni</td>
-</tr>
-<tr>
-<td>win_nssm</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3267">ansible-modules-extras/pull/3267</a></td>
-<td>set application directory on change of application</td>
 </tr>
 <tr>
 <td>docker_login</td>
@@ -14144,21 +14144,6 @@
 <td>requirement</td>
 <td><a href="https://github.com/ansible/ansible/pull/15160">ansible/pull/15160</a></td>
 <td>Fix clone of specific SCM version</td>
-</tr>
-<tr>
-<td>win_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5368">ansible-modules-core/issues/5368</a></td>
-<td>Ansible connection is sometimes dropped mid-play o</td>
-</tr>
-<tr>
-<td>win_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5391">ansible-modules-core/issues/5391</a></td>
-<td>win_user module check mode always returns skipping</td>
-</tr>
-<tr>
-<td>win_user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2289">ansible-modules-core/pull/2289</a></td>
-<td>Remove redundant conversion to boolean</td>
 </tr>
 <tr>
 <td>color</td>
@@ -14444,6 +14429,16 @@
 <td>win_get_url</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4901">ansible-modules-core/issues/4901</a></td>
 <td>win_get_url: adding checksum, backup options</td>
+</tr>
+<tr>
+<td>win_nssm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2646">ansible-modules-extras/issues/2646</a></td>
+<td>win_nssm idempodence problems</td>
+</tr>
+<tr>
+<td>win_nssm</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2867">ansible-modules-extras/pull/2867</a></td>
+<td>Detect and correct PowerShell mishandling nssm Uni</td>
 </tr>
 <tr>
 <td>ufw</td>
@@ -14784,6 +14779,16 @@
 <td>open_iscsi</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2137">ansible-modules-extras/issues/2137</a></td>
 <td>open_iscsi fails to login when discovery returns m</td>
+</tr>
+<tr>
+<td>win_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5368">ansible-modules-core/issues/5368</a></td>
+<td>Ansible connection is sometimes dropped mid-play o</td>
+</tr>
+<tr>
+<td>win_user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2289">ansible-modules-core/pull/2289</a></td>
+<td>Remove redundant conversion to boolean</td>
 </tr>
 <tr>
 <td>homebrew</td>
