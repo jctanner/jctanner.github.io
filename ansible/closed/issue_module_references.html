@@ -48952,6 +48952,11 @@
 </tr>
 <tr>
 <td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5396">ansible-modules-core/issues/5396</a></td>
+<td>Yum ignores notify handlers</td>
+</tr>
+<tr>
+<td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/786">ansible-modules-core/issues/786</a></td>
 <td>Bug report: on RH5, yum module thinks a package is</td>
 </tr>
@@ -64341,6 +64346,501 @@
 <td>cron module: add enviroment variables management</td>
 </tr>
 <tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/issues/17850">ansible/issues/17850</a></td>
+<td>type=int in AnsibleModule triggers traceback</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/issues/18160">ansible/issues/18160</a></td>
+<td>Atomic_move issue on python3 with /tmp on tmpfs</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10035">ansible/pull/10035</a></td>
+<td>Adds seconds to backup timestamp</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10178">ansible/pull/10178</a></td>
+<td>Obfuscate passwords in a variety of output</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10258">ansible/pull/10258</a></td>
+<td>Fix umask calculation on file creation. Fixes #102</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10518">ansible/pull/10518</a></td>
+<td>Port #10258 to v2</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10593">ansible/pull/10593</a></td>
+<td>capture IOErrors on backup_local (happens on non p</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10629">ansible/pull/10629</a></td>
+<td>backup_local now only tries to back up exising fil</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10765">ansible/pull/10765</a></td>
+<td>Makes AnsibleModule.fail_json() write to stderr</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10851">ansible/pull/10851</a></td>
+<td>In reference to Issue #10850.  This passes the cur</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10914">ansible/pull/10914</a></td>
+<td>hack to prevent tempalte/copy errors on vagrant sy</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11004">ansible/pull/11004</a></td>
+<td>Permit logging of all commands executed/shelled</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11032">ansible/pull/11032</a></td>
+<td>basic: fix ValueError if value of a type='int' is </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11076">ansible/pull/11076</a></td>
+<td>module_utils.basic: set LC_ALL=C in command_run()</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11307">ansible/pull/11307</a></td>
+<td>Change syslog (priority) level from LOG_NOTICE to </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11420">ansible/pull/11420</a></td>
+<td>Refactor the argspec type checking and add path as</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11590">ansible/pull/11590</a></td>
+<td>Fixing bug #1655</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/11840">ansible/pull/11840</a></td>
+<td>Add get_available_hash_algorithms()</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12487">ansible/pull/12487</a></td>
+<td>Fix one more failing test on Python 3</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12568">ansible/pull/12568</a></td>
+<td>Python 3: fix most tests for ansible.module_utils.</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12587">ansible/pull/12587</a></td>
+<td>Python 3: don't pass byte strings to syslog/journa</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12614">ansible/pull/12614</a></td>
+<td>AnsibleModules.log() fix for python3</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12830">ansible/pull/12830</a></td>
+<td>Fixes #11055 - Set locale via LC_ALL</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12846">ansible/pull/12846</a></td>
+<td>Hide values in json returns which were given in pa</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13171">ansible/pull/13171</a></td>
+<td>backport fix for ignoring errors produced by non p</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13373">ansible/pull/13373</a></td>
+<td>BOOLEAN should contain boolean literals</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13464">ansible/pull/13464</a></td>
+<td>Add uppercase True/False to BOOLEANS</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13639">ansible/pull/13639</a></td>
+<td>Also convert ints to bool for type=bool</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13648">ansible/pull/13648</a></td>
+<td>better module error handling</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13651">ansible/pull/13651</a></td>
+<td>Fix last commit, make it python3 compatible</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13678">ansible/pull/13678</a></td>
+<td>fix for datetime exception in ecs_tasks</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14025">ansible/pull/14025</a></td>
+<td>rework run_command's env setting to not change os.</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14191">ansible/pull/14191</a></td>
+<td>Added hyphen (-) as a valid character for permissi</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14306">ansible/pull/14306</a></td>
+<td>Double import tempfile, remove one</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14317">ansible/pull/14317</a></td>
+<td>module_utils/basic: add generic method for checkin</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14417">ansible/pull/14417</a></td>
+<td>Module params should default to str in most cases.</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14477">ansible/pull/14477</a></td>
+<td>Fix related to  #13981</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14639">ansible/pull/14639</a></td>
+<td>Fixed bug in find_mount_point function</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14656">ansible/pull/14656</a></td>
+<td>Fix bug 14634: symbolic permissions causes error</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14769">ansible/pull/14769</a></td>
+<td>Ensure provided mode is compared on equal grounds </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14770">ansible/pull/14770</a></td>
+<td>Ensure provided mode is compared on equal grounds </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14795">ansible/pull/14795</a></td>
+<td>Fix: #14771</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15112">ansible/pull/15112</a></td>
+<td>Small comment improvement in AnsibleModule class</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15337">ansible/pull/15337</a></td>
+<td>Guard against a shell profile printing extraneous </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15419">ansible/pull/15419</a></td>
+<td>add _load_params debug overrides for module args/f</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15674">ansible/pull/15674</a></td>
+<td>Remove the ziploader provided pythonpaths from the</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15701">ansible/pull/15701</a></td>
+<td>Add a jsonarg type to arg spec</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15845">ansible/pull/15845</a></td>
+<td>Ship constants to the modules via internal module </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15847">ansible/pull/15847</a></td>
+<td>Improve the reporting related to module errors</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15913">ansible/pull/15913</a></td>
+<td>Make load_params into a function that custom modul</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/15953">ansible/pull/15953</a></td>
+<td>Add SEQUENCETYPE to handle the dict_keys type</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16012">ansible/pull/16012</a></td>
+<td>Modules: check for list-like choices in arg spec</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16087">ansible/pull/16087</a></td>
+<td>Give a module the possibility to known its own nam</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16240">ansible/pull/16240</a></td>
+<td>Make sure we don't end up with an empty PYTHONPATH</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16961">ansible/pull/16961</a></td>
+<td>YAML treats some unquoted strings as booleans. For</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17102">ansible/pull/17102</a></td>
+<td>added bits and bytes arg types</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17158">ansible/pull/17158</a></td>
+<td>Cleanup basic.py code now that six is available</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17184">ansible/pull/17184</a></td>
+<td>Give native strings to selinux library functions.</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17224">ansible/pull/17224</a></td>
+<td>Fix get_distribution for Alpine Linux</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17257">ansible/pull/17257</a></td>
+<td>Fix for run_command on py3 and enable lineinfile t</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17271">ansible/pull/17271</a></td>
+<td>Python3 fixes and porting</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17272">ansible/pull/17272</a></td>
+<td>Simple documentation typo fix, 'iIf' to 'If'</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17274">ansible/pull/17274</a></td>
+<td>make module argument type conversion more flexible</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17325">ansible/pull/17325</a></td>
+<td>For module parameter checking, allow conversion of</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17365">ansible/pull/17365</a></td>
+<td>We now have an exception return value.  Make use o</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17405">ansible/pull/17405</a></td>
+<td>fixes issue #13981: unsafe_writes block appeared t</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17658">ansible/pull/17658</a></td>
+<td>fixed mode conversion on python3 to behave as on p</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17742">ansible/pull/17742</a></td>
+<td>Add a umask argument to run_command</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17864">ansible/pull/17864</a></td>
+<td>Make 'setup'/facts.py not crash on py3</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17881">ansible/pull/17881</a></td>
+<td>Make run_command return native strings</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/4966">ansible/pull/4966</a></td>
+<td>cope with old json modules with no dumps</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/5122">ansible/pull/5122</a></td>
+<td>Make first argument to syslog.openlog be a string</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/5594">ansible/pull/5594</a></td>
+<td>Allow float as an argument type in AnsibleModule</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6046">ansible/pull/6046</a></td>
+<td>Avoid breaking on unicode input when logging to sy</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6084">ansible/pull/6084</a></td>
+<td>Fix mistaken double backslash</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6451">ansible/pull/6451</a></td>
+<td>Work around for cwd stat problems with run_command</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6496">ansible/pull/6496</a></td>
+<td>Imply +x permissions on readable directories by de</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6537">ansible/pull/6537</a></td>
+<td>Galaxy CLI requirements file improvements</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6593">ansible/pull/6593</a></td>
+<td>Atomic move restore owner group rebase</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6679">ansible/pull/6679</a></td>
+<td>Fix TypeError when using old simplejson lib.</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6828">ansible/pull/6828</a></td>
+<td>Fix issue #6812: directory_mode does not work</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/6958">ansible/pull/6958</a></td>
+<td>Add python bools with casing</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/7196">ansible/pull/7196</a></td>
+<td>New files inaccessible (0600)</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/7546">ansible/pull/7546</a></td>
+<td>Added the cwd argument in command failures</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/7609">ansible/pull/7609</a></td>
+<td>Support checking for su user to atomic_move</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/7748">ansible/pull/7748</a></td>
+<td>fix for dnssec-tools install, fixes #7452</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8087">ansible/pull/8087</a></td>
+<td>Fix hostname when get_distribution_version() retur</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8364">ansible/pull/8364</a></td>
+<td>Logging of module invocation for huge datasets to </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8488">ansible/pull/8488</a></td>
+<td>Keep docstring up to date with the code in basic m</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8624">ansible/pull/8624</a></td>
+<td>atomic_move() only works as root (edit:  "sometime</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8679">ansible/pull/8679</a></td>
+<td>Add support for Arch to module_utils.basic.py</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/8790">ansible/pull/8790</a></td>
+<td>Don't use ternary if statements. Fixes #8784</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9379">ansible/pull/9379</a></td>
+<td>Preserve backup files</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9423">ansible/pull/9423</a></td>
+<td>Add required_if to AnsibleModule</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9565">ansible/pull/9565</a></td>
+<td>Fix file mode calculation</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9591">ansible/pull/9591</a></td>
+<td>Use full timestamp so backups during the same minu</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9878">ansible/pull/9878</a></td>
+<td>Handle quoting of values in dict parameters</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9883">ansible/pull/9883</a></td>
+<td>Let module params to have default values taken fro</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/9887">ansible/pull/9887</a></td>
+<td>Use send instead of sendv on the systemd.journal (</td>
+</tr>
+<tr>
 <td>hostname</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1142">ansible-modules-core/issues/1142</a></td>
 <td>hostname module errors on systemd hosts when hostn</td>
@@ -65324,496 +65824,6 @@
 <td>constants</td>
 <td><a href="https://github.com/ansible/ansible/pull/9808">ansible/pull/9808</a></td>
 <td>Fix: Add support for SSL protocol version configur</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/issues/17850">ansible/issues/17850</a></td>
-<td>type=int in AnsibleModule triggers traceback</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10035">ansible/pull/10035</a></td>
-<td>Adds seconds to backup timestamp</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10178">ansible/pull/10178</a></td>
-<td>Obfuscate passwords in a variety of output</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10258">ansible/pull/10258</a></td>
-<td>Fix umask calculation on file creation. Fixes #102</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10518">ansible/pull/10518</a></td>
-<td>Port #10258 to v2</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10593">ansible/pull/10593</a></td>
-<td>capture IOErrors on backup_local (happens on non p</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10629">ansible/pull/10629</a></td>
-<td>backup_local now only tries to back up exising fil</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10765">ansible/pull/10765</a></td>
-<td>Makes AnsibleModule.fail_json() write to stderr</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10851">ansible/pull/10851</a></td>
-<td>In reference to Issue #10850.  This passes the cur</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10914">ansible/pull/10914</a></td>
-<td>hack to prevent tempalte/copy errors on vagrant sy</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11004">ansible/pull/11004</a></td>
-<td>Permit logging of all commands executed/shelled</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11032">ansible/pull/11032</a></td>
-<td>basic: fix ValueError if value of a type='int' is </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11076">ansible/pull/11076</a></td>
-<td>module_utils.basic: set LC_ALL=C in command_run()</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11307">ansible/pull/11307</a></td>
-<td>Change syslog (priority) level from LOG_NOTICE to </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11420">ansible/pull/11420</a></td>
-<td>Refactor the argspec type checking and add path as</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11590">ansible/pull/11590</a></td>
-<td>Fixing bug #1655</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/11840">ansible/pull/11840</a></td>
-<td>Add get_available_hash_algorithms()</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12487">ansible/pull/12487</a></td>
-<td>Fix one more failing test on Python 3</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12568">ansible/pull/12568</a></td>
-<td>Python 3: fix most tests for ansible.module_utils.</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12587">ansible/pull/12587</a></td>
-<td>Python 3: don't pass byte strings to syslog/journa</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12614">ansible/pull/12614</a></td>
-<td>AnsibleModules.log() fix for python3</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12830">ansible/pull/12830</a></td>
-<td>Fixes #11055 - Set locale via LC_ALL</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12846">ansible/pull/12846</a></td>
-<td>Hide values in json returns which were given in pa</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13171">ansible/pull/13171</a></td>
-<td>backport fix for ignoring errors produced by non p</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13373">ansible/pull/13373</a></td>
-<td>BOOLEAN should contain boolean literals</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13464">ansible/pull/13464</a></td>
-<td>Add uppercase True/False to BOOLEANS</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13639">ansible/pull/13639</a></td>
-<td>Also convert ints to bool for type=bool</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13648">ansible/pull/13648</a></td>
-<td>better module error handling</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13651">ansible/pull/13651</a></td>
-<td>Fix last commit, make it python3 compatible</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13678">ansible/pull/13678</a></td>
-<td>fix for datetime exception in ecs_tasks</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14025">ansible/pull/14025</a></td>
-<td>rework run_command's env setting to not change os.</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14191">ansible/pull/14191</a></td>
-<td>Added hyphen (-) as a valid character for permissi</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14306">ansible/pull/14306</a></td>
-<td>Double import tempfile, remove one</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14317">ansible/pull/14317</a></td>
-<td>module_utils/basic: add generic method for checkin</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14417">ansible/pull/14417</a></td>
-<td>Module params should default to str in most cases.</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14477">ansible/pull/14477</a></td>
-<td>Fix related to  #13981</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14639">ansible/pull/14639</a></td>
-<td>Fixed bug in find_mount_point function</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14656">ansible/pull/14656</a></td>
-<td>Fix bug 14634: symbolic permissions causes error</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14769">ansible/pull/14769</a></td>
-<td>Ensure provided mode is compared on equal grounds </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14770">ansible/pull/14770</a></td>
-<td>Ensure provided mode is compared on equal grounds </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14795">ansible/pull/14795</a></td>
-<td>Fix: #14771</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15112">ansible/pull/15112</a></td>
-<td>Small comment improvement in AnsibleModule class</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15337">ansible/pull/15337</a></td>
-<td>Guard against a shell profile printing extraneous </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15419">ansible/pull/15419</a></td>
-<td>add _load_params debug overrides for module args/f</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15674">ansible/pull/15674</a></td>
-<td>Remove the ziploader provided pythonpaths from the</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15701">ansible/pull/15701</a></td>
-<td>Add a jsonarg type to arg spec</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15845">ansible/pull/15845</a></td>
-<td>Ship constants to the modules via internal module </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15847">ansible/pull/15847</a></td>
-<td>Improve the reporting related to module errors</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15913">ansible/pull/15913</a></td>
-<td>Make load_params into a function that custom modul</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/15953">ansible/pull/15953</a></td>
-<td>Add SEQUENCETYPE to handle the dict_keys type</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16012">ansible/pull/16012</a></td>
-<td>Modules: check for list-like choices in arg spec</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16087">ansible/pull/16087</a></td>
-<td>Give a module the possibility to known its own nam</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16240">ansible/pull/16240</a></td>
-<td>Make sure we don't end up with an empty PYTHONPATH</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16961">ansible/pull/16961</a></td>
-<td>YAML treats some unquoted strings as booleans. For</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17102">ansible/pull/17102</a></td>
-<td>added bits and bytes arg types</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17158">ansible/pull/17158</a></td>
-<td>Cleanup basic.py code now that six is available</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17184">ansible/pull/17184</a></td>
-<td>Give native strings to selinux library functions.</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17224">ansible/pull/17224</a></td>
-<td>Fix get_distribution for Alpine Linux</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17257">ansible/pull/17257</a></td>
-<td>Fix for run_command on py3 and enable lineinfile t</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17271">ansible/pull/17271</a></td>
-<td>Python3 fixes and porting</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17272">ansible/pull/17272</a></td>
-<td>Simple documentation typo fix, 'iIf' to 'If'</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17274">ansible/pull/17274</a></td>
-<td>make module argument type conversion more flexible</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17325">ansible/pull/17325</a></td>
-<td>For module parameter checking, allow conversion of</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17365">ansible/pull/17365</a></td>
-<td>We now have an exception return value.  Make use o</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17405">ansible/pull/17405</a></td>
-<td>fixes issue #13981: unsafe_writes block appeared t</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17658">ansible/pull/17658</a></td>
-<td>fixed mode conversion on python3 to behave as on p</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17742">ansible/pull/17742</a></td>
-<td>Add a umask argument to run_command</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17864">ansible/pull/17864</a></td>
-<td>Make 'setup'/facts.py not crash on py3</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17881">ansible/pull/17881</a></td>
-<td>Make run_command return native strings</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/4966">ansible/pull/4966</a></td>
-<td>cope with old json modules with no dumps</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/5122">ansible/pull/5122</a></td>
-<td>Make first argument to syslog.openlog be a string</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/5594">ansible/pull/5594</a></td>
-<td>Allow float as an argument type in AnsibleModule</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6046">ansible/pull/6046</a></td>
-<td>Avoid breaking on unicode input when logging to sy</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6084">ansible/pull/6084</a></td>
-<td>Fix mistaken double backslash</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6451">ansible/pull/6451</a></td>
-<td>Work around for cwd stat problems with run_command</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6496">ansible/pull/6496</a></td>
-<td>Imply +x permissions on readable directories by de</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6537">ansible/pull/6537</a></td>
-<td>Galaxy CLI requirements file improvements</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6593">ansible/pull/6593</a></td>
-<td>Atomic move restore owner group rebase</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6679">ansible/pull/6679</a></td>
-<td>Fix TypeError when using old simplejson lib.</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6828">ansible/pull/6828</a></td>
-<td>Fix issue #6812: directory_mode does not work</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/6958">ansible/pull/6958</a></td>
-<td>Add python bools with casing</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/7196">ansible/pull/7196</a></td>
-<td>New files inaccessible (0600)</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/7546">ansible/pull/7546</a></td>
-<td>Added the cwd argument in command failures</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/7609">ansible/pull/7609</a></td>
-<td>Support checking for su user to atomic_move</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/7748">ansible/pull/7748</a></td>
-<td>fix for dnssec-tools install, fixes #7452</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8087">ansible/pull/8087</a></td>
-<td>Fix hostname when get_distribution_version() retur</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8364">ansible/pull/8364</a></td>
-<td>Logging of module invocation for huge datasets to </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8488">ansible/pull/8488</a></td>
-<td>Keep docstring up to date with the code in basic m</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8624">ansible/pull/8624</a></td>
-<td>atomic_move() only works as root (edit:  "sometime</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8679">ansible/pull/8679</a></td>
-<td>Add support for Arch to module_utils.basic.py</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/8790">ansible/pull/8790</a></td>
-<td>Don't use ternary if statements. Fixes #8784</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9379">ansible/pull/9379</a></td>
-<td>Preserve backup files</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9423">ansible/pull/9423</a></td>
-<td>Add required_if to AnsibleModule</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9565">ansible/pull/9565</a></td>
-<td>Fix file mode calculation</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9591">ansible/pull/9591</a></td>
-<td>Use full timestamp so backups during the same minu</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9878">ansible/pull/9878</a></td>
-<td>Handle quoting of values in dict parameters</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9883">ansible/pull/9883</a></td>
-<td>Let module params to have default values taken fro</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/9887">ansible/pull/9887</a></td>
-<td>Use send instead of sendv on the systemd.journal (</td>
 </tr>
 <tr>
 <td>gce</td>
@@ -107616,6 +107626,36 @@
 <td>lldp support in Ansible</td>
 </tr>
 <tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/11609">ansible/pull/11609</a></td>
+<td>Fix #11369 A result is skipped when all it's child</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/12926">ansible/pull/12926</a></td>
+<td>Dict key overwrite warning</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/15717">ansible/pull/15717</a></td>
+<td>Don't assume a task with non-dict loop results has</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/16766">ansible/pull/16766</a></td>
+<td>task_result _check_key should handle empty results</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
+<td>Update fail behavior for with_items (#16597)</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/18214">ansible/pull/18214</a></td>
+<td>iterate through task results only if the key is no</td>
+</tr>
+<tr>
 <td>nxos_switchport</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4082">ansible-modules-core/issues/4082</a></td>
 <td>nxos_switchport not configuring trunk ports proper</td>
@@ -109104,31 +109144,6 @@
 <td>azure_rm_storageaccount</td>
 <td><a href="https://github.com/ansible/ansible/issues/17949">ansible/issues/17949</a></td>
 <td>azure_rm_storageaccount throws error</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/11609">ansible/pull/11609</a></td>
-<td>Fix #11369 A result is skipped when all it's child</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/12926">ansible/pull/12926</a></td>
-<td>Dict key overwrite warning</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/15717">ansible/pull/15717</a></td>
-<td>Don't assume a task with non-dict loop results has</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/16766">ansible/pull/16766</a></td>
-<td>task_result _check_key should handle empty results</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/16774">ansible/pull/16774</a></td>
-<td>Update fail behavior for with_items (#16597)</td>
 </tr>
 <tr>
 <td>csvfile</td>
@@ -114261,6 +114276,16 @@
 <td>Add Tidy module</td>
 </tr>
 <tr>
+<td>atomic_move</td>
+<td><a href="https://github.com/ansible/ansible/issues/17260">ansible/issues/17260</a></td>
+<td>Evaluate fix for "Text file busy" exception in ato</td>
+</tr>
+<tr>
+<td>atomic_move</td>
+<td><a href="https://github.com/ansible/ansible/pull/18212">ansible/pull/18212</a></td>
+<td>Add hint that python3 might be too old</td>
+</tr>
+<tr>
 <td>db2</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/534">ansible-modules-extras/pull/534</a></td>
 <td>Add db2 modules</td>
@@ -114839,11 +114864,6 @@
 <td>ec2_run_instance</td>
 <td><a href="https://github.com/ansible/ansible/pull/1446">ansible/pull/1446</a></td>
 <td>ec2_run_instances</td>
-</tr>
-<tr>
-<td>openssl_csr</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2341">ansible-modules-extras/pull/2341</a></td>
-<td>network: Add new module openssl_csr</td>
 </tr>
 <tr>
 <td>emr</td>
@@ -116406,6 +116426,11 @@
 <td>Feature udm dns record</td>
 </tr>
 <tr>
+<td>openssl_privatekey</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2326">ansible-modules-extras/pull/2326</a></td>
+<td>network: Add new module openssl_privatekey</td>
+</tr>
+<tr>
 <td>rcopy</td>
 <td><a href="https://github.com/ansible/ansible/pull/1809">ansible/pull/1809</a></td>
 <td>Add rcopy module to handle recursive copying.</td>
@@ -116974,11 +116999,6 @@
 <td>cloudstack_iso</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/349">ansible-modules-extras/pull/349</a></td>
 <td>cloudstack: add new module cloudstack_iso</td>
-</tr>
-<tr>
-<td>atomic_move</td>
-<td><a href="https://github.com/ansible/ansible/issues/17260">ansible/issues/17260</a></td>
-<td>Evaluate fix for "Text file busy" exception in ato</td>
 </tr>
 <tr>
 <td>loop_control</td>
