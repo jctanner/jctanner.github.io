@@ -462,11 +462,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/11571">ansible/issues/11571</a></td>
-<td>[feature request] change|success|failed on plays</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/11594">ansible/issues/11594</a></td>
 <td>File lookup fails in a template when reading binar</td>
 </tr>
@@ -4567,6 +4562,11 @@
 </tr>
 <tr>
 <td>ec2</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3303">ansible-modules-extras/pull/3303</a></td>
+<td>Add Ansible modules for NetApp cDOT.</td>
+</tr>
+<tr>
+<td>ec2</td>
 <td><a href="https://github.com/ansible/ansible/issues/10840">ansible/issues/10840</a></td>
 <td>EC2 inventory script (ec2.py) needs better error m</td>
 </tr>
@@ -5907,6 +5907,11 @@
 </tr>
 <tr>
 <td>yum</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5396">ansible-modules-core/issues/5396</a></td>
+<td>Yum ignores notify handlers</td>
+</tr>
+<tr>
+<td>yum</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/1666">ansible-modules-core/pull/1666</a></td>
 <td>yum: refactoring working with yum groups</td>
 </tr>
@@ -6064,6 +6069,11 @@
 <td>setup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5344">ansible-modules-core/issues/5344</a></td>
 <td>setup module ansible variables for AIX client miss</td>
+</tr>
+<tr>
+<td>setup</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5403">ansible-modules-core/issues/5403</a></td>
+<td>ipv4_secondaries displays duplicate information</td>
 </tr>
 <tr>
 <td>setup</td>
@@ -7922,6 +7932,11 @@
 </tr>
 <tr>
 <td>unarchive</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5394">ansible-modules-core/issues/5394</a></td>
+<td>unarchive module fails on Alpine Linux (Docker con</td>
+</tr>
+<tr>
+<td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/913">ansible-modules-core/issues/913</a></td>
 <td>unarchive + folded scalar vs structured map</td>
 </tr>
@@ -8977,6 +8992,11 @@
 </tr>
 <tr>
 <td>ec2_elb_lb</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5397">ansible-modules-core/issues/5397</a></td>
+<td>Cannot Set Stickiness Policy on ec2_elb_lb in Ansi</td>
+</tr>
+<tr>
+<td>ec2_elb_lb</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/899">ansible-modules-core/issues/899</a></td>
 <td>Deregistering an instance from an ELB causes healt</td>
 </tr>
@@ -9401,6 +9421,156 @@
 <td>Rescue block does not execute when a run_once comm</td>
 </tr>
 <tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2922">ansible-modules-core/issues/2922</a></td>
+<td>ec2_ami_find: owner needs to be string, otherwise </td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3636">ansible-modules-core/issues/3636</a></td>
+<td>ec2_ami_find is_public option appears to have the </td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4958">ansible-modules-core/issues/4958</a></td>
+<td>ec2_ami_find fails due missing creationDate when r</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5405">ansible-modules-core/issues/5405</a></td>
+<td>ec2_ami_find module can not filter by root_device_</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3206">ansible-modules-core/pull/3206</a></td>
+<td>ec2_ami_find.py - Added new attributes to the retu</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3371">ansible-modules-core/pull/3371</a></td>
+<td>Region is mandatory - Make is so in the examples</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3432">ansible-modules-core/pull/3432</a></td>
+<td>Enable ec2_ami_find sorting by multiple attributes</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3609">ansible-modules-core/pull/3609</a></td>
+<td>Added image_id as a return variable so this module</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3619">ansible-modules-core/pull/3619</a></td>
+<td>Syntax error in filter name for is-public</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3937">ansible-modules-core/pull/3937</a></td>
+<td>Correctly handle ec2_ami_find is_public parameter </td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3938">ansible-modules-core/pull/3938</a></td>
+<td>Handle ec2_ami_find owner parameter using an API f</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4215">ansible-modules-core/pull/4215</a></td>
+<td>update ec2_ami_find to allow product-code filter</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4586">ansible-modules-core/pull/4586</a></td>
+<td>Updating ec2_ami_find to support product-code and </td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4960">ansible-modules-core/pull/4960</a></td>
+<td>fix ansible-modules-core issue #4958</td>
+</tr>
+<tr>
+<td>ec2_ami_find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5404">ansible-modules-core/pull/5404</a></td>
+<td>add root_device_type filter option</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
+<td>gce module should support creating instances with </td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
+<td>GCE Metadata field not usable</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
+<td>Adding start/stop instance capabilities to the gce</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
+<td>GCE module missing local SSD option</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
+<td>Add Target proxy, URL map and SSL certificate reso</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
+<td>Compute Engine: Provide a way to specify initial b</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5187">ansible-modules-core/issues/5187</a></td>
+<td>Add timeout option to gce module</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5376">ansible-modules-core/issues/5376</a></td>
+<td>gce module ignores specified service account, alwa</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5395">ansible-modules-core/pull/5395</a></td>
+<td>gce: Allow registering compute instance under serv</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
+<td>GCE inventory doesn't provide disk names</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
+<td>Doc for GCE module refer to outdated auth strategy</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
+<td>Add node private & public ips to gce groups</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
+<td>change check for GCE auth parameters to allow empt</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
+<td>Allow empty string GCE parameters</td>
+</tr>
+<tr>
+<td>gce</td>
+<td><a href="https://github.com/ansible/ansible/pull/18097">ansible/pull/18097</a></td>
+<td>[GCE] updates to gce integration test</td>
+</tr>
+<tr>
 <td>ec2_vpc_route_table</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1506">ansible-modules-extras/issues/1506</a></td>
 <td>tags are empty on ec2_vpc_route_table creation</td>
@@ -9626,76 +9796,6 @@
 <td>Verify AWS key/secret has sufficient permission to</td>
 </tr>
 <tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1145">ansible-modules-core/issues/1145</a></td>
-<td>gce module should support creating instances with </td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/154">ansible-modules-core/issues/154</a></td>
-<td>GCE Metadata field not usable</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3100">ansible-modules-core/issues/3100</a></td>
-<td>Adding start/stop instance capabilities to the gce</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3150">ansible-modules-core/issues/3150</a></td>
-<td>GCE module missing local SSD option</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3369">ansible-modules-core/issues/3369</a></td>
-<td>Add Target proxy, URL map and SSL certificate reso</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4030">ansible-modules-core/issues/4030</a></td>
-<td>Compute Engine: Provide a way to specify initial b</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5187">ansible-modules-core/issues/5187</a></td>
-<td>Add timeout option to gce module</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5376">ansible-modules-core/issues/5376</a></td>
-<td>gce module ignores specified service account, alwa</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/11632">ansible/issues/11632</a></td>
-<td>GCE inventory doesn't provide disk names</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/issues/13515">ansible/issues/13515</a></td>
-<td>Doc for GCE module refer to outdated auth strategy</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12539">ansible/pull/12539</a></td>
-<td>Add node private & public ips to gce groups</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/12893">ansible/pull/12893</a></td>
-<td>change check for GCE auth parameters to allow empt</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/13715">ansible/pull/13715</a></td>
-<td>Allow empty string GCE parameters</td>
-</tr>
-<tr>
-<td>gce</td>
-<td><a href="https://github.com/ansible/ansible/pull/18097">ansible/pull/18097</a></td>
-<td>[GCE] updates to gce integration test</td>
-</tr>
-<tr>
 <td>core</td>
 <td><a href="https://github.com/ansible/ansible/issues/17528">ansible/issues/17528</a></td>
 <td>Increase Ansible's performance</td>
@@ -9831,71 +9931,6 @@
 <td>Run Windows modules asynchronously as scheduled jo</td>
 </tr>
 <tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2922">ansible-modules-core/issues/2922</a></td>
-<td>ec2_ami_find: owner needs to be string, otherwise </td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3636">ansible-modules-core/issues/3636</a></td>
-<td>ec2_ami_find is_public option appears to have the </td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4958">ansible-modules-core/issues/4958</a></td>
-<td>ec2_ami_find fails due missing creationDate when r</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3206">ansible-modules-core/pull/3206</a></td>
-<td>ec2_ami_find.py - Added new attributes to the retu</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3371">ansible-modules-core/pull/3371</a></td>
-<td>Region is mandatory - Make is so in the examples</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3432">ansible-modules-core/pull/3432</a></td>
-<td>Enable ec2_ami_find sorting by multiple attributes</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3609">ansible-modules-core/pull/3609</a></td>
-<td>Added image_id as a return variable so this module</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3619">ansible-modules-core/pull/3619</a></td>
-<td>Syntax error in filter name for is-public</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3937">ansible-modules-core/pull/3937</a></td>
-<td>Correctly handle ec2_ami_find is_public parameter </td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3938">ansible-modules-core/pull/3938</a></td>
-<td>Handle ec2_ami_find owner parameter using an API f</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4215">ansible-modules-core/pull/4215</a></td>
-<td>update ec2_ami_find to allow product-code filter</td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4586">ansible-modules-core/pull/4586</a></td>
-<td>Updating ec2_ami_find to support product-code and </td>
-</tr>
-<tr>
-<td>ec2_ami_find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4960">ansible-modules-core/pull/4960</a></td>
-<td>fix ansible-modules-core issue #4958</td>
-</tr>
-<tr>
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2700">ansible-modules-core/issues/2700</a></td>
 <td>docker log_opt ignored if log_driver is not specif</td>
@@ -9959,6 +9994,71 @@
 <td>_docker</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5082">ansible-modules-core/pull/5082</a></td>
 <td>Added check for NoneType RepoTags</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
+<td>add etag option to avoid re-downloading unchanged </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
+<td>Please support if-modified-since in get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
+<td>get_url hides netrc failures </td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
+<td>get_url change mode doesn't seem to work</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
+<td>get_url fails with "failed to create temporary con</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4931">ansible-modules-core/issues/4931</a></td>
+<td>get_url not working with FTP</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5141">ansible-modules-core/issues/5141</a></td>
+<td>get_url does not change mode when checksum matches</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
+<td>add support for client certs to get_url</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
+<td>get_url doesn't check if dest file exists when des</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5398">ansible-modules-core/pull/5398</a></td>
+<td>[WIP] Add docs for new client cert authentication</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
+<td>Enhancement: get_url should support custom headers</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
+<td>KeyError status when running get_url over HTTPS an</td>
+</tr>
+<tr>
+<td>get_url</td>
+<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
+<td>get_url fails when moving a file and become: true</td>
 </tr>
 <tr>
 <td>cron</td>
@@ -10319,66 +10419,6 @@
 <td>hostname</td>
 <td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
 <td>Support for variables in inventory hostname</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2443">ansible-modules-core/issues/2443</a></td>
-<td>add etag option to avoid re-downloading unchanged </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3191">ansible-modules-core/issues/3191</a></td>
-<td>Please support if-modified-since in get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3563">ansible-modules-core/issues/3563</a></td>
-<td>get_url hides netrc failures </td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3622">ansible-modules-core/issues/3622</a></td>
-<td>get_url change mode doesn't seem to work</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4269">ansible-modules-core/issues/4269</a></td>
-<td>get_url fails with "failed to create temporary con</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4931">ansible-modules-core/issues/4931</a></td>
-<td>get_url not working with FTP</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5141">ansible-modules-core/issues/5141</a></td>
-<td>get_url does not change mode when checksum matches</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/617">ansible-modules-core/issues/617</a></td>
-<td>add support for client certs to get_url</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/997">ansible-modules-core/issues/997</a></td>
-<td>get_url doesn't check if dest file exists when des</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/10902">ansible/issues/10902</a></td>
-<td>Enhancement: get_url should support custom headers</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/13478">ansible/issues/13478</a></td>
-<td>KeyError status when running get_url over HTTPS an</td>
-</tr>
-<tr>
-<td>get_url</td>
-<td><a href="https://github.com/ansible/ansible/issues/14396">ansible/issues/14396</a></td>
-<td>get_url fails when moving a file and become: true</td>
 </tr>
 <tr>
 <td>ecs_taskdefinition</td>
@@ -11361,6 +11401,46 @@
 <td>Configurable fact path</td>
 </tr>
 <tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/292">ansible-modules-core/issues/292</a></td>
+<td>apt_repository module does not support "cloud-arch</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4194">ansible-modules-core/issues/4194</a></td>
+<td>`apt_repository` module cannot upgrade permission </td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4282">ansible-modules-core/issues/4282</a></td>
+<td>apt_repository with ppa fails on Linux Mint 18 (Sa</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5400">ansible-modules-core/issues/5400</a></td>
+<td>apt_repository: doc generation confused by file mo</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/563">ansible-modules-core/issues/563</a></td>
+<td>apt_repository: does not understand arch= option</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible/issues/15025">ansible/issues/15025</a></td>
+<td>Defined ansible_version variable overshadowed by m</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible/issues/9966">ansible/issues/9966</a></td>
+<td>apt_repository: Failed to validate the SSL certifi</td>
+</tr>
+<tr>
+<td>apt_repository</td>
+<td><a href="https://github.com/ansible/ansible/pull/16690">ansible/pull/16690</a></td>
+<td>Add intg for apt_repo's mode argument.</td>
+</tr>
+<tr>
 <td>script</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
 <td>script module should support templating</td>
@@ -11441,46 +11521,6 @@
 <td>mysql_db does not change character set without man</td>
 </tr>
 <tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1717">ansible-modules-extras/issues/1717</a></td>
-<td>maven_artifact cannot download sbt published artif</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
-<td>maven_artifact does not use classifier when constr</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
-<td>maven_artifact should support version=release.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
-<td>maven_artifact can't get artifact from local repo.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
-<td>Add ability to specify release version for maven a</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
-<td>Refactor maven plugin.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
-<td>Fixes #2139 issue</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3085">ansible-modules-extras/pull/3085</a></td>
-<td>Fixes #1717 maven_artifact cannot download SBT pub</td>
-</tr>
-<tr>
 <td>route53</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1619">ansible-modules-core/issues/1619</a></td>
 <td>Route53 module cannot differentiate between multip</td>
@@ -11559,6 +11599,46 @@
 <td>lvol</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3288">ansible-modules-extras/pull/3288</a></td>
 <td>lvol: fail when LV already exists</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3591">ansible-modules-core/issues/3591</a></td>
+<td>The ios_config module does not delete the username</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3781">ansible-modules-core/issues/3781</a></td>
+<td>change logging server on cisco router failed with </td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4368">ansible-modules-core/issues/4368</a></td>
+<td>ios_config replace: block behaves like replace: li</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5181">ansible-modules-core/issues/5181</a></td>
+<td>Each ios_config command opens a new SSH session wi</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5287">ansible-modules-core/issues/5287</a></td>
+<td>ios_config changes some items which do not need to</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5308">ansible-modules-core/issues/5308</a></td>
+<td>ios_config - binascii.Error: Incorrect padding</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5318">ansible-modules-core/issues/5318</a></td>
+<td>ios_config: multi-line banner</td>
+</tr>
+<tr>
+<td>ios_config</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5402">ansible-modules-core/issues/5402</a></td>
+<td>Network modules should provide the actual device C</td>
 </tr>
 <tr>
 <td>os_server</td>
@@ -11739,41 +11819,6 @@
 <td>ec2_metric_alarm</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5387">ansible-modules-core/pull/5387</a></td>
 <td>Fix alarm action comparison</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/292">ansible-modules-core/issues/292</a></td>
-<td>apt_repository module does not support "cloud-arch</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4194">ansible-modules-core/issues/4194</a></td>
-<td>`apt_repository` module cannot upgrade permission </td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4282">ansible-modules-core/issues/4282</a></td>
-<td>apt_repository with ppa fails on Linux Mint 18 (Sa</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/563">ansible-modules-core/issues/563</a></td>
-<td>apt_repository: does not understand arch= option</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible/issues/15025">ansible/issues/15025</a></td>
-<td>Defined ansible_version variable overshadowed by m</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible/issues/9966">ansible/issues/9966</a></td>
-<td>apt_repository: Failed to validate the SSL certifi</td>
-</tr>
-<tr>
-<td>apt_repository</td>
-<td><a href="https://github.com/ansible/ansible/pull/16690">ansible/pull/16690</a></td>
-<td>Add intg for apt_repo's mode argument.</td>
 </tr>
 <tr>
 <td>urls</td>
@@ -12021,39 +12066,39 @@
 <td>Add error handling to vApp creation</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3591">ansible-modules-core/issues/3591</a></td>
-<td>The ios_config module does not delete the username</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2487">ansible-modules-extras/issues/2487</a></td>
+<td>Deployment kind support on Kubernetes module</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3781">ansible-modules-core/issues/3781</a></td>
-<td>change logging server on cisco router failed with </td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3301">ansible-modules-extras/issues/3301</a></td>
+<td>kubernetes.py ImportError: No module named yaml</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4368">ansible-modules-core/issues/4368</a></td>
-<td>ios_config replace: block behaves like replace: li</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2466">ansible-modules-extras/pull/2466</a></td>
+<td>Add the ability to gather the status of pods & con</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5181">ansible-modules-core/issues/5181</a></td>
-<td>Each ios_config command opens a new SSH session wi</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2762">ansible-modules-extras/pull/2762</a></td>
+<td>Add kubernetes beta resource kinds (Deployment, Da</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5287">ansible-modules-core/issues/5287</a></td>
-<td>ios_config changes some items which do not need to</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2843">ansible-modules-extras/pull/2843</a></td>
+<td>Add URLs for objects from extensions API group</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5308">ansible-modules-core/issues/5308</a></td>
-<td>ios_config - binascii.Error: Incorrect padding</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3058">ansible-modules-extras/pull/3058</a></td>
+<td>Add a 'deployment' resource URI to available Kuber</td>
 </tr>
 <tr>
-<td>ios_config</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5318">ansible-modules-core/issues/5318</a></td>
-<td>ios_config: multi-line banner</td>
+<td>kubernetes</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3113">ansible-modules-extras/pull/3113</a></td>
+<td>kubernetes_templating</td>
 </tr>
 <tr>
 <td>monit</td>
@@ -12391,36 +12436,6 @@
 <td>Updated win_file with logic on handling sym link d</td>
 </tr>
 <tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
-<td>rax module fails to create Cloud Server with multi</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
-<td>rax module doesnot work with async</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4721">ansible-modules-core/issues/4721</a></td>
-<td>Create servers tasks returns with not all instance</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible/issues/18203">ansible/issues/18203</a></td>
-<td>[rax.py] TypeError: get_config() got an unexpected</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
-<td>Updated rax guide for handling RackConnect</td>
-</tr>
-<tr>
-<td>rax</td>
-<td><a href="https://github.com/ansible/ansible/pull/18204">ansible/pull/18204</a></td>
-<td>Port rax dynamic inventory script to Ansible 2.3 g</td>
-</tr>
-<tr>
 <td>add_host</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3334">ansible-modules-core/issues/3334</a></td>
 <td>Make add_host less verbose</td>
@@ -12511,6 +12526,36 @@
 <td>Fix ValueErrors if extra output picked up from rab</td>
 </tr>
 <tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
+<td>maven_artifact does not use classifier when constr</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
+<td>maven_artifact should support version=release.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
+<td>maven_artifact can't get artifact from local repo.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
+<td>Add ability to specify release version for maven a</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
+<td>Refactor maven plugin.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
+<td>Fixes #2139 issue</td>
+</tr>
+<tr>
 <td>os_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
 <td>os_user does not honor OS env variables</td>
@@ -12599,36 +12644,6 @@
 <td>firewalld</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3112">ansible-modules-extras/pull/3112</a></td>
 <td>provide useful error when invalid service name pro</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2487">ansible-modules-extras/issues/2487</a></td>
-<td>Deployment kind support on Kubernetes module</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2466">ansible-modules-extras/pull/2466</a></td>
-<td>Add the ability to gather the status of pods & con</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2762">ansible-modules-extras/pull/2762</a></td>
-<td>Add kubernetes beta resource kinds (Deployment, Da</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2843">ansible-modules-extras/pull/2843</a></td>
-<td>Add URLs for objects from extensions API group</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3058">ansible-modules-extras/pull/3058</a></td>
-<td>Add a 'deployment' resource URI to available Kuber</td>
-</tr>
-<tr>
-<td>kubernetes</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3113">ansible-modules-extras/pull/3113</a></td>
-<td>kubernetes_templating</td>
 </tr>
 <tr>
 <td>consul</td>
@@ -13436,6 +13451,26 @@
 <td>Netscaler: Expire sessions gracefully instead of t</td>
 </tr>
 <tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3110">ansible-modules-core/issues/3110</a></td>
+<td>rax module fails to create Cloud Server with multi</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4486">ansible-modules-core/issues/4486</a></td>
+<td>rax module doesnot work with async</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4721">ansible-modules-core/issues/4721</a></td>
+<td>Create servers tasks returns with not all instance</td>
+</tr>
+<tr>
+<td>rax</td>
+<td><a href="https://github.com/ansible/ansible/pull/16101">ansible/pull/16101</a></td>
+<td>Updated rax guide for handling RackConnect</td>
+</tr>
+<tr>
 <td>blockinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1652">ansible-modules-extras/issues/1652</a></td>
 <td>Unsupported parameter for module</td>
@@ -13966,21 +14001,6 @@
 <td>Clear host errors</td>
 </tr>
 <tr>
-<td>azure_rm_deployment</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2299">ansible-modules-extras/issues/2299</a></td>
-<td>Azure Resource Deployment deletes all created reso</td>
-</tr>
-<tr>
-<td>azure_rm_deployment</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2486">ansible-modules-extras/issues/2486</a></td>
-<td>Azure Resource Manager module doesn't support user</td>
-</tr>
-<tr>
-<td>azure_rm_deployment</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3023">ansible-modules-extras/pull/3023</a></td>
-<td>Change azure default deployment mode to incrementa</td>
-</tr>
-<tr>
 <td>rabbitmq_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1308">ansible-modules-extras/issues/1308</a></td>
 <td>In rabbitmq_policy, tags values that should be int</td>
@@ -14416,6 +14436,16 @@
 <td>win_get_url: adding checksum, backup options</td>
 </tr>
 <tr>
+<td>ufw</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2065">ansible-modules-extras/issues/2065</a></td>
+<td>ufw support for comments</td>
+</tr>
+<tr>
+<td>ufw</td>
+<td><a href="https://github.com/ansible/ansible/issues/15590">ansible/issues/15590</a></td>
+<td>Run tags based task type (module name)</td>
+</tr>
+<tr>
 <td>vmware_vm_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2475">ansible-modules-extras/issues/2475</a></td>
 <td>vmware extra module vmware_vm_facts.py output resu</td>
@@ -14554,6 +14584,16 @@
 <td>seboolean</td>
 <td><a href="https://github.com/ansible/ansible/issues/16248">ansible/issues/16248</a></td>
 <td>seboolean fails on ansible but enables/disables on</td>
+</tr>
+<tr>
+<td>azure_rm_deployment</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2299">ansible-modules-extras/issues/2299</a></td>
+<td>Azure Resource Deployment deletes all created reso</td>
+</tr>
+<tr>
+<td>azure_rm_deployment</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2486">ansible-modules-extras/issues/2486</a></td>
+<td>Azure Resource Manager module doesn't support user</td>
 </tr>
 <tr>
 <td>docker_service</td>
@@ -14906,16 +14946,6 @@
 <td>More tolerant unit parsing</td>
 </tr>
 <tr>
-<td>ec2_vpc_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1666">ansible-modules-extras/pull/1666</a></td>
-<td>amazon/ec2_vpc_subnet.py: Add `auto_assign_public_</td>
-</tr>
-<tr>
-<td>ec2_vpc_subnet</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2210">ansible-modules-extras/pull/2210</a></td>
-<td>Convert ec2_vpc_subnet module to boto3</td>
-</tr>
-<tr>
 <td>uncompress</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1301">ansible-modules-extras/pull/1301</a></td>
 <td>Adds uncompress module</td>
@@ -14934,16 +14964,6 @@
 <td>gather_facts</td>
 <td><a href="https://github.com/ansible/ansible/issues/17393">ansible/issues/17393</a></td>
 <td>gather_facts silently skips lvm facts if lvm pkg n</td>
-</tr>
-<tr>
-<td>ufw</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2065">ansible-modules-extras/issues/2065</a></td>
-<td>ufw support for comments</td>
-</tr>
-<tr>
-<td>ufw</td>
-<td><a href="https://github.com/ansible/ansible/issues/15590">ansible/issues/15590</a></td>
-<td>Run tags based task type (module name)</td>
 </tr>
 <tr>
 <td>selinux_permissive</td>
@@ -15014,6 +15034,16 @@
 <td>at</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/506">ansible-modules-extras/issues/506</a></td>
 <td>Modules with module_utils imports at the top</td>
+</tr>
+<tr>
+<td>ec2_vpc_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1666">ansible-modules-extras/pull/1666</a></td>
+<td>amazon/ec2_vpc_subnet.py: Add `auto_assign_public_</td>
+</tr>
+<tr>
+<td>ec2_vpc_subnet</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2210">ansible-modules-extras/pull/2210</a></td>
+<td>Convert ec2_vpc_subnet module to boto3</td>
 </tr>
 <tr>
 <td>hostvars</td>
@@ -15296,11 +15326,6 @@
 <td>Fix for Issue #16946 - hipchat plugin</td>
 </tr>
 <tr>
-<td>environment</td>
-<td><a href="https://github.com/ansible/ansible/pull/18156">ansible/pull/18156</a></td>
-<td>Add examples for rbenv and nvm</td>
-</tr>
-<tr>
 <td>certificate</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2685">ansible-modules-extras/pull/2685</a></td>
 <td>Adding modules for ca, keytool, and certificates</td>
@@ -15401,6 +15426,11 @@
 <td>Add support for GCE automatic subnetwork configura</td>
 </tr>
 <tr>
+<td>lxd_container</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3299">ansible-modules-extras/pull/3299</a></td>
+<td>Correct name and state for example of deleting lxd</td>
+</tr>
+<tr>
 <td>yarn</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3199">ansible-modules-extras/pull/3199</a></td>
 <td>Add Yarn module</td>
@@ -15469,6 +15499,11 @@
 <td>sns</td>
 <td><a href="https://github.com/ansible/ansible/issues/11874">ansible/issues/11874</a></td>
 <td>Amazon SNS module doesnt show up in cloud modules </td>
+</tr>
+<tr>
+<td>_text</td>
+<td><a href="https://github.com/ansible/ansible/pull/18211">ansible/pull/18211</a></td>
+<td>Simplify surrogate check in to_text()</td>
 </tr>
 <tr>
 <td>os_object</td>
@@ -15574,6 +15609,11 @@
 <td>opendj_backend</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2858">ansible-modules-extras/pull/2858</a></td>
 <td>Added creation of backends in OpenDJ</td>
+</tr>
+<tr>
+<td>github_hooks</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2217">ansible-modules-extras/pull/2217</a></td>
+<td>Update github_hooks.py</td>
 </tr>
 <tr>
 <td>datadog_tag</td>
@@ -15876,6 +15916,11 @@
 <td>Don't blow up on directory access denied when look</td>
 </tr>
 <tr>
+<td>dellos6_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3300">ansible-modules-extras/issues/3300</a></td>
+<td>Documentation Update: ec2-asg-facts</td>
+</tr>
+<tr>
 <td>xattr</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2754">ansible-modules-core/issues/2754</a></td>
 <td>main() run without __name__ check in many modules</td>
@@ -16106,9 +16151,9 @@
 <td>Added os_routers_facts module</td>
 </tr>
 <tr>
-<td>os_nova_quotas</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1823">ansible-modules-extras/pull/1823</a></td>
-<td>Add quota module for OpenStack Nova</td>
+<td>a10_service_group</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3302">ansible-modules-extras/issues/3302</a></td>
+<td>a10_server.py, a10_service_group.py, a10_virtual_s</td>
 </tr>
 <tr>
 <td>ovirt_networks_facts</td>
@@ -16376,6 +16421,11 @@
 <td>Finalize task parameter values from include action</td>
 </tr>
 <tr>
+<td>atomic_move</td>
+<td><a href="https://github.com/ansible/ansible/pull/18212">ansible/pull/18212</a></td>
+<td>Add hint that python3 might be too old</td>
+</tr>
+<tr>
 <td>paramiko_ssh</td>
 <td><a href="https://github.com/ansible/ansible/pull/17332">ansible/pull/17332</a></td>
 <td>Fix paramiko as connection via API, exception enco</td>
@@ -16474,11 +16524,6 @@
 <td>zabbix_webscenario</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3215">ansible-modules-extras/pull/3215</a></td>
 <td>Added Zabbix webscenario management module</td>
-</tr>
-<tr>
-<td>read</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5377">ansible-modules-core/pull/5377</a></td>
-<td>Implement task module to read file contents and st</td>
 </tr>
 <tr>
 <td>vmware_portgroup</td>
@@ -16661,14 +16706,19 @@
 <td>Updated gitlab_group module</td>
 </tr>
 <tr>
+<td>authorized_keys</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5401">ansible-modules-core/issues/5401</a></td>
+<td>authorized_keys can't handle key in [normal + cert</td>
+</tr>
+<tr>
 <td>tests</td>
 <td><a href="https://github.com/ansible/ansible/pull/17337">ansible/pull/17337</a></td>
 <td>Add test of the selinux module (as a start)</td>
 </tr>
 <tr>
-<td>rules</td>
-<td><a href="https://github.com/ansible/ansible/pull/18165">ansible/pull/18165</a></td>
-<td>Build debs with pbuilder</td>
+<td>read</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5377">ansible-modules-core/pull/5377</a></td>
+<td>Implement task module to read file contents and st</td>
 </tr>
 <tr>
 <td>rabbitmq_plugin</td>
@@ -16719,6 +16769,11 @@
 <td>kyup</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4994">ansible-modules-core/pull/4994</a></td>
 <td>Add the Kyup container provider API to the cloud m</td>
+</tr>
+<tr>
+<td>os_nova_quotas</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1823">ansible-modules-extras/pull/1823</a></td>
+<td>Add quota module for OpenStack Nova</td>
 </tr>
 <tr>
 <td>boto3_wait</td>
@@ -16839,6 +16894,11 @@
 <td>assemble</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5039">ansible-modules-core/issues/5039</a></td>
 <td>`assemble` does not create parent directory</td>
+</tr>
+<tr>
+<td>azure_rm_storageaccount_facts</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5399">ansible-modules-core/issues/5399</a></td>
+<td>Azure storage account facts module returns no fact</td>
 </tr>
 <tr>
 <td>postgresql</td>
@@ -17084,11 +17144,6 @@
 <td>win_stat</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2863">ansible-modules-core/issues/2863</a></td>
 <td>win_stat returns md5, but the data is sha1</td>
-</tr>
-<tr>
-<td>github_hooks</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2217">ansible-modules-extras/pull/2217</a></td>
-<td>Update github_hooks.py</td>
 </tr>
 <tr>
 <td>quantum_router_gateway</td>
