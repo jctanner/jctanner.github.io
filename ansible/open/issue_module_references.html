@@ -3932,11 +3932,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/11075">ansible/pull/11075</a></td>
-<td>corrected the playbook name from rolling_upgrade.y</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/11501">ansible/pull/11501</a></td>
 <td>Integration tests for notify with variable list.</td>
 </tr>
@@ -4554,6 +4549,11 @@
 <td>ec2</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4370">ansible-modules-core/pull/4370</a></td>
 <td>amazon/ec2: add user_data_gzip boolean</td>
+</tr>
+<tr>
+<td>ec2</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5407">ansible-modules-core/pull/5407</a></td>
+<td>adding id: back to documentation fixes #2280</td>
 </tr>
 <tr>
 <td>ec2</td>
@@ -6377,6 +6377,11 @@
 </tr>
 <tr>
 <td>service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5406">ansible-modules-core/pull/5406</a></td>
+<td>make sure all svcadm operations are syncronous</td>
+</tr>
+<tr>
+<td>service</td>
 <td><a href="https://github.com/ansible/ansible/issues/10499">ansible/issues/10499</a></td>
 <td>su password prompt should be configurable in ansib</td>
 </tr>
@@ -7089,6 +7094,11 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible/pull/18208">ansible/pull/18208</a></td>
 <td>Permit to have a action plugin without a empty mod</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible/pull/18213">ansible/pull/18213</a></td>
+<td>File attributes</td>
 </tr>
 <tr>
 <td>ec2_asg</td>
@@ -9021,6 +9031,91 @@
 <td>AWS API Rate limit exceeds: Are we able to deal wi</td>
 </tr>
 <tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/issues/18160">ansible/issues/18160</a></td>
+<td>Atomic_move issue on python3 with /tmp on tmpfs</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/10668">ansible/pull/10668</a></td>
+<td>Add create_lock_file to basic utilities</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12118">ansible/pull/12118</a></td>
+<td>Make sanitze_output function catch other forms of </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12221">ansible/pull/12221</a></td>
+<td>make the way we build search pathes easier to unde</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/12366">ansible/pull/12366</a></td>
+<td>Add support for purging local outdated backup file</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13538">ansible/pull/13538</a></td>
+<td>Fix multiple backup</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/13620">ansible/pull/13620</a></td>
+<td>draft update_json for module intermediate comms</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
+<td>#14634: symbolic permissions error</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16281">ansible/pull/16281</a></td>
+<td>Extract a censor_args method to module_utils</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16492">ansible/pull/16492</a></td>
+<td>basic: omit args if default value is set</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16692">ansible/pull/16692</a></td>
+<td>Don't clobber backup, fixes: #4177 ( https://githu</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
+<td>let chdir support relative path in more modules</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17536">ansible/pull/17536</a></td>
+<td>Add config option to tee stdout and stderr to temp</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17731">ansible/pull/17731</a></td>
+<td>Provide functions for IP address or port range val</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17753">ansible/pull/17753</a></td>
+<td>Ignore error when setting permissions fail due to </td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/17931">ansible/pull/17931</a></td>
+<td>Adding self.log() on IOErrors and OSErrros</td>
+</tr>
+<tr>
+<td>basic</td>
+<td><a href="https://github.com/ansible/ansible/pull/18212">ansible/pull/18212</a></td>
+<td>Add hint that python3 might be too old</td>
+</tr>
+<tr>
 <td>ec2_vpc</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1271">ansible-modules-core/issues/1271</a></td>
 <td>ec2_vpc has no property to set dhcp_options_set </td>
@@ -9179,86 +9274,6 @@
 <td>uri</td>
 <td><a href="https://github.com/ansible/ansible/issues/16936">ansible/issues/16936</a></td>
 <td>Digest authentication mechanism doesn't work for u</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/issues/18160">ansible/issues/18160</a></td>
-<td>Atomic_move issue on python3 with /tmp on tmpfs</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/10668">ansible/pull/10668</a></td>
-<td>Add create_lock_file to basic utilities</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12118">ansible/pull/12118</a></td>
-<td>Make sanitze_output function catch other forms of </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12221">ansible/pull/12221</a></td>
-<td>make the way we build search pathes easier to unde</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/12366">ansible/pull/12366</a></td>
-<td>Add support for purging local outdated backup file</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13538">ansible/pull/13538</a></td>
-<td>Fix multiple backup</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/13620">ansible/pull/13620</a></td>
-<td>draft update_json for module intermediate comms</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/14994">ansible/pull/14994</a></td>
-<td>#14634: symbolic permissions error</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16281">ansible/pull/16281</a></td>
-<td>Extract a censor_args method to module_utils</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16492">ansible/pull/16492</a></td>
-<td>basic: omit args if default value is set</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16692">ansible/pull/16692</a></td>
-<td>Don't clobber backup, fixes: #4177 ( https://githu</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/16736">ansible/pull/16736</a></td>
-<td>let chdir support relative path in more modules</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17536">ansible/pull/17536</a></td>
-<td>Add config option to tee stdout and stderr to temp</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17731">ansible/pull/17731</a></td>
-<td>Provide functions for IP address or port range val</td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17753">ansible/pull/17753</a></td>
-<td>Ignore error when setting permissions fail due to </td>
-</tr>
-<tr>
-<td>basic</td>
-<td><a href="https://github.com/ansible/ansible/pull/17931">ansible/pull/17931</a></td>
-<td>Adding self.log() on IOErrors and OSErrros</td>
 </tr>
 <tr>
 <td>authorized_key</td>
@@ -10181,66 +10196,6 @@
 <td>Allow relative paths for jinja2 template extend st</td>
 </tr>
 <tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2775">ansible-modules-core/issues/2775</a></td>
-<td>find_module: allow regex in paths</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3027">ansible-modules-core/issues/3027</a></td>
-<td>find module doesn't recognize symlinks correctly</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2608">ansible-modules-core/pull/2608</a></td>
-<td>[find] Add 'link' file_type to find module</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3028">ansible-modules-core/pull/3028</a></td>
-<td>find module: don't follow symlinks</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3071">ansible-modules-core/pull/3071</a></td>
-<td>find: Add exclude by patterns param.</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3711">ansible-modules-core/pull/3711</a></td>
-<td>Be able to find all contents of a directory</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5280">ansible-modules-core/pull/5280</a></td>
-<td>Make find return sample a YAML dict</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible/issues/12043">ansible/issues/12043</a></td>
-<td>poor error message when ansible cannot find includ</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible/issues/13767">ansible/issues/13767</a></td>
-<td>Ansible-playbook: "msg: could not find job"</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible/issues/16561">ansible/issues/16561</a></td>
-<td>Ansible 2.1.0 fails to find custom modules in sub-</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible/issues/17285">ansible/issues/17285</a></td>
-<td>Kerberos issue - Cant find client principal *** in</td>
-</tr>
-<tr>
-<td>find</td>
-<td><a href="https://github.com/ansible/ansible/issues/17288">ansible/issues/17288</a></td>
-<td>Ansible will not find tasks in a playbook with hos</td>
-</tr>
-<tr>
 <td>postgresql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
 <td>Add support for CONNECTION LIMIT to postgresql_use</td>
@@ -10529,6 +10484,61 @@
 <td>lxc_container</td>
 <td><a href="https://github.com/ansible/ansible/issues/15352">ansible/issues/15352</a></td>
 <td>Random MODULE_FAILURE when using lxc_container wit</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2775">ansible-modules-core/issues/2775</a></td>
+<td>find_module: allow regex in paths</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3027">ansible-modules-core/issues/3027</a></td>
+<td>find module doesn't recognize symlinks correctly</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2608">ansible-modules-core/pull/2608</a></td>
+<td>[find] Add 'link' file_type to find module</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3028">ansible-modules-core/pull/3028</a></td>
+<td>find module: don't follow symlinks</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3071">ansible-modules-core/pull/3071</a></td>
+<td>find: Add exclude by patterns param.</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3711">ansible-modules-core/pull/3711</a></td>
+<td>Be able to find all contents of a directory</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible/issues/12043">ansible/issues/12043</a></td>
+<td>poor error message when ansible cannot find includ</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible/issues/13767">ansible/issues/13767</a></td>
+<td>Ansible-playbook: "msg: could not find job"</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible/issues/16561">ansible/issues/16561</a></td>
+<td>Ansible 2.1.0 fails to find custom modules in sub-</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible/issues/17285">ansible/issues/17285</a></td>
+<td>Kerberos issue - Cant find client principal *** in</td>
+</tr>
+<tr>
+<td>find</td>
+<td><a href="https://github.com/ansible/ansible/issues/17288">ansible/issues/17288</a></td>
+<td>Ansible will not find tasks in a playbook with hos</td>
 </tr>
 <tr>
 <td>azure</td>
@@ -12547,13 +12557,13 @@
 </tr>
 <tr>
 <td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2740">ansible-modules-extras/pull/2740</a></td>
-<td>Refactor maven plugin.</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
+<td>Fixes #2139 issue</td>
 </tr>
 <tr>
 <td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
-<td>Fixes #2139 issue</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3304">ansible-modules-extras/pull/3304</a></td>
+<td>Maven plugin refactor</td>
 </tr>
 <tr>
 <td>os_user</td>
@@ -15086,6 +15096,16 @@
 <td>Improve verbosity and avoids erroneously succeedin</td>
 </tr>
 <tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/17252">ansible/pull/17252</a></td>
+<td>Correctly infer task results</td>
+</tr>
+<tr>
+<td>task_result</td>
+<td><a href="https://github.com/ansible/ansible/pull/18214">ansible/pull/18214</a></td>
+<td>iterate through task results only if the key is no</td>
+</tr>
+<tr>
 <td>docker_machine_digitalocean</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2499">ansible-modules-extras/pull/2499</a></td>
 <td>Adds docker-machine modules</td>
@@ -16421,11 +16441,6 @@
 <td>Finalize task parameter values from include action</td>
 </tr>
 <tr>
-<td>atomic_move</td>
-<td><a href="https://github.com/ansible/ansible/pull/18212">ansible/pull/18212</a></td>
-<td>Add hint that python3 might be too old</td>
-</tr>
-<tr>
 <td>paramiko_ssh</td>
 <td><a href="https://github.com/ansible/ansible/pull/17332">ansible/pull/17332</a></td>
 <td>Fix paramiko as connection via API, exception enco</td>
@@ -17264,11 +17279,6 @@
 <td>dnsmadeeasy</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/342">ansible-modules-extras/issues/342</a></td>
 <td>dnsmadeeasy module can't connect to api.dnsmadeeas</td>
-</tr>
-<tr>
-<td>task_result</td>
-<td><a href="https://github.com/ansible/ansible/pull/17252">ansible/pull/17252</a></td>
-<td>Correctly infer task results</td>
 </tr>
 <tr>
 <td>glassfish_deploy</td>
