@@ -4327,11 +4327,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/pull/18116">ansible/pull/18116</a></td>
-<td>updated devleoping plugins guide</td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/pull/18134">ansible/pull/18134</a></td>
 <td>fix hosts.yml filename for inventory</td>
 </tr>
@@ -7049,6 +7044,11 @@
 <td>file</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5299">ansible-modules-core/issues/5299</a></td>
 <td>file does not see an existent directory and does n</td>
+</tr>
+<tr>
+<td>file</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5421">ansible-modules-core/issues/5421</a></td>
+<td>[FeatureRequest] file module with recurse: differe</td>
 </tr>
 <tr>
 <td>file</td>
@@ -10216,66 +10216,6 @@
 <td>Allow relative paths for jinja2 template extend st</td>
 </tr>
 <tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2004">ansible-modules-core/issues/2004</a></td>
-<td>hostname module does not rename correctly on debia</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2331">ansible-modules-core/issues/2331</a></td>
-<td>Docker troubles with ansible hostname module</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
-<td>Opensuse version <= 11 wrong hostname strategy</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
-<td>Hostname not set correctly on Gentoo Linux with sy</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4782">ansible-modules-core/issues/4782</a></td>
-<td>make hostname work on SmartOS</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5315">ansible-modules-core/issues/5315</a></td>
-<td>make hostname work on Virtuozzo / OpenVZ</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4811">ansible-modules-core/pull/4811</a></td>
-<td>Add support for SmartOS in hostname module</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5324">ansible-modules-core/pull/5324</a></td>
-<td>Add a note to say that *BSD and Solaris are also s</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5325">ansible-modules-core/pull/5325</a></td>
-<td>Add support for NetBSD</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5362">ansible-modules-core/pull/5362</a></td>
-<td>add support for virtuozzo in hostname module</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible/issues/13101">ansible/issues/13101</a></td>
-<td>Limit ansible-pull to a single matching hostname</td>
-</tr>
-<tr>
-<td>hostname</td>
-<td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
-<td>Support for variables in inventory hostname</td>
-</tr>
-<tr>
 <td>postgresql_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1570">ansible-modules-core/issues/1570</a></td>
 <td>Add support for CONNECTION LIMIT to postgresql_use</td>
@@ -10394,6 +10334,66 @@
 <td>digital_ocean</td>
 <td><a href="https://github.com/ansible/ansible/pull/17888">ansible/pull/17888</a></td>
 <td>Create groups from tags</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2004">ansible-modules-core/issues/2004</a></td>
+<td>hostname module does not rename correctly on debia</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2331">ansible-modules-core/issues/2331</a></td>
+<td>Docker troubles with ansible hostname module</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3137">ansible-modules-core/issues/3137</a></td>
+<td>Opensuse version <= 11 wrong hostname strategy</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3360">ansible-modules-core/issues/3360</a></td>
+<td>Hostname not set correctly on Gentoo Linux with sy</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4782">ansible-modules-core/issues/4782</a></td>
+<td>make hostname work on SmartOS</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5315">ansible-modules-core/issues/5315</a></td>
+<td>make hostname work on Virtuozzo / OpenVZ</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4811">ansible-modules-core/pull/4811</a></td>
+<td>Add support for SmartOS in hostname module</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5324">ansible-modules-core/pull/5324</a></td>
+<td>Add a note to say that *BSD and Solaris are also s</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5325">ansible-modules-core/pull/5325</a></td>
+<td>Add support for NetBSD</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5362">ansible-modules-core/pull/5362</a></td>
+<td>add support for virtuozzo in hostname module</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible/issues/13101">ansible/issues/13101</a></td>
+<td>Limit ansible-pull to a single matching hostname</td>
+</tr>
+<tr>
+<td>hostname</td>
+<td><a href="https://github.com/ansible/ansible/issues/16590">ansible/issues/16590</a></td>
+<td>Support for variables in inventory hostname</td>
 </tr>
 <tr>
 <td>ecs_taskdefinition</td>
@@ -11056,6 +11056,51 @@
 <td>cloudformation: add parameter for stack policy dur</td>
 </tr>
 <tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1937">ansible-modules-core/issues/1937</a></td>
+<td>Linode create server: Change underscore to dash in</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3873">ansible-modules-core/issues/3873</a></td>
+<td>linode module: "name" parameter required, but docu</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3403">ansible-modules-core/pull/3403</a></td>
+<td>Optionally remove prepending of linode ID, added p</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3880">ansible-modules-core/pull/3880</a></td>
+<td>Fix for linode module requiring name for state=res</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4297">ansible-modules-core/pull/4297</a></td>
+<td>Adding ability to create linode from stack script</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4507">ansible-modules-core/pull/4507</a></td>
+<td>Linode changes</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible/issues/12071">ansible/issues/12071</a></td>
+<td>Typecast variables are not preserved</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible/issues/13561">ansible/issues/13561</a></td>
+<td>A task that uses 'delegate_to' references 'ansible</td>
+</tr>
+<tr>
+<td>linode</td>
+<td><a href="https://github.com/ansible/ansible/pull/12315">ansible/pull/12315</a></td>
+<td>Adding Linode common functions to module_utils</td>
+</tr>
+<tr>
 <td>proxmox</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1004">ansible-modules-extras/issues/1004</a></td>
 <td>Proxmox Ansible contrib module handles KVM?</td>
@@ -11189,51 +11234,6 @@
 <td>wait_for</td>
 <td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
 <td>with lsb_release installed and /bin/lsb_release bi</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1937">ansible-modules-core/issues/1937</a></td>
-<td>Linode create server: Change underscore to dash in</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3873">ansible-modules-core/issues/3873</a></td>
-<td>linode module: "name" parameter required, but docu</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3403">ansible-modules-core/pull/3403</a></td>
-<td>Optionally remove prepending of linode ID, added p</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3880">ansible-modules-core/pull/3880</a></td>
-<td>Fix for linode module requiring name for state=res</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4297">ansible-modules-core/pull/4297</a></td>
-<td>Adding ability to create linode from stack script</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4507">ansible-modules-core/pull/4507</a></td>
-<td>Linode changes</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible/issues/12071">ansible/issues/12071</a></td>
-<td>Typecast variables are not preserved</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible/issues/13561">ansible/issues/13561</a></td>
-<td>A task that uses 'delegate_to' references 'ansible</td>
-</tr>
-<tr>
-<td>linode</td>
-<td><a href="https://github.com/ansible/ansible/pull/12315">ansible/pull/12315</a></td>
-<td>Adding Linode common functions to module_utils</td>
 </tr>
 <tr>
 <td>subversion</td>
@@ -11981,6 +11981,41 @@
 <td>Adds description for ini_file "section: null"</td>
 </tr>
 <tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
+<td>maven_artifact does not use classifier when constr</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
+<td>maven_artifact should support version=release.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
+<td>maven_artifact can't get artifact from local repo.</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
+<td>Add ability to specify release version for maven a</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
+<td>Fixes #2139 issue</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3304">ansible-modules-extras/pull/3304</a></td>
+<td>Maven plugin refactor</td>
+</tr>
+<tr>
+<td>maven_artifact</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3311">ansible-modules-extras/pull/3311</a></td>
+<td>maven_artifact: Operation fails because status != </td>
+</tr>
+<tr>
 <td>django_manage</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/2068">ansible-modules-core/issues/2068</a></td>
 <td>add Django dumpdata support ? </td>
@@ -12611,36 +12646,6 @@
 <td>Fix ValueErrors if extra output picked up from rab</td>
 </tr>
 <tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2139">ansible-modules-extras/issues/2139</a></td>
-<td>maven_artifact does not use classifier when constr</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2219">ansible-modules-extras/issues/2219</a></td>
-<td>maven_artifact should support version=release.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/2547">ansible-modules-extras/issues/2547</a></td>
-<td>maven_artifact can't get artifact from local repo.</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2662">ansible-modules-extras/pull/2662</a></td>
-<td>Add ability to specify release version for maven a</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3065">ansible-modules-extras/pull/3065</a></td>
-<td>Fixes #2139 issue</td>
-</tr>
-<tr>
-<td>maven_artifact</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3304">ansible-modules-extras/pull/3304</a></td>
-<td>Maven plugin refactor</td>
-</tr>
-<tr>
 <td>os_user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4520">ansible-modules-core/issues/4520</a></td>
 <td>os_user does not honor OS env variables</td>
@@ -12867,8 +12872,8 @@
 </tr>
 <tr>
 <td>dnf</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3309">ansible-modules-extras/pull/3309</a></td>
-<td>Dnf autoinstall</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3310">ansible-modules-extras/issues/3310</a></td>
+<td>dnf module doesnt work with dnf-2.0 API</td>
 </tr>
 <tr>
 <td>dnf</td>
@@ -12877,8 +12882,8 @@
 </tr>
 <tr>
 <td>dnf</td>
-<td><a href="https://github.com/ansible/ansible/issues/14427">ansible/issues/14427</a></td>
-<td>dnf module: NameError: global name util is not def</td>
+<td><a href="https://github.com/ansible/ansible/pull/18226">ansible/pull/18226</a></td>
+<td>Add tests for dnf modelled after the yum tests</td>
 </tr>
 <tr>
 <td>docker_image</td>
@@ -12979,31 +12984,6 @@
 <td>debug</td>
 <td><a href="https://github.com/ansible/ansible/issues/17773">ansible/issues/17773</a></td>
 <td>"| int " pipe does not work as described</td>
-</tr>
-<tr>
-<td>module_utils</td>
-<td><a href="https://github.com/ansible/ansible/issues/17587">ansible/issues/17587</a></td>
-<td>get_distribution() should expose all distributions</td>
-</tr>
-<tr>
-<td>module_utils</td>
-<td><a href="https://github.com/ansible/ansible/issues/17825">ansible/issues/17825</a></td>
-<td>Responses from remote devices not sanitized comple</td>
-</tr>
-<tr>
-<td>module_utils</td>
-<td><a href="https://github.com/ansible/ansible/issues/17937">ansible/issues/17937</a></td>
-<td>set_*_if_different() functions in module_utils/bas</td>
-</tr>
-<tr>
-<td>module_utils</td>
-<td><a href="https://github.com/ansible/ansible/pull/17090">ansible/pull/17090</a></td>
-<td>implement module params deprecation warnings</td>
-</tr>
-<tr>
-<td>module_utils</td>
-<td><a href="https://github.com/ansible/ansible/pull/18224">ansible/pull/18224</a></td>
-<td>Set ansible_os_family correctly under KDE neon</td>
 </tr>
 <tr>
 <td>ec2_eni</td>
@@ -13561,6 +13541,26 @@
 <td>'search' is not working after upgrade to ansible 2</td>
 </tr>
 <tr>
+<td>module_utils</td>
+<td><a href="https://github.com/ansible/ansible/issues/17587">ansible/issues/17587</a></td>
+<td>get_distribution() should expose all distributions</td>
+</tr>
+<tr>
+<td>module_utils</td>
+<td><a href="https://github.com/ansible/ansible/issues/17825">ansible/issues/17825</a></td>
+<td>Responses from remote devices not sanitized comple</td>
+</tr>
+<tr>
+<td>module_utils</td>
+<td><a href="https://github.com/ansible/ansible/issues/17937">ansible/issues/17937</a></td>
+<td>set_*_if_different() functions in module_utils/bas</td>
+</tr>
+<tr>
+<td>module_utils</td>
+<td><a href="https://github.com/ansible/ansible/pull/17090">ansible/pull/17090</a></td>
+<td>implement module params deprecation warnings</td>
+</tr>
+<tr>
 <td>netscaler</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/2061">ansible-modules-extras/issues/2061</a></td>
 <td>Ansible (1.9.4) netscaler module got error msg: 'N</td>
@@ -14094,6 +14094,21 @@
 <td>meta</td>
 <td><a href="https://github.com/ansible/ansible/pull/18127">ansible/pull/18127</a></td>
 <td>Clear host errors</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4607">ansible-modules-core/issues/4607</a></td>
+<td>Support of new docker 1.12 features (swarm, servic</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5295">ansible-modules-core/issues/5295</a></td>
+<td>docker_service doesn't pass environment to docker-</td>
+</tr>
+<tr>
+<td>docker_service</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5422">ansible-modules-core/issues/5422</a></td>
+<td>Error: docker-py version is 1.10.5. Minimum versio</td>
 </tr>
 <tr>
 <td>rabbitmq_policy</td>
@@ -14686,16 +14701,6 @@
 <td>Azure Resource Manager module doesn't support user</td>
 </tr>
 <tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4607">ansible-modules-core/issues/4607</a></td>
-<td>Support of new docker 1.12 features (swarm, servic</td>
-</tr>
-<tr>
-<td>docker_service</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5295">ansible-modules-core/issues/5295</a></td>
-<td>docker_service doesn't pass environment to docker-</td>
-</tr>
-<tr>
 <td>route53_facts</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1292">ansible-modules-extras/issues/1292</a></td>
 <td>route53_facts.py - fails with unexpected keyword a</td>
@@ -14934,6 +14939,16 @@
 <td>cronvar</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1541">ansible-modules-extras/pull/1541</a></td>
 <td>in cronvar, unsetting a default of 'root'. a defau</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/issues/18227">ansible/issues/18227</a></td>
+<td>ansible_python_interpreter is not set properly for</td>
+</tr>
+<tr>
+<td>ansible</td>
+<td><a href="https://github.com/ansible/ansible/pull/18038">ansible/pull/18038</a></td>
+<td>Add a SIGTERM handler that just exits.</td>
 </tr>
 <tr>
 <td>module_util</td>
@@ -16591,11 +16606,6 @@
 <td>Pager Duty Alert module null response handling.</td>
 </tr>
 <tr>
-<td>ansible</td>
-<td><a href="https://github.com/ansible/ansible/pull/18038">ansible/pull/18038</a></td>
-<td>Add a SIGTERM handler that just exits.</td>
-</tr>
-<tr>
 <td>avi</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/3062">ansible-modules-extras/pull/3062</a></td>
 <td>Avi Vantage Ansible Module</td>
@@ -16834,11 +16844,6 @@
 <td>win_localgroupmembers</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2301">ansible-modules-extras/pull/2301</a></td>
 <td>added win_localgroupmembers files</td>
-</tr>
-<tr>
-<td>docsite</td>
-<td><a href="https://github.com/ansible/ansible/pull/18137">ansible/pull/18137</a></td>
-<td>Small typos, grammar and wording fixes</td>
 </tr>
 <tr>
 <td>dimensiondata_public_ip_block</td>
