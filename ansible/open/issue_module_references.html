@@ -6547,6 +6547,11 @@
 </tr>
 <tr>
 <td>copy</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5436">ansible-modules-core/pull/5436</a></td>
+<td>fix the behavior of copy module using "force" args</td>
+</tr>
+<tr>
+<td>copy</td>
 <td><a href="https://github.com/ansible/ansible/issues/10834">ansible/issues/10834</a></td>
 <td>copy fails when dest is hardlink</td>
 </tr>
@@ -9919,6 +9924,11 @@
 <td>core</td>
 <td><a href="https://github.com/ansible/ansible/pull/17667">ansible/pull/17667</a></td>
 <td>parse_kv now observes check_raw</td>
+</tr>
+<tr>
+<td>core</td>
+<td><a href="https://github.com/ansible/ansible/pull/17967">ansible/pull/17967</a></td>
+<td>add vars_dirs parameter like vars_files</td>
 </tr>
 <tr>
 <td>core</td>
@@ -14056,6 +14066,21 @@
 <td>Fix svr4pkg being non-idempotent</td>
 </tr>
 <tr>
+<td>redshift</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3323">ansible-modules-extras/issues/3323</a></td>
+<td>Redshift module missing supported machine types in</td>
+</tr>
+<tr>
+<td>redshift</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3324">ansible-modules-extras/issues/3324</a></td>
+<td>Redshift module public_accessible = False does not</td>
+</tr>
+<tr>
+<td>redshift</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
+<td>Amazon Redshift Module - Split Changes Out</td>
+</tr>
+<tr>
 <td>rhn_channel</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/4258">ansible-modules-core/issues/4258</a></td>
 <td>rhn_channel relies on now-deprecated XML RPC inter</td>
@@ -14806,16 +14831,6 @@
 <td>support host parameter to datadog_event module clo</td>
 </tr>
 <tr>
-<td>play</td>
-<td><a href="https://github.com/ansible/ansible/pull/15404">ansible/pull/15404</a></td>
-<td>add "gather_facts: ignore_restrictions"</td>
-</tr>
-<tr>
-<td>play</td>
-<td><a href="https://github.com/ansible/ansible/pull/17967">ansible/pull/17967</a></td>
-<td>add vars_dirs parameter like vars_files</td>
-</tr>
-<tr>
 <td>zfs</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/879">ansible-modules-extras/issues/879</a></td>
 <td>ZFS volsize idempotence</td>
@@ -15114,6 +15129,16 @@
 <td>htpasswd</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/2427">ansible-modules-core/pull/2427</a></td>
 <td>Allow htpasswd to update/not update passwords</td>
+</tr>
+<tr>
+<td>host_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/17382">ansible/issues/17382</a></td>
+<td>backup files in host_vars override vars.yml</td>
+</tr>
+<tr>
+<td>host_vars</td>
+<td><a href="https://github.com/ansible/ansible/issues/18257">ansible/issues/18257</a></td>
+<td>Per var merging of lists (and hashes?)</td>
 </tr>
 <tr>
 <td>default</td>
@@ -15716,11 +15741,6 @@
 <td>tempfile module</td>
 </tr>
 <tr>
-<td>redshift</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2566">ansible-modules-extras/pull/2566</a></td>
-<td>Amazon Redshift Module - Split Changes Out</td>
-</tr>
-<tr>
 <td>brook</td>
 <td><a href="https://github.com/ansible/ansible/pull/16122">ansible/pull/16122</a></td>
 <td>Brook inventory</td>
@@ -16084,6 +16104,11 @@
 <td>win_timezone</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/1767">ansible-modules-extras/issues/1767</a></td>
 <td>New Windows Modules Missing RETURN docs</td>
+</tr>
+<tr>
+<td>play</td>
+<td><a href="https://github.com/ansible/ansible/pull/15404">ansible/pull/15404</a></td>
+<td>add "gather_facts: ignore_restrictions"</td>
 </tr>
 <tr>
 <td>elasticsearch_shield_role</td>
@@ -17164,11 +17189,6 @@
 <td>attr</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/2263">ansible-modules-extras/pull/2263</a></td>
 <td>attr module: wrapper for chattr/lsattr</td>
-</tr>
-<tr>
-<td>host_vars</td>
-<td><a href="https://github.com/ansible/ansible/issues/17382">ansible/issues/17382</a></td>
-<td>backup files in host_vars override vars.yml</td>
 </tr>
 <tr>
 <td>postgresql_query</td>
