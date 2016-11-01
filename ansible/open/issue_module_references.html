@@ -5522,11 +5522,6 @@
 </tr>
 <tr>
 <td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5163">ansible-modules-core/issues/5163</a></td>
-<td>User module does not add groups</td>
-</tr>
-<tr>
-<td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/752">ansible-modules-core/issues/752</a></td>
 <td>User module: createhome is inconsistently named</td>
 </tr>
@@ -5559,11 +5554,6 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/5168">ansible-modules-core/pull/5168</a></td>
 <td>fixes user module not adding groups</td>
-</tr>
-<tr>
-<td>user</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5179">ansible-modules-core/pull/5179</a></td>
-<td>allow groups to be passed as YAML list as well</td>
 </tr>
 <tr>
 <td>user</td>
@@ -10211,66 +10201,6 @@
 <td>get_url fails when moving a file and become: true</td>
 </tr>
 <tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
-<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
-<td>Adding `\n<something>` at the end of a job in the </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
-<td>Cron module does not properly set SELinux context </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
-<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
-<td>Verify that cron_file argument is valid.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
-<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5232">ansible-modules-core/issues/5232</a></td>
-<td>Cron "user" parameter not working</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
-<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
-<td>cron - discourage line breaks in job param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
-<td>add correct SELinux file context for crontabs (#45</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5361">ansible-modules-core/pull/5361</a></td>
-<td>Fixes #4795 - Validate filename portion of `cron_f</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
-<td>[Cron module] validate cron_file parameter</td>
-</tr>
-<tr>
 <td>include_vars</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/5204">ansible-modules-core/issues/5204</a></td>
 <td>include_vars - Unexpected failure during module ex</td>
@@ -10726,54 +10656,54 @@
 <td>Use public or private IP in Azure Dynamic Inventor</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
-<td>script module should support templating</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4312">ansible-modules-core/issues/4312</a></td>
+<td>Adding `\n<something>` at the end of a job in the </td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5340">ansible-modules-core/issues/5340</a></td>
-<td>WebException Unable to unzip package using built-i</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4511">ansible-modules-core/issues/4511</a></td>
+<td>Cron module does not properly set SELinux context </td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5410">ansible-modules-core/issues/5410</a></td>
-<td>Confuse ansible output executing script module ( i</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/467">ansible-modules-core/issues/467</a></td>
+<td>Ansible 1.8.2, module: cron. Crontabs aren't added</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5420">ansible-modules-core/issues/5420</a></td>
-<td>Unexpected token \r\n when running script module o</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4795">ansible-modules-core/issues/4795</a></td>
+<td>Verify that cron_file argument is valid.</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
-<td>Add fetch, raw, script and slurp in the Windows ca</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5138">ansible-modules-core/issues/5138</a></td>
+<td>Cron task crash on Debian 7.8 - regression in 2.1.</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/14151">ansible/issues/14151</a></td>
-<td>Ansible 2.0.0.2 : "ERROR! file or module does not </td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5232">ansible-modules-core/issues/5232</a></td>
+<td>Cron "user" parameter not working</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15415">ansible/issues/15415</a></td>
-<td>WinRM Raw/Script module not executing powershell s</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4488">ansible-modules-core/pull/4488</a></td>
+<td>cron - discourage line breaks in job param</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15430">ansible/issues/15430</a></td>
-<td>script module should have an optional stdin parame</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4595">ansible-modules-core/pull/4595</a></td>
+<td>add correct SELinux file context for crontabs (#45</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/16046">ansible/issues/16046</a></td>
-<td>Ansible lost tmp dir when run script module</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5361">ansible-modules-core/pull/5361</a></td>
+<td>Fixes #4795 - Validate filename portion of `cron_f</td>
 </tr>
 <tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
-<td>Split script module `free_form` parameter into `pa</td>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/11295">ansible/issues/11295</a></td>
+<td>[Cron module] validate cron_file parameter</td>
 </tr>
 <tr>
 <td>ec2_lc</td>
@@ -11151,6 +11081,51 @@
 <td>Add intg for apt_repo's mode argument.</td>
 </tr>
 <tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1664">ansible-modules-core/issues/1664</a></td>
+<td>script module should support templating</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5340">ansible-modules-core/issues/5340</a></td>
+<td>WebException Unable to unzip package using built-i</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5420">ansible-modules-core/issues/5420</a></td>
+<td>Unexpected token \r\n when running script module o</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3896">ansible-modules-core/pull/3896</a></td>
+<td>Add fetch, raw, script and slurp in the Windows ca</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/14151">ansible/issues/14151</a></td>
+<td>Ansible 2.0.0.2 : "ERROR! file or module does not </td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15415">ansible/issues/15415</a></td>
+<td>WinRM Raw/Script module not executing powershell s</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15430">ansible/issues/15430</a></td>
+<td>script module should have an optional stdin parame</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/16046">ansible/issues/16046</a></td>
+<td>Ansible lost tmp dir when run script module</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/16414">ansible/issues/16414</a></td>
+<td>Split script module `free_form` parameter into `pa</td>
+</tr>
+<tr>
 <td>ssh</td>
 <td><a href="https://github.com/ansible/ansible/pull/11990">ansible/pull/11990</a></td>
 <td>Make SSH binary path a configurable variable</td>
@@ -11194,51 +11169,6 @@
 <td>ssh</td>
 <td><a href="https://github.com/ansible/ansible/pull/17754">ansible/pull/17754</a></td>
 <td>Fix for failed ssh connection and connection timeo</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1674">ansible-modules-core/issues/1674</a></td>
-<td>wait_for module and UDP port check support</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2788">ansible-modules-core/issues/2788</a></td>
-<td>wait_for does not swallow connection errors</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3079">ansible-modules-core/issues/3079</a></td>
-<td>wait_for module for windows (accessing file on win</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/861">ansible-modules-core/issues/861</a></td>
-<td>wait_for suck in wait until timeout, it cannot det</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2938">ansible-modules-core/pull/2938</a></td>
-<td>added ability to control sleep between attempts</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5195">ansible-modules-core/pull/5195</a></td>
-<td>Add ignore_time_wait option</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/15732">ansible/issues/15732</a></td>
-<td>wait_for will not accept both port and path; shoul</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/15868">ansible/issues/15868</a></td>
-<td>Variable value in "vars_files" can not be found in</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
-<td>with lsb_release installed and /bin/lsb_release bi</td>
 </tr>
 <tr>
 <td>route53</td>
@@ -11624,6 +11554,46 @@
 <td>mysql_db</td>
 <td><a href="https://github.com/ansible/ansible/issues/10093">ansible/issues/10093</a></td>
 <td>mysql_db does not change character set without man</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1674">ansible-modules-core/issues/1674</a></td>
+<td>wait_for module and UDP port check support</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2788">ansible-modules-core/issues/2788</a></td>
+<td>wait_for does not swallow connection errors</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3079">ansible-modules-core/issues/3079</a></td>
+<td>wait_for module for windows (accessing file on win</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/861">ansible-modules-core/issues/861</a></td>
+<td>wait_for suck in wait until timeout, it cannot det</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5195">ansible-modules-core/pull/5195</a></td>
+<td>Add ignore_time_wait option</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/15732">ansible/issues/15732</a></td>
+<td>wait_for will not accept both port and path; shoul</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/15868">ansible/issues/15868</a></td>
+<td>Variable value in "vars_files" can not be found in</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/15920">ansible/issues/15920</a></td>
+<td>with lsb_release installed and /bin/lsb_release bi</td>
 </tr>
 <tr>
 <td>lvol</td>
@@ -13946,21 +13916,6 @@
 <td>fetch module doesn't fail if remote file is missin</td>
 </tr>
 <tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5052">ansible-modules-core/issues/5052</a></td>
-<td>Adding Namespace as an editable parameter for the </td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5277">ansible-modules-core/issues/5277</a></td>
-<td>Support for Logon to Amazon EC2 Container Registry</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3708">ansible-modules-core/pull/3708</a></td>
-<td>added logout to docker_login</td>
-</tr>
-<tr>
 <td>nxos_config</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3718">ansible-modules-core/issues/3718</a></td>
 <td>nxos_config issue with creating L2 vlans using tra</td>
@@ -14569,6 +14524,16 @@
 <td>ufw</td>
 <td><a href="https://github.com/ansible/ansible/issues/15590">ansible/issues/15590</a></td>
 <td>Run tags based task type (module name)</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5052">ansible-modules-core/issues/5052</a></td>
+<td>Adding Namespace as an editable parameter for the </td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5277">ansible-modules-core/issues/5277</a></td>
+<td>Support for Logon to Amazon EC2 Container Registry</td>
 </tr>
 <tr>
 <td>vmware_vm_facts</td>

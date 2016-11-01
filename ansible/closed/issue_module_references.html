@@ -43037,6 +43037,11 @@
 </tr>
 <tr>
 <td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5163">ansible-modules-core/issues/5163</a></td>
+<td>User module does not add groups</td>
+</tr>
+<tr>
+<td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/603">ansible-modules-core/issues/603</a></td>
 <td>user module: unable create/modify user in HP-UX 11</td>
 </tr>
@@ -43234,6 +43239,11 @@
 <td>user</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4560">ansible-modules-core/pull/4560</a></td>
 <td>Fix user module under python3</td>
+</tr>
+<tr>
+<td>user</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5179">ansible-modules-core/pull/5179</a></td>
+<td>allow groups to be passed as YAML list as well</td>
 </tr>
 <tr>
 <td>user</td>
@@ -63646,6 +63656,516 @@
 <td>Add a removes= keyword to the command module</td>
 </tr>
 <tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2763">ansible-modules-core/issues/2763</a></td>
+<td>cron module: add jobs into /etc/crontab, not /etc/</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2807">ansible-modules-core/issues/2807</a></td>
+<td>cron module breaks with busybox 'crontab'</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2882">ansible-modules-core/issues/2882</a></td>
+<td>cron module does not correctly use sudo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3216">ansible-modules-core/issues/3216</a></td>
+<td>cron job does not escape `%` characters</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3256">ansible-modules-core/issues/3256</a></td>
+<td>cron duplicates cron jobs if '#Ansible: ' comment </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3344">ansible-modules-core/issues/3344</a></td>
+<td>cron module erases other cronjobs of user root and</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3691">ansible-modules-core/issues/3691</a></td>
+<td>Cron module fails to set env variable, instead rai</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3791">ansible-modules-core/issues/3791</a></td>
+<td>cron state is changed when using multiline job</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/415">ansible-modules-core/issues/415</a></td>
+<td>cron module: documentation bug</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/47">ansible-modules-core/issues/47</a></td>
+<td>  [CRON module] Cross-reference List of some OK / </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
+<td>cron does not create cron_file if it does not exis</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/50">ansible-modules-core/issues/50</a></td>
+<td>[CRON module] Add Support for Env Variables, eg Ma</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5109">ansible-modules-core/issues/5109</a></td>
+<td>cron: OSError: [Errno 25] Inappropriate ioctl for </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5150">ansible-modules-core/issues/5150</a></td>
+<td>Ansible v2.1.2.0 cron module: job Required if stat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/731">ansible-modules-core/issues/731</a></td>
+<td>cron module do not detect error</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1166">ansible-modules-core/pull/1166</a></td>
+<td>Name is a required parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2010">ansible-modules-core/pull/2010</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2229">ansible-modules-core/pull/2229</a></td>
+<td>[cron] Add missing documentation: cron_file requir</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2768">ansible-modules-core/pull/2768</a></td>
+<td>Allow cron_file to be an absolute path</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2770">ansible-modules-core/pull/2770</a></td>
+<td>Add a flag to register cron jobs at /etc/crontab. </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2820">ansible-modules-core/pull/2820</a></td>
+<td>Update cron.py documentation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3239">ansible-modules-core/pull/3239</a></td>
+<td>Add diff and check mode to cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3674">ansible-modules-core/pull/3674</a></td>
+<td>Port cron to a py3 and py24 compatible syntax</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3750">ansible-modules-core/pull/3750</a></td>
+<td>Fix crontab argument order for writing</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3770">ansible-modules-core/pull/3770</a></td>
+<td>Added statement about escaping characters in cron </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3904">ansible-modules-core/pull/3904</a></td>
+<td>Clarify behaviour when state=present and no name i</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4044">ansible-modules-core/pull/4044</a></td>
+<td>Fix cron module to consider value input in `job` w</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4270">ansible-modules-core/pull/4270</a></td>
+<td>Allow cron to target remote user without sudo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4285">ansible-modules-core/pull/4285</a></td>
+<td>Fixes #3791 cron always returning changed state fo</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
+<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4487">ansible-modules-core/pull/4487</a></td>
+<td>Fixes #3256 - Update unmanaged cron jobs, rather t</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4777">ansible-modules-core/pull/4777</a></td>
+<td>cron: replacement for os.getlogin()</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5151">ansible-modules-core/pull/5151</a></td>
+<td>5150 Cron module: Move job parameter to meet expec</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5273">ansible-modules-core/pull/5273</a></td>
+<td>Fix cron.py to remove a cron_file when job: is und</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/742">ansible-modules-core/pull/742</a></td>
+<td>Name parameter should not be marked as mandatory</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/83">ansible-modules-core/pull/83</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/878">ansible-modules-core/pull/878</a></td>
+<td>cron module: Add disabled option for commented job</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/986">ansible-modules-core/pull/986</a></td>
+<td>Fix permissions issue with 'cron' module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/10335">ansible/issues/10335</a></td>
+<td>error in cron example.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/10821">ansible/issues/10821</a></td>
+<td>Explicitely set a value to its default raise an ex</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/11636">ansible/issues/11636</a></td>
+<td>cron module has no way to disable jobs temporarily</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/12794">ansible/issues/12794</a></td>
+<td>When using cron_file with cron module new line is </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/14853">ansible/issues/14853</a></td>
+<td>cron job does not escape `%` characters</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/15181">ansible/issues/15181</a></td>
+<td>[2.0.1.0] Potential issue?</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/15296">ansible/issues/15296</a></td>
+<td>Cron user parameter ignored</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/1787">ansible/issues/1787</a></td>
+<td>should indicate reboot parameter on cron module is</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/1964">ansible/issues/1964</a></td>
+<td>Feature request - 'file' parameter for cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2125">ansible/issues/2125</a></td>
+<td>cron module fails on subsequent runs with complex </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2165">ansible/issues/2165</a></td>
+<td>Fail to set cron via module cron with empty cronta</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/2957">ansible/issues/2957</a></td>
+<td>Cron task link creation fails</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3106">ansible/issues/3106</a></td>
+<td>mailto option for cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3180">ansible/issues/3180</a></td>
+<td>cron module traceback</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3304">ansible/issues/3304</a></td>
+<td>cron module bugs</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3495">ansible/issues/3495</a></td>
+<td>cron module throws exceptions when using the cron_</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/3933">ansible/issues/3933</a></td>
+<td>It seems the cron module does not handle the user </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4648">ansible/issues/4648</a></td>
+<td>cron module raises exception when used on Solaris </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4795">ansible/issues/4795</a></td>
+<td>Incorrect changed result in cron module. </td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/4881">ansible/issues/4881</a></td>
+<td>FR for cron module: add jobs into /etc/crontab</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/5479">ansible/issues/5479</a></td>
+<td>Docs for "cron" module say "name" is not required</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6111">ansible/issues/6111</a></td>
+<td>If I use the value "import logs" in a dict, ansibl</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/66">ansible/issues/66</a></td>
+<td>trivial cron module for cron.d</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6844">ansible/issues/6844</a></td>
+<td>Recent cron documentation commit contradicts imple</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6894">ansible/issues/6894</a></td>
+<td>AssertionError in module docstrings</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/6896">ansible/issues/6896</a></td>
+<td>[CRON module] add support for random minutes/hours</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/7422">ansible/issues/7422</a></td>
+<td>Simple cron task fails</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/8277">ansible/issues/8277</a></td>
+<td>cron module failure has traceback versus error mes</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/8695">ansible/issues/8695</a></td>
+<td>[Bug] Cron module fails to create cronjob when gat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/issues/9557">ansible/issues/9557</a></td>
+<td>spaces in with_items object</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1011">ansible/pull/1011</a></td>
+<td>Cron support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1077">ansible/pull/1077</a></td>
+<td>Cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1078">ansible/pull/1078</a></td>
+<td>cron feature and test cases</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1243">ansible/pull/1243</a></td>
+<td>cron feature (w/o tests)</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1318">ansible/pull/1318</a></td>
+<td>fixed cron library so backups are python2.4 compat</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1785">ansible/pull/1785</a></td>
+<td>Add support for @reboot to cron module</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/1796">ansible/pull/1796</a></td>
+<td>fix cron DOCUMENTATION</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/2019">ansible/pull/2019</a></td>
+<td>New feature for 'cron' module: cron_file attribute</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/2698">ansible/pull/2698</a></td>
+<td>Atomic replace and cron</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3328">ansible/pull/3328</a></td>
+<td>cron: do not permit empty job and allow all specia</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3411">ansible/pull/3411</a></td>
+<td>cron: Validate job parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3482">ansible/pull/3482</a></td>
+<td>cron module: bug fixes and enhancements.</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3499">ansible/pull/3499</a></td>
+<td>handle cron_file properly</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/3983">ansible/pull/3983</a></td>
+<td>bug-fix: if name given ,not delete cron_file but c</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4304">ansible/pull/4304</a></td>
+<td>Enforce umask for cron module, so cron_file genera</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4584">ansible/pull/4584</a></td>
+<td>Adding env to allow cron jobs with environment var</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4754">ansible/pull/4754</a></td>
+<td>Fix 4648, cron module is not working on solaris</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4797">ansible/pull/4797</a></td>
+<td>fix for https://github.com/ansible/ansible/issues/</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/4895">ansible/pull/4895</a></td>
+<td>Fix: absent state removing whole cron.d file inste</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5466">ansible/pull/5466</a></td>
+<td>cron module: Add mailto parameter</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5511">ansible/pull/5511</a></td>
+<td>Added AIX Crontab support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/5591">ansible/pull/5591</a></td>
+<td>Add a random filter for templates</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6791">ansible/pull/6791</a></td>
+<td>Fix cron module and memtotal_mb fact on HP-UX</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6829">ansible/pull/6829</a></td>
+<td>Update cron module documentation. The 'name' param</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6870">ansible/pull/6870</a></td>
+<td>Modified Cron to add AIX Crontab support</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/6949">ansible/pull/6949</a></td>
+<td>Minor change to cron core module, to unlink cron f</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7172">ansible/pull/7172</a></td>
+<td>Cron Module: Allow you to specify the full path to</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7348">ansible/pull/7348</a></td>
+<td>Fix grammar and value errors in cron documentation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/7954">ansible/pull/7954</a></td>
+<td>cron module: Use correct parameter name in error m</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8253">ansible/pull/8253</a></td>
+<td>Add support for cronfile outside of /etc/cron.d #4</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8740">ansible/pull/8740</a></td>
+<td>Name appears to be a required parameter for cron m</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8741">ansible/pull/8741</a></td>
+<td>Update cron documenation</td>
+</tr>
+<tr>
+<td>cron</td>
+<td><a href="https://github.com/ansible/ansible/pull/8772">ansible/pull/8772</a></td>
+<td>cron module: add enviroment variables management</td>
+</tr>
+<tr>
 <td>mount</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1259">ansible-modules-core/issues/1259</a></td>
 <td>Mount module "state: unmounted" should not require</td>
@@ -64649,506 +65169,6 @@
 <td>basic</td>
 <td><a href="https://github.com/ansible/ansible/pull/9887">ansible/pull/9887</a></td>
 <td>Use send instead of sendv on the systemd.journal (</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2316">ansible-modules-core/issues/2316</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2763">ansible-modules-core/issues/2763</a></td>
-<td>cron module: add jobs into /etc/crontab, not /etc/</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2807">ansible-modules-core/issues/2807</a></td>
-<td>cron module breaks with busybox 'crontab'</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2882">ansible-modules-core/issues/2882</a></td>
-<td>cron module does not correctly use sudo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3216">ansible-modules-core/issues/3216</a></td>
-<td>cron job does not escape `%` characters</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3344">ansible-modules-core/issues/3344</a></td>
-<td>cron module erases other cronjobs of user root and</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3691">ansible-modules-core/issues/3691</a></td>
-<td>Cron module fails to set env variable, instead rai</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3791">ansible-modules-core/issues/3791</a></td>
-<td>cron state is changed when using multiline job</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/415">ansible-modules-core/issues/415</a></td>
-<td>cron module: documentation bug</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/47">ansible-modules-core/issues/47</a></td>
-<td>  [CRON module] Cross-reference List of some OK / </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4917">ansible-modules-core/issues/4917</a></td>
-<td>cron does not create cron_file if it does not exis</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/50">ansible-modules-core/issues/50</a></td>
-<td>[CRON module] Add Support for Env Variables, eg Ma</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5109">ansible-modules-core/issues/5109</a></td>
-<td>cron: OSError: [Errno 25] Inappropriate ioctl for </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/5150">ansible-modules-core/issues/5150</a></td>
-<td>Ansible v2.1.2.0 cron module: job Required if stat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/731">ansible-modules-core/issues/731</a></td>
-<td>cron module do not detect error</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1166">ansible-modules-core/pull/1166</a></td>
-<td>Name is a required parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2010">ansible-modules-core/pull/2010</a></td>
-<td>cron module: add enviroment variables management</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2229">ansible-modules-core/pull/2229</a></td>
-<td>[cron] Add missing documentation: cron_file requir</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2768">ansible-modules-core/pull/2768</a></td>
-<td>Allow cron_file to be an absolute path</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2770">ansible-modules-core/pull/2770</a></td>
-<td>Add a flag to register cron jobs at /etc/crontab. </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2820">ansible-modules-core/pull/2820</a></td>
-<td>Update cron.py documentation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3239">ansible-modules-core/pull/3239</a></td>
-<td>Add diff and check mode to cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3674">ansible-modules-core/pull/3674</a></td>
-<td>Port cron to a py3 and py24 compatible syntax</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3750">ansible-modules-core/pull/3750</a></td>
-<td>Fix crontab argument order for writing</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3770">ansible-modules-core/pull/3770</a></td>
-<td>Added statement about escaping characters in cron </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3904">ansible-modules-core/pull/3904</a></td>
-<td>Clarify behaviour when state=present and no name i</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4044">ansible-modules-core/pull/4044</a></td>
-<td>Fix cron module to consider value input in `job` w</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4270">ansible-modules-core/pull/4270</a></td>
-<td>Allow cron to target remote user without sudo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4285">ansible-modules-core/pull/4285</a></td>
-<td>Fixes #3791 cron always returning changed state fo</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4330">ansible-modules-core/pull/4330</a></td>
-<td>Fixes #2316 - Ensure blank line at end of cron fil</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4777">ansible-modules-core/pull/4777</a></td>
-<td>cron: replacement for os.getlogin()</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5151">ansible-modules-core/pull/5151</a></td>
-<td>5150 Cron module: Move job parameter to meet expec</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/5273">ansible-modules-core/pull/5273</a></td>
-<td>Fix cron.py to remove a cron_file when job: is und</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/742">ansible-modules-core/pull/742</a></td>
-<td>Name parameter should not be marked as mandatory</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/83">ansible-modules-core/pull/83</a></td>
-<td>cron module: add enviroment variables management</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/878">ansible-modules-core/pull/878</a></td>
-<td>cron module: Add disabled option for commented job</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/986">ansible-modules-core/pull/986</a></td>
-<td>Fix permissions issue with 'cron' module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/10335">ansible/issues/10335</a></td>
-<td>error in cron example.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/10821">ansible/issues/10821</a></td>
-<td>Explicitely set a value to its default raise an ex</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/11636">ansible/issues/11636</a></td>
-<td>cron module has no way to disable jobs temporarily</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/12794">ansible/issues/12794</a></td>
-<td>When using cron_file with cron module new line is </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/14853">ansible/issues/14853</a></td>
-<td>cron job does not escape `%` characters</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/15181">ansible/issues/15181</a></td>
-<td>[2.0.1.0] Potential issue?</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/15296">ansible/issues/15296</a></td>
-<td>Cron user parameter ignored</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/1787">ansible/issues/1787</a></td>
-<td>should indicate reboot parameter on cron module is</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/1964">ansible/issues/1964</a></td>
-<td>Feature request - 'file' parameter for cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2125">ansible/issues/2125</a></td>
-<td>cron module fails on subsequent runs with complex </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2165">ansible/issues/2165</a></td>
-<td>Fail to set cron via module cron with empty cronta</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/2957">ansible/issues/2957</a></td>
-<td>Cron task link creation fails</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3106">ansible/issues/3106</a></td>
-<td>mailto option for cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3180">ansible/issues/3180</a></td>
-<td>cron module traceback</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3304">ansible/issues/3304</a></td>
-<td>cron module bugs</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3495">ansible/issues/3495</a></td>
-<td>cron module throws exceptions when using the cron_</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/3933">ansible/issues/3933</a></td>
-<td>It seems the cron module does not handle the user </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4648">ansible/issues/4648</a></td>
-<td>cron module raises exception when used on Solaris </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4795">ansible/issues/4795</a></td>
-<td>Incorrect changed result in cron module. </td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/4881">ansible/issues/4881</a></td>
-<td>FR for cron module: add jobs into /etc/crontab</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/5479">ansible/issues/5479</a></td>
-<td>Docs for "cron" module say "name" is not required</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6111">ansible/issues/6111</a></td>
-<td>If I use the value "import logs" in a dict, ansibl</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/66">ansible/issues/66</a></td>
-<td>trivial cron module for cron.d</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6844">ansible/issues/6844</a></td>
-<td>Recent cron documentation commit contradicts imple</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6894">ansible/issues/6894</a></td>
-<td>AssertionError in module docstrings</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/6896">ansible/issues/6896</a></td>
-<td>[CRON module] add support for random minutes/hours</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/7422">ansible/issues/7422</a></td>
-<td>Simple cron task fails</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/8277">ansible/issues/8277</a></td>
-<td>cron module failure has traceback versus error mes</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/8695">ansible/issues/8695</a></td>
-<td>[Bug] Cron module fails to create cronjob when gat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/issues/9557">ansible/issues/9557</a></td>
-<td>spaces in with_items object</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1011">ansible/pull/1011</a></td>
-<td>Cron support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1077">ansible/pull/1077</a></td>
-<td>Cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1078">ansible/pull/1078</a></td>
-<td>cron feature and test cases</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1243">ansible/pull/1243</a></td>
-<td>cron feature (w/o tests)</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1318">ansible/pull/1318</a></td>
-<td>fixed cron library so backups are python2.4 compat</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1785">ansible/pull/1785</a></td>
-<td>Add support for @reboot to cron module</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/1796">ansible/pull/1796</a></td>
-<td>fix cron DOCUMENTATION</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/2019">ansible/pull/2019</a></td>
-<td>New feature for 'cron' module: cron_file attribute</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/2698">ansible/pull/2698</a></td>
-<td>Atomic replace and cron</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3328">ansible/pull/3328</a></td>
-<td>cron: do not permit empty job and allow all specia</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3411">ansible/pull/3411</a></td>
-<td>cron: Validate job parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3482">ansible/pull/3482</a></td>
-<td>cron module: bug fixes and enhancements.</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3499">ansible/pull/3499</a></td>
-<td>handle cron_file properly</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/3983">ansible/pull/3983</a></td>
-<td>bug-fix: if name given ,not delete cron_file but c</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4304">ansible/pull/4304</a></td>
-<td>Enforce umask for cron module, so cron_file genera</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4584">ansible/pull/4584</a></td>
-<td>Adding env to allow cron jobs with environment var</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4754">ansible/pull/4754</a></td>
-<td>Fix 4648, cron module is not working on solaris</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4797">ansible/pull/4797</a></td>
-<td>fix for https://github.com/ansible/ansible/issues/</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/4895">ansible/pull/4895</a></td>
-<td>Fix: absent state removing whole cron.d file inste</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5466">ansible/pull/5466</a></td>
-<td>cron module: Add mailto parameter</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5511">ansible/pull/5511</a></td>
-<td>Added AIX Crontab support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/5591">ansible/pull/5591</a></td>
-<td>Add a random filter for templates</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6791">ansible/pull/6791</a></td>
-<td>Fix cron module and memtotal_mb fact on HP-UX</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6829">ansible/pull/6829</a></td>
-<td>Update cron module documentation. The 'name' param</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6870">ansible/pull/6870</a></td>
-<td>Modified Cron to add AIX Crontab support</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/6949">ansible/pull/6949</a></td>
-<td>Minor change to cron core module, to unlink cron f</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7172">ansible/pull/7172</a></td>
-<td>Cron Module: Allow you to specify the full path to</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7348">ansible/pull/7348</a></td>
-<td>Fix grammar and value errors in cron documentation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/7954">ansible/pull/7954</a></td>
-<td>cron module: Use correct parameter name in error m</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8253">ansible/pull/8253</a></td>
-<td>Add support for cronfile outside of /etc/cron.d #4</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8740">ansible/pull/8740</a></td>
-<td>Name appears to be a required parameter for cron m</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8741">ansible/pull/8741</a></td>
-<td>Update cron documenation</td>
-</tr>
-<tr>
-<td>cron</td>
-<td><a href="https://github.com/ansible/ansible/pull/8772">ansible/pull/8772</a></td>
-<td>cron module: add enviroment variables management</td>
 </tr>
 <tr>
 <td>hostname</td>
@@ -75501,6 +75521,311 @@
 <td>Ping module fix</td>
 </tr>
 <tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1776">ansible-modules-core/issues/1776</a></td>
+<td>script module no longer works on Windows</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2276">ansible-modules-core/issues/2276</a></td>
+<td>Script module writing straight to stderr and it's </td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3610">ansible-modules-core/issues/3610</a></td>
+<td>stderr of script module is always empty string</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4242">ansible-modules-core/issues/4242</a></td>
+<td>Script module, Powershell 4.0, Wusa.exe,  Error 21</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4884">ansible-modules-core/issues/4884</a></td>
+<td>script module: more interpreter than sh</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/5410">ansible-modules-core/issues/5410</a></td>
+<td>Confuse ansible output executing script module ( i</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/864">ansible-modules-core/issues/864</a></td>
+<td>script module crashes with "Exception while splitt</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/944">ansible-modules-core/issues/944</a></td>
+<td>Script module failing to execute powershell script</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/4000">ansible-modules-core/pull/4000</a></td>
+<td>Add a note about using the script module with pseu</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/311">ansible-modules-extras/issues/311</a></td>
+<td>Ansible script module does not work on windows gue</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/10107">ansible/issues/10107</a></td>
+<td>"script" module uses remote shell</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/10841">ansible/issues/10841</a></td>
+<td>script module stdout missing if it would contain b</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/10947">ansible/issues/10947</a></td>
+<td>Ansible script module does not send boolean argume</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/11902">ansible/issues/11902</a></td>
+<td>script module no longer honors sudo/sudo_user/beco</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/12874">ansible/issues/12874</a></td>
+<td>Script module (fake module btw, whats up with that</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/1294">ansible/issues/1294</a></td>
+<td>script module</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/13325">ansible/issues/13325</a></td>
+<td>LANG=C: Command not found on remote Korn (csh) eve</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/13963">ansible/issues/13963</a></td>
+<td>simple ssh can send this comand, but raw or script</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15312">ansible/issues/15312</a></td>
+<td>Ansible 2.1.0 Windows Script broken</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/15544">ansible/issues/15544</a></td>
+<td>script module fails: "command not found" in some s</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/158">ansible/issues/158</a></td>
+<td>Write ansible-pull script (or playbook) for config</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/3077">ansible/issues/3077</a></td>
+<td>make 'environment' feature work with the script mo</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/4052">ansible/issues/4052</a></td>
+<td>No 'changed' attribute on script module</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/4053">ansible/issues/4053</a></td>
+<td>script module (script.py) should add a changed: Tr</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/4256">ansible/issues/4256</a></td>
+<td>traceback from script module with old style var (w</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/6135">ansible/issues/6135</a></td>
+<td>Script module is missing destination path option</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/6485">ansible/issues/6485</a></td>
+<td>script module feature</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/7352">ansible/issues/7352</a></td>
+<td>script module fails if shell on destination host i</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/issues/7486">ansible/issues/7486</a></td>
+<td>script module drops stdout if it contains any non-</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/10014">ansible/pull/10014</a></td>
+<td>ansible now captures returncode errors on inventor</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/10369">ansible/pull/10369</a></td>
+<td>allow executable (+x) non-script inventory files.</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/13766">ansible/pull/13766</a></td>
+<td>Allow InventoryScript JSON with childgroups only</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/13993">ansible/pull/13993</a></td>
+<td>Avoid recursively checking JSON inventory for Unic</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/15046">ansible/pull/15046</a></td>
+<td>removes python requirement to script</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/15168">ansible/pull/15168</a></td>
+<td>Script exists fix</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/15223">ansible/pull/15223</a></td>
+<td>Stable 2.0</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/1535">ansible/pull/1535</a></td>
+<td>Fix for an exception when for whatever reason the </td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/15456">ansible/pull/15456</a></td>
+<td>Stable 2.0</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/16085">ansible/pull/16085</a></td>
+<td>raw and script should not use default executable</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/1687">ansible/pull/1687</a></td>
+<td>Allow inventory scripts to define groups of groups</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/1773">ansible/pull/1773</a></td>
+<td>fix and clarify 'script' docs</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/1799">ansible/pull/1799</a></td>
+<td>Make script module use raw module so it does not r</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/1844">ansible/pull/1844</a></td>
+<td>Revert the import of C in script</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/2433">ansible/pull/2433</a></td>
+<td>Support inventory scripts that are not in PATH.</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/2581">ansible/pull/2581</a></td>
+<td>Find inventory scripts that are not in PATH.</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/2582">ansible/pull/2582</a></td>
+<td>Fix for inventory scripts with no path prefix that</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/2871">ansible/pull/2871</a></td>
+<td>Fixed bug where a host entry in the inventory repr</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3017">ansible/pull/3017</a></td>
+<td>Add roles support for the script module</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3100">ansible/pull/3100</a></td>
+<td>Support for all:vars in script inventories</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3127">ansible/pull/3127</a></td>
+<td>bug fix for #3077, environment settings for script</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3528">ansible/pull/3528</a></td>
+<td>now ANSIBLE_KEEP_REMOTE_FILE acts as boolean</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3885">ansible/pull/3885</a></td>
+<td>Fixed tiny bug with _meta handling in external inv</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/3993">ansible/pull/3993</a></td>
+<td>Avoid duplicates of the 'all' group when using inv</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/4195">ansible/pull/4195</a></td>
+<td>Adding support for yaml inventory scripts</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/4269">ansible/pull/4269</a></td>
+<td>In the script action: Get around a Python bug.</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/4591">ansible/pull/4591</a></td>
+<td>now correctly changes script permission in all cas</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/4986">ansible/pull/4986</a></td>
+<td>Add creates= and removes= to the script: action</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/6149">ansible/pull/6149</a></td>
+<td>Issues 4986</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/7813">ansible/pull/7813</a></td>
+<td>host-pattern as dynamic inventory script argument</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/8710">ansible/pull/8710</a></td>
+<td>inventory: extra type validations in combining dic</td>
+</tr>
+<tr>
+<td>script</td>
+<td><a href="https://github.com/ansible/ansible/pull/8936">ansible/pull/8936</a></td>
+<td>Allow InventoryScript JSON with childgroups only</td>
+</tr>
+<tr>
 <td>subversion</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/299">ansible-modules-core/issues/299</a></td>
 <td>svn export issue</td>
@@ -75799,306 +76124,6 @@
 <td>subversion</td>
 <td><a href="https://github.com/ansible/ansible/pull/988">ansible/pull/988</a></td>
 <td>Subversion dest should allow ~ expansion</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1776">ansible-modules-core/issues/1776</a></td>
-<td>script module no longer works on Windows</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2276">ansible-modules-core/issues/2276</a></td>
-<td>Script module writing straight to stderr and it's </td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3610">ansible-modules-core/issues/3610</a></td>
-<td>stderr of script module is always empty string</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4242">ansible-modules-core/issues/4242</a></td>
-<td>Script module, Powershell 4.0, Wusa.exe,  Error 21</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4884">ansible-modules-core/issues/4884</a></td>
-<td>script module: more interpreter than sh</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/864">ansible-modules-core/issues/864</a></td>
-<td>script module crashes with "Exception while splitt</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/944">ansible-modules-core/issues/944</a></td>
-<td>Script module failing to execute powershell script</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/4000">ansible-modules-core/pull/4000</a></td>
-<td>Add a note about using the script module with pseu</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/311">ansible-modules-extras/issues/311</a></td>
-<td>Ansible script module does not work on windows gue</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/10107">ansible/issues/10107</a></td>
-<td>"script" module uses remote shell</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/10841">ansible/issues/10841</a></td>
-<td>script module stdout missing if it would contain b</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/10947">ansible/issues/10947</a></td>
-<td>Ansible script module does not send boolean argume</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/11902">ansible/issues/11902</a></td>
-<td>script module no longer honors sudo/sudo_user/beco</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/12874">ansible/issues/12874</a></td>
-<td>Script module (fake module btw, whats up with that</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/1294">ansible/issues/1294</a></td>
-<td>script module</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/13325">ansible/issues/13325</a></td>
-<td>LANG=C: Command not found on remote Korn (csh) eve</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/13963">ansible/issues/13963</a></td>
-<td>simple ssh can send this comand, but raw or script</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15312">ansible/issues/15312</a></td>
-<td>Ansible 2.1.0 Windows Script broken</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/15544">ansible/issues/15544</a></td>
-<td>script module fails: "command not found" in some s</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/158">ansible/issues/158</a></td>
-<td>Write ansible-pull script (or playbook) for config</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/3077">ansible/issues/3077</a></td>
-<td>make 'environment' feature work with the script mo</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/4052">ansible/issues/4052</a></td>
-<td>No 'changed' attribute on script module</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/4053">ansible/issues/4053</a></td>
-<td>script module (script.py) should add a changed: Tr</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/4256">ansible/issues/4256</a></td>
-<td>traceback from script module with old style var (w</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/6135">ansible/issues/6135</a></td>
-<td>Script module is missing destination path option</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/6485">ansible/issues/6485</a></td>
-<td>script module feature</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/7352">ansible/issues/7352</a></td>
-<td>script module fails if shell on destination host i</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/issues/7486">ansible/issues/7486</a></td>
-<td>script module drops stdout if it contains any non-</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/10014">ansible/pull/10014</a></td>
-<td>ansible now captures returncode errors on inventor</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/10369">ansible/pull/10369</a></td>
-<td>allow executable (+x) non-script inventory files.</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/13766">ansible/pull/13766</a></td>
-<td>Allow InventoryScript JSON with childgroups only</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/13993">ansible/pull/13993</a></td>
-<td>Avoid recursively checking JSON inventory for Unic</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/15046">ansible/pull/15046</a></td>
-<td>removes python requirement to script</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/15168">ansible/pull/15168</a></td>
-<td>Script exists fix</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/15223">ansible/pull/15223</a></td>
-<td>Stable 2.0</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/1535">ansible/pull/1535</a></td>
-<td>Fix for an exception when for whatever reason the </td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/15456">ansible/pull/15456</a></td>
-<td>Stable 2.0</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/16085">ansible/pull/16085</a></td>
-<td>raw and script should not use default executable</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/1687">ansible/pull/1687</a></td>
-<td>Allow inventory scripts to define groups of groups</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/1773">ansible/pull/1773</a></td>
-<td>fix and clarify 'script' docs</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/1799">ansible/pull/1799</a></td>
-<td>Make script module use raw module so it does not r</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/1844">ansible/pull/1844</a></td>
-<td>Revert the import of C in script</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/2433">ansible/pull/2433</a></td>
-<td>Support inventory scripts that are not in PATH.</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/2581">ansible/pull/2581</a></td>
-<td>Find inventory scripts that are not in PATH.</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/2582">ansible/pull/2582</a></td>
-<td>Fix for inventory scripts with no path prefix that</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/2871">ansible/pull/2871</a></td>
-<td>Fixed bug where a host entry in the inventory repr</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3017">ansible/pull/3017</a></td>
-<td>Add roles support for the script module</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3100">ansible/pull/3100</a></td>
-<td>Support for all:vars in script inventories</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3127">ansible/pull/3127</a></td>
-<td>bug fix for #3077, environment settings for script</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3528">ansible/pull/3528</a></td>
-<td>now ANSIBLE_KEEP_REMOTE_FILE acts as boolean</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3885">ansible/pull/3885</a></td>
-<td>Fixed tiny bug with _meta handling in external inv</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/3993">ansible/pull/3993</a></td>
-<td>Avoid duplicates of the 'all' group when using inv</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/4195">ansible/pull/4195</a></td>
-<td>Adding support for yaml inventory scripts</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/4269">ansible/pull/4269</a></td>
-<td>In the script action: Get around a Python bug.</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/4591">ansible/pull/4591</a></td>
-<td>now correctly changes script permission in all cas</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/4986">ansible/pull/4986</a></td>
-<td>Add creates= and removes= to the script: action</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/6149">ansible/pull/6149</a></td>
-<td>Issues 4986</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/7813">ansible/pull/7813</a></td>
-<td>host-pattern as dynamic inventory script argument</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/8710">ansible/pull/8710</a></td>
-<td>inventory: extra type validations in combining dic</td>
-</tr>
-<tr>
-<td>script</td>
-<td><a href="https://github.com/ansible/ansible/pull/8936">ansible/pull/8936</a></td>
-<td>Allow InventoryScript JSON with childgroups only</td>
 </tr>
 <tr>
 <td>postgresql_user</td>
@@ -76951,6 +76976,281 @@
 <td>python2.4 compatibility issue with urlparse</td>
 </tr>
 <tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/1076">ansible-modules-core/issues/1076</a></td>
+<td>local_action wait_for takes 5 minutes to run</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/2051">ansible-modules-core/issues/2051</a></td>
+<td>wait_for with port & search_regex can run forever</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3185">ansible-modules-core/issues/3185</a></td>
+<td>exclude_hosts are not working for wait_for/drained</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3742">ansible-modules-core/issues/3742</a></td>
+<td>wait_for: AttributeError: long object has no attri</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/3790">ansible-modules-core/issues/3790</a></td>
+<td>wait_for always timeouts in v2.1</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/400">ansible-modules-core/issues/400</a></td>
+<td>wait_for: path or port not mandatory / hint acting</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4241">ansible-modules-core/issues/4241</a></td>
+<td>wait_for fails on apt / aptitude lock-file in /var</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/issues/4658">ansible-modules-core/issues/4658</a></td>
+<td>wait_for applies delay to each item in with_items</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1082">ansible-modules-core/pull/1082</a></td>
+<td>Ensure one of port or path is passed to wait_for.</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1098">ansible-modules-core/pull/1098</a></td>
+<td>added docs to show wait_for default timeout settin</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1301">ansible-modules-core/pull/1301</a></td>
+<td>exclude_hosts does not work as expected with state</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1422">ansible-modules-core/pull/1422</a></td>
+<td>sleep when only doing a time delay to avoid cpu ch</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/1822">ansible-modules-core/pull/1822</a></td>
+<td>wait_for: Fix false positives with state=drained</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2046">ansible-modules-core/pull/2046</a></td>
+<td>Fix wait_for's exclude_hosts when state=drained on</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/222">ansible-modules-core/pull/222</a></td>
+<td>fields in /proc/net/tcp* are not always delimited </td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2373">ansible-modules-core/pull/2373</a></td>
+<td>Use select in wait_for so that we don't get stuck </td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2401">ansible-modules-core/pull/2401</a></td>
+<td>total_seconds not present on timedelta on python2.</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/2938">ansible-modules-core/pull/2938</a></td>
+<td>added ability to control sleep between attempts</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/303">ansible-modules-core/pull/303</a></td>
+<td>minor fixes to wait_for to avoid tracebacks</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3186">ansible-modules-core/pull/3186</a></td>
+<td>Fix for exclude_hosts in wait_for connection drain</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3655">ansible-modules-core/pull/3655</a></td>
+<td>Do not use a tuple as argument for _create_connect</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3722">ansible-modules-core/pull/3722</a></td>
+<td>Fix wait_for py3</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3973">ansible-modules-core/pull/3973</a></td>
+<td>Fix wait_for on python < 2.6 (#3790)</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/587">ansible-modules-core/pull/587</a></td>
+<td>The utility 'wait_for' doesn't work with ipv6only </td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/591">ansible-modules-core/pull/591</a></td>
+<td>Fix 'wait_for' doesn't work with ipv6only host</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/72">ansible-modules-core/pull/72</a></td>
+<td>Added support for deploying virtual machine from a</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/784">ansible-modules-core/pull/784</a></td>
+<td>added missing docs on connection_timeout for wait_</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/836">ansible-modules-core/pull/836</a></td>
+<td>wait_for: updated docs, resolvable hostname, vagra</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/840">ansible-modules-core/pull/840</a></td>
+<td>fix #9983, wait_for: fail with error if port and p</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/12305">ansible/issues/12305</a></td>
+<td>wait_for with port & search_regex can run forever</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/12851">ansible/issues/12851</a></td>
+<td>[v2] local_action sudo=no is not enforced, failing</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/14237">ansible/issues/14237</a></td>
+<td>[2.0] wait_for fails with timeout</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/14675">ansible/issues/14675</a></td>
+<td>wait_for: Python exception socket.error thrown wit</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/16593">ansible/issues/16593</a></td>
+<td>wait_for fails on apt-get / aptitude lock-file in </td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/17419">ansible/issues/17419</a></td>
+<td>wait_for documenation needs updating for ansible2.</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/4000">ansible/issues/4000</a></td>
+<td>wait_for does not work with host aliases</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/5044">ansible/issues/5044</a></td>
+<td>Syntax error from wait_for module (Python 2.4 on m</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/8527">ansible/issues/8527</a></td>
+<td>wait_for ignores timeout when using file=present i</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/8776">ansible/issues/8776</a></td>
+<td>wait_for ignores ansible_ssh_host if set in invent</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/9244">ansible/issues/9244</a></td>
+<td>wait_for with exclude_hosts fails to parse the opt</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/issues/9983">ansible/issues/9983</a></td>
+<td>wait_for hangs with default options</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/1062">ansible/pull/1062</a></td>
+<td>Fix on older python versions, plus various improve</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/3368">ansible/pull/3368</a></td>
+<td>Improvements to wait_for module</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/4888">ansible/pull/4888</a></td>
+<td>Adding more wait conditions to the wait_for module</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/5045">ansible/pull/5045</a></td>
+<td>Remove Python 2.4-incompatible 'with' statement</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/5258">ansible/pull/5258</a></td>
+<td>Adding absent condition for to the wait_for module</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/5784">ansible/pull/5784</a></td>
+<td>Update wait_for documentation - remove extra quote</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/6608">ansible/pull/6608</a></td>
+<td>Support waiting for the existence of non-regular f</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/6938">ansible/pull/6938</a></td>
+<td>wait_for module: Allow search_regex to be used wit</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/6983">ansible/pull/6983</a></td>
+<td>Update wait_for module to handle directories as pa</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/7260">ansible/pull/7260</a></td>
+<td>Extend wait_for module to support draining of acti</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/7374">ansible/pull/7374</a></td>
+<td>Allow wait_for to wait on non-traditional files</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/8550">ansible/pull/8550</a></td>
+<td>wait_for module: check e.errno instead of os.errno</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/934">ansible/pull/934</a></td>
+<td>Add the wait_for module.</td>
+</tr>
+<tr>
+<td>wait_for</td>
+<td><a href="https://github.com/ansible/ansible/pull/937">ansible/pull/937</a></td>
+<td>Add a state parameter to the wait_for module.</td>
+</tr>
+<tr>
 <td>zypper</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/issues/130">ansible-modules-extras/issues/130</a></td>
 <td>Zypper should be able to install "pattern"</td>
@@ -77224,276 +77524,6 @@
 <td>zypper</td>
 <td><a href="https://github.com/ansible/ansible/pull/8880">ansible/pull/8880</a></td>
 <td>fix typo in zypper module (requiered -> required)</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/1076">ansible-modules-core/issues/1076</a></td>
-<td>local_action wait_for takes 5 minutes to run</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/2051">ansible-modules-core/issues/2051</a></td>
-<td>wait_for with port & search_regex can run forever</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3185">ansible-modules-core/issues/3185</a></td>
-<td>exclude_hosts are not working for wait_for/drained</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3742">ansible-modules-core/issues/3742</a></td>
-<td>wait_for: AttributeError: long object has no attri</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/3790">ansible-modules-core/issues/3790</a></td>
-<td>wait_for always timeouts in v2.1</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/400">ansible-modules-core/issues/400</a></td>
-<td>wait_for: path or port not mandatory / hint acting</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4241">ansible-modules-core/issues/4241</a></td>
-<td>wait_for fails on apt / aptitude lock-file in /var</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/issues/4658">ansible-modules-core/issues/4658</a></td>
-<td>wait_for applies delay to each item in with_items</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1082">ansible-modules-core/pull/1082</a></td>
-<td>Ensure one of port or path is passed to wait_for.</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1098">ansible-modules-core/pull/1098</a></td>
-<td>added docs to show wait_for default timeout settin</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1301">ansible-modules-core/pull/1301</a></td>
-<td>exclude_hosts does not work as expected with state</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1422">ansible-modules-core/pull/1422</a></td>
-<td>sleep when only doing a time delay to avoid cpu ch</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/1822">ansible-modules-core/pull/1822</a></td>
-<td>wait_for: Fix false positives with state=drained</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2046">ansible-modules-core/pull/2046</a></td>
-<td>Fix wait_for's exclude_hosts when state=drained on</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/222">ansible-modules-core/pull/222</a></td>
-<td>fields in /proc/net/tcp* are not always delimited </td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2373">ansible-modules-core/pull/2373</a></td>
-<td>Use select in wait_for so that we don't get stuck </td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/2401">ansible-modules-core/pull/2401</a></td>
-<td>total_seconds not present on timedelta on python2.</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/303">ansible-modules-core/pull/303</a></td>
-<td>minor fixes to wait_for to avoid tracebacks</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3186">ansible-modules-core/pull/3186</a></td>
-<td>Fix for exclude_hosts in wait_for connection drain</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3655">ansible-modules-core/pull/3655</a></td>
-<td>Do not use a tuple as argument for _create_connect</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3722">ansible-modules-core/pull/3722</a></td>
-<td>Fix wait_for py3</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3973">ansible-modules-core/pull/3973</a></td>
-<td>Fix wait_for on python < 2.6 (#3790)</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/587">ansible-modules-core/pull/587</a></td>
-<td>The utility 'wait_for' doesn't work with ipv6only </td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/591">ansible-modules-core/pull/591</a></td>
-<td>Fix 'wait_for' doesn't work with ipv6only host</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/72">ansible-modules-core/pull/72</a></td>
-<td>Added support for deploying virtual machine from a</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/784">ansible-modules-core/pull/784</a></td>
-<td>added missing docs on connection_timeout for wait_</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/836">ansible-modules-core/pull/836</a></td>
-<td>wait_for: updated docs, resolvable hostname, vagra</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/840">ansible-modules-core/pull/840</a></td>
-<td>fix #9983, wait_for: fail with error if port and p</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/12305">ansible/issues/12305</a></td>
-<td>wait_for with port & search_regex can run forever</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/12851">ansible/issues/12851</a></td>
-<td>[v2] local_action sudo=no is not enforced, failing</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/14237">ansible/issues/14237</a></td>
-<td>[2.0] wait_for fails with timeout</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/14675">ansible/issues/14675</a></td>
-<td>wait_for: Python exception socket.error thrown wit</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/16593">ansible/issues/16593</a></td>
-<td>wait_for fails on apt-get / aptitude lock-file in </td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/17419">ansible/issues/17419</a></td>
-<td>wait_for documenation needs updating for ansible2.</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/4000">ansible/issues/4000</a></td>
-<td>wait_for does not work with host aliases</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/5044">ansible/issues/5044</a></td>
-<td>Syntax error from wait_for module (Python 2.4 on m</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/8527">ansible/issues/8527</a></td>
-<td>wait_for ignores timeout when using file=present i</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/8776">ansible/issues/8776</a></td>
-<td>wait_for ignores ansible_ssh_host if set in invent</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/9244">ansible/issues/9244</a></td>
-<td>wait_for with exclude_hosts fails to parse the opt</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/issues/9983">ansible/issues/9983</a></td>
-<td>wait_for hangs with default options</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/1062">ansible/pull/1062</a></td>
-<td>Fix on older python versions, plus various improve</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/3368">ansible/pull/3368</a></td>
-<td>Improvements to wait_for module</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/4888">ansible/pull/4888</a></td>
-<td>Adding more wait conditions to the wait_for module</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/5045">ansible/pull/5045</a></td>
-<td>Remove Python 2.4-incompatible 'with' statement</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/5258">ansible/pull/5258</a></td>
-<td>Adding absent condition for to the wait_for module</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/5784">ansible/pull/5784</a></td>
-<td>Update wait_for documentation - remove extra quote</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/6608">ansible/pull/6608</a></td>
-<td>Support waiting for the existence of non-regular f</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/6938">ansible/pull/6938</a></td>
-<td>wait_for module: Allow search_regex to be used wit</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/6983">ansible/pull/6983</a></td>
-<td>Update wait_for module to handle directories as pa</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/7260">ansible/pull/7260</a></td>
-<td>Extend wait_for module to support draining of acti</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/7374">ansible/pull/7374</a></td>
-<td>Allow wait_for to wait on non-traditional files</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/8550">ansible/pull/8550</a></td>
-<td>wait_for module: check e.errno instead of os.errno</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/934">ansible/pull/934</a></td>
-<td>Add the wait_for module.</td>
-</tr>
-<tr>
-<td>wait_for</td>
-<td><a href="https://github.com/ansible/ansible/pull/937">ansible/pull/937</a></td>
-<td>Add a state parameter to the wait_for module.</td>
 </tr>
 <tr>
 <td>replace</td>
@@ -104971,6 +105001,46 @@
 <td>Bulk update of choices=BOOLEANS to type='bool'</td>
 </tr>
 <tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3494">ansible-modules-core/pull/3494</a></td>
+<td>Adding docker_login</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3708">ansible-modules-core/pull/3708</a></td>
+<td>added logout to docker_login</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/3844">ansible-modules-core/pull/3844</a></td>
+<td>Fixing Docker compile time errors irt exception ha</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1947">ansible-modules-extras/issues/1947</a></td>
+<td>docker_login username regex</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1826">ansible-modules-extras/pull/1826</a></td>
+<td>Add docker_api_version param to docker_login modul</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2070">ansible-modules-extras/pull/2070</a></td>
+<td>Move docker_login to ansible-modules-core</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/444">ansible-modules-extras/pull/444</a></td>
+<td>Add docker_login module</td>
+</tr>
+<tr>
+<td>docker_login</td>
+<td><a href="https://github.com/ansible/ansible/issues/13865">ansible/issues/13865</a></td>
+<td>docker-py error again (RHEL/CentOS)</td>
+</tr>
+<tr>
 <td>rax_scaling_policy</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/pull/4278">ansible-modules-core/pull/4278</a></td>
 <td>Enable Windows tests on Shippable.</td>
@@ -106419,41 +106489,6 @@
 <td>archive</td>
 <td><a href="https://github.com/ansible/ansible/issues/2097">ansible/issues/2097</a></td>
 <td>Module Request: Extract and Archive</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3494">ansible-modules-core/pull/3494</a></td>
-<td>Adding docker_login</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-core/pull/3844">ansible-modules-core/pull/3844</a></td>
-<td>Fixing Docker compile time errors irt exception ha</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/issues/1947">ansible-modules-extras/issues/1947</a></td>
-<td>docker_login username regex</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/1826">ansible-modules-extras/pull/1826</a></td>
-<td>Add docker_api_version param to docker_login modul</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/2070">ansible-modules-extras/pull/2070</a></td>
-<td>Move docker_login to ansible-modules-core</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible-modules-extras/pull/444">ansible-modules-extras/pull/444</a></td>
-<td>Add docker_login module</td>
-</tr>
-<tr>
-<td>docker_login</td>
-<td><a href="https://github.com/ansible/ansible/issues/13865">ansible/issues/13865</a></td>
-<td>docker-py error again (RHEL/CentOS)</td>
 </tr>
 <tr>
 <td>etcd</td>
