@@ -242,11 +242,6 @@
 </tr>
 <tr>
 <td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/11100">ansible/issues/11100</a></td>
-<td>`copy` for localhost seems to call `template` and </td>
-</tr>
-<tr>
-<td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/11108">ansible/issues/11108</a></td>
 <td>Add distribution information for Novell Open Enter</td>
 </tr>
@@ -314,11 +309,6 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/11268">ansible/issues/11268</a></td>
 <td>Dynamic Inventory instructions need update</td>
-</tr>
-<tr>
-<td>N/A</td>
-<td><a href="https://github.com/ansible/ansible/issues/11273">ansible/issues/11273</a></td>
-<td>to_json does not escape newlines in dict when anot</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -3779,6 +3769,11 @@
 <td>N/A</td>
 <td><a href="https://github.com/ansible/ansible/issues/18261">ansible/issues/18261</a></td>
 <td>Tower install with Ubuntu 14 will not work with EO</td>
+</tr>
+<tr>
+<td>N/A</td>
+<td><a href="https://github.com/ansible/ansible/issues/18287">ansible/issues/18287</a></td>
+<td>Anisble does not allow handling of "host unreachab</td>
 </tr>
 <tr>
 <td>N/A</td>
@@ -7726,6 +7721,126 @@
 <td>Tentative fix for #2555</td>
 </tr>
 <tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
+<td>ansible_distribution_release is NA for Debian 6.0.</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
+<td>gathering facts caused setup to fail by using ssh-</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
+<td>Add a ansible_fw_manager fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
+<td>add AIX mounts information</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/10476">ansible/pull/10476</a></td>
+<td>Darwin uptime_seconds fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/11290">ansible/pull/11290</a></td>
+<td>Refactored AIXNetwork.get_interfaces_info</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/12073">ansible/pull/12073</a></td>
+<td>Add new size computation on mountpoint (used space</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
+<td>ansible_firewalld fact</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
+<td>Potential fix for setup ansible_selinux var incorr</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
+<td>Add posix groups to the list of returned facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
+<td>Extend OpenStack related hypervisor detection</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
+<td>Fix sizes reported for devices with phys. bs != 51</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
+<td>Streamline Arch Linux detection following systemd </td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
+<td>Fix OS version check for RHEL 4 to prevent executi</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
+<td>Add storage device WWN to facts for Linux</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
+<td>Add pvs output to hardware facts</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
+<td>Add RHEV host detection support</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/17586">ansible/pull/17586</a></td>
+<td>Add possibility to limit the list of examined netw</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18114">ansible/pull/18114</a></td>
+<td>Add a bit more information for network facts on BS</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18268">ansible/pull/18268</a></td>
+<td>Detect vmm virtualization for OpenBSD, both host a</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18277">ansible/pull/18277</a></td>
+<td>On OpenBSD, swap the values for distribution_versi</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18278">ansible/pull/18278</a></td>
+<td>Rework how OpenBSD processor facts are resolved</td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/18288">ansible/pull/18288</a></td>
+<td>aix network facts: Separate out the uname call to </td>
+</tr>
+<tr>
+<td>facts</td>
+<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
+<td>Added HDD serial numbers.</td>
+</tr>
+<tr>
 <td>lineinfile</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/1152">ansible-modules-core/issues/1152</a></td>
 <td>[Bug Report] lineinfile unquotes value twice</td>
@@ -7954,121 +8069,6 @@
 <td>unarchive</td>
 <td><a href="https://github.com/ansible/ansible/issues/16130">ansible/issues/16130</a></td>
 <td>Add an "include" parameter to unarchive</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/10445">ansible/issues/10445</a></td>
-<td>ansible_distribution_release is NA for Debian 6.0.</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/issues/17029">ansible/issues/17029</a></td>
-<td>gathering facts caused setup to fail by using ssh-</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10097">ansible/pull/10097</a></td>
-<td>Add a ansible_fw_manager fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10431">ansible/pull/10431</a></td>
-<td>add AIX mounts information</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/10476">ansible/pull/10476</a></td>
-<td>Darwin uptime_seconds fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/11290">ansible/pull/11290</a></td>
-<td>Refactored AIXNetwork.get_interfaces_info</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/12073">ansible/pull/12073</a></td>
-<td>Add new size computation on mountpoint (used space</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/12288">ansible/pull/12288</a></td>
-<td>ansible_firewalld fact</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13306">ansible/pull/13306</a></td>
-<td>Potential fix for setup ansible_selinux var incorr</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/13853">ansible/pull/13853</a></td>
-<td>Add posix groups to the list of returned facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15166">ansible/pull/15166</a></td>
-<td>Extend OpenStack related hypervisor detection</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15521">ansible/pull/15521</a></td>
-<td>Fix sizes reported for devices with phys. bs != 51</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15675">ansible/pull/15675</a></td>
-<td>Streamline Arch Linux detection following systemd </td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/15896">ansible/pull/15896</a></td>
-<td>Fix OS version check for RHEL 4 to prevent executi</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16640">ansible/pull/16640</a></td>
-<td>Add storage device WWN to facts for Linux</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/16773">ansible/pull/16773</a></td>
-<td>Add pvs output to hardware facts</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17177">ansible/pull/17177</a></td>
-<td>Add RHEV host detection support</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/17586">ansible/pull/17586</a></td>
-<td>Add possibility to limit the list of examined netw</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18114">ansible/pull/18114</a></td>
-<td>Add a bit more information for network facts on BS</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18268">ansible/pull/18268</a></td>
-<td>Detect vmm virtualization for OpenBSD, both host a</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18277">ansible/pull/18277</a></td>
-<td>On OpenBSD, swap the values for distribution_versi</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/18278">ansible/pull/18278</a></td>
-<td>Rework how OpenBSD processor facts are resolved</td>
-</tr>
-<tr>
-<td>facts</td>
-<td><a href="https://github.com/ansible/ansible/pull/9454">ansible/pull/9454</a></td>
-<td>Added HDD serial numbers.</td>
 </tr>
 <tr>
 <td>docker_container</td>
@@ -13081,6 +13081,31 @@
 <td>Adds custom_data parameter to azure virtual machin</td>
 </tr>
 <tr>
+<td>galaxy</td>
+<td><a href="https://github.com/ansible/ansible/pull/16283">ansible/pull/16283</a></td>
+<td>[WIP] use classmethod constructors for GalaxyRole</td>
+</tr>
+<tr>
+<td>galaxy</td>
+<td><a href="https://github.com/ansible/ansible/pull/17079">ansible/pull/17079</a></td>
+<td>[WIP] Add role templating support</td>
+</tr>
+<tr>
+<td>galaxy</td>
+<td><a href="https://github.com/ansible/ansible/pull/18033">ansible/pull/18033</a></td>
+<td>[WIP] Galaxy list should not exit on invalid roles</td>
+</tr>
+<tr>
+<td>galaxy</td>
+<td><a href="https://github.com/ansible/ansible/pull/18109">ansible/pull/18109</a></td>
+<td>Galaxy init no rest</td>
+</tr>
+<tr>
+<td>galaxy</td>
+<td><a href="https://github.com/ansible/ansible/pull/18286">ansible/pull/18286</a></td>
+<td>Fix role dependency syntax in galaxy.rst</td>
+</tr>
+<tr>
 <td>ios_command</td>
 <td><a href="https://github.com/ansible/ansible-modules-core/issues/3831">ansible-modules-core/issues/3831</a></td>
 <td>list supported devices for ios and nxos</td>
@@ -13649,26 +13674,6 @@
 <td>consul_io</td>
 <td><a href="https://github.com/ansible/ansible/pull/14640">ansible/pull/14640</a></td>
 <td>Update consul_io.py to support HTTPS endpoints</td>
-</tr>
-<tr>
-<td>galaxy</td>
-<td><a href="https://github.com/ansible/ansible/pull/16283">ansible/pull/16283</a></td>
-<td>[WIP] use classmethod constructors for GalaxyRole</td>
-</tr>
-<tr>
-<td>galaxy</td>
-<td><a href="https://github.com/ansible/ansible/pull/17079">ansible/pull/17079</a></td>
-<td>[WIP] Add role templating support</td>
-</tr>
-<tr>
-<td>galaxy</td>
-<td><a href="https://github.com/ansible/ansible/pull/18033">ansible/pull/18033</a></td>
-<td>[WIP] Galaxy list should not exit on invalid roles</td>
-</tr>
-<tr>
-<td>galaxy</td>
-<td><a href="https://github.com/ansible/ansible/pull/18109">ansible/pull/18109</a></td>
-<td>Galaxy init no rest</td>
 </tr>
 <tr>
 <td>ipaddr</td>
@@ -15116,6 +15121,16 @@
 <td>Modules with module_utils imports at the top</td>
 </tr>
 <tr>
+<td>timezone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/issues/3335">ansible-modules-extras/issues/3335</a></td>
+<td>Timezone: global name tzfile is not defined</td>
+</tr>
+<tr>
+<td>timezone</td>
+<td><a href="https://github.com/ansible/ansible-modules-extras/pull/3336">ansible-modules-extras/pull/3336</a></td>
+<td>have a timezone file before using</td>
+</tr>
+<tr>
 <td>ec2_vpc_subnet</td>
 <td><a href="https://github.com/ansible/ansible-modules-extras/pull/1666">ansible-modules-extras/pull/1666</a></td>
 <td>amazon/ec2_vpc_subnet.py: Add `auto_assign_public_</td>
@@ -16544,6 +16559,11 @@
 <td>guestfs</td>
 <td><a href="https://github.com/ansible/ansible/pull/13612">ansible/pull/13612</a></td>
 <td>Add a guestfs connexion plugin</td>
+</tr>
+<tr>
+<td>apache2_module</td>
+<td><a href="https://github.com/ansible/ansible-modules-core/pull/5454">ansible-modules-core/pull/5454</a></td>
+<td>Fix bug #5328 apache module loading</td>
 </tr>
 <tr>
 <td>ec2_taskdefinition</td>
